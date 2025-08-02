@@ -68,6 +68,20 @@ WidgetMetadata = {
             { title: "8.0分以上", value: "8.0" }
           ]
         },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity",
+          enumOptions: [
+            { title: "热度排序", value: "popularity" },
+            { title: "评分排序", value: "rating" },
+            { title: "最新发布", value: "release_date" },
+            { title: "投票数", value: "vote_count" },
+            { title: "原始顺序", value: "original" }
+          ]
+        },
         { name: "page", title: "页码", type: "page" },
         { name: "language", title: "语言", type: "language", value: "zh-CN" }
       ]
@@ -677,10 +691,10 @@ function getGenreTitle(genreIds, mediaType) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", page = 1, language = "zh-CN" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
   
   try {
-    const cacheKey = `trending_${content_type}_${media_type}_${page}`;
+    const cacheKey = `trending_${content_type}_${media_type}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -725,6 +739,26 @@ async function loadTmdbTrending(params = {}) {
     if (vote_average_gte !== "0") {
       const minRating = parseFloat(vote_average_gte);
       results = results.filter(item => item.rating >= minRating);
+    }
+
+    // 应用排序
+    if (sort_by !== "original") {
+      results.sort((a, b) => {
+        switch (sort_by) {
+          case "popularity":
+            return (b.popularity || 0) - (a.popularity || 0);
+          case "rating":
+            return (b.rating || 0) - (a.rating || 0);
+          case "release_date":
+            const dateA = new Date(a.releaseDate || "1900-01-01");
+            const dateB = new Date(b.releaseDate || "1900-01-01");
+            return dateB - dateA;
+          case "vote_count":
+            return (b.voteCount || 0) - (a.voteCount || 0);
+          default:
+            return 0;
+        }
+      });
     }
 
     // 限制返回数量
