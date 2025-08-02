@@ -10,6 +10,8 @@ import schedule
 import time
 from datetime import datetime
 from pathlib import Path
+from typing import List, Dict
+from tqdm import tqdm
 
 # 添加当前目录到Python路径
 sys.path.append(str(Path(__file__).parent))
@@ -18,7 +20,7 @@ from tmdb_client import TMDBClient
 from image_downloader import ImageDownloader
 from data_manager import DataManager
 from git_manager import GitManager
-from config import MAX_IMAGES_PER_BATCH, UPDATE_SCHEDULE
+from config import MAX_IMAGES_PER_BATCH, UPDATE_SCHEDULE, WIDGET_DATA_FORMAT, REQUEST_DELAY
 
 
 class MovieBackgroundCrawler:
@@ -139,16 +141,158 @@ class MovieBackgroundCrawler:
         except Exception as e:
             print(f"❌ Git自动提交出错: {e}")
     
+    def _process_movie_downloads(self, movies_list: List[Dict]) -> List[Dict]:
+        """处理电影下载，包括图片和标题海报生成"""
+        processed_movies = []
+        
+        with tqdm(total=len(movies_list), desc="下载电影资源") as pbar:
+            for movie in movies_list:
+                try:
+                    # 下载海报
+                    poster_result = self.image_downloader.download_movie_poster(movie)
+                    if poster_result:
+                        movie.update(poster_result)
+                    
+                    # 下载背景图
+                    backdrop_result = self.image_downloader.download_movie_backdrop(movie)
+                    if backdrop_result:
+                        movie.update(backdrop_result)
+                        
+                        # 生成标题海报（有片名的背景图）
+                        if WIDGET_DATA_FORMAT.get("include_title_posters", False):
+                            title_poster_path = self.image_downloader.create_title_poster(
+                                movie, backdrop_result.get('backdrop_local_path')
+                            )
+                            if title_poster_path:
+                                movie['title_poster_path'] = title_poster_path
+                                movie['title_poster_url'] = f"file://{title_poster_path}"
+                    
+                    processed_movies.append(movie)
+                    
+                except Exception as e:
+                    # self.logger.error(f"处理电影失败 {movie.get('title', 'Unknown')}: {e}") # Original code had this line commented out
+                    print(f"处理电影失败 {movie.get('title', 'Unknown')}: {e}") # Changed to print for consistency with original
+                finally:
+                    pbar.update(1)
+                    time.sleep(REQUEST_DELAY)
+        
+        return processed_movies
+
+    def _save_and_export_data(self, movies_list: List[Dict]) -> bool:
+        """保存数据并导出小组件格式"""
+        try:
+            # 保存原始数据
+            if not self.data_manager.save_movies_data(movies_list):
+                # self.logger.error("保存电影数据失败") # Original code had this line commented out
+                print("保存电影数据失败") # Changed to print for consistency with original
+                return False
+            
+            # 导出小组件兼容格式
+            if not self.data_manager.export_widget_data(movies_list):
+                # self.logger.warning("导出小组件数据失败，但继续执行") # Original code had this line commented out
+                print("导出小组件数据失败，但继续执行") # Changed to print for consistency with original
+            
+            return True
+            
+        except Exception as e:
+            # self.logger.error(f"保存和导出数据失败: {e}") # Original code had this line commented out
+            print(f"保存和导出数据失败: {e}") # Changed to print for consistency with original
+            return False
+
     def run_once(self, categories=['popular', 'top_rated'], pages=3):
         """运行一次爬取任务"""
         print(f"🎯 执行单次爬取任务")
-        return self.crawl_and_download(
-            categories=categories,
-            pages_per_category=pages,
-            download_backdrops=True,
-            download_posters=False,
-            auto_commit=True
-        )
+        try:
+            self.logger.info("开始爬取TMDB电影背景图...")
+            
+            # 获取电影列表
+            all_movies = []
+            
+            # 获取今日热门
+            trending_movies = self.tmdb_client.get_trending_movies()
+            if trending_movies:
+                for movie in trending_movies:
+                    movie['source'] = 'trending_today'
+                all_movies.extend(trending_movies)
+                self.logger.info(f"获取今日热门电影: {len(trending_movies)} 部")
+            
+            # 获取热门电影
+            popular_movies = self.tmdb_client.get_popular_movies()
+            if popular_movies:
+                for movie in popular_movies:
+                    movie['source'] = 'popular'
+                all_movies.extend(popular_movies[:10])  # 限制数量
+                self.logger.info(f"获取热门电影: {len(popular_movies[:10])} 部")
+            
+            # 获取高分电影
+            top_rated_movies = self.tmdb_client.get_top_rated_movies()
+            if top_rated_movies:
+                for movie in top_rated_movies:
+                    movie['source'] = 'top_rated'
+                all_movies.extend(top_rated_movies[:10])  # 限制数量
+                self.logger.info(f"获取高分电影: {len(top_rated_movies[:10])} 部")
+            
+            if not all_movies:
+                self.logger.error("未获取到任何电影数据")
+                return False
+            
+            # 去重处理
+            seen_ids = set()
+            unique_movies = []
+            for movie in all_movies:
+                movie_id = movie.get('id')
+                if movie_id and movie_id not in seen_ids:
+                    seen_ids.add(movie_id)
+                    unique_movies.append(movie)
+            
+            self.logger.info(f"去重后总计: {len(unique_movies)} 部电影")
+            
+            # 处理下载和生成标题海报
+            processed_movies = self._process_movie_downloads(unique_movies)
+            
+            # 保存数据并导出小组件格式
+            if not self._save_and_export_data(processed_movies):
+                return False
+            
+            # 更新Git仓库
+            commit_message = f"Update movie data and backgrounds: {len(processed_movies)} movies"
+            if self.git_manager.auto_sync(commit_message):
+                self.logger.info("Git更新成功")
+            else:
+                self.logger.warning("Git更新失败")
+            
+            # 显示统计信息
+            self._print_statistics(processed_movies)
+            
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"爬取过程中发生错误: {e}")
+            return False
+    
+    def _print_statistics(self, movies_list: List[Dict]):
+        """打印统计信息"""
+        total_movies = len(movies_list)
+        movies_with_backdrops = len([m for m in movies_list if m.get('backdrop_local_path')])
+        movies_with_posters = len([m for m in movies_list if m.get('poster_local_path')])
+        movies_with_title_posters = len([m for m in movies_list if m.get('title_poster_path')])
+        
+        print(f"\n📊 本次爬取统计:")
+        print(f"   总电影数: {total_movies}")
+        print(f"   背景图: {movies_with_backdrops}/{total_movies}")
+        print(f"   海报图: {movies_with_posters}/{total_movies}")
+        if WIDGET_DATA_FORMAT.get("include_title_posters", False):
+            print(f"   标题海报: {movies_with_title_posters}/{total_movies}")
+        
+        # 按来源统计
+        sources = {}
+        for movie in movies_list:
+            source = movie.get('source', 'unknown')
+            sources[source] = sources.get(source, 0) + 1
+        
+        print(f"\n📈 数据来源分布:")
+        for source, count in sources.items():
+            print(f"   {source}: {count} 部")
     
     def run_scheduler(self, categories=['popular', 'top_rated'], pages=3):
         """运行定时调度器"""
@@ -231,12 +375,47 @@ class MovieBackgroundCrawler:
         else:
             print("❌ 数据导出失败")
 
+    def export_widget_data(self) -> bool:
+        """单独导出小组件数据"""
+        try:
+            self.logger.info("开始导出小组件数据...")
+            
+            # 加载已有的电影数据
+            movies_data = self.data_manager.load_movies_data()
+            
+            if not movies_data:
+                self.logger.error("没有找到电影数据，请先运行爬取")
+                return False
+            
+            # 导出小组件格式
+            if self.data_manager.export_widget_data(movies_data):
+                self.logger.info("小组件数据导出成功")
+                
+                # 提交到Git
+                commit_message = "Export widget data format"
+                if self.git_manager.auto_sync(commit_message):
+                    self.logger.info("Git更新成功")
+                else:
+                    self.logger.warning("Git更新失败")
+                
+                return True
+            else:
+                self.logger.error("小组件数据导出失败")
+                return False
+                
+        except Exception as e:
+            self.logger.error(f"导出小组件数据过程中发生错误: {e}")
+            return False
+
 
 def main():
     """主函数"""
     parser = argparse.ArgumentParser(description='TMDB电影背景图爬虫')
-    parser.add_argument('command', choices=['run', 'schedule', 'status', 'cleanup', 'export'],
-                       help='执行的命令')
+    parser.add_argument(
+        "command",
+        choices=["run_once", "run_scheduler", "show_status", "cleanup", "export_data", "export_widget"],
+        help="执行的命令"
+    )
     parser.add_argument('--categories', nargs='+', 
                        default=['popular', 'top_rated'],
                        choices=['popular', 'top_rated', 'now_playing', 'upcoming'],
@@ -254,22 +433,26 @@ def main():
     crawler = MovieBackgroundCrawler()
     
     # 执行命令
-    if args.command == 'run':
+    if args.command == 'run_once':
         print("🎬 执行单次爬取...")
         crawler.run_once(categories=args.categories, pages=args.pages)
         
-    elif args.command == 'schedule':
+    elif args.command == 'run_scheduler':
         print("⏰ 启动定时调度...")
         crawler.run_scheduler(categories=args.categories, pages=args.pages)
         
-    elif args.command == 'status':
+    elif args.command == 'show_status':
         crawler.show_status()
         
     elif args.command == 'cleanup':
         crawler.cleanup(days=args.days)
         
-    elif args.command == 'export':
+    elif args.command == 'export_data':
         crawler.export_data(output_file=args.output)
+
+    elif args.command == "export_widget":
+        success = crawler.export_widget_data()
+        sys.exit(0 if success else 1)
 
 
 if __name__ == '__main__':

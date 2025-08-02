@@ -296,3 +296,170 @@ class DataManager:
         except Exception as e:
             print(f"创建索引失败: {e}")
             return False
+    
+    def export_widget_data(self, movies_data: List[Dict]) -> bool:
+        """导出JavaScript小组件兼容的数据格式"""
+        try:
+            from config import WIDGET_DATA_FORMAT, WIDGET_ITEM_MAPPING
+            
+            # 按类型分组数据
+            trending_data = []
+            popular_data = []
+            top_rated_data = []
+            
+            for movie in movies_data:
+                widget_item = self._convert_to_widget_format(movie)
+                
+                # 根据来源分类
+                source = movie.get('source', 'trending')
+                if 'popular' in source.lower():
+                    popular_data.append(widget_item)
+                elif 'top' in source.lower() or 'rated' in source.lower():
+                    top_rated_data.append(widget_item)
+                else:
+                    trending_data.append(widget_item)
+            
+            # 限制每个分类的数量
+            max_items = WIDGET_DATA_FORMAT.get("max_items_per_category", 20)
+            trending_data = trending_data[:max_items]
+            popular_data = popular_data[:max_items]
+            top_rated_data = top_rated_data[:max_items]
+            
+            # 生成小组件数据结构
+            widget_export = {
+                "lastUpdated": datetime.now().isoformat(),
+                "version": "2.0.0",
+                "dataSource": "TMDB",
+                "totalItems": len(trending_data),
+                "categories": {
+                    "trending": {
+                        "title": "今日热门",
+                        "count": len(trending_data),
+                        "items": trending_data
+                    }
+                },
+                "metadata": {
+                    "generatedBy": "TMDB Movie Background Crawler",
+                    "apiVersion": "3",
+                    "includeTitlePosters": WIDGET_DATA_FORMAT.get("include_title_posters", False),
+                    "formats": ["JSON"]
+                }
+            }
+            
+            # 如果有足够的数据，添加其他分类
+            if popular_data:
+                widget_export["categories"]["popular"] = {
+                    "title": "热门电影",
+                    "count": len(popular_data),
+                    "items": popular_data
+                }
+            
+            if top_rated_data:
+                widget_export["categories"]["top_rated"] = {
+                    "title": "高分内容",
+                    "count": len(top_rated_data),
+                    "items": top_rated_data
+                }
+            
+            # 导出主要的trending数据（兼容现有小组件）
+            trending_filename = WIDGET_DATA_FORMAT.get("trending_filename", "TMDB_Trending.json")
+            trending_file_path = self.data_dir / trending_filename
+            
+            with open(trending_file_path, 'w', encoding='utf-8') as f:
+                json.dump(widget_export, f, ensure_ascii=False, indent=2)
+            
+            # 导出其他分类数据（可选）
+            if popular_data:
+                popular_filename = WIDGET_DATA_FORMAT.get("popular_filename", "TMDB_Popular.json")
+                popular_file_path = self.data_dir / popular_filename
+                
+                popular_export = {
+                    **widget_export,
+                    "totalItems": len(popular_data),
+                    "categories": {
+                        "popular": widget_export["categories"]["popular"]
+                    }
+                }
+                
+                with open(popular_file_path, 'w', encoding='utf-8') as f:
+                    json.dump(popular_export, f, ensure_ascii=False, indent=2)
+            
+            if top_rated_data:
+                top_rated_filename = WIDGET_DATA_FORMAT.get("top_rated_filename", "TMDB_TopRated.json")
+                top_rated_file_path = self.data_dir / top_rated_filename
+                
+                top_rated_export = {
+                    **widget_export,
+                    "totalItems": len(top_rated_data),
+                    "categories": {
+                        "top_rated": widget_export["categories"]["top_rated"]
+                    }
+                }
+                
+                with open(top_rated_file_path, 'w', encoding='utf-8') as f:
+                    json.dump(top_rated_export, f, ensure_ascii=False, indent=2)
+            
+            print(f"✅ 小组件数据已导出:")
+            print(f"   - {trending_file_path} ({len(trending_data)} 项)")
+            if popular_data:
+                print(f"   - {popular_file_path} ({len(popular_data)} 项)")
+            if top_rated_data:
+                print(f"   - {top_rated_file_path} ({len(top_rated_data)} 项)")
+            
+            return True
+            
+        except Exception as e:
+            print(f"❌ 导出小组件数据失败: {e}")
+            return False
+    
+    def _convert_to_widget_format(self, movie: Dict) -> Dict:
+        """将电影数据转换为小组件兼容格式"""
+        from config import WIDGET_ITEM_MAPPING
+        
+        # 基本字段映射
+        widget_item = {
+            "id": str(movie.get("id", "")),
+            "type": "tmdb",
+            "title": movie.get("title") or movie.get("name", "未知标题"),
+            "genreTitle": self._format_genres(movie.get("genres", [])),
+            "rating": round(movie.get("vote_average", 0), 1),
+            "description": movie.get("overview", "")[:200] + ("..." if len(movie.get("overview", "")) > 200 else ""),
+            "releaseDate": movie.get("release_date") or movie.get("first_air_date", ""),
+            "posterPath": movie.get("poster_url", ""),
+            "coverUrl": movie.get("poster_url", ""),
+            "backdropPath": movie.get("backdrop_url", ""),
+            "mediaType": movie.get("media_type", "movie"),
+            "popularity": round(movie.get("popularity", 0), 1),
+            "voteCount": movie.get("vote_count", 0)
+        }
+        
+        # 添加标题海报路径（如果存在）
+        if movie.get("title_poster_path"):
+            widget_item["titlePosterPath"] = movie["title_poster_path"]
+        
+        # 添加可选字段
+        widget_item.update({
+            "link": None,
+            "duration": 0,
+            "durationText": "",
+            "episode": 0,
+            "childItems": []
+        })
+        
+        return widget_item
+    
+    def _format_genres(self, genres: List) -> str:
+        """格式化类型信息"""
+        if not genres:
+            return ""
+        
+        # 如果genres是字符串列表
+        if isinstance(genres, list) and genres:
+            if isinstance(genres[0], str):
+                return "•".join(genres[:2])
+            # 如果是字典列表（TMDB格式）
+            elif isinstance(genres[0], dict):
+                genre_names = [g.get("name", "") for g in genres[:2] if g.get("name")]
+                return "•".join(genre_names)
+        
+        return ""
