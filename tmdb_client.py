@@ -1,354 +1,408 @@
 """
-Enhanced TMDB API client with optimization features.
-Integrates advanced caching, concurrency control, network resilience, and content filtering.
+TMDB API客户端
+Enhanced with optimization features from fw2.js patterns
 """
 
 import requests
 import time
-import json
-from typing import List, Dict, Optional, Any
-from config import (
-    TMDB_API_KEY, TMDB_BASE_URL, TMDB_IMAGE_BASE_URL,
-    REQUEST_TIMEOUT, REQUEST_DELAY
-)
+import logging
+from typing import Dict, List, Optional, Any
+from config import TMDB_API_KEY, TMDB_BASE_URL, TMDB_IMAGE_BASE_URL, NETWORK_CONFIG
+from optimized_cache import cached, get_cache
+from network_resilience import smart_request, api_rate_limiter
+from content_filter import filter_content
+from concurrency_control import get_pool, TaskPriority, concurrent_map
 
-# Import optimization modules
-try:
-    from advanced_cache import cache_manager
-    from enhanced_network import global_session, global_image_optimizer, CDNRegion
-    from concurrency_manager import network_concurrency_manager, TaskPriority
-    from content_filter import default_content_filter, chinese_optimizer
-    OPTIMIZATIONS_AVAILABLE = True
-except ImportError as e:
-    print(f"Optimization modules not available: {e}")
-    OPTIMIZATIONS_AVAILABLE = False
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 
 class TMDBClient:
-    """Enhanced TMDB API client with advanced optimization features"""
+    """
+    TMDB API客户端
+    Enhanced with advanced optimization features:
+    - Intelligent caching with TTL
+    - Network resilience and retry logic
+    - Content filtering
+    - Concurrency control
+    - Rate limiting
+    - Performance monitoring
+    """
     
-    def __init__(self, enable_optimizations: bool = True):
-        """
-        Initialize enhanced TMDB client
-        
-        Args:
-            enable_optimizations: Whether to enable optimization features
-        """
+    def __init__(self):
         if not TMDB_API_KEY:
-            raise ValueError("TMDB_API_KEY is required. Please set it in .env file")
+            raise ValueError("TMDB_API_KEY environment variable is required")
         
         self.api_key = TMDB_API_KEY
         self.base_url = TMDB_BASE_URL
         self.image_base_url = TMDB_IMAGE_BASE_URL
-        self.enable_optimizations = enable_optimizations and OPTIMIZATIONS_AVAILABLE
         
-        # Use enhanced session if optimizations enabled
-        if self.enable_optimizations:
-            self.session = global_session
-            self.cache = cache_manager
-            self.concurrency_manager = network_concurrency_manager
-            self.content_filter = default_content_filter
-            self.chinese_optimizer = chinese_optimizer
-            self.image_optimizer = global_image_optimizer
-            print("✓ TMDB client initialized with optimizations enabled")
-        else:
-            self.session = requests.Session()
-            self.session.headers.update({
-                'Authorization': f'Bearer {self.api_key}',
-                'Content-Type': 'application/json'
-            })
-            self.cache = None
-            print("TMDB client initialized with basic functionality")
+        # Performance tracking
+        self.request_stats = {
+            'total_requests': 0,
+            'cache_hits': 0,
+            'cache_misses': 0,
+            'failed_requests': 0,
+            'average_response_time': 0.0
+        }
+        
+        logger.info("TMDB Client initialized with advanced optimizations")
     
-    def _get_cache_key(self, endpoint: str, params: Dict = None) -> str:
-        """Generate cache key for request."""
-        param_str = ""
-        if params:
-            # Sort params for consistent cache keys
-            sorted_params = sorted(params.items())
-            param_str = "&".join([f"{k}={v}" for k, v in sorted_params])
-        return f"tmdb:{endpoint}:{param_str}"
-    
-    def _make_request(self, endpoint: str, params: Dict = None, cache_type: str = 'movies') -> Dict:
+    def _make_request(self, endpoint: str, params: Dict[str, Any] = None) -> Dict[str, Any]:
         """
-        Enhanced API request with caching and optimization
-        
-        Args:
-            endpoint: API endpoint
-            params: Request parameters
-            cache_type: Type of cache to use
-            
-        Returns:
-            API response data
+        Make an optimized API request with caching, rate limiting, and retry logic
         """
-        # Check cache first if optimizations enabled
-        if self.enable_optimizations and self.cache:
-            cache_key = self._get_cache_key(endpoint, params)
-            cached_data = self.cache.get_cache(cache_type).get(cache_key)
-            if cached_data:
-                return cached_data
+        if params is None:
+            params = {}
         
-        url = f"{self.base_url}/{endpoint}"
+        # Add API key to params
+        params['api_key'] = self.api_key
         
+        # Apply rate limiting
+        api_rate_limiter.acquire()
+        
+        # Construct URL
+        url = f"{self.base_url}{endpoint}"
+        
+        start_time = time.time()
         try:
-            if self.enable_optimizations:
-                # Use enhanced session
-                response = self.session.get(url, params=params)
-                data = response.json()
-            else:
-                # Use basic session
-                response = self.session.get(
-                    url, 
-                    params=params,
-                    timeout=REQUEST_TIMEOUT
-                )
-                response.raise_for_status()
-                time.sleep(REQUEST_DELAY)  # Basic rate limiting
-                data = response.json()
+            # Make request with smart retry and failover
+            response = smart_request('GET', url, params=params)
+            response_time = time.time() - start_time
             
-            # Cache the response if optimizations enabled
-            if self.enable_optimizations and self.cache and data:
-                cache_key = self._get_cache_key(endpoint, params)
-                # Different TTL for different cache types
-                ttl_map = {
-                    'trending': 1800,  # 30 minutes
-                    'movies': 3600,    # 1 hour
-                    'tv_shows': 3600,  # 1 hour
-                    'genres': 86400,   # 24 hours
-                    'search': 900      # 15 minutes
-                }
-                ttl = ttl_map.get(cache_type, 3600)
-                self.cache.get_cache(cache_type).set(cache_key, data, ttl)
+            # Update stats
+            self.request_stats['total_requests'] += 1
+            self._update_response_time(response_time)
             
+            # Smart delay based on response time
+            api_rate_limiter.smart_delay(response_time, error_occurred=False)
+            
+            return response.json()
+            
+        except Exception as e:
+            response_time = time.time() - start_time
+            self.request_stats['failed_requests'] += 1
+            
+            # Apply penalty delay for errors
+            api_rate_limiter.smart_delay(response_time, error_occurred=True)
+            
+            logger.error(f"API request failed: {e}")
+            raise
+    
+    def _update_response_time(self, response_time: float):
+        """Update average response time statistics"""
+        total_requests = self.request_stats['total_requests']
+        current_avg = self.request_stats['average_response_time']
+        
+        # Calculate running average
+        if total_requests == 1:
+            self.request_stats['average_response_time'] = response_time
+        else:
+            self.request_stats['average_response_time'] = (
+                (current_avg * (total_requests - 1) + response_time) / total_requests
+            )
+    
+    @cached('trending', ttl=3600)  # Cache trending data for 1 hour
+    def get_trending(self, time_window: str = 'day', page: int = 1) -> List[Dict[str, Any]]:
+        """
+        获取热门内容 (电影和电视剧)
+        Enhanced with intelligent caching and content filtering
+        """
+        try:
+            endpoint = f"/trending/all/{time_window}"
+            params = {'page': page}
+            
+            data = self._make_request(endpoint, params)
+            results = data.get('results', [])
+            
+            # Apply content filtering
+            filtered_results = filter_content(results)
+            
+            logger.info(f"Retrieved {len(filtered_results)} filtered trending items")
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Failed to get trending content: {e}")
+            return []
+    
+    @cached('api', ttl=1800)  # Cache for 30 minutes
+    def get_popular_movies(self, page: int = 1) -> List[Dict[str, Any]]:
+        """
+        获取热门电影
+        Enhanced with caching and filtering
+        """
+        try:
+            endpoint = "/movie/popular"
+            params = {'page': page}
+            
+            data = self._make_request(endpoint, params)
+            results = data.get('results', [])
+            
+            # Add media_type for consistency
+            for item in results:
+                item['media_type'] = 'movie'
+            
+            # Apply content filtering
+            filtered_results = filter_content(results)
+            
+            logger.info(f"Retrieved {len(filtered_results)} filtered popular movies")
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Failed to get popular movies: {e}")
+            return []
+    
+    @cached('api', ttl=1800)
+    def get_top_rated_movies(self, page: int = 1) -> List[Dict[str, Any]]:
+        """
+        获取高评分电影
+        Enhanced with caching and filtering
+        """
+        try:
+            endpoint = "/movie/top_rated"
+            params = {'page': page}
+            
+            data = self._make_request(endpoint, params)
+            results = data.get('results', [])
+            
+            # Add media_type for consistency
+            for item in results:
+                item['media_type'] = 'movie'
+            
+            # Apply content filtering
+            filtered_results = filter_content(results)
+            
+            logger.info(f"Retrieved {len(filtered_results)} filtered top-rated movies")
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Failed to get top-rated movies: {e}")
+            return []
+    
+    @cached('api', ttl=1800)
+    def get_now_playing_movies(self, page: int = 1) -> List[Dict[str, Any]]:
+        """
+        获取正在上映的电影
+        Enhanced with caching and filtering
+        """
+        try:
+            endpoint = "/movie/now_playing"
+            params = {'page': page}
+            
+            data = self._make_request(endpoint, params)
+            results = data.get('results', [])
+            
+            # Add media_type for consistency
+            for item in results:
+                item['media_type'] = 'movie'
+            
+            # Apply content filtering
+            filtered_results = filter_content(results)
+            
+            logger.info(f"Retrieved {len(filtered_results)} filtered now-playing movies")
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Failed to get now-playing movies: {e}")
+            return []
+    
+    @cached('api', ttl=1800)
+    def get_upcoming_movies(self, page: int = 1) -> List[Dict[str, Any]]:
+        """
+        获取即将上映的电影
+        Enhanced with caching and filtering
+        """
+        try:
+            endpoint = "/movie/upcoming"
+            params = {'page': page}
+            
+            data = self._make_request(endpoint, params)
+            results = data.get('results', [])
+            
+            # Add media_type for consistency
+            for item in results:
+                item['media_type'] = 'movie'
+            
+            # Apply content filtering
+            filtered_results = filter_content(results)
+            
+            logger.info(f"Retrieved {len(filtered_results)} filtered upcoming movies")
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Failed to get upcoming movies: {e}")
+            return []
+    
+    @cached('api', ttl=3600)  # Cache movie details for 1 hour
+    def get_movie_details(self, movie_id: int) -> Optional[Dict[str, Any]]:
+        """
+        获取电影详细信息
+        Enhanced with caching
+        """
+        try:
+            endpoint = f"/movie/{movie_id}"
+            params = {'append_to_response': 'images,videos,credits'}
+            
+            data = self._make_request(endpoint, params)
+            data['media_type'] = 'movie'  # Add for consistency
+            
+            logger.debug(f"Retrieved movie details for ID: {movie_id}")
             return data
             
-        except requests.exceptions.RequestException as e:
-            print(f"API请求失败: {e}")
-            return {}
+        except Exception as e:
+            logger.error(f"Failed to get movie details for ID {movie_id}: {e}")
+            return None
     
-    def get_popular_movies(self, page: int = 1, apply_filters: bool = True) -> List[Dict]:
-        """获取热门电影列表 (Enhanced with filtering)"""
-        params = {'page': page}
-        data = self._make_request('movie/popular', params, 'movies')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_top_rated_movies(self, page: int = 1, apply_filters: bool = True) -> List[Dict]:
-        """获取高分电影列表 (Enhanced with filtering)"""
-        params = {'page': page}
-        data = self._make_request('movie/top_rated', params, 'movies')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_now_playing_movies(self, page: int = 1, apply_filters: bool = True) -> List[Dict]:
-        """获取正在上映的电影列表 (Enhanced with filtering)"""
-        params = {'page': page}
-        data = self._make_request('movie/now_playing', params, 'movies')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_upcoming_movies(self, page: int = 1, apply_filters: bool = True) -> List[Dict]:
-        """获取即将上映的电影列表 (Enhanced with filtering)"""
-        params = {'page': page}
-        data = self._make_request('movie/upcoming', params, 'movies')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_trending_movies(self, time_window: str = 'day', apply_filters: bool = True) -> List[Dict]:
-        """获取热门趋势电影 (Enhanced with filtering)"""
-        data = self._make_request(f'trending/movie/{time_window}', cache_type='trending')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_trending_tv(self, time_window: str = 'day', apply_filters: bool = True) -> List[Dict]:
-        """获取热门趋势电视剧 (Enhanced with filtering)"""
-        data = self._make_request(f'trending/tv/{time_window}', cache_type='trending')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_movie_details(self, movie_id: int) -> Dict:
-        """获取电影详情"""
-        data = self._make_request(f'movie/{movie_id}', cache_type='details')
-        
-        # Enhance with Chinese metadata if optimizations enabled
-        if self.enable_optimizations:
-            data = self.chinese_optimizer.enhance_chinese_metadata(data)
-        
-        return data
-    
-    def get_tv_details(self, tv_id: int) -> Dict:
-        """获取电视剧详情"""
-        data = self._make_request(f'tv/{tv_id}', cache_type='details')
-        
-        # Enhance with Chinese metadata if optimizations enabled
-        if self.enable_optimizations:
-            data = self.chinese_optimizer.enhance_chinese_metadata(data)
-        
-        return data
-    
-    def get_movie_images(self, movie_id: int) -> Dict:
-        """获取电影图片"""
-        return self._make_request(f'movie/{movie_id}/images', cache_type='images')
-    
-    def get_tv_images(self, tv_id: int) -> Dict:
-        """获取电视剧图片"""
-        return self._make_request(f'tv/{tv_id}/images', cache_type='images')
-    
-    def search_movies(self, query: str, page: int = 1, apply_filters: bool = True) -> List[Dict]:
-        """搜索电影 (Enhanced with filtering)"""
-        params = {'query': query, 'page': page}
-        data = self._make_request('search/movie', params, 'search')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def search_tv(self, query: str, page: int = 1, apply_filters: bool = True) -> List[Dict]:
-        """搜索电视剧 (Enhanced with filtering)"""
-        params = {'query': query, 'page': page}
-        data = self._make_request('search/tv', params, 'search')
-        results = data.get('results', [])
-        
-        # Apply content filtering if optimizations enabled
-        if self.enable_optimizations and apply_filters:
-            results = self.content_filter.filter_items(results)
-            results = self.chinese_optimizer.prioritize_chinese_content(results)
-        
-        return results
-    
-    def get_full_image_url(self, file_path: str, size: str = 'original') -> str:
-        """获取完整的图片URL (Enhanced with CDN optimization)"""
-        if not file_path:
-            return ""
-        
-        # Use optimized image URL if optimizations enabled
-        if self.enable_optimizations:
-            # Determine image type from path
-            if 'poster' in file_path or file_path.startswith('/'):
-                image_type = 'poster' if 'poster' in file_path else 'backdrop'
-                return self.image_optimizer.get_optimized_image_url(
-                    file_path, image_type, size, CDNRegion.GLOBAL
-                ) or f"{self.image_base_url}{size}{file_path}"
-        
-        # Fallback to basic URL
-        return f"{self.image_base_url}{size}{file_path}"
-    
-    def get_movies_with_backdrops(self, limit: int = 50, apply_filters: bool = True) -> List[Dict]:
-        """获取有背景图的电影列表 (Enhanced method)"""
-        all_movies = []
-        page = 1
-        
-        # Collect movies from multiple sources
-        sources = [
-            ('popular', self.get_popular_movies),
-            ('top_rated', self.get_top_rated_movies),
-            ('trending', lambda p=page: self.get_trending_movies('day'))
-        ]
-        
-        # Use concurrent processing if optimizations enabled
-        if self.enable_optimizations:
-            # Create tasks for parallel execution
-            tasks = []
-            for source_name, source_func in sources:
-                tasks.append(lambda p=page: source_func(p, apply_filters))
+    @cached('images', ttl=7200)  # Cache image data for 2 hours
+    def get_movie_images(self, movie_id: int) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        获取电影图片
+        Enhanced with specialized image caching
+        """
+        try:
+            endpoint = f"/movie/{movie_id}/images"
             
-            # Execute tasks concurrently
-            results = self.concurrency_manager.execute_tasks(
-                tasks=tasks,
-                priorities=[TaskPriority.HIGH] * len(tasks)
+            data = self._make_request(endpoint)
+            
+            logger.debug(f"Retrieved images for movie ID: {movie_id}")
+            return data
+            
+        except Exception as e:
+            logger.error(f"Failed to get movie images for ID {movie_id}: {e}")
+            return {'backdrops': [], 'posters': []}
+    
+    @cached('api', ttl=1800)
+    def search_movies(self, query: str, page: int = 1) -> List[Dict[str, Any]]:
+        """
+        搜索电影
+        Enhanced with caching and filtering
+        """
+        try:
+            endpoint = "/search/movie"
+            params = {'query': query, 'page': page}
+            
+            data = self._make_request(endpoint, params)
+            results = data.get('results', [])
+            
+            # Add media_type for consistency
+            for item in results:
+                item['media_type'] = 'movie'
+            
+            # Apply content filtering
+            filtered_results = filter_content(results)
+            
+            logger.info(f"Search '{query}' returned {len(filtered_results)} filtered results")
+            return filtered_results
+            
+        except Exception as e:
+            logger.error(f"Failed to search movies for query '{query}': {e}")
+            return []
+    
+    def get_movies_with_backdrops(self, category: str = 'popular', limit: int = 50) -> List[Dict[str, Any]]:
+        """
+        获取有背景图的电影列表 (并发优化版本)
+        Enhanced with concurrency control and smart filtering
+        """
+        try:
+            # Get movies based on category
+            if category == 'trending':
+                movies = self.get_trending()
+            elif category == 'top_rated':
+                movies = self.get_top_rated_movies()
+            elif category == 'now_playing':
+                movies = self.get_now_playing_movies()
+            else:
+                movies = self.get_popular_movies()
+            
+            # Filter movies that have backdrop images
+            movies_with_backdrops = [
+                movie for movie in movies[:limit*2]  # Get extra to account for filtering
+                if movie.get('backdrop_path')
+            ]
+            
+            # Use concurrent processing for getting detailed movie info
+            def get_movie_with_details(movie):
+                movie_details = self.get_movie_details(movie['id'])
+                if movie_details:
+                    # Merge basic info with details
+                    movie_details.update({
+                        'backdrop_path': movie.get('backdrop_path'),
+                        'poster_path': movie.get('poster_path'),
+                        'popularity': movie.get('popularity', 0),
+                        'vote_average': movie.get('vote_average', 0),
+                        'vote_count': movie.get('vote_count', 0)
+                    })
+                return movie_details
+            
+            # Process movies concurrently
+            detailed_movies = concurrent_map(
+                get_movie_with_details,
+                movies_with_backdrops[:limit],
+                max_workers=NETWORK_CONFIG['MAX_CONCURRENT_REQUESTS'],
+                priority=TaskPriority.HIGH
             )
             
-            # Collect successful results
-            for result in results:
-                if result.success and result.result:
-                    all_movies.extend(result.result)
-        else:
-            # Sequential processing for basic mode
-            for source_name, source_func in sources:
-                movies = source_func(page, apply_filters)
-                all_movies.extend(movies)
-        
-        # Filter movies with backdrop images
-        movies_with_backdrops = [
-            movie for movie in all_movies 
-            if movie.get('backdrop_path') and movie.get('vote_average', 0) > 0
-        ]
-        
-        # Remove duplicates based on ID
-        seen_ids = set()
-        unique_movies = []
-        for movie in movies_with_backdrops:
-            if movie.get('id') not in seen_ids:
-                seen_ids.add(movie.get('id'))
-                unique_movies.append(movie)
-        
-        # Sort by popularity and limit results
-        unique_movies.sort(key=lambda x: x.get('popularity', 0), reverse=True)
-        
-        return unique_movies[:limit]
+            # Filter out None results
+            valid_movies = [movie for movie in detailed_movies if movie is not None]
+            
+            logger.info(f"Retrieved {len(valid_movies)} movies with backdrops from '{category}' category")
+            return valid_movies
+            
+        except Exception as e:
+            logger.error(f"Failed to get movies with backdrops: {e}")
+            return []
     
-    def get_cache_stats(self) -> Dict[str, Any]:
-        """获取缓存统计信息 (Only available with optimizations)"""
-        if self.enable_optimizations and self.cache:
-            return self.cache.get_all_stats()
-        return {"message": "Cache statistics not available without optimizations"}
+    def get_full_image_url(self, image_path: str, size: str = 'original') -> str:
+        """
+        生成完整的图片URL
+        Enhanced with intelligent CDN selection
+        """
+        if not image_path:
+            return ""
+        
+        # Use network resilience module for optimal CDN selection
+        from network_resilience import get_optimized_image_url
+        return get_optimized_image_url(image_path, size)
     
-    def get_performance_metrics(self) -> Dict[str, Any]:
-        """获取性能指标 (Only available with optimizations)"""
-        if self.enable_optimizations:
+    def get_stats(self) -> Dict[str, Any]:
+        """
+        Get client performance statistics
+        """
+        cache_stats = {}
+        try:
+            from optimized_cache import global_caches
+            cache_stats = global_caches.get_all_stats()
+        except Exception:
+            pass
+        
+        return {
+            'request_stats': self.request_stats,
+            'cache_stats': cache_stats
+        }
+    
+    def health_check(self) -> Dict[str, Any]:
+        """
+        Perform health check on TMDB API
+        """
+        try:
+            start_time = time.time()
+            
+            # Simple API call to check connectivity
+            endpoint = "/configuration"
+            self._make_request(endpoint)
+            
+            response_time = time.time() - start_time
+            
             return {
-                "cache_stats": self.get_cache_stats(),
-                "concurrency_metrics": self.concurrency_manager.get_metrics(),
-                "cdn_performance": self.session.cdn_manager.performance_stats
+                'status': 'healthy',
+                'response_time': response_time,
+                'timestamp': time.time()
             }
-        return {"message": "Performance metrics not available without optimizations"}
-    
-    def clear_cache(self, cache_type: str = None) -> bool:
-        """清除缓存 (Only available with optimizations)"""
-        if self.enable_optimizations and self.cache:
-            if cache_type:
-                self.cache.get_cache(cache_type).clear()
-            else:
-                self.cache.clear_all()
-            return True
-        return False
+            
+        except Exception as e:
+            return {
+                'status': 'unhealthy',
+                'error': str(e),
+                'timestamp': time.time()
+            }

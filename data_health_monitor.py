@@ -1,815 +1,768 @@
 """
-Data health monitoring and automatic recovery system.
-Inspired by the data health check and recovery features from fw2.js.
+Data health monitoring and auto-recovery system inspired by fw2.js
+Provides data integrity checks, health monitoring, and automatic recovery mechanisms
 """
 
 import os
 import json
 import time
-import threading
-from typing import Dict, List, Optional, Any, Callable
-from dataclasses import dataclass, field
-from enum import Enum
-import logging
-from datetime import datetime, timedelta
+import shutil
 import hashlib
+from typing import Dict, List, Any, Optional, Tuple
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta
+import logging
+from config import DATA_HEALTH_CONFIG, DATA_DIR, IMAGES_DIR, LOGS_DIR, LOGGING_CONFIG
 
-
-class HealthStatus(Enum):
-    """Health status levels"""
-    HEALTHY = "healthy"
-    WARNING = "warning"
-    CRITICAL = "critical"
-    UNKNOWN = "unknown"
-
-
-class IssueType(Enum):
-    """Types of data issues"""
-    CORRUPTED_DATA = "corrupted_data"
-    MISSING_DATA = "missing_data"
-    STALE_DATA = "stale_data"
-    INCONSISTENT_DATA = "inconsistent_data"
-    PERFORMANCE_DEGRADATION = "performance_degradation"
-    CACHE_ISSUES = "cache_issues"
-    NETWORK_ISSUES = "network_issues"
-
-
-@dataclass
-class HealthIssue:
-    """Represents a health issue"""
-    issue_type: IssueType
-    severity: HealthStatus
-    description: str
-    timestamp: float = field(default_factory=time.time)
-    source: str = ""
-    metadata: Dict[str, Any] = field(default_factory=dict)
-    resolved: bool = False
-    resolution_time: Optional[float] = None
-    
-    def resolve(self):
-        """Mark issue as resolved"""
-        self.resolved = True
-        self.resolution_time = time.time()
-    
-    def age_seconds(self) -> float:
-        """Get age of issue in seconds"""
-        return time.time() - self.timestamp
+# Setup logging
+logging.basicConfig(
+    level=getattr(logging, LOGGING_CONFIG['LEVEL']),
+    format=LOGGING_CONFIG['FORMAT']
+)
+logger = logging.getLogger(__name__)
 
 
 @dataclass
 class HealthCheckResult:
-    """Result of a health check"""
-    component: str
-    status: HealthStatus
-    issues: List[HealthIssue] = field(default_factory=list)
-    metrics: Dict[str, Any] = field(default_factory=dict)
+    """Result of a health check operation"""
+    check_name: str
+    status: str  # 'healthy', 'warning', 'critical'
+    message: str
+    details: Dict[str, Any] = field(default_factory=dict)
     timestamp: float = field(default_factory=time.time)
-    check_duration: float = 0.0
+    recovery_actions: List[str] = field(default_factory=list)
+
+
+@dataclass
+class DataIntegrityReport:
+    """Report on data integrity status"""
+    total_files: int = 0
+    corrupted_files: int = 0
+    missing_files: int = 0
+    outdated_files: int = 0
+    total_size_mb: float = 0.0
+    last_backup_age_hours: float = 0.0
+    health_score: float = 100.0
+    recommendations: List[str] = field(default_factory=list)
 
 
 class DataHealthMonitor:
     """
-    Comprehensive data health monitoring system.
-    Similar to the health check features in fw2.js.
+    Data health monitoring and auto-recovery system inspired by fw2.js
+    Features:
+    - Data integrity verification
+    - Automatic corruption detection
+    - Health score calculation
+    - Auto-recovery mechanisms
+    - Backup management
+    - Performance monitoring
+    - Anomaly detection
     """
     
-    def __init__(self, data_dir: str = "data", logs_dir: str = "logs"):
-        """
-        Initialize the health monitor.
-        
-        Args:
-            data_dir: Directory containing data files
-            logs_dir: Directory for health logs
-        """
-        self.data_dir = data_dir
-        self.logs_dir = logs_dir
-        self.health_checks: Dict[str, Callable] = {}
-        self.recovery_actions: Dict[IssueType, Callable] = {}
-        self.health_history: List[HealthCheckResult] = []
-        self.active_issues: List[HealthIssue] = []
-        self.auto_recovery_enabled = True
-        self._lock = threading.RLock()
-        
-        self.logger = logging.getLogger(self.__class__.__name__)
+    def __init__(self):
+        self.data_dir = DATA_DIR
+        self.images_dir = IMAGES_DIR
+        self.logs_dir = LOGS_DIR
+        self.backup_dir = os.path.join(self.data_dir, 'backups')
         
         # Ensure directories exist
-        os.makedirs(data_dir, exist_ok=True)
-        os.makedirs(logs_dir, exist_ok=True)
+        for directory in [self.data_dir, self.images_dir, self.logs_dir, self.backup_dir]:
+            os.makedirs(directory, exist_ok=True)
         
-        # Register default health checks
-        self._register_default_checks()
-        self._register_default_recovery_actions()
-    
-    def _register_default_checks(self):
-        """Register default health check functions"""
-        self.register_health_check("data_files", self._check_data_files)
-        self.register_health_check("cache_system", self._check_cache_system)
-        self.register_health_check("network_connectivity", self._check_network_connectivity)
-        self.register_health_check("disk_space", self._check_disk_space)
-        self.register_health_check("data_freshness", self._check_data_freshness)
-        self.register_health_check("data_integrity", self._check_data_integrity)
-    
-    def _register_default_recovery_actions(self):
-        """Register default recovery actions"""
-        self.register_recovery_action(IssueType.CORRUPTED_DATA, self._recover_corrupted_data)
-        self.register_recovery_action(IssueType.MISSING_DATA, self._recover_missing_data)
-        self.register_recovery_action(IssueType.STALE_DATA, self._recover_stale_data)
-        self.register_recovery_action(IssueType.CACHE_ISSUES, self._recover_cache_issues)
-    
-    def register_health_check(self, component: str, check_func: Callable[[], HealthCheckResult]):
-        """Register a health check function"""
-        self.health_checks[component] = check_func
-    
-    def register_recovery_action(self, issue_type: IssueType, recovery_func: Callable[[HealthIssue], bool]):
-        """Register a recovery action for an issue type"""
-        self.recovery_actions[issue_type] = recovery_func
-    
-    def run_health_check(self, component: str = None) -> Dict[str, HealthCheckResult]:
-        """
-        Run health checks for specified component or all components.
-        
-        Args:
-            component: Specific component to check, or None for all
-            
-        Returns:
-            Dictionary mapping component names to health check results
-        """
-        results = {}
-        
-        if component:
-            # Check specific component
-            if component in self.health_checks:
-                start_time = time.time()
-                try:
-                    result = self.health_checks[component]()
-                    result.check_duration = time.time() - start_time
-                    results[component] = result
-                except Exception as e:
-                    self.logger.error(f"Health check failed for {component}: {e}")
-                    results[component] = HealthCheckResult(
-                        component=component,
-                        status=HealthStatus.CRITICAL,
-                        issues=[HealthIssue(
-                            issue_type=IssueType.PERFORMANCE_DEGRADATION,
-                            severity=HealthStatus.CRITICAL,
-                            description=f"Health check failed: {e}",
-                            source=component
-                        )],
-                        check_duration=time.time() - start_time
-                    )
-        else:
-            # Check all components
-            for comp_name, check_func in self.health_checks.items():
-                start_time = time.time()
-                try:
-                    result = check_func()
-                    result.check_duration = time.time() - start_time
-                    results[comp_name] = result
-                except Exception as e:
-                    self.logger.error(f"Health check failed for {comp_name}: {e}")
-                    results[comp_name] = HealthCheckResult(
-                        component=comp_name,
-                        status=HealthStatus.CRITICAL,
-                        issues=[HealthIssue(
-                            issue_type=IssueType.PERFORMANCE_DEGRADATION,
-                            severity=HealthStatus.CRITICAL,
-                            description=f"Health check failed: {e}",
-                            source=comp_name
-                        )],
-                        check_duration=time.time() - start_time
-                    )
-        
-        # Update health history and active issues
-        with self._lock:
-            for result in results.values():
-                self.health_history.append(result)
-                
-                # Add new issues to active issues
-                for issue in result.issues:
-                    if not issue.resolved:
-                        self.active_issues.append(issue)
-            
-            # Limit history size
-            if len(self.health_history) > 1000:
-                self.health_history = self.health_history[-1000:]
-        
-        # Attempt automatic recovery if enabled
-        if self.auto_recovery_enabled:
-            self._attempt_auto_recovery(results)
-        
-        return results
-    
-    def _attempt_auto_recovery(self, check_results: Dict[str, HealthCheckResult]):
-        """Attempt automatic recovery for detected issues"""
-        for result in check_results.values():
-            for issue in result.issues:
-                if issue.resolved or issue.severity == HealthStatus.HEALTHY:
-                    continue
-                
-                recovery_func = self.recovery_actions.get(issue.issue_type)
-                if recovery_func:
-                    try:
-                        self.logger.info(f"Attempting recovery for {issue.issue_type.value}: {issue.description}")
-                        success = recovery_func(issue)
-                        
-                        if success:
-                            issue.resolve()
-                            self.logger.info(f"Successfully recovered from {issue.issue_type.value}")
-                        else:
-                            self.logger.warning(f"Recovery failed for {issue.issue_type.value}")
-                            
-                    except Exception as e:
-                        self.logger.error(f"Recovery action failed for {issue.issue_type.value}: {e}")
-    
-    def _check_data_files(self) -> HealthCheckResult:
-        """Check integrity and presence of data files"""
-        issues = []
-        metrics = {}
-        
-        # Expected data files
-        expected_files = [
-            'movies_data.json',
-            'download_log.json',
-            'metadata.json'
-        ]
-        
-        existing_files = 0
-        total_size = 0
-        
-        for filename in expected_files:
-            filepath = os.path.join(self.data_dir, filename)
-            
-            if os.path.exists(filepath):
-                existing_files += 1
-                file_size = os.path.getsize(filepath)
-                total_size += file_size
-                
-                # Check if file is empty
-                if file_size == 0:
-                    issues.append(HealthIssue(
-                        issue_type=IssueType.CORRUPTED_DATA,
-                        severity=HealthStatus.WARNING,
-                        description=f"Data file {filename} is empty",
-                        source="data_files",
-                        metadata={"file": filename, "size": file_size}
-                    ))
-                
-                # Check if file is valid JSON
-                try:
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        json.load(f)
-                except json.JSONDecodeError as e:
-                    issues.append(HealthIssue(
-                        issue_type=IssueType.CORRUPTED_DATA,
-                        severity=HealthStatus.CRITICAL,
-                        description=f"Data file {filename} contains invalid JSON: {e}",
-                        source="data_files",
-                        metadata={"file": filename, "error": str(e)}
-                    ))
-                
-            else:
-                issues.append(HealthIssue(
-                    issue_type=IssueType.MISSING_DATA,
-                    severity=HealthStatus.WARNING,
-                    description=f"Expected data file {filename} is missing",
-                    source="data_files",
-                    metadata={"file": filename}
-                ))
-        
-        metrics = {
-            "existing_files": existing_files,
-            "expected_files": len(expected_files),
-            "total_size_mb": total_size / (1024 * 1024),
-            "file_coverage": existing_files / len(expected_files)
+        self.health_history = []
+        self.last_check_time = 0
+        self.recovery_stats = {
+            'total_recoveries': 0,
+            'successful_recoveries': 0,
+            'failed_recoveries': 0,
+            'last_recovery_time': 0
         }
         
-        # Determine overall status
-        if existing_files == len(expected_files) and not any(i.severity == HealthStatus.CRITICAL for i in issues):
-            status = HealthStatus.HEALTHY if not issues else HealthStatus.WARNING
-        elif existing_files > 0:
-            status = HealthStatus.WARNING
-        else:
-            status = HealthStatus.CRITICAL
-        
-        return HealthCheckResult(
-            component="data_files",
-            status=status,
-            issues=issues,
-            metrics=metrics
-        )
+        logger.info("Data health monitor initialized")
     
-    def _check_cache_system(self) -> HealthCheckResult:
-        """Check cache system health"""
-        issues = []
-        metrics = {}
+    def perform_health_check(self, full_check: bool = False) -> List[HealthCheckResult]:
+        """
+        Perform comprehensive health check of data and system
+        """
+        current_time = time.time()
         
-        try:
-            # Try to import cache system
-            from advanced_cache import cache_manager
-            
-            # Get cache statistics
-            cache_stats = cache_manager.get_all_stats()
-            
-            # Calculate metrics
-            total_items = sum(stats.get('current_size', 0) for stats in cache_stats.values())
-            total_hit_rate = sum(stats.get('hit_rate', 0) for stats in cache_stats.values()) / len(cache_stats) if cache_stats else 0
-            
-            metrics = {
-                "total_cached_items": total_items,
-                "average_hit_rate": total_hit_rate,
-                "cache_types": len(cache_stats),
-                "cache_details": cache_stats
-            }
-            
-            # Check for issues
-            if total_hit_rate < 0.3:  # Less than 30% hit rate
-                issues.append(HealthIssue(
-                    issue_type=IssueType.CACHE_ISSUES,
-                    severity=HealthStatus.WARNING,
-                    description=f"Low cache hit rate: {total_hit_rate:.2%}",
-                    source="cache_system",
-                    metadata={"hit_rate": total_hit_rate}
-                ))
-            
-            # Clean up expired entries
-            cleanup_stats = cache_manager.cleanup_all_expired()
-            metrics["expired_cleaned"] = cleanup_stats
-            
-            status = HealthStatus.HEALTHY if not issues else HealthStatus.WARNING
-            
-        except ImportError:
-            issues.append(HealthIssue(
-                issue_type=IssueType.CACHE_ISSUES,
-                severity=HealthStatus.CRITICAL,
-                description="Cache system not available",
-                source="cache_system"
-            ))
-            status = HealthStatus.CRITICAL
-            
-        except Exception as e:
-            issues.append(HealthIssue(
-                issue_type=IssueType.CACHE_ISSUES,
-                severity=HealthStatus.CRITICAL,
-                description=f"Cache system error: {e}",
-                source="cache_system",
-                metadata={"error": str(e)}
-            ))
-            status = HealthStatus.CRITICAL
+        # Skip if checked recently (unless full check requested)
+        if (not full_check and 
+            current_time - self.last_check_time < DATA_HEALTH_CONFIG['CHECK_INTERVAL_HOURS'] * 3600):
+            return self.health_history[-1] if self.health_history else []
         
-        return HealthCheckResult(
-            component="cache_system",
-            status=status,
-            issues=issues,
-            metrics=metrics
-        )
+        logger.info(f"Performing {'full' if full_check else 'standard'} health check...")
+        
+        results = []
+        
+        # 1. Data file integrity check
+        results.append(self._check_data_files())
+        
+        # 2. Image files check
+        results.append(self._check_image_files())
+        
+        # 3. Disk space check
+        results.append(self._check_disk_space())
+        
+        # 4. Backup status check
+        results.append(self._check_backup_status())
+        
+        # 5. Performance metrics check
+        results.append(self._check_performance_metrics())
+        
+        if full_check:
+            # 6. Full integrity verification
+            results.append(self._check_data_integrity())
+            
+            # 7. Configuration validation
+            results.append(self._check_configuration())
+        
+        # Record check time
+        self.last_check_time = current_time
+        self.health_history.append(results)
+        
+        # Keep only recent history
+        if len(self.health_history) > 100:
+            self.health_history = self.health_history[-50:]
+        
+        # Trigger auto-recovery if needed
+        if DATA_HEALTH_CONFIG['AUTO_RECOVERY_ENABLED']:
+            self._trigger_auto_recovery(results)
+        
+        logger.info(f"Health check completed: {len(results)} checks performed")
+        return results
     
-    def _check_network_connectivity(self) -> HealthCheckResult:
-        """Check network connectivity to TMDB API"""
-        issues = []
-        metrics = {}
-        
+    def _check_data_files(self) -> HealthCheckResult:
+        """Check integrity of data files"""
         try:
-            import requests
-            from config import TMDB_BASE_URL, TMDB_API_KEY
+            json_files = [f for f in os.listdir(self.data_dir) if f.endswith('.json')]
+            corrupted_files = []
+            total_size = 0
             
-            # Test TMDB API connectivity
-            start_time = time.time()
-            response = requests.get(
-                f"{TMDB_BASE_URL}/configuration",
-                params={"api_key": TMDB_API_KEY},
-                timeout=10
+            for file_name in json_files:
+                file_path = os.path.join(self.data_dir, file_name)
+                try:
+                    file_size = os.path.getsize(file_path)
+                    total_size += file_size
+                    
+                    # Try to parse JSON
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        json.load(f)
+                        
+                except (json.JSONDecodeError, OSError) as e:
+                    corrupted_files.append(file_name)
+                    logger.warning(f"Corrupted data file detected: {file_name} - {e}")
+            
+            # Determine status
+            if not corrupted_files:
+                status = 'healthy'
+                message = f"All {len(json_files)} data files are healthy"
+            elif len(corrupted_files) / len(json_files) < 0.1:  # Less than 10% corrupted
+                status = 'warning'
+                message = f"{len(corrupted_files)} corrupted files out of {len(json_files)}"
+            else:
+                status = 'critical'
+                message = f"High corruption rate: {len(corrupted_files)}/{len(json_files)} files"
+            
+            return HealthCheckResult(
+                check_name='data_files',
+                status=status,
+                message=message,
+                details={
+                    'total_files': len(json_files),
+                    'corrupted_files': corrupted_files,
+                    'total_size_mb': total_size / (1024 * 1024),
+                    'corruption_rate': len(corrupted_files) / len(json_files) if json_files else 0
+                },
+                recovery_actions=['backup_restore', 'file_regeneration'] if corrupted_files else []
             )
-            response_time = time.time() - start_time
-            
-            metrics = {
-                "response_time_ms": response_time * 1000,
-                "status_code": response.status_code,
-                "api_accessible": response.status_code == 200
-            }
-            
-            if response.status_code != 200:
-                issues.append(HealthIssue(
-                    issue_type=IssueType.NETWORK_ISSUES,
-                    severity=HealthStatus.CRITICAL,
-                    description=f"TMDB API returned status {response.status_code}",
-                    source="network_connectivity",
-                    metadata={"status_code": response.status_code}
-                ))
-            elif response_time > 5.0:  # Slow response
-                issues.append(HealthIssue(
-                    issue_type=IssueType.PERFORMANCE_DEGRADATION,
-                    severity=HealthStatus.WARNING,
-                    description=f"Slow API response: {response_time:.2f}s",
-                    source="network_connectivity",
-                    metadata={"response_time": response_time}
-                ))
-            
-            status = HealthStatus.HEALTHY if not issues else (HealthStatus.WARNING if response.status_code == 200 else HealthStatus.CRITICAL)
-            
-        except requests.exceptions.Timeout:
-            issues.append(HealthIssue(
-                issue_type=IssueType.NETWORK_ISSUES,
-                severity=HealthStatus.CRITICAL,
-                description="TMDB API request timed out",
-                source="network_connectivity"
-            ))
-            status = HealthStatus.CRITICAL
             
         except Exception as e:
-            issues.append(HealthIssue(
-                issue_type=IssueType.NETWORK_ISSUES,
-                severity=HealthStatus.CRITICAL,
-                description=f"Network connectivity check failed: {e}",
-                source="network_connectivity",
-                metadata={"error": str(e)}
-            ))
-            status = HealthStatus.CRITICAL
-        
-        return HealthCheckResult(
-            component="network_connectivity",
-            status=status,
-            issues=issues,
-            metrics=metrics
-        )
+            return HealthCheckResult(
+                check_name='data_files',
+                status='critical',
+                message=f"Data files check failed: {e}",
+                recovery_actions=['system_recovery']
+            )
+    
+    def _check_image_files(self) -> HealthCheckResult:
+        """Check image files status"""
+        try:
+            if not os.path.exists(self.images_dir):
+                return HealthCheckResult(
+                    check_name='image_files',
+                    status='warning',
+                    message="Images directory does not exist",
+                    recovery_actions=['create_directory']
+                )
+            
+            image_files = [f for f in os.listdir(self.images_dir) 
+                          if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp'))]
+            
+            corrupted_images = []
+            total_size = 0
+            
+            # Sample check (don't check all images for performance)
+            sample_size = min(100, len(image_files))
+            sample_files = image_files[:sample_size] if len(image_files) > sample_size else image_files
+            
+            for file_name in sample_files:
+                file_path = os.path.join(self.images_dir, file_name)
+                try:
+                    file_size = os.path.getsize(file_path)
+                    total_size += file_size
+                    
+                    # Basic file integrity check
+                    if file_size < 1024:  # Less than 1KB might be corrupted
+                        corrupted_images.append(file_name)
+                        
+                except OSError:
+                    corrupted_images.append(file_name)
+            
+            # Calculate total directory size
+            total_dir_size = sum(
+                os.path.getsize(os.path.join(self.images_dir, f))
+                for f in os.listdir(self.images_dir)
+                if os.path.isfile(os.path.join(self.images_dir, f))
+            )
+            
+            corruption_rate = len(corrupted_images) / len(sample_files) if sample_files else 0
+            
+            if corruption_rate == 0:
+                status = 'healthy'
+                message = f"All sampled images ({sample_size}) are healthy"
+            elif corruption_rate < 0.05:
+                status = 'warning'
+                message = f"Low corruption rate: {len(corrupted_images)}/{sample_size} sampled"
+            else:
+                status = 'critical'
+                message = f"High image corruption: {len(corrupted_images)}/{sample_size} sampled"
+            
+            return HealthCheckResult(
+                check_name='image_files',
+                status=status,
+                message=message,
+                details={
+                    'total_images': len(image_files),
+                    'sampled_images': sample_size,
+                    'corrupted_images': len(corrupted_images),
+                    'total_size_mb': total_dir_size / (1024 * 1024),
+                    'corruption_rate': corruption_rate
+                },
+                recovery_actions=['redownload_images'] if corrupted_images else []
+            )
+            
+        except Exception as e:
+            return HealthCheckResult(
+                check_name='image_files',
+                status='critical',
+                message=f"Image files check failed: {e}",
+                recovery_actions=['system_recovery']
+            )
     
     def _check_disk_space(self) -> HealthCheckResult:
         """Check available disk space"""
-        issues = []
-        metrics = {}
-        
         try:
-            import shutil
+            statvfs = os.statvfs(self.data_dir)
+            total_space = statvfs.f_frsize * statvfs.f_blocks
+            available_space = statvfs.f_frsize * statvfs.f_available
+            used_space = total_space - available_space
             
-            # Check space for data directory
-            total, used, free = shutil.disk_usage(self.data_dir)
+            usage_percent = (used_space / total_space) * 100
+            available_gb = available_space / (1024 ** 3)
             
-            free_gb = free / (1024**3)
-            free_percent = (free / total) * 100
+            if available_gb > 10 and usage_percent < 90:
+                status = 'healthy'
+                message = f"Disk space healthy: {available_gb:.1f}GB available"
+            elif available_gb > 5 and usage_percent < 95:
+                status = 'warning'
+                message = f"Disk space warning: {available_gb:.1f}GB available ({usage_percent:.1f}% used)"
+            else:
+                status = 'critical'
+                message = f"Disk space critical: {available_gb:.1f}GB available ({usage_percent:.1f}% used)"
             
-            metrics = {
-                "total_gb": total / (1024**3),
-                "used_gb": used / (1024**3),
-                "free_gb": free_gb,
-                "free_percent": free_percent
-            }
-            
-            # Check for low disk space
-            if free_gb < 1:  # Less than 1GB free
-                issues.append(HealthIssue(
-                    issue_type=IssueType.PERFORMANCE_DEGRADATION,
-                    severity=HealthStatus.CRITICAL,
-                    description=f"Very low disk space: {free_gb:.2f}GB free",
-                    source="disk_space",
-                    metadata={"free_gb": free_gb}
-                ))
-            elif free_percent < 10:  # Less than 10% free
-                issues.append(HealthIssue(
-                    issue_type=IssueType.PERFORMANCE_DEGRADATION,
-                    severity=HealthStatus.WARNING,
-                    description=f"Low disk space: {free_percent:.1f}% free",
-                    source="disk_space",
-                    metadata={"free_percent": free_percent}
-                ))
-            
-            status = HealthStatus.HEALTHY if not issues else (HealthStatus.WARNING if free_gb > 1 else HealthStatus.CRITICAL)
+            return HealthCheckResult(
+                check_name='disk_space',
+                status=status,
+                message=message,
+                details={
+                    'total_gb': total_space / (1024 ** 3),
+                    'available_gb': available_gb,
+                    'used_percent': usage_percent
+                },
+                recovery_actions=['cleanup_old_files', 'compress_data'] if status != 'healthy' else []
+            )
             
         except Exception as e:
-            issues.append(HealthIssue(
-                issue_type=IssueType.PERFORMANCE_DEGRADATION,
-                severity=HealthStatus.WARNING,
-                description=f"Could not check disk space: {e}",
-                source="disk_space",
-                metadata={"error": str(e)}
-            ))
-            status = HealthStatus.WARNING
-        
-        return HealthCheckResult(
-            component="disk_space",
-            status=status,
-            issues=issues,
-            metrics=metrics
-        )
+            return HealthCheckResult(
+                check_name='disk_space',
+                status='critical',
+                message=f"Disk space check failed: {e}",
+                recovery_actions=['system_recovery']
+            )
     
-    def _check_data_freshness(self) -> HealthCheckResult:
-        """Check if data is fresh and up-to-date"""
-        issues = []
-        metrics = {}
-        
-        metadata_file = os.path.join(self.data_dir, 'metadata.json')
-        
-        if os.path.exists(metadata_file):
-            try:
-                with open(metadata_file, 'r', encoding='utf-8') as f:
-                    metadata = json.load(f)
-                
-                last_update = metadata.get('last_update')
-                if last_update:
-                    last_update_time = datetime.fromisoformat(last_update.replace('Z', '+00:00'))
-                    age = datetime.now() - last_update_time.replace(tzinfo=None)
-                    age_hours = age.total_seconds() / 3600
-                    
-                    metrics = {
-                        "last_update": last_update,
-                        "age_hours": age_hours,
-                        "is_stale": age_hours > 24
-                    }
-                    
-                    if age_hours > 48:  # More than 2 days old
-                        issues.append(HealthIssue(
-                            issue_type=IssueType.STALE_DATA,
-                            severity=HealthStatus.WARNING,
-                            description=f"Data is {age_hours:.1f} hours old",
-                            source="data_freshness",
-                            metadata={"age_hours": age_hours}
-                        ))
-                    
-                    status = HealthStatus.HEALTHY if age_hours <= 48 else HealthStatus.WARNING
-                else:
-                    issues.append(HealthIssue(
-                        issue_type=IssueType.MISSING_DATA,
-                        severity=HealthStatus.WARNING,
-                        description="No last_update timestamp in metadata",
-                        source="data_freshness"
-                    ))
-                    status = HealthStatus.WARNING
-                    
-            except Exception as e:
-                issues.append(HealthIssue(
-                    issue_type=IssueType.CORRUPTED_DATA,
-                    severity=HealthStatus.WARNING,
-                    description=f"Could not read metadata: {e}",
-                    source="data_freshness",
-                    metadata={"error": str(e)}
-                ))
-                status = HealthStatus.WARNING
-        else:
-            issues.append(HealthIssue(
-                issue_type=IssueType.MISSING_DATA,
-                severity=HealthStatus.WARNING,
-                description="Metadata file not found",
-                source="data_freshness"
-            ))
-            status = HealthStatus.WARNING
-        
-        return HealthCheckResult(
-            component="data_freshness",
-            status=status,
-            issues=issues,
-            metrics=metrics
-        )
+    def _check_backup_status(self) -> HealthCheckResult:
+        """Check backup status and recency"""
+        try:
+            backup_files = [f for f in os.listdir(self.backup_dir) if f.endswith('.json')]
+            
+            if not backup_files:
+                return HealthCheckResult(
+                    check_name='backup_status',
+                    status='warning',
+                    message="No backup files found",
+                    recovery_actions=['create_backup']
+                )
+            
+            # Find most recent backup
+            latest_backup = max(
+                backup_files,
+                key=lambda f: os.path.getmtime(os.path.join(self.backup_dir, f))
+            )
+            
+            backup_age = time.time() - os.path.getmtime(os.path.join(self.backup_dir, latest_backup))
+            backup_age_hours = backup_age / 3600
+            
+            retention_days = DATA_HEALTH_CONFIG['BACKUP_RETENTION_DAYS']
+            max_age_hours = retention_days * 24
+            
+            if backup_age_hours < 24:
+                status = 'healthy'
+                message = f"Recent backup available: {backup_age_hours:.1f} hours old"
+            elif backup_age_hours < max_age_hours:
+                status = 'warning'
+                message = f"Backup aging: {backup_age_hours:.1f} hours old"
+            else:
+                status = 'critical'
+                message = f"Backup too old: {backup_age_hours:.1f} hours old"
+            
+            return HealthCheckResult(
+                check_name='backup_status',
+                status=status,
+                message=message,
+                details={
+                    'total_backups': len(backup_files),
+                    'latest_backup': latest_backup,
+                    'backup_age_hours': backup_age_hours,
+                    'max_age_hours': max_age_hours
+                },
+                recovery_actions=['create_backup'] if status != 'healthy' else []
+            )
+            
+        except Exception as e:
+            return HealthCheckResult(
+                check_name='backup_status',
+                status='critical',
+                message=f"Backup status check failed: {e}",
+                recovery_actions=['create_backup']
+            )
+    
+    def _check_performance_metrics(self) -> HealthCheckResult:
+        """Check system performance metrics"""
+        try:
+            # Get system load information
+            load_avg = os.getloadavg() if hasattr(os, 'getloadavg') else (0, 0, 0)
+            
+            # Check memory usage (simplified)
+            import psutil
+            memory = psutil.virtual_memory()
+            memory_percent = memory.percent
+            
+            # Performance status
+            if load_avg[0] < 2.0 and memory_percent < 80:
+                status = 'healthy'
+                message = "System performance is good"
+            elif load_avg[0] < 5.0 and memory_percent < 90:
+                status = 'warning'
+                message = "System performance is degraded"
+            else:
+                status = 'critical'
+                message = "System performance is poor"
+            
+            return HealthCheckResult(
+                check_name='performance_metrics',
+                status=status,
+                message=message,
+                details={
+                    'load_average_1m': load_avg[0],
+                    'load_average_5m': load_avg[1],
+                    'load_average_15m': load_avg[2],
+                    'memory_percent': memory_percent,
+                    'memory_available_gb': memory.available / (1024 ** 3)
+                },
+                recovery_actions=['optimize_performance'] if status != 'healthy' else []
+            )
+            
+        except Exception as e:
+            return HealthCheckResult(
+                check_name='performance_metrics',
+                status='warning',
+                message=f"Performance check failed: {e}",
+                details={'error': str(e)}
+            )
     
     def _check_data_integrity(self) -> HealthCheckResult:
-        """Check data integrity using checksums and validation"""
-        issues = []
-        metrics = {}
+        """Perform full data integrity verification"""
+        try:
+            integrity_issues = []
+            
+            # Check for required data files
+            required_files = ['metadata.json', 'download_log.json']
+            for required_file in required_files:
+                file_path = os.path.join(self.data_dir, required_file)
+                if not os.path.exists(file_path):
+                    integrity_issues.append(f"Missing required file: {required_file}")
+            
+            # Check data consistency
+            metadata_path = os.path.join(self.data_dir, 'metadata.json')
+            if os.path.exists(metadata_path):
+                try:
+                    with open(metadata_path, 'r', encoding='utf-8') as f:
+                        metadata = json.load(f)
+                        
+                    # Validate metadata structure
+                    required_keys = ['last_updated', 'total_movies', 'version']
+                    for key in required_keys:
+                        if key not in metadata:
+                            integrity_issues.append(f"Missing metadata key: {key}")
+                            
+                except Exception as e:
+                    integrity_issues.append(f"Metadata corruption: {e}")
+            
+            if not integrity_issues:
+                status = 'healthy'
+                message = "Data integrity verification passed"
+            elif len(integrity_issues) < 3:
+                status = 'warning'
+                message = f"Minor integrity issues: {len(integrity_issues)} found"
+            else:
+                status = 'critical'
+                message = f"Major integrity issues: {len(integrity_issues)} found"
+            
+            return HealthCheckResult(
+                check_name='data_integrity',
+                status=status,
+                message=message,
+                details={
+                    'integrity_issues': integrity_issues,
+                    'issues_count': len(integrity_issues)
+                },
+                recovery_actions=['repair_data_integrity'] if integrity_issues else []
+            )
+            
+        except Exception as e:
+            return HealthCheckResult(
+                check_name='data_integrity',
+                status='critical',
+                message=f"Integrity check failed: {e}",
+                recovery_actions=['system_recovery']
+            )
+    
+    def _check_configuration(self) -> HealthCheckResult:
+        """Check system configuration validity"""
+        try:
+            config_issues = []
+            
+            # Check environment variables
+            from config import TMDB_API_KEY
+            if not TMDB_API_KEY:
+                config_issues.append("TMDB_API_KEY not configured")
+            
+            # Check directory permissions
+            for directory in [self.data_dir, self.images_dir, self.logs_dir]:
+                if not os.access(directory, os.W_OK):
+                    config_issues.append(f"No write permission for {directory}")
+            
+            if not config_issues:
+                status = 'healthy'
+                message = "Configuration is valid"
+            else:
+                status = 'warning'
+                message = f"Configuration issues: {len(config_issues)} found"
+            
+            return HealthCheckResult(
+                check_name='configuration',
+                status=status,
+                message=message,
+                details={
+                    'config_issues': config_issues,
+                    'issues_count': len(config_issues)
+                },
+                recovery_actions=['fix_configuration'] if config_issues else []
+            )
+            
+        except Exception as e:
+            return HealthCheckResult(
+                check_name='configuration',
+                status='critical',
+                message=f"Configuration check failed: {e}",
+                recovery_actions=['system_recovery']
+            )
+    
+    def _trigger_auto_recovery(self, health_results: List[HealthCheckResult]):
+        """Trigger automatic recovery actions based on health check results"""
+        critical_issues = [r for r in health_results if r.status == 'critical']
         
-        movies_file = os.path.join(self.data_dir, 'movies_data.json')
+        if not critical_issues:
+            return
         
-        if os.path.exists(movies_file):
+        logger.warning(f"Triggering auto-recovery for {len(critical_issues)} critical issues")
+        
+        recovery_actions = set()
+        for result in critical_issues:
+            recovery_actions.update(result.recovery_actions)
+        
+        for action in recovery_actions:
             try:
-                with open(movies_file, 'r', encoding='utf-8') as f:
-                    movies_data = json.load(f)
-                
-                if isinstance(movies_data, list):
-                    total_movies = len(movies_data)
-                    valid_movies = 0
-                    
-                    for movie in movies_data:
-                        # Check required fields
-                        required_fields = ['id', 'title', 'backdrop_path']
-                        if all(field in movie for field in required_fields):
-                            valid_movies += 1
-                    
-                    validity_ratio = valid_movies / total_movies if total_movies > 0 else 0
-                    
-                    metrics = {
-                        "total_movies": total_movies,
-                        "valid_movies": valid_movies,
-                        "validity_ratio": validity_ratio
-                    }
-                    
-                    if validity_ratio < 0.9:  # Less than 90% valid
-                        issues.append(HealthIssue(
-                            issue_type=IssueType.INCONSISTENT_DATA,
-                            severity=HealthStatus.WARNING,
-                            description=f"Data integrity issue: {validity_ratio:.1%} movies are valid",
-                            source="data_integrity",
-                            metadata={"validity_ratio": validity_ratio}
-                        ))
-                    
-                    status = HealthStatus.HEALTHY if validity_ratio >= 0.9 else HealthStatus.WARNING
+                success = self._execute_recovery_action(action)
+                if success:
+                    self.recovery_stats['successful_recoveries'] += 1
+                    logger.info(f"Auto-recovery action '{action}' completed successfully")
                 else:
-                    issues.append(HealthIssue(
-                        issue_type=IssueType.CORRUPTED_DATA,
-                        severity=HealthStatus.CRITICAL,
-                        description="Movies data is not a valid list",
-                        source="data_integrity"
-                    ))
-                    status = HealthStatus.CRITICAL
-                    
+                    self.recovery_stats['failed_recoveries'] += 1
+                    logger.error(f"Auto-recovery action '{action}' failed")
             except Exception as e:
-                issues.append(HealthIssue(
-                    issue_type=IssueType.CORRUPTED_DATA,
-                    severity=HealthStatus.CRITICAL,
-                    description=f"Data integrity check failed: {e}",
-                    source="data_integrity",
-                    metadata={"error": str(e)}
-                ))
-                status = HealthStatus.CRITICAL
-        else:
-            issues.append(HealthIssue(
-                issue_type=IssueType.MISSING_DATA,
-                severity=HealthStatus.WARNING,
-                description="Movies data file not found",
-                source="data_integrity"
-            ))
-            status = HealthStatus.WARNING
+                self.recovery_stats['failed_recoveries'] += 1
+                logger.error(f"Auto-recovery action '{action}' failed with exception: {e}")
         
-        return HealthCheckResult(
-            component="data_integrity",
-            status=status,
-            issues=issues,
-            metrics=metrics
-        )
+        self.recovery_stats['total_recoveries'] += len(recovery_actions)
+        self.recovery_stats['last_recovery_time'] = time.time()
     
-    def _recover_corrupted_data(self, issue: HealthIssue) -> bool:
-        """Attempt to recover corrupted data"""
+    def _execute_recovery_action(self, action: str) -> bool:
+        """Execute a specific recovery action"""
         try:
-            filename = issue.metadata.get('file')
-            if filename:
-                filepath = os.path.join(self.data_dir, filename)
-                
-                # Create backup
-                backup_path = f"{filepath}.backup.{int(time.time())}"
-                if os.path.exists(filepath):
-                    os.rename(filepath, backup_path)
-                
-                # Create minimal valid structure
-                if filename == 'movies_data.json':
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump([], f)
-                elif filename == 'download_log.json':
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump({"downloads": []}, f)
-                elif filename == 'metadata.json':
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump({
-                            "last_update": datetime.now().isoformat(),
-                            "version": "1.0",
-                            "total_downloads": 0
-                        }, f, indent=2)
-                
-                self.logger.info(f"Recovered corrupted file {filename}")
+            if action == 'create_backup':
+                return self.create_backup()
+            elif action == 'backup_restore':
+                return self.restore_from_backup()
+            elif action == 'cleanup_old_files':
+                return self.cleanup_old_files()
+            elif action == 'create_directory':
+                os.makedirs(self.images_dir, exist_ok=True)
                 return True
-                
+            elif action == 'repair_data_integrity':
+                return self.repair_data_integrity()
+            else:
+                logger.warning(f"Unknown recovery action: {action}")
+                return False
         except Exception as e:
-            self.logger.error(f"Failed to recover corrupted data: {e}")
-        
-        return False
+            logger.error(f"Recovery action '{action}' failed: {e}")
+            return False
     
-    def _recover_missing_data(self, issue: HealthIssue) -> bool:
-        """Attempt to recover missing data"""
+    def create_backup(self) -> bool:
+        """Create a backup of important data"""
         try:
-            filename = issue.metadata.get('file')
-            if filename:
-                filepath = os.path.join(self.data_dir, filename)
-                
-                # Create minimal valid structure
-                if filename == 'movies_data.json':
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump([], f)
-                elif filename == 'download_log.json':
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump({"downloads": []}, f)
-                elif filename == 'metadata.json':
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump({
-                            "last_update": datetime.now().isoformat(),
-                            "version": "1.0",
-                            "total_downloads": 0
-                        }, f, indent=2)
-                
-                self.logger.info(f"Created missing file {filename}")
-                return True
-                
-        except Exception as e:
-            self.logger.error(f"Failed to recover missing data: {e}")
-        
-        return False
-    
-    def _recover_stale_data(self, issue: HealthIssue) -> bool:
-        """Attempt to refresh stale data"""
-        try:
-            # This would typically trigger a data refresh
-            # For now, just update the timestamp
-            metadata_file = os.path.join(self.data_dir, 'metadata.json')
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            backup_filename = f"backup_{timestamp}.json"
+            backup_path = os.path.join(self.backup_dir, backup_filename)
             
-            if os.path.exists(metadata_file):
-                with open(metadata_file, 'r', encoding='utf-8') as f:
-                    metadata = json.load(f)
-                
-                metadata['last_health_check'] = datetime.now().isoformat()
-                metadata['stale_data_detected'] = True
-                
-                with open(metadata_file, 'w', encoding='utf-8') as f:
-                    json.dump(metadata, f, indent=2)
-                
-                self.logger.info("Marked stale data for refresh")
-                return True
-                
-        except Exception as e:
-            self.logger.error(f"Failed to recover stale data: {e}")
-        
-        return False
-    
-    def _recover_cache_issues(self, issue: HealthIssue) -> bool:
-        """Attempt to recover cache issues"""
-        try:
-            from advanced_cache import cache_manager
+            # Collect data to backup
+            backup_data = {
+                'timestamp': timestamp,
+                'version': '1.0',
+                'data_files': {},
+                'metadata': {}
+            }
             
-            # Clear all caches
-            cache_manager.clear_all()
+            # Backup JSON data files
+            for filename in os.listdir(self.data_dir):
+                if filename.endswith('.json') and not filename.startswith('backup_'):
+                    file_path = os.path.join(self.data_dir, filename)
+                    try:
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            backup_data['data_files'][filename] = json.load(f)
+                    except Exception as e:
+                        logger.warning(f"Failed to backup {filename}: {e}")
             
-            self.logger.info("Cleared all caches to recover from cache issues")
+            # Save backup
+            with open(backup_path, 'w', encoding='utf-8') as f:
+                json.dump(backup_data, f, indent=2, ensure_ascii=False)
+            
+            # Cleanup old backups
+            self._cleanup_old_backups()
+            
+            logger.info(f"Backup created: {backup_filename}")
             return True
             
         except Exception as e:
-            self.logger.error(f"Failed to recover cache issues: {e}")
-        
-        return False
+            logger.error(f"Failed to create backup: {e}")
+            return False
     
-    def get_overall_health(self) -> Dict[str, Any]:
-        """Get overall system health summary"""
-        recent_results = self.run_health_check()
-        
-        # Calculate overall status
-        statuses = [result.status for result in recent_results.values()]
-        
-        if all(status == HealthStatus.HEALTHY for status in statuses):
-            overall_status = HealthStatus.HEALTHY
-        elif any(status == HealthStatus.CRITICAL for status in statuses):
-            overall_status = HealthStatus.CRITICAL
-        else:
-            overall_status = HealthStatus.WARNING
-        
-        # Count issues by type
-        issue_counts = {}
-        for result in recent_results.values():
-            for issue in result.issues:
-                issue_type = issue.issue_type.value
-                if issue_type not in issue_counts:
-                    issue_counts[issue_type] = 0
-                issue_counts[issue_type] += 1
-        
-        return {
-            "overall_status": overall_status.value,
-            "components_checked": len(recent_results),
-            "healthy_components": sum(1 for r in recent_results.values() if r.status == HealthStatus.HEALTHY),
-            "warning_components": sum(1 for r in recent_results.values() if r.status == HealthStatus.WARNING),
-            "critical_components": sum(1 for r in recent_results.values() if r.status == HealthStatus.CRITICAL),
-            "active_issues": len(self.active_issues),
-            "issue_breakdown": issue_counts,
-            "last_check": datetime.now().isoformat(),
-            "auto_recovery_enabled": self.auto_recovery_enabled
-        }
+    def restore_from_backup(self, backup_filename: str = None) -> bool:
+        """Restore data from backup"""
+        try:
+            if not backup_filename:
+                # Find most recent backup
+                backup_files = [f for f in os.listdir(self.backup_dir) if f.startswith('backup_')]
+                if not backup_files:
+                    logger.error("No backup files found for restoration")
+                    return False
+                backup_filename = max(backup_files)
+            
+            backup_path = os.path.join(self.backup_dir, backup_filename)
+            
+            with open(backup_path, 'r', encoding='utf-8') as f:
+                backup_data = json.load(f)
+            
+            # Restore data files
+            for filename, data in backup_data.get('data_files', {}).items():
+                file_path = os.path.join(self.data_dir, filename)
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+            
+            logger.info(f"Data restored from backup: {backup_filename}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Failed to restore from backup: {e}")
+            return False
     
-    def export_health_report(self, output_path: str = None) -> str:
-        """Export detailed health report"""
-        if output_path is None:
-            output_path = os.path.join(self.logs_dir, f"health_report_{int(time.time())}.json")
-        
-        overall_health = self.get_overall_health()
-        recent_results = {name: {
-            "component": result.component,
-            "status": result.status.value,
-            "issues": [
-                {
-                    "type": issue.issue_type.value,
-                    "severity": issue.severity.value,
-                    "description": issue.description,
-                    "timestamp": issue.timestamp,
-                    "resolved": issue.resolved,
-                    "metadata": issue.metadata
+    def cleanup_old_files(self) -> bool:
+        """Clean up old files to free space"""
+        try:
+            cleaned_count = 0
+            
+            # Clean old backup files
+            backup_files = []
+            for filename in os.listdir(self.backup_dir):
+                if filename.startswith('backup_'):
+                    file_path = os.path.join(self.backup_dir, filename)
+                    file_age = time.time() - os.path.getmtime(file_path)
+                    backup_files.append((filename, file_age))
+            
+            # Keep only recent backups
+            backup_files.sort(key=lambda x: x[1])  # Sort by age
+            retention_seconds = DATA_HEALTH_CONFIG['BACKUP_RETENTION_DAYS'] * 24 * 3600
+            
+            for filename, age in backup_files:
+                if age > retention_seconds:
+                    os.remove(os.path.join(self.backup_dir, filename))
+                    cleaned_count += 1
+            
+            logger.info(f"Cleaned up {cleaned_count} old files")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Failed to cleanup old files: {e}")
+            return False
+    
+    def _cleanup_old_backups(self):
+        """Clean up old backup files"""
+        try:
+            backup_files = [f for f in os.listdir(self.backup_dir) if f.startswith('backup_')]
+            backup_files.sort(reverse=True)  # Most recent first
+            
+            # Keep only the most recent 10 backups
+            for old_backup in backup_files[10:]:
+                os.remove(os.path.join(self.backup_dir, old_backup))
+                
+        except Exception as e:
+            logger.warning(f"Failed to cleanup old backups: {e}")
+    
+    def repair_data_integrity(self) -> bool:
+        """Repair data integrity issues"""
+        try:
+            # Create missing required files
+            metadata_path = os.path.join(self.data_dir, 'metadata.json')
+            if not os.path.exists(metadata_path):
+                default_metadata = {
+                    'version': '1.0',
+                    'last_updated': datetime.now().isoformat(),
+                    'total_movies': 0,
+                    'health_status': 'repaired'
                 }
-                for issue in result.issues
-            ],
-            "metrics": result.metrics,
-            "timestamp": result.timestamp,
-            "check_duration": result.check_duration
-        } for name, result in self.run_health_check().items()}
+                with open(metadata_path, 'w', encoding='utf-8') as f:
+                    json.dump(default_metadata, f, indent=2)
+            
+            # Create missing download log
+            log_path = os.path.join(self.data_dir, 'download_log.json')
+            if not os.path.exists(log_path):
+                default_log = {
+                    'downloads': [],
+                    'last_updated': datetime.now().isoformat(),
+                    'total_downloads': 0
+                }
+                with open(log_path, 'w', encoding='utf-8') as f:
+                    json.dump(default_log, f, indent=2)
+            
+            logger.info("Data integrity repaired")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Failed to repair data integrity: {e}")
+            return False
+    
+    def get_health_report(self) -> DataIntegrityReport:
+        """Generate comprehensive health report"""
+        # Perform health check
+        health_results = self.perform_health_check()
         
-        report = {
-            "overall_health": overall_health,
-            "detailed_results": recent_results,
-            "generated_at": datetime.now().isoformat()
+        report = DataIntegrityReport()
+        
+        # Calculate health score based on check results
+        total_checks = len(health_results)
+        healthy_checks = sum(1 for r in health_results if r.status == 'healthy')
+        warning_checks = sum(1 for r in health_results if r.status == 'warning')
+        critical_checks = sum(1 for r in health_results if r.status == 'critical')
+        
+        if total_checks > 0:
+            # Health score: 100 for healthy, 50 for warning, 0 for critical
+            score = (healthy_checks * 100 + warning_checks * 50) / total_checks
+            report.health_score = score
+        
+        # Populate report details
+        for result in health_results:
+            if result.check_name == 'data_files':
+                report.total_files = result.details.get('total_files', 0)
+                report.corrupted_files = len(result.details.get('corrupted_files', []))
+            elif result.check_name == 'backup_status':
+                report.last_backup_age_hours = result.details.get('backup_age_hours', 0)
+        
+        # Generate recommendations
+        if critical_checks > 0:
+            report.recommendations.append("Critical issues detected - immediate attention required")
+        if warning_checks > 0:
+            report.recommendations.append("Warning conditions present - monitor closely")
+        if report.health_score < 80:
+            report.recommendations.append("System health below optimal - consider maintenance")
+        
+        return report
+    
+    def get_stats(self) -> Dict[str, Any]:
+        """Get health monitoring statistics"""
+        return {
+            'recovery_stats': self.recovery_stats,
+            'last_check_time': self.last_check_time,
+            'total_health_checks': len(self.health_history),
+            'health_history_count': len(self.health_history)
         }
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(report, f, indent=2, ensure_ascii=False)
-        
-        self.logger.info(f"Health report exported to {output_path}")
-        return output_path
 
 
 # Global instance
 global_health_monitor = DataHealthMonitor()
+
+
+def perform_health_check(full_check: bool = False) -> List[HealthCheckResult]:
+    """Perform health check using global monitor"""
+    return global_health_monitor.perform_health_check(full_check)
+
+
+def get_health_report() -> DataIntegrityReport:
+    """Get health report using global monitor"""
+    return global_health_monitor.get_health_report()
+
+
+def create_backup() -> bool:
+    """Create backup using global monitor"""
+    return global_health_monitor.create_backup()
+
+
+def auto_recovery() -> bool:
+    """Trigger auto-recovery using global monitor"""
+    health_results = global_health_monitor.perform_health_check(full_check=True)
+    critical_issues = [r for r in health_results if r.status == 'critical']
+    
+    if critical_issues:
+        global_health_monitor._trigger_auto_recovery(health_results)
+        return True
+    return False
