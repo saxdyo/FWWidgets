@@ -720,7 +720,7 @@ function setCachedData(key, data) {
 }
 
 function createWidgetItem(item) {
-  return {
+  const widgetItem = {
     id: item.id.toString(),
     type: "tmdb",
     title: item.title || item.name || "未知标题",
@@ -740,6 +740,22 @@ function createWidgetItem(item) {
     episode: 0,
     childItems: []
   };
+
+  // 为所有TMDB项目添加带标题背景图支持
+  if (item.backdrop_path) {
+    widgetItem.titleBackdrop = `https://image.tmdb.org/t/p/original${item.backdrop_path}`;
+    widgetItem.hasTitleBackdrop = true;
+    widgetItem.originalBackdrop = `https://image.tmdb.org/t/p/original${item.backdrop_path}`;
+    widgetItem.backdropTitle = item.title || item.name || "未知标题";
+    widgetItem.backdropYear = item.release_date || item.first_air_date ? 
+      new Date(item.release_date || item.first_air_date).getFullYear().toString() : "";
+    widgetItem.backdropRating = item.vote_average ? item.vote_average.toString() : "";
+    widgetItem.backdropType = item.media_type || "movie";
+    widgetItem.cssBackdropClass = 'backdrop-card-css';
+    widgetItem.hasBackdropOverlay = true;
+  }
+
+  return widgetItem;
 }
 
 // TMDB类型映射
