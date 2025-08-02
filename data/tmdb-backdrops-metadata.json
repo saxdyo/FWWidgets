@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2025-08-02T12:58:53.235Z",
+  "totalItems": 191,
+  "categories": {
+    "popularMovies": 98,
+    "popularTVShows": 50,
+    "trendingContent": 20,
+    "topRatedContent": 40
+  },
+  "statistics": {
+    "withBackdrop": 191,
+    "withPoster": 191,
+    "movies": 116,
+    "tvShows": 75,
+    "averageRating": 7.229952879581143
+  },
+  "config": {
+    "maxMovies": 100,
+    "maxTVShows": 50,
+    "language": "zh-CN"
+  }
+}
