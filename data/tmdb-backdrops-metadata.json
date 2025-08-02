@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-08-02T12:58:53.235Z",
-  "totalItems": 191,
+  "generatedAt": "2025-08-02T13:31:13.617Z",
+  "totalItems": 192,
   "categories": {
     "popularMovies": 98,
     "popularTVShows": 50,
@@ -8,11 +8,11 @@
     "topRatedContent": 40
   },
   "statistics": {
-    "withBackdrop": 191,
-    "withPoster": 191,
+    "withBackdrop": 192,
+    "withPoster": 192,
     "movies": 116,
-    "tvShows": 75,
-    "averageRating": 7.229952879581143
+    "tvShows": 76,
+    "averageRating": 7.211593749999992
   },
   "config": {
     "maxMovies": 100,
