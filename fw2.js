@@ -528,6 +528,105 @@ WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" }
       ]
+    },
+
+    // TMDB主题分类
+    {
+      title: "TMDB主题分类",
+      description: "按主题分类浏览影视内容",
+      requiresWebView: false,
+      functionName: "loadTmdbByTheme",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "theme",
+          title: "主题分类",
+          type: "enumeration",
+          description: "选择影视主题分类",
+          value: "action",
+          enumOptions: [
+            { title: "动作冒险", value: "action" },
+            { title: "科幻奇幻", value: "sci_fi" },
+            { title: "悬疑惊悚", value: "thriller" },
+            { title: "爱情浪漫", value: "romance" },
+            { title: "喜剧搞笑", value: "comedy" },
+            { title: "恐怖惊悚", value: "horror" },
+            { title: "战争历史", value: "war_history" },
+            { title: "家庭儿童", value: "family" },
+            { title: "音乐歌舞", value: "music" },
+            { title: "纪录片", value: "documentary" },
+            { title: "西部片", value: "western" },
+            { title: "犯罪剧情", value: "crime" }
+          ]
+        },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择媒体类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "电视剧", value: "tv" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity_desc",
+          enumOptions: [
+            { title: "热度降序", value: "popularity_desc" },
+            { title: "热度升序", value: "popularity_asc" },
+            { title: "评分降序", value: "vote_average_desc" },
+            { title: "评分升序", value: "vote_average_asc" },
+            { title: "上映时间降序", value: "release_date_desc" },
+            { title: "上映时间升序", value: "release_date_asc" }
+          ]
+        },
+        {
+          name: "min_rating",
+          title: "最低评分",
+          type: "enumeration",
+          description: "设置最低评分要求",
+          value: "0",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "6.0分以上", value: "6.0" },
+            { title: "7.0分以上", value: "7.0" },
+            { title: "8.0分以上", value: "8.0" },
+            { title: "9.0分以上", value: "9.0" }
+          ]
+        },
+        {
+          name: "year",
+          title: "年份筛选",
+          type: "enumeration",
+          description: "按年份筛选内容",
+          value: "",
+          enumOptions: [
+            { title: "全部年份", value: "" },
+            { title: "2024年", value: "2024" },
+            { title: "2023年", value: "2023" },
+            { title: "2022年", value: "2022" },
+            { title: "2021年", value: "2021" },
+            { title: "2020年", value: "2020" },
+            { title: "2019年", value: "2019" },
+            { title: "2018年", value: "2018" },
+            { title: "2017年", value: "2017" },
+            { title: "2016年", value: "2016" },
+            { title: "2015年", value: "2015" },
+            { title: "2014年", value: "2014" },
+            { title: "2013年", value: "2013" },
+            { title: "2012年", value: "2012" },
+            { title: "2011年", value: "2011" },
+            { title: "2010年", value: "2010" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
     }
   ]
 };
@@ -997,6 +1096,385 @@ async function loadTmdbMediaRanking(params = {}) {
     console.error("TMDB影视榜单加载失败:", error);
     return [];
   }
+}
+
+// 4. TMDB主题分类
+async function loadTmdbByTheme(params = {}) {
+  const { 
+    theme = "action",
+    media_type = "all", 
+    sort_by = "popularity_desc",
+    min_rating = "0",
+    year = "",
+    page = 1 
+  } = params;
+  
+  try {
+    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎭 加载TMDB主题分类: ${theme}`);
+
+    // 主题到类型ID的映射
+    const themeToGenres = {
+      action: { movie: "28,12", tv: "10759" },           // 动作冒险
+      sci_fi: { movie: "878,14", tv: "10765" },          // 科幻奇幻
+      thriller: { movie: "53,9648", tv: "9648" },        // 悬疑惊悚
+      romance: { movie: "10749", tv: "10749" },          // 爱情浪漫
+      comedy: { movie: "35", tv: "35" },                 // 喜剧搞笑
+      horror: { movie: "27", tv: "27" },                 // 恐怖惊悚
+      war_history: { movie: "10752,36", tv: "10768" },   // 战争历史
+      family: { movie: "10751", tv: "10751,10762" },     // 家庭儿童
+      music: { movie: "10402", tv: "10402" },            // 音乐歌舞
+      documentary: { movie: "99", tv: "99" },            // 纪录片
+      western: { movie: "37", tv: "37" },                // 西部片
+      crime: { movie: "80", tv: "80" }                   // 犯罪剧情
+    };
+
+    const genreIds = themeToGenres[theme];
+    if (!genreIds) {
+      console.error(`❌ 未知主题: ${theme}`);
+      return [];
+    }
+
+    // 根据媒体类型选择API端点
+    const endpoint = media_type === "movie" ? "/discover/movie" : 
+                    media_type === "tv" ? "/discover/tv" : "/discover/movie";
+    
+    // 构建查询参数
+    const queryParams = {
+      language: "zh-CN",
+      page: page,
+      api_key: CONFIG.API_KEY,
+      include_adult: false,
+      vote_count_gte: media_type === "movie" ? 50 : 20
+    };
+
+    // 设置类型筛选
+    if (media_type === "movie") {
+      queryParams.with_genres = genreIds.movie;
+    } else if (media_type === "tv") {
+      queryParams.with_genres = genreIds.tv;
+    } else {
+      // 全部类型，使用电影类型作为默认
+      queryParams.with_genres = genreIds.movie;
+    }
+
+    // 设置排序方式
+    switch (sort_by) {
+      case "popularity_desc":
+        queryParams.sort_by = "popularity.desc";
+        break;
+      case "popularity_asc":
+        queryParams.sort_by = "popularity.asc";
+        break;
+      case "vote_average_desc":
+        queryParams.sort_by = "vote_average.desc";
+        break;
+      case "vote_average_asc":
+        queryParams.sort_by = "vote_average.asc";
+        break;
+      case "release_date_desc":
+        queryParams.sort_by = media_type === "movie" ? "release_date.desc" : "first_air_date.desc";
+        break;
+      case "release_date_asc":
+        queryParams.sort_by = media_type === "movie" ? "release_date.asc" : "first_air_date.asc";
+        break;
+      default:
+        queryParams.sort_by = "popularity.desc";
+    }
+
+    // 设置最低评分要求
+    if (min_rating && min_rating !== "0") {
+      queryParams.vote_average_gte = min_rating;
+    }
+
+    // 设置年份筛选
+    if (year && year !== "") {
+      const startDate = `${year}-01-01`;
+      const endDate = `${year}-12-31`;
+      
+      if (media_type === "movie") {
+        queryParams.release_date_gte = startDate;
+        queryParams.release_date_lte = endDate;
+      } else {
+        queryParams.first_air_date_gte = startDate;
+        queryParams.first_air_date_lte = endDate;
+      }
+    }
+
+    console.log("📊 主题分类查询参数:", queryParams);
+
+    const res = await Widget.tmdb.get(endpoint, {
+      params: queryParams
+    });
+
+    console.log(`📊 获取到主题分类数据: ${res.results ? res.results.length : 0} 条`);
+
+    if (!res.results || res.results.length === 0) {
+      console.log("⚠️ 未获取到主题分类数据，尝试备用方案...");
+      return await loadThemeFallback(params);
+    }
+
+    const results = res.results.map(item => {
+      const widgetItem = createWidgetItem(item);
+      widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
+      
+      // 添加主题分类标识
+      widgetItem.type = "theme";
+      widgetItem.source = `TMDB主题分类 (${theme})`;
+      widgetItem.theme = theme;
+      
+      // 优化主题信息显示
+      if (widgetItem.releaseDate) {
+        const date = new Date(widgetItem.releaseDate);
+        if (!isNaN(date.getTime())) {
+          widgetItem.releaseYear = date.getFullYear();
+          widgetItem.isRecent = (new Date().getTime() - date.getTime()) < (365 * 24 * 60 * 60 * 1000);
+        }
+      }
+
+      // 添加评分信息
+      if (item.vote_average) {
+        widgetItem.rating = item.vote_average.toFixed(1);
+        widgetItem.ratingColor = item.vote_average >= 8.0 ? "#FFD700" : 
+                                item.vote_average >= 7.0 ? "#90EE90" : 
+                                item.vote_average >= 6.0 ? "#FFA500" : "#FF6B6B";
+      }
+
+      return widgetItem;
+    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+
+    console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
+
+    setCachedData(cacheKey, results);
+    return results;
+
+  } catch (error) {
+    console.error("❌ TMDB主题分类加载失败:", error);
+    return await loadThemeFallback(params);
+  }
+}
+
+// 主题分类备用数据获取函数
+async function loadThemeFallback(params = {}) {
+  const { theme = "action", media_type = "all", sort_by = "popularity_desc", min_rating = "0", year = "", page = 1 } = params;
+  
+  try {
+    console.log("🔄 尝试主题分类备用数据获取...");
+    
+    // 使用更简单的查询参数
+    const queryParams = {
+      language: "zh-CN",
+      page: page,
+      api_key: CONFIG.API_KEY,
+      sort_by: "popularity.desc",
+      vote_count_gte: 10,
+      include_adult: false
+    };
+
+    // 主题到类型ID的简化映射
+    const simpleThemeToGenres = {
+      action: "28,12",
+      sci_fi: "878,14", 
+      thriller: "53,9648",
+      romance: "10749",
+      comedy: "35",
+      horror: "27",
+      war_history: "10752,36",
+      family: "10751",
+      music: "10402",
+      documentary: "99",
+      western: "37",
+      crime: "80"
+    };
+
+    const genreIds = simpleThemeToGenres[theme];
+    if (genreIds) {
+      queryParams.with_genres = genreIds;
+    }
+
+    // 设置最低评分
+    if (min_rating && min_rating !== "0") {
+      queryParams.vote_average_gte = min_rating;
+    }
+
+    // 年份筛选
+    if (year && year !== "") {
+      const startDate = `${year}-01-01`;
+      const endDate = `${year}-12-31`;
+      queryParams.release_date_gte = startDate;
+      queryParams.release_date_lte = endDate;
+    }
+
+    console.log("🔄 备用主题查询参数:", queryParams);
+
+    const res = await Widget.tmdb.get("/discover/movie", {
+      params: queryParams
+    });
+
+    console.log("📊 备用方案获取到数据:", res.results ? res.results.length : 0, "条");
+
+    if (!res.results || res.results.length === 0) {
+      console.log("⚠️ 备用方案也无数据，使用本地数据...");
+      return generateThemeFallbackData(theme);
+    }
+
+    const results = res.results.map(item => {
+      const widgetItem = createWidgetItem(item);
+      widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
+      widgetItem.type = "theme-fallback";
+      widgetItem.source = `TMDB主题分类 (${theme}) (备用)`;
+      widgetItem.theme = theme;
+      
+      if (item.vote_average) {
+        widgetItem.rating = item.vote_average.toFixed(1);
+        widgetItem.ratingColor = item.vote_average >= 8.0 ? "#FFD700" : 
+                                item.vote_average >= 7.0 ? "#90EE90" : 
+                                item.vote_average >= 6.0 ? "#FFA500" : "#FF6B6B";
+      }
+
+      return widgetItem;
+    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+
+    console.log("✅ 备用方案成功处理数据:", results.length, "条");
+    return results;
+
+  } catch (error) {
+    console.error("❌ 主题分类备用数据加载失败:", error);
+    console.log("🔄 使用本地备用数据...");
+    return generateThemeFallbackData(theme);
+  }
+}
+
+// 生成主题分类备用数据
+function generateThemeFallbackData(theme) {
+  console.log(`🏠 生成本地主题分类备用数据: ${theme}`);
+  
+  // 主题对应的示例数据
+  const themeData = {
+    action: [
+      {
+        id: 550,
+        title: "搏击俱乐部",
+        originalTitle: "Fight Club",
+        overview: "一个失眠的上班族遇到了一个肥皂商，两人建立了地下搏击俱乐部...",
+        posterPath: "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+        backdropPath: "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+        voteAverage: 8.8,
+        voteCount: 25000,
+        releaseDate: "1999-10-15",
+        genreIds: [28, 18],
+        mediaType: "movie",
+        type: "theme-fallback",
+        source: `TMDB主题分类 (${theme}) (本地)`,
+        theme: theme,
+        rating: "8.8",
+        ratingColor: "#FFD700"
+      },
+      {
+        id: 13,
+        title: "指环王：护戒使者",
+        originalTitle: "The Lord of the Rings: The Fellowship of the Ring",
+        overview: "一个霍比特人弗罗多·巴金斯继承了一枚具有强大力量的戒指...",
+        posterPath: "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        backdropPath: "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        voteAverage: 8.9,
+        voteCount: 30000,
+        releaseDate: "2001-12-19",
+        genreIds: [12, 14, 28],
+        mediaType: "movie",
+        type: "theme-fallback",
+        source: `TMDB主题分类 (${theme}) (本地)`,
+        theme: theme,
+        rating: "8.9",
+        ratingColor: "#FFD700"
+      }
+    ],
+    sci_fi: [
+      {
+        id: 1891,
+        title: "星球大战：新希望",
+        originalTitle: "Star Wars: Episode IV - A New Hope",
+        overview: "卢克·天行者加入了反抗军，与汉·索罗和莱娅公主一起对抗帝国...",
+        posterPath: "/6FfCtAuVAK8R8UeWl8R3YkNpC3p.jpg",
+        backdropPath: "/6FfCtAuVAK8R8UeWl8R3YkNpC3p.jpg",
+        voteAverage: 8.6,
+        voteCount: 28000,
+        releaseDate: "1977-05-25",
+        genreIds: [12, 28, 878],
+        mediaType: "movie",
+        type: "theme-fallback",
+        source: `TMDB主题分类 (${theme}) (本地)`,
+        theme: theme,
+        rating: "8.6",
+        ratingColor: "#90EE90"
+      },
+      {
+        id: 11,
+        title: "星球大战：帝国反击战",
+        originalTitle: "Star Wars: Episode V - The Empire Strikes Back",
+        overview: "卢克·天行者前往达戈巴星球寻找绝地大师尤达...",
+        posterPath: "/2l05cFWJacyIsTpsqSgH0wQe8mw.jpg",
+        backdropPath: "/2l05cFWJacyIsTpsqSgH0wQe8mw.jpg",
+        voteAverage: 8.7,
+        voteCount: 26000,
+        releaseDate: "1980-05-21",
+        genreIds: [12, 28, 878],
+        mediaType: "movie",
+        type: "theme-fallback",
+        source: `TMDB主题分类 (${theme}) (本地)`,
+        theme: theme,
+        rating: "8.7",
+        ratingColor: "#90EE90"
+      }
+    ],
+    comedy: [
+      {
+        id: 637,
+        title: "生活大爆炸",
+        originalTitle: "The Big Bang Theory",
+        overview: "四个天才物理学家和他们的邻居佩妮的搞笑生活...",
+        posterPath: "/ooBGRoVc6wYdKqXqQYDaV3uJ8u.jpg",
+        backdropPath: "/ooBGRoVc6wYdKqXqQYDaV3uJ8u.jpg",
+        voteAverage: 7.8,
+        voteCount: 15000,
+        releaseDate: "2007-09-24",
+        genreIds: [35, 10751],
+        mediaType: "tv",
+        type: "theme-fallback",
+        source: `TMDB主题分类 (${theme}) (本地)`,
+        theme: theme,
+        rating: "7.8",
+        ratingColor: "#90EE90"
+      }
+    ]
+  };
+
+  const fallbackData = themeData[theme] || themeData.action;
+  
+  const results = fallbackData.map(item => {
+    const widgetItem = createWidgetItem(item);
+    widgetItem.genreTitle = getGenreTitle(item.genreIds, item.mediaType);
+    widgetItem.type = item.type;
+    widgetItem.source = item.source;
+    widgetItem.theme = item.theme;
+    widgetItem.rating = item.rating;
+    widgetItem.ratingColor = item.ratingColor;
+    
+    if (item.releaseDate) {
+      const date = new Date(item.releaseDate);
+      if (!isNaN(date.getTime())) {
+        widgetItem.releaseYear = date.getFullYear();
+      }
+    }
+
+    return widgetItem;
+  });
+
+  console.log(`✅ 本地主题分类数据生成完成: ${results.length} 条`);
+  return results;
 }
 
 // 4. Bangumi热门新番
