@@ -770,16 +770,16 @@ async function loadTmdbTrending(params = {}) {
           console.log(`⭐ 过滤评分 ${vote_average_gte}: ${beforeFilter} → ${results.length} 项`);
         }
         
-        // 处理带片名的背景图数据
-        results = results.map(item => {
-          const processedItem = {
-            ...item,
-            // 确保带片名的背景图字段正确传递
-            title_backdrop: item.title_backdrop || "",
-            backdropPath: item.title_backdrop || item.backdropPath || ""
-          };
+        // 处理带片名的背景图数据，使用增强的处理函数
+        results = await Promise.all(results.map(async item => {
+          const processedItem = await createWidgetItemWithDynamicLogo(item);
+          // 确保带片名的背景图字段正确传递
+          if (item.title_backdrop) {
+            processedItem.titleBackdrop = item.title_backdrop;
+            processedItem.backdropPath = item.title_backdrop; // 优先使用带片名的背景图
+          }
           return processedItem;
-        });
+        }));
         
         results = results.slice(0, CONFIG.MAX_ITEMS);
         console.log(`🎯 最终返回: ${results.length} 项`);

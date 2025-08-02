@@ -36,9 +36,9 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
-          echo "开始运行 get_tmdb_data.py..."
-          python scripts/get_tmdb_data.py
-          echo "get_tmdb_data.py 运行完成"
+          echo "开始运行 get_tmdb_data_with_logos.py..."
+          python get_tmdb_data_with_logos.py
+          echo "get_tmdb_data_with_logos.py 运行完成"
           
       - name: Run logo crawler script
         run: |
