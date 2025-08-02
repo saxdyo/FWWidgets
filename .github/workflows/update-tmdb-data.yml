@@ -1,4 +1,5 @@
 name: Update TMDB Backdrop Data
+# Workflow to automatically update TMDB backdrop data
 
 on:
   schedule:
