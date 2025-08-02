@@ -749,18 +749,25 @@ async function loadTmdbTrending(params = {}) {
 
     // 首先尝试从本地数据文件加载带logo的数据
     try {
+      console.log(`尝试从本地文件加载 ${content_type} 数据...`);
       const localData = await loadTmdbDataWithLogos();
+      
       if (localData && localData[`${content_type}_global`]) {
         let results = localData[`${content_type}_global`];
+        console.log(`✅ 成功加载本地数据: ${results.length} 项`);
         
         // 应用过滤条件
         if (media_type !== "all") {
+          const beforeFilter = results.length;
           results = results.filter(item => item.type === media_type);
+          console.log(`📺 过滤 ${media_type}: ${beforeFilter} → ${results.length} 项`);
         }
         
         if (vote_average_gte !== "0") {
           const minRating = parseFloat(vote_average_gte);
+          const beforeFilter = results.length;
           results = results.filter(item => item.rating >= minRating);
+          console.log(`⭐ 过滤评分 ${vote_average_gte}: ${beforeFilter} → ${results.length} 项`);
         }
         
         // 处理带片名的背景图数据
@@ -775,8 +782,14 @@ async function loadTmdbTrending(params = {}) {
         });
         
         results = results.slice(0, CONFIG.MAX_ITEMS);
+        console.log(`🎯 最终返回: ${results.length} 项`);
         setCachedData(cacheKey, results);
         return results;
+      } else {
+        console.log(`❌ 本地数据中未找到 ${content_type}_global 字段`);
+        if (localData) {
+          console.log(`可用字段: ${Object.keys(localData).join(', ')}`);
+        }
       }
     } catch (error) {
       console.warn('无法从本地文件加载logo数据，使用API调用:', error);
@@ -842,13 +855,23 @@ async function loadTmdbTrending(params = {}) {
 async function loadTmdbDataWithLogos() {
   try {
     const tmdbDataPath = './data/TMDB_Trending_with_logos.json';
+    console.log(`📁 尝试加载文件: ${tmdbDataPath}`);
+    
     const response = await fetch(tmdbDataPath);
     if (response.ok) {
       const data = await response.json();
+      console.log(`✅ 成功加载TMDB数据文件`);
+      console.log(`📊 数据字段: ${Object.keys(data).join(', ')}`);
       return data;
+    } else {
+      console.log(`❌ 文件加载失败: ${response.status} ${response.statusText}`);
     }
   } catch (error) {
     console.warn('无法从本地文件加载TMDB数据:', error);
+    console.log('可能的原因:');
+    console.log('- 文件不存在');
+    console.log('- 文件权限问题');
+    console.log('- JavaScript环境不支持fetch');
   }
   return null;
 }
