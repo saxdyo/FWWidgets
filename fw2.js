@@ -2228,3 +2228,302 @@ function generateFallbackData() {
     }
   ];
 }
+
+// ==================== 优化的横版标题海报加载器 ====================
+
+// 缓存管理 - 专门用于背景图数据
+const backdropCache = new Map();
+const BACKDROP_CACHE_DURATION = 24 * 60 * 60 * 1000; // 24小时缓存
+
+// 获取缓存的背景图数据
+function getCachedBackdrop(key) {
+  const cached = backdropCache.get(key);
+  if (cached && (Date.now() - cached.timestamp) < BACKDROP_CACHE_DURATION) {
+    return cached.data;
+  }
+  return null;
+}
+
+// 缓存背景图数据
+function cacheBackdrop(key, data) {
+  backdropCache.set(key, {
+    data: data,
+    timestamp: Date.now()
+  });
+}
+
+// 创建增强的Widget项目
+function createEnhancedWidgetItem(item) {
+  const widgetItem = createWidgetItem(item);
+  
+  // 添加横版标题海报支持
+  if (item.backdrop_path) {
+    widgetItem.titlePoster = generateTitlePosterUrl(item);
+    widgetItem.hasTitlePoster = true;
+    widgetItem.originalBackdrop = `https://image.tmdb.org/t/p/original${item.backdrop_path}`;
+    widgetItem.backdropTitle = item.title || item.name || "未知标题";
+    widgetItem.backdropYear = item.release_date || item.first_air_date ? 
+      new Date(item.release_date || item.first_air_date).getFullYear().toString() : "";
+    widgetItem.backdropRating = item.vote_average ? item.vote_average.toString() : "";
+    widgetItem.backdropType = item.media_type || "movie";
+    widgetItem.cssBackdropClass = 'backdrop-card-css';
+    widgetItem.hasBackdropOverlay = true;
+  }
+  
+  return widgetItem;
+}
+
+// 生成标题海报URL
+function generateTitlePosterUrl(item) {
+  const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
+  const title = encodeURIComponent(item.title || item.name || "未知标题");
+  const year = item.release_date || item.first_air_date ? 
+    new Date(item.release_date || item.first_air_date).getFullYear().toString() : "";
+  const rating = item.vote_average ? item.vote_average.toString() : "";
+  const type = item.media_type || "movie";
+  
+  return `https://image-overlay.vercel.app/api/backdrop?bg=${encodeURIComponent(backdropUrl)}&title=${title}&year=${year}&rating=${rating}&type=${type}`;
+}
+
+// 批量处理背景图数据
+async function batchProcessBackdrops(items, options = {}) {
+  const {
+    enableTitleOverlay = true,
+    preferredSize = 'w1280',
+    includeMetadata = true,
+    forceRegenerate = false,
+    maxConcurrent = 5
+  } = options;
+
+  console.log(`🔄 开始批量处理背景图数据: ${items.length}项, 并发数: ${maxConcurrent}`);
+
+  // 分批处理以避免过载
+  const batchSize = maxConcurrent;
+  const results = [];
+  
+  for (let i = 0; i < items.length; i += batchSize) {
+    const batch = items.slice(i, i + batchSize);
+    const batchPromises = batch.map(async (item, index) => {
+      try {
+        // 检查缓存
+        const cacheKey = `backdrop_${item.id}`;
+        if (!forceRegenerate) {
+          const cached = getCachedBackdrop(cacheKey);
+          if (cached) {
+            console.log(`✅ 使用缓存数据: ${item.title || item.name}`);
+            return cached;
+          }
+        }
+
+        // 处理单个项目
+        const processedItem = await processSingleBackdrop(item, {
+          enableTitleOverlay,
+          preferredSize,
+          includeMetadata
+        });
+
+        if (processedItem) {
+          // 缓存结果
+          cacheBackdrop(cacheKey, processedItem);
+          console.log(`✅ 处理完成 ${i + index + 1}/${items.length}: ${item.title || item.name}`);
+        }
+
+        return processedItem;
+      } catch (error) {
+        console.error(`❌ 处理失败 ${item.title || item.name}:`, error);
+        return null;
+      }
+    });
+
+    // 等待当前批次完成
+    const batchResults = await Promise.all(batchPromises);
+    results.push(...batchResults.filter(Boolean));
+
+    // 添加小延迟避免API限制
+    if (i + batchSize < items.length) {
+      await new Promise(resolve => setTimeout(resolve, 100));
+    }
+  }
+
+  console.log(`✅ 批量处理完成: ${results.length}/${items.length}项成功`);
+  return results;
+}
+
+// 处理单个背景图项目
+async function processSingleBackdrop(item, options = {}) {
+  const {
+    enableTitleOverlay = true,
+    preferredSize = 'w1280',
+    includeMetadata = true
+  } = options;
+
+  try {
+    // 基础数据
+    const processedItem = {
+      id: item.id,
+      title: item.title || item.name || "未知标题",
+      backdropUrl: item.backdrop_path ? 
+        `https://image.tmdb.org/t/p/${preferredSize}${item.backdrop_path}` : "",
+      originalBackdrop: item.backdrop_path ? 
+        `https://image.tmdb.org/t/p/original${item.backdrop_path}` : "",
+      mediaType: item.media_type || "movie"
+    };
+
+    // 生成标题海报
+    if (enableTitleOverlay && item.backdrop_path) {
+      processedItem.titlePoster = generateTitlePosterUrl(item);
+    }
+
+    // 添加元数据
+    if (includeMetadata) {
+      processedItem.metadata = {
+        rating: item.vote_average || 0,
+        voteCount: item.vote_count || 0,
+        popularity: item.popularity || 0,
+        releaseDate: item.release_date || item.first_air_date || "",
+        overview: item.overview || "",
+        genreIds: item.genre_ids || [],
+        originalLanguage: item.original_language || "",
+        adult: item.adult || false
+      };
+    }
+
+    return processedItem;
+  } catch (error) {
+    console.error(`❌ 处理单个背景图失败: ${item.title || item.name}`, error);
+    return null;
+  }
+}
+
+// 优化的横版标题海报加载器（支持更多数据源）
+async function loadEnhancedTitlePosterWithBackdrops(items, maxItems = 30, contentType = "today") {
+  console.log(`🎨 开始加载增强横版标题海报: ${items.length}项, 最大: ${maxItems}项`);
+  
+  try {
+    // 1. 尝试获取缓存的横版标题海报
+    const cachedBackdrops = [];
+    const itemsToProcess = items.slice(0, maxItems);
+    
+    for (const item of itemsToProcess) {
+      const cachedBackdrop = getCachedBackdrop(`backdrop_${item.id}`);
+      if (cachedBackdrop && cachedBackdrop.titlePoster) {
+        cachedBackdrops.push(cachedBackdrop);
+      }
+    }
+    
+    if (cachedBackdrops.length > 0) {
+      console.log(`✅ [增强横版标题海报] 使用缓存的横版标题海报: ${cachedBackdrops.length}项`);
+      return cachedBackdrops.map(backdrop => ({
+        id: backdrop.id,
+        title: backdrop.title,
+        posterPath: backdrop.backdropUrl,
+        titlePoster: backdrop.titlePoster,
+        metadata: backdrop.metadata,
+        // 添加Widget兼容字段
+        type: "enhanced_backdrop",
+        genreTitle: backdrop.metadata?.rating ? `⭐${backdrop.metadata.rating.toFixed(1)}` : "",
+        rating: backdrop.metadata?.rating || 0,
+        description: backdrop.metadata?.overview || "",
+        releaseDate: backdrop.metadata?.releaseDate || "",
+        coverUrl: backdrop.backdropUrl,
+        backdropPath: backdrop.backdropUrl,
+        mediaType: backdrop.mediaType || "movie",
+        popularity: backdrop.metadata?.popularity || 0,
+        voteCount: backdrop.metadata?.voteCount || 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        // 标题海报相关字段
+        hasTitlePoster: true,
+        originalBackdrop: backdrop.originalBackdrop,
+        backdropTitle: backdrop.title,
+        backdropYear: backdrop.metadata?.releaseDate ? 
+          new Date(backdrop.metadata.releaseDate).getFullYear().toString() : "",
+        backdropRating: backdrop.metadata?.rating ? backdrop.metadata.rating.toString() : "",
+        backdropType: backdrop.mediaType,
+        cssBackdropClass: 'backdrop-card-css',
+        hasBackdropOverlay: true
+      }));
+    } else {
+      // 2. 如果没有缓存的横版标题海报，立即生成
+      console.log(`🔄 [增强横版标题海报] 立即生成横版标题海报...`);
+      
+      const processedItems = await batchProcessBackdrops(itemsToProcess, {
+        enableTitleOverlay: true,
+        preferredSize: 'w1280',
+        includeMetadata: true,
+        forceRegenerate: true, // 强制重新生成
+        maxConcurrent: 5 // 增加并发数加快生成速度
+      });
+      
+      if (processedItems.length > 0) {
+        console.log(`✅ [增强横版标题海报] 立即生成成功: ${processedItems.length}项`);
+        
+        // 缓存生成的结果
+        processedItems.forEach((item, index) => {
+          if (item && item.id) {
+            cacheBackdrop(`backdrop_${item.id}`, item);
+            console.log(`💾 [增强横版标题海报] 缓存生成结果 ${index + 1}: ${item.title}`);
+          }
+        });
+        
+        return processedItems.map(item => ({
+          id: item.id,
+          title: item.title,
+          posterPath: item.backdropUrl,
+          titlePoster: item.titlePoster,
+          metadata: item.metadata,
+          // 添加Widget兼容字段
+          type: "enhanced_backdrop",
+          genreTitle: item.metadata?.rating ? `⭐${item.metadata.rating.toFixed(1)}` : "",
+          rating: item.metadata?.rating || 0,
+          description: item.metadata?.overview || "",
+          releaseDate: item.metadata?.releaseDate || "",
+          coverUrl: item.backdropUrl,
+          backdropPath: item.backdropUrl,
+          mediaType: item.mediaType || "movie",
+          popularity: item.metadata?.popularity || 0,
+          voteCount: item.metadata?.voteCount || 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: [],
+          // 标题海报相关字段
+          hasTitlePoster: true,
+          originalBackdrop: item.originalBackdrop,
+          backdropTitle: item.title,
+          backdropYear: item.metadata?.releaseDate ? 
+            new Date(item.metadata.releaseDate).getFullYear().toString() : "",
+          backdropRating: item.metadata?.rating ? item.metadata.rating.toString() : "",
+          backdropType: item.mediaType,
+          cssBackdropClass: 'backdrop-card-css',
+          hasBackdropOverlay: true
+        }));
+      } else {
+        // 3. 如果生成失败，使用普通数据
+        console.log(`⚠️ [增强横版标题海报] 生成失败，使用普通数据`);
+        return itemsToProcess.map(item => createEnhancedWidgetItem(item));
+      }
+    }
+  } catch (error) {
+    console.error(`❌ [增强横版标题海报] 加载失败:`, error);
+    // 返回普通数据作为后备
+    return items.slice(0, maxItems).map(item => createEnhancedWidgetItem(item));
+  }
+}
+
+// 清理背景图缓存
+function cleanupBackdropCache() {
+  const now = Date.now();
+  for (const [key, value] of backdropCache.entries()) {
+    if ((now - value.timestamp) > BACKDROP_CACHE_DURATION) {
+      backdropCache.delete(key);
+    }
+  }
+}
+
+// 定期清理背景图缓存
+setInterval(cleanupBackdropCache, 60 * 60 * 1000); // 每小时清理一次
