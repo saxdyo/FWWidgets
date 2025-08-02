@@ -234,19 +234,6 @@
     "releaseYear": 2023
   },
   {
-    "id": 46825,
-    "title": "Rooster Teeth Animated Adventures",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/92cc2hINaW72HTA0RqQaqPUbl4g.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/92cc2hINaW72HTA0RqQaqPUbl4g.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/92cc2hINaW72HTA0RqQaqPUbl4g.jpg",
-      "original": "https://image.tmdb.org/t/p/original/92cc2hINaW72HTA0RqQaqPUbl4g.jpg"
-    },
-    "rating": 8.6,
-    "releaseYear": 2011
-  },
-  {
     "id": 1622,
     "title": "邪恶力量",
     "mediaType": "tv",
@@ -633,7 +620,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/aSGSxGMTP893DPMCvMl9AdnEICE.jpg",
       "original": "https://image.tmdb.org/t/p/original/aSGSxGMTP893DPMCvMl9AdnEICE.jpg"
     },
-    "rating": 8.2,
+    "rating": 8.215,
     "releaseYear": 2006
   },
   {
@@ -702,19 +689,6 @@
     "releaseYear": 1989
   },
   {
-    "id": 46952,
-    "title": "罪恶黑名单",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg"
-    },
-    "rating": 7.638,
-    "releaseYear": 2013
-  },
-  {
     "id": 78648,
     "title": "惊人的星期六",
     "mediaType": "tv",
@@ -754,6 +728,19 @@
     "releaseYear": 2018
   },
   {
+    "id": 46952,
+    "title": "罪恶黑名单",
+    "mediaType": "tv",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg"
+    },
+    "rating": 7.6,
+    "releaseYear": 2013
+  },
+  {
     "id": 153485,
     "title": "海螺小姐",
     "mediaType": "tv",
@@ -778,6 +765,19 @@
     },
     "rating": 7.417,
     "releaseYear": 2025
+  },
+  {
+    "id": 62481,
+    "title": "打败巴比富雷",
+    "mediaType": "tv",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/kSFEIZS3HplqY1uN9U1GR0aEKlP.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/kSFEIZS3HplqY1uN9U1GR0aEKlP.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/kSFEIZS3HplqY1uN9U1GR0aEKlP.jpg",
+      "original": "https://image.tmdb.org/t/p/original/kSFEIZS3HplqY1uN9U1GR0aEKlP.jpg"
+    },
+    "rating": 6.519,
+    "releaseYear": 2013
   },
   {
     "id": 82873,
@@ -845,19 +845,6 @@
     "releaseYear": 2025
   },
   {
-    "id": 1433,
-    "title": "美国老爹",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/2OeS0YPFpqCmi7SA5W6aOPIChc3.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/2OeS0YPFpqCmi7SA5W6aOPIChc3.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/2OeS0YPFpqCmi7SA5W6aOPIChc3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2OeS0YPFpqCmi7SA5W6aOPIChc3.jpg"
-    },
-    "rating": 7,
-    "releaseYear": 2005
-  },
-  {
     "id": 574475,
     "title": "死神来了6：血脉诅咒",
     "mediaType": "movie",
@@ -869,6 +856,19 @@
     },
     "rating": 7.162,
     "releaseYear": 2025
+  },
+  {
+    "id": 72896,
+    "title": "我家的熊孩子",
+    "mediaType": "tv",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/vrLDuQ5L45f7vFWpMT17WopdWx0.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/vrLDuQ5L45f7vFWpMT17WopdWx0.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/vrLDuQ5L45f7vFWpMT17WopdWx0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/vrLDuQ5L45f7vFWpMT17WopdWx0.jpg"
+    },
+    "rating": 6.375,
+    "releaseYear": 2016
   },
   {
     "id": 72879,
@@ -884,19 +884,6 @@
     "releaseYear": 2017
   },
   {
-    "id": 498,
-    "title": "大卫·莱特曼深夜秀",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/7jEnft2CLNbILWAiBRIBrXNN7Qh.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/7jEnft2CLNbILWAiBRIBrXNN7Qh.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/7jEnft2CLNbILWAiBRIBrXNN7Qh.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7jEnft2CLNbILWAiBRIBrXNN7Qh.jpg"
-    },
-    "rating": 6.372,
-    "releaseYear": 1993
-  },
-  {
     "id": 2394,
     "title": "这个老房子",
     "mediaType": "tv",
@@ -910,19 +897,6 @@
     "releaseYear": 1979
   },
   {
-    "id": 240411,
-    "title": "胆大党",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/uNTrRKIOyKYISthoeizghtXPEOK.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/uNTrRKIOyKYISthoeizghtXPEOK.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/uNTrRKIOyKYISthoeizghtXPEOK.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uNTrRKIOyKYISthoeizghtXPEOK.jpg"
-    },
-    "rating": 8.644,
-    "releaseYear": 2024
-  },
-  {
     "id": 1398,
     "title": "黑道家族",
     "mediaType": "tv",
@@ -932,7 +906,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
       "original": "https://image.tmdb.org/t/p/original/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg"
     },
-    "rating": 8.658,
+    "rating": 8.656,
     "releaseYear": 1999
   },
   {
@@ -975,19 +949,6 @@
     "releaseYear": 2022
   },
   {
-    "id": 291,
-    "title": "加冕街",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg",
-      "original": "https://image.tmdb.org/t/p/original/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg"
-    },
-    "rating": 5.4,
-    "releaseYear": 1960
-  },
-  {
     "id": 220542,
     "title": "药屋少女的呢喃",
     "mediaType": "tv",
@@ -1023,7 +984,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
       "original": "https://image.tmdb.org/t/p/original/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg"
     },
-    "rating": 8.697,
+    "rating": 8.7,
     "releaseYear": 2015
   },
   {
@@ -1101,7 +1062,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/l5jzuehwynnoEWUb9z25auHXQM.jpg",
       "original": "https://image.tmdb.org/t/p/original/l5jzuehwynnoEWUb9z25auHXQM.jpg"
     },
-    "rating": 9.118,
+    "rating": 9.117,
     "releaseYear": 2025
   },
   {
@@ -1222,19 +1183,6 @@
     "releaseYear": 2025
   },
   {
-    "id": 615453,
-    "title": "哪吒之魔童降世",
-    "mediaType": "movie",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/wYbOd1YdpDonQUHwRCTCY2grSq4.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/wYbOd1YdpDonQUHwRCTCY2grSq4.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/wYbOd1YdpDonQUHwRCTCY2grSq4.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wYbOd1YdpDonQUHwRCTCY2grSq4.jpg"
-    },
-    "rating": 7.957,
-    "releaseYear": 2019
-  },
-  {
     "id": 37854,
     "title": "航海王",
     "mediaType": "tv",
@@ -1244,7 +1192,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
       "original": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg"
     },
-    "rating": 8.7,
+    "rating": 8.724,
     "releaseYear": 1999
   },
   {
@@ -1313,6 +1261,19 @@
     "releaseYear": 1977
   },
   {
+    "id": 1326106,
+    "title": "怪兽8号 第一季 总集篇",
+    "mediaType": "movie",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/iZ0ZSnhmHB3k1KDkDzEz65f5iia.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/iZ0ZSnhmHB3k1KDkDzEz65f5iia.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/iZ0ZSnhmHB3k1KDkDzEz65f5iia.jpg",
+      "original": "https://image.tmdb.org/t/p/original/iZ0ZSnhmHB3k1KDkDzEz65f5iia.jpg"
+    },
+    "rating": 7.705,
+    "releaseYear": 2025
+  },
+  {
     "id": 1413643,
     "title": "Sin él",
     "mediaType": "movie",
@@ -1374,7 +1335,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/fUoHnP40Mpuo14jgAOMJMPXSVfG.jpg",
       "original": "https://image.tmdb.org/t/p/original/fUoHnP40Mpuo14jgAOMJMPXSVfG.jpg"
     },
-    "rating": 6.8,
+    "rating": 6.822,
     "releaseYear": 2025
   },
   {
@@ -1426,7 +1387,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg",
       "original": "https://image.tmdb.org/t/p/original/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg"
     },
-    "rating": 7.8,
+    "rating": 7.79,
     "releaseYear": 2023
   },
   {
@@ -1478,7 +1439,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/lecBUG6Hsw7pYjTNAPBUgouDfjW.jpg",
       "original": "https://image.tmdb.org/t/p/original/lecBUG6Hsw7pYjTNAPBUgouDfjW.jpg"
     },
-    "rating": 7.325,
+    "rating": 7.339,
     "releaseYear": 2025
   },
   {
@@ -1491,7 +1452,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/6van4BavoNXaZhCPdzLHNQ4Uc8H.jpg",
       "original": "https://image.tmdb.org/t/p/original/6van4BavoNXaZhCPdzLHNQ4Uc8H.jpg"
     },
-    "rating": 6.977,
+    "rating": 6.976,
     "releaseYear": 2025
   },
   {
@@ -1543,7 +1504,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
       "original": "https://image.tmdb.org/t/p/original/nAxGnGHOsfzufThz20zgmRwKur3.jpg"
     },
-    "rating": 7.562,
+    "rating": 7.561,
     "releaseYear": 2025
   },
   {
@@ -1638,6 +1599,19 @@
     "releaseYear": 2025
   },
   {
+    "id": 1189735,
+    "title": "弗雷瓦卡",
+    "mediaType": "movie",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/qj0GN10AC65FcJchKLTDmOFE15X.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/qj0GN10AC65FcJchKLTDmOFE15X.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/qj0GN10AC65FcJchKLTDmOFE15X.jpg",
+      "original": "https://image.tmdb.org/t/p/original/qj0GN10AC65FcJchKLTDmOFE15X.jpg"
+    },
+    "rating": 7.1,
+    "releaseYear": 2025
+  },
+  {
     "id": 1026222,
     "title": "Saint Clare",
     "mediaType": "movie",
@@ -1725,7 +1699,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/xVoj3HrOsnjOyyhqRD9jt5kTPc4.jpg",
       "original": "https://image.tmdb.org/t/p/original/xVoj3HrOsnjOyyhqRD9jt5kTPc4.jpg"
     },
-    "rating": 6.464,
+    "rating": 6.462,
     "releaseYear": 2024
   },
   {
@@ -1794,6 +1768,19 @@
     "releaseYear": 2025
   },
   {
+    "id": 241388,
+    "title": "瓦坎达之眼",
+    "mediaType": "tv",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+      "original": "https://image.tmdb.org/t/p/original/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg"
+    },
+    "rating": 4.68,
+    "releaseYear": 2025
+  },
+  {
     "id": 939243,
     "title": "刺猬索尼克3",
     "mediaType": "movie",
@@ -1855,7 +1842,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/oXfSTPDBsSoXsUxv7GLA7d76Mh.jpg",
       "original": "https://image.tmdb.org/t/p/original/oXfSTPDBsSoXsUxv7GLA7d76Mh.jpg"
     },
-    "rating": 5.543,
+    "rating": 5.5,
     "releaseYear": 2025
   },
   {
@@ -1883,19 +1870,6 @@
     },
     "rating": 6,
     "releaseYear": 2009
-  },
-  {
-    "id": 241388,
-    "title": "瓦坎达之眼",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg"
-    },
-    "rating": 4.409,
-    "releaseYear": 2025
   },
   {
     "id": 131378,
@@ -1976,19 +1950,6 @@
     "releaseYear": 2002
   },
   {
-    "id": 1243341,
-    "title": "僵尸高校4：吸血鬼黎明",
-    "mediaType": "movie",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/68TGPnvmZ21NBOoV5IUZ4fQDyvZ.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/68TGPnvmZ21NBOoV5IUZ4fQDyvZ.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/68TGPnvmZ21NBOoV5IUZ4fQDyvZ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/68TGPnvmZ21NBOoV5IUZ4fQDyvZ.jpg"
-    },
-    "rating": 7.203,
-    "releaseYear": 2025
-  },
-  {
     "id": 1241436,
     "title": "战·争",
     "mediaType": "movie",
@@ -2041,19 +2002,6 @@
     "releaseYear": 2024
   },
   {
-    "id": 822119,
-    "title": "美国队长4",
-    "mediaType": "movie",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/8eifdha9GQeZAkexgtD45546XKx.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/8eifdha9GQeZAkexgtD45546XKx.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/8eifdha9GQeZAkexgtD45546XKx.jpg",
-      "original": "https://image.tmdb.org/t/p/original/8eifdha9GQeZAkexgtD45546XKx.jpg"
-    },
-    "rating": 6.04,
-    "releaseYear": 2025
-  },
-  {
     "id": 713364,
     "title": "玉米地小丑",
     "mediaType": "movie",
@@ -2067,16 +2015,16 @@
     "releaseYear": 2025
   },
   {
-    "id": 1285728,
-    "title": "寻常女子的失常狂想",
+    "id": 822119,
+    "title": "美国队长4",
     "mediaType": "movie",
     "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/u406tzmoD60CmCqGbSRLE2bifmT.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/u406tzmoD60CmCqGbSRLE2bifmT.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/u406tzmoD60CmCqGbSRLE2bifmT.jpg",
-      "original": "https://image.tmdb.org/t/p/original/u406tzmoD60CmCqGbSRLE2bifmT.jpg"
+      "w300": "https://image.tmdb.org/t/p/w300/8eifdha9GQeZAkexgtD45546XKx.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/8eifdha9GQeZAkexgtD45546XKx.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/8eifdha9GQeZAkexgtD45546XKx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8eifdha9GQeZAkexgtD45546XKx.jpg"
     },
-    "rating": 6.234,
+    "rating": 6.039,
     "releaseYear": 2025
   },
   {
@@ -2208,6 +2156,19 @@
     },
     "rating": 6.4,
     "releaseYear": 2020
+  },
+  {
+    "id": 42705,
+    "title": "第一神拳",
+    "mediaType": "tv",
+    "backdropUrls": {
+      "w300": "https://image.tmdb.org/t/p/w300/uHMjELRJMsrKbGBlT6ZQgUcOjtX.jpg",
+      "w780": "https://image.tmdb.org/t/p/w780/uHMjELRJMsrKbGBlT6ZQgUcOjtX.jpg",
+      "w1280": "https://image.tmdb.org/t/p/w1280/uHMjELRJMsrKbGBlT6ZQgUcOjtX.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uHMjELRJMsrKbGBlT6ZQgUcOjtX.jpg"
+    },
+    "rating": 8.652,
+    "releaseYear": 2000
   },
   {
     "id": 31911,
@@ -2431,19 +2392,6 @@
     "releaseYear": 1954
   },
   {
-    "id": 296834,
-    "title": "华山论剑",
-    "mediaType": "tv",
-    "backdropUrls": {
-      "w300": "https://image.tmdb.org/t/p/w300/9q7uryMCmAun2bGXoP3Liw24mpz.jpg",
-      "w780": "https://image.tmdb.org/t/p/w780/9q7uryMCmAun2bGXoP3Liw24mpz.jpg",
-      "w1280": "https://image.tmdb.org/t/p/w1280/9q7uryMCmAun2bGXoP3Liw24mpz.jpg",
-      "original": "https://image.tmdb.org/t/p/original/9q7uryMCmAun2bGXoP3Liw24mpz.jpg"
-    },
-    "rating": 5,
-    "releaseYear": 2025
-  },
-  {
     "id": 19404,
     "title": "勇夺芳心",
     "mediaType": "movie",
@@ -2466,7 +2414,7 @@
       "w1280": "https://image.tmdb.org/t/p/w1280/A466i5iATrpbVjX30clP1Zyfp31.jpg",
       "original": "https://image.tmdb.org/t/p/original/A466i5iATrpbVjX30clP1Zyfp31.jpg"
     },
-    "rating": 7.8,
+    "rating": 7.712,
     "releaseYear": 2025
   },
   {
