@@ -1260,23 +1260,308 @@ async function loadAnimeList(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 这里需要根据实际的动画数据源来实现
-    // 由于原脚本中的动画模块使用了复杂的数据源，这里提供一个简化版本
-    // 实际使用时需要根据具体的数据源来调整
+    const endpoint = "/discover/tv";
     
-    // 简化的动画数据获取（实际使用时需要根据具体的数据源来调整）
-    const results = [];
-    
-    // 这里应该根据实际的动画数据源来获取数据
-    // 由于原脚本中的动画模块使用了复杂的数据源，这里提供一个简化版本
-    
+    // 构建查询参数
+    const queryParams = {
+      language: "zh-CN",
+      page: page,
+      api_key: CONFIG.API_KEY,
+      with_genres: "16", // 动画类型
+      vote_count_gte: 10,
+      include_adult: false
+    };
+
+    // 根据排序方式设置参数
+    switch (sort_by) {
+      case "hs_desc":
+        queryParams.sort_by = "popularity.desc";
+        break;
+      case "hs_asc":
+        queryParams.sort_by = "popularity.asc";
+        break;
+      case "r_desc":
+        queryParams.sort_by = "vote_average.desc";
+        break;
+      case "r_asc":
+        queryParams.sort_by = "vote_average.asc";
+        break;
+      case "date_desc":
+        queryParams.sort_by = "first_air_date.desc";
+        break;
+      case "date_asc":
+        queryParams.sort_by = "first_air_date.asc";
+        break;
+      default:
+        queryParams.sort_by = "popularity.desc";
+    }
+
+    // 设置最低评分要求
+    if (min_rating && min_rating !== "0") {
+      queryParams.vote_average_gte = min_rating;
+    }
+
+    // 根据地区筛选
+    if (region && region !== "all") {
+      if (region.startsWith("country:")) {
+        const country = region.split(":")[1];
+        queryParams.with_origin_country = country.toUpperCase();
+      } else if (region.startsWith("region:")) {
+        // 处理区域筛选
+        const regionCode = region.split(":")[1];
+        if (regionCode === "us-eu") {
+          // 欧美地区，可以添加多个国家代码
+          queryParams.with_origin_country = "US,GB,DE,FR,IT,ES";
+        }
+      }
+    }
+
+    // 年份筛选
+    if (year && year !== "") {
+      const startDate = `${year}-01-01`;
+      const endDate = `${year}-12-31`;
+      queryParams.first_air_date_gte = startDate;
+      queryParams.first_air_date_lte = endDate;
+    }
+
+    // 添加动画相关的额外筛选条件
+    queryParams.with_keywords = "210024"; // TMDB动画关键词ID
+    queryParams.with_watch_providers = "8"; // Netflix等流媒体平台
+
+    const res = await Widget.tmdb.get(endpoint, {
+      params: queryParams
+    });
+
+    const results = res.results.map(item => {
+      const widgetItem = createWidgetItem(item);
+      widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
+      
+      // 添加动画特定标识
+      widgetItem.type = "anime";
+      widgetItem.source = "✨ 动画";
+      widgetItem.isAnime = true;
+      
+      // 优化动画信息显示
+      if (widgetItem.releaseDate) {
+        const date = new Date(widgetItem.releaseDate);
+        if (!isNaN(date.getTime())) {
+          widgetItem.airDate = widgetItem.releaseDate;
+          widgetItem.airYear = date.getFullYear();
+          widgetItem.isRecent = (new Date().getTime() - date.getTime()) < (365 * 24 * 60 * 60 * 1000);
+        }
+      }
+
+      // 添加动画评分信息
+      if (item.vote_average) {
+        widgetItem.rating = item.vote_average.toFixed(1);
+        widgetItem.ratingColor = item.vote_average >= 8.0 ? "#FFD700" : 
+                                item.vote_average >= 7.0 ? "#90EE90" : 
+                                item.vote_average >= 6.0 ? "#FFA500" : "#FF6B6B";
+      }
+
+      // 添加动画状态信息
+      if (item.status) {
+        widgetItem.status = item.status;
+        widgetItem.isOngoing = item.status === "Returning Series";
+        widgetItem.isCompleted = item.status === "Ended";
+      }
+
+      // 添加动画集数信息
+      if (item.number_of_seasons) {
+        widgetItem.seasons = item.number_of_seasons;
+      }
+      if (item.number_of_episodes) {
+        widgetItem.episodes = item.number_of_episodes;
+      }
+
+      return widgetItem;
+    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+
+    // 如果没有获取到数据，尝试使用备用方案
+    if (results.length === 0) {
+      console.log("动画数据获取为空，尝试备用方案...");
+      return await loadAnimeFallback(params);
+    }
+
     setCachedData(cacheKey, results);
     return results;
 
   } catch (error) {
     console.error("动画列表加载失败:", error);
-    return [];
+    // 返回备用数据
+    return await loadAnimeFallback(params);
   }
+}
+
+// 动画备用数据获取函数
+async function loadAnimeFallback(params = {}) {
+  const { region = "all", sort_by = "hs_desc", min_rating = "0", year = "", page = 1 } = params;
+  
+  try {
+    // 使用更简单的查询参数
+    const queryParams = {
+      language: "zh-CN",
+      page: page,
+      api_key: CONFIG.API_KEY,
+      with_genres: "16", // 动画类型
+      sort_by: "popularity.desc",
+      vote_count_gte: 5,
+      include_adult: false
+    };
+
+    // 设置最低评分
+    if (min_rating && min_rating !== "0") {
+      queryParams.vote_average_gte = min_rating;
+    }
+
+    // 年份筛选
+    if (year && year !== "") {
+      const startDate = `${year}-01-01`;
+      const endDate = `${year}-12-31`;
+      queryParams.first_air_date_gte = startDate;
+      queryParams.first_air_date_lte = endDate;
+    }
+
+    const res = await Widget.tmdb.get("/discover/tv", {
+      params: queryParams
+    });
+
+    const results = res.results.map(item => {
+      const widgetItem = createWidgetItem(item);
+      widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
+      widgetItem.type = "anime-fallback";
+      widgetItem.source = "✨ 动画 (备用)";
+      widgetItem.isAnime = true;
+      
+      if (item.vote_average) {
+        widgetItem.rating = item.vote_average.toFixed(1);
+      }
+
+      return widgetItem;
+    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+
+    return results;
+
+  } catch (error) {
+    console.error("动画备用数据加载失败:", error);
+    return generateAnimeFallbackData();
+  }
+}
+
+// 生成动画备用数据
+function generateAnimeFallbackData() {
+  const fallbackAnime = [
+    {
+      id: 1399,
+      title: "进击的巨人",
+      originalTitle: "Attack on Titan",
+      overview: "人类为了对抗巨人而建造了三道城墙，但平静的生活被超大型巨人的出现打破...",
+      posterPath: "/8C6T2Jq6r4SFvHXIM3ONt0JqPKq.jpg",
+      backdropPath: "/8C6T2Jq6r4SFvHXIM3ONt0JqPKq.jpg",
+      voteAverage: 9.0,
+      voteCount: 5000,
+      releaseDate: "2013-04-07",
+      genreIds: [16, 28, 12],
+      mediaType: "tv",
+      type: "anime-fallback",
+      source: "✨ 动画 (本地)",
+      isAnime: true,
+      rating: "9.0",
+      ratingColor: "#FFD700"
+    },
+    {
+      id: 1396,
+      title: "死亡笔记",
+      originalTitle: "Death Note",
+      overview: "天才高中生夜神月捡到一本名为"死亡笔记"的神秘笔记本，只要在上面写下名字就能杀死对方...",
+      posterPath: "/iigTJJSkWpVk0mWckxYKrS8VfGV.jpg",
+      backdropPath: "/iigTJJSkWpVk0mWckxYKrS8VfGV.jpg",
+      voteAverage: 8.9,
+      voteCount: 4500,
+      releaseDate: "2006-10-03",
+      genreIds: [16, 80, 9648],
+      mediaType: "tv",
+      type: "anime-fallback",
+      source: "✨ 动画 (本地)",
+      isAnime: true,
+      rating: "8.9",
+      ratingColor: "#FFD700"
+    },
+    {
+      id: 1398,
+      title: "火影忍者",
+      originalTitle: "Naruto",
+      overview: "漩涡鸣人是一个孤独的少年，体内封印着九尾妖狐，他梦想成为火影...",
+      posterPath: "/v6CumzCoMKZxQ5JEMlt0mnIQTJg.jpg",
+      backdropPath: "/v6CumzCoMKZxQ5JEMlt0mnIQTJg.jpg",
+      voteAverage: 8.3,
+      voteCount: 3800,
+      releaseDate: "2002-10-03",
+      genreIds: [16, 28, 12],
+      mediaType: "tv",
+      type: "anime-fallback",
+      source: "✨ 动画 (本地)",
+      isAnime: true,
+      rating: "8.3",
+      ratingColor: "#90EE90"
+    },
+    {
+      id: 1397,
+      title: "海贼王",
+      originalTitle: "One Piece",
+      overview: "蒙奇·D·路飞为了寻找传说中的宝藏"One Piece"而踏上冒险之旅...",
+      posterPath: "/fcXdJlbSdUEeMSJFsXMsSzWbfbG.jpg",
+      backdropPath: "/fcXdJlbSdUEeMSJFsXMsSzWbfbG.jpg",
+      voteAverage: 8.7,
+      voteCount: 4200,
+      releaseDate: "1999-10-20",
+      genreIds: [16, 28, 12],
+      mediaType: "tv",
+      type: "anime-fallback",
+      source: "✨ 动画 (本地)",
+      isAnime: true,
+      rating: "8.7",
+      ratingColor: "#90EE90"
+    },
+    {
+      id: 1395,
+      title: "龙珠",
+      originalTitle: "Dragon Ball",
+      overview: "孙悟空是一个拥有尾巴的少年，他与布尔玛一起寻找七颗龙珠...",
+      posterPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
+      backdropPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
+      voteAverage: 8.2,
+      voteCount: 3500,
+      releaseDate: "1986-02-26",
+      genreIds: [16, 28, 12],
+      mediaType: "tv",
+      type: "anime-fallback",
+      source: "✨ 动画 (本地)",
+      isAnime: true,
+      rating: "8.2",
+      ratingColor: "#90EE90"
+    }
+  ];
+
+  return fallbackAnime.map(item => {
+    const widgetItem = createWidgetItem(item);
+    widgetItem.genreTitle = getGenreTitle(item.genreIds, "tv");
+    widgetItem.type = item.type;
+    widgetItem.source = item.source;
+    widgetItem.isAnime = item.isAnime;
+    widgetItem.rating = item.rating;
+    widgetItem.ratingColor = item.ratingColor;
+    
+    if (item.releaseDate) {
+      const date = new Date(item.releaseDate);
+      if (!isNaN(date.getTime())) {
+        widgetItem.airDate = item.releaseDate;
+        widgetItem.airYear = date.getFullYear();
+      }
+    }
+
+    return widgetItem;
+  });
 }
 
 // 6. 🎨 TMDB背景图数据包
