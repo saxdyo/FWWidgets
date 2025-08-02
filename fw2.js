@@ -1636,17 +1636,20 @@ async function loadTmdbTitleBackdropData(params = {}) {
         durationText: "",
         episode: 0,
         childItems: [],
-        // 带标题背景图相关字段
+        // 带标题背景图相关字段 - CSS叠加方案
         titleBackdrop: item.title_backdrop,
         hasTitleBackdrop: !!item.title_backdrop,
         dataSource: data_source,
         isTitleBackdropData: true,
-        // 添加原始背景图和标题信息，供前端叠加
+        // CSS叠加所需字段
         originalBackdrop: item.original_backdrop || item.title_backdrop,
         backdropTitle: item.backdrop_title || item.title,
         backdropYear: item.backdrop_year || '',
         backdropRating: item.backdrop_rating || '',
-        backdropType: item.backdrop_type || item.type
+        backdropType: item.backdrop_type || item.type,
+        // 添加CSS类名标识
+        cssBackdropClass: 'backdrop-card-css',
+        hasBackdropOverlay: true
       };
       
       // 优化标题显示

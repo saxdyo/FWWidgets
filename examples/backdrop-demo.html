@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDB带标题背景图演示</title>
+    <link rel="stylesheet" href="../styles/backdrop-overlay.css">
+    <style>
+        /* 页面样式 */
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        .header p {
+            margin: 10px 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .control-group label {
+            font-weight: 500;
+            color: #495057;
+        }
+
+        .control-group select,
+        .control-group button {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .control-group button {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .control-group button:hover {
+            background: #0056b3;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .error {
+            text-align: center;
+            padding: 40px;
+            color: #dc3545;
+        }
+
+        /* 模态框样式 */
+        .backdrop-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1000;
+        }
+
+        .modal-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 80vh;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            color: #212529;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #6c757d;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-close:hover {
+            color: #dc3545;
+        }
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        .modal-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .modal-info p {
+            margin: 10px 0;
+            color: #495057;
+        }
+
+        .modal-info strong {
+            color: #212529;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TMDB带标题背景图</h1>
+            <p>使用CSS叠加方案显示高质量背景图内容</p>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="layout">布局:</label>
+                <select id="layout">
+                    <option value="grid">网格</option>
+                    <option value="list">列表</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="showRating">显示评分:</label>
+                <input type="checkbox" id="showRating" checked>
+            </div>
+
+            <div class="control-group">
+                <label for="showYear">显示年份:</label>
+                <input type="checkbox" id="showYear" checked>
+            </div>
+
+            <div class="control-group">
+                <label for="showType">显示类型:</label>
+                <input type="checkbox" id="showType" checked>
+            </div>
+
+            <div class="control-group">
+                <button id="refreshBtn">刷新数据</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="backdropContainer">
+                <div class="loading">正在加载背景图数据...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/backdrop-renderer.js"></script>
+    <script>
+        // 模拟数据
+        const mockData = [
+            {
+                id: 552524,
+                title: "星际宝贝史迪奇",
+                type: "movie",
+                backdropTitle: "星际宝贝史迪奇",
+                backdropYear: "2025",
+                backdropRating: "7.2",
+                backdropType: "movie",
+                originalBackdrop: "https://image.tmdb.org/t/p/original/9qqYLAHCpA4gLUl7Irhm2SBZr5X.jpg",
+                description: "讲述孤独的夏威夷小女孩莉萝和看起来调皮捣蛋的外星生物史迪奇的冒险故事。"
+            },
+            {
+                id: 123456,
+                title: "复仇者联盟：终局之战",
+                type: "movie",
+                backdropTitle: "复仇者联盟：终局之战",
+                backdropYear: "2019",
+                backdropRating: "8.4",
+                backdropType: "movie",
+                originalBackdrop: "https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+                description: "在灭霸消灭宇宙一半的生命并摧毁无限宝石之后，复仇者联盟必须重新集结，逆转他所做的一切。"
+            },
+            {
+                id: 789012,
+                title: "权力的游戏",
+                type: "tv",
+                backdropTitle: "权力的游戏",
+                backdropYear: "2011",
+                backdropRating: "9.3",
+                backdropType: "tv",
+                originalBackdrop: "https://image.tmdb.org/t/p/original/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+                description: "九个贵族家族争夺维斯特洛大陆的控制权，而一个古老的敌人重新出现。"
+            },
+            {
+                id: 345678,
+                title: "进击的巨人",
+                type: "tv",
+                backdropTitle: "进击的巨人",
+                backdropYear: "2013",
+                backdropRating: "9.0",
+                backdropType: "tv",
+                originalBackdrop: "https://image.tmdb.org/t/p/original/8C5gM5xXqQj8tJzKzQzKzQzKzQzK.jpg",
+                description: "人类生活在被巨大墙壁包围的城市中，以保护自己免受巨人的侵害。"
+            }
+        ];
+
+        // 初始化渲染器
+        let renderer;
+        let currentData = mockData;
+
+        function initRenderer() {
+            const container = document.getElementById('backdropContainer');
+            container.innerHTML = '';
+
+            renderer = new BackdropRenderer(container, {
+                layout: document.getElementById('layout').value,
+                showRating: document.getElementById('showRating').checked,
+                showYear: document.getElementById('showYear').checked,
+                showType: document.getElementById('showType').checked,
+                animation: true
+            });
+
+            renderer.render(currentData);
+        }
+
+        // 绑定控制事件
+        document.getElementById('layout').addEventListener('change', (e) => {
+            renderer.updateLayout(e.target.value);
+        });
+
+        document.getElementById('showRating').addEventListener('change', (e) => {
+            renderer.updateOptions({ showRating: e.target.checked });
+            renderer.render(currentData);
+        });
+
+        document.getElementById('showYear').addEventListener('change', (e) => {
+            renderer.updateOptions({ showYear: e.target.checked });
+            renderer.render(currentData);
+        });
+
+        document.getElementById('showType').addEventListener('change', (e) => {
+            renderer.updateOptions({ showType: e.target.checked });
+            renderer.render(currentData);
+        });
+
+        document.getElementById('refreshBtn').addEventListener('click', () => {
+            // 模拟刷新数据
+            const loadingDiv = document.createElement('div');
+            loadingDiv.className = 'loading';
+            loadingDiv.textContent = '正在刷新数据...';
+            
+            const container = document.getElementById('backdropContainer');
+            container.innerHTML = '';
+            container.appendChild(loadingDiv);
+
+            setTimeout(() => {
+                // 随机打乱数据顺序
+                currentData = [...mockData].sort(() => Math.random() - 0.5);
+                initRenderer();
+            }, 1000);
+        });
+
+        // 监听背景图点击事件
+        document.addEventListener('backdropClick', (e) => {
+            console.log('背景图被点击:', e.detail);
+        });
+
+        // 初始化
+        initRenderer();
+    </script>
+</body>
+</html>
