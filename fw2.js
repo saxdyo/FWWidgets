@@ -763,6 +763,17 @@ async function loadTmdbTrending(params = {}) {
           results = results.filter(item => item.rating >= minRating);
         }
         
+        // 处理带片名的背景图数据
+        results = results.map(item => {
+          const processedItem = {
+            ...item,
+            // 确保带片名的背景图字段正确传递
+            title_backdrop: item.title_backdrop || "",
+            backdropPath: item.title_backdrop || item.backdropPath || ""
+          };
+          return processedItem;
+        });
+        
         results = results.slice(0, CONFIG.MAX_ITEMS);
         setCachedData(cacheKey, results);
         return results;
@@ -892,7 +903,7 @@ function getDefaultBackdrop(platform) {
   return defaultBackdrops[platform] || "";
 }
 
-// 增强的createWidgetItem函数，支持动态logo数据
+// 增强的createWidgetItem函数，支持动态logo数据和带片名的背景图
 async function createWidgetItemWithDynamicLogo(item) {
   const baseItem = {
     id: item.id.toString(),
@@ -914,6 +925,12 @@ async function createWidgetItemWithDynamicLogo(item) {
     episode: 0,
     childItems: []
   };
+  
+  // 优先使用带片名的背景图（title_backdrop）
+  if (item.title_backdrop) {
+    baseItem.titleBackdrop = item.title_backdrop;
+    baseItem.backdropPath = item.title_backdrop; // 使用带片名的背景图作为主要背景
+  }
   
   // 检测平台
   const detectedPlatform = detectPlatform(item.title || item.name, item.overview);
