@@ -1,32 +1,41 @@
 {
-  "name": "tmdb-backdrop-scraper",
+  "name": "tmdb-data-generator",
   "version": "1.0.0",
-  "description": "TMDB电影背景图爬取和数据包生成工具",
-  "main": "fw2.js",
+  "description": "TMDB 数据包生成工具，用于创建类似 ForwardWidgets 的数据文件",
+  "main": "scripts/generate_tmdb_data.js",
   "scripts": {
-    "scrape": "node tmdb-scraper.js",
-    "update-data": "node tmdb-scraper.js && git add . && git commit -m 'Auto update: TMDB backdrop data' && git push",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "axios": "^1.6.0",
-    "fs-extra": "^11.2.0",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.50.0"
+    "generate:js": "node scripts/generate_tmdb_data.js",
+    "generate:py": "python scripts/generate_tmdb_data.py",
+    "generate": "npm run generate:js",
+    "test": "node scripts/test_data.js",
+    "test:api": "node -e \"console.log('TMDB API Key:', process.env.TMDB_API_KEY ? '已设置' : '未设置')\"",
+    "setup": "npm install && echo '请设置 TMDB_API_KEY 环境变量'",
+    "validate": "npm run generate && npm run test"
   },
   "keywords": [
     "tmdb",
-    "movie",
-    "backdrop",
-    "scraper",
-    "data"
+    "api",
+    "data",
+    "widget",
+    "movies",
+    "tv-shows",
+    "trending"
   ],
-  "author": "saxdyo",
+  "author": "Your Name",
   "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/saxdyo/FWWidgets.git"
-  }
+    "url": "https://github.com/your-username/tmdb-data-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/tmdb-data-generator/issues"
+  },
+  "homepage": "https://github.com/your-username/tmdb-data-generator#readme"
 }
