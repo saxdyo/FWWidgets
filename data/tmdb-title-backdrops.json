@@ -1,4 +1,60 @@
 {
-  "last_updated": "2025-08-02 17:49:43",
-  "today_global": []
+  "last_updated": "2025-08-02 17:50:27",
+  "today_global": [
+    {
+      "id": 552524,
+      "title": "星际宝贝史迪奇",
+      "type": "movie",
+      "genreTitle": "电影•家庭•科幻•喜剧",
+      "rating": 7.2,
+      "release_date": "2025-05-17",
+      "overview": "讲述孤独的夏威夷小女孩莉萝（玛雅·凯洛哈 饰）和看起来调皮捣蛋的外星生物史迪奇（克里斯·桑德斯 Chris Sanders 配音）的冒险故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dpEWJUvwpYAX1YFvoyzOfsikIGq.jpg",
+      "title_backdrop": "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2F9qqYLAHCpA4gLUl7Irhm2SBZr5X.jpg&title=%E6%98%9F%E9%99%85%E5%AE%9D%E8%B4%9D%E5%8F%B2%E8%BF%AA%E5%A5%87&year=2025&rating=7.2&type=movie"
+    },
+    {
+      "id": 241388,
+      "title": "瓦坎达之眼",
+      "type": "tv",
+      "genreTitle": "TV剧•动作冒险",
+      "rating": 4.5,
+      "release_date": "2025-08-01",
+      "overview": "Marvel 动画全新动作历险剧集《瓦干达之眼》讲述勇敢的瓦干达战士们的冒险事迹。 故事发生在世界各地，英雄们不顾危险从敌人手中取回振金神器。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
+      "title_backdrop": "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FcWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg&title=%E7%93%A6%E5%9D%8E%E8%BE%BE%E4%B9%8B%E7%9C%BC&year=2025&rating=4.5&type=tv"
+    },
+    {
+      "id": 1307078,
+      "title": "爱在牛津的一年",
+      "type": "movie",
+      "genreTitle": "电影•剧情•爱情",
+      "rating": 7.7,
+      "release_date": "2025-07-31",
+      "overview": "当罗德奖学金的橄榄枝将Ella Durran送往牛津，她以为自己终将置身于羊皮纸与烛光构筑的学术圣殿。然而，一场政治新星的总统竞选邀约，将这位理想主义者的罗德之梦撕裂成两种轨迹。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gzvmYHGD7Rn6IhyY6w89k9MF0bT.jpg",
+      "title_backdrop": "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FA466i5iATrpbVjX30clP1Zyfp31.jpg&title=%E7%88%B1%E5%9C%A8%E7%89%9B%E6%B4%A5%E7%9A%84%E4%B8%80%E5%B9%B4&year=2025&rating=7.7&type=movie"
+    },
+    {
+      "id": 196890,
+      "title": "战酋",
+      "type": "tv",
+      "genreTitle": "TV剧•动作冒险",
+      "rating": 6.8,
+      "release_date": "2025-07-31",
+      "overview": "夏威夷的四个王国因战争分裂，勇猛的战士卡艾阿纳肩负起统一人民的宏大使命，还要迎战逼近海岸的生存威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rJPZ2g0Th7EfpmDkXV8S4390cdI.jpg",
+      "title_backdrop": "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2F2c3PCbxVgWen5HrYsaukUmfu4J9.jpg&title=%E6%88%98%E9%85%8B&year=2025&rating=6.8&type=tv"
+    },
+    {
+      "id": 1100988,
+      "title": "惊变28年",
+      "type": "movie",
+      "genreTitle": "电影•恐怖•惊悚",
+      "rating": 7.0,
+      "release_date": "2025-06-18",
+      "overview": "距离 rage 病毒从生物武器实验室泄漏已过去 28 年，如今这片土地仍处于残酷的封锁隔离中，但有些人已在感染者盘踞的世界里找到了生存之道。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ngCMM9huOFd1MhLUv3YJGhKMUSf.jpg",
+      "title_backdrop": "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2F6WqqEjiycNvDLjbEClM1zCwIbDD.jpg&title=%E6%83%8A%E5%8F%9828%E5%B9%B4&year=2025&rating=7.0&type=movie"
+    }
+  ]
 }

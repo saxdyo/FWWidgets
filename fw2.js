@@ -627,6 +627,67 @@ WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" }
       ]
+    },
+
+    // TMDB带标题背景图
+    {
+      title: "TMDB带标题背景图",
+      description: "带片名标题的高质量背景图内容",
+      requiresWebView: false,
+      functionName: "loadTmdbTitleBackdropData",
+      cacheDuration: 1800,
+      params: [
+        {
+          name: "data_source",
+          title: "数据源",
+          type: "enumeration",
+          description: "选择数据来源",
+          value: "today_global",
+          enumOptions: [
+            { title: "今日热门", value: "today_global" }
+          ]
+        },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "筛选媒体类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "电视剧", value: "tv" }
+          ]
+        },
+        {
+          name: "min_rating",
+          title: "最低评分",
+          type: "enumeration",
+          description: "设置最低评分要求",
+          value: "0",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "6.0分以上", value: "6.0" },
+            { title: "7.0分以上", value: "7.0" },
+            { title: "8.0分以上", value: "8.0" },
+            { title: "9.0分以上", value: "9.0" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "rating_desc",
+          enumOptions: [
+            { title: "评分降序", value: "rating_desc" },
+            { title: "评分升序", value: "rating_asc" },
+            { title: "上映时间降序", value: "release_date_desc" },
+            { title: "上映时间升序", value: "release_date_asc" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
     }
   ]
 };
@@ -1477,7 +1538,182 @@ function generateThemeFallbackData(theme) {
   return results;
 }
 
-// 4. Bangumi热门新番
+// 4. TMDB带标题背景图数据
+async function loadTmdbTitleBackdropData(params = {}) {
+  const { 
+    data_source = "today_global",
+    media_type = "all", 
+    min_rating = "0",
+    sort_by = "rating_desc",
+    page = 1 
+  } = params;
+  
+  try {
+    const cacheKey = `title_backdrop_${data_source}_${media_type}_${min_rating}_${sort_by}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎨 加载TMDB带标题背景图数据: ${data_source}`);
+
+    // 尝试加载本地数据文件
+    let rawData = [];
+    
+    try {
+      // 读取本地数据文件
+      const dataFile = './data/tmdb-title-backdrops.json';
+      const fileData = await fs.readJson(dataFile);
+      
+      if (fileData && fileData.today_global) {
+        rawData = fileData.today_global;
+        console.log(`📊 从本地文件加载了 ${rawData.length} 条数据`);
+      }
+    } catch (fileError) {
+      console.log("⚠️ 本地数据文件不可用，使用备用数据...");
+      rawData = generateTitleBackdropFallbackData();
+    }
+
+    // 筛选数据
+    let filteredData = rawData.filter(item => {
+      // 根据媒体类型筛选
+      if (media_type !== "all" && item.type !== media_type) {
+        return false;
+      }
+      
+      // 根据最低评分筛选
+      if (min_rating !== "0") {
+        const minRating = parseFloat(min_rating);
+        if (!item.rating || item.rating < minRating) {
+          return false;
+        }
+      }
+      
+      return true;
+    });
+
+    // 排序数据
+    switch (sort_by) {
+      case "rating_desc":
+        filteredData.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        break;
+      case "rating_asc":
+        filteredData.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+        break;
+      case "release_date_desc":
+        filteredData.sort((a, b) => new Date(b.release_date || 0) - new Date(a.release_date || 0));
+        break;
+      case "release_date_asc":
+        filteredData.sort((a, b) => new Date(a.release_date || 0) - new Date(b.release_date || 0));
+        break;
+      default:
+        // 默认按评分降序
+        filteredData.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    }
+
+    // 分页处理
+    const itemsPerPage = CONFIG.MAX_ITEMS || 20;
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const paginatedData = filteredData.slice(startIndex, endIndex);
+
+    // 转换为Widget格式
+    const results = paginatedData.map(item => {
+      const widgetItem = {
+        id: item.id?.toString() || Math.random().toString(),
+        type: "tmdb_title_backdrop",
+        title: item.title || "未知标题",
+        genreTitle: item.genreTitle || "",
+        rating: item.rating || 0,
+        description: item.overview || "暂无简介",
+        releaseDate: item.release_date || "",
+        posterPath: item.poster_url || "",
+        coverUrl: item.poster_url || "",
+        backdropPath: item.title_backdrop || "",
+        mediaType: item.type || "movie",
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        // 带标题背景图相关字段
+        titleBackdrop: item.title_backdrop,
+        hasTitleBackdrop: !!item.title_backdrop,
+        dataSource: data_source,
+        isTitleBackdropData: true
+      };
+      
+      // 优化标题显示
+      if (item.rating && item.rating > 0) {
+        widgetItem.genreTitle = `${widgetItem.genreTitle} · ⭐${item.rating.toFixed(1)}`;
+      }
+      
+      return widgetItem;
+    });
+
+    console.log(`✅ 成功加载 ${results.length} 个带标题背景图项目 (数据源: ${data_source})`);
+    
+    setCachedData(cacheKey, results);
+    return results;
+
+  } catch (error) {
+    console.error("TMDB带标题背景图数据加载失败:", error);
+    
+    // 返回错误信息作为占位项
+    return [{
+      id: "error",
+      type: "error",
+      title: "数据加载失败",
+      genreTitle: "错误",
+      rating: 0,
+      description: `无法加载TMDB带标题背景图数据: ${error.message}`,
+      releaseDate: "",
+      posterPath: "",
+      coverUrl: "",
+      backdropPath: "",
+      mediaType: "error",
+      popularity: 0,
+      voteCount: 0,
+      link: null,
+      duration: 0,
+      durationText: "",
+      episode: 0,
+      childItems: []
+    }];
+  }
+}
+
+// 生成带标题背景图备用数据
+function generateTitleBackdropFallbackData() {
+  console.log("🏠 生成带标题背景图备用数据...");
+  
+  return [
+    {
+      id: 552524,
+      title: "星际宝贝史迪奇",
+      type: "movie",
+      genreTitle: "电影•家庭•科幻•喜剧",
+      rating: 7.2,
+      release_date: "2025-05-17",
+      overview: "讲述孤独的夏威夷小女孩莉萝和看起来调皮捣蛋的外星生物史迪奇的冒险故事。",
+      poster_url: "https://image.tmdb.org/t/p/original/dpEWJUvwpYAX1YFvoyzOfsikIGq.jpg",
+      title_backdrop: "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2F9qqYLAHCpA4gLUl7Irhm2SBZr5X.jpg&title=%E6%98%9F%E9%99%85%E5%AE%9D%E8%B4%9D%E5%8F%B2%E8%BF%AA%E5%A5%87&year=2025&rating=7.2&type=movie"
+    },
+    {
+      id: 241388,
+      title: "瓦坎达之眼",
+      type: "tv",
+      genreTitle: "TV剧•动作冒险",
+      rating: 4.5,
+      release_date: "2025-08-01",
+      overview: "Marvel 动画全新动作历险剧集《瓦干达之眼》讲述勇敢的瓦干达战士们的冒险事迹。",
+      poster_url: "https://image.tmdb.org/t/p/original/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
+      title_backdrop: "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FcWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg&title=%E7%93%A6%E5%9D%8E%E8%BE%BE%E4%B9%8B%E7%9C%BC&year=2025&rating=4.5&type=tv"
+    }
+  ];
+}
+
+// 5. Bangumi热门新番
 async function loadBangumiHotNewAnime(params = {}) {
   const { 
     language = "zh-CN", 

@@ -62,22 +62,21 @@ async function getPopularContent() {
   return allContent.slice(0, CONFIG.MAX_ITEMS);
 }
 
-// 处理单个项目，生成带标题的背景图
+// 处理单个项目，生成简单的带标题背景图数据
 function processItemWithTitleBackdrop(item) {
   const type = item.media_type || (item.title ? 'movie' : 'tv');
   const title = item.title || item.name || '未知标题';
   const releaseDate = item.release_date || item.first_air_date || '';
-  const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
   const rating = item.vote_average || 0;
   
-  // 生成带标题的背景图URL
+  // 生成带标题的背景图URL（使用image-overlay服务）
   let titleBackdrop = '';
   if (item.backdrop_path) {
     const backdropUrl = `${CONFIG.IMAGE_BASE_URL}/w1280${item.backdrop_path}`;
     const params = new URLSearchParams({
       bg: backdropUrl,
       title: title,
-      year: releaseYear || '',
+      year: releaseDate ? new Date(releaseDate).getFullYear() : '',
       rating: rating.toFixed(1),
       type: type
     });
