@@ -1,0 +1,27 @@
+{
+  "last_updated": "2025-08-02 18:42:00",
+  "total_websites": 6,
+  "websites": [
+    {
+      "website": "netflix",
+      "url": "https://www.netflix.com/",
+      "logos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+          "alt": "Netflix Logo",
+          "title": "Netflix",
+          "width": 200,
+          "height": 100
+        }
+      ],
+      "backdrops": [
+        {
+          "url": "https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be6b-4c47-b8c8-0f9c4a2c0c0a/4c1c8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/Netflix_Logo_RGB.png",
+          "type": "css_background",
+          "source": "style_tag"
+        }
+      ],
+      "crawled_at": "2025-08-02T18:42:00.039858+08:00"
+    }
+  ]
+}

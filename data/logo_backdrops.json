@@ -1,27 +1,94 @@
 {
-  "last_updated": "2025-08-02 18:37:27",
-  "total_websites": 6,
+  "last_updated": "2025-08-02 18:41:50",
+  "total_websites": 5,
   "websites": [
     {
       "website": "netflix",
       "url": "https://www.netflix.com/",
       "logos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+          "url": "https://assets.nflxext.com/ffe/siteui/acquisition/home/nflxlogo.png",
           "alt": "Netflix Logo",
-          "title": "Netflix",
-          "width": 200,
-          "height": 100
+          "title": "",
+          "width": null,
+          "height": null
         }
       ],
-      "backdrops": [
+      "backdrops": [],
+      "crawled_at": "2025-08-02T18:41:40.101598+08:00"
+    },
+    {
+      "website": "disney",
+      "url": "https://www.disney.com/",
+      "logos": [],
+      "backdrops": [],
+      "error": "403 Client Error: Forbidden for url: https://www.disney.com/",
+      "crawled_at": "2025-08-02T18:41:42.168810+08:00"
+    },
+    {
+      "website": "hbo",
+      "url": "https://www.hbo.com/",
+      "logos": [
         {
-          "url": "https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be6b-4c47-b8c8-0f9c4a2c0c0a/4c1c8c8c-8c8c-8c8c-8c8c-8c8c8c8c8c8c/Netflix_Logo_RGB.png",
-          "type": "css_background",
-          "source": "style_tag"
+          "url": "https://www.hbo.com/img/hbo-logo-blk.svg",
+          "alt": "HBO Logo",
+          "title": "",
+          "width": null,
+          "height": null
+        },
+        {
+          "url": "https://www.hbo.com/img/hbo-logo-blk.svg",
+          "alt": "HBO Logo",
+          "title": "",
+          "width": null,
+          "height": null
+        },
+        {
+          "url": "https://static.hbo.com/2025-06/hbomax-logo-iridescent-white.png",
+          "alt": "HBO Max",
+          "title": "",
+          "width": null,
+          "height": null
+        },
+        {
+          "url": "https://static.hbo.com/2025-06/hbomax-logo-iridescent-white.png",
+          "alt": "HBO Max",
+          "title": "",
+          "width": null,
+          "height": null
+        },
+        {
+          "url": "https://www.hbo.com/img/hbo-logo-footer.svg",
+          "alt": "HBO Logo",
+          "title": "",
+          "width": null,
+          "height": null
         }
       ],
-      "crawled_at": "2025-08-02T18:37:27.498833+08:00"
+      "backdrops": [],
+      "crawled_at": "2025-08-02T18:41:44.260871+08:00"
+    },
+    {
+      "website": "amazon",
+      "url": "https://www.amazon.com/",
+      "logos": [],
+      "backdrops": [],
+      "crawled_at": "2025-08-02T18:41:46.374506+08:00"
+    },
+    {
+      "website": "hulu",
+      "url": "https://www.hulu.com/",
+      "logos": [
+        {
+          "url": "https://cnbl-cdn.bamgrid.com/assets/eb03279ecf5dd44902cd6203c0a2f93a14d39262e4358f509a4f1547d9ce1f68/original",
+          "alt": "Disney+,Hulu, HBO Max Bundle logo",
+          "title": "",
+          "width": null,
+          "height": null
+        }
+      ],
+      "backdrops": [],
+      "crawled_at": "2025-08-02T18:41:48.833825+08:00"
     }
   ]
 }
