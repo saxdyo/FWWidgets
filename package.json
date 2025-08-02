@@ -1,0 +1,32 @@
+{
+  "name": "tmdb-backdrop-scraper",
+  "version": "1.0.0",
+  "description": "TMDB电影背景图爬取和数据包生成工具",
+  "main": "fw2.js",
+  "scripts": {
+    "scrape": "node tmdb-scraper.js",
+    "update-data": "node tmdb-scraper.js && git add . && git commit -m 'Auto update: TMDB backdrop data' && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  },
+  "keywords": [
+    "tmdb",
+    "movie",
+    "backdrop",
+    "scraper",
+    "data"
+  ],
+  "author": "saxdyo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saxdyo/FWWidgets.git"
+  }
+}

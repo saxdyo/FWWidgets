@@ -610,6 +610,85 @@ WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" }
       ]
+    },
+
+    // TMDB背景图数据包
+    {
+      title: "TMDB 背景图数据包",
+      description: "使用本地数据包，提供高质量背景图的热门影视内容",
+      requiresWebView: false,
+      functionName: "loadTmdbBackdropData",
+      cacheDuration: 1800, // 30分钟缓存
+      params: [
+        {
+          name: "data_source",
+          title: "数据源",
+          type: "enumeration",
+          description: "选择数据来源",
+          value: "combined",
+          enumOptions: [
+            { title: "综合数据", value: "combined" },
+            { title: "热门电影", value: "movies" },
+            { title: "热门电视剧", value: "tv" },
+            { title: "今日热门", value: "trending" },
+            { title: "高分内容", value: "top_rated" }
+          ]
+        },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "筛选媒体类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "电视剧", value: "tv" }
+          ]
+        },
+        {
+          name: "min_rating",
+          title: "最低评分",
+          type: "enumeration",
+          description: "设置最低评分要求",
+          value: "0",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "6.0分以上", value: "6.0" },
+            { title: "7.0分以上", value: "7.0" },
+            { title: "8.0分以上", value: "8.0" },
+            { title: "9.0分以上", value: "9.0" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration", 
+          description: "选择排序方式",
+          value: "rating_desc",
+          enumOptions: [
+            { title: "评分降序", value: "rating_desc" },
+            { title: "评分升序", value: "rating_asc" },
+            { title: "热度降序", value: "popularity_desc" },
+            { title: "发布时间", value: "release_date" },
+            { title: "标题排序", value: "title" }
+          ]
+        },
+        {
+          name: "backdrop_size",
+          title: "背景图尺寸",
+          type: "enumeration",
+          description: "选择背景图片尺寸",
+          value: "w1280",
+          enumOptions: [
+            { title: "小尺寸 (300px)", value: "w300" },
+            { title: "中等尺寸 (780px)", value: "w780" },
+            { title: "高清尺寸 (1280px)", value: "w1280" },
+            { title: "原始尺寸", value: "original" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
     }
   ]
 };
@@ -1198,4 +1277,243 @@ async function loadAnimeList(params = {}) {
     console.error("动画列表加载失败:", error);
     return [];
   }
+}
+
+// 6. 🎨 TMDB背景图数据包
+async function loadTmdbBackdropData(params = {}) {
+  const { 
+    data_source = "combined", 
+    media_type = "all", 
+    min_rating = "0", 
+    sort_by = "rating_desc", 
+    backdrop_size = "w1280",
+    page = 1 
+  } = params;
+  
+  try {
+    const cacheKey = `backdrop_${data_source}_${media_type}_${min_rating}_${sort_by}_${backdrop_size}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`📦 加载TMDB背景图数据包: ${data_source}`);
+
+    // 尝试加载本地数据文件
+    let dataFile;
+    switch (data_source) {
+      case "movies":
+        dataFile = "./data/tmdb-backdrops-movies.json";
+        break;
+      case "tv":
+        dataFile = "./data/tmdb-backdrops-tv.json";
+        break;
+      case "trending":
+        dataFile = "./data/tmdb-backdrops-trending.json";
+        break;
+      case "top_rated":
+        dataFile = "./data/tmdb-backdrops-top-rated.json";
+        break;
+      case "combined":
+      default:
+        dataFile = "./data/tmdb-backdrops-simple.json";
+        break;
+    }
+
+    // 模拟文件读取（在实际环境中需要适配具体的文件读取方式）
+    let rawData = [];
+    
+    // 如果无法读取本地文件，则回退到API获取
+    if (!rawData || rawData.length === 0) {
+      console.log("⚠️ 本地数据包不可用，回退到API获取...");
+      
+      // 根据数据源类型决定API端点
+      let endpoint = "/trending/all/day";
+      let queryParams = { language: "zh-CN", page: 1 };
+      
+      switch (data_source) {
+        case "movies":
+          endpoint = "/movie/popular";
+          break;
+        case "tv":
+          endpoint = "/tv/popular";
+          break;
+        case "top_rated":
+          endpoint = "/movie/top_rated";
+          break;
+        case "trending":
+        default:
+          endpoint = "/trending/all/day";
+          break;
+      }
+
+      try {
+        const response = await fetch(`https://api.themoviedb.org/3${endpoint}?api_key=${CONFIG.API_KEY}&language=${queryParams.language}&page=${queryParams.page}`);
+        const data = await response.json();
+        
+        if (data && data.results) {
+          rawData = data.results.map(item => ({
+            id: item.id,
+            title: item.title || item.name || "未知标题",
+            mediaType: item.media_type || (item.title ? "movie" : "tv"),
+            backdropUrls: item.backdrop_path ? {
+              w300: `https://image.tmdb.org/t/p/w300${item.backdrop_path}`,
+              w780: `https://image.tmdb.org/t/p/w780${item.backdrop_path}`,
+              w1280: `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`,
+              original: `https://image.tmdb.org/t/p/original${item.backdrop_path}`
+            } : {},
+            rating: item.vote_average || 0,
+            releaseYear: item.release_date || item.first_air_date ? 
+              new Date(item.release_date || item.first_air_date).getFullYear() : null,
+            overview: item.overview || "",
+            popularity: item.popularity || 0,
+            voteCount: item.vote_count || 0,
+            hasBackdrop: !!item.backdrop_path
+          }));
+        }
+      } catch (apiError) {
+        console.error("API请求失败:", apiError);
+        // 提供一些模拟数据作为后备
+        rawData = generateFallbackData();
+      }
+    }
+
+    // 筛选数据
+    let filteredData = rawData.filter(item => {
+      // 只保留有背景图的项目
+      if (!item.hasBackdrop || !item.backdropUrls || Object.keys(item.backdropUrls).length === 0) {
+        return false;
+      }
+      
+      // 媒体类型筛选
+      if (media_type !== "all" && item.mediaType !== media_type) {
+        return false;
+      }
+      
+      // 评分筛选
+      const minRatingNum = parseFloat(min_rating);
+      if (minRatingNum > 0 && item.rating < minRatingNum) {
+        return false;
+      }
+      
+      return true;
+    });
+
+    // 排序处理
+    switch (sort_by) {
+      case "rating_desc":
+        filteredData.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        break;
+      case "rating_asc":
+        filteredData.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+        break;
+      case "popularity_desc":
+        filteredData.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+        break;
+      case "release_date":
+        filteredData.sort((a, b) => (b.releaseYear || 0) - (a.releaseYear || 0));
+        break;
+      case "title":
+        filteredData.sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+        break;
+    }
+
+    // 分页处理
+    const itemsPerPage = CONFIG.MAX_ITEMS || 20;
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const paginatedData = filteredData.slice(startIndex, endIndex);
+
+    // 转换为Widget格式
+    const results = paginatedData.map(item => {
+      const backdropUrl = item.backdropUrls[backdrop_size] || 
+                         item.backdropUrls.w1280 || 
+                         item.backdropUrls.original || "";
+      
+      const widgetItem = {
+        id: item.id?.toString() || Math.random().toString(),
+        type: "tmdb_backdrop",
+        title: item.title || "未知标题",
+        genreTitle: `${item.mediaType === 'movie' ? '电影' : 'TV剧'} · ${item.releaseYear || 'N/A'}`,
+        rating: item.rating || 0,
+        description: item.overview || "暂无简介",
+        releaseDate: item.releaseYear?.toString() || "",
+        posterPath: backdropUrl,
+        coverUrl: backdropUrl,
+        backdropPath: backdropUrl,
+        mediaType: item.mediaType || "movie",
+        popularity: item.popularity || 0,
+        voteCount: item.voteCount || 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        // 新增背景图相关字段
+        backdropUrls: item.backdropUrls,
+        selectedBackdropSize: backdrop_size,
+        hasMultipleBackdropSizes: Object.keys(item.backdropUrls || {}).length > 1,
+        dataSource: data_source,
+        isBackdropData: true
+      };
+      
+      // 优化标题显示
+      if (item.rating && item.rating > 0) {
+        widgetItem.genreTitle = `${widgetItem.genreTitle} · ⭐${item.rating.toFixed(1)}`;
+      }
+      
+      return widgetItem;
+    });
+
+    console.log(`✅ 成功加载 ${results.length} 个背景图项目 (数据源: ${data_source}, 尺寸: ${backdrop_size})`);
+    
+    setCachedData(cacheKey, results);
+    return results;
+
+  } catch (error) {
+    console.error("TMDB背景图数据包加载失败:", error);
+    
+    // 返回错误信息作为占位项
+    return [{
+      id: "error",
+      type: "error",
+      title: "数据加载失败",
+      genreTitle: "错误",
+      rating: 0,
+      description: `无法加载TMDB背景图数据: ${error.message}`,
+      releaseDate: "",
+      posterPath: "",
+      coverUrl: "",
+      backdropPath: "",
+      mediaType: "error",
+      popularity: 0,
+      voteCount: 0,
+      link: null,
+      duration: 0,
+      durationText: "",
+      episode: 0,
+      childItems: []
+    }];
+  }
+}
+
+// 生成后备数据的辅助函数
+function generateFallbackData() {
+  return [
+    {
+      id: 1,
+      title: "示例电影",
+      mediaType: "movie",
+      backdropUrls: {
+        w300: "https://image.tmdb.org/t/p/w300/sample_backdrop.jpg",
+        w780: "https://image.tmdb.org/t/p/w780/sample_backdrop.jpg", 
+        w1280: "https://image.tmdb.org/t/p/w1280/sample_backdrop.jpg",
+        original: "https://image.tmdb.org/t/p/original/sample_backdrop.jpg"
+      },
+      rating: 8.5,
+      releaseYear: 2024,
+      overview: "这是一个示例数据，实际使用时请配置TMDB API密钥",
+      popularity: 1000,
+      voteCount: 500,
+      hasBackdrop: true
+    }
+  ];
 }
