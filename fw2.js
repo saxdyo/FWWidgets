@@ -608,6 +608,59 @@ const CONFIG = {
   MAX_ITEMS: 20 // 最大返回项目数
 };
 
+// 平台logo映射
+const PLATFORM_LOGOS = {
+  "netflix": {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    backdrop: "https://assets.nflxext.com/ffe/siteui/acquisition/home/nflxlogo.png"
+  },
+  "disney": {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg",
+    backdrop: "https://www.disney.com/static/app/images/disney-plus-logo.png"
+  },
+  "hbo": {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg",
+    backdrop: "https://www.hbo.com/static/app/images/hbo-logo.png"
+  },
+  "amazon": {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_Video_logo.svg",
+    backdrop: "https://www.amazon.com/static/app/images/prime-video-logo.png"
+  },
+  "hulu": {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hulu_Logo.svg",
+    backdrop: "https://www.hulu.com/static/app/images/hulu-logo.png"
+  },
+  "apple": {
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Apple_TV_Plus_logo.svg",
+    backdrop: "https://www.apple.com/static/app/images/apple-tv-plus-logo.png"
+  }
+};
+
+// 平台检测函数
+function detectPlatform(title, overview = "") {
+  const titleLower = title.toLowerCase();
+  const overviewLower = overview.toLowerCase();
+  
+  const platformKeywords = {
+    "netflix": ["netflix", "netflix original", "netflix series"],
+    "disney": ["disney", "disney+", "disney plus", "marvel", "star wars"],
+    "hbo": ["hbo", "hbo max", "warner bros"],
+    "amazon": ["amazon", "prime video", "amazon original"],
+    "hulu": ["hulu", "hulu original"],
+    "apple": ["apple tv", "apple tv+", "apple original"]
+  };
+  
+  for (const [platform, keywords] of Object.entries(platformKeywords)) {
+    for (const keyword of keywords) {
+      if (titleLower.includes(keyword) || overviewLower.includes(keyword)) {
+        return platform;
+      }
+    }
+  }
+  
+  return null;
+}
+
 // 缓存管理
 const cache = new Map();
 
@@ -628,7 +681,7 @@ function setCachedData(key, data) {
 }
 
 function createWidgetItem(item) {
-  return {
+  const baseItem = {
     id: item.id.toString(),
     type: "tmdb",
     title: item.title || item.name || "未知标题",
@@ -648,6 +701,16 @@ function createWidgetItem(item) {
     episode: 0,
     childItems: []
   };
+  
+  // 检测平台并添加logo信息
+  const detectedPlatform = detectPlatform(item.title || item.name, item.overview);
+  if (detectedPlatform && PLATFORM_LOGOS[detectedPlatform]) {
+    baseItem.platform = detectedPlatform;
+    baseItem.platformLogo = PLATFORM_LOGOS[detectedPlatform].logo;
+    baseItem.platformBackdrop = PLATFORM_LOGOS[detectedPlatform].backdrop;
+  }
+  
+  return baseItem;
 }
 
 // TMDB类型映射
