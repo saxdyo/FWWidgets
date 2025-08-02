@@ -1,0 +1,99 @@
+name: TMDB Backdrop Update
+
+on:
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: '强制更新数据'
+        required: false
+        default: 'true'
+        type: boolean
+  
+  # 每天自动执行
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 当相关文件更新时触发
+  push:
+    branches: [ main ]
+    paths:
+      - 'tmdb-scraper.js'
+      - '.github/workflows/tmdb-update.yml'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+    - name: 📥 检出代码
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: 🔧 设置Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: 📦 安装依赖
+      run: npm ci
+    
+    - name: 🔑 设置环境变量
+      run: |
+        echo "TMDB_API_KEY=${{ secrets.TMDB_API_KEY }}" > .env
+        echo "MAX_MOVIES=100" >> .env
+        echo "MAX_TV_SHOWS=50" >> .env
+    
+    - name: 📊 运行数据更新
+      run: |
+        echo "🚀 开始更新TMDB数据..."
+        node tmdb-scraper.js
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+    
+    - name: 📋 检查变更
+      id: changes
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "检测到数据变更"
+          git status --porcelain
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "没有数据变更"
+        fi
+    
+    - name: 💾 提交更新
+      if: steps.changes.outputs.has_changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git commit -m "🤖 自动更新TMDB背景图数据 - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+    
+    - name: ✅ 完成报告
+      run: |
+        echo "## 📊 TMDB数据更新完成" >> $GITHUB_STEP_SUMMARY
+        echo "- 更新时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.changes.outputs.has_changes }}" = "true" ]; then
+          echo "- 状态: ✅ 数据已更新并提交" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "- 状态: ℹ️ 数据无变更" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ -f "data/tmdb-backdrops-metadata.json" ]; then
+          echo "- 数据统计:" >> $GITHUB_STEP_SUMMARY
+          node -e "
+            const meta = JSON.parse(require('fs').readFileSync('data/tmdb-backdrops-metadata.json'));
+            console.log('  - 总计: ' + meta.totalItems + ' 项');
+            console.log('  - 电影: ' + meta.statistics.movies + ' 部');
+            console.log('  - 电视剧: ' + meta.statistics.tvShows + ' 部');
+            console.log('  - 平均评分: ' + meta.statistics.averageRating.toFixed(1));
+          " >> $GITHUB_STEP_SUMMARY
+        fi
