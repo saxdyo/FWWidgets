@@ -100,6 +100,8 @@ function processMediaItem(item, mediaType = null) {
   const type = mediaType || item.media_type || (item.title ? 'movie' : 'tv');
   const title = item.title || item.name || '未知标题';
   const releaseDate = item.release_date || item.first_air_date || '';
+  const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
+  const rating = item.vote_average || 0;
   
   // 生成多种尺寸的背景图URL
   const backdropUrls = {};
@@ -117,6 +119,22 @@ function processMediaItem(item, mediaType = null) {
     });
   }
   
+  // 生成带标题的背景图URL
+  let titleBackdrop = '';
+  if (item.backdrop_path) {
+    const backdropUrl = backdropUrls.w1280 || backdropUrls.original || backdropUrls.w780;
+    if (backdropUrl) {
+      const params = new URLSearchParams({
+        bg: backdropUrl,
+        title: title,
+        year: releaseYear || '',
+        rating: rating.toFixed(1),
+        type: type
+      });
+      titleBackdrop = `https://image-overlay.vercel.app/api/backdrop?${params.toString()}`;
+    }
+  }
+  
   return {
     id: item.id,
     title: title,
@@ -124,8 +142,8 @@ function processMediaItem(item, mediaType = null) {
     overview: item.overview || '',
     mediaType: type,
     releaseDate: releaseDate,
-    releaseYear: releaseDate ? new Date(releaseDate).getFullYear() : null,
-    rating: item.vote_average || 0,
+    releaseYear: releaseYear,
+    rating: rating,
     voteCount: item.vote_count || 0,
     popularity: item.popularity || 0,
     adult: item.adult || false,
@@ -135,6 +153,7 @@ function processMediaItem(item, mediaType = null) {
     posterPath: item.poster_path || '',
     backdropUrls: backdropUrls,
     posterUrls: posterUrls,
+    titleBackdrop: titleBackdrop, // 新增：带标题的背景图
     hasBackdrop: !!item.backdrop_path,
     hasPoster: !!item.poster_path,
     updatedAt: new Date().toISOString()
