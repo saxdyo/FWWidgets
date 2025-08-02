@@ -1,0 +1,17 @@
+# TMDB电影背景图爬虫定时任务示例
+# 复制此文件内容到你的crontab中
+
+# 每天早上6点执行爬取任务
+0 6 * * * cd /path/to/your/project && source venv/bin/activate && python main.py run --categories popular top_rated >> logs/cron.log 2>&1
+
+# 每周日凌晨2点清理30天前的旧数据
+0 2 * * 0 cd /path/to/your/project && source venv/bin/activate && python main.py cleanup --days 30 >> logs/cron.log 2>&1
+
+# 每月1号导出数据备份
+0 1 1 * * cd /path/to/your/project && source venv/bin/activate && python main.py export --output backups/monthly_backup_$(date +\%Y\%m).json >> logs/cron.log 2>&1
+
+# 使用方法：
+# 1. 编辑此文件，将 /path/to/your/project 替换为实际项目路径
+# 2. 运行: crontab -e
+# 3. 将修改后的内容粘贴到crontab中
+# 4. 保存退出
