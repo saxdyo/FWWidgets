@@ -83,15 +83,26 @@ function processItemWithTitleBackdrop(item) {
   // 生成带标题的背景图URL
   let titleBackdrop = '';
   if (item.backdrop_path) {
+    // 方案1：使用可用的图片叠加服务
     const backdropUrl = `${CONFIG.IMAGE_BASE_URL}/w1280${item.backdrop_path}`;
-    const params = new URLSearchParams({
-      bg: backdropUrl,
-      title: title,
-      year: releaseDate ? new Date(releaseDate).getFullYear() : '',
-      rating: rating.toFixed(1),
-      type: type
-    });
-    titleBackdrop = `https://image-overlay.vercel.app/api/backdrop?${params.toString()}`;
+    
+    // 尝试使用不同的图片叠加服务
+    const overlayServices = [
+      // 服务1：使用简单的图片叠加API
+      `https://api.imgbb.com/1/upload?key=YOUR_API_KEY&image=${encodeURIComponent(backdropUrl)}&title=${encodeURIComponent(title)}`,
+      
+      // 服务2：使用Cloudinary（需要配置）
+      `https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/e_overlay,fl_layer_apply,fl_no_attachment,l_text:Arial_60_bold:${encodeURIComponent(title)}/f_auto,q_auto/${encodeURIComponent(backdropUrl)}`,
+      
+      // 服务3：直接使用原始背景图（临时方案）
+      backdropUrl
+    ];
+    
+    // 暂时使用原始背景图，后续可以配置可用的叠加服务
+    titleBackdrop = backdropUrl;
+    
+    // 如果配置了可用的叠加服务，可以使用以下代码：
+    // titleBackdrop = overlayServices[0]; // 选择第一个可用的服务
   }
   
   return {
@@ -103,7 +114,14 @@ function processItemWithTitleBackdrop(item) {
     release_date: releaseDate,
     overview: item.overview || '',
     poster_url: item.poster_path ? `${CONFIG.IMAGE_BASE_URL}/original${item.poster_path}` : '',
-    title_backdrop: titleBackdrop
+    title_backdrop: titleBackdrop,
+    // 添加原始背景图URL，供前端处理
+    original_backdrop: item.backdrop_path ? `${CONFIG.IMAGE_BASE_URL}/w1280${item.backdrop_path}` : '',
+    // 添加标题信息，供前端叠加
+    backdrop_title: title,
+    backdrop_year: releaseDate ? new Date(releaseDate).getFullYear() : '',
+    backdrop_rating: rating.toFixed(1),
+    backdrop_type: type
   };
 }
 

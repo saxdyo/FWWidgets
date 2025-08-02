@@ -1640,7 +1640,13 @@ async function loadTmdbTitleBackdropData(params = {}) {
         titleBackdrop: item.title_backdrop,
         hasTitleBackdrop: !!item.title_backdrop,
         dataSource: data_source,
-        isTitleBackdropData: true
+        isTitleBackdropData: true,
+        // 添加原始背景图和标题信息，供前端叠加
+        originalBackdrop: item.original_backdrop || item.title_backdrop,
+        backdropTitle: item.backdrop_title || item.title,
+        backdropYear: item.backdrop_year || '',
+        backdropRating: item.backdrop_rating || '',
+        backdropType: item.backdrop_type || item.type
       };
       
       // 优化标题显示
