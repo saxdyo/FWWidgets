@@ -1,0 +1,85 @@
+name: Simple TMDB Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      run: |
+        npm install axios fs-extra
+    
+    - name: Run scraper
+      run: |
+        cat << 'EOF' > run-scraper.js
+        const axios = require('axios');
+        const fs = require('fs-extra');
+        
+        const API_KEY = process.env.TMDB_API_KEY || '${{ secrets.TMDB_API_KEY }}';
+        
+        async function getMovies() {
+          try {
+            const response = await axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=zh-CN&page=1`);
+            const movies = response.data.results.filter(movie => movie.backdrop_path).slice(0, 20);
+            
+            const data = movies.map(movie => ({
+              id: movie.id,
+              title: movie.title,
+              backdrop_url: `https://image.tmdb.org/t/p/w1280${movie.backdrop_path}`,
+              rating: movie.vote_average,
+              release_date: movie.release_date
+            }));
+            
+            await fs.ensureDir('data');
+            await fs.writeJSON('data/tmdb-movies.json', data, { spaces: 2 });
+            
+            console.log(`Successfully saved ${data.length} movies with backdrops`);
+            return data;
+          } catch (error) {
+            console.error('Error:', error.message);
+            process.exit(1);
+          }
+        }
+        
+        getMovies();
+        EOF
+        
+        node run-scraper.js
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+    
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
+        if [ -n "$(git status --porcelain)" ]; then
+          git add .
+          git commit -m "🤖 Update TMDB data $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+          echo "Data updated and pushed"
+        else
+          echo "No changes to commit"
+        fi
+    
+    - name: Summary
+      run: |
+        echo "## ✅ TMDB Update Complete" >> $GITHUB_STEP_SUMMARY
+        echo "- Time: $(date)" >> $GITHUB_STEP_SUMMARY
+        if [ -f "data/tmdb-movies.json" ]; then
+          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/tmdb-movies.json')).length)")
+          echo "- Movies with backdrops: $COUNT" >> $GITHUB_STEP_SUMMARY
+        fi
