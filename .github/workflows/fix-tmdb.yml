@@ -1,0 +1,73 @@
+name: Fix TMDB
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install axios only
+      run: npm install axios
+    
+    - name: Generate TMDB data
+      run: |
+        cat << 'EOF' > fix-tmdb.js
+        const axios = require('axios');
+        const fs = require('fs');
+        
+        async function main() {
+          try {
+            console.log('🎬 获取TMDB数据...');
+            
+            const response = await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.TMDB_API_KEY}&language=zh-CN`);
+            const items = response.data.results.filter(item => item.backdrop_path).slice(0, 20);
+            
+            const data = {
+              last_updated: new Date().toLocaleString('zh-CN', {timeZone: 'Asia/Shanghai'}),
+              today_global: items.map(item => ({
+                id: item.id,
+                title: item.title || item.name,
+                type: item.media_type || (item.title ? 'movie' : 'tv'),
+                genreTitle: `${item.media_type === 'movie' ? '电影' : 'TV剧'}•动作冒险`,
+                rating: item.vote_average || 0,
+                release_date: item.release_date || item.first_air_date || '',
+                overview: item.overview || '精彩内容',
+                poster_url: `https://image.tmdb.org/t/p/original${item.poster_path || item.backdrop_path}`,
+                title_backdrop: `https://image-overlay.vercel.app/api/backdrop?bg=${encodeURIComponent('https://image.tmdb.org/t/p/w1280' + item.backdrop_path)}&title=${encodeURIComponent(item.title || item.name)}&year=2024&rating=${(item.vote_average || 0).toFixed(1)}&type=${item.media_type || 'movie'}`
+              }))
+            };
+            
+            if (!fs.existsSync('data')) fs.mkdirSync('data');
+            fs.writeFileSync('data/tmdb-title-backdrops.json', JSON.stringify(data, null, 2));
+            console.log(`✅ 成功生成 ${data.today_global.length} 个项目`);
+            
+          } catch (error) {
+            console.error('❌ 错误:', error.message);
+            process.exit(1);
+          }
+        }
+        
+        main();
+        EOF
+        
+        node fix-tmdb.js
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+    
+    - name: Commit
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add data/tmdb-title-backdrops.json
+        git commit -m "🎨 生成带标题TMDB背景图数据" || exit 0
+        git push
