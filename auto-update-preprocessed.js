@@ -17,7 +17,7 @@ const CONFIG = {
         MOVIES: 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-movies.json',
         TV: 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-tv.json'
     },
-    UPDATE_INTERVAL: 24 * 60 * 60 * 1000, // 24小时
+    UPDATE_INTERVAL: 8 * 60 * 60 * 1000, // 8小时
     MAX_ITEMS: 20
 };
 
