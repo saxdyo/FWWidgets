@@ -1,9 +1,9 @@
 // 在文件顶部添加配置
-const VERCEL_OG_SERVICE = "https://your-project-name.vercel.app"; // 替换为您的Vercel链接
+const VERCEL_OG_SERVICE = "您的实际Vercel链接"; // 替换为您刚得到的链接，比如：https://my-og-generator.vercel.app
 
 // 添加多个备用服务
 const OG_SERVICES = [
-    "https://your-project-name.vercel.app/api/og", // 您自己的服务（优先）
+    `${VERCEL_OG_SERVICE}/api/og`, // 您自己的服务（优先）
     "https://create-hero-image.vercel.app/api/generate", // 备用1
     "https://og.railway.app/api/image", // 备用2
     // 本地生成作为最终回退
