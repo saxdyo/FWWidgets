@@ -90,10 +90,10 @@ WidgetMetadata = {
           title: "数据来源类型",
           type: "enumeration",
           description: "选择数据来源类型",
-          value: "true",
+          value: "api",
           enumOptions: [
-            { title: "预处理数据", value: "true" },
-            { title: "正常TMDB API", value: "api" }
+            { title: "TMDB API（推荐）", value: "api" },
+            { title: "预处理数据（实验性）", value: "true" }
           ]
         }
       ]
@@ -735,15 +735,21 @@ function getGenreTitle(genreIds, mediaType) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", use_preprocessed_data = "api" } = params;
   
   // 根据数据来源类型选择加载方式
-  if (use_preprocessed_data === "api") {
-    return loadTmdbTrendingWithAPI(params);
+  if (use_preprocessed_data === "true") {
+    // 如果明确要求使用预处理数据，尝试加载，失败则回退到API
+    try {
+      return await loadTmdbTrendingFromPreprocessed(params);
+    } catch (error) {
+      console.warn("预处理数据加载失败，回退到API模式:", error.message);
+      return loadTmdbTrendingWithAPI(params);
+    }
   }
   
-  // 默认使用预处理数据
-  return loadTmdbTrendingFromPreprocessed(params);
+  // 默认使用API模式（更稳定）
+  return loadTmdbTrendingWithAPI(params);
 }
 
 // 使用正常TMDB API加载热门内容
