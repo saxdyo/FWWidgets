@@ -9,16 +9,13 @@ function generateTitleBackdropUrl(title, year, rating, type) {
     
     // 构建服务URL数组（按优先级排序）
     const services = [
-        // 您的Vercel服务（多种API路径尝试）
-        {
-            url: `${VERCEL_OG_SERVICE}/api/og`,
-            params: { title: title, subtitle: subtitle }
-        },
-        {
-            url: `${VERCEL_OG_SERVICE}/api/image`, 
-            params: { title: title, description: subtitle, layoutName: "Simple", Text: title }
-        },
-        // 备用服务
+        // 暂时跳过有认证问题的Vercel服务
+        // {
+        //     url: `${VERCEL_OG_SERVICE}/api/og`,
+        //     params: { title: title, subtitle: subtitle }
+        // },
+        
+        // 使用其他可用服务
         {
             url: "https://og.railway.app/api/image",
             params: { layoutName: "Simple", Text: title, fileType: "png" }

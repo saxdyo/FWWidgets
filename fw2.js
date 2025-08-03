@@ -1,11 +1,15 @@
 // 在文件顶部添加配置
 const VERCEL_OG_SERVICE = "https://fw-widgets-pdb6ftlwx-sams-projects-20fafaa5.vercel.app"; // 您的Vercel链接
 
-// 添加多个备用服务
+// 添加多个备用服务（调整优先级，暂时跳过有认证问题的服务）
 const OG_SERVICES = [
-    `${VERCEL_OG_SERVICE}/api/og`, // 您自己的服务（优先）
-    "https://create-hero-image.vercel.app/api/generate", // 备用1  
-    "https://og.railway.app/api/image", // 备用2
+    // 暂时注释掉您的服务，直到认证问题解决
+    // `${VERCEL_OG_SERVICE}/api/og`, // 您自己的服务（认证问题）
+    // `${VERCEL_OG_SERVICE}/api/image`, // 您自己的服务（认证问题）
+    
+    // 使用简单可靠的占位图服务（确保有图片显示）
+    "https://via.placeholder.com/1200x630/4f46e5/ffffff", // 紫色背景
+    "https://via.placeholder.com/1200x630/667eea/ffffff", // 蓝色背景
     // 本地生成作为最终回退
     null
 ];
