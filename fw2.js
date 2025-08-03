@@ -523,26 +523,26 @@ WidgetMetadata = {
           ]
         },
         {
-          name: "sort",
+          name: "sort_by",
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
-          value: "hs_desc",
+          value: "popularity.desc",
           enumOptions: [
-            { title: "🔥综合热度", value: "hs_desc" },
-            { title: "👍评分", value: "r_desc" },
-            { title: "📅上映时间", value: "rd_desc" },
-            { title: "📅上映时间(升序)", value: "rd_asc" },
-            { title: "📊热度(升序)", value: "hs_asc" },
-            { title: "⭐评分(升序)", value: "r_asc" },
-            { title: "📺剧集数", value: "ep_desc" },
-            { title: "📺剧集数(升序)", value: "ep_asc" },
-            { title: "🎬时长", value: "d_desc" },
-            { title: "🎬时长(升序)", value: "d_asc" },
-            { title: "📝标题A-Z", value: "t_asc" },
-            { title: "📝标题Z-A", value: "t_desc" },
-            { title: "📅年份", value: "y_desc" },
-            { title: "📅年份(升序)", value: "y_asc" }
+            { title: "热门度↓", value: "popularity.desc" },
+            { title: "热门度↑", value: "popularity.asc" },
+            { title: "评分↓", value: "vote_average.desc" },
+            { title: "评分↑", value: "vote_average.asc" },
+            { title: "上映时间↓", value: "release_date.desc" },
+            { title: "上映时间↑", value: "release_date.asc" },
+            { title: "年份↓", value: "year.desc" },
+            { title: "年份↑", value: "year.asc" },
+            { title: "标题A-Z", value: "title.asc" },
+            { title: "标题Z-A", value: "title.desc" },
+            { title: "剧集数↓", value: "episodes.desc" },
+            { title: "剧集数↑", value: "episodes.asc" },
+            { title: "时长↓", value: "duration.desc" },
+            { title: "时长↑", value: "duration.asc" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -991,14 +991,14 @@ async function tmdbPopularTVShows(params = {}) {
 
 // 3. IMDb动画模块加载
 async function loadImdbAnimeModule(params = {}) {
-  const { region = "all", sort = "hs_desc", page = "1" } = params;
+  const { region = "all", sort_by = "popularity.desc", page = "1" } = params;
   
   try {
-    const cacheKey = `imdb_anime_${region}_${sort}_${page}`;
+    const cacheKey = `imdb_anime_${region}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort}, 页码: ${page})`);
+    console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort_by}, 页码: ${page})`);
 
     // 构建请求URL - 使用原始IMDb数据源
     const GITHUB_OWNER = "opix-maker"; // 原始数据源
@@ -1011,23 +1011,23 @@ async function loadImdbAnimeModule(params = {}) {
     
     // 映射排序方式到数据文件键
     const sortMapping = {
-      'hs_desc': 'hs',
-      'hs_asc': 'hs',
-      'r_desc': 'r',
-      'r_asc': 'r',
-      'rd_desc': 'rd',
-      'rd_asc': 'rd',
-      'ep_desc': 'ep',
-      'ep_asc': 'ep',
-      'd_desc': 'd',
-      'd_asc': 'd',
-      't_desc': 't',
-      't_asc': 't',
-      'y_desc': 'y',
-      'y_asc': 'y'
+      'popularity.desc': 'hs',
+      'popularity.asc': 'hs',
+      'vote_average.desc': 'r',
+      'vote_average.asc': 'r',
+      'release_date.desc': 'rd',
+      'release_date.asc': 'rd',
+      'year.desc': 'y',
+      'year.asc': 'y',
+      'title.desc': 't',
+      'title.asc': 't',
+      'episodes.desc': 'ep',
+      'episodes.asc': 'ep',
+      'duration.desc': 'd',
+      'duration.asc': 'd'
     };
     
-    const sortKey = sortMapping[sort] || 'hs';
+    const sortKey = sortMapping[sort_by] || 'hs';
     const fullPath = `anime/${cleanRegion}/by_${sortKey}/page_${page}.json`;
     const requestUrl = `${baseUrl}/${fullPath}?cache_buster=${Math.floor(Date.now() / (1000 * 60 * 30))}`;
 
@@ -1050,22 +1050,22 @@ async function loadImdbAnimeModule(params = {}) {
     // 动态排序函数
     function sortData(data, sortBy) {
       // 基础排序类型，数据已经预排序
-      if (['hs_desc', 'r_desc', 'rd_desc', 'ep_desc', 'd_desc', 't_desc', 'y_desc'].includes(sortBy)) {
+      if (['popularity.desc', 'vote_average.desc', 'release_date.desc', 'year.desc', 'title.desc', 'episodes.desc', 'duration.desc'].includes(sortBy)) {
         return data;
       }
       
       const sortedData = [...data];
       
       switch (sortBy) {
-        case 'hs_asc': // 热度升序
+        case 'popularity.asc': // 热度升序
           sortedData.sort((a, b) => (a.hs || 0) - (b.hs || 0));
           break;
           
-        case 'r_asc': // 评分升序
+        case 'vote_average.asc': // 评分升序
           sortedData.sort((a, b) => (a.r || 0) - (b.r || 0));
           break;
           
-        case 'rd_asc': // 上映时间升序
+        case 'release_date.asc': // 上映时间升序
           sortedData.sort((a, b) => {
             const dateA = a.rd ? new Date(a.rd) : new Date(a.y + '-01-01');
             const dateB = b.rd ? new Date(b.rd) : new Date(b.y + '-01-01');
@@ -1073,19 +1073,19 @@ async function loadImdbAnimeModule(params = {}) {
           });
           break;
           
-        case 'ep_asc': // 剧集数升序
+        case 'episodes.asc': // 剧集数升序
           sortedData.sort((a, b) => (a.ep || 0) - (b.ep || 0));
           break;
           
-        case 'd_asc': // 时长升序
+        case 'duration.asc': // 时长升序
           sortedData.sort((a, b) => (a.d || 0) - (b.d || 0));
           break;
           
-        case 't_asc': // 标题A-Z
+        case 'title.asc': // 标题A-Z
           sortedData.sort((a, b) => (a.t || '').localeCompare(b.t || '', 'zh-CN'));
           break;
           
-        case 'y_asc': // 年份升序
+        case 'year.asc': // 年份升序
           sortedData.sort((a, b) => (a.y || 0) - (b.y || 0));
           break;
           
@@ -1098,7 +1098,7 @@ async function loadImdbAnimeModule(params = {}) {
     }
     
     // 应用排序
-    const sortedData = sortData(rawData, sort);
+    const sortedData = sortData(rawData, sort_by);
     
     const widgetItems = sortedData.map(item => {
       if (!item || typeof item.id === 'undefined' || item.id === null) return null;
