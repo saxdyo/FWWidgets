@@ -33,7 +33,7 @@ node auto-update-preprocessed.js
 ### 2. 启动自动更新服务
 
 ```bash
-# 启动自动更新服务（每24小时更新一次）
+# 启动自动更新服务（每8小时更新一次）
 npm run auto:start
 
 # 或者直接运行
@@ -62,7 +62,7 @@ npm run auto:stop
 
 ## 📊 更新频率
 
-- **默认间隔**: 24小时
+- **默认间隔**: 8小时
 - **数据源**: 您的TMDB数据源
 - **更新内容**: 热门电影和剧集
 - **数据量**: 最多20项
@@ -75,7 +75,7 @@ npm run auto:stop
 
 ```javascript
 const CONFIG = {
-    UPDATE_INTERVAL: 24 * 60 * 60 * 1000, // 24小时
+    UPDATE_INTERVAL: 8 * 60 * 60 * 1000, // 8小时
     MAX_ITEMS: 20
 };
 ```
@@ -269,8 +269,8 @@ git status
 ### 1. 自定义更新间隔
 
 ```javascript
-// 修改为12小时更新一次
-UPDATE_INTERVAL: 12 * 60 * 60 * 1000
+// 修改为6小时更新一次
+UPDATE_INTERVAL: 6 * 60 * 60 * 1000
 ```
 
 ### 2. 添加更多数据源
