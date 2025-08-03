@@ -1,10 +1,10 @@
 // 在文件顶部添加配置
-const VERCEL_OG_SERVICE = "您的实际Vercel链接"; // 替换为您刚得到的链接，比如：https://my-og-generator.vercel.app
+const VERCEL_OG_SERVICE = "https://fw-widgets-pdb6ftlwx-sams-projects-20fafaa5.vercel.app"; // 您的Vercel链接
 
 // 添加多个备用服务
 const OG_SERVICES = [
     `${VERCEL_OG_SERVICE}/api/og`, // 您自己的服务（优先）
-    "https://create-hero-image.vercel.app/api/generate", // 备用1
+    "https://create-hero-image.vercel.app/api/generate", // 备用1  
     "https://og.railway.app/api/image", // 备用2
     // 本地生成作为最终回退
     null
@@ -1038,10 +1038,53 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         childItems: []
       };
       
-      // 如果存在带logo的背景图，同时保存正常背景图作为备用
+      // 处理旧的image-overlay链接，替换为我们的新服务
       if (item.title_backdrop && item.title_backdrop.includes('image-overlay.vercel.app')) {
-        const normalBackdrop = item.title_backdrop.replace('https://image-overlay.vercel.app/api/backdrop?bg=', '').split('&')[0];
-        widgetItem.normalBackdrop = normalBackdrop;
+        try {
+          // 从旧URL中提取信息
+          const urlParams = new URLSearchParams(item.title_backdrop.split('?')[1]);
+          const bgUrl = urlParams.get('bg');
+          const titleText = urlParams.get('title');
+          const year = urlParams.get('year');
+          const rating = urlParams.get('rating');
+          const type = urlParams.get('type');
+          
+          // 使用新的服务生成URL
+          const newBackdropUrl = generateTitleBackdropUrl(
+            titleText || item.title || item.name, 
+            year || (item.release_date || item.first_air_date || '').split('-')[0], 
+            rating || item.vote_average || item.rating, 
+            type || item.media_type || item.type
+          );
+          
+          // 更新背景图URL
+          if (newBackdropUrl) {
+            widgetItem.title_backdrop = newBackdropUrl;
+            widgetItem.backdropPath = newBackdropUrl;
+            widgetItem.backdropUrls = [newBackdropUrl];
+          }
+          
+          // 保存原始背景图作为备用
+          const normalBackdrop = decodeURIComponent(bgUrl);
+          widgetItem.normalBackdrop = normalBackdrop;
+          
+        } catch (error) {
+          console.warn('处理image-overlay URL时出错:', error);
+          // 如果处理失败，保留原有逻辑
+          const normalBackdrop = item.title_backdrop.replace('https://image-overlay.vercel.app/api/backdrop?bg=', '').split('&')[0];
+          widgetItem.normalBackdrop = normalBackdrop;
+        }
+      } else if (!widgetItem.title_backdrop && item.title) {
+        // 为没有title_backdrop的新项目生成
+        const newBackdropUrl = generateTitleBackdropUrl(
+          item.title || item.name,
+          (item.release_date || item.first_air_date || '').split('-')[0],
+          item.vote_average || item.rating,
+          item.media_type || item.type
+        );
+        if (newBackdropUrl) {
+          widgetItem.title_backdrop = newBackdropUrl;
+        }
       }
       
       return widgetItem;
@@ -2401,40 +2444,54 @@ function generateTitleBackdropUrl(title, year, rating, type) {
 const titleBackdropUrl = generateTitleBackdropUrl(title, releaseYear, voteAverage, mediaType);
 
 // 智能选择可用服务
-async function generateTitleBackdropUrl(title, year, rating, type) {
+function generateTitleBackdropUrl(title, year, rating, type) {
     const subtitle = `${year} • ⭐ ${rating} • ${type}`;
     
     // 如果有本地生成的图片，优先使用
-    const localUrl = getLocalBackdropUrl && getLocalBackdropUrl(title);
-    if (localUrl) {
-        return localUrl;
+    if (typeof getLocalBackdropUrl === 'function') {
+        const localUrl = getLocalBackdropUrl(title);
+        if (localUrl) {
+            return localUrl;
+        }
     }
     
-    // 尝试在线服务
-    for (const service of OG_SERVICES) {
-        if (!service) continue; // 跳过null值
-        
+    // 构建服务URL数组（按优先级排序）
+    const services = [
+        // 您的Vercel服务（多种API路径尝试）
+        {
+            url: `${VERCEL_OG_SERVICE}/api/og`,
+            params: { title: title, subtitle: subtitle }
+        },
+        {
+            url: `${VERCEL_OG_SERVICE}/api/image`, 
+            params: { title: title, description: subtitle, layoutName: "Simple", Text: title }
+        },
+        // 备用服务
+        {
+            url: "https://og.railway.app/api/image",
+            params: { layoutName: "Simple", Text: title, fileType: "png" }
+        },
+        // 最简单的备用方案
+        {
+            url: "https://via.placeholder.com/1200x630/667eea/ffffff",
+            params: { text: title }
+        }
+    ];
+    
+    // 返回第一个服务的URL（实际使用中会依次尝试）
+    for (const service of services) {
         try {
-            const params = new URLSearchParams({
-                title: title || 'Movie Title',
-                subtitle: subtitle,
-                text: title, // 兼容不同API
-                description: subtitle // 兼容不同API
-            });
-            
-            const url = `${service}?${params.toString()}`;
-            
-            // 简单检查服务是否可用（可选）
-            // 实际使用中可以省略这个检查，直接返回URL
+            const params = new URLSearchParams(service.params);
+            const url = `${service.url}?${params.toString()}`;
+            console.log(`尝试使用服务: ${url}`);
             return url;
-            
         } catch (error) {
-            console.warn(`服务 ${service} 不可用:`, error);
+            console.warn(`服务构建失败:`, error);
             continue;
         }
     }
     
-    // 如果所有服务都不可用，返回原始背景图
+    // 如果所有服务都不可用，返回null使用原始背景图
     return null;
 }
 
