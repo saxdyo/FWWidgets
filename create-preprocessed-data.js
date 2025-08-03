@@ -312,60 +312,84 @@ class PreprocessedDataGenerator {
     // 从现有数据源生成数据
     async generateFromExistingSources() {
         try {
-            // 尝试从您的IMDB数据源获取数据
+            // 优先从您的IMDB数据源获取数据
             const imdbData = await this.fetchImdbData();
             if (imdbData && imdbData.length > 0) {
+                console.log(`✅ 成功从IMDB数据源获取 ${imdbData.length} 项数据`);
                 return this.convertImdbToPreprocessed(imdbData);
             }
         } catch (error) {
-            console.log('从IMDB数据源获取失败，使用示例数据');
+            console.log('❌ 从IMDB数据源获取失败:', error.message);
         }
 
-        // 如果无法获取真实数据，使用示例数据
+        console.log('⚠️ 使用示例数据作为备选');
         return this.generateSampleData();
     }
 
-    // 从IMDB数据源获取数据
+    // 从您的TMDB数据源获取数据
     async fetchImdbData() {
         try {
-            const response = await fetch('https://raw.githubusercontent.com/saxdyo/FWWidgets/main/imdb-data/movies/all/by_hs/page_1.json');
-            if (response.ok) {
-                const data = await response.json();
-                return data;
+            // 获取热门数据
+            const trendingResponse = await fetch('https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-trending.json');
+            const moviesResponse = await fetch('https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-movies.json');
+            const tvResponse = await fetch('https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-tv.json');
+            
+            let allData = [];
+            
+            if (trendingResponse.ok) {
+                const trendingData = await trendingResponse.json();
+                allData = allData.concat(trendingData.slice(0, 8)); // 取前8部热门
             }
+            
+            if (moviesResponse.ok) {
+                const moviesData = await moviesResponse.json();
+                allData = allData.concat(moviesData.slice(0, 6)); // 取前6部电影
+            }
+            
+            if (tvResponse.ok) {
+                const tvData = await tvResponse.json();
+                allData = allData.concat(tvData.slice(0, 6)); // 取前6部剧集
+            }
+            
+            return allData;
         } catch (error) {
-            console.log('获取IMDB数据失败:', error.message);
+            console.log('获取TMDB数据失败:', error.message);
         }
         return null;
     }
 
-    // 将IMDB数据转换为预处理格式
-    convertImdbToPreprocessed(imdbData) {
-        return imdbData.map(item => ({
-            id: item.id,
-            title: item.t,
-            type: item.mt || 'movie',
+    // 将TMDB数据转换为预处理格式
+    convertImdbToPreprocessed(tmdbData) {
+        return tmdbData.map(item => ({
+            id: item.id || Math.floor(Math.random() * 1000000),
+            title: item.title || item.originalTitle || '未知标题',
+            type: item.mediaType || item.type || 'movie',
             genreTitle: this.generateGenreTitle(item),
-            rating: item.r || 0,
-            release_date: item.rd || `${item.y}-01-01`,
-            overview: item.o || '',
-            poster_url: item.p ? `https://image.tmdb.org/t/p/original${item.p}` : null,
-            title_backdrop: item.b ? `https://image.tmdb.org/t/p/original${item.b}` : null,
-            popularity: item.hs || 0,
-            vote_count: 0
+            rating: item.rating || 0,
+            release_date: item.releaseDate || item.release_date || `${item.releaseYear || 2025}-01-01`,
+            overview: item.overview || '暂无简介',
+            poster_url: item.posterPath ? `https://image.tmdb.org/t/p/original${item.posterPath}` : (item.poster_url || null),
+            title_backdrop: item.backdropPath ? `https://image.tmdb.org/t/p/original${item.backdropPath}` : (item.title_backdrop || null),
+            popularity: item.popularity || 0,
+            vote_count: item.voteCount || item.vote_count || 0
         }));
     }
 
     // 生成类型标题
     generateGenreTitle(item) {
         const genres = [];
-        if (item.mt === 'movie') genres.push('电影');
-        if (item.mt === 'tv') genres.push('剧集');
-        if (item.mt === 'anime') genres.push('动画');
+        const mediaType = item.mediaType || item.type || item.mt;
+        const year = item.releaseYear || item.y;
+        const rating = item.rating || item.r;
+        
+        if (mediaType === 'movie') genres.push('电影');
+        if (mediaType === 'tv') genres.push('剧集');
+        if (mediaType === 'anime') genres.push('动画');
         
         // 根据年份添加类型
-        if (item.y >= 2020) genres.push('现代');
-        if (item.r >= 8.0) genres.push('高分');
+        if (year >= 2020) genres.push('现代');
+        if (rating >= 8.0) genres.push('高分');
+        if (rating >= 7.0 && rating < 8.0) genres.push('推荐');
         
         return genres.join('•') || '剧情';
     }
