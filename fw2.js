@@ -864,17 +864,35 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从您的TMDB数据源加载数据
-    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
-    const data = response.data;
+    // 从您的TMDB数据源加载数据，添加fallback机制
+    let response, data;
+    try {
+      response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-trending.json");
+      data = response.data;
+    } catch (error) {
+      console.warn("GitHub数据源不可用，尝试backup数据源:", error.message);
+      // Fallback到其他可用的数据源
+      try {
+        response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
+        data = response.data;
+      } catch (fallbackError) {
+        console.error("所有预处理数据源都不可用:", fallbackError.message);
+        return [];
+      }
+    }
     
     let results = [];
     
-    // 将对象格式转换为数组
+    // 检查数据格式：如果是数组则直接使用，如果是对象则转换为数组
     let allItems = [];
-    for (let key in data) {
-      if (key !== 'last_updated' && data[key]) {
-        allItems.push(data[key]);
+    if (Array.isArray(data)) {
+      allItems = data;
+    } else {
+      // 对象格式转换为数组（兼容旧格式）
+      for (let key in data) {
+        if (key !== 'last_updated' && data[key]) {
+          allItems.push(data[key]);
+        }
       }
     }
     
@@ -887,11 +905,11 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         break;
       case "popular":
         // 过滤出电影
-        results = allItems.filter(item => item.type === 'movie');
+        results = allItems.filter(item => (item.type === 'movie' || item.mediaType === 'movie'));
         break;
       case "popular_tv":
         // 过滤出剧集
-        results = allItems.filter(item => item.type === 'tv');
+        results = allItems.filter(item => (item.type === 'tv' || item.mediaType === 'tv'));
         break;
       default:
         results = allItems;
@@ -918,7 +936,7 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       let posterPath = null;
       let backdropPath = null;
       
-      // 处理海报URL
+      // 处理海报URL - 兼容两种数据格式
       if (item.poster_url) {
         if (item.poster_url.startsWith('https://image.tmdb.org/')) {
           // 已经是完整URL，提取文件名
@@ -927,9 +945,11 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
           // 只是文件名
           posterPath = item.poster_url;
         }
+      } else if (item.posterPath) {
+        posterPath = item.posterPath;
       }
       
-      // 处理背景图URL
+      // 处理背景图URL - 兼容两种数据格式  
       if (item.title_backdrop) {
         if (item.title_backdrop.startsWith('https://image.tmdb.org/')) {
           // 已经是完整URL，提取文件名
@@ -938,6 +958,8 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
           // 只是文件名
           backdropPath = item.title_backdrop;
         }
+      } else if (item.backdropPath) {
+        backdropPath = item.backdropPath;
       }
       
       const imageUrls = buildImageUrls(posterPath, backdropPath);
@@ -947,17 +969,17 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         type: "tmdb",
         title: item.title,
         description: item.overview,
-        releaseDate: item.release_date,
+        releaseDate: item.release_date || item.releaseDate,
         posterPath: imageUrls.posterPath,
         coverUrl: imageUrls.coverUrl,
         backdropPath: imageUrls.backdropPath,
         backdropUrls: imageUrls.backdropUrls,
         title_backdrop: item.title_backdrop,
         rating: item.rating,
-        mediaType: item.type,
+        mediaType: item.type || item.mediaType,
         genreTitle: item.genreTitle,
         popularity: item.popularity || 0,
-        voteCount: item.vote_count || 0,
+        voteCount: item.vote_count || item.voteCount || 0,
         link: null,
         duration: 0,
         durationText: "",
@@ -979,8 +1001,9 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     
   } catch (error) {
     console.error("预处理TMDB数据加载失败:", error);
-    // 如果预处理数据加载失败，返回空数组
-    return [];
+    // 如果预处理数据加载失败，回退到API模式
+    console.log("回退到TMDB API模式");
+    return loadTmdbTrendingWithAPI(params);
   }
 }
 
