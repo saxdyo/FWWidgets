@@ -1,3 +1,15 @@
+// 在文件顶部添加配置
+const VERCEL_OG_SERVICE = "https://your-project-name.vercel.app"; // 替换为您的Vercel链接
+
+// 添加多个备用服务
+const OG_SERVICES = [
+    "https://your-project-name.vercel.app/api/og", // 您自己的服务（优先）
+    "https://create-hero-image.vercel.app/api/generate", // 备用1
+    "https://og.railway.app/api/image", // 备用2
+    // 本地生成作为最终回退
+    null
+];
+
 WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
   title: "TMDB影视榜单 V2",
@@ -2370,6 +2382,60 @@ function getGenreTitleForMediaType(mediaType) {
     default:
       return "影视";
   }
+}
+
+// 修改 title_backdrop URL 生成逻辑
+function generateTitleBackdropUrl(title, year, rating, type) {
+    // 使用您自己的Vercel服务
+    const params = new URLSearchParams({
+        title: title || 'Movie Title',
+        subtitle: `${year} • ⭐ ${rating} • ${type}`,
+        // 可以添加更多参数自定义样式
+    });
+    
+    return `${VERCEL_OG_SERVICE}/api/og?${params.toString()}`;
+}
+
+// 在处理数据时使用新的生成函数
+// 找到原来使用 image-overlay.vercel.app 的地方，替换为：
+const titleBackdropUrl = generateTitleBackdropUrl(title, releaseYear, voteAverage, mediaType);
+
+// 智能选择可用服务
+async function generateTitleBackdropUrl(title, year, rating, type) {
+    const subtitle = `${year} • ⭐ ${rating} • ${type}`;
+    
+    // 如果有本地生成的图片，优先使用
+    const localUrl = getLocalBackdropUrl && getLocalBackdropUrl(title);
+    if (localUrl) {
+        return localUrl;
+    }
+    
+    // 尝试在线服务
+    for (const service of OG_SERVICES) {
+        if (!service) continue; // 跳过null值
+        
+        try {
+            const params = new URLSearchParams({
+                title: title || 'Movie Title',
+                subtitle: subtitle,
+                text: title, // 兼容不同API
+                description: subtitle // 兼容不同API
+            });
+            
+            const url = `${service}?${params.toString()}`;
+            
+            // 简单检查服务是否可用（可选）
+            // 实际使用中可以省略这个检查，直接返回URL
+            return url;
+            
+        } catch (error) {
+            console.warn(`服务 ${service} 不可用:`, error);
+            continue;
+        }
+    }
+    
+    // 如果所有服务都不可用，返回原始背景图
+    return null;
 }
 
 
