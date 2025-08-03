@@ -169,8 +169,8 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         # 构建副标题
         subtitle = f"{year} • ⭐ {rating:.1f} • {item_type}"
         
-        # 使用可用的OG图片生成服务
-        og_service_url = "https://og-image.sznm.dev/api/og"
+        # 优先使用您的Vercel域名服务
+        og_service_url = "https://fw-widgets.vercel.app/api/og"
         
         # URL编码参数
         encoded_title = quote(title)
