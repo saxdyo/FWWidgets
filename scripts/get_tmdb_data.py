@@ -142,7 +142,7 @@ def get_best_title_backdrop(image_data):
     return get_image_url(best_backdrop["file_path"])
 
 def generate_title_backdrop_url(item, item_type, backdrop_path):
-    """生成带标题的背景图URL（为未来的图片服务预留）"""
+    """生成带标题的背景图URL，使用可用的OG图片服务"""
     if not backdrop_path:
         return None
         
@@ -158,21 +158,34 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         except:
             year = ""
     
-    # 构建参数
-    base_backdrop_url = get_image_url(backdrop_path, "w1280")
+    # 如果缺少必要信息，返回原始背景图
+    if not title or not year:
+        return get_image_url(backdrop_path, "w1280")
     
-    # 这里可以接入您的图片叠加服务
-    # 例如：https://your-service.vercel.app/api/backdrop
-    overlay_params = {
-        "bg": base_backdrop_url,
-        "title": title,
-        "year": year,
-        "rating": f"{rating:.1f}",
-        "type": item_type
-    }
-    
-    # 暂时返回原图，后续可以接入图片叠加服务
-    return base_backdrop_url
+    # 构建标题背景图URL，使用可用的OG服务
+    try:
+        from urllib.parse import quote
+        
+        # 构建副标题
+        subtitle = f"{year} • ⭐ {rating:.1f} • {item_type}"
+        
+        # 使用可用的OG图片生成服务
+        og_service_url = "https://og-image.sznm.dev/api/og"
+        
+        # URL编码参数
+        encoded_title = quote(title)
+        encoded_subtitle = quote(subtitle)
+        
+        # 生成最终URL
+        title_backdrop_url = f"{og_service_url}?title={encoded_title}&subtitle={encoded_subtitle}"
+        
+        logger.info(f"✅ 生成带标题背景图: {title} -> {title_backdrop_url}")
+        return title_backdrop_url
+        
+    except Exception as e:
+        logger.error(f"生成标题背景图失败: {e}")
+        # 如果生成失败，返回原始背景图
+        return get_image_url(backdrop_path, "w1280")
 
 def enhance_with_external_data(item, item_type):
     """使用BeautifulSoup增强数据（可选功能）"""
@@ -218,18 +231,26 @@ def process_tmdb_data(data, time_window, media_type, section_name=""):
                 logger.warning(f"获取详细信息失败 {title}: {e}")
                 genre_title = ""
 
-            # 获取最佳背景图
+            # 生成带标题的背景图
             try:
-                image_data = get_media_images(item_type, media_id)
-                title_backdrop_url = get_best_title_backdrop(image_data)
-                
-                # 如果没有找到好的背景图，使用原始backdrop
-                if not title_backdrop_url and item.get("backdrop_path"):
-                    title_backdrop_url = get_image_url(item.get("backdrop_path"))
+                # 优先使用我们的标题背景图生成服务
+                if item.get("backdrop_path"):
+                    title_backdrop_url = generate_title_backdrop_url(item, item_type, item.get("backdrop_path"))
+                else:
+                    # 如果没有backdrop_path，尝试获取图片数据
+                    image_data = get_media_images(item_type, media_id)
+                    best_backdrop = get_best_title_backdrop(image_data)
+                    if best_backdrop:
+                        # 从最佳背景图提取路径并生成标题背景图
+                        backdrop_path = best_backdrop.replace("https://image.tmdb.org/t/p/original", "")
+                        title_backdrop_url = generate_title_backdrop_url(item, item_type, backdrop_path)
+                    else:
+                        title_backdrop_url = None
                     
             except Exception as e:
-                logger.warning(f"获取背景图失败 {title}: {e}")
-                title_backdrop_url = get_image_url(item.get("backdrop_path"))
+                logger.warning(f"生成标题背景图失败 {title}: {e}")
+                # 回退到原始背景图
+                title_backdrop_url = get_image_url(item.get("backdrop_path")) if item.get("backdrop_path") else None
 
             # 数据质量检查
             if (rating == 0 and 
