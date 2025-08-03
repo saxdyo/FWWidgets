@@ -672,6 +672,70 @@ WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" }
       ]
+    },
+
+    // 4. IMDb影视榜单模块加载
+    {
+      title: "IMDb 影视榜单",
+      description: "IMDb热门影视内容",
+      requiresWebView: false,
+      functionName: "loadImdbMovieListModule",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "region",
+          title: "地区选择",
+          type: "enumeration",
+          description: "选择影视内容地区",
+          value: "all",
+          enumOptions: [
+            { title: "全部地区", value: "all" },
+            { title: "中国大陆", value: "country:cn" },
+            { title: "美国", value: "country:us" },
+            { title: "英国", value: "country:gb" },
+            { title: "日本", value: "country:jp" },
+            { title: "韩国", value: "country:kr" },
+            { title: "欧美", value: "region:us-eu" },
+            { title: "香港", value: "country:hk" },
+            { title: "台湾", value: "country:tw" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity.desc",
+          enumOptions: [
+            { title: "热门度↓", value: "popularity.desc" },
+            { title: "热门度↑", value: "popularity.asc" },
+            { title: "评分↓", value: "vote_average.desc" },
+            { title: "评分↑", value: "vote_average.asc" },
+            { title: "上映时间↓", value: "release_date.desc" },
+            { title: "上映时间↑", value: "release_date.asc" },
+            { title: "年份↓", value: "year.desc" },
+            { title: "年份↑", value: "year.asc" },
+            { title: "标题A-Z", value: "title.asc" },
+            { title: "标题Z-A", value: "title.desc" },
+            { title: "时长↓", value: "duration.desc" },
+            { title: "时长↑", value: "duration.asc" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择影视内容类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "剧集", value: "tv" },
+            { title: "动画", value: "anime" }
+          ]
+        }
+      ]
     }
   ]
 };
@@ -2265,6 +2329,214 @@ async function loadWeekHotModule(params = {}) {
   } catch (error) {
     console.error("本周热门模块加载失败:", error);
     return [];
+  }
+}
+
+// 4. IMDb影视榜单模块加载
+async function loadImdbMovieListModule(params = {}) {
+  const { 
+    region = "all", 
+    sort_by = "popularity.desc", 
+    page = "1",
+    media_type = "all" // 新增媒体类型参数
+  } = params;
+  
+  try {
+    const cacheKey = `imdb_movie_list_${region}_${sort_by}_${page}_${media_type}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎬 加载IMDb影视榜单数据 (地区: ${region}, 排序: ${sort_by}, 媒体类型: ${media_type}, 页码: ${page})`);
+
+    // 构建请求URL - 使用IMDb数据源
+    const GITHUB_OWNER = "opix-maker";
+    const GITHUB_REPO = "Forward";
+    const GITHUB_BRANCH = "main";
+    const DATA_PATH = "imdb-data-platform/dist";
+    
+    const baseUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DATA_PATH}`;
+    const cleanRegion = region.replace(':', '_');
+    
+    // 映射排序方式到数据文件键
+    const sortMapping = {
+      'popularity.desc': 'hs',
+      'popularity.asc': 'hs',
+      'vote_average.desc': 'r',
+      'vote_average.asc': 'r',
+      'release_date.desc': 'rd',
+      'release_date.asc': 'rd',
+      'year.desc': 'y',
+      'year.asc': 'y',
+      'title.desc': 't',
+      'title.asc': 't',
+      'duration.desc': 'd',
+      'duration.asc': 'd'
+    };
+    
+    const sortKey = sortMapping[sort_by] || 'hs';
+    
+    // 根据媒体类型选择数据路径
+    let dataPaths = [];
+    if (media_type === 'movie') {
+      dataPaths = [`movies/${cleanRegion}/by_${sortKey}/page_${page}.json`];
+    } else if (media_type === 'tv') {
+      // 剧集数据不可用，使用动画数据作为替代
+      dataPaths = [`anime/${cleanRegion}/by_${sortKey}/page_${page}.json`];
+    } else if (media_type === 'anime') {
+      dataPaths = [`anime/${cleanRegion}/by_${sortKey}/page_${page}.json`];
+    } else {
+      // 混合数据 - 获取电影和动画数据
+      dataPaths = [
+        `movies/${cleanRegion}/by_${sortKey}/page_${page}.json`,
+        `anime/${cleanRegion}/by_${sortKey}/page_${page}.json`
+      ];
+    }
+    
+    let allData = [];
+    
+    // 尝试获取所有可用的数据源
+    for (const dataPath of dataPaths) {
+      const requestUrl = `${baseUrl}/${dataPath}?cache_buster=${Math.floor(Date.now() / (1000 * 60 * 30))}`;
+      console.log(`🌐 尝试请求URL: ${requestUrl}`);
+
+      try {
+        const response = await Widget.http.get(requestUrl, { 
+          timeout: 15000, 
+          headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
+        });
+
+        if (response && response.statusCode === 200 && response.data) {
+          const rawData = Array.isArray(response.data) ? response.data : [];
+          console.log(`✅ 成功获取数据: ${dataPath} (${rawData.length}项)`);
+          allData = allData.concat(rawData);
+        } else {
+          console.log(`⚠️ 数据获取失败: ${dataPath} (Status: ${response ? response.statusCode : 'N/A'})`);
+        }
+      } catch (error) {
+        console.log(`❌ 请求失败: ${dataPath} - ${error.message}`);
+      }
+    }
+    
+    if (allData.length === 0) {
+      console.error(`❌ 所有数据源都无法获取数据`);
+      return [];
+    }
+
+    // 动态排序函数
+    function sortData(data, sortBy) {
+      // 基础排序类型，数据已经预排序
+      if (['popularity.desc', 'vote_average.desc', 'release_date.desc', 'year.desc', 'title.desc', 'duration.desc'].includes(sortBy)) {
+        return data;
+      }
+      
+      const sortedData = [...data];
+      
+      switch (sortBy) {
+        case 'popularity.asc': // 热度升序
+          sortedData.sort((a, b) => (a.hs || 0) - (b.hs || 0));
+          break;
+          
+        case 'vote_average.asc': // 评分升序
+          sortedData.sort((a, b) => (a.r || 0) - (b.r || 0));
+          break;
+          
+        case 'release_date.asc': // 上映时间升序
+          sortedData.sort((a, b) => {
+            const dateA = a.rd ? new Date(a.rd) : new Date(a.y + '-01-01');
+            const dateB = b.rd ? new Date(b.rd) : new Date(b.y + '-01-01');
+            return dateA - dateB;
+          });
+          break;
+          
+        case 'duration.asc': // 时长升序
+          sortedData.sort((a, b) => (a.d || 0) - (b.d || 0));
+          break;
+          
+        case 'title.asc': // 标题A-Z
+          sortedData.sort((a, b) => (a.t || '').localeCompare(b.t || '', 'zh-CN'));
+          break;
+          
+        case 'year.asc': // 年份升序
+          sortedData.sort((a, b) => (a.y || 0) - (b.y || 0));
+          break;
+          
+        default:
+          // 默认排序，保持原顺序
+          break;
+      }
+      
+      return sortedData;
+    }
+    
+    // 应用排序
+    const sortedData = sortData(allData, sort_by);
+    
+    const widgetItems = sortedData.map(item => {
+      if (!item || typeof item.id === 'undefined' || item.id === null) return null;
+      
+      // 构建图片URL
+      const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
+      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
+      
+      // 处理发布日期
+      const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
+      
+      // 确定媒体类型
+      const itemMediaType = item.mt || (item.ep ? 'tv' : 'movie');
+      const genreTitle = getGenreTitleForMediaType(itemMediaType);
+
+      return {
+        id: String(item.id),
+        type: "tmdb",
+        title: item.t || '未知标题',
+        description: item.o || '',
+        releaseDate: releaseDate,
+        posterPath: posterUrl,
+        backdropPath: backdropUrl,
+        coverUrl: posterUrl,
+        rating: typeof item.r === 'number' ? item.r.toFixed(1) : '0.0',
+        mediaType: itemMediaType,
+        genreTitle: genreTitle,
+        popularity: item.hs || 0,
+        voteCount: 0,
+        link: null,
+        duration: item.d || 0,
+        durationText: item.d ? `${Math.floor(item.d / 60)}分钟` : "",
+        episode: item.ep || 0,
+        childItems: [],
+        // 添加IMDB特有字段
+        imdbData: {
+          year: item.y,
+          releaseDate: item.rd,
+          popularity: item.hs,
+          duration: item.d,
+          episodes: item.ep,
+          mediaType: itemMediaType
+        }
+      };
+    }).filter(Boolean);
+
+    setCachedData(cacheKey, widgetItems);
+    console.log(`✅ IMDb影视榜单加载成功: ${widgetItems.length}项`);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("IMDb影视榜单加载失败:", error);
+    return [];
+  }
+}
+
+// 辅助函数：根据媒体类型获取分类标题
+function getGenreTitleForMediaType(mediaType) {
+  switch (mediaType) {
+    case 'movie':
+      return "电影";
+    case 'tv':
+      return "剧集";
+    case 'anime':
+      return "动画";
+    default:
+      return "影视";
   }
 }
 
