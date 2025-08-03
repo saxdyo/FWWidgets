@@ -946,41 +946,29 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从预处理的JSON文件加载数据
-    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
+    // 从您的TMDB数据源加载数据
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-trending.json");
     const data = response.data;
     
     let results = [];
     
+    // 根据内容类型过滤数据
     switch (content_type) {
       case "today":
-        results = data.today_global || [];
-        break;
       case "week":
-        results = data.week_global_all || [];
+        // 使用所有数据作为今日/本周热门
+        results = data || [];
         break;
       case "popular":
-        results = data.popular_movies || [];
+        // 过滤出电影
+        results = (data || []).filter(item => item.mediaType === 'movie');
         break;
       case "popular_tv":
-        // 尝试从专门的今日热门剧集文件加载数据
-        try {
-          const tvResponse = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Today_TVShows.json");
-          results = tvResponse.data.today_tvshows || [];
-        } catch (tvError) {
-          console.log("今日热门剧集文件加载失败，尝试备用文件");
-          try {
-            const backupResponse = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Popular_TVShows.json");
-            results = backupResponse.data.today_popular_tvshows || [];
-          } catch (backupError) {
-            console.log("备用文件也加载失败，使用默认数据");
-            // 修复：使用正确的字段名，如果不存在则使用空数组
-            results = data.popular_tvshows || data.today_global || [];
-          }
-        }
+        // 过滤出剧集
+        results = (data || []).filter(item => item.mediaType === 'tv');
         break;
       default:
-        results = data.today_global || [];
+        results = data || [];
     }
     
     // 使用CDN优化的WidgetItem格式转换
@@ -1000,26 +988,26 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       };
       
       const imageUrls = buildImageUrls(
-        item.poster_url ? item.poster_url.split('/').pop() : null,
-        item.title_backdrop ? item.title_backdrop.split('/').pop() : null
+        item.posterPath || null,
+        item.backdropPath || null
       );
       
       const widgetItem = {
         id: item.id.toString(),
         type: "tmdb",
-        title: item.title,
+        title: item.title || item.originalTitle,
         description: item.overview,
-        releaseDate: item.release_date,
+        releaseDate: item.releaseDate || item.release_date,
         posterPath: imageUrls.posterPath,
         coverUrl: imageUrls.coverUrl,
         backdropPath: imageUrls.backdropPath,
         backdropUrls: imageUrls.backdropUrls,
-        title_backdrop: item.title_backdrop,
-        rating: item.rating,
-        mediaType: item.type,
-        genreTitle: item.genreTitle,
+        title_backdrop: imageUrls.backdropPath,
+        rating: item.rating || 0,
+        mediaType: item.mediaType || item.type,
+        genreTitle: getGenreTitleForMediaType(item.mediaType || item.type),
         popularity: item.popularity || 0,
-        voteCount: item.vote_count || 0,
+        voteCount: item.voteCount || item.vote_count || 0,
         link: null,
         duration: 0,
         durationText: "",
