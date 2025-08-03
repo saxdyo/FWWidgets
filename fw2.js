@@ -2087,14 +2087,25 @@ async function loadTodayHotModule(params = {}) {
     const maxItems = parseInt(max_items);
     results = results.slice(0, maxItems);
 
-    // 转换为WidgetItem格式，使用CDN优化
+    // 转换为WidgetItem格式，使用图片URL构建
     const widgetItems = await Promise.all(results.map(async (item) => {
-      // 构建优化的图片URL
-      const imageUrls = await buildOptimizedImageUrls({
-        poster_path: item.poster_url ? item.poster_url.split('/').pop() : null,
-        backdrop_path: item.backdrop_url ? item.backdrop_url.split('/').pop() : null,
-        media_type: item.type
-      });
+      // 构建图片URL
+      const buildImageUrls = (posterPath, backdropPath) => {
+        const baseUrl = "https://image.tmdb.org/t/p";
+        return {
+          posterPath: posterPath ? `${baseUrl}/w500${posterPath.startsWith('/') ? posterPath : '/' + posterPath}` : null,
+          coverUrl: posterPath ? `${baseUrl}/w500${posterPath.startsWith('/') ? posterPath : '/' + posterPath}` : null,
+          backdropPath: backdropPath ? `${baseUrl}/w780${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}` : null,
+          backdropUrls: backdropPath ? {
+            w300: `${baseUrl}/w300${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            w780: `${baseUrl}/w780${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            w1280: `${baseUrl}/w1280${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            original: `${baseUrl}/original${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`
+          } : {}
+        };
+      };
+      
+      const imageUrls = buildImageUrls(item.poster_url, item.backdrop_url);
       
       const widgetItem = {
         id: item.id.toString(),
@@ -2167,14 +2178,25 @@ async function loadWeekHotModule(params = {}) {
     const maxItems = parseInt(max_items);
     results = results.slice(0, maxItems);
 
-    // 转换为WidgetItem格式，使用CDN优化
+    // 转换为WidgetItem格式，使用图片URL构建
     const widgetItems = await Promise.all(results.map(async (item) => {
-      // 构建优化的图片URL
-      const imageUrls = await buildOptimizedImageUrls({
-        poster_path: item.poster_url ? item.poster_url.split('/').pop() : null,
-        backdrop_path: item.backdrop_url ? item.backdrop_url.split('/').pop() : null,
-        media_type: item.type
-      });
+      // 构建图片URL
+      const buildImageUrls = (posterPath, backdropPath) => {
+        const baseUrl = "https://image.tmdb.org/t/p";
+        return {
+          posterPath: posterPath ? `${baseUrl}/w500${posterPath.startsWith('/') ? posterPath : '/' + posterPath}` : null,
+          coverUrl: posterPath ? `${baseUrl}/w500${posterPath.startsWith('/') ? posterPath : '/' + posterPath}` : null,
+          backdropPath: backdropPath ? `${baseUrl}/w780${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}` : null,
+          backdropUrls: backdropPath ? {
+            w300: `${baseUrl}/w300${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            w780: `${baseUrl}/w780${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            w1280: `${baseUrl}/w1280${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            original: `${baseUrl}/original${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`
+          } : {}
+        };
+      };
+      
+      const imageUrls = buildImageUrls(item.poster_url, item.backdrop_url);
       
       const widgetItem = {
         id: item.id.toString(),
@@ -2368,12 +2390,23 @@ async function loadAutoFetchedData(params = {}) {
         return null;
       }
       
-      // 构建优化的图片URL
-      const imageUrls = await buildOptimizedImageUrls({
-        poster_path: item.p,
-        backdrop_path: item.b,
-        media_type: data_type === 'tvseries' || data_type === 'anime' ? 'tv' : 'movie'
-      });
+      // 构建图片URL
+      const buildImageUrls = (posterPath, backdropPath) => {
+        const baseUrl = "https://image.tmdb.org/t/p";
+        return {
+          posterPath: posterPath ? `${baseUrl}/w500${posterPath.startsWith('/') ? posterPath : '/' + posterPath}` : null,
+          coverUrl: posterPath ? `${baseUrl}/w500${posterPath.startsWith('/') ? posterPath : '/' + posterPath}` : null,
+          backdropPath: backdropPath ? `${baseUrl}/w780${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}` : null,
+          backdropUrls: backdropPath ? {
+            w300: `${baseUrl}/w300${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            w780: `${baseUrl}/w780${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            w1280: `${baseUrl}/w1280${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`,
+            original: `${baseUrl}/original${backdropPath.startsWith('/') ? backdropPath : '/' + backdropPath}`
+          } : {}
+        };
+      };
+      
+      const imageUrls = buildImageUrls(item.p, item.b);
       
       // 处理发布日期
       const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
