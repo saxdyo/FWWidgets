@@ -1000,6 +1000,12 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         item.title_backdrop ? item.title_backdrop.split('/').pop() : null
       );
       
+      // 如果预处理数据中已经有完整的URL，直接使用
+      if (item.title_backdrop && item.title_backdrop.startsWith('https://image.tmdb.org/')) {
+        imageUrls.backdropPath = item.title_backdrop;
+        imageUrls.backdropUrls = [item.title_backdrop];
+      }
+      
       const widgetItem = {
         id: item.id.toString(),
         type: "tmdb",
