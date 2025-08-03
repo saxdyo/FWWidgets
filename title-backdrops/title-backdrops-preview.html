@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>带标题背景图预览</title>
+    <style>
+        body { margin: 0; padding: 20px; background: #1a1a1a; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        .backdrop-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .backdrop-container {
+            position: relative;
+            width: 100%;
+            height: 225px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+        }
+        .title-overlay {
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+        .info {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        .rating {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white; text-align: center; margin-bottom: 30px;">带标题背景图预览</h1>
+    <div class="grid">
+        
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">世界大战</div>
+                        <div class="info">
+                            <span class="rating">★ 4.548</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">新·驯龙高手</div>
+                        <div class="info">
+                            <span class="rating">★ 8.056</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/1RgPyOhN4DRs225BGTlHJqCudII.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">鬼灭之刃剧场版：无限城篇Part.1</div>
+                        <div class="info">
+                            <span class="rating">★ 7.12</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/shRevbFSTMZK0PheyYhZq135Kcr.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">Night Carnage</div>
+                        <div class="info">
+                            <span class="rating">★ 0</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/x5dVPttNDZaVRTvbk7pYrtGZoZN.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">高尔夫球也疯狂2</div>
+                        <div class="info">
+                            <span class="rating">★ 6.7</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">星际宝贝史迪奇</div>
+                        <div class="info">
+                            <span class="rating">★ 7.333</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/cEQMqB3ahd4mfeUN6VGC0ouVnZZ.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">梅根2.0</div>
+                        <div class="info">
+                            <span class="rating">★ 7.7</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/wFzI8o0jEMYfNugglP4wjFIr647.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">幽灵</div>
+                        <div class="info">
+                            <span class="rating">★ 6.67</span> | 2023 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/s94NjfKkcSczZ1FembwmQZwsuwY.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">神奇4侠：初露锋芒</div>
+                        <div class="info">
+                            <span class="rating">★ 7.352</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/h6gChZHFpmbwqwV3uQsoakp77p1.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">双面伴娘</div>
+                        <div class="info">
+                            <span class="rating">★ 6.029</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/6WqqEjiycNvDLjbEClM1zCwIbDD.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">惊变28年</div>
+                        <div class="info">
+                            <span class="rating">★ 7</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">超人</div>
+                        <div class="info">
+                            <span class="rating">★ 7.428</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/962KXsr09uK8wrmUg9TjzmE7c4e.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">冰路营救：复仇</div>
+                        <div class="info">
+                            <span class="rating">★ 6.8</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">功夫梦：融合之道</div>
+                        <div class="info">
+                            <span class="rating">★ 7.166</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/8or4S9BPhkeYK0vlKsPFee4JVWI.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">无迹之人</div>
+                        <div class="info">
+                            <span class="rating">★ 6.595</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">侏罗纪世界：重生</div>
+                        <div class="info">
+                            <span class="rating">★ 6.335</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/l3ycQYwWmbz7p8otwbomFDXIEhn.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">K-POP：猎魔女团</div>
+                        <div class="info">
+                            <span class="rating">★ 8.484</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/oPgXVSdGR9dGwbmvIToOCMmsdc2.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">疾速追杀：芭蕾杀姬</div>
+                        <div class="info">
+                            <span class="rating">★ 7.461</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">雷霆特攻队*</div>
+                        <div class="info">
+                            <span class="rating">★ 7.417</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backdrop-item">
+                <div class="backdrop-container" style="background-image: url('https://image.tmdb.org/t/p/original/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg');">
+                    <div class="title-overlay">
+                        <div class="title">死神来了6：血脉诅咒</div>
+                        <div class="info">
+                            <span class="rating">★ 7.162</span> | 2025 | movie
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
