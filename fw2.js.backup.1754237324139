@@ -881,37 +881,6 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       }
     }
     
-        // 本地生成的带标题背景图映射
-    const localBackdrops = {
-      "50821": "50821_Bartok kzt.jpg",
-      "65270": "65270_黄金渔场之明星电台.jpg",
-      "65733": "65733_哆啦A梦.jpg",
-      "70672": "70672_认识的哥哥.jpg",
-      "112470": "112470_一切从这里开始.jpg",
-      "196890": "196890_战酋.jpg",
-      "241388": "241388_瓦坎达之眼.jpg",
-      "244808": "244808_拔作岛.jpg",
-      "552524": "552524_星际宝贝史迪奇.jpg",
-      "617126": "617126_神奇4侠初露锋芒.jpg",
-      "755898": "755898_世界大战.jpg",
-      "980477": "980477_哪吒之魔童闹海.jpg",
-      "986206": "986206_Night Carnage.jpg",
-      "1035259": "1035259_新白头神探.jpg",
-      "1087192": "1087192_新驯龙高手.jpg",
-      "1100988": "1100988_惊变28年.jpg",
-      "1263256": "1263256_高尔夫球也疯狂2.jpg",
-      "1307078": "1307078_爱在牛津的一年.jpg",
-      "1311031": "1311031_鬼灭之刃剧场版无限城篇Part1.jpg"
-};
-    
-    // 获取本地背景图URL的辅助函数
-    const getLocalBackdropUrl = (itemId) => {
-      const fileName = localBackdrops[itemId];
-      return fileName ? `https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/generated-backdrops/${fileName}` : null;
-    };
-    
-
-    
     let results = [];
     
     // 检查数据格式：如果是数组则直接使用，如果是对象则转换为数组
@@ -1003,11 +972,9 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         releaseDate: item.release_date || item.releaseDate,
         posterPath: imageUrls.posterPath,
         coverUrl: imageUrls.coverUrl,
-        // 优先使用本地生成的带标题背景图
-        localBackdropUrl: getLocalBackdropUrl(item.id),
-        backdropPath: getLocalBackdropUrl(item.id) || imageUrls.backdropPath,
-        backdropUrls: getLocalBackdropUrl(item.id) ? [getLocalBackdropUrl(item.id)] : imageUrls.backdropUrls,
-        title_backdrop: getLocalBackdropUrl(item.id) || item.title_backdrop,
+        backdropPath: imageUrls.backdropPath,
+        backdropUrls: imageUrls.backdropUrls,
+        title_backdrop: item.title_backdrop,
         rating: item.rating,
         mediaType: item.type || item.mediaType,
         genreTitle: item.genreTitle,
