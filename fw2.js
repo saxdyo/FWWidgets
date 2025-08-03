@@ -107,7 +107,7 @@ WidgetMetadata = {
           description: "选择数据来源类型",
           value: "api",
           enumOptions: [
-            { title: "TMDB API（推荐）", value: "api" },
+            { title: "TMDB API（带标题背景图）", value: "api" },
             { title: "预处理数据（实验性）", value: "true" }
           ]
         }
@@ -824,13 +824,22 @@ async function loadTmdbTrendingWithAPI(params = {}) {
       const widgetItem = createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
       
-      // 使用正常背景图
+      // 生成带标题的背景图
       if (item.backdrop_path) {
         const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
         
-        // 直接使用正常背景图
-        widgetItem.title_backdrop = backdropUrl;
-        widgetItem.backdropPath = backdropUrl;
+        // 生成带标题的背景图URL
+        const titleBackdropUrl = generateTitleBackdropUrl(
+          item.title || item.name,
+          (item.release_date || item.first_air_date || '').split('-')[0],
+          item.vote_average,
+          item.media_type
+        );
+        
+        // 优先使用带标题背景图，原始背景图作为备用
+        widgetItem.title_backdrop = titleBackdropUrl || backdropUrl;
+        widgetItem.backdropPath = titleBackdropUrl || backdropUrl;
+        widgetItem.normalBackdrop = backdropUrl; // 保存原始背景图
       }
       
       return widgetItem;
