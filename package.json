@@ -4,7 +4,10 @@
   "description": "TMDB电影背景图爬取工具",
   "main": "tmdb-scraper.js",
   "scripts": {
-    "start": "node tmdb-scraper.js"
+    "start": "node tmdb-scraper.js",
+    "generate:preprocessed": "node create-preprocessed-data.js",
+    "deploy:preprocessed": "./deploy-preprocessed-data.sh",
+    "test:preprocessed": "curl -s 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json' | jq '.today_global | length'"
   },
   "dependencies": {
     "axios": "^1.11.0",
