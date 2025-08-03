@@ -952,22 +952,31 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     
     let results = [];
     
-    // 根据内容类型获取数据
+    // 将对象格式转换为数组
+    let allItems = [];
+    for (let key in data) {
+      if (key !== 'last_updated' && data[key]) {
+        allItems.push(data[key]);
+      }
+    }
+    
+    // 根据内容类型过滤数据
     switch (content_type) {
       case "today":
-        results = data.today_global || [];
-        break;
       case "week":
-        results = data.week_global_all || [];
+        // 使用所有数据作为今日/本周热门
+        results = allItems;
         break;
       case "popular":
-        results = data.popular_movies || [];
+        // 过滤出电影
+        results = allItems.filter(item => item.type === 'movie');
         break;
       case "popular_tv":
-        results = data.popular_tvshows || [];
+        // 过滤出剧集
+        results = allItems.filter(item => item.type === 'tv');
         break;
       default:
-        results = data.today_global || [];
+        results = allItems;
     }
     
     // 使用CDN优化的WidgetItem格式转换
