@@ -7,7 +7,7 @@
     "start": "node tmdb-scraper.js",
     "generate:preprocessed": "node create-preprocessed-data.js",
     "deploy:preprocessed": "./deploy-preprocessed-data.sh",
-    "test:preprocessed": "curl -s 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json' | jq '.today_global | length'"
+    "test:preprocessed": "curl -s 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json' | node -e \"const data = JSON.parse(require('fs').readFileSync(0, 'utf8')); console.log('✅ 数据测试成功:'); console.log('今日热门:', data.today_global.length, '项'); console.log('本周热门:', data.week_global_all.length, '项'); console.log('热门电影:', data.popular_movies.length, '项'); console.log('热门剧集:', data.popular_tvshows.length, '项');\""
   },
   "dependencies": {
     "axios": "^1.11.0",
