@@ -910,11 +910,11 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       "1311031": "1311031_鬼灭之刃剧场版无限城篇Part1.jpg"
 };
     
-    // 获取本地背景图URL的辅助函数
-    const getLocalBackdropUrl = (itemId) => {
-      const fileName = localBackdrops[itemId];
-      return fileName ? `https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/generated-backdrops/${fileName}` : null;
-    };
+         // 获取本地背景图URL的辅助函数
+     const getLocalBackdropUrl = (itemId) => {
+       const fileName = localBackdrops[itemId];
+       return fileName ? `http://localhost:8080/${fileName}` : null;
+     };
     
 
     
