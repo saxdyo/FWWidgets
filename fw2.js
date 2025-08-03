@@ -2439,21 +2439,7 @@ function getGenreTitleForMediaType(mediaType) {
   }
 }
 
-// 修改 title_backdrop URL 生成逻辑
-function generateTitleBackdropUrl(title, year, rating, type) {
-    // 使用您自己的Vercel服务
-    const params = new URLSearchParams({
-        title: title || 'Movie Title',
-        subtitle: `${year} • ⭐ ${rating} • ${type}`,
-        // 可以添加更多参数自定义样式
-    });
-    
-    return `${VERCEL_OG_SERVICE}/api/og?${params.toString()}`;
-}
-
-// 在处理数据时使用新的生成函数
-// 找到原来使用 image-overlay.vercel.app 的地方，替换为：
-const titleBackdropUrl = generateTitleBackdropUrl(title, releaseYear, voteAverage, mediaType);
+// 移除重复的函数定义
 
 // 智能选择可用服务
 function generateTitleBackdropUrl(title, year, rating, type) {
