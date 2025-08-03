@@ -963,7 +963,8 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
             results = backupResponse.data.today_popular_tvshows || [];
           } catch (backupError) {
             console.log("备用文件也加载失败，使用默认数据");
-            results = data.popular_tvshows || [];
+            // 修复：使用正确的字段名，如果不存在则使用空数组
+            results = data.popular_tvshows || data.today_global || [];
           }
         }
         break;
@@ -971,20 +972,36 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         results = data.today_global || [];
     }
     
-    // 按照您代码中的实现方式，直接转换为WidgetItem格式，并添加背景图回退机制
+    // 使用CDN优化的WidgetItem格式转换
     const widgetItems = await Promise.all(results.map(async (item) => {
+      // 构建优化的图片URL
+      const imageUrls = await buildOptimizedImageUrls({
+        poster_path: item.poster_url ? item.poster_url.split('/').pop() : null,
+        backdrop_path: item.title_backdrop ? item.title_backdrop.split('/').pop() : null,
+        media_type: item.type
+      });
+      
       const widgetItem = {
         id: item.id.toString(),
         type: "tmdb",
         title: item.title,
         description: item.overview,
         releaseDate: item.release_date,
-        posterPath: item.poster_url,
-        backdropPath: item.title_backdrop,
+        posterPath: imageUrls.posterPath,
+        coverUrl: imageUrls.coverUrl,
+        backdropPath: imageUrls.backdropPath,
+        backdropUrls: imageUrls.backdropUrls,
         title_backdrop: item.title_backdrop,
         rating: item.rating,
         mediaType: item.type,
-        genreTitle: item.genreTitle
+        genreTitle: item.genreTitle,
+        popularity: item.popularity || 0,
+        voteCount: item.vote_count || 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: []
       };
       
       // 如果存在带logo的背景图，同时保存正常背景图作为备用
