@@ -7,7 +7,7 @@
     "start": "node tmdb-scraper.js",
     "generate:preprocessed": "node create-preprocessed-data.js",
     "deploy:preprocessed": "./deploy-preprocessed-data.sh",
-    "test:preprocessed": "curl -s 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json' | node -e \"const data = JSON.parse(require('fs').readFileSync(0, 'utf8')); console.log('✅ 数据测试成功:'); console.log('今日热门:', data.today_global.length, '项'); console.log('本周热门:', data.week_global_all.length, '项'); console.log('热门电影:', data.popular_movies.length, '项'); console.log('热门剧集:', data.popular_tvshows.length, '项');\"",
+    "test:preprocessed": "curl -s 'https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json' | node -e \"const data = JSON.parse(require('fs').readFileSync(0, 'utf8')); let count = 0; let movies = 0; let tv = 0; for (let key in data) { if (key !== 'last_updated') { count++; if (data[key].type === 'movie') movies++; if (data[key].type === 'tv') tv++; } } console.log('✅ 数据测试成功:'); console.log('总数据项:', count, '项'); console.log('电影数量:', movies, '项'); console.log('剧集数量:', tv, '项'); console.log('最后更新:', data.last_updated || '未知');\"",
     "update:preprocessed": "node auto-update-preprocessed.js",
     "auto:start": "./auto-update-and-deploy.sh start",
     "auto:stop": "./auto-update-and-deploy.sh stop",
