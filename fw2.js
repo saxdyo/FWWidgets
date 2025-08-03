@@ -986,11 +986,23 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     // 使用CDN优化的WidgetItem格式转换
     const widgetItems = await Promise.all(results.map(async (item) => {
       // 构建优化的图片URL
-      const imageUrls = await buildOptimizedImageUrls({
-        poster_path: item.poster_url ? item.poster_url.split('/').pop() : null,
-        backdrop_path: item.title_backdrop ? item.title_backdrop.split('/').pop() : null,
-        media_type: item.type
-      });
+      const buildImageUrls = (posterPath, backdropPath) => {
+        const baseUrl = "https://image.tmdb.org/t/p/";
+        const posterUrl = posterPath ? `${baseUrl}w500${posterPath}` : null;
+        const backdropUrl = backdropPath ? `${baseUrl}w1280${backdropPath}` : null;
+        
+        return {
+          posterPath: posterUrl,
+          coverUrl: posterUrl,
+          backdropPath: backdropUrl,
+          backdropUrls: backdropUrl ? [backdropUrl] : []
+        };
+      };
+      
+      const imageUrls = buildImageUrls(
+        item.poster_url ? item.poster_url.split('/').pop() : null,
+        item.title_backdrop ? item.title_backdrop.split('/').pop() : null
+      );
       
       const widgetItem = {
         id: item.id.toString(),
