@@ -947,7 +947,7 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     if (cached) return cached;
 
     // 从预处理的JSON文件加载数据
-    const response = await Widget.http.get("https://raw.githubusercontent.com/quantumultxx/ForwardWidgets/main/data/TMDB_Trending.json");
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
     let results = [];
