@@ -2255,16 +2255,48 @@ async function loadAutoFetchedData(params = {}) {
     
     console.log(`📁 数据文件路径: ${dataPath} (排序键: ${sortKey}, 排序类型: ${sort_by})`);
 
-    // 从本地文件加载数据
-    const response = await Widget.http.get(`https://raw.githubusercontent.com/saxdyo/FWWidgets/main/${dataPath}`);
+    // 从IMDB数据源加载数据
+    let response;
+    try {
+      response = await Widget.http.get(`https://raw.githubusercontent.com/opix-maker/Forward/main/imdb-data-platform/dist/${dataPath}`);
+    } catch (error) {
+      console.error(`❌ 自动抓取数据加载失败: ${error.message}`);
+      return [];
+    }
     
     if (!response || response.statusCode !== 200 || !response.data) {
       console.error(`❌ 自动抓取数据加载失败: Status ${response ? response.statusCode : 'N/A'}`);
-      return [];
+      
+      // 如果指定地区失败，尝试使用all地区
+      if (region !== 'all') {
+        console.log(`🔄 尝试使用all地区作为回退...`);
+        const fallbackDataPath = `data/${data_type}/all/by_${sortKey}/page_${page}.json`;
+        try {
+          response = await Widget.http.get(`https://raw.githubusercontent.com/opix-maker/Forward/main/imdb-data-platform/dist/${fallbackDataPath}`);
+          if (response && response.statusCode === 200 && response.data) {
+            console.log(`✅ 回退到all地区成功`);
+          } else {
+            console.error(`❌ 回退到all地区也失败`);
+            return [];
+          }
+        } catch (fallbackError) {
+          console.error(`❌ 回退到all地区失败: ${fallbackError.message}`);
+          return [];
+        }
+      } else {
+        return [];
+      }
     }
 
     // 处理数据
     const rawData = Array.isArray(response.data) ? response.data : [];
+    
+    if (rawData.length === 0) {
+      console.warn(`⚠️ 数据为空，可能的数据路径问题`);
+      return [];
+    }
+    
+    console.log(`📊 成功加载 ${rawData.length} 条IMDB数据`);
     
     // 动态排序函数
     function sortData(data, sortBy) {
@@ -2330,6 +2362,12 @@ async function loadAutoFetchedData(params = {}) {
     const widgetItems = await Promise.all(sortedData.map(async item => {
       if (!item || typeof item.id === 'undefined' || item.id === null) return null;
       
+      // 数据质量检查
+      if (!item.t || item.t.trim() === '') {
+        console.warn(`⚠️ 跳过无标题项目: ID ${item.id}`);
+        return null;
+      }
+      
       // 构建优化的图片URL
       const imageUrls = await buildOptimizedImageUrls({
         poster_path: item.p,
@@ -2353,23 +2391,32 @@ async function loadAutoFetchedData(params = {}) {
         description: item.o || '',
         releaseDate: releaseDate,
         posterPath: imageUrls.posterPath,
-        backdropPath: imageUrls.backdropPath,
         coverUrl: imageUrls.coverUrl,
+        backdropPath: imageUrls.backdropPath,
         backdropUrls: imageUrls.backdropUrls,
         rating: typeof item.r === 'number' ? item.r.toFixed(1) : '0.0',
         mediaType: mediaType,
         genreTitle: data_type === 'anime' ? "动画" : (data_type === 'tvseries' ? "剧集" : "电影"),
-        popularity: 0,
+        popularity: item.hs || 0,
         voteCount: 0,
         link: null,
         duration: 0,
         durationText: "",
         episode: 0,
-        childItems: []
+        childItems: [],
+        // 添加IMDB特有字段
+        imdbData: {
+          year: item.y,
+          releaseDate: item.rd,
+          popularity: item.hs,
+          duration: item.d
+        }
       };
     }));
     
     const filteredWidgetItems = widgetItems.filter(Boolean);
+    
+    console.log(`✅ 成功处理 ${filteredWidgetItems.length} 条IMDB数据项`);
 
     setCachedData(cacheKey, filteredWidgetItems);
     console.log(`✅ IMDB影视榜单数据加载成功: ${filteredWidgetItems.length}项`);
