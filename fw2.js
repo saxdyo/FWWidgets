@@ -1045,7 +1045,7 @@ async function loadImdbAnimeModule(params = {}) {
     const baseUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DATA_PATH}`;
     const cleanRegion = region.replace(':', '_');
     const sortKey = sort.split('_desc')[0];
-    const fullPath = `${cleanRegion}/by_${sortKey}/page_${page}.json`;
+    const fullPath = `anime/${cleanRegion}/by_${sortKey}/page_${page}.json`;
     const requestUrl = `${baseUrl}/${fullPath}?cache_buster=${Math.floor(Date.now() / (1000 * 60 * 30))}`;
 
     console.log(`🌐 请求URL: ${requestUrl}`);
