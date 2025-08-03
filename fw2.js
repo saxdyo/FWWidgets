@@ -947,28 +947,27 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     if (cached) return cached;
 
     // 从您的TMDB数据源加载数据
-    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/tmdb-backdrops-trending.json");
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
     let results = [];
     
-    // 根据内容类型过滤数据
+    // 根据内容类型获取数据
     switch (content_type) {
       case "today":
+        results = data.today_global || [];
+        break;
       case "week":
-        // 使用所有数据作为今日/本周热门
-        results = data || [];
+        results = data.week_global_all || [];
         break;
       case "popular":
-        // 过滤出电影
-        results = (data || []).filter(item => item.mediaType === 'movie');
+        results = data.popular_movies || [];
         break;
       case "popular_tv":
-        // 过滤出剧集
-        results = (data || []).filter(item => item.mediaType === 'tv');
+        results = data.popular_tvshows || [];
         break;
       default:
-        results = data || [];
+        results = data.today_global || [];
     }
     
     // 使用CDN优化的WidgetItem格式转换
@@ -988,26 +987,26 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       };
       
       const imageUrls = buildImageUrls(
-        item.posterPath || null,
-        item.backdropPath || null
+        item.poster_url ? item.poster_url.split('/').pop() : null,
+        item.title_backdrop ? item.title_backdrop.split('/').pop() : null
       );
       
       const widgetItem = {
         id: item.id.toString(),
         type: "tmdb",
-        title: item.title || item.originalTitle,
+        title: item.title,
         description: item.overview,
-        releaseDate: item.releaseDate || item.release_date,
+        releaseDate: item.release_date,
         posterPath: imageUrls.posterPath,
         coverUrl: imageUrls.coverUrl,
         backdropPath: imageUrls.backdropPath,
         backdropUrls: imageUrls.backdropUrls,
-        title_backdrop: imageUrls.backdropPath,
-        rating: item.rating || 0,
-        mediaType: item.mediaType || item.type,
-        genreTitle: getGenreTitleForMediaType(item.mediaType || item.type),
+        title_backdrop: item.title_backdrop,
+        rating: item.rating,
+        mediaType: item.type,
+        genreTitle: item.genreTitle,
         popularity: item.popularity || 0,
-        voteCount: item.voteCount || item.vote_count || 0,
+        voteCount: item.vote_count || 0,
         link: null,
         duration: 0,
         durationText: "",
