@@ -26,6 +26,7 @@ WidgetMetadata = {
             { title: "今日热门", value: "today" },
             { title: "本周热门", value: "week" },
             { title: "热门电影", value: "popular" },
+            { title: "今日热门剧集", value: "popular_tv" },
             { title: "高分内容", value: "top_rated" }
           ]
         },
@@ -83,7 +84,168 @@ WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        {
+          name: "use_preprocessed_data",
+          title: "数据来源类型",
+          type: "enumeration",
+          description: "选择数据来源类型",
+          value: "true",
+          enumOptions: [
+            { title: "预处理数据", value: "true" },
+            { title: "正常TMDB API", value: "api" }
+          ]
+        }
+      ]
+    },
+
+    // TMDB今日热门模块
+    {
+      title: "TMDB 今日热门",
+      description: "今日热门电影与剧集，带logo背景图",
+      requiresWebView: false,
+      functionName: "loadTodayHotModule",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择媒体类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "剧集", value: "tv" }
+          ]
+        },
+        {
+          name: "max_items",
+          title: "最大项目数",
+          type: "enumeration",
+          description: "设置返回的最大项目数",
+          value: "20",
+          enumOptions: [
+            { title: "10项", value: "10" },
+            { title: "15项", value: "15" },
+            { title: "20项", value: "20" },
+            { title: "25项", value: "25" }
+          ]
+        },
+        {
+          name: "language",
+          title: "语言",
+          type: "language",
+          value: "zh-CN"
+        }
+      ]
+    },
+
+    // TMDB本周热门模块
+    {
+      title: "TMDB 本周热门",
+      description: "本周热门电影与剧集，带logo背景图",
+      requiresWebView: false,
+      functionName: "loadWeekHotModule",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择媒体类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "剧集", value: "tv" }
+          ]
+        },
+        {
+          name: "max_items",
+          title: "最大项目数",
+          type: "enumeration",
+          description: "设置返回的最大项目数",
+          value: "20",
+          enumOptions: [
+            { title: "10项", value: "10" },
+            { title: "15项", value: "15" },
+            { title: "20项", value: "20" },
+            { title: "25项", value: "25" }
+          ]
+        },
+        {
+          name: "language",
+          title: "语言",
+          type: "language",
+          value: "zh-CN"
+        }
+      ]
+    },
+
+    // IMDB影视榜单
+    {
+      title: "IMDB影视榜单",
+      description: "使用本地抓取的IMDB数据",
+      requiresWebView: false,
+      functionName: "loadAutoFetchedData",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "data_type",
+          title: "数据类型",
+          type: "enumeration",
+          description: "选择数据类型",
+          value: "movies",
+          enumOptions: [
+            { title: "电影", value: "movies" },
+            { title: "剧集", value: "tvseries" },
+            { title: "动画", value: "anime" }
+          ]
+        },
+        {
+          name: "region",
+          title: "地区",
+          type: "enumeration",
+          description: "选择地区",
+          value: "all",
+          enumOptions: [
+            { title: "全部地区", value: "all" },
+            { title: "中国大陆", value: "country:cn" },
+            { title: "美国", value: "country:us" },
+            { title: "英国", value: "country:gb" },
+            { title: "日本", value: "country:jp" },
+            { title: "韩国", value: "country:kr" },
+            { title: "欧美", value: "region:us-eu" },
+            { title: "香港", value: "country:hk" },
+            { title: "台湾", value: "country:tw" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity_desc",
+          enumOptions: [
+            { title: "热度降序", value: "popularity_desc" },
+            { title: "热度升序", value: "popularity_asc" },
+            { title: "评分降序", value: "vote_average_desc" },
+            { title: "评分升序", value: "vote_average_asc" },
+            { title: "上映时间降序", value: "release_date_desc" },
+            { title: "上映时间升序", value: "release_date_asc" },
+            { title: "年份降序", value: "year_desc" },
+            { title: "年份升序", value: "year_asc" },
+            { title: "标题A-Z", value: "title_asc" },
+            { title: "标题Z-A", value: "title_desc" }
+          ]
+        },
+        {
+          name: "page",
+          title: "页码",
+          type: "page",
+          value: "1"
+        }
       ]
     },
 
@@ -397,110 +559,46 @@ WidgetMetadata = {
         { name: "language", title: "语言", type: "language", value: "zh-CN" }
       ]
     },
-    // Bangumi热门新番
+
+    // IMDb动画模块
     {
-      title: "Bangumi 热门新番",
-      description: "最新热门新番动画",
+      title: "IMDb 动画",
+      description: "IMDb热门动画内容",
       requiresWebView: false,
-      functionName: "loadBangumiHotNewAnime",
-      cacheDuration: 1800,
+      functionName: "loadImdbAnimeModule",
+      cacheDuration: 3600,
       params: [
         {
-          name: "with_origin_country",
-          title: "制作地区",
+          name: "region",
+          title: "地区选择",
           type: "enumeration",
           description: "选择动画制作地区",
-          value: "JP",
+          value: "all",
           enumOptions: [
-            { title: "日本动画", value: "JP" },
-            { title: "中国动画", value: "CN" },
-            { title: "韩国动画", value: "KR" },
-            { title: "全部地区", value: "" }
+            { title: "全部地区", value: "all" },
+            { title: "中国大陆", value: "country:cn" },
+            { title: "美国", value: "country:us" },
+            { title: "英国", value: "country:gb" },
+            { title: "日本", value: "country:jp" },
+            { title: "韩国", value: "country:kr" },
+            { title: "欧美", value: "region:us-eu" },
+            { title: "香港", value: "country:hk" },
+            { title: "台湾", value: "country:tw" }
           ]
         },
         {
-          name: "with_genres",
-          title: "动画类型",
-          type: "enumeration",
-          description: "选择动画类型",
-          value: "16",
-          enumOptions: [
-            { title: "全部类型", value: "" },
-            { title: "动画", value: "16" },
-            { title: "奇幻", value: "14" },
-            { title: "科幻", value: "878" },
-            { title: "冒险", value: "12" },
-            { title: "喜剧", value: "35" },
-            { title: "爱情", value: "10749" },
-            { title: "动作", value: "28" },
-            { title: "悬疑", value: "9648" },
-            { title: "音乐", value: "10402" },
-            { title: "运动", value: "10770" },
-            { title: "家庭", value: "10751" },
-            { title: "犯罪", value: "80" },
-            { title: "历史", value: "36" },
-            { title: "战争", value: "10752" },
-            { title: "恐怖", value: "27" }
-          ]
-        },
-        {
-          name: "sort_by",
+          name: "sort",
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
-          value: "popularity.desc",
+          value: "hs_desc",
           enumOptions: [
-            { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "最新播出↓", value: "first_air_date.desc" },
-            { title: "最早播出↑", value: "first_air_date.asc" },
-            { title: "最新更新↓", value: "last_air_date.desc" },
-            { title: "最早更新↑", value: "last_air_date.asc" }
+            { title: "🔥综合热度", value: "hs_desc" },
+            { title: "👍评分", value: "r_desc" },
+            { title: "默认排序", value: "d_desc" }
           ]
         },
-        {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "6.0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" },
-            { title: "8.5分以上", value: "8.5" }
-          ]
-        },
-        {
-          name: "year",
-          title: "年份筛选",
-          type: "enumeration",
-          description: "按播出年份筛选动画",
-          value: "",
-          enumOptions: [
-            { title: "全部年份", value: "" },
-            { title: "2024年", value: "2024" },
-            { title: "2023年", value: "2023" },
-            { title: "2022年", value: "2022" },
-            { title: "2021年", value: "2021" },
-            { title: "2020年", value: "2020" },
-            { title: "2019年", value: "2019" },
-            { title: "2018年", value: "2018" },
-            { title: "2017年", value: "2017" },
-            { title: "2016年", value: "2016" },
-            { title: "2015年", value: "2015" },
-            { title: "2014年", value: "2014" },
-            { title: "2013年", value: "2013" },
-            { title: "2012年", value: "2012" },
-            { title: "2011年", value: "2011" },
-            { title: "2010年", value: "2010" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "page", title: "页码", type: "page" }
       ]
     },
 
@@ -627,74 +725,13 @@ WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" }
       ]
-    },
-
-    // TMDB带标题背景图
-    {
-      title: "TMDB带标题背景图",
-      description: "带片名标题的高质量背景图内容",
-      requiresWebView: false,
-      functionName: "loadTmdbTitleBackdropData",
-      cacheDuration: 1800,
-      params: [
-        {
-          name: "data_source",
-          title: "数据源",
-          type: "enumeration",
-          description: "选择数据来源",
-          value: "today_global",
-          enumOptions: [
-            { title: "今日热门", value: "today_global" }
-          ]
-        },
-        {
-          name: "media_type",
-          title: "媒体类型",
-          type: "enumeration",
-          description: "筛选媒体类型",
-          value: "all",
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "电影", value: "movie" },
-            { title: "电视剧", value: "tv" }
-          ]
-        },
-        {
-          name: "min_rating",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" },
-            { title: "9.0分以上", value: "9.0" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "rating_desc",
-          enumOptions: [
-            { title: "评分降序", value: "rating_desc" },
-            { title: "评分升序", value: "rating_asc" },
-            { title: "上映时间降序", value: "release_date_desc" },
-            { title: "上映时间升序", value: "release_date_asc" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
     }
   ]
 };
 
 // 配置常量
 const CONFIG = {
-  API_KEY: "your_tmdb_api_key_here", // 请替换为您的TMDB API密钥
+  API_KEY: "f3ae69ddca232b56265600eb919d46ab", // 请替换为您的TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20 // 最大返回项目数
@@ -769,10 +806,23 @@ function getGenreTitle(genreIds, mediaType) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  
+  // 根据数据来源类型选择加载方式
+  if (use_preprocessed_data === "api") {
+    return loadTmdbTrendingWithAPI(params);
+  }
+  
+  // 默认使用预处理数据
+  return loadTmdbTrendingFromPreprocessed(params);
+}
+
+// 使用正常TMDB API加载热门内容
+async function loadTmdbTrendingWithAPI(params = {}) {
   const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
   
   try {
-    const cacheKey = `trending_${content_type}_${media_type}_${sort_by}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -787,6 +837,9 @@ async function loadTmdbTrending(params = {}) {
         break;
       case "popular":
         endpoint = media_type === "tv" ? "/tv/popular" : "/movie/popular";
+        break;
+      case "popular_tv":
+        endpoint = "/tv/popular";
         break;
       case "top_rated":
         endpoint = media_type === "tv" ? "/tv/top_rated" : "/movie/top_rated";
@@ -805,13 +858,33 @@ async function loadTmdbTrending(params = {}) {
       queryParams.region = with_origin_country;
     }
 
+    console.log(`🌐 使用TMDB API请求: ${endpoint}`);
     const response = await Widget.tmdb.get(endpoint, { params: queryParams });
     
-    let results = response.results.map(item => {
+    // 应用媒体类型过滤
+    if (media_type !== "all") {
+      response.results = response.results.filter(item => {
+        if (media_type === "movie") return item.media_type === "movie";
+        if (media_type === "tv") return item.media_type === "tv";
+        return true;
+      });
+    }
+
+    let results = await Promise.all(response.results.map(async (item) => {
       const widgetItem = createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
+      
+      // 使用正常背景图
+      if (item.backdrop_path) {
+        const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
+        
+        // 直接使用正常背景图
+        widgetItem.title_backdrop = backdropUrl;
+        widgetItem.backdropPath = backdropUrl;
+      }
+      
       return widgetItem;
-    });
+    }));
 
     // 应用评分过滤
     if (vote_average_gte !== "0") {
@@ -843,15 +916,194 @@ async function loadTmdbTrending(params = {}) {
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
+    console.log(`✅ TMDB API加载成功: ${results.length}项`);
     return results;
 
   } catch (error) {
-    console.error("TMDB热门内容加载失败:", error);
+    console.error("TMDB API加载失败:", error);
+    console.log("🔄 回退到预处理数据");
+    return loadTmdbTrendingFromPreprocessed(params);
+  }
+}
+
+// 从预处理数据加载TMDB热门内容（包含title_backdrop字段）
+async function loadTmdbTrendingFromPreprocessed(params = {}) {
+  const { content_type = "today", media_type = "all" } = params;
+  
+  try {
+    const cacheKey = `preprocessed_trending_${content_type}_${media_type}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    // 从预处理的JSON文件加载数据
+    const response = await Widget.http.get("https://raw.githubusercontent.com/quantumultxx/ForwardWidgets/main/data/TMDB_Trending.json");
+    const data = response.data;
+    
+    let results = [];
+    
+    switch (content_type) {
+      case "today":
+        results = data.today_global || [];
+        break;
+      case "week":
+        results = data.week_global_all || [];
+        break;
+      case "popular":
+        results = data.popular_movies || [];
+        break;
+      case "popular_tv":
+        // 尝试从专门的今日热门剧集文件加载数据
+        try {
+          const tvResponse = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Today_TVShows.json");
+          results = tvResponse.data.today_tvshows || [];
+        } catch (tvError) {
+          console.log("今日热门剧集文件加载失败，尝试备用文件");
+          try {
+            const backupResponse = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Popular_TVShows.json");
+            results = backupResponse.data.today_popular_tvshows || [];
+          } catch (backupError) {
+            console.log("备用文件也加载失败，使用默认数据");
+            results = data.popular_tvshows || [];
+          }
+        }
+        break;
+      default:
+        results = data.today_global || [];
+    }
+    
+    // 按照您代码中的实现方式，直接转换为WidgetItem格式，并添加背景图回退机制
+    const widgetItems = await Promise.all(results.map(async (item) => {
+      const widgetItem = {
+        id: item.id.toString(),
+        type: "tmdb",
+        title: item.title,
+        description: item.overview,
+        releaseDate: item.release_date,
+        posterPath: item.poster_url,
+        backdropPath: item.title_backdrop,
+        title_backdrop: item.title_backdrop,
+        rating: item.rating,
+        mediaType: item.type,
+        genreTitle: item.genreTitle
+      };
+      
+      // 如果存在带logo的背景图，同时保存正常背景图作为备用
+      if (item.title_backdrop && item.title_backdrop.includes('image-overlay.vercel.app')) {
+        const normalBackdrop = item.title_backdrop.replace('https://image-overlay.vercel.app/api/backdrop?bg=', '').split('&')[0];
+        widgetItem.normalBackdrop = normalBackdrop;
+      }
+      
+      return widgetItem;
+    }));
+    
+    setCachedData(cacheKey, widgetItems);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("预处理TMDB数据加载失败:", error);
+    // 如果预处理数据加载失败，返回空数组
     return [];
   }
 }
 
+// 按照您代码中的实现方式，添加一些辅助函数
+async function loadTodayGlobalMedia(params = {}) {
+  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "today" });
+}
 
+async function loadWeekGlobalMovies(params = {}) {
+  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "week" });
+}
+
+async function tmdbPopularMovies(params = {}) {
+  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "popular" });
+}
+
+async function tmdbPopularTVShows(params = {}) {
+  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "popular_tv" });
+}
+
+// 新增的模块辅助函数（已在上方定义）
+
+// 3. IMDb动画模块加载
+async function loadImdbAnimeModule(params = {}) {
+  const { region = "all", sort = "hs_desc", page = "1" } = params;
+  
+  try {
+    const cacheKey = `imdb_anime_${region}_${sort}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort}, 页码: ${page})`);
+
+    // 构建请求URL - 使用原始IMDb数据源
+    const GITHUB_OWNER = "opix-maker"; // 原始数据源
+    const GITHUB_REPO = "Forward"; // 原始仓库
+    const GITHUB_BRANCH = "main"; // 主分支
+    const DATA_PATH = "imdb-data-platform/dist"; // 原始数据路径
+    
+    const baseUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DATA_PATH}`;
+    const cleanRegion = region.replace(':', '_');
+    const sortKey = sort.split('_desc')[0];
+    const fullPath = `${cleanRegion}/by_${sortKey}/page_${page}.json`;
+    const requestUrl = `${baseUrl}/${fullPath}?cache_buster=${Math.floor(Date.now() / (1000 * 60 * 30))}`;
+
+    console.log(`🌐 请求URL: ${requestUrl}`);
+
+    // 发起网络请求
+    const response = await Widget.http.get(requestUrl, { 
+      timeout: 15000, 
+      headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
+    });
+
+    if (!response || response.statusCode !== 200 || !response.data) {
+      console.error(`❌ IMDb动画数据加载失败: Status ${response ? response.statusCode : 'N/A'}`);
+      return [];
+    }
+
+    // 处理数据
+    const rawData = Array.isArray(response.data) ? response.data : [];
+    const widgetItems = rawData.map(item => {
+      if (!item || typeof item.id === 'undefined' || item.id === null) return null;
+      
+      // 构建图片URL
+      const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
+      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
+      
+      // 处理发布日期
+      const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
+
+      return {
+        id: String(item.id),
+        type: "tmdb",
+        title: item.t || '未知标题',
+        description: item.o || '',
+        releaseDate: releaseDate,
+        posterPath: posterUrl,
+        backdropPath: backdropUrl,
+        coverUrl: posterUrl,
+        rating: typeof item.r === 'number' ? item.r.toFixed(1) : '0.0',
+        mediaType: 'tv', // 动画归类为TV类型
+        genreTitle: "动画",
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: []
+      };
+    }).filter(Boolean);
+
+    setCachedData(cacheKey, widgetItems);
+    console.log(`✅ IMDb动画模块加载成功: ${widgetItems.length}项`);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("IMDb动画模块加载失败:", error);
+    return [];
+  }
+}
 
 // 3. 豆瓣片单加载
 async function loadDoubanList(params = {}) {
@@ -1538,438 +1790,7 @@ function generateThemeFallbackData(theme) {
   return results;
 }
 
-// 4. TMDB带标题背景图数据
-async function loadTmdbTitleBackdropData(params = {}) {
-  const { 
-    data_source = "today_global",
-    media_type = "all", 
-    min_rating = "0",
-    sort_by = "rating_desc",
-    page = 1 
-  } = params;
-  
-  try {
-    const cacheKey = `title_backdrop_${data_source}_${media_type}_${min_rating}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    console.log(`🎨 加载TMDB带标题背景图数据: ${data_source}`);
-
-    // 尝试加载本地数据文件
-    let rawData = [];
-    
-    try {
-      // 读取本地数据文件
-      const dataFile = './data/tmdb-title-backdrops.json';
-      const fileData = await fs.readJson(dataFile);
-      
-      if (fileData && fileData.today_global) {
-        rawData = fileData.today_global;
-        console.log(`📊 从本地文件加载了 ${rawData.length} 条数据`);
-      }
-    } catch (fileError) {
-      console.log("⚠️ 本地数据文件不可用，使用备用数据...");
-      rawData = generateTitleBackdropFallbackData();
-    }
-
-    // 筛选数据
-    let filteredData = rawData.filter(item => {
-      // 根据媒体类型筛选
-      if (media_type !== "all" && item.type !== media_type) {
-        return false;
-      }
-      
-      // 根据最低评分筛选
-      if (min_rating !== "0") {
-        const minRating = parseFloat(min_rating);
-        if (!item.rating || item.rating < minRating) {
-          return false;
-        }
-      }
-      
-      return true;
-    });
-
-    // 排序数据
-    switch (sort_by) {
-      case "rating_desc":
-        filteredData.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-        break;
-      case "rating_asc":
-        filteredData.sort((a, b) => (a.rating || 0) - (b.rating || 0));
-        break;
-      case "release_date_desc":
-        filteredData.sort((a, b) => new Date(b.release_date || 0) - new Date(a.release_date || 0));
-        break;
-      case "release_date_asc":
-        filteredData.sort((a, b) => new Date(a.release_date || 0) - new Date(b.release_date || 0));
-        break;
-      default:
-        // 默认按评分降序
-        filteredData.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
-
-    // 分页处理
-    const itemsPerPage = CONFIG.MAX_ITEMS || 20;
-    const startIndex = (page - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const paginatedData = filteredData.slice(startIndex, endIndex);
-
-    // 转换为Widget格式
-    const results = paginatedData.map(item => {
-      const widgetItem = {
-        id: item.id?.toString() || Math.random().toString(),
-        type: "tmdb_title_backdrop",
-        title: item.title || "未知标题",
-        genreTitle: item.genreTitle || "",
-        rating: item.rating || 0,
-        description: item.overview || "暂无简介",
-        releaseDate: item.release_date || "",
-        posterPath: item.poster_url || "",
-        coverUrl: item.poster_url || "",
-        backdropPath: item.title_backdrop || "",
-        mediaType: item.type || "movie",
-        popularity: 0,
-        voteCount: 0,
-        link: null,
-        duration: 0,
-        durationText: "",
-        episode: 0,
-        childItems: [],
-        // 带标题背景图相关字段
-        titleBackdrop: item.title_backdrop,
-        hasTitleBackdrop: !!item.title_backdrop,
-        dataSource: data_source,
-        isTitleBackdropData: true,
-        // 添加原始背景图和标题信息，供前端叠加
-        originalBackdrop: item.original_backdrop || item.title_backdrop,
-        backdropTitle: item.backdrop_title || item.title,
-        backdropYear: item.backdrop_year || '',
-        backdropRating: item.backdrop_rating || '',
-        backdropType: item.backdrop_type || item.type
-      };
-      
-      // 优化标题显示
-      if (item.rating && item.rating > 0) {
-        widgetItem.genreTitle = `${widgetItem.genreTitle} · ⭐${item.rating.toFixed(1)}`;
-      }
-      
-      return widgetItem;
-    });
-
-    console.log(`✅ 成功加载 ${results.length} 个带标题背景图项目 (数据源: ${data_source})`);
-    
-    setCachedData(cacheKey, results);
-    return results;
-
-  } catch (error) {
-    console.error("TMDB带标题背景图数据加载失败:", error);
-    
-    // 返回错误信息作为占位项
-    return [{
-      id: "error",
-      type: "error",
-      title: "数据加载失败",
-      genreTitle: "错误",
-      rating: 0,
-      description: `无法加载TMDB带标题背景图数据: ${error.message}`,
-      releaseDate: "",
-      posterPath: "",
-      coverUrl: "",
-      backdropPath: "",
-      mediaType: "error",
-      popularity: 0,
-      voteCount: 0,
-      link: null,
-      duration: 0,
-      durationText: "",
-      episode: 0,
-      childItems: []
-    }];
-  }
-}
-
-// 生成带标题背景图备用数据
-function generateTitleBackdropFallbackData() {
-  console.log("🏠 生成带标题背景图备用数据...");
-  
-  return [
-    {
-      id: 552524,
-      title: "星际宝贝史迪奇",
-      type: "movie",
-      genreTitle: "电影•家庭•科幻•喜剧",
-      rating: 7.2,
-      release_date: "2025-05-17",
-      overview: "讲述孤独的夏威夷小女孩莉萝和看起来调皮捣蛋的外星生物史迪奇的冒险故事。",
-      poster_url: "https://image.tmdb.org/t/p/original/dpEWJUvwpYAX1YFvoyzOfsikIGq.jpg",
-      title_backdrop: "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2F9qqYLAHCpA4gLUl7Irhm2SBZr5X.jpg&title=%E6%98%9F%E9%99%85%E5%AE%9D%E8%B4%9D%E5%8F%B2%E8%BF%AA%E5%A5%87&year=2025&rating=7.2&type=movie"
-    },
-    {
-      id: 241388,
-      title: "瓦坎达之眼",
-      type: "tv",
-      genreTitle: "TV剧•动作冒险",
-      rating: 4.5,
-      release_date: "2025-08-01",
-      overview: "Marvel 动画全新动作历险剧集《瓦干达之眼》讲述勇敢的瓦干达战士们的冒险事迹。",
-      poster_url: "https://image.tmdb.org/t/p/original/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
-      title_backdrop: "https://image-overlay.vercel.app/api/backdrop?bg=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FcWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg&title=%E7%93%A6%E5%9D%8E%E8%BE%BE%E4%B9%8B%E7%9C%BC&year=2025&rating=4.5&type=tv"
-    }
-  ];
-}
-
-// 5. Bangumi热门新番
-async function loadBangumiHotNewAnime(params = {}) {
-  const { 
-    language = "zh-CN", 
-    page = 1, 
-    with_origin_country = "JP",
-    with_genres = "16",
-    sort_by = "popularity.desc",
-    vote_average_gte = "6.0",
-    year = ""
-  } = params;
-
-  try {
-    const cacheKey = `bangumi_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    const endpoint = "/discover/tv";
-
-    // 构建查询参数 - 支持多类型动画
-    const queryParams = { 
-      language, 
-      page, 
-      sort_by,
-      api_key: CONFIG.API_KEY,
-      vote_count_gte: 10  // 新番投票较少，降低门槛
-    };
-    
-    // 动画类型筛选 - 确保只获取动画内容
-    if (with_genres && with_genres !== "") {
-      queryParams.with_genres = with_genres;
-      // 确保包含动画类型
-      if (!queryParams.with_genres.includes("16")) {
-        queryParams.with_genres = `${queryParams.with_genres},16`;
-      }
-    } else {
-      queryParams.with_genres = "16"; // 默认动画
-    }
-    
-    // 添加制作地区
-    if (with_origin_country) {
-      queryParams.with_origin_country = with_origin_country;
-    }
-    
-    // 添加最低评分要求
-    if (vote_average_gte && vote_average_gte !== "0") {
-      queryParams.vote_average_gte = vote_average_gte;
-    }
-    
-    // 添加年份筛选
-    if (year && year !== "") {
-      const startDate = `${year}-01-01`;
-      const endDate = `${year}-12-31`;
-      queryParams.first_air_date_gte = startDate;
-      queryParams.first_air_date_lte = endDate;
-    }
-    
-    const res = await Widget.tmdb.get(endpoint, {
-      params: queryParams
-    });
-    
-    const results = res.results.map(item => {
-      const widgetItem = createWidgetItem(item);
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
-      // 添加Bangumi新番标识
-      widgetItem.type = "bangumi-new";
-      widgetItem.source = "Bangumi热门新番";
-      widgetItem.isNewAnime = true;
-      
-      // 优化日期显示
-      if (widgetItem.releaseDate) {
-        const date = new Date(widgetItem.releaseDate);
-        if (!isNaN(date.getTime())) {
-          widgetItem.airDate = widgetItem.releaseDate;
-          widgetItem.airYear = date.getFullYear();
-          widgetItem.isRecent = (new Date().getTime() - date.getTime()) < (365 * 24 * 60 * 60 * 1000); // 一年内
-        }
-      }
-      
-      return widgetItem;
-    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
-    
-    setCachedData(cacheKey, results);
-    return results;
-    
-  } catch (error) {
-    console.error("Bangumi热门新番加载失败:", error);
-    return [];
-  }
-}
-
-
-
-
-
-// 生成动画备用数据
-function generateAnimeFallbackData() {
-  console.log("🏠 生成本地动画备用数据...");
-  
-  const fallbackAnime = [
-    {
-      id: 1399,
-      title: "进击的巨人",
-      originalTitle: "Attack on Titan",
-      overview: "人类为了对抗巨人而建造了三道城墙，但平静的生活被超大型巨人的出现打破...",
-      posterPath: "/8C6T2Jq6r4SFvHXIM3ONt0JqPKq.jpg",
-      backdropPath: "/8C6T2Jq6r4SFvHXIM3ONt0JqPKq.jpg",
-      voteAverage: 9.0,
-      voteCount: 5000,
-      releaseDate: "2013-04-07",
-      genreIds: [16, 28, 12],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "9.0",
-      ratingColor: "#FFD700"
-    },
-    {
-      id: 1396,
-      title: "死亡笔记",
-      originalTitle: "Death Note",
-      overview: "天才高中生夜神月捡到一本名为\"死亡笔记\"的神秘笔记本，只要在上面写下名字就能杀死对方...",
-      posterPath: "/iigTJJSkWpVk0mWckxYKrS8VfGV.jpg",
-      backdropPath: "/iigTJJSkWpVk0mWckxYKrS8VfGV.jpg",
-      voteAverage: 8.9,
-      voteCount: 4500,
-      releaseDate: "2006-10-03",
-      genreIds: [16, 80, 9648],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "8.9",
-      ratingColor: "#FFD700"
-    },
-    {
-      id: 1398,
-      title: "火影忍者",
-      originalTitle: "Naruto",
-      overview: "漩涡鸣人是一个孤独的少年，体内封印着九尾妖狐，他梦想成为火影...",
-      posterPath: "/v6CumzCoMKZxQ5JEMlt0mnIQTJg.jpg",
-      backdropPath: "/v6CumzCoMKZxQ5JEMlt0mnIQTJg.jpg",
-      voteAverage: 8.3,
-      voteCount: 3800,
-      releaseDate: "2002-10-03",
-      genreIds: [16, 28, 12],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "8.3",
-      ratingColor: "#90EE90"
-    },
-    {
-      id: 1397,
-      title: "海贼王",
-      originalTitle: "One Piece",
-      overview: "蒙奇·D·路飞为了寻找传说中的宝藏\"One Piece\"而踏上冒险之旅...",
-      posterPath: "/fcXdJlbSdUEeMSJFsXMsSzWbfbG.jpg",
-      backdropPath: "/fcXdJlbSdUEeMSJFsXMsSzWbfbG.jpg",
-      voteAverage: 8.7,
-      voteCount: 4200,
-      releaseDate: "1999-10-20",
-      genreIds: [16, 28, 12],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "8.7",
-      ratingColor: "#90EE90"
-    },
-    {
-      id: 1395,
-      title: "龙珠",
-      originalTitle: "Dragon Ball",
-      overview: "孙悟空是一个拥有尾巴的少年，他与布尔玛一起寻找七颗龙珠...",
-      posterPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
-      backdropPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
-      voteAverage: 8.2,
-      voteCount: 3500,
-      releaseDate: "1986-02-26",
-      genreIds: [16, 28, 12],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "8.2",
-      ratingColor: "#90EE90"
-    },
-    {
-      id: 1394,
-      title: "鬼灭之刃",
-      originalTitle: "Demon Slayer",
-      overview: "炭治郎为了拯救变成鬼的妹妹，踏上了斩鬼之旅...",
-      posterPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
-      backdropPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
-      voteAverage: 8.5,
-      voteCount: 4000,
-      releaseDate: "2019-04-06",
-      genreIds: [16, 28, 12],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "8.5",
-      ratingColor: "#90EE90"
-    },
-    {
-      id: 1393,
-      title: "间谍过家家",
-      originalTitle: "Spy x Family",
-      overview: "为了维护世界和平，顶级间谍必须组建一个假家庭...",
-      posterPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
-      backdropPath: "/3iFm6Kz9i08Y1yxyW6VRb76oNuP.jpg",
-      voteAverage: 8.4,
-      voteCount: 3500,
-      releaseDate: "2022-04-09",
-      genreIds: [16, 35, 10751],
-      mediaType: "tv",
-      type: "anime-fallback",
-      source: "✨ 动画 (本地)",
-      isAnime: true,
-      rating: "8.4",
-      ratingColor: "#90EE90"
-    }
-  ];
-
-  const results = fallbackAnime.map(item => {
-    const widgetItem = createWidgetItem(item);
-    widgetItem.genreTitle = getGenreTitle(item.genreIds, "tv");
-    widgetItem.type = item.type;
-    widgetItem.source = item.source;
-    widgetItem.isAnime = item.isAnime;
-    widgetItem.rating = item.rating;
-    widgetItem.ratingColor = item.ratingColor;
-    
-    if (item.releaseDate) {
-      const date = new Date(item.releaseDate);
-      if (!isNaN(date.getTime())) {
-        widgetItem.airDate = item.releaseDate;
-        widgetItem.airYear = date.getFullYear();
-      }
-    }
-
-    return widgetItem;
-  });
-
-  console.log("✅ 本地动画数据生成完成:", results.length, "条");
-  return results;
-}
+// 6. 🎨 TMDB背景图数据包
 
 // 6. 🎨 TMDB背景图数据包
 async function loadTmdbBackdropData(params = {}) {
@@ -2208,4 +2029,305 @@ function generateFallbackData() {
       hasBackdrop: true
     }
   ];
+}
+
+// ==================== 新增模块加载函数 ====================
+
+// 今日热门模块加载函数
+async function loadTodayHotModule(params = {}) {
+  const { media_type = "all", max_items = "20", language = "zh-CN" } = params;
+  
+  try {
+    const cacheKey = `today_hot_module_${media_type}_${max_items}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🔥 加载今日热门模块数据 (媒体类型: ${media_type}, 最大项目数: ${max_items})`);
+
+    // 从预处理数据加载今日热门数据
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
+    const data = response.data;
+    
+    let results = data.today_global || [];
+    
+    // 根据媒体类型过滤数据
+    if (media_type !== "all") {
+      results = results.filter(item => {
+        const itemMediaType = item.type || (item.title ? "movie" : "tv");
+        return itemMediaType === media_type;
+      });
+    }
+
+    // 限制项目数量
+    const maxItems = parseInt(max_items);
+    results = results.slice(0, maxItems);
+
+    // 转换为WidgetItem格式，包含logo背景图
+    const widgetItems = await Promise.all(results.map(async (item) => {
+      const widgetItem = {
+        id: item.id.toString(),
+        type: "tmdb",
+        title: item.title,
+        description: item.overview,
+        releaseDate: item.release_date,
+        posterPath: item.poster_url, // 常规海报
+        backdropPath: item.backdrop_url, // 横版背景图
+        title_backdrop: item.title_backdrop, // 带logo的横版背景图
+        rating: item.rating,
+        mediaType: item.type,
+        genreTitle: item.genreTitle,
+        popularity: item.popularity || 0,
+        voteCount: item.voteCount || 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: []
+      };
+      
+      // 如果title_backdrop存在且包含logo生成服务，提取正常背景图作为备用
+      if (item.title_backdrop && item.title_backdrop.includes('image-overlay.vercel.app')) {
+        const normalBackdrop = item.title_backdrop.replace('https://image-overlay.vercel.app/api/backdrop?bg=', '').split('&')[0];
+        widgetItem.normalBackdrop = normalBackdrop;
+      }
+      
+      return widgetItem;
+    }));
+    
+    setCachedData(cacheKey, widgetItems);
+    console.log(`✅ 今日热门模块加载成功: ${widgetItems.length}项`);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("今日热门模块加载失败:", error);
+    return [];
+  }
+}
+
+// 本周热门模块加载函数
+async function loadWeekHotModule(params = {}) {
+  const { media_type = "all", max_items = "20", language = "zh-CN" } = params;
+  
+  try {
+    const cacheKey = `week_hot_module_${media_type}_${max_items}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🔥 加载本周热门模块数据 (媒体类型: ${media_type}, 最大项目数: ${max_items})`);
+
+    // 从预处理数据加载本周热门数据
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
+    const data = response.data;
+    
+    let results = data.week_global_all || [];
+    
+    // 根据媒体类型过滤数据
+    if (media_type !== "all") {
+      results = results.filter(item => {
+        const itemMediaType = item.type || (item.title ? "movie" : "tv");
+        return itemMediaType === media_type;
+      });
+    }
+
+    // 限制项目数量
+    const maxItems = parseInt(max_items);
+    results = results.slice(0, maxItems);
+
+    // 转换为WidgetItem格式，包含logo背景图
+    const widgetItems = await Promise.all(results.map(async (item) => {
+      const widgetItem = {
+        id: item.id.toString(),
+        type: "tmdb",
+        title: item.title,
+        description: item.overview,
+        releaseDate: item.release_date,
+        posterPath: item.poster_url, // 常规海报
+        backdropPath: item.backdrop_url, // 横版背景图
+        title_backdrop: item.title_backdrop, // 带logo的横版背景图
+        rating: item.rating,
+        mediaType: item.type,
+        genreTitle: item.genreTitle,
+        popularity: item.popularity || 0,
+        voteCount: item.voteCount || 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: []
+      };
+      
+      // 如果title_backdrop存在且包含logo生成服务，提取正常背景图作为备用
+      if (item.title_backdrop && item.title_backdrop.includes('image-overlay.vercel.app')) {
+        const normalBackdrop = item.title_backdrop.replace('https://image-overlay.vercel.app/api/backdrop?bg=', '').split('&')[0];
+        widgetItem.normalBackdrop = normalBackdrop;
+      }
+      
+      return widgetItem;
+    }));
+    
+    setCachedData(cacheKey, widgetItems);
+    console.log(`✅ 本周热门模块加载成功: ${widgetItems.length}项`);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("本周热门模块加载失败:", error);
+    return [];
+  }
+}
+
+// 自动抓取数据模块加载函数
+async function loadAutoFetchedData(params = {}) {
+  const { data_type = "movies", region = "all", sort_by = "popularity_desc", page = "1" } = params;
+  
+  try {
+    const cacheKey = `auto_fetched_${data_type}_${region}_${sort_by}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎬 加载IMDB影视榜单数据 (类型: ${data_type}, 地区: ${region}, 排序: ${sort_by}, 页码: ${page})`);
+
+    // 构建本地数据文件路径
+    const cleanRegion = region.replace(':', '_');
+    
+    // 处理不同的排序类型
+    let sortKey, dataPath;
+    
+    // 映射新的排序格式到数据文件
+    const sortMapping = {
+      'popularity_desc': 'hs',
+      'popularity_asc': 'hs',
+      'vote_average_desc': 'r',
+      'vote_average_asc': 'r',
+      'release_date_desc': 'hs',
+      'release_date_asc': 'hs',
+      'year_desc': 'hs',
+      'year_asc': 'hs',
+      'title_asc': 'hs',
+      'title_desc': 'hs'
+    };
+    
+    // 获取对应的数据文件排序键
+    sortKey = sortMapping[sort_by] || 'hs';
+    dataPath = `data/${data_type}/${cleanRegion}/by_${sortKey}/page_${page}.json`;
+    
+    console.log(`📁 数据文件路径: ${dataPath} (排序键: ${sortKey}, 排序类型: ${sort_by})`);
+
+    // 从本地文件加载数据
+    const response = await Widget.http.get(`https://raw.githubusercontent.com/saxdyo/FWWidgets/main/${dataPath}`);
+    
+    if (!response || response.statusCode !== 200 || !response.data) {
+      console.error(`❌ 自动抓取数据加载失败: Status ${response ? response.statusCode : 'N/A'}`);
+      return [];
+    }
+
+    // 处理数据
+    const rawData = Array.isArray(response.data) ? response.data : [];
+    
+    // 动态排序函数
+    function sortData(data, sortBy) {
+      // 基础排序类型，数据已经预排序
+      if (['popularity_desc', 'vote_average_desc'].includes(sortBy)) {
+        return data;
+      }
+      
+      const sortedData = [...data];
+      
+      switch (sortBy) {
+        case 'popularity_asc': // 热度升序
+          sortedData.sort((a, b) => (a.hs || 0) - (b.hs || 0));
+          break;
+          
+        case 'vote_average_asc': // 评分升序
+          sortedData.sort((a, b) => (a.r || 0) - (b.r || 0));
+          break;
+          
+        case 'release_date_desc': // 上映时间降序
+          sortedData.sort((a, b) => {
+            const dateA = a.rd ? new Date(a.rd) : new Date(a.y + '-01-01');
+            const dateB = b.rd ? new Date(b.rd) : new Date(b.y + '-01-01');
+            return dateB - dateA;
+          });
+          break;
+          
+        case 'release_date_asc': // 上映时间升序
+          sortedData.sort((a, b) => {
+            const dateA = a.rd ? new Date(a.rd) : new Date(a.y + '-01-01');
+            const dateB = b.rd ? new Date(b.rd) : new Date(b.y + '-01-01');
+            return dateA - dateB;
+          });
+          break;
+          
+        case 'year_desc': // 年份降序
+          sortedData.sort((a, b) => (b.y || 0) - (a.y || 0));
+          break;
+          
+        case 'year_asc': // 年份升序
+          sortedData.sort((a, b) => (a.y || 0) - (b.y || 0));
+          break;
+          
+        case 'title_asc': // 标题A-Z
+          sortedData.sort((a, b) => (a.t || '').localeCompare(b.t || '', 'zh-CN'));
+          break;
+          
+        case 'title_desc': // 标题Z-A
+          sortedData.sort((a, b) => (b.t || '').localeCompare(a.t || '', 'zh-CN'));
+          break;
+          
+        default:
+          // 默认排序，保持原顺序
+          break;
+      }
+      
+      return sortedData;
+    }
+    
+    // 应用排序
+    const sortedData = sortData(rawData, sort_by);
+    
+    const widgetItems = sortedData.map(item => {
+      if (!item || typeof item.id === 'undefined' || item.id === null) return null;
+      
+      // 构建图片URL
+      const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
+      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
+      
+      // 处理发布日期
+      const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
+
+      // 确定媒体类型
+      let mediaType = 'movie';
+      if (data_type === 'tvseries' || data_type === 'anime') {
+        mediaType = 'tv';
+      }
+
+      return {
+        id: String(item.id),
+        type: "tmdb",
+        title: item.t || '未知标题',
+        description: item.o || '',
+        releaseDate: releaseDate,
+        posterPath: posterUrl,
+        backdropPath: backdropUrl,
+        coverUrl: posterUrl,
+        rating: typeof item.r === 'number' ? item.r.toFixed(1) : '0.0',
+        mediaType: mediaType,
+        genreTitle: data_type === 'anime' ? "动画" : (data_type === 'tvseries' ? "剧集" : "电影"),
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: []
+      };
+    }).filter(Boolean);
+
+    setCachedData(cacheKey, widgetItems);
+    console.log(`✅ IMDB影视榜单数据加载成功: ${widgetItems.length}项`);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("IMDB影视榜单数据加载失败:", error);
+    return [];
+  }
 }
