@@ -169,18 +169,10 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         # 构建副标题
         subtitle = f"{year} • ⭐ {rating:.1f} • {item_type}"
         
-        # 优先使用您的Vercel域名服务
-        og_service_url = "https://fw-widgets.vercel.app/api/og"
-        
-        # URL编码参数
-        encoded_title = quote(title)
-        encoded_subtitle = quote(subtitle)
-        
-        # 生成最终URL
-        title_backdrop_url = f"{og_service_url}?title={encoded_title}&subtitle={encoded_subtitle}"
-        
-        logger.info(f"✅ 生成带标题背景图: {title} -> {title_backdrop_url}")
-        return title_backdrop_url
+        # 暂时不生成带标题背景图，避免404错误
+        # 直接返回原始背景图
+        logger.info(f"🔄 跳过标题背景图生成，使用原始背景图: {title}")
+        return get_image_url(backdrop_path, "w1280")
         
     except Exception as e:
         logger.error(f"生成标题背景图失败: {e}")

@@ -1,5 +1,5 @@
 // 在文件顶部添加配置
-const VERCEL_OG_SERVICE = "https://fw-widgets.vercel.app"; // 您的新Vercel域名
+const VERCEL_OG_SERVICE = "https://fw-widgets-pdb6ftlwx-sams-projects-20fafaa5.vercel.app"; // 您的原始Vercel链接
 
 // 添加多个备用服务（找到了可用的OG生成服务！）
 const OG_SERVICES = [
@@ -2452,33 +2452,10 @@ function generateTitleBackdropUrl(title, year, rating, type) {
         }
     }
     
-    // 构建服务URL数组（按优先级排序）
-    const services = [
-        // 优先使用您的新Vercel域名服务
-        {
-            url: `${VERCEL_OG_SERVICE}/api/og`,
-            params: { title: title, subtitle: subtitle }
-        },
-        
-        // 备用OG图片生成服务
-        {
-            url: "https://og-image.sznm.dev/api/og",
-            params: { title: title, subtitle: subtitle }
-        }
-    ];
-    
-    // 返回第一个服务的URL
-    for (const service of services) {
-        try {
-            const params = new URLSearchParams(service.params);
-            const url = `${service.url}?${params.toString()}`;
-            console.log(`✅ 使用OG服务生成: ${url}`);
-            return url;
-        } catch (error) {
-            console.warn(`❌ 服务构建失败:`, error);
-            continue;
-        }
-    }
+    // 暂时不生成带标题背景图，避免404错误
+    // 直接返回null，让Widget使用原始背景图
+    console.log(`🔄 跳过标题背景图生成，使用原始背景图: ${title}`);
+    return null;
     
     // 如果所有服务都不可用，返回null使用原始背景图
     return null;
