@@ -984,8 +984,9 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       // 构建优化的图片URL
       const buildImageUrls = (posterPath, backdropPath) => {
         const baseUrl = "https://image.tmdb.org/t/p/";
-        const posterUrl = posterPath ? `${baseUrl}w500${posterPath}` : null;
-        const backdropUrl = backdropPath ? `${baseUrl}w1280${backdropPath}` : null;
+        // 使用更可靠的图片尺寸
+        const posterUrl = posterPath ? `${baseUrl}original${posterPath}` : null;
+        const backdropUrl = backdropPath ? `${baseUrl}original${backdropPath}` : null;
         
         return {
           posterPath: posterUrl,
@@ -995,16 +996,33 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         };
       };
       
-      const imageUrls = buildImageUrls(
-        item.poster_url ? item.poster_url.split('/').pop() : null,
-        item.title_backdrop ? item.title_backdrop.split('/').pop() : null
-      );
+      // 检查预处理数据中的URL格式
+      let posterPath = null;
+      let backdropPath = null;
       
-      // 如果预处理数据中已经有完整的URL，直接使用
-      if (item.title_backdrop && item.title_backdrop.startsWith('https://image.tmdb.org/')) {
-        imageUrls.backdropPath = item.title_backdrop;
-        imageUrls.backdropUrls = [item.title_backdrop];
+      // 处理海报URL
+      if (item.poster_url) {
+        if (item.poster_url.startsWith('https://image.tmdb.org/')) {
+          // 已经是完整URL，提取文件名
+          posterPath = item.poster_url.split('/').pop();
+        } else {
+          // 只是文件名
+          posterPath = item.poster_url;
+        }
       }
+      
+      // 处理背景图URL
+      if (item.title_backdrop) {
+        if (item.title_backdrop.startsWith('https://image.tmdb.org/')) {
+          // 已经是完整URL，提取文件名
+          backdropPath = item.title_backdrop.split('/').pop();
+        } else {
+          // 只是文件名
+          backdropPath = item.title_backdrop;
+        }
+      }
+      
+      const imageUrls = buildImageUrls(posterPath, backdropPath);
       
       const widgetItem = {
         id: item.id.toString(),
