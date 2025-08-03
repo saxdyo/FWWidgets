@@ -84,7 +84,8 @@ class PreprocessedDataUpdater {
                 release_date: item.releaseDate || item.release_date || `${item.releaseYear || 2025}-01-01`,
                 overview: item.overview || '暂无简介',
                 poster_url: item.posterPath ? `https://image.tmdb.org/t/p/original${item.posterPath}` : null,
-                title_backdrop: item.backdropPath ? `https://image.tmdb.org/t/p/original${item.backdropPath}` : null,
+                // 优先使用带标题的背景图，如果没有则使用普通背景图
+                title_backdrop: item.titleBackdrop || (item.backdropPath ? `https://image.tmdb.org/t/p/original${item.backdropPath}` : null),
                 popularity: item.popularity || 0,
                 vote_count: item.voteCount || item.vote_count || 0
             };
