@@ -1,15 +1,14 @@
 // 在文件顶部添加配置
 const VERCEL_OG_SERVICE = "https://fw-widgets-pdb6ftlwx-sams-projects-20fafaa5.vercel.app"; // 您的Vercel链接
 
-// 添加多个备用服务（调整优先级，暂时跳过有认证问题的服务）
+// 添加多个备用服务（找到了可用的OG生成服务！）
 const OG_SERVICES = [
     // 暂时注释掉您的服务，直到认证问题解决
     // `${VERCEL_OG_SERVICE}/api/og`, // 您自己的服务（认证问题）
     // `${VERCEL_OG_SERVICE}/api/image`, // 您自己的服务（认证问题）
     
-    // 使用简单可靠的占位图服务（确保有图片显示）
-    "https://via.placeholder.com/1200x630/4f46e5/ffffff", // 紫色背景
-    "https://via.placeholder.com/1200x630/667eea/ffffff", // 蓝色背景
+    // 使用找到的可用OG图片生成服务
+    "https://og-image.sznm.dev/api/og", // 可用的OG服务，支持中文
     // 本地生成作为最终回退
     null
 ];
@@ -2461,36 +2460,28 @@ function generateTitleBackdropUrl(title, year, rating, type) {
     
     // 构建服务URL数组（按优先级排序）
     const services = [
-        // 您的Vercel服务（多种API路径尝试）
+        // 您的Vercel服务（暂时认证问题）
+        // {
+        //     url: `${VERCEL_OG_SERVICE}/api/og`,
+        //     params: { title: title, subtitle: subtitle }
+        // },
+        
+        // 可用的OG图片生成服务
         {
-            url: `${VERCEL_OG_SERVICE}/api/og`,
+            url: "https://og-image.sznm.dev/api/og",
             params: { title: title, subtitle: subtitle }
-        },
-        {
-            url: `${VERCEL_OG_SERVICE}/api/image`, 
-            params: { title: title, description: subtitle, layoutName: "Simple", Text: title }
-        },
-        // 备用服务
-        {
-            url: "https://og.railway.app/api/image",
-            params: { layoutName: "Simple", Text: title, fileType: "png" }
-        },
-        // 最简单的备用方案
-        {
-            url: "https://via.placeholder.com/1200x630/667eea/ffffff",
-            params: { text: title }
         }
     ];
     
-    // 返回第一个服务的URL（实际使用中会依次尝试）
+    // 返回第一个服务的URL
     for (const service of services) {
         try {
             const params = new URLSearchParams(service.params);
             const url = `${service.url}?${params.toString()}`;
-            console.log(`尝试使用服务: ${url}`);
+            console.log(`✅ 使用OG服务生成: ${url}`);
             return url;
         } catch (error) {
-            console.warn(`服务构建失败:`, error);
+            console.warn(`❌ 服务构建失败:`, error);
             continue;
         }
     }
