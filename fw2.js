@@ -734,11 +734,50 @@ const CONFIG = {
   API_KEY: "f3ae69ddca232b56265600eb919d46ab", // 请替换为您的TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
-  MAX_ITEMS: 20 // 最大返回项目数
+  MAX_ITEMS: 20, // 最大返回项目数
+  
+  // CDN配置
+  CDN_CONFIG: {
+    // 主要CDN选项
+    PRIMARY_CDN: "https://image.tmdb.org/t/p",
+    
+    // 备用CDN列表（按优先级排序）
+    FALLBACK_CDNS: [
+      "https://image.tmdb.org/t/p", // 官方CDN
+      "https://cdn.tmdb.org/t/p",   // 备用CDN
+      "https://images.tmdb.org/t/p", // 另一个备用
+    ],
+    
+    // 图片尺寸配置
+    IMAGE_SIZES: {
+      poster: {
+        small: "w154",
+        medium: "w342", 
+        large: "w500",
+        original: "original"
+      },
+      backdrop: {
+        small: "w300",
+        medium: "w780",
+        large: "w1280", 
+        original: "original"
+      }
+    },
+    
+    // CDN健康检查配置
+    HEALTH_CHECK: {
+      enabled: true,
+      timeout: 3000, // 3秒超时
+      retryCount: 2
+    }
+  }
 };
 
 // 缓存管理
 const cache = new Map();
+
+// CDN健康状态缓存
+const cdnHealthCache = new Map();
 
 // 工具函数
 function getCachedData(key) {
@@ -756,7 +795,144 @@ function setCachedData(key, data) {
   });
 }
 
-function createWidgetItem(item) {
+// CDN优化函数
+/**
+ * 检查CDN健康状态
+ * @param {string} cdnUrl - CDN URL
+ * @returns {Promise<boolean>} - 是否健康
+ */
+async function checkCdnHealth(cdnUrl) {
+  const cacheKey = `cdn_health_${cdnUrl}`;
+  const cached = cdnHealthCache.get(cacheKey);
+  
+  // 如果缓存时间小于5分钟，直接返回缓存结果
+  if (cached && (Date.now() - cached.timestamp) < 5 * 60 * 1000) {
+    return cached.healthy;
+  }
+  
+  try {
+    const testUrl = `${cdnUrl}/w92/test.jpg`;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), CONFIG.CDN_CONFIG.HEALTH_CHECK.timeout);
+    
+    const response = await fetch(testUrl, {
+      method: 'HEAD',
+      signal: controller.signal
+    });
+    
+    clearTimeout(timeoutId);
+    const healthy = response.ok;
+    
+    // 缓存结果
+    cdnHealthCache.set(cacheKey, {
+      healthy,
+      timestamp: Date.now()
+    });
+    
+    return healthy;
+  } catch (error) {
+    console.warn(`CDN健康检查失败: ${cdnUrl}`, error);
+    
+    // 缓存失败结果
+    cdnHealthCache.set(cacheKey, {
+      healthy: false,
+      timestamp: Date.now()
+    });
+    
+    return false;
+  }
+}
+
+/**
+ * 获取最佳CDN URL
+ * @returns {Promise<string>} - 最佳CDN URL
+ */
+async function getBestCdnUrl() {
+  // 如果健康检查未启用，直接返回主要CDN
+  if (!CONFIG.CDN_CONFIG.HEALTH_CHECK.enabled) {
+    return CONFIG.CDN_CONFIG.PRIMARY_CDN;
+  }
+  
+  // 检查所有CDN的健康状态
+  for (const cdnUrl of CONFIG.CDN_CONFIG.FALLBACK_CDNS) {
+    const isHealthy = await checkCdnHealth(cdnUrl);
+    if (isHealthy) {
+      console.log(`✅ 使用CDN: ${cdnUrl}`);
+      return cdnUrl;
+    }
+  }
+  
+  // 如果所有CDN都不可用，返回主要CDN
+  console.warn("⚠️ 所有CDN都不可用，使用主要CDN");
+  return CONFIG.CDN_CONFIG.PRIMARY_CDN;
+}
+
+/**
+ * 构建优化的图片URL
+ * @param {string} imagePath - 图片路径
+ * @param {string} size - 图片尺寸
+ * @param {string} type - 图片类型 (poster/backdrop)
+ * @returns {Promise<string>} - 优化的图片URL
+ */
+async function buildOptimizedImageUrl(imagePath, size = "large", type = "poster") {
+  if (!imagePath) return "";
+  
+  // 获取最佳CDN
+  const cdnUrl = await getBestCdnUrl();
+  
+  // 获取尺寸配置
+  const sizeConfig = CONFIG.CDN_CONFIG.IMAGE_SIZES[type];
+  const imageSize = sizeConfig[size] || sizeConfig.large;
+  
+  // 确保路径以/开头
+  const normalizedPath = imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
+  
+  return `${cdnUrl}/${imageSize}${normalizedPath}`;
+}
+
+/**
+ * 批量构建优化的图片URL
+ * @param {Object} item - 数据项
+ * @returns {Promise<Object>} - 包含优化URL的对象
+ */
+async function buildOptimizedImageUrls(item) {
+  const cdnUrl = await getBestCdnUrl();
+  
+  const urls = {
+    posterPath: "",
+    coverUrl: "",
+    backdropPath: "",
+    backdropUrls: {}
+  };
+  
+  // 构建海报URL
+  if (item.poster_path) {
+    const normalizedPath = item.poster_path.startsWith('/') ? item.poster_path : `/${item.poster_path}`;
+    urls.posterPath = `${cdnUrl}/w500${normalizedPath}`;
+    urls.coverUrl = urls.posterPath;
+  }
+  
+  // 构建背景图URL
+  if (item.backdrop_path) {
+    const normalizedPath = item.backdrop_path.startsWith('/') ? item.backdrop_path : `/${item.backdrop_path}`;
+    urls.backdropPath = `${cdnUrl}/w1280${normalizedPath}`;
+    
+    // 构建多种尺寸的背景图URL
+    urls.backdropUrls = {
+      w300: `${cdnUrl}/w300${normalizedPath}`,
+      w780: `${cdnUrl}/w780${normalizedPath}`,
+      w1280: `${cdnUrl}/w1280${normalizedPath}`,
+      original: `${cdnUrl}/original${normalizedPath}`
+    };
+  }
+  
+  return urls;
+}
+
+async function createWidgetItem(item) {
+  // 构建优化的图片URL
+  const imageUrls = await buildOptimizedImageUrls(item);
+  
   return {
     id: item.id.toString(),
     type: "tmdb",
@@ -765,9 +941,10 @@ function createWidgetItem(item) {
     rating: item.vote_average || 0,
     description: item.overview || "",
     releaseDate: item.release_date || item.first_air_date || "",
-    posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
-    coverUrl: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
-    backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w1280${item.backdrop_path}` : "",
+    posterPath: imageUrls.posterPath,
+    coverUrl: imageUrls.coverUrl,
+    backdropPath: imageUrls.backdropPath,
+    backdropUrls: imageUrls.backdropUrls,
     mediaType: item.media_type || "movie",
     popularity: item.popularity || 0,
     voteCount: item.vote_count || 0,
@@ -871,14 +1048,12 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     }
 
     let results = await Promise.all(response.results.map(async (item) => {
-      const widgetItem = createWidgetItem(item);
+      const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
       
-      // 使用正常背景图
+      // 使用优化的背景图
       if (item.backdrop_path) {
-        const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
-        
-        // 直接使用正常背景图
+        const backdropUrl = await buildOptimizedImageUrl(item.backdrop_path, "large", "backdrop");
         widgetItem.title_backdrop = backdropUrl;
         widgetItem.backdropPath = backdropUrl;
       }
@@ -1198,11 +1373,11 @@ async function loadTmdbByNetwork(params = {}) {
       params: discoverParams
     });
 
-    const results = res.results.map(item => {
-      const widgetItem = createWidgetItem(item);
+    const results = await Promise.all(res.results.map(async item => {
+      const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
       return widgetItem;
-    }).slice(0, CONFIG.MAX_ITEMS);
+    })).then(results => results.slice(0, CONFIG.MAX_ITEMS));
     
     setCachedData(cacheKey, results);
     return results;
@@ -1250,21 +1425,17 @@ async function loadTmdbByCompany(params = {}) {
       ]);
       
       // 合并电影和剧集结果，按热门度排序
-      const movieResults = movieRes.results
-        .map(item => {
-          const widgetItem = createWidgetItem(item);
-          widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
-          return widgetItem;
-        })
-        .filter(item => item.posterPath);
+      const movieResults = await Promise.all(movieRes.results.map(async item => {
+        const widgetItem = await createWidgetItem(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
+        return widgetItem;
+      })).then(results => results.filter(item => item.posterPath));
         
-      const tvResults = tvRes.results
-        .map(item => {
-          const widgetItem = createWidgetItem(item);
-          widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
-          return widgetItem;
-        })
-        .filter(item => item.posterPath);
+      const tvResults = await Promise.all(tvRes.results.map(async item => {
+        const widgetItem = await createWidgetItem(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
+        return widgetItem;
+      })).then(results => results.filter(item => item.posterPath));
       
       // 合并并排序（按热门度）
       results = [...movieResults, ...tvResults]
@@ -1396,11 +1567,11 @@ async function loadTmdbMediaRanking(params = {}) {
       params: queryParams
     });
     
-    const results = res.results.map(item => {
-      const widgetItem = createWidgetItem(item);
+    const results = await Promise.all(res.results.map(async item => {
+      const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
       return widgetItem;
-    }).slice(0, CONFIG.MAX_ITEMS);
+    })).then(results => results.slice(0, CONFIG.MAX_ITEMS));
     
     setCachedData(cacheKey, results);
     return results;
@@ -1530,8 +1701,8 @@ async function loadTmdbByTheme(params = {}) {
       return await loadThemeFallback(params);
     }
 
-    const results = res.results.map(item => {
-      const widgetItem = createWidgetItem(item);
+    const results = await Promise.all(res.results.map(async item => {
+      const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
       
       // 添加主题分类标识
@@ -1557,7 +1728,7 @@ async function loadTmdbByTheme(params = {}) {
       }
 
       return widgetItem;
-    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+    })).then(results => results.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS));
 
     console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
 
@@ -1634,8 +1805,8 @@ async function loadThemeFallback(params = {}) {
       return generateThemeFallbackData(theme);
     }
 
-    const results = res.results.map(item => {
-      const widgetItem = createWidgetItem(item);
+    const results = await Promise.all(res.results.map(async item => {
+      const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
       widgetItem.type = "theme-fallback";
       widgetItem.source = `TMDB主题分类 (${theme}) (备用)`;
@@ -1649,7 +1820,7 @@ async function loadThemeFallback(params = {}) {
       }
 
       return widgetItem;
-    }).filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+    })).then(results => results.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS));
 
     console.log("✅ 备用方案成功处理数据:", results.length, "条");
     return results;
@@ -1767,8 +1938,8 @@ function generateThemeFallbackData(theme) {
 
   const fallbackData = themeData[theme] || themeData.action;
   
-  const results = fallbackData.map(item => {
-    const widgetItem = createWidgetItem(item);
+  const results = await Promise.all(fallbackData.map(async item => {
+    const widgetItem = await createWidgetItem(item);
     widgetItem.genreTitle = getGenreTitle(item.genreIds, item.mediaType);
     widgetItem.type = item.type;
     widgetItem.source = item.source;
@@ -1784,7 +1955,7 @@ function generateThemeFallbackData(theme) {
     }
 
     return widgetItem;
-  });
+  }));
 
   console.log(`✅ 本地主题分类数据生成完成: ${results.length} 条`);
   return results;
@@ -2284,12 +2455,12 @@ async function loadAutoFetchedData(params = {}) {
     // 应用排序
     const sortedData = sortData(rawData, sort_by);
     
-    const widgetItems = sortedData.map(item => {
+    const widgetItems = await Promise.all(sortedData.map(async item => {
       if (!item || typeof item.id === 'undefined' || item.id === null) return null;
       
-      // 构建图片URL
-      const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
-      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
+      // 构建优化的图片URL
+      const posterUrl = item.p ? await buildOptimizedImageUrl(item.p.startsWith('/') ? item.p : '/' + item.p, "large", "poster") : null;
+      const backdropUrl = item.b ? await buildOptimizedImageUrl(item.b.startsWith('/') ? item.b : '/' + item.b, "medium", "backdrop") : null;
       
       // 处理发布日期
       const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
@@ -2320,7 +2491,7 @@ async function loadAutoFetchedData(params = {}) {
         episode: 0,
         childItems: []
       };
-    }).filter(Boolean);
+    })).then(results => results.filter(Boolean));
 
     setCachedData(cacheKey, widgetItems);
     console.log(`✅ IMDB影视榜单数据加载成功: ${widgetItems.length}项`);
