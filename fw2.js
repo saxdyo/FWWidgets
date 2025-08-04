@@ -143,7 +143,8 @@ WidgetMetadata = {
             { title: "NBC", value: "6" },
             { title: "AMC+", value: "174" },
             { title: "We TV", value: "3732" },
-            { title: "Viu TV", value: "2146" }
+            { title: "Viu TV", value: "2146" },
+            { title: "TVB", value: "48" }
           ]
         },
         {
