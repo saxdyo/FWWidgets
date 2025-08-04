@@ -913,10 +913,8 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从标准格式的TMDB数据源加载数据 (支持私密仓库)
-    const githubToken = ""; // 如果仓库私密，需要在这里填入GitHub Personal Access Token
-    const headers = githubToken ? { "Authorization": `token ${githubToken}` } : {};
-    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json", { headers });
+    // 从标准格式的TMDB数据源加载数据
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
     let results = [];
