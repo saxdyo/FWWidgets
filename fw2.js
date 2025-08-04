@@ -2462,8 +2462,8 @@ function generateTitleBackdropUrl(title, year, rating, type) {
         // URL编码
         const encodedText = encodeURIComponent(combinedText);
         
-        // 使用dummyimage服务生成带标题背景图
-        const imageUrl = `https://dummyimage.com/1200x630/1a1a2e/ffffff&text=${encodedText}`;
+        // 使用dummyimage服务生成带标题背景图 (JPG格式)
+        const imageUrl = `https://dummyimage.com/1200x630/1a1a2e/ffffff.jpg&text=${encodedText}`;
         
         console.log(`✅ 生成带标题背景图: ${title} -> ${imageUrl}`);
         return imageUrl;
