@@ -2452,10 +2452,25 @@ function generateTitleBackdropUrl(title, year, rating, type) {
         }
     }
     
-    // 暂时不生成带标题背景图，避免404错误
-    // 直接返回null，让Widget使用原始背景图
-    console.log(`🔄 跳过标题背景图生成，使用原始背景图: ${title}`);
-    return null;
+    // 使用简单有效的图片生成服务
+    try {
+        // 构建简洁的标题文本
+        const titleText = `${title} (${year})`;
+        const subtitleText = `⭐ ${rating} • ${type}`;
+        const combinedText = `${titleText} - ${subtitleText}`;
+        
+        // URL编码
+        const encodedText = encodeURIComponent(combinedText);
+        
+        // 使用dummyimage服务生成带标题背景图
+        const imageUrl = `https://dummyimage.com/1200x630/1a1a2e/ffffff.png&text=${encodedText}`;
+        
+        console.log(`✅ 生成带标题背景图: ${title} -> ${imageUrl}`);
+        return imageUrl;
+    } catch (error) {
+        console.warn(`❌ 背景图生成失败:`, error);
+        return null;
+    }
     
     // 如果所有服务都不可用，返回null使用原始背景图
     return null;

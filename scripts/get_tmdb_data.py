@@ -169,10 +169,20 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         # 构建副标题
         subtitle = f"{year} • ⭐ {rating:.1f} • {item_type}"
         
-        # 暂时不生成带标题背景图，避免404错误
-        # 直接返回原始背景图
-        logger.info(f"🔄 跳过标题背景图生成，使用原始背景图: {title}")
-        return get_image_url(backdrop_path, "w1280")
+        # 使用简单有效的图片生成服务
+        # 构建标题文本
+        title_text = f"{title} ({year})"
+        subtitle_text = f"⭐ {rating:.1f} • {item_type}"
+        combined_text = f"{title_text} - {subtitle_text}"
+        
+        # URL编码
+        encoded_text = quote(combined_text)
+        
+        # 使用dummyimage服务生成带标题背景图
+        title_backdrop_url = f"https://dummyimage.com/1200x630/1a1a2e/ffffff.png&text={encoded_text}"
+        
+        logger.info(f"✅ 生成带标题背景图: {title} -> {title_backdrop_url}")
+        return title_backdrop_url
         
     except Exception as e:
         logger.error(f"生成标题背景图失败: {e}")
