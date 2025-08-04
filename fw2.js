@@ -904,7 +904,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
   }
 }
 
-// 从预处理数据加载TMDB热门内容（包含title_backdrop字段）
+// 从预处理数据加载TMDB热门内容（标准数组格式）
 async function loadTmdbTrendingFromPreprocessed(params = {}) {
   const { content_type = "today", media_type = "all" } = params;
   
@@ -913,122 +913,63 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从您的TMDB数据源加载数据
+    // 从标准格式的TMDB数据源加载数据
     const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
     let results = [];
     
-    // 将对象格式转换为数组
-    let allItems = [];
-    for (let key in data) {
-      if (key !== 'last_updated' && data[key]) {
-        allItems.push(data[key]);
-      }
-    }
-    
-    // 根据内容类型过滤数据
+    // 根据内容类型选择对应的数组数据
     switch (content_type) {
       case "today":
+        results = data.today_global || [];
+        break;
       case "week":
-        // 使用所有数据作为今日/本周热门
-        results = allItems;
+        results = data.week_global_all || [];
         break;
       case "popular":
-        // 过滤出电影
-        results = allItems.filter(item => item.type === 'movie');
+        results = data.popular_movies || [];
         break;
       case "popular_tv":
-        // 过滤出剧集
-        results = allItems.filter(item => item.type === 'tv');
+        // 从今日热门中过滤出TV剧集
+        results = (data.today_global || []).filter(item => item.type === 'tv');
         break;
       default:
-        results = allItems;
+        results = data.today_global || [];
     }
     
-    // 使用CDN优化的WidgetItem格式转换
-    const widgetItems = await Promise.all(results.map(async (item) => {
-      // 构建优化的图片URL
-      const buildImageUrls = (posterPath, backdropPath) => {
-        const baseUrl = "https://image.tmdb.org/t/p/";
-        // 使用更可靠的图片尺寸
-        const posterUrl = posterPath ? `${baseUrl}original${posterPath}` : null;
-        const backdropUrl = backdropPath ? `${baseUrl}original${backdropPath}` : null;
-        
-        return {
-          posterPath: posterUrl,
-          coverUrl: posterUrl,
-          backdropPath: backdropUrl,
-          backdropUrls: backdropUrl ? [backdropUrl] : []
-        };
-      };
-      
-      // 检查预处理数据中的URL格式
-      let posterPath = null;
-      let backdropPath = null;
-      
-      // 处理海报URL
-      if (item.poster_url) {
-        if (item.poster_url.startsWith('https://image.tmdb.org/')) {
-          // 已经是完整URL，提取文件名
-          posterPath = item.poster_url.split('/').pop();
-        } else {
-          // 只是文件名
-          posterPath = item.poster_url;
-        }
-      }
-      
-      // 处理背景图URL
-      if (item.title_backdrop) {
-        if (item.title_backdrop.startsWith('https://image.tmdb.org/')) {
-          // 已经是完整URL，提取文件名
-          backdropPath = item.title_backdrop.split('/').pop();
-        } else {
-          // 只是文件名
-          backdropPath = item.title_backdrop;
-        }
-      }
-      
-      const imageUrls = buildImageUrls(posterPath, backdropPath);
-      
-      const widgetItem = {
-        id: item.id.toString(),
-        type: "tmdb",
-        title: item.title,
-        description: item.overview,
-        releaseDate: item.release_date,
-        posterPath: imageUrls.posterPath,
-        coverUrl: imageUrls.coverUrl,
-        backdropPath: imageUrls.backdropPath,
-        backdropUrls: imageUrls.backdropUrls,
-        title_backdrop: item.title_backdrop,
-        rating: item.rating,
-        mediaType: item.type,
-        genreTitle: item.genreTitle,
-        popularity: item.popularity || 0,
-        voteCount: item.vote_count || 0,
-        link: null,
-        duration: 0,
-        durationText: "",
-        episode: 0,
-        childItems: []
-      };
-      
-      // 如果存在带logo的背景图，同时保存正常背景图作为备用
-      if (item.title_backdrop && item.title_backdrop.includes('image-overlay.vercel.app')) {
-        const normalBackdrop = item.title_backdrop.replace('https://image-overlay.vercel.app/api/backdrop?bg=', '').split('&')[0];
-        widgetItem.normalBackdrop = normalBackdrop;
-      }
-      
-      return widgetItem;
+    // 根据媒体类型过滤
+    if (media_type !== "all") {
+      results = results.filter(item => item.type === media_type);
+    }
+    
+    // 转换为标准WidgetItem格式
+    const widgetItems = results.slice(0, CONFIG.MAX_ITEMS).map(item => ({
+      id: String(item.id),
+      type: "tmdb",
+      title: item.title || "未知标题",
+      genreTitle: item.genreTitle || "",
+      rating: Number(item.rating) || 0,
+      description: item.overview || "",
+      releaseDate: item.release_date || "",
+      posterPath: item.poster_url || "",
+      coverUrl: item.poster_url || "",
+      backdropPath: item.title_backdrop || "",
+      mediaType: item.type || "movie",
+      popularity: 0,
+      voteCount: 0,
+      link: null,
+      duration: 0,
+      durationText: "",
+      episode: 0,
+      childItems: []
     }));
     
     setCachedData(cacheKey, widgetItems);
     return widgetItems;
-    
+
   } catch (error) {
-    console.error("预处理TMDB数据加载失败:", error);
-    // 如果预处理数据加载失败，返回空数组
+    console.error("预处理数据加载失败:", error);
     return [];
   }
 }
