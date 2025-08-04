@@ -178,8 +178,8 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         # URL编码
         encoded_text = quote(combined_text)
         
-        # 使用dummyimage服务生成带标题背景图 (JPG格式)
-        title_backdrop_url = f"https://dummyimage.com/1200x630/1a1a2e/ffffff.jpg&text={encoded_text}"
+        # 使用placehold.co服务生成带标题背景图 (正确的JPEG MIME类型)
+        title_backdrop_url = f"https://placehold.co/1200x630/1a1a2e/ffffff.jpeg?text={encoded_text}"
         
         logger.info(f"✅ 生成带标题背景图: {title} -> {title_backdrop_url}")
         return title_backdrop_url
