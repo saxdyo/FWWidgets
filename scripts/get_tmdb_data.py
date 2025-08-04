@@ -178,11 +178,11 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         # URL编码
         encoded_text = quote(combined_text)
         
-        # 使用placehold.co服务生成带标题背景图 (正确的JPEG MIME类型)
-        title_backdrop_url = f"https://placehold.co/1200x630/1a1a2e/ffffff.jpeg?text={encoded_text}"
+        # 返回原始TMDB背景图，不生成带标题的背景图
+        original_backdrop_url = get_image_url(backdrop_path, "original")
         
-        logger.info(f"✅ 生成带标题背景图: {title} -> {title_backdrop_url}")
-        return title_backdrop_url
+        logger.info(f"✅ 使用原始背景图: {title} -> {original_backdrop_url}")
+        return original_backdrop_url
         
     except Exception as e:
         logger.error(f"生成标题背景图失败: {e}")
