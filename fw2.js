@@ -1266,6 +1266,8 @@ async function loadTmdbByNetwork(params = {}) {
     });
 
     const results = await Promise.all(res.results.map(async item => {
+      // 为TV节目显式设置media_type，因为/discover/tv端点不返回此字段
+      item.media_type = "tv";
       const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
       return widgetItem;
@@ -1320,12 +1322,16 @@ async function loadTmdbByCompany(params = {}) {
       
       // 合并电影和剧集结果，按热门度排序
       const movieResults = await Promise.all(movieRes.results.map(async item => {
+        // 为电影显式设置media_type
+        item.media_type = "movie";
         const widgetItem = await createWidgetItem(item);
         widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
         return widgetItem;
       }));
       
       const tvResults = await Promise.all(tvRes.results.map(async item => {
+        // 为TV节目显式设置media_type
+        item.media_type = "tv";
         const widgetItem = await createWidgetItem(item);
         widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
         return widgetItem;
@@ -1367,6 +1373,8 @@ async function loadTmdbByCompany(params = {}) {
       });
       
       const widgetItems = await Promise.all(res.results.map(async item => {
+        // 为项目显式设置media_type，因为discover端点不返回此字段
+        item.media_type = type;
         const widgetItem = await createWidgetItem(item);
         widgetItem.genreTitle = getGenreTitle(item.genre_ids, type);
         return widgetItem;
@@ -1466,6 +1474,8 @@ async function loadTmdbMediaRanking(params = {}) {
     });
     
     const widgetItems = await Promise.all(res.results.map(async item => {
+      // 为项目显式设置media_type，因为discover端点不返回此字段
+      item.media_type = media_type;
       const widgetItem = await createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
       return widgetItem;
@@ -2174,8 +2184,11 @@ async function loadImdbMovieListModule(params = {}) {
     }
 
     const widgetItems = await Promise.all(response.results.map(async item => {
+      // 为项目显式设置media_type，因为discover端点不返回此字段
+      const itemMediaType = endpoint.includes("tv") ? "tv" : "movie";
+      item.media_type = itemMediaType;
       const widgetItem = await createWidgetItem(item);
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || (endpoint.includes("tv") ? "tv" : "movie"));
+      widgetItem.genreTitle = getGenreTitle(item.genre_ids, itemMediaType);
       return widgetItem;
     }));
 
