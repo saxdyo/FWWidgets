@@ -108,15 +108,19 @@ WidgetMetadata = {
       title: "TMDB 播出平台",
       description: "按播出平台和内容类型筛选剧集内容",
       requiresWebView: false,
-      functionName: "loadTmdbByNetwork",
+      functionName: "tmdbDiscoverByNetwork",
       cacheDuration: 3600,
       params: [
-        { 
+        {
           name: "with_networks",
           title: "播出平台",
           type: "enumeration",
           description: "选择一个平台以查看其剧集内容",
           value: "",
+          belongTo: {
+            paramName: "air_status",
+            value: ["released","upcoming",""],
+          },
           enumOptions: [
             { title: "全部", value: "" },
             { title: "Tencent", value: "2007" },
@@ -132,7 +136,6 @@ WidgetMetadata = {
             { title: "Hulu", value: "453" },
             { title: "Amazon Prime Video", value: "1024" },
             { title: "FOX", value: "19" },
-            { title: "Paramount", value: "576" },
             { title: "Paramount+", value: "4330" },
             { title: "TV Tokyo", value: "94" },
             { title: "BBC One", value: "332" },
@@ -140,16 +143,19 @@ WidgetMetadata = {
             { title: "NBC", value: "6" },
             { title: "AMC+", value: "174" },
             { title: "We TV", value: "3732" },
-            { title: "Viu TV", value: "2146" },
-            { title: "TVB", value: "48" }
+            { title: "Viu TV", value: "2146" }
           ]
         },
         {
           name: "with_genres",
-          title: "内容类型",
+          title: "🎭内容类型",
           type: "enumeration",
           description: "选择要筛选的内容类型",
           value: "",
+          belongTo: {
+            paramName: "air_status",
+            value: ["released","upcoming",""],
+          },
           enumOptions: [
             { title: "全部类型", value: "" },
             { title: "犯罪", value: "80" },
@@ -157,18 +163,13 @@ WidgetMetadata = {
             { title: "喜剧", value: "35" },
             { title: "剧情", value: "18" },
             { title: "家庭", value: "10751" },
-            { title: "儿童", value: "10762" },
             { title: "悬疑", value: "9648" },
             { title: "真人秀", value: "10764" },
             { title: "脱口秀", value: "10767" },
-            { title: "肥皂剧", value: "10766" },
             { title: "纪录片", value: "99" },
             { title: "动作与冒险", value: "10759" },
             { title: "科幻与奇幻", value: "10765" },
-            { title: "战争与政治", value: "10768" },
-            { title: "动作", value: "28" },
-            { title: "科幻", value: "878" },
-            { title: "爱情", value: "10749" }
+            { title: "战争与政治", value: "10768" }
           ]
         },
         {
@@ -179,22 +180,22 @@ WidgetMetadata = {
           value: "released",
           enumOptions: [
             { title: "已上映", value: "released" },
-            { title: "未上映", value: "upcoming" }
+            { title: "未上映", value: "upcoming" },
+            { title: "全部", value: "" }
           ]
         },
         {
           name: "sort_by",
-          title: "排序方式",
+          title: "🔢 排序方式",
           type: "enumeration",
-          description: "选择排序方式",
+          description: "选择内容排序方式,默认上映时间↓",
           value: "first_air_date.desc",
           enumOptions: [
             { title: "上映时间↓", value: "first_air_date.desc" },
             { title: "上映时间↑", value: "first_air_date.asc" },
-            { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" }
+            { title: "人气最高", value: "popularity.desc" },
+            { title: "评分最高", value: "vote_average.desc" },
+            { title: "最多投票", value: "vote_count.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -739,6 +740,45 @@ function getGenreTitle(genreIds, mediaType) {
   return genreNames.join("•");
 }
 
+// 辅助函数
+function getBeijingDate() {
+    const now = new Date();
+    const beijingTime = now.getTime() + (8 * 60 * 60 * 1000);
+    const beijingDate = new Date(beijingTime);
+    return `${beijingDate.getUTCFullYear()}-${String(beijingDate.getUTCMonth() + 1).padStart(2, '0')}-${String(beijingDate.getUTCDate()).padStart(2, '0')}`;
+}
+
+// TMDB数据获取函数
+async function fetchTmdbData(api, params) {
+    const data = await Widget.tmdb.get(api, { params: params });
+
+    return data.results
+        .filter((item) => {
+            return item.poster_path &&
+                   item.id &&
+                   (item.title || item.name) &&
+                   (item.title || item.name).trim().length > 0;
+        })
+        .map((item) => {
+            const mediaType = item.media_type || (item.title ? 'movie' : 'tv');
+            const genreIds = item.genre_ids || [];
+            const genreTitle = getGenreTitle(genreIds, mediaType);
+
+            return {
+                id: item.id,
+                type: "tmdb",
+                title: item.title || item.name,
+                description: item.overview,
+                releaseDate: item.release_date || item.first_air_date,
+                backdropPath: item.backdrop_path,
+                posterPath: item.poster_path,
+                rating: item.vote_average,
+                mediaType: mediaType,
+                genreTitle: genreTitle
+            };
+        });
+}
+
 // 主要功能函数
 
 // 1. TMDB热门内容加载
@@ -1225,63 +1265,27 @@ setInterval(cleanupCache, 5 * 60 * 1000); // 每5分钟清理一次
 // 新增功能函数
 
 // 1. TMDB播出平台
-async function loadTmdbByNetwork(params = {}) {
-  const { 
-    language = "zh-CN", 
-    page = 1, 
-    with_networks, 
-    with_genres,
-    air_status = "released",
-    sort_by = "first_air_date.desc" 
-  } = params;
-
-  try {
-    const cacheKey = `network_${with_networks}_${with_genres}_${air_status}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
+async function tmdbDiscoverByNetwork(params = {}) {
+    const api = "discover/tv";
+    const beijingDate = getBeijingDate();
     const discoverParams = {
-      language,
-      page,
-      sort_by,
-      api_key: CONFIG.API_KEY
+        language: params.language || 'zh-CN',
+        page: params.page || 1,
+        with_networks: params.with_networks,
+        sort_by: params.sort_by || "first_air_date.desc",
     };
-
-    if (with_networks) {
-      discoverParams.with_networks = with_networks;
-    }
-
-    if (with_genres) {
-      discoverParams.with_genres = with_genres;
-    }
-
-    if (air_status === 'released') {
-      discoverParams['first_air_date.lte'] = new Date().toISOString().split('T')[0];
-    } else if (air_status === 'upcoming') {
-      discoverParams['first_air_date.gte'] = new Date().toISOString().split('T')[0];
-    }
-
-    const res = await Widget.tmdb.get("/discover/tv", {
-      params: discoverParams
-    });
-
-    const results = await Promise.all(res.results.map(async item => {
-      // 为TV节目显式设置media_type，因为/discover/tv端点不返回此字段
-      item.media_type = "tv";
-      const widgetItem = await createWidgetItem(item);
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
-      return widgetItem;
-    }));
     
-    const finalResults = results.slice(0, CONFIG.MAX_ITEMS);
+    if (params.air_status === 'released') {
+        discoverParams['first_air_date.lte'] = beijingDate;
+    } else if (params.air_status === 'upcoming') {
+        discoverParams['first_air_date.gte'] = beijingDate;
+    }
     
-    setCachedData(cacheKey, finalResults);
-    return finalResults;
-
-  } catch (error) {
-    console.error("TMDB播出平台加载失败:", error);
-    return [];
-  }
+    if (params.with_genres) {
+        discoverParams.with_genres = params.with_genres;
+    }
+    
+    return await fetchTmdbData(api, discoverParams);
 }
 
 // 2. TMDB出品公司
