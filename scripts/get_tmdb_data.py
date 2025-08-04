@@ -179,7 +179,7 @@ def generate_title_backdrop_url(item, item_type, backdrop_path):
         encoded_text = quote(combined_text)
         
         # 使用dummyimage服务生成带标题背景图
-        title_backdrop_url = f"https://dummyimage.com/1200x630/1a1a2e/ffffff.png&text={encoded_text}"
+        title_backdrop_url = f"https://dummyimage.com/1200x630/1a1a2e/ffffff&text={encoded_text}"
         
         logger.info(f"✅ 生成带标题背景图: {title} -> {title_backdrop_url}")
         return title_backdrop_url
