@@ -913,7 +913,7 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从标准格式的TMDB数据源加载数据
+    // 从标准格式的TMDB数据源加载数据 (GitHub Pages)
     const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
