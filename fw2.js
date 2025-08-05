@@ -766,7 +766,7 @@ var WidgetMetadata = {
 
 // 配置常量
 var CONFIG = {
-  API_KEY: "your_tmdb_api_key_here", // TMDB API密钥
+  API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
@@ -784,7 +784,255 @@ var CONFIG = {
   // 图片CDN优化
   IMAGE_CDN_ENABLED: true, // 启用图片CDN
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
-  IMAGE_CDN_FALLBACK: true // 图片CDN失败时回退到原始URL
+  IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
+  
+  // ========== 新增优化配置 ==========
+  // 缓存优化配置
+  CACHE: {
+    DURATION: 30 * 60 * 1000, // 30分钟缓存
+    FRESH_DATA_DURATION: 2 * 60 * 60 * 1000, // 2小时内数据新鲜
+    MAX_ITEMS: 30, // 最大条数
+    LRU_SIZE: 200, // LRU缓存最大容量
+    IMAGE_DURATION: 30 * 60 * 1000, // 图片缓存30分钟
+    GENRE_DURATION: 24 * 60 * 60 * 1000 // 类型缓存24小时
+  },
+  
+  // 网络优化配置
+  NETWORK: {
+    MAX_CONCURRENT: 8, // 并发数
+    TIMEOUT: 5000, // 请求超时5秒
+    MAX_RETRIES: 3, // 最大重试次数
+    RATE_LIMIT_DELAY: 150, // 请求间隔
+    EXPONENTIAL_BACKOFF: true // 启用指数退避
+  },
+  
+  // 日志配置
+  LOG: {
+    LEVEL: 'info', // error, warn, info, debug
+    ENABLE_PERFORMANCE: true // 启用性能监控
+  }
+};
+
+// ========== 优化的日志系统 ==========
+var OptimizedLogger = {
+  levels: { error: 0, warn: 1, info: 2, debug: 3 },
+  performance: new Map(),
+  
+  log: function(msg, level = 'info', context = '') {
+    if (this.levels[level] <= this.levels[CONFIG.LOG.LEVEL]) {
+      const timestamp = new Date().toISOString().substr(11, 8);
+      const prefix = context ? `[${context}]` : '';
+      const logMethod = level === 'error' ? 'error' : level === 'warn' ? 'warn' : 'log';
+      console[logMethod](`${timestamp} ${prefix} ${msg}`);
+    }
+  },
+  
+  time: function(label) {
+    if (CONFIG.LOG.ENABLE_PERFORMANCE) {
+      this.performance.set(label, Date.now());
+    }
+  },
+  
+  timeEnd: function(label) {
+    if (CONFIG.LOG.ENABLE_PERFORMANCE) {
+      const start = this.performance.get(label);
+      if (start) {
+        const duration = Date.now() - start;
+        this.log(`${label}: ${duration}ms`, 'info', 'PERF');
+        this.performance.delete(label);
+        return duration;
+      }
+    }
+    return 0;
+  }
+};
+
+// ========== 优化的LRU缓存 ==========
+var OptimizedLRUCache = {
+  cache: new Map(),
+  maxSize: CONFIG.CACHE.LRU_SIZE,
+  
+  get: function(key) {
+    const item = this.cache.get(key);
+    if (item) {
+      // 检查是否过期
+      if (Date.now() - item.timestamp < CONFIG.CACHE.DURATION) {
+        // 移到最后（最近使用）
+        this.cache.delete(key);
+        this.cache.set(key, item);
+        OptimizedLogger.log(`Cache hit: ${key}`, 'debug', 'CACHE');
+        return item.data;
+      } else {
+        this.cache.delete(key);
+        OptimizedLogger.log(`Cache expired: ${key}`, 'debug', 'CACHE');
+      }
+    }
+    OptimizedLogger.log(`Cache miss: ${key}`, 'debug', 'CACHE');
+    return null;
+  },
+  
+  set: function(key, data) {
+    // 如果已存在，删除旧的
+    if (this.cache.has(key)) {
+      this.cache.delete(key);
+    }
+    
+    // 检查容量限制
+    if (this.cache.size >= this.maxSize) {
+      // 删除最老的项（第一个）
+      const firstKey = this.cache.keys().next().value;
+      this.cache.delete(firstKey);
+      OptimizedLogger.log(`Cache evicted: ${firstKey}`, 'debug', 'CACHE');
+    }
+    
+    this.cache.set(key, {
+      data: data,
+      timestamp: Date.now()
+    });
+    OptimizedLogger.log(`Cache set: ${key}`, 'debug', 'CACHE');
+  },
+  
+  clear: function() {
+    this.cache.clear();
+    OptimizedLogger.log('Cache cleared', 'info', 'CACHE');
+  },
+  
+  getStats: function() {
+    return {
+      size: this.cache.size,
+      maxSize: this.maxSize,
+      hitRate: '计算中...'
+    };
+  }
+};
+
+// ========== 请求速率限制器 ==========
+var RequestRateLimiter = {
+  lastRequestTime: 0,
+  requestCount: 0,
+  
+  async delay: function() {
+    const now = Date.now();
+    const timeSinceLastRequest = now - this.lastRequestTime;
+    
+    if (timeSinceLastRequest < CONFIG.NETWORK.RATE_LIMIT_DELAY) {
+      const delayTime = CONFIG.NETWORK.RATE_LIMIT_DELAY - timeSinceLastRequest;
+      // 添加随机延迟 (50-150ms)
+      const randomDelay = Math.random() * 100 + 50;
+      const totalDelay = delayTime + randomDelay;
+      
+      OptimizedLogger.log(`Rate limiting delay: ${totalDelay}ms`, 'debug', 'RATE');
+      await new Promise(resolve => setTimeout(resolve, totalDelay));
+    }
+    
+    this.lastRequestTime = Date.now();
+    this.requestCount++;
+  }
+};
+
+// ========== 性能统计 ==========
+var PerformanceStats = {
+  requests: {
+    total: 0,
+    success: 0,
+    failed: 0,
+    avgResponseTime: 0,
+    totalResponseTime: 0
+  },
+  
+  cache: {
+    hits: 0,
+    misses: 0
+  },
+  
+  recordRequest: function(success, responseTime) {
+    this.requests.total++;
+    this.requests.totalResponseTime += responseTime;
+    this.requests.avgResponseTime = Math.round(this.requests.totalResponseTime / this.requests.total);
+    
+    if (success) {
+      this.requests.success++;
+    } else {
+      this.requests.failed++;
+    }
+  },
+  
+  recordCacheHit: function() {
+    this.cache.hits++;
+  },
+  
+  recordCacheMiss: function() {
+    this.cache.misses++;
+  },
+  
+  getStats: function() {
+    const successRate = this.requests.total > 0 ? 
+      Math.round((this.requests.success / this.requests.total) * 100) : 0;
+    const cacheHitRate = (this.cache.hits + this.cache.misses) > 0 ? 
+      Math.round((this.cache.hits / (this.cache.hits + this.cache.misses)) * 100) : 0;
+      
+    return {
+      requests: {
+        ...this.requests,
+        successRate: `${successRate}%`
+      },
+      cache: {
+        ...this.cache,
+        hitRate: `${cacheHitRate}%`
+      }
+    };
+  }
+};
+
+// ========== 优化的请求处理器 ==========
+var OptimizedRequestHandler = {
+  async makeRequest: function(url, options = {}, context = 'REQUEST') {
+    await RequestRateLimiter.delay();
+    
+    const startTime = Date.now();
+    let attempt = 0;
+    let lastError;
+    
+    OptimizedLogger.time(`${context}_${url.substr(-20)}`);
+    
+    while (attempt < CONFIG.NETWORK.MAX_RETRIES) {
+      attempt++;
+      
+      try {
+        OptimizedLogger.log(`Attempt ${attempt}/${CONFIG.NETWORK.MAX_RETRIES}: ${url}`, 'debug', context);
+        
+        const response = await Widget.http.get(url, {
+          timeout: CONFIG.NETWORK.TIMEOUT,
+          ...options
+        });
+        
+        const responseTime = Date.now() - startTime;
+        PerformanceStats.recordRequest(true, responseTime);
+        OptimizedLogger.timeEnd(`${context}_${url.substr(-20)}`);
+        OptimizedLogger.log(`Success: ${url} (${responseTime}ms)`, 'debug', context);
+        
+        return response;
+        
+      } catch (error) {
+        lastError = error;
+        const responseTime = Date.now() - startTime;
+        PerformanceStats.recordRequest(false, responseTime);
+        
+        OptimizedLogger.log(`Attempt ${attempt} failed: ${error.message}`, 'warn', context);
+        
+        if (attempt < CONFIG.NETWORK.MAX_RETRIES) {
+          const delay = CONFIG.NETWORK.EXPONENTIAL_BACKOFF ? 
+            Math.pow(2, attempt) * 1000 : 1000; // 指数退避或固定1秒
+          OptimizedLogger.log(`Retrying in ${delay}ms...`, 'info', context);
+          await new Promise(resolve => setTimeout(resolve, delay));
+        }
+      }
+    }
+    
+    OptimizedLogger.timeEnd(`${context}_${url.substr(-20)}`);
+    OptimizedLogger.log(`All attempts failed for: ${url}`, 'error', context);
+    throw lastError;
+  }
 };
 
 // 缓存管理
@@ -947,20 +1195,19 @@ var ImageCDN = {
   }
 };
 
-// 工具函数
+// 工具函数 - 优化版本
 function getCachedData(key) {
-  const cached = cache.get(key);
-  if (cached && (Date.now() - cached.timestamp) < CONFIG.CACHE_DURATION) {
-    return cached.data;
+  const cached = OptimizedLRUCache.get(key);
+  if (cached) {
+    PerformanceStats.recordCacheHit();
+    return cached;
   }
+  PerformanceStats.recordCacheMiss();
   return null;
 }
 
 function setCachedData(key, data) {
-  cache.set(key, {
-    data: data,
-    timestamp: Date.now()
-  });
+  OptimizedLRUCache.set(key, data);
 }
 
 function createWidgetItem(item) {
@@ -1548,27 +1795,42 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
-// 3. 豆瓣片单加载
+// 3. 豆瓣片单加载 - 优化版本
 async function loadDoubanList(params = {}) {
   const { url, page = 1 } = params;
   
+  OptimizedLogger.time(`loadDoubanList_${page}`);
+  
   if (!url) {
+    OptimizedLogger.log('No URL provided for Douban list', 'warn', 'DOUBAN');
+    OptimizedLogger.timeEnd(`loadDoubanList_${page}`);
     return [];
   }
 
   try {
     const cacheKey = `douban_${url}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      OptimizedLogger.timeEnd(`loadDoubanList_${page}`);
+      return cached;
+    }
+
+    OptimizedLogger.log(`Loading Douban list: ${url.substr(0, 50)}...`, 'info', 'DOUBAN');
+
+    // 应用速率限制
+    await RequestRateLimiter.delay();
 
     // 这里需要根据实际的豆瓣API或网页解析来实现
     // 由于原脚本中的豆瓣解析逻辑比较复杂，这里提供一个简化版本
-    const response = await Widget.http.get(url, {
-      timeout: CONFIG.NETWORK_TIMEOUT,
+    const response = await OptimizedRequestHandler.makeRequest(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15'
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate',
+        'Referer': 'https://www.douban.com/'
       }
-    });
+    }, 'DOUBAN');
 
     // 简化的豆瓣数据解析（实际使用时需要根据豆瓣的具体结构调整）
     const results = [];
@@ -1576,11 +1838,15 @@ async function loadDoubanList(params = {}) {
     // 这里应该根据实际的豆瓣页面结构来解析数据
     // 由于豆瓣的反爬虫机制，实际实现可能需要更复杂的处理
     
+    OptimizedLogger.log(`Douban list processing completed: ${results.length} items`, 'info', 'DOUBAN');
+    
     setCachedData(cacheKey, results);
+    OptimizedLogger.timeEnd(`loadDoubanList_${page}`);
     return results;
 
   } catch (error) {
-    console.error("豆瓣片单加载失败:", error);
+    OptimizedLogger.timeEnd(`loadDoubanList_${page}`);
+    OptimizedLogger.log(`Douban list loading failed: ${error.message}`, 'error', 'DOUBAN');
     return [];
   }
 }
@@ -1597,6 +1863,38 @@ function cleanupCache() {
 
 // 定期清理缓存
 setInterval(cleanupCache, 5 * 60 * 1000); // 每5分钟清理一次
+
+// ========== 性能监控仪表板 ==========
+function getPerformanceDashboard() {
+  const stats = PerformanceStats.getStats();
+  const cacheStats = OptimizedLRUCache.getStats();
+  
+  return {
+    timestamp: new Date().toISOString(),
+    requests: stats.requests,
+    cache: {
+      ...stats.cache,
+      size: cacheStats.size,
+      maxSize: cacheStats.maxSize
+    },
+    rateLimiter: {
+      totalRequests: RequestRateLimiter.requestCount,
+      lastRequestTime: new Date(RequestRateLimiter.lastRequestTime).toISOString()
+    },
+    config: {
+      logLevel: CONFIG.LOG.LEVEL,
+      maxConcurrent: CONFIG.NETWORK.MAX_CONCURRENT,
+      retries: CONFIG.NETWORK.MAX_RETRIES,
+      rateLimit: CONFIG.NETWORK.RATE_LIMIT_DELAY
+    }
+  };
+}
+
+// 如果需要查看性能统计，可以调用此函数
+if (typeof window !== 'undefined' && window.console) {
+  window.getPerformanceStats = getPerformanceDashboard;
+  OptimizedLogger.log('Performance monitoring enabled. Call getPerformanceStats() to view stats.', 'info', 'MONITOR');
+}
 
 // CDN性能监控
 var CDNStats = {
@@ -1680,43 +1978,69 @@ initializeCDN();
 
 // 新增功能函数
 
-// 1. TMDB播出平台
+// 1. TMDB播出平台 - 优化版本
 async function tmdbDiscoverByNetwork(params = {}) {
-    const api = "discover/tv";
-    const beijingDate = getBeijingDate();
-    const discoverParams = {
-        language: params.language || 'zh-CN',
-        page: params.page || 1,
-        with_networks: params.with_networks,
-        sort_by: params.sort_by || "first_air_date.desc",
-    };
+    const networkName = params.with_networks || 'all';
+    OptimizedLogger.time(`tmdbDiscoverByNetwork_${networkName}`);
     
-    if (params.air_status === 'released') {
-        discoverParams['first_air_date.lte'] = beijingDate;
-    } else if (params.air_status === 'upcoming') {
-        discoverParams['first_air_date.gte'] = beijingDate;
+    try {
+        const api = "discover/tv";
+        const beijingDate = getBeijingDate();
+        
+        OptimizedLogger.log(`Loading network data: ${networkName}, status: ${params.air_status}`, 'info', 'NETWORK');
+        
+        const discoverParams = {
+            language: params.language || 'zh-CN',
+            page: params.page || 1,
+            with_networks: params.with_networks,
+            sort_by: params.sort_by || "first_air_date.desc",
+        };
+        
+        if (params.air_status === 'released') {
+            discoverParams['first_air_date.lte'] = beijingDate;
+        } else if (params.air_status === 'upcoming') {
+            discoverParams['first_air_date.gte'] = beijingDate;
+        }
+        
+        if (params.with_genres) {
+            discoverParams.with_genres = params.with_genres;
+        }
+        
+        // 应用速率限制
+        await RequestRateLimiter.delay();
+        
+        const result = await fetchTmdbData(api, discoverParams);
+        OptimizedLogger.timeEnd(`tmdbDiscoverByNetwork_${networkName}`);
+        OptimizedLogger.log(`Network data loaded: ${result.length} items`, 'info', 'NETWORK');
+        return result;
+        
+    } catch (error) {
+        OptimizedLogger.timeEnd(`tmdbDiscoverByNetwork_${networkName}`);
+        OptimizedLogger.log(`Network loading failed: ${error.message}`, 'error', 'NETWORK');
+        return [];
     }
-    
-    if (params.with_genres) {
-        discoverParams.with_genres = params.with_genres;
-    }
-    
-    return await fetchTmdbData(api, discoverParams);
 }
 
-// 2. TMDB出品公司
+// 2. TMDB出品公司 - 优化版本
 async function loadTmdbByCompany(params = {}) {
   const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
+  
+  OptimizedLogger.time(`loadTmdbByCompany_${type}_${with_companies}`);
   
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      OptimizedLogger.timeEnd(`loadTmdbByCompany_${type}_${with_companies}`);
+      return cached;
+    }
 
+    OptimizedLogger.log(`Loading company data: ${with_companies}, type: ${type}`, 'info', 'COMPANY');
     let results = [];
     
     // 如果选择全部类型，同时获取电影和剧集
     if (type === "all") {
+      await RequestRateLimiter.delay();
       const [movieRes, tvRes] = await Promise.all([
         Widget.tmdb.get("/discover/movie", {
           params: {
@@ -1784,10 +2108,15 @@ async function loadTmdbByCompany(params = {}) {
         queryParams.with_genres = with_genres;
       }
       
+      // 应用速率限制
+      await RequestRateLimiter.delay();
+      
       // 发起API请求
       const res = await Widget.tmdb.get(endpoint, {
         params: queryParams
       });
+      
+      OptimizedLogger.log(`API response: ${res.results.length} items`, 'debug', 'COMPANY');
       
       const widgetItems = await Promise.all(res.results.map(async item => {
         // 为项目显式设置media_type，因为discover端点不返回此字段
@@ -1803,15 +2132,18 @@ async function loadTmdbByCompany(params = {}) {
     }
     
     setCachedData(cacheKey, results);
+    OptimizedLogger.timeEnd(`loadTmdbByCompany_${type}_${with_companies}`);
+    OptimizedLogger.log(`Company data loaded: ${results.length} items`, 'info', 'COMPANY');
     return results;
     
   } catch (error) {
-    console.error("TMDB出品公司加载失败:", error);
+    OptimizedLogger.timeEnd(`loadTmdbByCompany_${type}_${with_companies}`);
+    OptimizedLogger.log(`Company loading failed: ${error.message}`, 'error', 'COMPANY');
     return [];
   }
 }
 
-// 3. TMDB影视榜单
+// 3. TMDB影视榜单 - 优化版本
 async function loadTmdbMediaRanking(params = {}) {
   const { 
     language = "zh-CN", 
@@ -1824,10 +2156,17 @@ async function loadTmdbMediaRanking(params = {}) {
     year = ""
   } = params;
   
+  OptimizedLogger.time(`loadTmdbMediaRanking_${media_type}_${sort_by}`);
+  
   try {
     const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      OptimizedLogger.timeEnd(`loadTmdbMediaRanking_${media_type}_${sort_by}`);
+      return cached;
+    }
+
+    OptimizedLogger.log(`Loading media ranking: ${media_type}, sort: ${sort_by}`, 'info', 'RANKING');
 
     // 根据媒体类型选择API端点
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
@@ -1885,9 +2224,14 @@ async function loadTmdbMediaRanking(params = {}) {
       }
     }
     
+    // 应用速率限制
+    await RequestRateLimiter.delay();
+    
     const res = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
+    
+    OptimizedLogger.log(`API response: ${res.results.length} items`, 'debug', 'RANKING');
     
     const widgetItems = await Promise.all(res.results.map(async item => {
       // 为项目显式设置media_type，因为discover端点不返回此字段
@@ -1900,15 +2244,18 @@ async function loadTmdbMediaRanking(params = {}) {
     const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
+    OptimizedLogger.timeEnd(`loadTmdbMediaRanking_${media_type}_${sort_by}`);
+    OptimizedLogger.log(`Media ranking loaded: ${results.length} items`, 'info', 'RANKING');
     return results;
 
   } catch (error) {
-    console.error("TMDB影视榜单加载失败:", error);
+    OptimizedLogger.timeEnd(`loadTmdbMediaRanking_${media_type}_${sort_by}`);
+    OptimizedLogger.log(`Media ranking failed: ${error.message}`, 'error', 'RANKING');
     return [];
   }
 }
 
-// 4. TMDB主题分类
+// 4. TMDB主题分类 - 优化版本
 async function loadTmdbByTheme(params = {}) {
   const { 
     theme = "action",
@@ -1919,12 +2266,17 @@ async function loadTmdbByTheme(params = {}) {
     page = 1 
   } = params;
   
+  OptimizedLogger.time(`loadTmdbByTheme_${theme}_${media_type}`);
+  
   try {
     const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      OptimizedLogger.timeEnd(`loadTmdbByTheme_${theme}_${media_type}`);
+      return cached;
+    }
 
-    console.log(`🎭 加载TMDB主题分类: ${theme}`);
+    OptimizedLogger.log(`Loading TMDB theme: ${theme}, media_type: ${media_type}`, 'info', 'THEME');
 
     // 主题到类型ID的映射
     const themeToGenres = {
@@ -1944,7 +2296,8 @@ async function loadTmdbByTheme(params = {}) {
 
     const genreIds = themeToGenres[theme];
     if (!genreIds) {
-      console.error(`❌ 未知主题: ${theme}`);
+      OptimizedLogger.log(`Unknown theme: ${theme}`, 'error', 'THEME');
+      OptimizedLogger.timeEnd(`loadTmdbByTheme_${theme}_${media_type}`);
       return [];
     }
 
@@ -2013,16 +2366,19 @@ async function loadTmdbByTheme(params = {}) {
       }
     }
 
-    console.log("📊 主题分类查询参数:", queryParams);
+    OptimizedLogger.log(`Theme query params: ${JSON.stringify(queryParams)}`, 'debug', 'THEME');
+
+    // 应用速率限制
+    await RequestRateLimiter.delay();
 
     const res = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
 
-    console.log(`📊 获取到主题分类数据: ${res.results ? res.results.length : 0} 条`);
+    OptimizedLogger.log(`Theme API response: ${res.results ? res.results.length : 0} items`, 'debug', 'THEME');
 
     if (!res.results || res.results.length === 0) {
-      console.log("⚠️ 未获取到主题分类数据，尝试备用方案...");
+      OptimizedLogger.log('No theme data found, trying fallback...', 'warn', 'THEME');
       return await loadThemeFallback(params);
     }
 
@@ -2057,13 +2413,15 @@ async function loadTmdbByTheme(params = {}) {
     
     const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
 
-    console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
+    OptimizedLogger.log(`Theme processing completed: ${results.length} items`, 'info', 'THEME');
 
     setCachedData(cacheKey, results);
+    OptimizedLogger.timeEnd(`loadTmdbByTheme_${theme}_${media_type}`);
     return results;
 
   } catch (error) {
-    console.error("❌ TMDB主题分类加载失败:", error);
+    OptimizedLogger.timeEnd(`loadTmdbByTheme_${theme}_${media_type}`);
+    OptimizedLogger.log(`Theme loading failed: ${error.message}`, 'error', 'THEME');
     return await loadThemeFallback(params);
   }
 }
@@ -2534,7 +2892,7 @@ function generateFallbackData() {
 
 
 
-// 4. IMDb影视榜单模块加载 (改为使用TMDB API)
+// 4. IMDb影视榜单模块加载 (改为使用TMDB API) - 优化版本
 async function loadImdbMovieListModule(params = {}) {
   const { 
     region = "all", 
@@ -2543,12 +2901,17 @@ async function loadImdbMovieListModule(params = {}) {
     media_type = "all"
   } = params;
   
+  OptimizedLogger.time(`loadImdbMovieListModule_${media_type}_${region}`);
+  
   try {
     const cacheKey = `tmdb_movie_list_${region}_${sort_by}_${page}_${media_type}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      OptimizedLogger.timeEnd(`loadImdbMovieListModule_${media_type}_${region}`);
+      return cached;
+    }
 
-    console.log(`🎬 加载影视榜单数据 (地区: ${region}, 排序: ${sort_by}, 媒体类型: ${media_type}, 页码: ${page})`);
+    OptimizedLogger.log(`Loading IMDb list: region=${region}, sort=${sort_by}, type=${media_type}, page=${page}`, 'info', 'IMDB');
 
     let endpoint = "/discover/movie";
     const queryParams = {
@@ -2587,14 +2950,20 @@ async function loadImdbMovieListModule(params = {}) {
       }
     }
 
+    // 应用速率限制
+    await RequestRateLimiter.delay();
+
     const response = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
 
     if (!response || !response.results) {
-      console.error("❌ TMDB API响应无效");
+      OptimizedLogger.log('Invalid TMDB API response', 'error', 'IMDB');
+      OptimizedLogger.timeEnd(`loadImdbMovieListModule_${media_type}_${region}`);
       return [];
     }
+
+    OptimizedLogger.log(`API response: ${response.results.length} items`, 'debug', 'IMDB');
 
     const widgetItems = await Promise.all(response.results.map(async item => {
       // 为项目显式设置media_type，因为discover端点不返回此字段
@@ -2608,11 +2977,13 @@ async function loadImdbMovieListModule(params = {}) {
     const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
-    console.log(`✅ 影视榜单加载成功: ${results.length}项`);
+    OptimizedLogger.timeEnd(`loadImdbMovieListModule_${media_type}_${region}`);
+    OptimizedLogger.log(`IMDb list loaded: ${results.length} items`, 'info', 'IMDB');
     return results;
     
   } catch (error) {
-    console.error("影视榜单加载失败:", error);
+    OptimizedLogger.timeEnd(`loadImdbMovieListModule_${media_type}_${region}`);
+    OptimizedLogger.log(`IMDb list loading failed: ${error.message}`, 'error', 'IMDB');
     return [];
   }
 }
