@@ -203,6 +203,98 @@ var WidgetMetadata = {
         { name: "language", title: "语言", type: "language", value: "zh-CN" }
       ]
     },
+
+    // TMDB预处理背景 (复制自热门内容模块)
+    {
+      title: "TMDB 预处理背景",
+      description: "预处理数据背景图版本",
+      requiresWebView: false,
+      functionName: "loadTmdbTrending",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity",
+          enumOptions: [
+            { title: "热度排序", value: "popularity" },
+            { title: "评分排序", value: "rating" },
+            { title: "最新发布", value: "release_date" },
+            { title: "投票数", value: "vote_count" },
+            { title: "原始顺序", value: "original" }
+          ]
+        },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择媒体类型",
+          value: "all",
+          enumOptions: [
+            { title: "全部", value: "all" },
+            { title: "电影", value: "movie" },
+            { title: "剧集", value: "tv" }
+          ]
+        },
+        {
+          name: "with_origin_country",
+          title: "制作地区",
+          type: "enumeration",
+          description: "按制作地区筛选",
+          value: "",
+          enumOptions: [
+            { title: "全部地区", value: "" },
+            { title: "美国", value: "US" },
+            { title: "中国", value: "CN" },
+            { title: "日本", value: "JP" },
+            { title: "韩国", value: "KR" }
+          ]
+        },
+        {
+          name: "vote_average_gte",
+          title: "最低评分",
+          type: "enumeration",
+          description: "设置最低评分要求",
+          value: "0",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "6.0分以上", value: "6.0" },
+            { title: "7.0分以上", value: "7.0" },
+            { title: "8.0分以上", value: "8.0" }
+          ]
+        },
+        {
+          name: "content_type",
+          title: "内容来源",
+          type: "enumeration",
+          description: "选择要获取的内容来源",
+          value: "today",
+          enumOptions: [
+            { title: "今日热门", value: "today" },
+            { title: "本周热门", value: "week" },
+            { title: "热门电影", value: "popular" },
+            { title: "今日热门剧集", value: "popular_tv" },
+            { title: "高分内容", value: "top_rated" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" },
+        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        {
+          name: "use_preprocessed_data",
+          title: "数据来源类型",
+          type: "enumeration",
+          description: "选择数据来源类型",
+          value: "true",
+          enumOptions: [
+            { title: "预处理数据", value: "true" },
+            { title: "正常TMDB API", value: "api" }
+          ]
+        }
+      ]
+    },
+    
     // TMDB出品公司
     {
       title: "TMDB 出品公司",
