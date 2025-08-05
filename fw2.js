@@ -665,11 +665,69 @@ const CONFIG = {
   API_KEY: "your_tmdb_api_key_here", // 请替换为您的TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
-  MAX_ITEMS: 20 // 最大返回项目数
+  MAX_ITEMS: 20, // 最大返回项目数
+  
+  // 防风控配置
+  ENABLE_ANTI_DETECTION: true, // 启用防风控
+  REQUEST_INTERVAL: 150, // 请求间隔(毫秒)
+  MAX_RETRIES: 3, // 最大重试次数
+  RETRY_DELAY: 1000, // 重试延迟(毫秒)
+  RANDOM_DELAY_RANGE: [100, 500], // 随机延迟范围
+  CONCURRENT_LIMIT: 3 // 并发请求限制
 };
 
 // 缓存管理
 const cache = new Map();
+
+// 轻量级防风控系统
+const AntiDetection = {
+  lastRequestTime: 0,
+  activeRequests: 0,
+  
+  // User-Agent池 (精简版)
+  userAgents: [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  ],
+  
+  // 随机延迟
+  async randomDelay() {
+    if (!CONFIG.ENABLE_ANTI_DETECTION) return;
+    
+    const [min, max] = CONFIG.RANDOM_DELAY_RANGE;
+    const delay = Math.floor(Math.random() * (max - min + 1)) + min;
+    await new Promise(resolve => setTimeout(resolve, delay));
+  },
+  
+  // 请求频率控制
+  async rateLimit() {
+    if (!CONFIG.ENABLE_ANTI_DETECTION) return;
+    
+    const now = Date.now();
+    const timeSinceLastRequest = now - this.lastRequestTime;
+    
+    if (timeSinceLastRequest < CONFIG.REQUEST_INTERVAL) {
+      const waitTime = CONFIG.REQUEST_INTERVAL - timeSinceLastRequest;
+      await new Promise(resolve => setTimeout(resolve, waitTime));
+    }
+    
+    this.lastRequestTime = Date.now();
+  },
+  
+  // 并发控制
+  async waitForSlot() {
+    if (!CONFIG.ENABLE_ANTI_DETECTION) return;
+    
+    while (this.activeRequests >= CONFIG.CONCURRENT_LIMIT) {
+      await new Promise(resolve => setTimeout(resolve, 50));
+    }
+  },
+  
+  // 获取随机User-Agent
+  getRandomUserAgent() {
+    return this.userAgents[Math.floor(Math.random() * this.userAgents.length)];
+  }
+};
 
 // 工具函数
 function getCachedData(key) {
@@ -685,6 +743,97 @@ function setCachedData(key, data) {
     data: data,
     timestamp: Date.now()
   });
+}
+
+// 增强的TMDB API请求函数 (仅用于API调用，不影响预处理数据)
+async function enhancedTmdbGet(endpoint, options = {}) {
+  if (!CONFIG.ENABLE_ANTI_DETECTION) {
+    // 如果未启用防风控，使用原始请求
+    return await Widget.tmdb.get(endpoint, options);
+  }
+  
+  let lastError = null;
+  
+  for (let attempt = 1; attempt <= CONFIG.MAX_RETRIES; attempt++) {
+    try {
+      // 防风控措施
+      await AntiDetection.waitForSlot();
+      await AntiDetection.rateLimit();
+      await AntiDetection.randomDelay();
+      
+      AntiDetection.activeRequests++;
+      
+      const response = await Widget.tmdb.get(endpoint, {
+        ...options,
+        timeout: CONFIG.NETWORK_TIMEOUT
+      });
+      
+      AntiDetection.activeRequests--;
+      return response;
+      
+    } catch (error) {
+      AntiDetection.activeRequests--;
+      lastError = error;
+      
+      if (attempt < CONFIG.MAX_RETRIES) {
+        // 指数退避
+        const retryDelay = CONFIG.RETRY_DELAY * Math.pow(1.5, attempt - 1);
+        await new Promise(resolve => setTimeout(resolve, retryDelay));
+      }
+    }
+  }
+  
+  throw lastError;
+}
+
+// 增强的HTTP请求函数 (仅用于非预处理数据的HTTP请求)
+async function enhancedHttpGet(url, options = {}) {
+  if (!CONFIG.ENABLE_ANTI_DETECTION) {
+    // 如果未启用防风控，使用原始请求
+    return await Widget.http.get(url, options);
+  }
+  
+  let lastError = null;
+  
+  for (let attempt = 1; attempt <= CONFIG.MAX_RETRIES; attempt++) {
+    try {
+      // 防风控措施
+      await AntiDetection.waitForSlot();
+      await AntiDetection.rateLimit();
+      await AntiDetection.randomDelay();
+      
+      AntiDetection.activeRequests++;
+      
+      // 设置增强请求头
+      const enhancedOptions = {
+        ...options,
+        headers: {
+          'User-Agent': AntiDetection.getRandomUserAgent(),
+          'Accept': 'application/json, text/plain, */*',
+          'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+          ...options.headers
+        },
+        timeout: CONFIG.NETWORK_TIMEOUT
+      };
+      
+      const response = await Widget.http.get(url, enhancedOptions);
+      
+      AntiDetection.activeRequests--;
+      return response;
+      
+    } catch (error) {
+      AntiDetection.activeRequests--;
+      lastError = error;
+      
+      if (attempt < CONFIG.MAX_RETRIES) {
+        // 指数退避
+        const retryDelay = CONFIG.RETRY_DELAY * Math.pow(1.5, attempt - 1);
+        await new Promise(resolve => setTimeout(resolve, retryDelay));
+      }
+    }
+  }
+  
+  throw lastError;
 }
 
 function createWidgetItem(item) {
@@ -749,9 +898,9 @@ function getBeijingDate() {
     return `${beijingDate.getUTCFullYear()}-${String(beijingDate.getUTCMonth() + 1).padStart(2, '0')}-${String(beijingDate.getUTCDate()).padStart(2, '0')}`;
 }
 
-// TMDB数据获取函数
+// TMDB数据获取函数 (使用增强请求)
 async function fetchTmdbData(api, params) {
-    const data = await Widget.tmdb.get(api, { params: params });
+  const data = await enhancedTmdbGet(api, { params: params });
 
     return data.results
         .filter((item) => {
@@ -837,7 +986,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     }
 
     console.log(`🌐 使用TMDB API请求: ${endpoint}`);
-    const response = await Widget.tmdb.get(endpoint, { params: queryParams });
+    const response = await enhancedTmdbGet(endpoint, { params: queryParams });
     
     // 应用媒体类型过滤
     if (media_type !== "all") {
@@ -1037,8 +1186,8 @@ async function loadImdbAnimeModule(params = {}) {
 
     console.log(`🌐 请求URL: ${requestUrl}`);
 
-    // 发起网络请求
-    const response = await Widget.http.get(requestUrl, { 
+    // 发起网络请求 (使用增强请求)
+    const response = await enhancedHttpGet(requestUrl, { 
       timeout: 15000, 
       headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
     });
@@ -1169,7 +1318,7 @@ async function loadDoubanList(params = {}) {
 
     // 这里需要根据实际的豆瓣API或网页解析来实现
     // 由于原脚本中的豆瓣解析逻辑比较复杂，这里提供一个简化版本
-    const response = await Widget.http.get(url, {
+    const response = await enhancedHttpGet(url, {
       timeout: CONFIG.NETWORK_TIMEOUT,
       headers: {
         'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15'
@@ -1244,7 +1393,7 @@ async function loadTmdbByCompany(params = {}) {
     // 如果选择全部类型，同时获取电影和剧集
     if (type === "all") {
       const [movieRes, tvRes] = await Promise.all([
-        Widget.tmdb.get("/discover/movie", {
+        enhancedTmdbGet("/discover/movie", {
           params: {
             language,
             page,
@@ -1254,7 +1403,7 @@ async function loadTmdbByCompany(params = {}) {
             ...(with_genres && { with_genres })
           }
         }),
-        Widget.tmdb.get("/discover/tv", {
+        enhancedTmdbGet("/discover/tv", {
           params: {
             language,
             page,
@@ -1313,8 +1462,8 @@ async function loadTmdbByCompany(params = {}) {
         queryParams.with_genres = with_genres;
       }
       
-      // 发起API请求
-      const res = await Widget.tmdb.get(endpoint, {
+      // 发起API请求 (使用增强请求)
+      const res = await enhancedTmdbGet(endpoint, {
         params: queryParams
       });
       
@@ -1415,7 +1564,7 @@ async function loadTmdbMediaRanking(params = {}) {
       }
     }
     
-    const res = await Widget.tmdb.get(endpoint, {
+    const res = await enhancedTmdbGet(endpoint, {
       params: queryParams
     });
     
@@ -1546,7 +1695,7 @@ async function loadTmdbByTheme(params = {}) {
 
     console.log("📊 主题分类查询参数:", queryParams);
 
-    const res = await Widget.tmdb.get(endpoint, {
+    const res = await enhancedTmdbGet(endpoint, {
       params: queryParams
     });
 
@@ -1652,7 +1801,7 @@ async function loadThemeFallback(params = {}) {
 
     console.log("🔄 备用主题查询参数:", queryParams);
 
-    const res = await Widget.tmdb.get("/discover/movie", {
+    const res = await enhancedTmdbGet("/discover/movie", {
       params: queryParams
     });
 
@@ -2120,7 +2269,7 @@ async function loadImdbMovieListModule(params = {}) {
       }
     }
 
-    const response = await Widget.tmdb.get(endpoint, {
+    const response = await enhancedTmdbGet(endpoint, {
       params: queryParams
     });
 
