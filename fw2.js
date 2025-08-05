@@ -747,6 +747,11 @@ function setCachedData(key, data) {
 
 // 增强的TMDB API请求函数 (仅用于API调用，不影响预处理数据)
 async function enhancedTmdbGet(endpoint, options = {}) {
+  // 检查API密钥
+  if (CONFIG.API_KEY === "your_tmdb_api_key_here") {
+    console.warn("⚠️ TMDB API密钥未配置，API调用可能失败");
+  }
+  
   if (!CONFIG.ENABLE_ANTI_DETECTION) {
     // 如果未启用防风控，使用原始请求
     return await Widget.tmdb.get(endpoint, options);
@@ -1398,7 +1403,6 @@ async function loadTmdbByCompany(params = {}) {
             language,
             page,
             sort_by,
-            api_key: CONFIG.API_KEY,
             ...(with_companies && { with_companies }),
             ...(with_genres && { with_genres })
           }
@@ -1408,7 +1412,6 @@ async function loadTmdbByCompany(params = {}) {
             language,
             page,
             sort_by,
-            api_key: CONFIG.API_KEY,
             ...(with_companies && { with_companies }),
             ...(with_genres && { with_genres })
           }
@@ -1448,8 +1451,7 @@ async function loadTmdbByCompany(params = {}) {
       const queryParams = { 
         language, 
         page, 
-        sort_by,
-        api_key: CONFIG.API_KEY
+        sort_by
       };
       
       // 添加出品公司过滤器
@@ -1515,7 +1517,6 @@ async function loadTmdbMediaRanking(params = {}) {
       language, 
       page, 
       sort_by,
-      api_key: CONFIG.API_KEY,
       // 确保有足够投票数
       vote_count_gte: media_type === "movie" ? 100 : 50
     };
@@ -1635,7 +1636,6 @@ async function loadTmdbByTheme(params = {}) {
     const queryParams = {
       language: "zh-CN",
       page: page,
-      api_key: CONFIG.API_KEY,
       include_adult: false,
       vote_count_gte: media_type === "movie" ? 50 : 20
     };
@@ -1759,7 +1759,6 @@ async function loadThemeFallback(params = {}) {
     const queryParams = {
       language: "zh-CN",
       page: page,
-      api_key: CONFIG.API_KEY,
       sort_by: "popularity.desc",
       vote_count_gte: 10,
       include_adult: false
@@ -2236,7 +2235,6 @@ async function loadImdbMovieListModule(params = {}) {
       language: "zh-CN",
       page: parseInt(page),
       sort_by: sort_by,
-      api_key: CONFIG.API_KEY,
       vote_count_gte: 50
     };
 
