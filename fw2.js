@@ -665,69 +665,11 @@ const CONFIG = {
   API_KEY: "your_tmdb_api_key_here", // 请替换为您的TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
-  MAX_ITEMS: 20, // 最大返回项目数
-  
-  // 防风控配置
-  ENABLE_ANTI_DETECTION: true, // 启用防风控
-  REQUEST_INTERVAL: 150, // 请求间隔(毫秒)
-  MAX_RETRIES: 3, // 最大重试次数
-  RETRY_DELAY: 1000, // 重试延迟(毫秒)
-  RANDOM_DELAY_RANGE: [100, 500], // 随机延迟范围
-  CONCURRENT_LIMIT: 3 // 并发请求限制
+  MAX_ITEMS: 20 // 最大返回项目数
 };
 
 // 缓存管理
 const cache = new Map();
-
-// 轻量级防风控系统
-const AntiDetection = {
-  lastRequestTime: 0,
-  activeRequests: 0,
-  
-  // User-Agent池 (精简版)
-  userAgents: [
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-  ],
-  
-  // 随机延迟
-  async randomDelay() {
-    if (!CONFIG.ENABLE_ANTI_DETECTION) return;
-    
-    const [min, max] = CONFIG.RANDOM_DELAY_RANGE;
-    const delay = Math.floor(Math.random() * (max - min + 1)) + min;
-    await new Promise(resolve => setTimeout(resolve, delay));
-  },
-  
-  // 请求频率控制
-  async rateLimit() {
-    if (!CONFIG.ENABLE_ANTI_DETECTION) return;
-    
-    const now = Date.now();
-    const timeSinceLastRequest = now - this.lastRequestTime;
-    
-    if (timeSinceLastRequest < CONFIG.REQUEST_INTERVAL) {
-      const waitTime = CONFIG.REQUEST_INTERVAL - timeSinceLastRequest;
-      await new Promise(resolve => setTimeout(resolve, waitTime));
-    }
-    
-    this.lastRequestTime = Date.now();
-  },
-  
-  // 并发控制
-  async waitForSlot() {
-    if (!CONFIG.ENABLE_ANTI_DETECTION) return;
-    
-    while (this.activeRequests >= CONFIG.CONCURRENT_LIMIT) {
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-  },
-  
-  // 获取随机User-Agent
-  getRandomUserAgent() {
-    return this.userAgents[Math.floor(Math.random() * this.userAgents.length)];
-  }
-};
 
 // 工具函数
 function getCachedData(key) {
@@ -743,126 +685,6 @@ function setCachedData(key, data) {
     data: data,
     timestamp: Date.now()
   });
-}
-
-// 增强的TMDB API请求函数 (仅用于API调用，不影响预处理数据)
-async function enhancedTmdbGet(endpoint, options = {}) {
-  // 检查API密钥
-  if (CONFIG.API_KEY === "your_tmdb_api_key_here") {
-    console.warn("⚠️ TMDB API密钥未配置，API调用可能失败");
-  }
-  
-  // 检查Widget.tmdb是否可用
-  if (!Widget || !Widget.tmdb || typeof Widget.tmdb.get !== 'function') {
-    console.error("❌ Widget.tmdb 不可用，请检查环境");
-    throw new Error("Widget.tmdb not available");
-  }
-  
-  console.log(`🔗 TMDB API调用: ${endpoint}`);
-  
-  if (!CONFIG.ENABLE_ANTI_DETECTION) {
-    // 如果未启用防风控，使用原始请求
-    return await Widget.tmdb.get(endpoint, options);
-  }
-  
-  let lastError = null;
-  
-  for (let attempt = 1; attempt <= CONFIG.MAX_RETRIES; attempt++) {
-    try {
-      // 防风控措施
-      await AntiDetection.waitForSlot();
-      await AntiDetection.rateLimit();
-      await AntiDetection.randomDelay();
-      
-      AntiDetection.activeRequests++;
-      
-      const response = await Widget.tmdb.get(endpoint, {
-        ...options,
-        timeout: CONFIG.NETWORK_TIMEOUT
-      });
-      
-      AntiDetection.activeRequests--;
-      return response;
-      
-    } catch (error) {
-      AntiDetection.activeRequests--;
-      lastError = error;
-      
-      if (attempt < CONFIG.MAX_RETRIES) {
-        // 指数退避
-        const retryDelay = CONFIG.RETRY_DELAY * Math.pow(1.5, attempt - 1);
-        await new Promise(resolve => setTimeout(resolve, retryDelay));
-      }
-    }
-  }
-  
-  throw lastError;
-}
-
-// 增强的HTTP请求函数 (仅用于非预处理数据的HTTP请求)
-async function enhancedHttpGet(url, options = {}) {
-  if (!CONFIG.ENABLE_ANTI_DETECTION) {
-    // 如果未启用防风控，使用原始请求
-    return await Widget.http.get(url, options);
-  }
-  
-  let lastError = null;
-  
-  for (let attempt = 1; attempt <= CONFIG.MAX_RETRIES; attempt++) {
-    try {
-      // 防风控措施
-      await AntiDetection.waitForSlot();
-      await AntiDetection.rateLimit();
-      await AntiDetection.randomDelay();
-      
-      AntiDetection.activeRequests++;
-      
-      // 设置增强请求头
-      const enhancedOptions = {
-        ...options,
-        headers: {
-          'User-Agent': AntiDetection.getRandomUserAgent(),
-          'Accept': 'application/json, text/plain, */*',
-          'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-          ...options.headers
-        },
-        timeout: CONFIG.NETWORK_TIMEOUT
-      };
-      
-      const response = await Widget.http.get(url, enhancedOptions);
-      
-      AntiDetection.activeRequests--;
-      return response;
-      
-    } catch (error) {
-      AntiDetection.activeRequests--;
-      lastError = error;
-      
-      if (attempt < CONFIG.MAX_RETRIES) {
-        // 指数退避
-        const retryDelay = CONFIG.RETRY_DELAY * Math.pow(1.5, attempt - 1);
-        await new Promise(resolve => setTimeout(resolve, retryDelay));
-      }
-    }
-  }
-  
-  throw lastError;
-}
-
-// 测试TMDB API连接
-async function testTmdbConnection() {
-  console.log("🧪 测试TMDB API连接...");
-  try {
-    const testResponse = await Widget.tmdb.get("/genre/movie/list", {
-      params: { language: "zh-CN" }
-    });
-    console.log("✅ TMDB API连接正常");
-    console.log("📊 测试响应:", testResponse);
-    return true;
-  } catch (error) {
-    console.error("❌ TMDB API连接失败:", error);
-    return false;
-  }
 }
 
 function createWidgetItem(item) {
@@ -927,9 +749,9 @@ function getBeijingDate() {
     return `${beijingDate.getUTCFullYear()}-${String(beijingDate.getUTCMonth() + 1).padStart(2, '0')}-${String(beijingDate.getUTCDate()).padStart(2, '0')}`;
 }
 
-// TMDB数据获取函数 (使用增强请求)
+// TMDB数据获取函数
 async function fetchTmdbData(api, params) {
-  const data = await enhancedTmdbGet(api, { params: params });
+    const data = await Widget.tmdb.get(api, { params: params });
 
     return data.results
         .filter((item) => {
@@ -1015,7 +837,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     }
 
     console.log(`🌐 使用TMDB API请求: ${endpoint}`);
-    const response = await enhancedTmdbGet(endpoint, { params: queryParams });
+    const response = await Widget.tmdb.get(endpoint, { params: queryParams });
     
     // 应用媒体类型过滤
     if (media_type !== "all") {
@@ -1215,8 +1037,8 @@ async function loadImdbAnimeModule(params = {}) {
 
     console.log(`🌐 请求URL: ${requestUrl}`);
 
-    // 发起网络请求 (使用增强请求)
-    const response = await enhancedHttpGet(requestUrl, { 
+    // 发起网络请求
+    const response = await Widget.http.get(requestUrl, { 
       timeout: 15000, 
       headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
     });
@@ -1347,7 +1169,7 @@ async function loadDoubanList(params = {}) {
 
     // 这里需要根据实际的豆瓣API或网页解析来实现
     // 由于原脚本中的豆瓣解析逻辑比较复杂，这里提供一个简化版本
-    const response = await enhancedHttpGet(url, {
+    const response = await Widget.http.get(url, {
       timeout: CONFIG.NETWORK_TIMEOUT,
       headers: {
         'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15'
@@ -1412,45 +1234,32 @@ async function tmdbDiscoverByNetwork(params = {}) {
 async function loadTmdbByCompany(params = {}) {
   const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
   
-  console.log("🏢 loadTmdbByCompany 开始执行");
-  console.log("📊 参数:", { language, page, with_companies, type, with_genres, sort_by });
-  
-  // 首次测试API连接
-  const isConnected = await testTmdbConnection();
-  if (!isConnected) {
-    console.error("❌ TMDB API不可用，返回空结果");
-    return [];
-  }
-  
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log("🎯 使用缓存数据");
-      return cached;
-    }
-    
-    console.log("🌐 开始API请求...");
+    if (cached) return cached;
 
     let results = [];
     
     // 如果选择全部类型，同时获取电影和剧集
     if (type === "all") {
       const [movieRes, tvRes] = await Promise.all([
-        enhancedTmdbGet("/discover/movie", {
+        Widget.tmdb.get("/discover/movie", {
           params: {
             language,
             page,
             sort_by,
+            api_key: CONFIG.API_KEY,
             ...(with_companies && { with_companies }),
             ...(with_genres && { with_genres })
           }
         }),
-        enhancedTmdbGet("/discover/tv", {
+        Widget.tmdb.get("/discover/tv", {
           params: {
             language,
             page,
             sort_by,
+            api_key: CONFIG.API_KEY,
             ...(with_companies && { with_companies }),
             ...(with_genres && { with_genres })
           }
@@ -1490,7 +1299,8 @@ async function loadTmdbByCompany(params = {}) {
       const queryParams = { 
         language, 
         page, 
-        sort_by
+        sort_by,
+        api_key: CONFIG.API_KEY
       };
       
       // 添加出品公司过滤器
@@ -1503,19 +1313,10 @@ async function loadTmdbByCompany(params = {}) {
         queryParams.with_genres = with_genres;
       }
       
-      // 发起API请求 (使用增强请求)
-      console.log(`📡 API请求: ${endpoint}`);
-      console.log("📊 查询参数:", queryParams);
-      
-      const res = await enhancedTmdbGet(endpoint, {
+      // 发起API请求
+      const res = await Widget.tmdb.get(endpoint, {
         params: queryParams
       });
-      
-      console.log(`📥 API响应: ${res.results?.length || 0} 项`);
-      if (!res.results || res.results.length === 0) {
-        console.warn("⚠️ API返回空结果");
-        console.log("完整响应:", res);
-      }
       
       const widgetItems = await Promise.all(res.results.map(async item => {
         // 为项目显式设置media_type，因为discover端点不返回此字段
@@ -1530,13 +1331,11 @@ async function loadTmdbByCompany(params = {}) {
         .slice(0, CONFIG.MAX_ITEMS);
     }
     
-    console.log(`✅ loadTmdbByCompany 成功: ${results.length} 项`);
     setCachedData(cacheKey, results);
     return results;
     
   } catch (error) {
-    console.error("❌ loadTmdbByCompany 失败:", error);
-    console.error("错误详情:", error.message);
+    console.error("TMDB出品公司加载失败:", error);
     return [];
   }
 }
@@ -1554,18 +1353,10 @@ async function loadTmdbMediaRanking(params = {}) {
     year = ""
   } = params;
   
-  console.log("🎬 loadTmdbMediaRanking 开始执行");
-  console.log("📊 参数:", { language, page, media_type, with_origin_country, with_genres, sort_by, vote_average_gte, year });
-  
   try {
     const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log("🎯 使用缓存数据");
-      return cached;
-    }
-    
-    console.log("🌐 开始API请求...");
+    if (cached) return cached;
 
     // 根据媒体类型选择API端点
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
@@ -1575,6 +1366,7 @@ async function loadTmdbMediaRanking(params = {}) {
       language, 
       page, 
       sort_by,
+      api_key: CONFIG.API_KEY,
       // 确保有足够投票数
       vote_count_gte: media_type === "movie" ? 100 : 50
     };
@@ -1623,7 +1415,7 @@ async function loadTmdbMediaRanking(params = {}) {
       }
     }
     
-    const res = await enhancedTmdbGet(endpoint, {
+    const res = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
     
@@ -1694,6 +1486,7 @@ async function loadTmdbByTheme(params = {}) {
     const queryParams = {
       language: "zh-CN",
       page: page,
+      api_key: CONFIG.API_KEY,
       include_adult: false,
       vote_count_gte: media_type === "movie" ? 50 : 20
     };
@@ -1753,7 +1546,7 @@ async function loadTmdbByTheme(params = {}) {
 
     console.log("📊 主题分类查询参数:", queryParams);
 
-    const res = await enhancedTmdbGet(endpoint, {
+    const res = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
 
@@ -1817,6 +1610,7 @@ async function loadThemeFallback(params = {}) {
     const queryParams = {
       language: "zh-CN",
       page: page,
+      api_key: CONFIG.API_KEY,
       sort_by: "popularity.desc",
       vote_count_gte: 10,
       include_adult: false
@@ -1858,7 +1652,7 @@ async function loadThemeFallback(params = {}) {
 
     console.log("🔄 备用主题查询参数:", queryParams);
 
-    const res = await enhancedTmdbGet("/discover/movie", {
+    const res = await Widget.tmdb.get("/discover/movie", {
       params: queryParams
     });
 
@@ -2293,6 +2087,7 @@ async function loadImdbMovieListModule(params = {}) {
       language: "zh-CN",
       page: parseInt(page),
       sort_by: sort_by,
+      api_key: CONFIG.API_KEY,
       vote_count_gte: 50
     };
 
@@ -2325,7 +2120,7 @@ async function loadImdbMovieListModule(params = {}) {
       }
     }
 
-    const response = await enhancedTmdbGet(endpoint, {
+    const response = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
 
