@@ -752,6 +752,14 @@ async function enhancedTmdbGet(endpoint, options = {}) {
     console.warn("⚠️ TMDB API密钥未配置，API调用可能失败");
   }
   
+  // 检查Widget.tmdb是否可用
+  if (!Widget || !Widget.tmdb || typeof Widget.tmdb.get !== 'function') {
+    console.error("❌ Widget.tmdb 不可用，请检查环境");
+    throw new Error("Widget.tmdb not available");
+  }
+  
+  console.log(`🔗 TMDB API调用: ${endpoint}`);
+  
   if (!CONFIG.ENABLE_ANTI_DETECTION) {
     // 如果未启用防风控，使用原始请求
     return await Widget.tmdb.get(endpoint, options);
@@ -839,6 +847,22 @@ async function enhancedHttpGet(url, options = {}) {
   }
   
   throw lastError;
+}
+
+// 测试TMDB API连接
+async function testTmdbConnection() {
+  console.log("🧪 测试TMDB API连接...");
+  try {
+    const testResponse = await Widget.tmdb.get("/genre/movie/list", {
+      params: { language: "zh-CN" }
+    });
+    console.log("✅ TMDB API连接正常");
+    console.log("📊 测试响应:", testResponse);
+    return true;
+  } catch (error) {
+    console.error("❌ TMDB API连接失败:", error);
+    return false;
+  }
 }
 
 function createWidgetItem(item) {
@@ -1388,10 +1412,25 @@ async function tmdbDiscoverByNetwork(params = {}) {
 async function loadTmdbByCompany(params = {}) {
   const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
   
+  console.log("🏢 loadTmdbByCompany 开始执行");
+  console.log("📊 参数:", { language, page, with_companies, type, with_genres, sort_by });
+  
+  // 首次测试API连接
+  const isConnected = await testTmdbConnection();
+  if (!isConnected) {
+    console.error("❌ TMDB API不可用，返回空结果");
+    return [];
+  }
+  
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      console.log("🎯 使用缓存数据");
+      return cached;
+    }
+    
+    console.log("🌐 开始API请求...");
 
     let results = [];
     
@@ -1465,9 +1504,18 @@ async function loadTmdbByCompany(params = {}) {
       }
       
       // 发起API请求 (使用增强请求)
+      console.log(`📡 API请求: ${endpoint}`);
+      console.log("📊 查询参数:", queryParams);
+      
       const res = await enhancedTmdbGet(endpoint, {
         params: queryParams
       });
+      
+      console.log(`📥 API响应: ${res.results?.length || 0} 项`);
+      if (!res.results || res.results.length === 0) {
+        console.warn("⚠️ API返回空结果");
+        console.log("完整响应:", res);
+      }
       
       const widgetItems = await Promise.all(res.results.map(async item => {
         // 为项目显式设置media_type，因为discover端点不返回此字段
@@ -1482,11 +1530,13 @@ async function loadTmdbByCompany(params = {}) {
         .slice(0, CONFIG.MAX_ITEMS);
     }
     
+    console.log(`✅ loadTmdbByCompany 成功: ${results.length} 项`);
     setCachedData(cacheKey, results);
     return results;
     
   } catch (error) {
-    console.error("TMDB出品公司加载失败:", error);
+    console.error("❌ loadTmdbByCompany 失败:", error);
+    console.error("错误详情:", error.message);
     return [];
   }
 }
@@ -1504,10 +1554,18 @@ async function loadTmdbMediaRanking(params = {}) {
     year = ""
   } = params;
   
+  console.log("🎬 loadTmdbMediaRanking 开始执行");
+  console.log("📊 参数:", { language, page, media_type, with_origin_country, with_genres, sort_by, vote_average_gte, year });
+  
   try {
     const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      console.log("🎯 使用缓存数据");
+      return cached;
+    }
+    
+    console.log("🌐 开始API请求...");
 
     // 根据媒体类型选择API端点
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
