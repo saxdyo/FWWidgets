@@ -214,9 +214,9 @@ var WidgetMetadata = {
       params: [
         {
           name: "content_type",
-          title: "排序方式",
+          title: "内容类型",
           type: "enumeration",
-          description: "选择排序方式",
+          description: "选择内容类型",
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
@@ -276,6 +276,20 @@ var WidgetMetadata = {
             { title: "热门电影", value: "popular" },
             { title: "今日热门剧集", value: "popular_tv" },
             { title: "高分内容", value: "top_rated" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity",
+          enumOptions: [
+            { title: "热度排序", value: "popularity" },
+            { title: "评分排序", value: "rating" },
+            { title: "最新发布", value: "release_date" },
+            { title: "投票数", value: "vote_count" },
+            { title: "原始顺序", value: "original" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
