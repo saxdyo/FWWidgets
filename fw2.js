@@ -1085,8 +1085,8 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从标准格式的TMDB数据源加载数据 (使用CDN优化)
-    const response = await CDNManager.smartRequest("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
+    // 从标准格式的TMDB数据源加载数据
+    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
     let results = [];
