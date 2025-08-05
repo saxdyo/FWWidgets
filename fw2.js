@@ -1203,9 +1203,15 @@ async function loadImdbAnimeModule(params = {}) {
   const { region = "all", sort_by = "popularity.desc", page = "1" } = params;
   
   try {
+    console.log(`🎬 [DEBUG] 开始加载IMDb动画模块`);
+    console.log(`🎬 [DEBUG] 参数: region=${region}, sort_by=${sort_by}, page=${page}`);
+    
     const cacheKey = `imdb_anime_${region}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      console.log(`🎬 [DEBUG] 使用缓存数据: ${cached.length}项`);
+      return cached;
+    }
 
     console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort_by}, 页码: ${page})`);
 
@@ -1217,6 +1223,7 @@ async function loadImdbAnimeModule(params = {}) {
     
     const baseUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DATA_PATH}`;
     const cleanRegion = region.replace(':', '_');
+    console.log(`🎬 [DEBUG] 清理后的地区: ${cleanRegion}`);
     
     // 映射排序方式到数据文件键
     const sortMapping = {
@@ -1237,24 +1244,50 @@ async function loadImdbAnimeModule(params = {}) {
     };
     
     const sortKey = sortMapping[sort_by] || 'hs';
+    console.log(`🎬 [DEBUG] 排序键: ${sort_by} -> ${sortKey}`);
+    
     const fullPath = `anime/${cleanRegion}/by_${sortKey}/page_${page}.json`;
     const requestUrl = `${baseUrl}/${fullPath}?cache_buster=${Math.floor(Date.now() / (1000 * 60 * 30))}`;
 
     console.log(`🌐 请求URL: ${requestUrl}`);
 
+    // 检查Widget.http是否可用
+    if (!Widget || !Widget.http || typeof Widget.http.get !== 'function') {
+      console.error(`❌ [DEBUG] Widget.http 不可用`);
+      console.error(`❌ [DEBUG] Widget:`, Widget);
+      return [];
+    }
+
+    console.log(`🎬 [DEBUG] 发起网络请求...`);
     // 发起网络请求
     const response = await Widget.http.get(requestUrl, { 
       timeout: 15000, 
       headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
     });
 
+    console.log(`🎬 [DEBUG] 请求完成，状态码: ${response ? response.statusCode : 'N/A'}`);
+    console.log(`🎬 [DEBUG] 响应数据类型: ${response && response.data ? typeof response.data : 'N/A'}`);
+
     if (!response || response.statusCode !== 200 || !response.data) {
       console.error(`❌ IMDb动画数据加载失败: Status ${response ? response.statusCode : 'N/A'}`);
+      if (response && response.data) {
+        console.error(`❌ [DEBUG] 响应数据:`, response.data);
+      }
       return [];
     }
 
     // 处理数据
+    console.log(`🎬 [DEBUG] 开始处理响应数据`);
     const rawData = Array.isArray(response.data) ? response.data : [];
+    console.log(`🎬 [DEBUG] 原始数据类型: ${Array.isArray(response.data) ? '数组' : typeof response.data}`);
+    console.log(`🎬 [DEBUG] 原始数据长度: ${rawData.length}`);
+    
+    if (rawData.length === 0) {
+      console.warn(`⚠️ [DEBUG] 原始数据为空`);
+      return [];
+    }
+    
+    console.log(`🎬 [DEBUG] 第一个项目示例:`, rawData[0]);
     
     // 动态排序函数
     function sortData(data, sortBy) {
@@ -1308,8 +1341,12 @@ async function loadImdbAnimeModule(params = {}) {
     
     // 应用排序
     const sortedData = sortData(rawData, sort_by);
+    console.log(`🎬 [DEBUG] 排序后数据长度: ${sortedData.length}`);
     
-    const widgetItems = sortedData.map(item => {
+    const widgetItems = sortedData.map((item, index) => {
+      if (index < 3) {
+        console.log(`🎬 [DEBUG] 处理第${index + 1}个项目:`, item);
+      }
       if (!item || typeof item.id === 'undefined' || item.id === null) return null;
       
       // 构建图片URL
@@ -1349,12 +1386,20 @@ async function loadImdbAnimeModule(params = {}) {
       };
     }).filter(Boolean);
 
+    console.log(`🎬 [DEBUG] 过滤后的items数量: ${widgetItems.length}`);
+    if (widgetItems.length > 0) {
+      console.log(`🎬 [DEBUG] 第一个最终item:`, widgetItems[0]);
+    }
+
     setCachedData(cacheKey, widgetItems);
     console.log(`✅ IMDb动画模块加载成功: ${widgetItems.length}项`);
     return widgetItems;
     
   } catch (error) {
-    console.error("IMDb动画模块加载失败:", error);
+    console.error("❌ [DEBUG] IMDb动画模块加载失败:", error);
+    console.error("❌ [DEBUG] 错误堆栈:", error.stack);
+    console.error("❌ [DEBUG] 错误类型:", error.name);
+    console.error("❌ [DEBUG] 错误消息:", error.message);
     return [];
   }
 }
