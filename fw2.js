@@ -1,4 +1,4 @@
-WidgetMetadata = {
+const WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
   title: "TMDB影视榜单 V2",
   description: "优化的TMDB影视动画榜单",
