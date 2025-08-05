@@ -663,7 +663,7 @@ WidgetMetadata = {
 // 配置常量
 const CONFIG = {
   API_KEY: "your_tmdb_api_key_here", // 请替换为您的TMDB API密钥
-  CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
+  CACHE_DURATION: 1 * 60 * 1000, // 1分钟缓存 (临时调试)
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20 // 最大返回项目数
 };
