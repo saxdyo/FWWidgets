@@ -213,7 +213,7 @@ var WidgetMetadata = {
       cacheDuration: 3600,
       params: [
         {
-          name: "sort_by",
+          name: "content_type",
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
@@ -265,10 +265,10 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "content_type",
-          title: "内容来源",
+          name: "backup_content_type",
+          title: "备用内容来源",
           type: "enumeration",
-          description: "选择要获取的内容来源",
+          description: "选择要获取的备用内容来源",
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
