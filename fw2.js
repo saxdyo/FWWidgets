@@ -890,6 +890,38 @@ function createWidgetItem(item) {
   };
 }
 
+// 为热门内容模块创建不使用CDN优化的widgetItem (保持原始逻辑)
+function createWidgetItemWithoutCDN(item) {
+  // 根据媒体类型选择正确的日期字段
+  let releaseDate = "";
+  if (item.media_type === "tv" || item.first_air_date) {
+    releaseDate = item.first_air_date || "";
+  } else {
+    releaseDate = item.release_date || "";
+  }
+
+  return {
+    id: item.id.toString(),
+    type: "tmdb",
+    title: item.title || item.name || "未知标题",
+    genreTitle: item.genreTitle || "",
+    rating: item.vote_average || 0,
+    description: item.overview || "",
+    releaseDate: releaseDate,
+    posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+    coverUrl: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+    backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w1280${item.backdrop_path}` : "",
+    mediaType: item.media_type || "movie",
+    popularity: item.popularity || 0,
+    voteCount: item.vote_count || 0,
+    link: null,
+    duration: 0,
+    durationText: "",
+    episode: 0,
+    childItems: []
+  };
+}
+
 // TMDB类型映射
 const TMDB_GENRES = {
   movie: {
@@ -1021,7 +1053,8 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     }
 
     let results = await Promise.all(response.results.map(async (item) => {
-      const widgetItem = createWidgetItem(item);
+      // 为热门内容模块创建不使用CDN优化的widgetItem
+      const widgetItem = createWidgetItemWithoutCDN(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
       
       // 使用正常背景图
