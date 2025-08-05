@@ -1242,8 +1242,8 @@ async function loadImdbAnimeModule(params = {}) {
 
     console.log(`🌐 请求URL: ${requestUrl}`);
 
-    // 发起网络请求 (使用CDN优化)
-    const response = await CDNManager.smartRequest(requestUrl, { 
+    // 发起网络请求
+    const response = await Widget.http.get(requestUrl, { 
       timeout: 15000, 
       headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
     });
