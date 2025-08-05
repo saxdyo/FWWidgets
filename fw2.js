@@ -663,7 +663,7 @@ WidgetMetadata = {
 // 配置常量
 const CONFIG = {
   API_KEY: "your_tmdb_api_key_here", // 请替换为您的TMDB API密钥
-  CACHE_DURATION: 1 * 60 * 1000, // 1分钟缓存 (临时调试)
+  CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20 // 最大返回项目数
 };
@@ -786,17 +786,12 @@ async function fetchTmdbData(api, params) {
 async function loadTmdbTrending(params = {}) {
   const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
   
-  console.log(`🔍 loadTmdbTrending 调用参数:`, params);
-  console.log(`📊 数据源类型: ${use_preprocessed_data}`);
-  
   // 根据数据来源类型选择加载方式
   if (use_preprocessed_data === "api") {
-    console.log(`🌐 使用API模式加载数据`);
     return loadTmdbTrendingWithAPI(params);
   }
   
   // 默认使用预处理数据
-  console.log(`💾 使用预处理数据模式加载`);
   return loadTmdbTrendingFromPreprocessed(params);
 }
 
@@ -913,18 +908,10 @@ async function loadTmdbTrendingWithAPI(params = {}) {
 async function loadTmdbTrendingFromPreprocessed(params = {}) {
   const { content_type = "today", media_type = "all" } = params;
   
-  console.log(`📦 loadTmdbTrendingFromPreprocessed 开始加载`);
-  console.log(`📊 参数: content_type=${content_type}, media_type=${media_type}`);
-  
   try {
     const cacheKey = `preprocessed_trending_${content_type}_${media_type}`;
     const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log(`🎯 使用缓存数据: ${cached.length} 项`);
-      return cached;
-    }
-    
-    console.log(`🌐 从远程加载预处理数据...`);
+    if (cached) return cached;
 
     // 从标准格式的TMDB数据源加载数据
     const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
@@ -978,12 +965,11 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       childItems: []
     }));
     
-    console.log(`✅ 预处理数据加载成功: ${widgetItems.length} 项`);
     setCachedData(cacheKey, widgetItems);
     return widgetItems;
 
   } catch (error) {
-    console.error("❌ 预处理数据加载失败:", error);
+    console.error("预处理数据加载失败:", error);
     return [];
   }
 }
