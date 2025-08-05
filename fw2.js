@@ -1215,7 +1215,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
 
 // 从预处理数据加载TMDB热门内容（标准数组格式）
 async function loadTmdbTrendingFromPreprocessed(params = {}) {
-  const { content_type = "today", media_type = "all" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity" } = params;
   
   try {
     const cacheKey = `preprocessed_trending_${content_type}_${media_type}`;
@@ -1253,7 +1253,7 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     }
     
     // 转换为标准WidgetItem格式
-    const widgetItems = results.slice(0, CONFIG.MAX_ITEMS).map(item => ({
+    let widgetItems = results.map(item => ({
       id: String(item.id),
       type: "tmdb",
       title: item.title || "未知标题",
@@ -1273,6 +1273,35 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       episode: 0,
       childItems: []
     }));
+
+    // 应用评分过滤
+    if (vote_average_gte !== "0") {
+      const minRating = parseFloat(vote_average_gte);
+      widgetItems = widgetItems.filter(item => item.rating >= minRating);
+    }
+
+    // 应用排序
+    if (sort_by !== "original") {
+      widgetItems.sort((a, b) => {
+        switch (sort_by) {
+          case "popularity":
+            return (b.popularity || 0) - (a.popularity || 0);
+          case "rating":
+            return (b.rating || 0) - (a.rating || 0);
+          case "release_date":
+            const dateA = new Date(a.releaseDate || "1900-01-01");
+            const dateB = new Date(b.releaseDate || "1900-01-01");
+            return dateB - dateA;
+          case "vote_count":
+            return (b.voteCount || 0) - (a.voteCount || 0);
+          default:
+            return 0;
+        }
+      });
+    }
+
+    // 限制结果数量
+    widgetItems = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, widgetItems);
     return widgetItems;
