@@ -26,7 +26,6 @@ var WidgetMetadata = {
             { title: "今日热门", value: "today" },
             { title: "本周热门", value: "week" },
             { title: "热门电影", value: "popular" },
-            { title: "今日热门剧集", value: "popular_tv" },
             { title: "高分内容", value: "top_rated" }
           ]
         },
@@ -274,7 +273,6 @@ var WidgetMetadata = {
             { title: "今日热门", value: "today" },
             { title: "本周热门", value: "week" },
             { title: "热门电影", value: "popular" },
-            { title: "今日热门剧集", value: "popular_tv" },
             { title: "高分内容", value: "top_rated" }
           ]
         },
@@ -1128,9 +1126,6 @@ async function loadTmdbTrendingWithAPI(params = {}) {
       case "popular":
         endpoint = media_type === "tv" ? "/tv/popular" : "/movie/popular";
         break;
-      case "popular_tv":
-        endpoint = "/tv/popular";
-        break;
       case "top_rated":
         endpoint = media_type === "tv" ? "/tv/top_rated" : "/movie/top_rated";
         break;
@@ -1242,10 +1237,6 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       case "popular":
         results = data.popular_movies || [];
         break;
-      case "popular_tv":
-        // 从今日热门中过滤出TV剧集
-        results = (data.today_global || []).filter(item => item.type === 'tv');
-        break;
       default:
         results = data.today_global || [];
     }
@@ -1328,9 +1319,7 @@ async function tmdbPopularMovies(params = {}) {
   return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "popular" });
 }
 
-async function tmdbPopularTVShows(params = {}) {
-  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "popular_tv" });
-}
+
 
 // 新增的模块辅助函数（已在上方定义）
 
