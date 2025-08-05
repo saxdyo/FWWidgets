@@ -1092,15 +1092,27 @@ async function fetchTmdbData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  
+  // 让内容类型始终跟随排序方式变化
+  let finalContentType = content_type;
+  if (sort_by && ["today", "week", "popular", "top_rated"].includes(sort_by)) {
+    finalContentType = sort_by;
+  }
+  
+  // 创建新的参数对象，确保内容类型与排序方式同步
+  const updatedParams = {
+    ...params,
+    content_type: finalContentType
+  };
   
   // 根据数据来源类型选择加载方式
   if (use_preprocessed_data === "api") {
-    return loadTmdbTrendingWithAPI(params);
+    return loadTmdbTrendingWithAPI(updatedParams);
   }
   
   // 默认使用预处理数据
-  return loadTmdbTrendingFromPreprocessed(params);
+  return loadTmdbTrendingFromPreprocessed(updatedParams);
 }
 
 // 使用正常TMDB API加载热门内容
