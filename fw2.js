@@ -665,11 +665,183 @@ const CONFIG = {
   API_KEY: "your_tmdb_api_key_here", // 请替换为您的TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
-  MAX_ITEMS: 20 // 最大返回项目数
+  MAX_ITEMS: 20, // 最大返回项目数
+  
+  // CDN优化配置
+  ENABLE_CDN_OPTIMIZATION: true, // 启用CDN优化
+  CDN_PROVIDERS: [ // CDN提供商列表，按优先级排序
+    "jsdelivr",
+    "githubraw", 
+    "gitcdn"
+  ],
+  CDN_RETRY_COUNT: 2, // CDN重试次数
+  CDN_TIMEOUT: 8000, // CDN超时时间
+  
+  // 图片CDN优化
+  IMAGE_CDN_ENABLED: true, // 启用图片CDN
+  IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
+  IMAGE_CDN_FALLBACK: true // 图片CDN失败时回退到原始URL
 };
 
 // 缓存管理
 const cache = new Map();
+
+// CDN优化系统
+const CDNManager = {
+  // CDN服务商配置
+  providers: {
+    jsdelivr: {
+      name: "JSDelivr",
+      baseUrl: "https://cdn.jsdelivr.net/gh",
+      pattern: (owner, repo, branch, path) => `${this.baseUrl}/${owner}/${repo}@${branch}/${path}`,
+      priority: 1
+    },
+    githubraw: {
+      name: "GitHub Raw",
+      baseUrl: "https://raw.githubusercontent.com",
+      pattern: (owner, repo, branch, path) => `${this.baseUrl}/${owner}/${repo}/${branch}/${path}`,
+      priority: 2
+    },
+    gitcdn: {
+      name: "GitCDN",
+      baseUrl: "https://gitcdn.xyz/cdn",
+      pattern: (owner, repo, branch, path) => `${this.baseUrl}/${owner}/${repo}/${branch}/${path}`,
+      priority: 3
+    }
+  },
+  
+  // 生成CDN URL
+  generateCDNUrls(githubUrl) {
+    if (!CONFIG.ENABLE_CDN_OPTIMIZATION) {
+      return [githubUrl];
+    }
+    
+    // 解析GitHub URL
+    const urlPattern = /https:\/\/raw\.githubusercontent\.com\/([^\/]+)\/([^\/]+)\/([^\/]+)\/(.+)/;
+    const match = githubUrl.match(urlPattern);
+    
+    if (!match) {
+      return [githubUrl]; // 不是GitHub Raw URL，返回原始URL
+    }
+    
+    const [, owner, repo, branch, path] = match;
+    const urls = [githubUrl]; // 原始URL作为最后的备选
+    
+    // 按优先级生成CDN URLs
+    CONFIG.CDN_PROVIDERS.forEach(provider => {
+      const config = this.providers[provider];
+      if (config) {
+        let cdnUrl;
+        switch (provider) {
+          case "jsdelivr":
+            cdnUrl = `https://cdn.jsdelivr.net/gh/${owner}/${repo}@${branch}/${path}`;
+            break;
+          case "githubraw":
+            cdnUrl = githubUrl; // 已经是这个格式
+            break;
+          case "gitcdn":
+            cdnUrl = `https://gitcdn.xyz/cdn/${owner}/${repo}/${branch}/${path}`;
+            break;
+        }
+        if (cdnUrl && cdnUrl !== githubUrl) {
+          urls.unshift(cdnUrl); // 添加到数组开头
+        }
+      }
+    });
+    
+    return urls;
+  },
+  
+  // 智能请求：尝试多个CDN
+  async smartRequest(githubUrl, options = {}) {
+    const urls = this.generateCDNUrls(githubUrl);
+    let lastError = null;
+    
+    for (let i = 0; i < urls.length; i++) {
+      const url = urls[i];
+      const cdnName = i === urls.length - 1 ? "原始GitHub" : CONFIG.CDN_PROVIDERS[i] || "未知CDN";
+      const startTime = Date.now();
+      
+      try {
+        console.log(`🌐 尝试CDN: ${cdnName} - ${url}`);
+        
+        const response = await Widget.http.get(url, {
+          ...options,
+          timeout: CONFIG.CDN_TIMEOUT
+        });
+        
+        const responseTime = Date.now() - startTime;
+        CDNStats.recordPerformance(cdnName, responseTime, true);
+        console.log(`✅ CDN成功: ${cdnName} (${responseTime}ms)`);
+        return response;
+        
+      } catch (error) {
+        const responseTime = Date.now() - startTime;
+        CDNStats.recordPerformance(cdnName, responseTime, false);
+        console.warn(`❌ CDN失败: ${cdnName} - ${error.message} (${responseTime}ms)`);
+        lastError = error;
+        
+        // 如果不是最后一个URL，继续尝试下一个
+        if (i < urls.length - 1) {
+          continue;
+        }
+      }
+    }
+    
+    console.error(`🚨 所有CDN都失败了`);
+    throw lastError;
+  }
+};
+
+// 图片CDN优化系统
+const ImageCDN = {
+  // TMDB图片CDN镜像
+  mirrors: [
+    "https://image.tmdb.org",
+    "https://www.themoviedb.org",
+    "https://images.tmdb.org"
+  ],
+  
+  // 优化图片URL
+  optimizeImageUrl(originalUrl) {
+    if (!CONFIG.IMAGE_CDN_ENABLED || !originalUrl) {
+      return originalUrl;
+    }
+    
+    // 检查是否是TMDB图片URL
+    if (originalUrl.includes("image.tmdb.org")) {
+      // 优化图片质量
+      const qualityPattern = /\/t\/p\/original\//;
+      if (qualityPattern.test(originalUrl) && CONFIG.IMAGE_QUALITY !== "original") {
+        return originalUrl.replace("/t/p/original/", `/t/p/${CONFIG.IMAGE_QUALITY}/`);
+      }
+    }
+    
+    return originalUrl;
+  },
+  
+  // 智能图片加载
+  async loadImage(imageUrl) {
+    if (!imageUrl) return imageUrl;
+    
+    const optimizedUrl = this.optimizeImageUrl(imageUrl);
+    
+    // 如果启用了CDN回退
+    if (CONFIG.IMAGE_CDN_FALLBACK) {
+      for (const mirror of this.mirrors) {
+        try {
+          const testUrl = optimizedUrl.replace("https://image.tmdb.org", mirror);
+          // 这里可以添加图片预加载逻辑
+          return testUrl;
+        } catch (error) {
+          continue;
+        }
+      }
+    }
+    
+    return optimizedUrl;
+  }
+};
 
 // 工具函数
 function getCachedData(key) {
@@ -704,9 +876,9 @@ function createWidgetItem(item) {
     rating: item.vote_average || 0,
     description: item.overview || "",
     releaseDate: releaseDate,
-    posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
-    coverUrl: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
-    backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w1280${item.backdrop_path}` : "",
+    posterPath: item.poster_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`) : "",
+    coverUrl: item.poster_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`) : "",
+    backdropPath: item.backdrop_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/w1280${item.backdrop_path}`) : "",
     mediaType: item.media_type || "movie",
     popularity: item.popularity || 0,
     voteCount: item.vote_count || 0,
@@ -913,8 +1085,8 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    // 从标准格式的TMDB数据源加载数据
-    const response = await Widget.http.get("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
+    // 从标准格式的TMDB数据源加载数据 (使用CDN优化)
+    const response = await CDNManager.smartRequest("https://raw.githubusercontent.com/saxdyo/FWWidgets/main/data/TMDB_Trending.json");
     const data = response.data;
     
     let results = [];
@@ -1037,8 +1209,8 @@ async function loadImdbAnimeModule(params = {}) {
 
     console.log(`🌐 请求URL: ${requestUrl}`);
 
-    // 发起网络请求
-    const response = await Widget.http.get(requestUrl, { 
+    // 发起网络请求 (使用CDN优化)
+    const response = await CDNManager.smartRequest(requestUrl, { 
       timeout: 15000, 
       headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
     });
@@ -1203,6 +1375,86 @@ function cleanupCache() {
 
 // 定期清理缓存
 setInterval(cleanupCache, 5 * 60 * 1000); // 每5分钟清理一次
+
+// CDN性能监控
+const CDNStats = {
+  providers: {},
+  
+  // 记录CDN性能
+  recordPerformance(provider, responseTime, success) {
+    if (!this.providers[provider]) {
+      this.providers[provider] = {
+        requests: 0,
+        successes: 0,
+        totalTime: 0,
+        avgTime: 0
+      };
+    }
+    
+    const stats = this.providers[provider];
+    stats.requests++;
+    if (success) {
+      stats.successes++;
+      stats.totalTime += responseTime;
+      stats.avgTime = stats.totalTime / stats.successes;
+    }
+  },
+  
+  // 获取最佳CDN
+  getBestProvider() {
+    let bestProvider = null;
+    let bestScore = -1;
+    
+    Object.keys(this.providers).forEach(provider => {
+      const stats = this.providers[provider];
+      if (stats.requests >= 3) { // 至少需要3次请求才参与评估
+        const successRate = stats.successes / stats.requests;
+        const score = successRate * 1000 - stats.avgTime; // 成功率优先，速度次之
+        
+        if (score > bestScore) {
+          bestScore = score;
+          bestProvider = provider;
+        }
+      }
+    });
+    
+    return bestProvider;
+  },
+  
+  // 输出统计信息
+  getStats() {
+    console.log("📊 CDN性能统计:");
+    Object.keys(this.providers).forEach(provider => {
+      const stats = this.providers[provider];
+      const successRate = ((stats.successes / stats.requests) * 100).toFixed(1);
+      console.log(`  ${provider}: ${stats.requests}次请求, ${successRate}%成功率, 平均${Math.round(stats.avgTime)}ms`);
+    });
+    
+    const best = this.getBestProvider();
+    if (best) {
+      console.log(`🏆 最佳CDN: ${best}`);
+    }
+  }
+};
+
+// 初始化CDN优化系统
+function initializeCDN() {
+  if (CONFIG.ENABLE_CDN_OPTIMIZATION) {
+    console.log("🌐 CDN优化系统已启用");
+    console.log(`📊 CDN提供商: ${CONFIG.CDN_PROVIDERS.join(", ")}`);
+    console.log(`🖼️ 图片优化: ${CONFIG.IMAGE_CDN_ENABLED ? "启用" : "禁用"} (${CONFIG.IMAGE_QUALITY})`);
+    
+    // 每10分钟输出CDN统计
+    setInterval(() => {
+      CDNStats.getStats();
+    }, 10 * 60 * 1000);
+  } else {
+    console.log("🌐 CDN优化已禁用，使用原始URL");
+  }
+}
+
+// 立即初始化CDN系统
+initializeCDN();
 
 // 新增功能函数
 
