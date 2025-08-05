@@ -1,4 +1,4 @@
-const WidgetMetadata = {
+var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
   title: "TMDB影视榜单 V2",
   description: "优化的TMDB影视动画榜单",
@@ -661,7 +661,7 @@ const WidgetMetadata = {
 };
 
 // 配置常量
-const CONFIG = {
+var CONFIG = {
   API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
@@ -684,10 +684,10 @@ const CONFIG = {
 };
 
 // 缓存管理
-const cache = new Map();
+var cache = new Map();
 
 // CDN优化系统
-const CDNManager = {
+var CDNManager = {
   // CDN服务商配置
   providers: {
     jsdelivr: {
@@ -794,7 +794,7 @@ const CDNManager = {
 };
 
 // 图片CDN优化系统
-const ImageCDN = {
+var ImageCDN = {
   // TMDB图片CDN镜像
   mirrors: [
     "https://image.tmdb.org",
@@ -923,7 +923,7 @@ function createWidgetItemWithoutCDN(item) {
 }
 
 // TMDB类型映射
-const TMDB_GENRES = {
+var TMDB_GENRES = {
   movie: {
     28: "动作", 12: "冒险", 16: "动画", 35: "喜剧", 80: "犯罪", 99: "纪录片",
     18: "剧情", 10751: "家庭", 14: "奇幻", 36: "历史", 27: "恐怖", 10402: "音乐",
@@ -1454,7 +1454,7 @@ function cleanupCache() {
 setInterval(cleanupCache, 5 * 60 * 1000); // 每5分钟清理一次
 
 // CDN性能监控
-const CDNStats = {
+var CDNStats = {
   providers: {},
   
   // 记录CDN性能
