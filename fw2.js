@@ -283,13 +283,12 @@ var WidgetMetadata = {
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
-          value: "popularity",
+          value: "today",
           enumOptions: [
-            { title: "热度排序", value: "popularity" },
-            { title: "评分排序", value: "rating" },
-            { title: "最新发布", value: "release_date" },
-            { title: "投票数", value: "vote_count" },
-            { title: "原始顺序", value: "original" }
+            { title: "今日热门", value: "today" },
+            { title: "本周热门", value: "week" },
+            { title: "热门电影", value: "popular" },
+            { title: "高分内容", value: "top_rated" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
