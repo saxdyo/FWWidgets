@@ -557,14 +557,6 @@ var WidgetMetadata = {
             { title: "热门度↑", value: "popularity.asc" },
             { title: "评分↓", value: "vote_average.desc" },
             { title: "评分↑", value: "vote_average.asc" },
-            { title: "上映时间↓", value: "release_date.desc" },
-            { title: "上映时间↑", value: "release_date.asc" },
-            { title: "年份↓", value: "year.desc" },
-            { title: "年份↑", value: "year.asc" },
-            { title: "标题A-Z", value: "title.asc" },
-            { title: "标题Z-A", value: "title.desc" },
-            { title: "剧集数↓", value: "episodes.desc" },
-            { title: "剧集数↑", value: "episodes.asc" },
             { title: "时长↓", value: "duration.desc" },
             { title: "时长↑", value: "duration.asc" }
           ]
@@ -1375,14 +1367,6 @@ async function loadImdbAnimeModule(params = {}) {
       'popularity.asc': 'hs',
       'vote_average.desc': 'r',
       'vote_average.asc': 'r',
-      'release_date.desc': 'rd',
-      'release_date.asc': 'rd',
-      'year.desc': 'y',
-      'year.asc': 'y',
-      'title.desc': 't',
-      'title.asc': 't',
-      'episodes.desc': 'ep',
-      'episodes.asc': 'ep',
       'duration.desc': 'd',
       'duration.asc': 'd'
     };
@@ -1436,7 +1420,7 @@ async function loadImdbAnimeModule(params = {}) {
     // 动态排序函数
     function sortData(data, sortBy) {
       // 基础排序类型，数据已经预排序
-      if (['popularity.desc', 'vote_average.desc', 'release_date.desc', 'year.desc', 'title.desc', 'episodes.desc', 'duration.desc'].includes(sortBy)) {
+      if (['popularity.desc', 'vote_average.desc', 'duration.desc'].includes(sortBy)) {
         return data;
       }
       
@@ -1451,28 +1435,8 @@ async function loadImdbAnimeModule(params = {}) {
           sortedData.sort((a, b) => (a.r || 0) - (b.r || 0));
           break;
           
-        case 'release_date.asc': // 上映时间升序
-          sortedData.sort((a, b) => {
-            const dateA = a.rd ? new Date(a.rd) : new Date(a.y + '-01-01');
-            const dateB = b.rd ? new Date(b.rd) : new Date(b.y + '-01-01');
-            return dateA - dateB;
-          });
-          break;
-          
-        case 'episodes.asc': // 剧集数升序
-          sortedData.sort((a, b) => (a.ep || 0) - (b.ep || 0));
-          break;
-          
         case 'duration.asc': // 时长升序
           sortedData.sort((a, b) => (a.d || 0) - (b.d || 0));
-          break;
-          
-        case 'title.asc': // 标题A-Z
-          sortedData.sort((a, b) => (a.t || '').localeCompare(b.t || '', 'zh-CN'));
-          break;
-          
-        case 'year.asc': // 年份升序
-          sortedData.sort((a, b) => (a.y || 0) - (b.y || 0));
           break;
           
         default:
