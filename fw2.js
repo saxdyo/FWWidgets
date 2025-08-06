@@ -683,6 +683,7 @@ var WidgetMetadata = {
             { title: "高分电影", value: "top_movies" },
             { title: "热门剧集", value: "hot_tv" },
             { title: "高分剧集", value: "top_tv" },
+            { title: "国产热门剧集", value: "chinese_hot_tv" },
             { title: "最新电影", value: "latest_movies" },
             { title: "最新剧集", value: "latest_tv" },
             { title: "动作大片", value: "action_movies" },
@@ -1543,6 +1544,12 @@ async function loadDoubanStyleList(params = {}) {
       case "top_tv":
         endpoint = "/tv/top_rated";
         params_obj["vote_count.gte"] = 500;
+        break;
+      case "chinese_hot_tv":
+        endpoint = "/discover/tv";
+        params_obj.with_origin_country = "CN"; // 限制为中国制作
+        params_obj.sort_by = "popularity.desc";
+        params_obj.with_original_language = "zh"; // 中文原语言
         break;
       case "latest_movies":
         endpoint = "/movie/now_playing";
