@@ -664,6 +664,39 @@ var WidgetMetadata = {
       ]
     },
 
+    // 豆瓣风格片单（基于TMDB数据）
+    {
+      title: "豆瓣风格片单",
+      description: "模拟豆瓣片单，使用TMDB数据源",
+      requiresWebView: false,
+      functionName: "loadDoubanStyleList",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "list_type",
+          title: "片单类型",
+          type: "enumeration",
+          description: "选择片单类型",
+          value: "hot_movies",
+          enumOptions: [
+            { title: "热门电影", value: "hot_movies" },
+            { title: "高分电影", value: "top_movies" },
+            { title: "热门剧集", value: "hot_tv" },
+            { title: "高分剧集", value: "top_tv" },
+            { title: "最新电影", value: "latest_movies" },
+            { title: "最新剧集", value: "latest_tv" },
+            { title: "动作大片", value: "action_movies" },
+            { title: "爱情片", value: "romance_movies" },
+            { title: "喜剧片", value: "comedy_movies" },
+            { title: "科幻片", value: "scifi_movies" },
+            { title: "动画片", value: "animation" },
+            { title: "纪录片", value: "documentary" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
+    },
+
     // 4. IMDb影视榜单模块加载 (改为使用TMDB API)
     {
       title: "IMDb 影视榜单",
@@ -1477,8 +1510,137 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
-// 豆瓣片单功能已移除
-// 由于豆瓣的反爬虫机制较为严格，暂时移除豆瓣相关功能
+// 豆瓣风格片单加载（基于TMDB数据）
+async function loadDoubanStyleList(params = {}) {
+  const { list_type = "hot_movies", page = 1 } = params;
+  
+  try {
+    const cacheKey = `douban_style_${list_type}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎭 开始加载豆瓣风格片单: ${list_type}, 页码: ${page}`);
+
+    let endpoint = "";
+    let params_obj = {
+      language: "zh-CN",
+      page: page,
+      region: "CN"
+    };
+
+    // 根据片单类型选择不同的TMDB API端点
+    switch (list_type) {
+      case "hot_movies":
+        endpoint = "/movie/popular";
+        break;
+      case "top_movies":
+        endpoint = "/movie/top_rated";
+        params_obj.vote_count = { gte: 1000 }; // 需要足够投票数
+        break;
+      case "hot_tv":
+        endpoint = "/tv/popular";
+        break;
+      case "top_tv":
+        endpoint = "/tv/top_rated";
+        params_obj.vote_count = { gte: 500 };
+        break;
+      case "latest_movies":
+        endpoint = "/movie/now_playing";
+        break;
+      case "latest_tv":
+        endpoint = "/tv/on_the_air";
+        break;
+      case "action_movies":
+        endpoint = "/discover/movie";
+        params_obj.with_genres = 28; // 动作类型ID
+        params_obj.sort_by = "popularity.desc";
+        break;
+      case "romance_movies":
+        endpoint = "/discover/movie";
+        params_obj.with_genres = 10749; // 爱情类型ID
+        params_obj.sort_by = "popularity.desc";
+        break;
+      case "comedy_movies":
+        endpoint = "/discover/movie";
+        params_obj.with_genres = 35; // 喜剧类型ID
+        params_obj.sort_by = "popularity.desc";
+        break;
+      case "scifi_movies":
+        endpoint = "/discover/movie";
+        params_obj.with_genres = 878; // 科幻类型ID
+        params_obj.sort_by = "popularity.desc";
+        break;
+      case "animation":
+        endpoint = "/discover/movie";
+        params_obj.with_genres = 16; // 动画类型ID
+        params_obj.sort_by = "popularity.desc";
+        break;
+      case "documentary":
+        endpoint = "/discover/movie";
+        params_obj.with_genres = 99; // 纪录片类型ID
+        params_obj.sort_by = "popularity.desc";
+        break;
+      default:
+        endpoint = "/movie/popular";
+    }
+
+    console.log(`🌐 请求TMDB API: ${endpoint}`);
+
+    // 获取类型映射
+    const genres = await fetchTmdbGenres();
+    
+    // 请求TMDB数据
+    const response = await Widget.tmdb.get(endpoint, { params: params_obj });
+
+    if (!response || !response.results) {
+      console.error("❌ TMDB API响应异常");
+      return [];
+    }
+
+    // 转换为豆瓣风格的数据格式
+    const results = response.results.map(item => {
+      const isMovie = !!item.title; // 有title字段的是电影，有name字段的是电视剧
+      const mediaType = isMovie ? "movie" : "tv";
+      const title = item.title || item.name;
+      const releaseDate = item.release_date || item.first_air_date;
+      const year = releaseDate ? releaseDate.substring(0, 4) : "";
+      
+      // 生成类型标签
+      const genreIds = item.genre_ids || [];
+      const genreNames = genreIds.slice(0, 3).map(id => {
+        return genres[mediaType]?.[id] || "未知";
+      }).filter(name => name !== "未知");
+      
+      // 豆瓣风格的描述
+      const genreText = genreNames.length > 0 ? genreNames.join(" / ") : "";
+      const description = genreText + (year ? ` (${year})` : "");
+
+      return {
+        id: String(item.id),
+        type: "douban_tmdb", // 标记为豆瓣风格但使用TMDB数据
+        title: title,
+        description: description,
+        rating: Number(item.vote_average?.toFixed(1)) || 0,
+        releaseDate: releaseDate || "",
+        posterPath: item.poster_path,
+        backdropPath: item.backdrop_path,
+        genreTitle: genreText,
+        mediaType: mediaType,
+        // 豆瓣风格的额外字段
+        year: year,
+        genres: genreNames
+      };
+    }).filter(item => item.title && item.title.trim().length > 0);
+
+    console.log(`✅ 豆瓣风格片单加载成功: ${results.length}项`);
+    setCachedData(cacheKey, results);
+    return results;
+
+  } catch (error) {
+    console.error("豆瓣风格片单加载失败:", error);
+    return [];
+  }
+}
 
 // 清理过期缓存
 function cleanupCache() {
