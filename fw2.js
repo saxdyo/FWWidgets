@@ -563,31 +563,7 @@ var WidgetMetadata = {
       ]
     },
 
-    // 豆瓣片单
-    {
-      title: "豆瓣片单",
-      description: "豆瓣热门片单内容",
-      requiresWebView: false,
-      functionName: "loadDoubanList",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "url",
-          title: "片单地址",
-          type: "input",
-          description: "豆瓣片单地址",
-          placeholders: [
-            { title: "豆瓣热门电影", value: "https://m.douban.com/subject_collection/movie_hot_gaia" },
-            { title: "热播新剧", value: "https://m.douban.com/subject_collection/tv_hot" },
-            { title: "热播动漫", value: "https://m.douban.com/subject_collection/tv_animation" },
-            { title: "豆瓣 Top 250", value: "https://m.douban.com/subject_collection/movie_top250" },
-            { title: "实时热门电影", value: "https://m.douban.com/subject_collection/movie_real_time_hotest" },
-            { title: "实时热门电视", value: "https://m.douban.com/subject_collection/tv_real_time_hotest" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
+
 
     // TMDB主题分类
     {
@@ -1501,42 +1477,8 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
-// 3. 豆瓣片单加载
-async function loadDoubanList(params = {}) {
-  const { url, page = 1 } = params;
-  
-  if (!url) {
-    return [];
-  }
-
-  try {
-    const cacheKey = `douban_${url}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    // 这里需要根据实际的豆瓣API或网页解析来实现
-    // 由于原脚本中的豆瓣解析逻辑比较复杂，这里提供一个简化版本
-    const response = await Widget.http.get(url, {
-      timeout: CONFIG.NETWORK_TIMEOUT,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15'
-      }
-    });
-
-    // 简化的豆瓣数据解析（实际使用时需要根据豆瓣的具体结构调整）
-    const results = [];
-    
-    // 这里应该根据实际的豆瓣页面结构来解析数据
-    // 由于豆瓣的反爬虫机制，实际实现可能需要更复杂的处理
-    
-    setCachedData(cacheKey, results);
-    return results;
-
-  } catch (error) {
-    console.error("豆瓣片单加载失败:", error);
-    return [];
-  }
-}
+// 豆瓣片单功能已移除
+// 由于豆瓣的反爬虫机制较为严格，暂时移除豆瓣相关功能
 
 // 清理过期缓存
 function cleanupCache() {
