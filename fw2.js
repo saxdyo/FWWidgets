@@ -1535,14 +1535,14 @@ async function loadDoubanStyleList(params = {}) {
         break;
       case "top_movies":
         endpoint = "/movie/top_rated";
-        params_obj.vote_count = { gte: 1000 }; // 需要足够投票数
+        params_obj["vote_count.gte"] = 1000; // 需要足够投票数
         break;
       case "hot_tv":
         endpoint = "/tv/popular";
         break;
       case "top_tv":
         endpoint = "/tv/top_rated";
-        params_obj.vote_count = { gte: 500 };
+        params_obj["vote_count.gte"] = 500;
         break;
       case "latest_movies":
         endpoint = "/movie/now_playing";
@@ -1586,16 +1586,17 @@ async function loadDoubanStyleList(params = {}) {
 
     console.log(`🌐 请求TMDB API: ${endpoint}`);
 
-    // 获取类型映射
-    const genres = await fetchTmdbGenres();
-    
     // 请求TMDB数据
+    console.log(`🌐 请求参数:`, params_obj);
     const response = await Widget.tmdb.get(endpoint, { params: params_obj });
 
     if (!response || !response.results) {
       console.error("❌ TMDB API响应异常");
+      console.error("❌ 响应对象:", response);
       return [];
     }
+
+    console.log(`📊 TMDB API返回 ${response.results.length} 条数据`);
 
     // 转换为豆瓣风格的数据格式
     const results = response.results.map(item => {
@@ -1605,15 +1606,12 @@ async function loadDoubanStyleList(params = {}) {
       const releaseDate = item.release_date || item.first_air_date;
       const year = releaseDate ? releaseDate.substring(0, 4) : "";
       
-      // 生成类型标签
+      // 使用现有的getGenreTitle函数生成类型标签
       const genreIds = item.genre_ids || [];
-      const genreNames = genreIds.slice(0, 3).map(id => {
-        return genres[mediaType]?.[id] || "未知";
-      }).filter(name => name !== "未知");
+      const genreTitle = getGenreTitle(genreIds, mediaType);
       
       // 豆瓣风格的描述
-      const genreText = genreNames.length > 0 ? genreNames.join(" / ") : "";
-      const description = genreText + (year ? ` (${year})` : "");
+      const description = genreTitle + (year ? ` (${year})` : "");
 
       return {
         id: String(item.id),
@@ -1624,11 +1622,10 @@ async function loadDoubanStyleList(params = {}) {
         releaseDate: releaseDate || "",
         posterPath: item.poster_path,
         backdropPath: item.backdrop_path,
-        genreTitle: genreText,
+        genreTitle: genreTitle,
         mediaType: mediaType,
         // 豆瓣风格的额外字段
-        year: year,
-        genres: genreNames
+        year: year
       };
     }).filter(item => item.title && item.title.trim().length > 0);
 
@@ -1637,7 +1634,9 @@ async function loadDoubanStyleList(params = {}) {
     return results;
 
   } catch (error) {
-    console.error("豆瓣风格片单加载失败:", error);
+    console.error("❌ 豆瓣风格片单加载失败:", error);
+    console.error("❌ 错误详情:", error.message);
+    console.error("❌ 错误堆栈:", error.stack);
     return [];
   }
 }
