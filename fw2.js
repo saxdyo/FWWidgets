@@ -1511,6 +1511,131 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
+// 豆瓣国产剧集专用函数
+async function loadDoubanChineseTVList(params = {}) {
+  const { page = 1 } = params;
+  
+  try {
+    const cacheKey = `douban_chinese_tv_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎭 开始加载豆瓣国产剧集数据: 页码 ${page}`);
+    
+    const start = (page - 1) * 18; // 豆瓣每页18条数据
+    const doubanAPI = `https://m.douban.com/rexxar/api/v2/subject_collection/tv_domestic/items`;
+    
+    console.log(`🌐 请求豆瓣API: ${doubanAPI}`);
+    
+    const response = await Widget.http.get(doubanAPI, {
+      params: {
+        os: "other",
+        for_mobile: 1,
+        start: start,
+        count: 18,
+        loc_id: 0
+      }
+    });
+
+    if (!response || !response.subject_collection_items) {
+      console.error("❌ 豆瓣API响应异常");
+      console.error("❌ 响应对象:", response);
+      return [];
+    }
+
+    console.log(`📊 豆瓣API返回 ${response.subject_collection_items.length} 条数据`);
+
+    // 转换豆瓣数据为标准格式
+    const results = response.subject_collection_items.map(item => {
+      const title = item.title;
+      const year = item.year || "";
+      const genres = item.genres || [];
+      const genreText = genres.slice(0, 2).join("•");
+      const description = genreText + (year ? ` (${year})` : "");
+
+      return {
+        id: String(item.id),
+        type: "douban_real", // 标记为真实豆瓣数据
+        title: title,
+        description: description,
+        rating: item.rating && item.rating.value ? Number(item.rating.value.toFixed(1)) : 0,
+        releaseDate: year + "-01-01", // 豆瓣只提供年份
+        posterPath: item.cover && item.cover.url ? item.cover.url : "",
+        backdropPath: item.pic && item.pic.normal ? item.pic.normal : "",
+        genreTitle: genreText,
+        mediaType: "tv",
+        year: year,
+        // 豆瓣特有字段
+        doubanId: item.id,
+        doubanURL: item.uri || item.url
+      };
+    }).filter(item => item.title && item.title.trim().length > 0);
+
+    console.log(`✅ 豆瓣国产剧集加载成功: ${results.length}项`);
+    setCachedData(cacheKey, results);
+    return results;
+
+  } catch (error) {
+    console.error("❌ 豆瓣国产剧集加载失败:", error);
+    console.error("❌ 错误详情:", error.message);
+    console.error("❌ 错误堆栈:", error.stack);
+    
+    // 如果豆瓣API失败，回退到TMDB
+    console.log("🔄 回退到TMDB API获取中国剧集");
+    return await loadTMDBChineseTVFallback(params);
+  }
+}
+
+// TMDB回退函数（豆瓣API失败时使用）
+async function loadTMDBChineseTVFallback(params = {}) {
+  const { page = 1 } = params;
+  
+  try {
+    const response = await Widget.tmdb.get("/discover/tv", {
+      params: {
+        language: "zh-CN",
+        page: page,
+        region: "CN",
+        with_origin_country: "CN",
+        sort_by: "popularity.desc",
+        with_original_language: "zh"
+      }
+    });
+
+    if (!response || !response.results) {
+      return [];
+    }
+
+    const results = response.results.map(item => {
+      const title = item.name;
+      const releaseDate = item.first_air_date;
+      const year = releaseDate ? releaseDate.substring(0, 4) : "";
+      const genreIds = item.genre_ids || [];
+      const genreTitle = getGenreTitle(genreIds, "tv");
+      const description = genreTitle + (year ? ` (${year})` : "");
+
+      return {
+        id: String(item.id),
+        type: "tmdb_chinese_tv",
+        title: title,
+        description: description,
+        rating: Number(item.vote_average?.toFixed(1)) || 0,
+        releaseDate: releaseDate || "",
+        posterPath: item.poster_path,
+        backdropPath: item.backdrop_path,
+        genreTitle: genreTitle,
+        mediaType: "tv",
+        year: year
+      };
+    }).filter(item => item.title && item.title.trim().length > 0);
+
+    return results;
+  } catch (error) {
+    console.error("❌ TMDB中国剧集回退也失败:", error);
+    return [];
+  }
+}
+
 // 豆瓣风格片单加载（基于TMDB数据）
 async function loadDoubanStyleList(params = {}) {
   const { list_type = "hot_movies", page = 1 } = params;
@@ -1546,10 +1671,8 @@ async function loadDoubanStyleList(params = {}) {
         params_obj["vote_count.gte"] = 500;
         break;
       case "chinese_hot_tv":
-        endpoint = "/discover/tv";
-        params_obj.with_origin_country = "CN"; // 限制为中国制作
-        params_obj.sort_by = "popularity.desc";
-        params_obj.with_original_language = "zh"; // 中文原语言
+        // 直接使用豆瓣API获取国产剧集数据
+        return await loadDoubanChineseTVList(params);
         break;
       case "latest_movies":
         endpoint = "/movie/now_playing";
