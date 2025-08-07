@@ -1008,6 +1008,52 @@ function shouldAutoRefresh(key, age) {
   return false;
 }
 
+// 智能海报处理函数
+function getOptimalPosterUrl(item, mediaType = "movie") {
+  // 主海报源
+  let posterUrl = "";
+  
+  // 1. 尝试TMDB poster_path
+  if (item.poster_path) {
+    posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`);
+  }
+  // 2. 尝试豆瓣cover
+  else if (item.cover && item.cover.url) {
+    posterUrl = item.cover.url;
+  }
+  // 3. 尝试豆瓣pic
+  else if (item.pic && item.pic.normal) {
+    posterUrl = item.pic.normal;
+  }
+  // 4. 尝试简化字段名 (IMDb数据)
+  else if (item.p) {
+    posterUrl = `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}`;
+  }
+  // 5. 备用：使用背景图
+  else if (item.backdrop_path) {
+    posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/w500${item.backdrop_path}`);
+  }
+  // 6. 备用：使用豆瓣背景图
+  else if (item.pic && item.pic.large) {
+    posterUrl = item.pic.large;
+  }
+  // 7. 最后备用：生成占位符图片
+  else {
+    posterUrl = generatePlaceholderPoster(item.title || item.name || "未知", mediaType);
+  }
+  
+  return posterUrl;
+}
+
+// 生成占位符海报
+function generatePlaceholderPoster(title, mediaType) {
+  const encodedTitle = encodeURIComponent(title.substring(0, 10)); // 限制长度
+  const bgColor = mediaType === "tv" ? "4A90E2" : "7ED321"; // TV蓝色，电影绿色
+  const textColor = "FFFFFF";
+  
+  return `https://placehold.co/500x750/${bgColor}/${textColor}?text=${encodedTitle}`;
+}
+
 function createWidgetItem(item) {
   // 根据媒体类型选择正确的日期字段
   let releaseDate = "";
@@ -1017,6 +1063,9 @@ function createWidgetItem(item) {
     releaseDate = item.release_date || "";
   }
 
+  // 智能海报处理
+  const posterUrl = getOptimalPosterUrl(item, item.media_type || "movie");
+
   return {
     id: item.id.toString(),
     type: "tmdb",
@@ -1025,8 +1074,8 @@ function createWidgetItem(item) {
     rating: item.vote_average || 0,
     description: item.overview || "",
     releaseDate: releaseDate,
-    posterPath: item.poster_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`) : "",
-    coverUrl: item.poster_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`) : "",
+    posterPath: posterUrl,
+    coverUrl: posterUrl,
     backdropPath: item.backdrop_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/w1280${item.backdrop_path}`) : "",
     mediaType: item.media_type || "movie",
     popularity: item.popularity || 0,
@@ -1501,9 +1550,9 @@ async function loadImdbAnimeModule(params = {}) {
       }
       if (!item || typeof item.id === 'undefined' || item.id === null) return null;
       
-      // 构建图片URL
-      const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
-      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
+      // 智能海报处理 - 使用统一的海报获取函数
+      const posterUrl = getOptimalPosterUrl(item, 'tv');
+      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : "";
       
       // 处理发布日期
       const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
@@ -1598,6 +1647,9 @@ async function loadDoubanChineseTVList(params = {}) {
       const genreText = genres.slice(0, 2).join("•");
       const description = genreText + (year ? ` (${year})` : "");
 
+      // 智能海报处理
+      const posterUrl = getOptimalPosterUrl(item, "tv");
+
       return {
         id: String(item.id),
         type: "douban_real", // 标记为真实豆瓣数据
@@ -1605,7 +1657,7 @@ async function loadDoubanChineseTVList(params = {}) {
         description: description,
         rating: item.rating && item.rating.value ? Number(item.rating.value.toFixed(1)) : 0,
         releaseDate: year + "-01-01", // 豆瓣只提供年份
-        posterPath: item.cover && item.cover.url ? item.cover.url : "",
+        posterPath: posterUrl,
         backdropPath: item.pic && item.pic.normal ? item.pic.normal : "",
         genreTitle: genreText,
         mediaType: "tv",
@@ -1788,6 +1840,9 @@ async function loadDoubanStyleList(params = {}) {
       // 豆瓣风格的描述
       const description = genreTitle + (year ? ` (${year})` : "");
 
+      // 智能海报处理
+      const posterUrl = getOptimalPosterUrl(item, mediaType);
+
       return {
         id: String(item.id),
         type: "douban_tmdb", // 标记为豆瓣风格但使用TMDB数据
@@ -1795,8 +1850,8 @@ async function loadDoubanStyleList(params = {}) {
         description: description,
         rating: Number(item.vote_average?.toFixed(1)) || 0,
         releaseDate: releaseDate || "",
-        posterPath: item.poster_path,
-        backdropPath: item.backdrop_path,
+        posterPath: posterUrl,
+        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w1280${item.backdrop_path}` : "",
         genreTitle: genreTitle,
         mediaType: mediaType,
         // 豆瓣风格的额外字段
