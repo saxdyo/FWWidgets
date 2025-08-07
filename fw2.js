@@ -1550,9 +1550,9 @@ async function loadImdbAnimeModule(params = {}) {
       }
       if (!item || typeof item.id === 'undefined' || item.id === null) return null;
       
-      // 智能海报处理 - 使用统一的海报获取函数
-      const posterUrl = getOptimalPosterUrl(item, 'tv');
-      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : "";
+             // 构建图片URL
+       const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
+       const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
       
       // 处理发布日期
       const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
@@ -1647,9 +1647,6 @@ async function loadDoubanChineseTVList(params = {}) {
       const genreText = genres.slice(0, 2).join("•");
       const description = genreText + (year ? ` (${year})` : "");
 
-      // 智能海报处理
-      const posterUrl = getOptimalPosterUrl(item, "tv");
-
       return {
         id: String(item.id),
         type: "douban_real", // 标记为真实豆瓣数据
@@ -1657,7 +1654,7 @@ async function loadDoubanChineseTVList(params = {}) {
         description: description,
         rating: item.rating && item.rating.value ? Number(item.rating.value.toFixed(1)) : 0,
         releaseDate: year + "-01-01", // 豆瓣只提供年份
-        posterPath: posterUrl,
+        posterPath: item.cover && item.cover.url ? item.cover.url : "",
         backdropPath: item.pic && item.pic.normal ? item.pic.normal : "",
         genreTitle: genreText,
         mediaType: "tv",
@@ -1840,9 +1837,6 @@ async function loadDoubanStyleList(params = {}) {
       // 豆瓣风格的描述
       const description = genreTitle + (year ? ` (${year})` : "");
 
-      // 智能海报处理
-      const posterUrl = getOptimalPosterUrl(item, mediaType);
-
       return {
         id: String(item.id),
         type: "douban_tmdb", // 标记为豆瓣风格但使用TMDB数据
@@ -1850,8 +1844,8 @@ async function loadDoubanStyleList(params = {}) {
         description: description,
         rating: Number(item.vote_average?.toFixed(1)) || 0,
         releaseDate: releaseDate || "",
-        posterPath: posterUrl,
-        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w1280${item.backdrop_path}` : "",
+        posterPath: item.poster_path,
+        backdropPath: item.backdrop_path,
         genreTitle: genreTitle,
         mediaType: mediaType,
         // 豆瓣风格的额外字段
