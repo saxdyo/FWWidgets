@@ -698,6 +698,29 @@ var WidgetMetadata = {
       ]
     },
 
+    // 缓存管理模块
+    {
+      title: "缓存管理",
+      description: "查看和管理脚本缓存，支持强制刷新",
+      requiresWebView: false,
+      functionName: "loadCacheManager",
+      cacheDuration: 0, // 不缓存缓存管理结果
+      params: [
+        {
+          name: "action",
+          title: "操作类型",
+          type: "enumeration",
+          description: "选择缓存操作",
+          value: "info",
+          enumOptions: [
+            { title: "查看缓存信息", value: "info" },
+            { title: "清空所有缓存", value: "clear" },
+            { title: "强制刷新模式", value: "refresh" }
+          ]
+        }
+      ]
+    },
+
     // 4. IMDb影视榜单模块加载 (改为使用TMDB API)
     {
       title: "IMDb 影视榜单",
@@ -766,7 +789,7 @@ var WidgetMetadata = {
 
 // 配置常量
 var CONFIG = {
-  API_KEY: "your_tmdb_api_key_here", // TMDB API密钥
+  API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
   CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
@@ -947,10 +970,17 @@ var ImageCDN = {
   }
 };
 
-// 工具函数
-function getCachedData(key) {
+// 缓存管理工具函数
+function getCachedData(key, ignoreCache = false) {
+  // 检查是否强制刷新
+  if (ignoreCache || isForceRefresh()) {
+    console.log(`🔄 强制刷新，跳过缓存: ${key}`);
+    return null;
+  }
+  
   const cached = cache.get(key);
   if (cached && (Date.now() - cached.timestamp) < CONFIG.CACHE_DURATION) {
+    console.log(`📋 使用缓存数据: ${key}`);
     return cached.data;
   }
   return null;
@@ -961,6 +991,58 @@ function setCachedData(key, data) {
     data: data,
     timestamp: Date.now()
   });
+  console.log(`💾 数据已缓存: ${key}`);
+}
+
+// 检查是否启用强制刷新
+function isForceRefresh() {
+  try {
+    // 检查URL参数
+    if (typeof window !== 'undefined' && window.location) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('refresh') === 'true';
+    }
+    
+    // 检查全局变量
+    if (typeof globalThis !== 'undefined' && globalThis.ForceRefresh) {
+      return globalThis.ForceRefresh === true;
+    }
+    
+    return false;
+  } catch (error) {
+    return false;
+  }
+}
+
+// 清空所有缓存
+function clearAllCache() {
+  const size = cache.size;
+  cache.clear();
+  console.log(`🗑️ 已清空 ${size} 个缓存项`);
+  return size;
+}
+
+// 获取缓存信息
+function getCacheInfo() {
+  const cacheStats = {
+    totalItems: cache.size,
+    cacheKeys: [],
+    memoryUsage: 0
+  };
+  
+  for (const [key, value] of cache.entries()) {
+    const age = Date.now() - value.timestamp;
+    const isExpired = age > CONFIG.CACHE_DURATION;
+    cacheStats.cacheKeys.push({
+      key: key,
+      age: Math.round(age / 1000), // 秒
+      expired: isExpired,
+      size: JSON.stringify(value.data).length
+    });
+    cacheStats.memoryUsage += JSON.stringify(value.data).length;
+  }
+  
+  return cacheStats;
 }
 
 function createWidgetItem(item) {
@@ -1771,13 +1853,154 @@ async function loadDoubanStyleList(params = {}) {
   }
 }
 
+// 缓存管理模块
+async function loadCacheManager(params = {}) {
+  const { action = "info" } = params;
+  
+  try {
+    console.log(`🛠️ 缓存管理操作: ${action}`);
+    
+    switch (action) {
+      case "info":
+        return getCacheInfoDisplay();
+      case "clear":
+        return clearCacheDisplay();
+      case "refresh":
+        return getRefreshInstructions();
+      default:
+        return getCacheInfoDisplay();
+    }
+  } catch (error) {
+    console.error("❌ 缓存管理失败:", error);
+    return [{
+      id: "error",
+      type: "cache_error",
+      title: "缓存管理错误",
+      description: `错误信息: ${error.message}`,
+      rating: 0,
+      releaseDate: new Date().toISOString().split('T')[0],
+      posterPath: "",
+      backdropPath: "",
+      genreTitle: "错误",
+      mediaType: "error"
+    }];
+  }
+}
+
+// 获取缓存信息显示
+function getCacheInfoDisplay() {
+  const cacheInfo = getCacheInfo();
+  const results = [];
+  
+  // 添加总览信息
+  results.push({
+    id: "cache_summary",
+    type: "cache_info",
+    title: "缓存总览",
+    description: `共 ${cacheInfo.totalItems} 个缓存项，占用 ${(cacheInfo.memoryUsage / 1024).toFixed(2)} KB`,
+    rating: cacheInfo.totalItems,
+    releaseDate: new Date().toISOString().split('T')[0],
+    posterPath: "",
+    backdropPath: "",
+    genreTitle: "缓存状态",
+    mediaType: "cache"
+  });
+  
+  // 添加每个缓存项的详细信息
+  cacheInfo.cacheKeys.forEach((item, index) => {
+    results.push({
+      id: `cache_${index}`,
+      type: "cache_item",
+      title: item.key,
+      description: `年龄: ${item.age}秒 | 大小: ${(item.size / 1024).toFixed(2)} KB | ${item.expired ? '已过期' : '有效'}`,
+      rating: item.expired ? 0 : 10,
+      releaseDate: new Date(Date.now() - item.age * 1000).toISOString().split('T')[0],
+      posterPath: "",
+      backdropPath: "",
+      genreTitle: item.expired ? "已过期" : "有效",
+      mediaType: "cache"
+    });
+  });
+  
+  return results;
+}
+
+// 清空缓存显示
+function clearCacheDisplay() {
+  const clearedCount = clearAllCache();
+  
+  return [{
+    id: "cache_cleared",
+    type: "cache_action",
+    title: "缓存已清空",
+    description: `已成功清空 ${clearedCount} 个缓存项。下次加载将获取最新数据。`,
+    rating: 10,
+    releaseDate: new Date().toISOString().split('T')[0],
+    posterPath: "",
+    backdropPath: "",
+    genreTitle: "操作成功",
+    mediaType: "cache"
+  }];
+}
+
+// 获取强制刷新说明
+function getRefreshInstructions() {
+  const isRefreshMode = isForceRefresh();
+  
+  return [
+    {
+      id: "refresh_status",
+      type: "cache_refresh",
+      title: isRefreshMode ? "强制刷新已启用" : "强制刷新未启用",
+      description: isRefreshMode ? 
+        "当前处于强制刷新模式，所有数据将重新获取" : 
+        "当前使用缓存数据，可通过URL参数启用强制刷新",
+      rating: isRefreshMode ? 10 : 5,
+      releaseDate: new Date().toISOString().split('T')[0],
+      posterPath: "",
+      backdropPath: "",
+      genreTitle: isRefreshMode ? "强制刷新" : "缓存模式",
+      mediaType: "cache"
+    },
+    {
+      id: "refresh_instructions",
+      type: "cache_help",
+      title: "如何使用强制刷新",
+      description: "在脚本URL后添加 ?refresh=true 参数，例如：https://yourscript.js?refresh=true",
+      rating: 8,
+      releaseDate: new Date().toISOString().split('T')[0],
+      posterPath: "",
+      backdropPath: "",
+      genreTitle: "使用说明",
+      mediaType: "help"
+    },
+    {
+      id: "cache_control",
+      type: "cache_help", 
+      title: "其他缓存控制方法",
+      description: "1. 设置全局变量 globalThis.ForceRefresh = true\n2. 使用时间戳参数 ?t=" + Date.now(),
+      rating: 7,
+      releaseDate: new Date().toISOString().split('T')[0],
+      posterPath: "",
+      backdropPath: "",
+      genreTitle: "高级用法",
+      mediaType: "help"
+    }
+  ];
+}
+
 // 清理过期缓存
 function cleanupCache() {
   const now = Date.now();
+  let cleanedCount = 0;
   for (const [key, value] of cache.entries()) {
     if ((now - value.timestamp) > CONFIG.CACHE_DURATION) {
       cache.delete(key);
+      cleanedCount++;
     }
+  }
+  if (cleanedCount > 0) {
+    console.log(`🧹 清理了 ${cleanedCount} 个过期缓存项`);
   }
 }
 
