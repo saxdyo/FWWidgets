@@ -979,30 +979,29 @@ function setCachedData(key, data) {
   });
 }
 
-// 自动刷新策略
+// 自动刷新策略（ForwardWidget优化版）
 function shouldAutoRefresh(key, age) {
   const cached = cache.get(key);
   if (!cached) return false;
   
   // 策略1: 基于访问频率 - 热门数据更频繁刷新
   const accessCount = cached.accessCount || 0;
-  if (accessCount > 5 && age > CONFIG.CACHE_DURATION * 0.5) { // 50%生命周期
+  if (accessCount > 3 && age > CONFIG.CACHE_DURATION * 0.6) { // 降低门槛
     return true;
   }
   
   // 策略2: 基于数据类型 - 热门内容更频繁刷新
-  if (key.includes('trending') && age > 15 * 60 * 1000) { // 15分钟
+  if (key.includes('trending') && age > 20 * 60 * 1000) { // 20分钟，更保守
     return true;
   }
   
-  // 策略3: 基于时间段 - 高峰期更频繁刷新
-  const hour = new Date().getHours();
-  if ((hour >= 19 && hour <= 23) && age > CONFIG.CACHE_DURATION * 0.7) { // 晚高峰
+  // 策略3: 基于缓存总量 - 避免内存过载（主要策略）
+  if (cache.size > 15 && age > CONFIG.CACHE_DURATION * 0.7) {
     return true;
   }
   
-  // 策略4: 基于缓存总量 - 避免内存过载
-  if (cache.size > 20 && age > CONFIG.CACHE_DURATION * 0.6) {
+  // 策略4: 简单的随机刷新 - 避免所有缓存同时过期
+  if (age > CONFIG.CACHE_DURATION * 0.8 && Math.random() < 0.3) {
     return true;
   }
   
@@ -1888,37 +1887,36 @@ function getCacheStats() {
   };
 }
 
-// 智能缓存管理初始化
+// 简化缓存管理初始化（ForwardWidget优化）
 function initSmartCache() {
-  console.log("🚀 启动智能缓存管理");
-  
-  // 立即进行一次清理
-  cleanupCache();
-  
-  // 定期清理缓存（5分钟）
-  setInterval(cleanupCache, 5 * 60 * 1000);
-  
-  // 统计信息记录（10分钟）
-  setInterval(() => {
-    const stats = getCacheStats();
-    console.log(`📊 缓存状态: ${stats.totalItems}项 ${stats.totalSize}KB 内存压力:${stats.memoryPressure}`);
+  try {
+    // 立即清理一次
+    cleanupCache();
     
-    // 内存压力过高时主动清理
-    if (stats.memoryPressure === 'high') {
-      console.log("⚠️ 内存压力过高，执行深度清理");
+    // 只设置一个定时器 - 定期清理（10分钟，减少频率）
+    setInterval(() => {
       cleanupCache();
-    }
-  }, 10 * 60 * 1000);
+      
+      // 简单的状态检查
+      if (cache.size > 25) {
+        console.log("⚠️ 缓存过多，执行深度清理");
+        // 强制清理一半最老的缓存
+        const entries = Array.from(cache.entries());
+        entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
+        const toDelete = entries.slice(0, Math.floor(entries.length / 2));
+        toDelete.forEach(([key]) => cache.delete(key));
+      }
+    }, 10 * 60 * 1000); // 10分钟
+    
+    console.log("✅ 智能缓存已启动");
+  } catch (error) {
+    console.log("⚠️ 使用基础缓存模式");
+    setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+  }
 }
 
-// 启动智能缓存
-try {
-  initSmartCache();
-} catch (error) {
-  console.log("⚠️ 智能缓存初始化失败，使用基础缓存");
-  // 基础清理作为备用
-  setInterval(cleanupCache, 5 * 60 * 1000);
-}
+// 启动缓存管理
+initSmartCache();
 
 // CDN性能监控
 var CDNStats = {
