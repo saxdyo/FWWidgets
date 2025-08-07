@@ -949,11 +949,6 @@ var ImageCDN = {
 
 // 缓存管理工具函数
 function getCachedData(key) {
-  // 检查是否启用强制刷新 (?refresh=true)
-  if (isForceRefresh()) {
-    return null;
-  }
-  
   const cached = cache.get(key);
   if (cached && (Date.now() - cached.timestamp) < CONFIG.CACHE_DURATION) {
     return cached.data;
@@ -966,20 +961,6 @@ function setCachedData(key, data) {
     data: data,
     timestamp: Date.now()
   });
-}
-
-// 检查是否启用强制刷新 (?refresh=true)
-function isForceRefresh() {
-  try {
-    // 检查URL参数 ?refresh=true
-    if (typeof window !== 'undefined' && window.location) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get('refresh') === 'true';
-    }
-    return false;
-  } catch (error) {
-    return false;
-  }
 }
 
 function createWidgetItem(item) {
