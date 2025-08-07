@@ -947,20 +947,66 @@ var ImageCDN = {
   }
 };
 
-// 缓存管理工具函数
+// 智能缓存管理工具函数
 function getCachedData(key) {
   const cached = cache.get(key);
-  if (cached && (Date.now() - cached.timestamp) < CONFIG.CACHE_DURATION) {
+  if (!cached) {
+    return null;
+  }
+  
+  const now = Date.now();
+  const age = now - cached.timestamp;
+  
+  // 检查是否需要自动刷新
+  if (shouldAutoRefresh(key, age)) {
+    console.log(`🔄 自动刷新缓存: ${key}`);
+    return null; // 触发新数据获取
+  }
+  
+  // 使用缓存数据
+  if (age < CONFIG.CACHE_DURATION) {
     return cached.data;
   }
+  
   return null;
 }
 
 function setCachedData(key, data) {
   cache.set(key, {
     data: data,
-    timestamp: Date.now()
+    timestamp: Date.now(),
+    accessCount: (cache.get(key)?.accessCount || 0) + 1
   });
+}
+
+// 自动刷新策略
+function shouldAutoRefresh(key, age) {
+  const cached = cache.get(key);
+  if (!cached) return false;
+  
+  // 策略1: 基于访问频率 - 热门数据更频繁刷新
+  const accessCount = cached.accessCount || 0;
+  if (accessCount > 5 && age > CONFIG.CACHE_DURATION * 0.5) { // 50%生命周期
+    return true;
+  }
+  
+  // 策略2: 基于数据类型 - 热门内容更频繁刷新
+  if (key.includes('trending') && age > 15 * 60 * 1000) { // 15分钟
+    return true;
+  }
+  
+  // 策略3: 基于时间段 - 高峰期更频繁刷新
+  const hour = new Date().getHours();
+  if ((hour >= 19 && hour <= 23) && age > CONFIG.CACHE_DURATION * 0.7) { // 晚高峰
+    return true;
+  }
+  
+  // 策略4: 基于缓存总量 - 避免内存过载
+  if (cache.size > 20 && age > CONFIG.CACHE_DURATION * 0.6) {
+    return true;
+  }
+  
+  return false;
 }
 
 function createWidgetItem(item) {
@@ -1773,18 +1819,106 @@ async function loadDoubanStyleList(params = {}) {
 
 
 
-// 清理过期缓存
+// 智能缓存清理和刷新
 function cleanupCache() {
   const now = Date.now();
+  let cleanedCount = 0;
+  
   for (const [key, value] of cache.entries()) {
-    if ((now - value.timestamp) > CONFIG.CACHE_DURATION) {
+    const age = now - value.timestamp;
+    
+    // 完全过期的缓存直接删除
+    if (age > CONFIG.CACHE_DURATION) {
       cache.delete(key);
+      cleanedCount++;
+      continue;
     }
+    
+    // 检查是否需要标记为待刷新
+    if (shouldAutoRefresh(key, age)) {
+      // 标记为需要刷新，但保留旧数据作为备用
+      value.needsRefresh = true;
+    }
+  }
+  
+  // 内存压力过大时，删除一些较老的缓存
+  if (cache.size > 30) {
+    const entries = Array.from(cache.entries());
+    entries.sort((a, b) => a[1].timestamp - b[1].timestamp); // 按时间排序
+    
+    // 删除最老的1/3缓存
+    const toDelete = entries.slice(0, Math.floor(entries.length / 3));
+    toDelete.forEach(([key]) => {
+      cache.delete(key);
+      cleanedCount++;
+    });
+  }
+  
+  if (cleanedCount > 0) {
+    console.log(`🧹 清理了 ${cleanedCount} 个缓存项`);
   }
 }
 
-// 定期清理缓存
-setInterval(cleanupCache, 5 * 60 * 1000); // 每5分钟清理一次
+// 获取缓存统计信息
+function getCacheStats() {
+  const now = Date.now();
+  let totalSize = 0;
+  let expiredCount = 0;
+  let needsRefreshCount = 0;
+  
+  for (const [key, value] of cache.entries()) {
+    const age = now - value.timestamp;
+    totalSize += JSON.stringify(value.data).length;
+    
+    if (age > CONFIG.CACHE_DURATION) {
+      expiredCount++;
+    }
+    
+    if (value.needsRefresh || shouldAutoRefresh(key, age)) {
+      needsRefreshCount++;
+    }
+  }
+  
+  return {
+    totalItems: cache.size,
+    totalSize: Math.round(totalSize / 1024), // KB
+    expiredCount,
+    needsRefreshCount,
+    memoryPressure: cache.size > 20 ? 'high' : cache.size > 10 ? 'medium' : 'low'
+  };
+}
+
+// 智能缓存管理初始化
+function initSmartCache() {
+  console.log("🚀 启动智能缓存管理");
+  
+  // 立即进行一次清理
+  cleanupCache();
+  
+  // 定期清理缓存（5分钟）
+  setInterval(cleanupCache, 5 * 60 * 1000);
+  
+  // 统计信息记录（10分钟）
+  setInterval(() => {
+    const stats = getCacheStats();
+    console.log(`📊 缓存状态: ${stats.totalItems}项 ${stats.totalSize}KB 内存压力:${stats.memoryPressure}`);
+    
+    // 内存压力过高时主动清理
+    if (stats.memoryPressure === 'high') {
+      console.log("⚠️ 内存压力过高，执行深度清理");
+      cleanupCache();
+    }
+  }, 10 * 60 * 1000);
+}
+
+// 启动智能缓存
+try {
+  initSmartCache();
+} catch (error) {
+  console.log("⚠️ 智能缓存初始化失败，使用基础缓存");
+  // 基础清理作为备用
+  setInterval(cleanupCache, 5 * 60 * 1000);
+}
 
 // CDN性能监控
 var CDNStats = {
