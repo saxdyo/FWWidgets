@@ -1934,8 +1934,8 @@ async function loadImdbAnimeModule(params = {}) {
       'vote_average.asc': 'r',
       'duration.desc': 'd',
       'duration.asc': 'd',
-      'release_date.desc': 'rd',
-      'release_date.asc': 'rd'
+      'release_date.desc': 'hs', // 使用热度数据源，客户端排序
+      'release_date.asc': 'hs'   // 使用热度数据源，客户端排序
     };
     
     const sortKey = sortMapping[sort_by] || 'hs';
@@ -1986,31 +1986,43 @@ async function loadImdbAnimeModule(params = {}) {
     
     // 动态排序函数
     function sortData(data, sortBy) {
-      // 基础排序类型，数据已经预排序
-      if (['popularity.desc', 'vote_average.desc', 'duration.desc', 'release_date.desc'].includes(sortBy)) {
-        return data;
-      }
-      
       const sortedData = [...data];
       
       switch (sortBy) {
+        case 'popularity.desc': // 热度降序（数据已预排序）
+          return data;
+          
         case 'popularity.asc': // 热度升序
           sortedData.sort((a, b) => (a.hs || 0) - (b.hs || 0));
           break;
+          
+        case 'vote_average.desc': // 评分降序（数据已预排序）
+          return data;
           
         case 'vote_average.asc': // 评分升序
           sortedData.sort((a, b) => (a.r || 0) - (b.r || 0));
           break;
           
+        case 'duration.desc': // 时长降序（数据已预排序）
+          return data;
+          
         case 'duration.asc': // 时长升序
           sortedData.sort((a, b) => (a.d || 0) - (b.d || 0));
+          break;
+          
+        case 'release_date.desc': // 发布日期降序（最新优先）
+          sortedData.sort((a, b) => {
+            const dateA = a.rd ? new Date(a.rd) : (a.y ? new Date(`${a.y}-01-01`) : new Date('1900-01-01'));
+            const dateB = b.rd ? new Date(b.rd) : (b.y ? new Date(`${b.y}-01-01`) : new Date('1900-01-01'));
+            return dateB - dateA; // 降序：最新在前
+          });
           break;
           
         case 'release_date.asc': // 发布日期升序（最旧优先）
           sortedData.sort((a, b) => {
             const dateA = a.rd ? new Date(a.rd) : (a.y ? new Date(`${a.y}-01-01`) : new Date('1900-01-01'));
             const dateB = b.rd ? new Date(b.rd) : (b.y ? new Date(`${b.y}-01-01`) : new Date('1900-01-01'));
-            return dateA - dateB;
+            return dateA - dateB; // 升序：最旧在前
           });
           break;
           
@@ -2023,6 +2035,14 @@ async function loadImdbAnimeModule(params = {}) {
     }
     
     // 应用排序
+    console.log(`🎬 [DEBUG] 开始排序，排序方式: ${sort_by}`);
+    if (sort_by.includes('release_date') && rawData.length > 0) {
+      console.log(`🎬 [DEBUG] 第一个项目的日期字段:`, {
+        rd: rawData[0].rd,
+        y: rawData[0].y,
+        title: rawData[0].t
+      });
+    }
     const sortedData = sortData(rawData, sort_by);
     console.log(`🎬 [DEBUG] 排序后数据长度: ${sortedData.length}`);
     
