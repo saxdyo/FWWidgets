@@ -556,7 +556,9 @@ var WidgetMetadata = {
             { title: "评分↓", value: "vote_average.desc" },
             { title: "评分↑", value: "vote_average.asc" },
             { title: "时长↓", value: "duration.desc" },
-            { title: "时长↑", value: "duration.asc" }
+            { title: "时长↑", value: "duration.asc" },
+            { title: "最新↓", value: "release_date.desc" },
+            { title: "最新↑", value: "release_date.asc" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -1931,7 +1933,9 @@ async function loadImdbAnimeModule(params = {}) {
       'vote_average.desc': 'r',
       'vote_average.asc': 'r',
       'duration.desc': 'd',
-      'duration.asc': 'd'
+      'duration.asc': 'd',
+      'release_date.desc': 'rd',
+      'release_date.asc': 'rd'
     };
     
     const sortKey = sortMapping[sort_by] || 'hs';
@@ -1983,7 +1987,7 @@ async function loadImdbAnimeModule(params = {}) {
     // 动态排序函数
     function sortData(data, sortBy) {
       // 基础排序类型，数据已经预排序
-      if (['popularity.desc', 'vote_average.desc', 'duration.desc'].includes(sortBy)) {
+      if (['popularity.desc', 'vote_average.desc', 'duration.desc', 'release_date.desc'].includes(sortBy)) {
         return data;
       }
       
@@ -2000,6 +2004,14 @@ async function loadImdbAnimeModule(params = {}) {
           
         case 'duration.asc': // 时长升序
           sortedData.sort((a, b) => (a.d || 0) - (b.d || 0));
+          break;
+          
+        case 'release_date.asc': // 发布日期升序（最旧优先）
+          sortedData.sort((a, b) => {
+            const dateA = a.rd ? new Date(a.rd) : (a.y ? new Date(`${a.y}-01-01`) : new Date('1900-01-01'));
+            const dateB = b.rd ? new Date(b.rd) : (b.y ? new Date(`${b.y}-01-01`) : new Date('1900-01-01'));
+            return dateA - dateB;
+          });
           break;
           
         default:
