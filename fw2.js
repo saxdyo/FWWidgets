@@ -1,6 +1,6 @@
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
-  title: "TMDB影视榜单 V2 + 豆瓣片单组件",
+  title: "TMDB豆瓣影视榜单",
   description: "优化的TMDB影视动画榜单 + 豆瓣片单组件",
   author: "saxdyo",
   site: "https://github.com/saxdyo/FWWidgets",
