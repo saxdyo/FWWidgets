@@ -1,3 +1,54 @@
+// 性能监控工具（不影响现有功能）
+const performanceMonitor = {
+  start: (moduleName) => {
+    const startTime = Date.now();
+    return () => {
+      const duration = Date.now() - startTime;
+      console.log(`📊 ${moduleName} 执行耗时: ${duration}ms`);
+    };
+  }
+};
+
+// 数据质量监控（不影响现有功能）
+const dataQualityMonitor = (data, moduleName) => {
+  if (!Array.isArray(data)) return data;
+  
+  const stats = {
+    total: data.length,
+    withPoster: data.filter(item => item.posterPath).length,
+    withRating: data.filter(item => item.rating && item.rating !== '0.0').length,
+    withDate: data.filter(item => item.releaseDate).length
+  };
+  
+  console.log(`📊 ${moduleName} 数据质量:`, stats);
+  return data; // 返回原数据，不修改
+};
+
+// 静默数据验证（不影响现有功能）
+const silentDataValidation = (items, moduleName) => {
+  if (!Array.isArray(items)) return items;
+  
+  let validCount = 0;
+  let invalidCount = 0;
+  
+  items.forEach((item, index) => {
+    if (!item || !item.id || !item.title) {
+      invalidCount++;
+      if (index < 3) { // 只记录前3个无效项，避免日志过多
+        console.warn(`⚠️ ${moduleName} 数据项 ${index} 验证失败:`, item);
+      }
+    } else {
+      validCount++;
+    }
+  });
+  
+  if (invalidCount > 0) {
+    console.log(`📊 ${moduleName} 数据验证: ${validCount}个有效, ${invalidCount}个无效`);
+  }
+  
+  return items; // 返回原数据，不修改
+};
+
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
   title: "TMDB豆瓣影视榜单",
@@ -1660,6 +1711,9 @@ async function fetchTmdbDiscoverData(api, params) {
 async function loadTmdbTrending(params = {}) {
   const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
   
+  // 添加性能监控（不影响功能）
+  const endMonitor = performanceMonitor.start('TMDB热门模块');
+  
   // 让内容类型始终跟随排序方式变化
   let finalContentType = content_type;
   if (sort_by && ["today", "week", "popular", "top_rated"].includes(sort_by)) {
@@ -1672,13 +1726,26 @@ async function loadTmdbTrending(params = {}) {
     content_type: finalContentType
   };
   
-  // 根据数据来源类型选择加载方式
-  if (use_preprocessed_data === "api") {
-    return loadTmdbTrendingWithAPI(updatedParams);
+  try {
+    // 根据数据来源类型选择加载方式
+    let result;
+    if (use_preprocessed_data === "api") {
+      result = await loadTmdbTrendingWithAPI(updatedParams);
+    } else {
+      // 默认使用预处理数据
+      result = await loadTmdbTrendingFromPreprocessed(updatedParams);
+    }
+    
+    // 结束性能监控
+    endMonitor();
+    
+    // 应用数据质量监控
+    return dataQualityMonitor(result, 'TMDB热门模块');
+  } catch (error) {
+    console.error("❌ TMDB热门模块加载失败:", error);
+    endMonitor();
+    return [];
   }
-  
-  // 默认使用预处理数据
-  return loadTmdbTrendingFromPreprocessed(updatedParams);
 }
 
 // 使用正常TMDB API加载热门内容
@@ -1903,6 +1970,9 @@ async function tmdbPopularMovies(params = {}) {
 async function loadImdbAnimeModule(params = {}) {
   const { region = "all", sort_by = "popularity.desc", page = "1" } = params;
   
+  // 添加性能监控（不影响功能）
+  const endMonitor = performanceMonitor.start('IMDB动画模块');
+  
   try {
     console.log(`🎬 [DEBUG] 开始加载IMDb动画模块`);
     console.log(`🎬 [DEBUG] 参数: region=${region}, sort_by=${sort_by}, page=${page}`);
@@ -1911,7 +1981,8 @@ async function loadImdbAnimeModule(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) {
       console.log(`🎬 [DEBUG] 使用缓存数据: ${cached.length}项`);
-      return cached;
+      endMonitor();
+      return dataQualityMonitor(cached, 'IMDB动画模块');
     }
 
     console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort_by}, 页码: ${page})`);
@@ -2091,15 +2162,26 @@ async function loadImdbAnimeModule(params = {}) {
       };
     }).filter(item => item && item.title && item.title.trim().length > 0);
 
-    setCachedData(cacheKey, widgetItems);
-    console.log(`✅ IMDb动画模块加载成功: ${widgetItems.length}项`);
-    return widgetItems;
+    // 应用数据质量监控（不影响功能）
+    const validatedItems = silentDataValidation(widgetItems, 'IMDB动画模块');
+    
+    setCachedData(cacheKey, validatedItems);
+    console.log(`✅ IMDb动画模块加载成功: ${validatedItems.length}项`);
+    
+    // 结束性能监控
+    endMonitor();
+    
+    return dataQualityMonitor(validatedItems, 'IMDB动画模块');
     
   } catch (error) {
     console.error("❌ [DEBUG] IMDb动画模块加载失败:", error);
     console.error("❌ [DEBUG] 错误堆栈:", error.stack);
     console.error("❌ [DEBUG] 错误类型:", error.name);
     console.error("❌ [DEBUG] 错误消息:", error.message);
+    
+    // 结束性能监控（即使出错也要记录）
+    endMonitor();
+    
     return [];
   }
 }
