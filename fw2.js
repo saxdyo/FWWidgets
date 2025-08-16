@@ -118,7 +118,7 @@ var WidgetMetadata = {
           value: "",
           belongTo: {
             paramName: "air_status",
-            value: ["released","upcoming",""],
+            value: ["released","upcoming"],
           },
           enumOptions: [
             { title: "全部", value: "" },
@@ -154,7 +154,7 @@ var WidgetMetadata = {
           value: "",
           belongTo: {
             paramName: "air_status",
-            value: ["released","upcoming",""],
+            value: ["released","upcoming"],
           },
           enumOptions: [
             { title: "全部类型", value: "" },
@@ -1666,34 +1666,58 @@ function getBeijingDate() {
 }
 
 // TMDB数据获取函数
-async function fetchTmdbData(api, params) {
-    const data = await Widget.tmdb.get(api, { params: params });
+async function fetchTmdbDiscoverData(api, params) {
+    try {
+        console.log(`🌐 请求TMDB API: ${api}`);
+        const data = await Widget.tmdb.get(api, { params: params });
+        
+        if (!data || !data.results) {
+            console.error("❌ TMDB API返回数据格式错误:", data);
+            return [];
+        }
+        
+        console.log(`📊 TMDB API返回 ${data.results.length} 条原始数据`);
+        
+        const filteredResults = data.results
+            .filter((item) => {
+                const hasPoster = item.poster_path;
+                const hasId = item.id;
+                const hasTitle = (item.title || item.name) && (item.title || item.name).trim().length > 0;
+                
+                if (!hasPoster) console.log("⚠️ 跳过无海报项目:", item.title || item.name);
+                if (!hasId) console.log("⚠️ 跳过无ID项目:", item.title || item.name);
+                if (!hasTitle) console.log("⚠️ 跳过无标题项目:", item.id);
+                
+                return hasPoster && hasId && hasTitle;
+            })
+            .map((item) => {
+                const mediaType = item.media_type || (item.title ? 'movie' : 'tv');
+                const genreIds = item.genre_ids || [];
+                const genreTitle = getGenreTitle(genreIds, mediaType);
 
-    return data.results
-        .filter((item) => {
-            return item.poster_path &&
-                   item.id &&
-                   (item.title || item.name) &&
-                   (item.title || item.name).trim().length > 0;
-        })
-        .map((item) => {
-            const mediaType = item.media_type || (item.title ? 'movie' : 'tv');
-            const genreIds = item.genre_ids || [];
-            const genreTitle = getGenreTitle(genreIds, mediaType);
-
-            return {
-                id: item.id,
-                type: "tmdb",
-                title: item.title || item.name,
-                description: item.overview,
-                releaseDate: item.release_date || item.first_air_date,
-                backdropPath: item.backdrop_path,
-                posterPath: item.poster_path,
-                rating: item.vote_average,
-                mediaType: mediaType,
-                genreTitle: genreTitle
-            };
-        });
+                return {
+                    id: item.id,
+                    type: "tmdb",
+                    title: item.title || item.name,
+                    description: item.overview,
+                    releaseDate: item.release_date || item.first_air_date,
+                    backdropPath: item.backdrop_path,
+                    posterPath: item.poster_path,
+                    rating: item.vote_average,
+                    mediaType: mediaType,
+                    genreTitle: genreTitle
+                };
+            });
+            
+        console.log(`✅ 成功处理 ${filteredResults.length} 条数据`);
+        return filteredResults;
+        
+    } catch (error) {
+        console.error("❌ TMDB API请求失败:", error);
+        console.error("❌ API端点:", api);
+        console.error("❌ 请求参数:", params);
+        return [];
+    }
 }
 
 // 主要功能函数
@@ -2432,26 +2456,52 @@ initializeCDN();
 
 // 1. TMDB播出平台
 async function tmdbDiscoverByNetwork(params = {}) {
-    const api = "discover/tv";
-    const beijingDate = getBeijingDate();
-    const discoverParams = {
-        language: params.language || 'zh-CN',
-        page: params.page || 1,
-        with_networks: params.with_networks,
-        sort_by: params.sort_by || "first_air_date.desc",
-    };
-    
-    if (params.air_status === 'released') {
-        discoverParams['first_air_date.lte'] = beijingDate;
-    } else if (params.air_status === 'upcoming') {
-        discoverParams['first_air_date.gte'] = beijingDate;
+    try {
+        console.log("🎬 开始加载播出平台数据，参数:", params);
+        
+        const api = "discover/tv";
+        const beijingDate = getBeijingDate();
+        const discoverParams = {
+            language: params.language || 'zh-CN',
+            page: params.page || 1,
+            sort_by: params.sort_by || "first_air_date.desc",
+        };
+        
+        // 只有当选择了具体平台时才添加with_networks参数
+        if (params.with_networks && params.with_networks !== "") {
+            discoverParams.with_networks = params.with_networks;
+            console.log("📺 选择平台:", params.with_networks);
+        } else {
+            console.log("📺 未选择特定平台，将获取所有平台内容");
+        }
+        
+        if (params.air_status === 'released') {
+            discoverParams['first_air_date.lte'] = beijingDate;
+            console.log("📅 筛选已上映内容，截止日期:", beijingDate);
+        } else if (params.air_status === 'upcoming') {
+            discoverParams['first_air_date.gte'] = beijingDate;
+            console.log("📅 筛选未上映内容，起始日期:", beijingDate);
+        } else {
+            console.log("📅 不限制上映状态");
+        }
+        
+        if (params.with_genres && params.with_genres !== "") {
+            discoverParams.with_genres = params.with_genres;
+            console.log("🎭 筛选内容类型:", params.with_genres);
+        } else {
+            console.log("🎭 不限制内容类型");
+        }
+        
+        console.log("🌐 播出平台API参数:", discoverParams);
+        const results = await fetchTmdbDiscoverData(api, discoverParams);
+        console.log("✅ 播出平台数据加载成功，返回", results.length, "项");
+        return results;
+        
+    } catch (error) {
+        console.error("❌ 播出平台数据加载失败:", error);
+        console.error("❌ 错误详情:", error.message);
+        return [];
     }
-    
-    if (params.with_genres) {
-        discoverParams.with_genres = params.with_genres;
-    }
-    
-    return await fetchTmdbData(api, discoverParams);
 }
 
 // 2. TMDB出品公司
