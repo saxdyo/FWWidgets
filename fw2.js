@@ -518,6 +518,50 @@ var WidgetMetadata = {
       ]
     },
 
+    // IMDb动画模块
+    {
+      title: "IMDb 动画",
+      description: "IMDb热门动画内容",
+      requiresWebView: false,
+      functionName: "loadImdbAnimeModule",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "region",
+          title: "地区选择",
+          type: "enumeration",
+          description: "选择动画制作地区",
+          value: "all",
+          enumOptions: [
+            { title: "全部地区", value: "all" },
+            { title: "中国大陆", value: "country:cn" },
+            { title: "美国", value: "country:us" },
+            { title: "英国", value: "country:gb" },
+            { title: "日本", value: "country:jp" },
+            { title: "韩国", value: "country:kr" },
+            { title: "欧美", value: "region:us-eu" },
+            { title: "香港", value: "country:hk" },
+            { title: "台湾", value: "country:tw" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity.desc",
+          enumOptions: [
+            { title: "热门度↓", value: "popularity.desc" },
+            { title: "热门度↑", value: "popularity.asc" },
+            { title: "评分↓", value: "vote_average.desc" },
+            { title: "评分↑", value: "vote_average.asc" },
+            { title: "时长↓", value: "duration.desc" },
+            { title: "时长↑", value: "duration.asc" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
+    },
 
     // TMDB主题分类
     {
@@ -1853,7 +1897,180 @@ async function tmdbPopularMovies(params = {}) {
 
 // 新增的模块辅助函数（已在上方定义）
 
+// 3. IMDb动画模块加载
+async function loadImdbAnimeModule(params = {}) {
+  const { region = "all", sort_by = "popularity.desc", page = "1" } = params;
+  
+  try {
+    console.log(`🎬 [DEBUG] 开始加载IMDb动画模块`);
+    console.log(`🎬 [DEBUG] 参数: region=${region}, sort_by=${sort_by}, page=${page}`);
+    
+    const cacheKey = `imdb_anime_${region}_${sort_by}_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) {
+      console.log(`🎬 [DEBUG] 使用缓存数据: ${cached.length}项`);
+      return cached;
+    }
 
+    console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort_by}, 页码: ${page})`);
+
+    // 构建请求URL - 使用原始IMDb数据源
+    const GITHUB_OWNER = "opix-maker"; // 原始数据源
+    const GITHUB_REPO = "Forward"; // 原始仓库
+    const GITHUB_BRANCH = "main"; // 主分支
+    const DATA_PATH = "imdb-data-platform/dist"; // 原始数据路径
+    
+    const baseUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DATA_PATH}`;
+    const cleanRegion = region.replace(':', '_');
+    console.log(`🎬 [DEBUG] 清理后的地区: ${cleanRegion}`);
+    
+    // 映射排序方式到数据文件键
+    const sortMapping = {
+      'popularity.desc': 'hs',
+      'popularity.asc': 'hs',
+      'vote_average.desc': 'r',
+      'vote_average.asc': 'r',
+      'duration.desc': 'd',
+      'duration.asc': 'd'
+    };
+    
+    const sortKey = sortMapping[sort_by] || 'hs';
+    console.log(`🎬 [DEBUG] 排序键: ${sort_by} -> ${sortKey}`);
+    
+    const fullPath = `anime/${cleanRegion}/by_${sortKey}/page_${page}.json`;
+    const requestUrl = `${baseUrl}/${fullPath}?cache_buster=${Math.floor(Date.now() / (1000 * 60 * 30))}`;
+
+    console.log(`🌐 请求URL: ${requestUrl}`);
+
+    // 检查Widget.http是否可用
+    if (!Widget || !Widget.http || typeof Widget.http.get !== 'function') {
+      console.error(`❌ [DEBUG] Widget.http 不可用`);
+      console.error(`❌ [DEBUG] Widget:`, Widget);
+      return [];
+    }
+
+    console.log(`🎬 [DEBUG] 发起网络请求...`);
+    // 发起网络请求
+    const response = await Widget.http.get(requestUrl, { 
+      timeout: 15000, 
+      headers: {'User-Agent': 'ForwardWidget/IMDb-v2'} 
+    });
+
+    console.log(`🎬 [DEBUG] 请求完成，状态码: ${response ? response.statusCode : 'N/A'}`);
+    console.log(`🎬 [DEBUG] 响应数据类型: ${response && response.data ? typeof response.data : 'N/A'}`);
+
+    if (!response || response.statusCode !== 200 || !response.data) {
+      console.error(`❌ IMDb动画数据加载失败: Status ${response ? response.statusCode : 'N/A'}`);
+      if (response && response.data) {
+        console.error(`❌ [DEBUG] 响应数据:`, response.data);
+      }
+      return [];
+    }
+
+    // 处理数据
+    console.log(`🎬 [DEBUG] 开始处理响应数据`);
+    const rawData = Array.isArray(response.data) ? response.data : [];
+    console.log(`🎬 [DEBUG] 原始数据类型: ${Array.isArray(response.data) ? '数组' : typeof response.data}`);
+    console.log(`🎬 [DEBUG] 原始数据长度: ${rawData.length}`);
+    
+    if (rawData.length === 0) {
+      console.warn(`⚠️ [DEBUG] 原始数据为空`);
+      return [];
+    }
+    
+    console.log(`🎬 [DEBUG] 第一个项目示例:`, rawData[0]);
+    
+    // 动态排序函数
+    function sortData(data, sortBy) {
+      // 基础排序类型，数据已经预排序
+      if (['popularity.desc', 'vote_average.desc', 'duration.desc'].includes(sortBy)) {
+        return data;
+      }
+      
+      const sortedData = [...data];
+      
+      switch (sortBy) {
+        case 'popularity.asc': // 热度升序
+          sortedData.sort((a, b) => (a.hs || 0) - (b.hs || 0));
+          break;
+          
+        case 'vote_average.asc': // 评分升序
+          sortedData.sort((a, b) => (a.r || 0) - (b.r || 0));
+          break;
+          
+        case 'duration.asc': // 时长升序
+          sortedData.sort((a, b) => (a.d || 0) - (b.d || 0));
+          break;
+          
+        default:
+          // 默认排序，保持原顺序
+          break;
+      }
+      
+      return sortedData;
+    }
+    
+    // 应用排序
+    const sortedData = sortData(rawData, sort_by);
+    console.log(`🎬 [DEBUG] 排序后数据长度: ${sortedData.length}`);
+    
+    const widgetItems = sortedData.map((item, index) => {
+      if (index < 3) {
+        console.log(`🎬 [DEBUG] 处理第${index + 1}个项目:`, item);
+      }
+      if (!item || typeof item.id === 'undefined' || item.id === null) return null;
+      
+      // 构建图片URL
+      const posterUrl = item.p ? `https://image.tmdb.org/t/p/w500${item.p.startsWith('/') ? item.p : '/' + item.p}` : null;
+      const backdropUrl = item.b ? `https://image.tmdb.org/t/p/w780${item.b.startsWith('/') ? item.b : '/' + item.b}` : null;
+      
+      // 处理发布日期
+      const releaseDate = item.rd ? item.rd : (item.y ? `${String(item.y)}-01-01` : '');
+
+      return {
+        id: String(item.id),
+        type: "tmdb",
+        title: item.t || '未知标题',
+        description: item.o || '',
+        releaseDate: releaseDate,
+        posterPath: posterUrl,
+        backdropPath: backdropUrl,
+        coverUrl: posterUrl,
+        rating: typeof item.r === 'number' ? item.r.toFixed(1) : '0.0',
+        mediaType: 'tv', // 动画归类为TV类型
+        genreTitle: "动画",
+        popularity: item.hs || 0,
+        voteCount: 0,
+        link: null,
+        duration: item.d || 0,
+        durationText: item.d ? `${item.d}分钟` : '',
+        episode: 0,
+        childItems: [],
+        // 添加IMDB特有字段
+        imdbData: {
+          id: item.id,
+          title: item.t,
+          rating: item.r,
+          popularity: item.hs,
+          duration: item.d,
+          year: item.y,
+          releaseDate: item.rd
+        }
+      };
+    }).filter(item => item && item.title && item.title.trim().length > 0);
+
+    setCachedData(cacheKey, widgetItems);
+    console.log(`✅ IMDb动画模块加载成功: ${widgetItems.length}项`);
+    return widgetItems;
+    
+  } catch (error) {
+    console.error("❌ [DEBUG] IMDb动画模块加载失败:", error);
+    console.error("❌ [DEBUG] 错误堆栈:", error.stack);
+    console.error("❌ [DEBUG] 错误类型:", error.name);
+    console.error("❌ [DEBUG] 错误消息:", error.message);
+    return [];
+  }
+}
 
 // 豆瓣国产剧集专用函数
 async function loadDoubanChineseTVList(params = {}) {
