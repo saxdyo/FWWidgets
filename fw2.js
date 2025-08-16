@@ -664,40 +664,6 @@ var WidgetMetadata = {
       ]
     },
 
-    // 豆瓣风格片单（基于TMDB数据）
-    {
-      title: "豆瓣风格片单",
-      description: "模拟豆瓣片单，使用TMDB数据源",
-      requiresWebView: false,
-      functionName: "loadDoubanStyleList",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "list_type",
-          title: "片单类型",
-          type: "enumeration",
-          description: "选择片单类型",
-          value: "hot_movies",
-          enumOptions: [
-            { title: "热门电影", value: "hot_movies" },
-            { title: "高分电影", value: "top_movies" },
-            { title: "热门剧集", value: "hot_tv" },
-            { title: "高分剧集", value: "top_tv" },
-            { title: "国产热门剧集", value: "chinese_hot_tv" },
-            { title: "最新电影", value: "latest_movies" },
-            { title: "最新剧集", value: "latest_tv" },
-            { title: "动作大片", value: "action_movies" },
-            { title: "爱情片", value: "romance_movies" },
-            { title: "喜剧片", value: "comedy_movies" },
-            { title: "科幻片", value: "scifi_movies" },
-            { title: "动画片", value: "animation" },
-            { title: "纪录片", value: "documentary" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
     // 4. IMDb影视榜单模块加载 (改为使用TMDB API)
     {
       title: "IMDb 影视榜单",
@@ -762,83 +728,7 @@ var WidgetMetadata = {
       ]
     },
 
-    // 豆瓣片单组件
-    {
-      title: "豆瓣我看",
-      requiresWebView: false,
-      functionName: "loadInterestItems",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "user_id",
-          title: "用户ID",
-          type: "input",
-          description: "未填写情况下接口不可用",
-        },
-        {
-          name: "status",
-          title: "状态",
-          type: "enumeration",
-          enumOptions: [
-            {
-              title: "想看",
-              value: "mark",
-            },
-            {
-              title: "在看",
-              value: "doing",
-            },
-            {
-              title: "看过",
-              value: "done",
-            },
-            {
-              title: "随机想看(从想看列表中无序抽取9个影片)",
-              value: "random_mark",
-            },
-          ],
-        },
-        {
-          name: "page",
-          title: "页码",
-          type: "page"
-        },
-      ],
-    },
-    {
-      title: "豆瓣个性化推荐",
-      requiresWebView: false,
-      functionName: "loadSuggestionItems",
-      cacheDuration: 43200,
-      params: [
-        {
-          name: "cookie",
-          title: "用户Cookie",
-          type: "input",
-          description: "未填写情况下非个性化推荐；可手机登陆网页版后，通过loon，Qx等软件抓包获取Cookie",
-        },
-        {
-          name: "type",
-          title: "类型",
-          type: "enumeration",
-          enumOptions: [
-            {
-              title: "电影",
-              value: "movie",
-            },
-            {
-              title: "电视",
-              value: "tv",
-            },
-          ],
-        },
-        {
-          name: "page",
-          title: "页码",
-          type: "page"
-        },
-      ],
-    },
+
     {
       title: "豆瓣片单(TMDB版)",
       requiresWebView: false,
@@ -1384,13 +1274,6 @@ var WidgetMetadata = {
           type: "offset"
         }
       ]
-    },
-    {
-      title: "豆瓣首页轮播图(用于首页和apple tv topshelf)",
-      requiresWebView: false,
-      functionName: "loadCarouselItems",
-      description: "从豆瓣热播电影/电视剧/综艺/动漫分别随机获取3个未在影院上映的影片，并乱序后返回总共12个影片",
-      cacheDuration: 3600,
     }
   ]
 };
@@ -2361,140 +2244,7 @@ async function loadTMDBChineseTVFallback(params = {}) {
   }
 }
 
-// 豆瓣风格片单加载（基于TMDB数据）
-async function loadDoubanStyleList(params = {}) {
-  const { list_type = "hot_movies", page = 1 } = params;
-  
-  try {
-    const cacheKey = `douban_style_${list_type}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
 
-    console.log(`🎭 开始加载豆瓣风格片单: ${list_type}, 页码: ${page}`);
-
-    let endpoint = "";
-    let params_obj = {
-      language: "zh-CN",
-      page: page,
-      region: "CN"
-    };
-
-    // 根据片单类型选择不同的TMDB API端点
-    switch (list_type) {
-      case "hot_movies":
-        endpoint = "/movie/popular";
-        break;
-      case "top_movies":
-        endpoint = "/movie/top_rated";
-        params_obj["vote_count.gte"] = 1000; // 需要足够投票数
-        break;
-      case "hot_tv":
-        endpoint = "/tv/popular";
-        break;
-      case "top_tv":
-        endpoint = "/tv/top_rated";
-        params_obj["vote_count.gte"] = 500;
-        break;
-      case "chinese_hot_tv":
-        // 直接使用豆瓣API获取国产剧集数据
-        return await loadDoubanChineseTVList(params);
-        break;
-      case "latest_movies":
-        endpoint = "/movie/now_playing";
-        break;
-      case "latest_tv":
-        endpoint = "/tv/on_the_air";
-        break;
-      case "action_movies":
-        endpoint = "/discover/movie";
-        params_obj.with_genres = 28; // 动作类型ID
-        params_obj.sort_by = "popularity.desc";
-        break;
-      case "romance_movies":
-        endpoint = "/discover/movie";
-        params_obj.with_genres = 10749; // 爱情类型ID
-        params_obj.sort_by = "popularity.desc";
-        break;
-      case "comedy_movies":
-        endpoint = "/discover/movie";
-        params_obj.with_genres = 35; // 喜剧类型ID
-        params_obj.sort_by = "popularity.desc";
-        break;
-      case "scifi_movies":
-        endpoint = "/discover/movie";
-        params_obj.with_genres = 878; // 科幻类型ID
-        params_obj.sort_by = "popularity.desc";
-        break;
-      case "animation":
-        endpoint = "/discover/movie";
-        params_obj.with_genres = 16; // 动画类型ID
-        params_obj.sort_by = "popularity.desc";
-        break;
-      case "documentary":
-        endpoint = "/discover/movie";
-        params_obj.with_genres = 99; // 纪录片类型ID
-        params_obj.sort_by = "popularity.desc";
-        break;
-      default:
-        endpoint = "/movie/popular";
-    }
-
-    console.log(`🌐 请求TMDB API: ${endpoint}`);
-
-    // 请求TMDB数据
-    console.log(`🌐 请求参数:`, params_obj);
-    const response = await Widget.tmdb.get(endpoint, { params: params_obj });
-
-    if (!response || !response.results) {
-      console.error("❌ TMDB API响应异常");
-      console.error("❌ 响应对象:", response);
-      return [];
-    }
-
-    console.log(`📊 TMDB API返回 ${response.results.length} 条数据`);
-
-    // 转换为豆瓣风格的数据格式
-    const results = response.results.map(item => {
-      const isMovie = !!item.title; // 有title字段的是电影，有name字段的是电视剧
-      const mediaType = isMovie ? "movie" : "tv";
-      const title = item.title || item.name;
-      const releaseDate = item.release_date || item.first_air_date;
-      const year = releaseDate ? releaseDate.substring(0, 4) : "";
-      
-      // 使用现有的getGenreTitle函数生成类型标签
-      const genreIds = item.genre_ids || [];
-      const genreTitle = getGenreTitle(genreIds, mediaType);
-      
-      // 豆瓣风格的描述
-      const description = genreTitle + (year ? ` (${year})` : "");
-
-      return {
-        id: String(item.id),
-        type: "douban_tmdb", // 标记为豆瓣风格但使用TMDB数据
-        title: title,
-        description: description,
-        rating: Number(item.vote_average?.toFixed(1)) || 0,
-        releaseDate: releaseDate || "",
-        posterPath: item.poster_path,
-        backdropPath: item.backdrop_path,
-        genreTitle: genreTitle,
-        mediaType: mediaType,
-        // 豆瓣风格的额外字段
-        year: year
-      };
-    }).filter(item => item.title && item.title.trim().length > 0);
-
-    console.log(`✅ 豆瓣风格片单加载成功: ${results.length}项`);
-    setCachedData(cacheKey, results);
-    return results;
-
-  } catch (error) {
-    console.error("❌ 豆瓣风格片单加载失败:", error);
-    console.error("❌ 错误详情:", error.message);
-    console.error("❌ 错误堆栈:", error.stack);
-    return [];
-  }
-}
 
 
 
@@ -3619,108 +3369,9 @@ async function loadImdbMovieListModule(params = {}) {
 
 // ==================== 豆瓣片单组件功能函数 ====================
 
-// 豆瓣我看功能
-async function fetchDoubanPage(user_id, status, start, count) {
-  const url = `https://m.douban.com/rexxar/api/v2/user/${user_id}/interests?status=${status}&start=${start}&count=${count}`;
 
-  try {
-    const response = await Widget.http.get(url, {
-      headers: {
-        Referer: `https://m.douban.com/mine/movie`,
-        "User-Agent":
-          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-      },
-    });
 
-    console.log("请求结果:", response.data);
 
-    if (response.data && response.data.interests) {
-      const items = response.data.interests;
-      return [...new Set(
-        items
-          .filter((item) => item.subject.id != null)
-          .map((item) => item.subject.id)
-      )].map((id) => ({
-        id,
-        type: "douban",
-      }));
-    }
-    return [];
-  } catch (error) {
-    console.error("获取页面数据失败:", error);
-    return [];
-  }
-}
-
-async function loadInterestItems(params = {}) {
-  const page = params.page;
-  const user_id = params.user_id || "";
-  let status = params.status || "";
-  const random = status === "random_mark";
-  if (random) {
-      status = "mark";
-  }
-  const count = random ? 50 : 20;
-  const start = (page - 1) * count
-
-  if (random) {
-    if (page > 1) {
-      return [];
-    }
-    // 获取所有页数据并随机抽取10个item
-    let allDoubanIds = [];
-    let currentStart = start;
-
-    while (true) {
-      const doubanIds = await fetchDoubanPage(user_id, status, currentStart, count);
-      allDoubanIds = [...allDoubanIds, ...doubanIds];
-
-      if (doubanIds.length < count) {
-        break;
-      }
-
-      currentStart += count;
-    }
-
-    // 随机抽取10个item
-    const shuffled = allDoubanIds.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, Math.min(9, shuffled.length));
-  } else {
-    // 获取单页数据
-    return await fetchDoubanPage(user_id, status, start, count);
-  }
-}
-
-// 豆瓣个性化推荐
-async function loadSuggestionItems(params = {}) {
-  const page = params.page;
-  const cookie = params.cookie || "";
-  const type = params.type || "";
-  const count = 20
-  const start = (page - 1) * count
-  const ckMatch = cookie.match(/ck=([^;]+)/);
-  const ckValue = ckMatch ? ckMatch[1] : null;
-  let url = `https://m.douban.com/rexxar/api/v2/${type}/suggestion?start=${start}&count=${count}&new_struct=1&with_review=1&ck=${ckValue}`;
-  const response = await Widget.http.get(url, {
-    headers: {
-      Referer: `https://m.douban.com/movie`,
-      Cookie: cookie,
-      "User-Agent":
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    },
-  });
-
-  console.log("请求结果:", response.data);
-  if (response.data && response.data.items) {
-    const items = response.data.items;
-    const doubanIds = items.filter((item) => item.id != null).map((item) => ({
-      id: item.id,
-      type: "douban",
-    }));
-    return doubanIds;
-  }
-  return [];
-}
 
 // 基础获取TMDB数据方法
 async function fetchTmdbData(key, mediaType) {
@@ -4050,16 +3701,4 @@ async function getPreferenceRecommendations(params = {}) {
     }
 }
 
-// 获取豆瓣首页轮播图
-async function loadCarouselItems(params = {}) {
-    const response = await Widget.http.get(`https://gist.githubusercontent.com/huangxd-/5ae61c105b417218b9e5bad7073d2f36/raw/douban_carousel.json`, {
-        headers: {
-            "User-Agent":
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-        },
-    });
 
-    console.log("请求结果:", response.data);
-
-    return response.data;
-}
