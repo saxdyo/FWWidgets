@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-20 13:08:51",
+  "last_updated": "2025-08-20 14:13:16",
   "today_global": [
     {
       "id": 1175942,
@@ -57,28 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
-      "id": 1205656,
-      "title": "神圣之路",
-      "type": "movie",
-      "genreTitle": "惊悚•剧情•恐怖",
-      "rating": 6.5,
-      "release_date": "2025-04-16",
-      "overview": "两位父母开始了一场与时间的赛跑，因为他们的女儿造成了一场悲惨的车祸，他们在深夜接到了女儿令人痛苦的电话。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dVsgV7ak6vR5xyXFggooJQinXBg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/inp71duBjJEYxY2AcpGRfVDAnb6.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.5,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
-    },
-    {
       "id": 629542,
       "title": "坏蛋联盟",
       "type": "movie",
@@ -90,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3qQxATbWkj7ShJNSsENVXHjAbBD.jpg"
     },
     {
+      "id": 1205656,
+      "title": "神圣之路",
+      "type": "movie",
+      "genreTitle": "剧情•恐怖•惊悚",
+      "rating": 6.5,
+      "release_date": "2025-04-16",
+      "overview": "两位父母开始了一场与时间的赛跑，因为他们的女儿造成了一场悲惨的车祸，他们在深夜接到了女儿令人痛苦的电话。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dVsgV7ak6vR5xyXFggooJQinXBg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/inp71duBjJEYxY2AcpGRfVDAnb6.jpg"
+    },
+    {
       "id": 119051,
       "title": "Wednesday",
       "type": "tv",
@@ -99,6 +88,17 @@
       "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/pPqyWNopqeDlZxFKMBNl2A4nvSM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8jJbUX5LlIy6fk82d7grNFJeorY.jpg"
+    },
+    {
+      "id": 1078605,
+      "title": "凶器",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.5,
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
       "id": 1254624,
@@ -123,6 +123,50 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y7IozUi2dwICMl8aGvLxjTmJDYZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1087192,
+      "title": "新·驯龙高手",
+      "type": "movie",
+      "genreTitle": "奇幻•家庭•动作",
+      "rating": 8.0,
+      "release_date": "2025-06-06",
+      "overview": "小嗝嗝（梅森·泰晤士 Mason Thames 饰 ）偶然间遭遇传说中的夜煞没牙仔，并由此与之建立深厚友谊，进而打破两大族群间的隔阂，携手寻求和平。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tkmibNA1BOyUD6g5EM9fASJfpxx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9E0C4FVsGfQzeuQA7wMxYKwhxVv.jpg"
+    },
+    {
+      "id": 911430,
+      "title": "F1：狂飙飞车",
+      "type": "movie",
+      "genreTitle": "动作•剧情",
+      "rating": 7.6,
+      "release_date": "2025-06-25",
+      "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4WGXqW90E8f3kpQp1cUIzll5JZ7.jpg"
+    },
+    {
       "id": 1234821,
       "title": "侏罗纪世界：重生",
       "type": "movie",
@@ -145,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jVCnkJgQUyiuGikIKNeTlccngCC.jpg"
     },
     {
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 7.2,
+      "release_date": "2025-07-23",
+      "overview": "　　故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
+    },
+    {
       "id": 1151031,
       "title": "复活她",
       "type": "movie",
@@ -156,70 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ocCNYIYWzIUV91YZYzDZ1cAQOPT.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y7IozUi2dwICMl8aGvLxjTmJDYZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
-    },
-    {
-      "id": 1007734,
-      "title": "小人物2",
+      "id": 648878,
+      "title": "爱丁顿",
       "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.4,
-      "release_date": "2025-08-13",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/q87G2n1jE6THotwwjMv9sdrN6J8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fPezuCUB4cWnkA1qVBYR3cbk94O.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/90xkPbXRHIy9SlgBLHp6A7dVt8s.jpg"
-    },
-    {
-      "id": 911430,
-      "title": "F1：狂飙飞车",
-      "type": "movie",
-      "genreTitle": "动作•剧情",
-      "rating": 7.6,
-      "release_date": "2025-06-25",
-      "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4WGXqW90E8f3kpQp1cUIzll5JZ7.jpg"
-    },
-    {
-      "id": 1087192,
-      "title": "新·驯龙高手",
-      "type": "movie",
-      "genreTitle": "奇幻•家庭•动作",
-      "rating": 8.0,
-      "release_date": "2025-06-06",
-      "overview": "小嗝嗝（梅森·泰晤士 Mason Thames 饰 ）偶然间遭遇传说中的夜煞没牙仔，并由此与之建立深厚友谊，进而打破两大族群间的隔阂，携手寻求和平。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tkmibNA1BOyUD6g5EM9fASJfpxx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9E0C4FVsGfQzeuQA7wMxYKwhxVv.jpg"
+      "genreTitle": "西部•喜剧•犯罪",
+      "rating": 6.6,
+      "release_date": "2025-07-16",
+      "overview": "2020年的5月，新墨西哥州爱丁顿小镇的治安官与市长发生冲突，点燃了居民之间的火药桶，有一对夫妻被困在此处。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kg7lrTWGKyzLnj0E7BXl52nro1N.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rxqWjnGQJoNchD1sbXYGASCRmcj.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8skY80gII0tqheTwWsM37KL6107.jpg"
     },
     {
-      "id": 157239,
-      "title": "异形：地球",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.9,
-      "release_date": "2025-08-12",
-      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
-    },
-    {
       "id": 575265,
       "title": "碟中谍8：最终清算",
       "type": "movie",
@@ -257,26 +246,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
-      "id": 1175942,
-      "title": "坏蛋联盟2",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.4,
-      "release_date": "2025-07-24",
-      "overview": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3hzCqewpQaN3CeIxTVYe6GnXWtl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
-    },
-    {
-      "id": 1022787,
-      "title": "地球特派员",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 6.8,
-      "release_date": "2025-06-18",
-      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5xyClHQ3QQLdE0VwlA6xjC9CL0N.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
+      "id": 157239,
+      "title": "异形：地球",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.9,
+      "release_date": "2025-08-12",
+      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
       "id": 1078605,
@@ -334,6 +312,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
     },
     {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y7IozUi2dwICMl8aGvLxjTmJDYZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
+    },
+    {
+      "id": 106449,
+      "title": "凡人修仙传",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2020-07-25",
+      "overview": "平凡少年韩立出生贫困，为了让家人过上更好的生活，自愿前去七玄门参加入门考核，最终被墨大夫收入门下。墨大夫一开始对韩立悉心培养、传授医术，让韩立对他非常感激，但随着一同入门的弟子张铁失踪，韩立才发现了墨大夫的真面目。墨大夫试图夺舍韩立，最终却被韩立反杀。通过墨大夫的遗书韩立得知了一个全新世界：修仙界的存在。在帮助七玄门抵御外敌之后，韩立离开了七玄门，前去墨大夫的家中寻找暖阳宝玉解毒，并帮助墨家人打败了敌人。通过墨大夫之女墨彩环的口中得知太南小会地址，韩立为追寻修仙人的足迹决定前往太南小会，拜别家人后，韩立来到太南谷，结识了一众修仙人士，正式展开了自己的修仙之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3m1UaMLgmpj6krNaQwTpftYFsnz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qs0V1rhIo98gKXimKKduybzMgGi.jpg"
+    },
+    {
       "id": 648878,
       "title": "爱丁顿",
       "type": "movie",
@@ -367,28 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y7IozUi2dwICMl8aGvLxjTmJDYZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
-    },
-    {
-      "id": 106449,
-      "title": "凡人修仙传",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2020-07-25",
-      "overview": "平凡少年韩立出生贫困，为了让家人过上更好的生活，自愿前去七玄门参加入门考核，最终被墨大夫收入门下。墨大夫一开始对韩立悉心培养、传授医术，让韩立对他非常感激，但随着一同入门的弟子张铁失踪，韩立才发现了墨大夫的真面目。墨大夫试图夺舍韩立，最终却被韩立反杀。通过墨大夫的遗书韩立得知了一个全新世界：修仙界的存在。在帮助七玄门抵御外敌之后，韩立离开了七玄门，前去墨大夫的家中寻找暖阳宝玉解毒，并帮助墨家人打败了敌人。通过墨大夫之女墨彩环的口中得知太南小会地址，韩立为追寻修仙人的足迹决定前往太南小会，拜别家人后，韩立来到太南谷，结识了一众修仙人士，正式展开了自己的修仙之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3m1UaMLgmpj6krNaQwTpftYFsnz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qs0V1rhIo98gKXimKKduybzMgGi.jpg"
-    },
-    {
       "id": 1087192,
       "title": "新·驯龙高手",
       "type": "movie",
@@ -398,17 +376,6 @@
       "overview": "小嗝嗝（梅森·泰晤士 Mason Thames 饰 ）偶然间遭遇传说中的夜煞没牙仔，并由此与之建立深厚友谊，进而打破两大族群间的隔阂，携手寻求和平。",
       "poster_url": "https://image.tmdb.org/t/p/original/tkmibNA1BOyUD6g5EM9fASJfpxx.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9E0C4FVsGfQzeuQA7wMxYKwhxVv.jpg"
-    },
-    {
-      "id": 1007734,
-      "title": "小人物2",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.4,
-      "release_date": "2025-08-13",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/q87G2n1jE6THotwwjMv9sdrN6J8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fPezuCUB4cWnkA1qVBYR3cbk94O.jpg"
     },
     {
       "id": 7451,
@@ -433,15 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ocCNYIYWzIUV91YZYzDZ1cAQOPT.jpg"
     },
     {
-      "id": 537921,
-      "title": "雄狗狗大冒险",
+      "id": 1175942,
+      "title": "坏蛋联盟2",
       "type": "movie",
-      "genreTitle": "动画•喜剧",
-      "rating": 6.5,
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2025-07-24",
+      "overview": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3hzCqewpQaN3CeIxTVYe6GnXWtl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
+    },
+    {
+      "id": 1007734,
+      "title": "小人物2",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.4,
       "release_date": "2025-08-13",
-      "overview": "得知自己要被绝育后，一只狗只有 24 小时时间，和兄弟们抓紧完成一场毫无顾忌的终极冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/udtlwWSJ45S0uQm29BvFvjPJGW0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipFghK3mUi1fpEz0GY4ILNWPDrq.jpg"
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/q87G2n1jE6THotwwjMv9sdrN6J8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fPezuCUB4cWnkA1qVBYR3cbk94O.jpg"
+    },
+    {
+      "id": 1022787,
+      "title": "地球特派员",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 6.8,
+      "release_date": "2025-06-18",
+      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5xyClHQ3QQLdE0VwlA6xjC9CL0N.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
+    },
+    {
+      "id": 1136867,
+      "title": "物质主义者",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.7,
+      "release_date": "2025-06-12",
+      "overview": "　　年轻且企图心旺盛的纽约恋爱顾问Lucy（达科塔·约翰逊 Dakota Johnson 饰）发现自己在完美的另一半（佩德罗·帕斯卡 Pedro Pascal 饰）和不完美的前任（克里斯·埃文斯 Chris Evans 饰）之间犹豫不决。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vPW6UQW38ya1NrI6PuJOMzI0Nlp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jVCnkJgQUyiuGikIKNeTlccngCC.jpg"
     }
   ],
   "popular_movies": [
