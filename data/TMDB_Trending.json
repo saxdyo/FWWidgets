@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-24 11:40:59",
+  "last_updated": "2025-08-24 12:15:17",
   "today_global": [
     {
       "id": 911430,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
     },
     {
-      "id": 1022787,
-      "title": "地球特派员",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-06-18",
-      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
-    },
-    {
       "id": 1175942,
       "title": "坏蛋联盟2",
       "type": "movie",
@@ -88,6 +77,17 @@
       "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
       "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
+    },
+    {
+      "id": 1022787,
+      "title": "地球特派员",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.0,
+      "release_date": "2025-06-18",
+      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
     },
     {
       "id": 127235,
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
     },
     {
+      "id": 259909,
+      "title": "嗜血法医：杀魔复生",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.9,
+      "release_date": "2025-07-13",
+      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
+    },
+    {
       "id": 1300116,
       "title": "危岛坠爱",
       "type": "movie",
@@ -167,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9j6zzm19ywum0KueApvq4PmWdCp.jpg"
     },
     {
-      "id": 259909,
-      "title": "嗜血法医：杀魔复生",
+      "id": 272485,
+      "title": "生万物",
       "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 8.9,
-      "release_date": "2025-07-13",
-      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
+      "genreTitle": "剧情",
+      "rating": 10.0,
+      "release_date": "2025-08-13",
+      "overview": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3HBQaIAj6GOolJE4b62p9ZSUKra.jpg"
     },
     {
       "id": 248937,
@@ -198,17 +209,6 @@
       "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/pPqyWNopqeDlZxFKMBNl2A4nvSM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8jJbUX5LlIy6fk82d7grNFJeorY.jpg"
-    },
-    {
-      "id": 272485,
-      "title": "生万物",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 10.0,
-      "release_date": "2025-08-13",
-      "overview": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3HBQaIAj6GOolJE4b62p9ZSUKra.jpg"
     },
     {
       "id": 7451,
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
-      "id": 1022787,
-      "title": "地球特派员",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-06-18",
-      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
-    },
-    {
       "id": 1175942,
       "title": "坏蛋联盟2",
       "type": "movie",
@@ -301,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
     },
     {
-      "id": 1151334,
-      "title": "极速女神",
+      "id": 1022787,
+      "title": "地球特派员",
       "type": "movie",
-      "genreTitle": "惊悚•动作•喜剧",
-      "rating": 7.4,
-      "release_date": "2025-08-21",
-      "overview": "她能逃过一切，唯独逃不过他。曾是逃亡司机的她早已脱离危险日子，却为了拯救那个老是闯祸的前男友，再度飙命出击。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5Qm1hpf9AurJOdVlIKwCdPt8Ip.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pGWEcusy3DK8sYns12loZ9wxgtx.jpg"
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.0,
+      "release_date": "2025-06-18",
+      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
     },
     {
       "id": 1078605,
@@ -323,15 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
-      "id": 1234821,
-      "title": "侏罗纪世界：重生",
+      "id": 1151334,
+      "title": "极速女神",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.4,
-      "release_date": "2025-07-01",
-      "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
+      "genreTitle": "惊悚•动作•喜剧",
+      "rating": 7.4,
+      "release_date": "2025-08-21",
+      "overview": "她能逃过一切，唯独逃不过他。曾是逃亡司机的她早已脱离危险日子，却为了拯救那个老是闯祸的前男友，再度飙命出击。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5Qm1hpf9AurJOdVlIKwCdPt8Ip.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pGWEcusy3DK8sYns12loZ9wxgtx.jpg"
     },
     {
       "id": 119051,
@@ -345,6 +334,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8jJbUX5LlIy6fk82d7grNFJeorY.jpg"
     },
     {
+      "id": 1234821,
+      "title": "侏罗纪世界：重生",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.4,
+      "release_date": "2025-07-01",
+      "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
+    },
+    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -354,17 +354,6 @@
       "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
       "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 127235,
-      "title": "Invasion",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.2,
-      "release_date": "2021-10-21",
-      "overview": "对人类生存构成威胁的外星物种访问地球。身处世界不同角落的五个普通人努力理解自己周围不断发生的混乱状况时，剧集通过他们的视角将各种事件一一实时展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cKDdeHU8uRn1p8pLCqqFRNKkZGc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/shs0WhDI7KF7LzUUhWpw0bOpjEp.jpg"
     },
     {
       "id": 259909,
@@ -378,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
     },
     {
+      "id": 127235,
+      "title": "Invasion",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.2,
+      "release_date": "2021-10-21",
+      "overview": "对人类生存构成威胁的外星物种访问地球。身处世界不同角落的五个普通人努力理解自己周围不断发生的混乱状况时，剧集通过他们的视角将各种事件一一实时展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cKDdeHU8uRn1p8pLCqqFRNKkZGc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/shs0WhDI7KF7LzUUhWpw0bOpjEp.jpg"
+    },
+    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -387,6 +387,17 @@
       "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，须佐能乎吉在宇治屋山庄出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被须佐能乎吉推入一个神秘的房间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
       "poster_url": "https://image.tmdb.org/t/p/original/uG6gjm1GnDaXI5eTQhiwQ0mkPAM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
+    },
+    {
+      "id": 272485,
+      "title": "生万物",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 10.0,
+      "release_date": "2025-08-13",
+      "overview": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3HBQaIAj6GOolJE4b62p9ZSUKra.jpg"
     },
     {
       "id": 1087192,
@@ -411,26 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6qF816UQb9LRJYmq45sWrg4b8jp.jpg"
     },
     {
-      "id": 272485,
-      "title": "生万物",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 10.0,
-      "release_date": "2025-08-13",
-      "overview": "以鲁南农村土地变迁为背景，时间跨越1926年末到1944年间，聚焦女性成长传奇，谱写动人情感史诗，展现了农民在封建统治下求生存、求发展的艰难历程，以及世世代代对土地难以割舍的依恋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ymPem0W7g2ZtoQMqhsOsBFJxlKh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3HBQaIAj6GOolJE4b62p9ZSUKra.jpg"
-    },
-    {
-      "id": 1151031,
-      "title": "复活她",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.4,
-      "release_date": "2025-05-28",
-      "overview": "本片讲述了一对兄妹在他们新寄养母亲的偏远住所中，发现了一个令人毛骨悚然的邪恶仪式的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3XRp7u1GTrCWBnj2pGKRZz4NA5x.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ocCNYIYWzIUV91YZYzDZ1cAQOPT.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y7IozUi2dwICMl8aGvLxjTmJDYZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
     },
     {
       "id": 1007734,
