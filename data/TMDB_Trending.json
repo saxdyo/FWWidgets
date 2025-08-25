@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-25 11:39:37",
+  "last_updated": "2025-08-25 12:15:39",
   "today_global": [
     {
       "id": 911430,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.6,
-      "release_date": "2025-07-09",
-      "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8IyCryRhNLIJfKgwZF6WFnJ7SbO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
-    },
-    {
       "id": 1151334,
       "title": "极速女神",
       "type": "movie",
@@ -44,6 +33,17 @@
       "overview": "她能逃过一切，唯独逃不过他。曾是逃亡司机的她早已脱离危险日子，却为了拯救那个老是闯祸的前男友，再度飙命出击。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5Qm1hpf9AurJOdVlIKwCdPt8Ip.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pGWEcusy3DK8sYns12loZ9wxgtx.jpg"
+    },
+    {
+      "id": 1061474,
+      "title": "超人",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.6,
+      "release_date": "2025-07-09",
+      "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8IyCryRhNLIJfKgwZF6WFnJ7SbO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
     },
     {
       "id": 110492,
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hLYopzK1NgOKny7zjE0f3eqFkmG.jpg"
     },
     {
-      "id": 157239,
-      "title": "异形：地球",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.9,
-      "release_date": "2025-08-12",
-      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
-    },
-    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -101,15 +90,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 1022787,
-      "title": "地球特派员",
+      "id": 157239,
+      "title": "异形：地球",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.9,
+      "release_date": "2025-08-12",
+      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
+    },
+    {
+      "id": 1175942,
+      "title": "坏蛋联盟2",
       "type": "movie",
       "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-06-18",
-      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
+      "rating": 7.8,
+      "release_date": "2025-07-24",
+      "overview": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
     },
     {
       "id": 1078605,
@@ -123,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
-      "id": 1175942,
-      "title": "坏蛋联盟2",
+      "id": 1022787,
+      "title": "地球特派员",
       "type": "movie",
       "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.8,
-      "release_date": "2025-07-24",
-      "overview": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9qnEyaKpd2MITnsbk91ZKcQaK4b.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
+      "rating": 7.0,
+      "release_date": "2025-06-18",
+      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
     },
     {
       "id": 240558,
@@ -189,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
+      "id": 803796,
+      "title": "K-POP：猎魔女团",
       "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+      "genreTitle": "动画•音乐•动作",
+      "rating": 8.4,
+      "release_date": "2025-06-20",
+      "overview": "K-pop 超级明星鲁米、米拉和佐伊如果不是在座无虚席的体育场举办演唱会，就是在利用自己的秘密力量保护粉丝们免受超自然威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kjb9FFNItBc4awWPCrbp7hDLtni.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3aZHMVeLb5z7iHIGyF0tbA1yZJZ.jpg"
     },
     {
       "id": 127235,
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
     },
     {
-      "id": 157239,
-      "title": "异形：地球",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.9,
-      "release_date": "2025-08-12",
-      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
-    },
-    {
       "id": 1151334,
       "title": "极速女神",
       "type": "movie",
@@ -310,6 +299,17 @@
       "overview": "她能逃过一切，唯独逃不过他。曾是逃亡司机的她早已脱离危险日子，却为了拯救那个老是闯祸的前男友，再度飙命出击。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5Qm1hpf9AurJOdVlIKwCdPt8Ip.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pGWEcusy3DK8sYns12loZ9wxgtx.jpg"
+    },
+    {
+      "id": 157239,
+      "title": "异形：地球",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.9,
+      "release_date": "2025-08-12",
+      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wVaH5qFqf1nfFXNOtEohTp7Pi54.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
       "id": 1078605,
@@ -356,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
     },
     {
-      "id": 127235,
-      "title": "Invasion",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.2,
-      "release_date": "2021-10-21",
-      "overview": "对人类生存构成威胁的外星物种访问地球。身处世界不同角落的五个普通人努力理解自己周围不断发生的混乱状况时，剧集通过他们的视角将各种事件一一实时展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cKDdeHU8uRn1p8pLCqqFRNKkZGc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/shs0WhDI7KF7LzUUhWpw0bOpjEp.jpg"
-    },
-    {
       "id": 259909,
       "title": "嗜血法医：杀魔复生",
       "type": "tv",
@@ -376,6 +365,17 @@
       "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
       "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
+    },
+    {
+      "id": 127235,
+      "title": "Invasion",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.2,
+      "release_date": "2021-10-21",
+      "overview": "对人类生存构成威胁的外星物种访问地球。身处世界不同角落的五个普通人努力理解自己周围不断发生的混乱状况时，剧集通过他们的视角将各种事件一一实时展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cKDdeHU8uRn1p8pLCqqFRNKkZGc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/shs0WhDI7KF7LzUUhWpw0bOpjEp.jpg"
     },
     {
       "id": 13494,
@@ -389,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hLYopzK1NgOKny7zjE0f3eqFkmG.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
       "id": 280945,
       "title": "暴君的厨师",
       "type": "tv",
@@ -411,15 +400,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/50klocNd3VZstj4rzlnmYGtDY8p.jpg"
     },
     {
-      "id": 1312946,
-      "title": "一路走向你",
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.8,
-      "release_date": "2025-08-19",
-      "overview": "影片讲述了年轻女孩海瑟（克莱因 饰）在开启她精心规划的人生之前，和闺蜜们（索菲亚·怀利与麦迪森·汤普森 饰）一起畅游欧洲的故事。一次偶然的邂逅让她与杰克之间擦出火花，并引发了一段深刻而出乎意料的情感旅程。随着秘密浮出水面、人生抉择逼近，两人的关系受到了严峻考验，也彻底改变了海瑟的命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/loO4i5RTtWDn8F39ByjDn55BH5Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6qF816UQb9LRJYmq45sWrg4b8jp.jpg"
+      "genreTitle": "科幻•冒险",
+      "rating": 7.2,
+      "release_date": "2025-07-23",
+      "overview": "　　故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
+    },
+    {
+      "id": 1300116,
+      "title": "危岛坠爱",
+      "type": "movie",
+      "genreTitle": "爱情•惊悚",
+      "rating": 6.2,
+      "release_date": "2025-08-20",
+      "overview": "Lilli拜访了她的妹妹Valeria，惊讶地得知她与法国人Manu订婚了。她自发地遇到了夜总会经理汤姆，引发了即时联系。岛上事件背后潜伏着一个黑暗的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cpIklTANBPcUMDrRHZuUNjU3eLg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9j6zzm19ywum0KueApvq4PmWdCp.jpg"
     },
     {
       "id": 37854,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
     },
     {
-      "id": 1300116,
-      "title": "危岛坠爱",
+      "id": 7451,
+      "title": "极限特工",
       "type": "movie",
-      "genreTitle": "爱情•惊悚",
-      "rating": 6.2,
-      "release_date": "2025-08-20",
-      "overview": "Lilli拜访了她的妹妹Valeria，惊讶地得知她与法国人Manu订婚了。她自发地遇到了夜总会经理汤姆，引发了即时联系。岛上事件背后潜伏着一个黑暗的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cpIklTANBPcUMDrRHZuUNjU3eLg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9j6zzm19ywum0KueApvq4PmWdCp.jpg"
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     }
   ],
   "popular_movies": [
