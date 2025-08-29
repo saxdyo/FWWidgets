@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-29 11:27:30",
+  "last_updated": "2025-08-29 12:01:04",
   "today_global": [
     {
       "id": 744653,
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8Mc9gYy3Jn2DbpY8542NepK9GeA.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.6,
-      "release_date": "2025-07-09",
-      "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8IyCryRhNLIJfKgwZF6WFnJ7SbO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
-    },
-    {
       "id": 110492,
       "title": "和平使者",
       "type": "tv",
@@ -68,15 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
     },
     {
-      "id": 986056,
-      "title": "雷霆特攻队*",
+      "id": 1061474,
+      "title": "超人",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-04-30",
-      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.6,
+      "release_date": "2025-07-09",
+      "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8IyCryRhNLIJfKgwZF6WFnJ7SbO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
     },
     {
       "id": 1242011,
@@ -88,6 +77,17 @@
       "overview": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
       "poster_url": "https://image.tmdb.org/t/p/original/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
+    },
+    {
+      "id": 986056,
+      "title": "雷霆特攻队*",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-04-30",
+      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
     },
     {
       "id": 199001,
@@ -145,6 +145,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
+      "id": 1078605,
+      "title": "凶器",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.5,
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
+    },
+    {
       "id": 1038392,
       "title": "招魂4：终章",
       "type": "movie",
@@ -198,17 +209,6 @@
       "overview": "内特（泰隆艾格顿 饰）出狱之后渴望能够重新做人，但他在狱中招惹到的犯罪集团却开始追杀他的家人作为报复，内特被迫带着关系疏远的11岁女儿波莉（安娜苏菲亚海格 饰）展开逃亡之旅，并设法向生性胆小的她传授生存之道……。",
       "poster_url": "https://image.tmdb.org/t/p/original/b73igAiZl8tbYRt9HdtNX43O72W.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3Gl9tFJbjvnPfX3kyUPJWNohqOJ.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.5,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
       "id": 1468789,
@@ -268,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
-      "id": 157239,
-      "title": "异形：地球",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.8,
-      "release_date": "2025-08-12",
-      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hKu7x3R3FncoCFyk1fTXvu7xR5a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
-    },
-    {
       "id": 744653,
       "title": "周四推理俱乐部",
       "type": "movie",
@@ -288,6 +277,17 @@
       "overview": "　　影片改编自理查德·奥斯曼的同名畅销小说，描述四位闲不下来的退休人士认真推敲谋杀悬案解闷，却碰上了真正的命案，侦探游戏突然变成惊悚现实，而他们还得找出凶手是谁。",
       "poster_url": "https://image.tmdb.org/t/p/original/AjcTXiLLuNso2WbZXEaik6i57yP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4XPFKBbqOD1JORF30b9e2qVL0t1.jpg"
+    },
+    {
+      "id": 157239,
+      "title": "异形：地球",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.8,
+      "release_date": "2025-08-12",
+      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKu7x3R3FncoCFyk1fTXvu7xR5a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
       "id": 1151334,
@@ -323,28 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dV1TZIR5UgZZy62taBlMVRbNRYY.jpg"
     },
     {
-      "id": 1175942,
-      "title": "坏蛋联盟2",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.8,
-      "release_date": "2025-07-24",
-      "overview": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
-      "poster_url": "https://image.tmdb.org/t/p/original/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
-    },
-    {
-      "id": 1022787,
-      "title": "地球特派员",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 6.9,
-      "release_date": "2025-06-18",
-      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
-    },
-    {
       "id": 1242011,
       "title": "同甘共苦",
       "type": "movie",
@@ -354,17 +332,6 @@
       "overview": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
       "poster_url": "https://image.tmdb.org/t/p/original/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
-    },
-    {
-      "id": 986056,
-      "title": "雷霆特攻队*",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-04-30",
-      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
     },
     {
       "id": 1078605,
@@ -378,6 +345,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
+      "id": 1022787,
+      "title": "地球特派员",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 6.9,
+      "release_date": "2025-06-18",
+      "overview": "　　埃利奥是一个想象力丰富、痴迷外星人、对太空狂热的孩子，当他被传送到星际组织 \"共融宇宙\"时，他将经历一场史诗般的冒险。埃利奥被误认为是地球的领袖，他必须与古怪的外星生命体建立新的联系，渡过一场星际危机，并以某种方式发现自己真正的身份和位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uMrr3HNsmdhOC2Fb9nZU9aP5EBG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
+    },
+    {
+      "id": 1175942,
+      "title": "坏蛋联盟2",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.8,
+      "release_date": "2025-07-24",
+      "overview": "坏蛋联盟正在努力适应作为好人的新生活，寻求他人的信任和接受，它们被一个全女性阵容的犯罪团体强迫做最后一单生意，不得不脱离退休状态，再次出山重操旧业。",
+      "poster_url": "https://image.tmdb.org/t/p/original/z3d6Jt3XqFMwDQaR2fBgcCOEcSe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
+    },
+    {
+      "id": 986056,
+      "title": "雷霆特攻队*",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-04-30",
+      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
+    },
+    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -389,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 541671,
-      "title": "疾速追杀：芭蕾杀姬",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-06-04",
-      "overview": "父亲惨遭杀害，少女伊芙（安娜·德·阿玛斯 饰）被迫加入杀手组织，在这里她被培养成为一名芭蕾舞者，同时接受了长达12年的魔鬼训练成为了顶级杀手，开启了血刃仇人的杀戮之旅。她不仅要独自一人完成组织下达的死亡任务，还要暗中搜集杀父仇家的信息。随时丧命的极端危险、各方势力的联合围剿，让伊芙的复仇之路艰难无比。同时，她又被传说中的杀手约翰·威克（基努·里维斯 饰）锁定，新老杀神狭路相逢，伊芙必须在被约翰追到之前杀出血路完成复仇。危险的倒计时开始，一场致命厮杀即将拉开血色序幕……",
-      "poster_url": "https://image.tmdb.org/t/p/original/zDlUIGVsRtDQKyIAPNIXZhpobnP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d89vm12F8PsAmG1d9FTRU6lJN4q.jpg"
-    },
-    {
       "id": 127235,
       "title": "Invasion",
       "type": "tv",
@@ -409,6 +398,17 @@
       "overview": "对人类生存构成威胁的外星物种访问地球。身处世界不同角落的五个普通人努力理解自己周围不断发生的混乱状况时，剧集通过他们的视角将各种事件一一实时展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/cKDdeHU8uRn1p8pLCqqFRNKkZGc.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/shs0WhDI7KF7LzUUhWpw0bOpjEp.jpg"
+    },
+    {
+      "id": 541671,
+      "title": "疾速追杀：芭蕾杀姬",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.4,
+      "release_date": "2025-06-04",
+      "overview": "父亲惨遭杀害，少女伊芙（安娜·德·阿玛斯 饰）被迫加入杀手组织，在这里她被培养成为一名芭蕾舞者，同时接受了长达12年的魔鬼训练成为了顶级杀手，开启了血刃仇人的杀戮之旅。她不仅要独自一人完成组织下达的死亡任务，还要暗中搜集杀父仇家的信息。随时丧命的极端危险、各方势力的联合围剿，让伊芙的复仇之路艰难无比。同时，她又被传说中的杀手约翰·威克（基努·里维斯 饰）锁定，新老杀神狭路相逢，伊芙必须在被约翰追到之前杀出血路完成复仇。危险的倒计时开始，一场致命厮杀即将拉开血色序幕……",
+      "poster_url": "https://image.tmdb.org/t/p/original/zDlUIGVsRtDQKyIAPNIXZhpobnP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d89vm12F8PsAmG1d9FTRU6lJN4q.jpg"
     },
     {
       "id": 803796,
