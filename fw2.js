@@ -3962,8 +3962,25 @@ function addToBlockList(tmdbId, mediaType = "movie", title = "", additionalInfo 
 //=============屏蔽管理功能函数=============
 function getBlockedItems() {
   try {
+    console.log("📖 获取屏蔽列表，存储键:", STORAGE_KEY);
+    
+    // 检查Widget.storage是否可用
+    if (typeof Widget === 'undefined' || !Widget.storage) {
+      console.error("❌ Widget.storage API 不可用");
+      return [];
+    }
+    
     const stored = Widget.storage.get(STORAGE_KEY);
-    return stored ? JSON.parse(stored) : [];
+    console.log("📦 原始存储数据:", stored);
+    
+    if (stored) {
+      const parsed = JSON.parse(stored);
+      console.log("📋 解析后的屏蔽列表:", parsed);
+      return parsed;
+    } else {
+      console.log("📭 存储中无数据，返回空数组");
+      return [];
+    }
   } catch (error) {
     console.error("❌ 获取屏蔽列表失败:", error);
     return [];
@@ -3972,8 +3989,24 @@ function getBlockedItems() {
 
 function saveBlockedItems(items) {
   try {
-    Widget.storage.set(STORAGE_KEY, JSON.stringify(items));
+    console.log("💾 开始保存屏蔽列表，项目数:", items.length);
+    console.log("🔑 存储键:", STORAGE_KEY);
+    
+    // 检查Widget.storage是否可用
+    if (typeof Widget === 'undefined' || !Widget.storage) {
+      console.error("❌ Widget.storage API 不可用");
+      return false;
+    }
+    
+    const jsonData = JSON.stringify(items);
+    console.log("📄 JSON数据长度:", jsonData.length);
+    
+    Widget.storage.set(STORAGE_KEY, jsonData);
+    console.log("✅ 存储成功");
+    
     clearBlockedIdCache();
+    console.log("🧹 缓存已清理");
+    
     return true;
   } catch (error) {
     console.error("❌ 保存屏蔽列表失败:", error);
@@ -3982,14 +4015,19 @@ function saveBlockedItems(items) {
 }
 
 function addBlockedItem(item) {
+  console.log("🔍 尝试添加屏蔽项:", item);
+  
   const blockedItems = getBlockedItems();
+  console.log("📋 当前屏蔽列表长度:", blockedItems.length);
   
   const exists = blockedItems.some(blocked => 
     blocked.id === String(item.id) && blocked.media_type === item.media_type
   );
   
+  console.log("🔍 是否已存在:", exists);
+  
   if (!exists) {
-    blockedItems.push({
+    const newItem = {
       id: String(item.id),
       media_type: item.media_type,
       title: item.title,
@@ -3997,11 +4035,17 @@ function addBlockedItem(item) {
       overview: item.overview,
       blocked_date: new Date().toISOString(),
       vote_average: item.vote_average || 0
-    });
+    };
     
-    return saveBlockedItems(blockedItems);
+    blockedItems.push(newItem);
+    console.log("➕ 添加新屏蔽项:", newItem);
+    
+    const saveResult = saveBlockedItems(blockedItems);
+    console.log("💾 保存结果:", saveResult);
+    return saveResult;
   }
   
+  console.log("⚠️ 屏蔽项已存在，跳过添加");
   return false;
 }
 
@@ -4016,7 +4060,7 @@ function removeBlockedItem(id, mediaType) {
 
 function clearBlockedItems() {
   try {
-    Widget.storage.clear();
+    Widget.storage.set(STORAGE_KEY, "[]");
     clearBlockedIdCache();
     return true;
   } catch (error) {
@@ -4828,6 +4872,106 @@ function importBlockingConfigFromJSON(jsonData) {
       error: error.message
     };
   }
+}
+
+// ==============屏蔽系统测试函数=============
+// 测试屏蔽系统是否正常工作
+async function testBlockingSystem() {
+  console.log("🧪 开始测试屏蔽系统...");
+  
+  try {
+    // 1. 测试存储键
+    console.log("🔑 存储键:", STORAGE_KEY);
+    
+    // 2. 测试Widget.storage API
+    if (typeof Widget === 'undefined') {
+      console.error("❌ Widget 对象未定义");
+      return { success: false, error: "Widget 对象未定义" };
+    }
+    
+    if (!Widget.storage) {
+      console.error("❌ Widget.storage API 不可用");
+      return { success: false, error: "Widget.storage API 不可用" };
+    }
+    
+    console.log("✅ Widget.storage API 可用");
+    
+    // 3. 测试基本存储操作
+    const testKey = "test_key";
+    const testValue = "test_value";
+    
+    try {
+      Widget.storage.set(testKey, testValue);
+      console.log("✅ 测试存储成功");
+      
+      const retrieved = Widget.storage.get(testKey);
+      console.log("✅ 测试读取成功:", retrieved);
+      
+      if (retrieved === testValue) {
+        console.log("✅ 存储读取测试通过");
+      } else {
+        console.log("❌ 存储读取测试失败");
+        return { success: false, error: "存储读取测试失败" };
+      }
+    } catch (storageError) {
+      console.error("❌ 存储API测试失败:", storageError);
+      return { success: false, error: "存储API测试失败: " + storageError.message };
+    }
+    
+    // 4. 测试获取空列表
+    const emptyList = getBlockedItems();
+    console.log("📋 初始屏蔽列表:", emptyList);
+    
+    // 5. 测试添加屏蔽项
+    const testItem = {
+      id: "999999",
+      media_type: "movie",
+      title: "测试电影",
+      poster_path: "/test.jpg",
+      overview: "这是一个测试屏蔽项",
+      vote_average: 7.5
+    };
+    
+    console.log("➕ 测试添加屏蔽项:", testItem);
+    const addResult = addBlockedItem(testItem);
+    console.log("✅ 添加结果:", addResult);
+    
+    // 6. 测试获取更新后的列表
+    const updatedList = getBlockedItems();
+    console.log("📋 更新后的屏蔽列表:", updatedList);
+    
+    // 7. 测试检查是否被屏蔽
+    const isBlocked = isItemBlocked(testItem);
+    console.log("🚫 测试项是否被屏蔽:", isBlocked);
+    
+    // 8. 测试移除屏蔽项
+    const removeResult = removeBlockedItem("999999", "movie");
+    console.log("🔓 移除结果:", removeResult);
+    
+    // 9. 测试最终列表
+    const finalList = getBlockedItems();
+    console.log("📋 最终屏蔽列表:", finalList);
+    
+    console.log("🧪 屏蔽系统测试完成");
+    return {
+      success: true,
+      addResult: addResult,
+      removeResult: removeResult,
+      finalCount: finalList.length
+    };
+    
+  } catch (error) {
+    console.error("❌ 屏蔽系统测试失败:", error);
+    return {
+      success: false,
+      error: error.message
+    };
+  }
+}
+
+// 导出测试函数到全局作用域（仅用于调试）
+if (typeof window !== 'undefined') {
+  window.testBlockingSystem = testBlockingSystem;
 }
 
 
