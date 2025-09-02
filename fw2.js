@@ -4974,4 +4974,216 @@ if (typeof window !== 'undefined') {
   window.testBlockingSystem = testBlockingSystem;
 }
 
+// ==============屏蔽系统优化功能=============
+// 1. 搜索历史记录管理
+const SEARCH_HISTORY_KEY = "forward_search_history";
+const MAX_HISTORY_ITEMS = 20;
+
+function addSearchHistory(query) {
+  try {
+    if (!query || query.trim().length === 0) return;
+    
+    const history = getSearchHistory();
+    const trimmedQuery = query.trim();
+    
+    // 移除重复项
+    const filteredHistory = history.filter(item => item.query !== trimmedQuery);
+    
+    // 添加到开头
+    filteredHistory.unshift({
+      query: trimmedQuery,
+      timestamp: new Date().toISOString(),
+      count: 1
+    });
+    
+    // 限制历史记录数量
+    if (filteredHistory.length > MAX_HISTORY_ITEMS) {
+      filteredHistory.splice(MAX_HISTORY_ITEMS);
+    }
+    
+    Widget.storage.set(SEARCH_HISTORY_KEY, JSON.stringify(filteredHistory));
+  } catch (error) {
+    console.warn("⚠️ 保存搜索历史失败:", error);
+  }
+}
+
+function getSearchHistory() {
+  try {
+    const stored = Widget.storage.get(SEARCH_HISTORY_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch (error) {
+    console.warn("⚠️ 获取搜索历史失败:", error);
+    return [];
+  }
+}
+
+function clearSearchHistory() {
+  try {
+    Widget.storage.set(SEARCH_HISTORY_KEY, "[]");
+    return true;
+  } catch (error) {
+    console.warn("⚠️ 清空搜索历史失败:", error);
+    return false;
+  }
+}
+
+// 2. 屏蔽原因标签系统
+const BLOCK_REASONS = {
+  "personal": "个人喜好",
+  "content": "内容质量",
+  "genre": "类型偏好",
+  "rating": "评分过低",
+  "other": "其他原因"
+};
+
+function addBlockedItemWithReason(item, reason = "other") {
+  const blockItem = {
+    ...item,
+    block_reason: reason,
+    blocked_date: new Date().toISOString()
+  };
+  
+  return addBlockedItem(blockItem);
+}
+
+// 3. 智能屏蔽建议
+function getSmartBlockingSuggestions() {
+  const blockedItems = getBlockedItems();
+  const suggestions = [];
+  
+  // 按类型统计
+  const typeStats = {};
+  blockedItems.forEach(item => {
+    const type = item.media_type;
+    typeStats[type] = (typeStats[type] || 0) + 1;
+  });
+  
+  // 按评分统计
+  const ratingStats = {
+    high: blockedItems.filter(item => (item.vote_average || 0) >= 7.0).length,
+    medium: blockedItems.filter(item => (item.vote_average || 0) >= 5.0 && (item.vote_average || 0) < 7.0).length,
+    low: blockedItems.filter(item => (item.vote_average || 0) < 5.0).length
+  };
+  
+  // 生成建议
+  if (typeStats.movie > typeStats.tv) {
+    suggestions.push("您似乎更喜欢屏蔽电影，建议检查是否有特定类型偏好");
+  }
+  
+  if (ratingStats.high > ratingStats.low) {
+    suggestions.push("您屏蔽了很多高分内容，建议重新评估屏蔽标准");
+  }
+  
+  if (blockedItems.length > 50) {
+    suggestions.push("屏蔽列表较长，建议定期清理不需要的屏蔽项");
+  }
+  
+  return suggestions;
+}
+
+// 4. 快速操作函数
+function quickBlockByPattern(pattern, mediaType = "all") {
+  const blockedItems = getBlockedItems();
+  const matches = blockedItems.filter(item => {
+    const title = item.title.toLowerCase();
+    const matchesPattern = title.includes(pattern.toLowerCase());
+    
+    if (mediaType === "all") return matchesPattern;
+    return matchesPattern && item.media_type === mediaType;
+  });
+  
+  return matches;
+}
+
+function quickUnblockByPattern(pattern, mediaType = "all") {
+  const matches = quickBlockByPattern(pattern, mediaType);
+  let successCount = 0;
+  
+  matches.forEach(item => {
+    if (removeBlockedItem(item.id, item.media_type)) {
+      successCount++;
+    }
+  });
+  
+  return {
+    total: matches.length,
+    success: successCount,
+    failed: matches.length - successCount
+  };
+}
+
+// 5. 增强的搜索屏蔽功能
+async function enhancedSearchAndBlock(params) {
+  const action = params.action || "search_and_block";
+  const query = params.query ? params.query.trim() : '';
+  
+  if (query) {
+    // 添加到搜索历史
+    addSearchHistory(query);
+  }
+  
+  // 调用原始函数
+  const result = await searchAndBlock(params);
+  
+  // 添加智能建议
+  if (action === "search_and_block" || action === "search_only") {
+    const suggestions = getSmartBlockingSuggestions();
+    if (suggestions.length > 0) {
+      result.unshift({
+        id: "smart_suggestions",
+        type: "info",
+        title: "💡 智能建议",
+        description: suggestions.join("\n"),
+        posterPath: "",
+        backdropPath: "",
+        rating: 0,
+        mediaType: "info"
+      });
+    }
+  }
+  
+  return result;
+}
+
+// 6. 增强的屏蔽管理功能
+async function enhancedManageBlockedItems(params) {
+  const action = params.action || "view";
+  
+  if (action === "view") {
+    const result = await manageBlockedItems(params);
+    
+    // 添加统计信息
+    const stats = getBlockingStats();
+    const suggestions = getSmartBlockingSuggestions();
+    
+    result.unshift({
+      id: "blocking_stats",
+      type: "info",
+      title: "📊 屏蔽统计",
+      description: `总计: ${stats.total}项 | 电影: ${stats.movies}项 | 剧集: ${stats.tv}项`,
+      posterPath: "",
+      backdropPath: "",
+      rating: 0,
+      mediaType: "info"
+    });
+    
+    if (suggestions.length > 0) {
+      result.unshift({
+        id: "smart_suggestions",
+        type: "info",
+        title: "💡 智能建议",
+        description: suggestions.join("\n"),
+        posterPath: "",
+        backdropPath: "",
+        rating: 0,
+        mediaType: "info"
+      });
+    }
+    
+    return result;
+  }
+  
+  return await manageBlockedItems(params);
+}
+
 
