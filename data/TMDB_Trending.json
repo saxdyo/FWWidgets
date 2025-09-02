@@ -1,17 +1,6 @@
 {
-  "last_updated": "2025-09-02 12:01:11",
+  "last_updated": "2025-09-02 13:01:06",
   "today_global": [
-    {
-      "id": 248833,
-      "title": "青春逃跑计画",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 3.7,
-      "release_date": "2025-09-01",
-      "overview": "《青春逃跑计画》（《Outer Banks》主创新作）讲述了一群刚刚高中毕业的年轻人，为了逃离既定的平庸人生而组建乐队的故事。在这个夏天，他们一边追逐成名机遇和遥不可及的梦想，一边在磕磕绊绊中经历爱情与各种烦恼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r20ZqkpMvxCTRV9ljkUHheG3XYj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ueDDCn1FTkvR3ME8FGf0ccsuPUp.jpg"
-    },
     {
       "id": 1038392,
       "title": "招魂4：终章",
@@ -22,6 +11,17 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/zuespkjm1LdcWFJZvQc4vdUHohh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/29aMn7MwBNZS6tuKDsb2eKLSdHg.jpg"
+    },
+    {
+      "id": 248833,
+      "title": "青春逃跑计画",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 3.7,
+      "release_date": "2025-09-01",
+      "overview": "《青春逃跑计画》（《Outer Banks》主创新作）讲述了一群刚刚高中毕业的年轻人，为了逃离既定的平庸人生而组建乐队的故事。在这个夏天，他们一边追逐成名机遇和遥不可及的梦想，一边在磕磕绊绊中经历爱情与各种烦恼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r20ZqkpMvxCTRV9ljkUHheG3XYj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ueDDCn1FTkvR3ME8FGf0ccsuPUp.jpg"
     },
     {
       "id": 911430,
@@ -57,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
+      "id": 1061474,
+      "title": "超人",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.5,
+      "release_date": "2025-07-09",
+      "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8IyCryRhNLIJfKgwZF6WFnJ7SbO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
+    },
+    {
       "id": 575265,
       "title": "碟中谍8：最终清算",
       "type": "movie",
@@ -66,17 +77,6 @@
       "overview": "超级人工智能“智体”即将引爆全球核弹危机，把世界推向毁灭边缘。而伊森·亨特和他的IMF小队在上次行动中遭遇重创，团队濒临分崩离析。虽然伊森已获得关闭“智体”的钥匙，但要彻底消灭“智体”，完成这一拯救全人类的终极任务，仍需要IMF小队齐心协力突破重重困难。他们不仅要面对全知全能又无影无形的“智体”与其手下盖布瑞尔的百般阻拦，还要解决来自过去的种种恩怨。每个抉择都关乎信念与命运，等待伊森和IMF小队的，究竟是怎样的结局？",
       "poster_url": "https://image.tmdb.org/t/p/original/x5wNw81Rek3lyA4pPEMJheKh6Nb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.5,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
       "id": 541671,
@@ -90,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d89vm12F8PsAmG1d9FTRU6lJN4q.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
+      "id": 1078605,
+      "title": "凶器",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
+      "genreTitle": "恐怖•悬疑",
       "rating": 7.5,
-      "release_date": "2025-07-09",
-      "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8IyCryRhNLIJfKgwZF6WFnJ7SbO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mkXVodQeRdfZnWbhYlN6eRNPx5G.jpg"
     },
     {
       "id": 1355666,
@@ -110,17 +110,6 @@
       "overview": "1998年，19岁的卷发单恋少女朴世莉（申银秀 饰）有了聪明转学生的助攻，下定决心非追到校草不可。",
       "poster_url": "https://image.tmdb.org/t/p/original/twh1r1nhlTgoN0kcy9fFy6UuSCc.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/u0pkWnezF6XxBh9kllBHihLt1hq.jpg"
-    },
-    {
-      "id": 1245993,
-      "title": "偷天盗日",
-      "type": "movie",
-      "genreTitle": "犯罪•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-08-26",
-      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uBctZISsjQwaKRqcoaaNHL96DhR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wvsWjzVEar2NXMX37YVc39PGXxY.jpg"
     },
     {
       "id": 110492,
@@ -145,6 +134,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8jJbUX5LlIy6fk82d7grNFJeorY.jpg"
     },
     {
+      "id": 1242011,
+      "title": "同甘共苦",
+      "type": "movie",
+      "genreTitle": "恐怖•爱情",
+      "rating": 7.2,
+      "release_date": "2025-07-23",
+      "overview": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
+      "poster_url": "https://image.tmdb.org/t/p/original/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
+    },
+    {
       "id": 219760,
       "title": "终极名单：黑狼",
       "type": "tv",
@@ -156,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dV1TZIR5UgZZy62taBlMVRbNRYY.jpg"
     },
     {
-      "id": 986056,
-      "title": "雷霆特攻队",
+      "id": 1245993,
+      "title": "偷天盗日",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-04-30",
-      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
+      "genreTitle": "犯罪•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2025-08-26",
+      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uBctZISsjQwaKRqcoaaNHL96DhR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wvsWjzVEar2NXMX37YVc39PGXxY.jpg"
     },
     {
       "id": 803796,
@@ -178,6 +178,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3aZHMVeLb5z7iHIGyF0tbA1yZJZ.jpg"
     },
     {
+      "id": 986056,
+      "title": "雷霆特攻队",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-04-30",
+      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
+    },
+    {
       "id": 1083433,
       "title": "我知道你去年夏天干了什么",
       "type": "movie",
@@ -187,17 +198,6 @@
       "overview": "重启《我知道你去年夏天干了什么》，由《鬼遮眼》的导演兼编剧迈克·弗拉纳根操刀剧本。\r 若然未报，时辰未到，报应始终会来。五名好友因一时疏忽造成了一起严重车祸，他们决定一起毁尸灭迹掩盖真相。一年后，一个知晓该事件的神秘杀手在暗处伺机夺取他们的生命，而他们发现相似的事件曾在数年前发生过，他们决定向当时的两位幸存者 (詹妮弗·洛芙·休伊特、小弗雷迪·普林兹 饰) 求助。",
       "poster_url": "https://image.tmdb.org/t/p/original/uPHiGV1m1BVOH2NO1OeGwKUejkE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gtD875E9Uu2YwwmiTIMfIh1bgU2.jpg"
-    },
-    {
-      "id": 1242011,
-      "title": "同甘共苦",
-      "type": "movie",
-      "genreTitle": "恐怖•爱情",
-      "rating": 7.2,
-      "release_date": "2025-07-23",
-      "overview": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
-      "poster_url": "https://image.tmdb.org/t/p/original/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
     },
     {
       "id": 37854,
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/16IuvohtrC7HL9Aii0Op5lm1OM0.jpg"
     },
     {
-      "id": 1083433,
-      "title": "我知道你去年夏天干了什么",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•惊悚",
-      "rating": 5.9,
-      "release_date": "2025-07-16",
-      "overview": "重启《我知道你去年夏天干了什么》，由《鬼遮眼》的导演兼编剧迈克·弗拉纳根操刀剧本。\r 若然未报，时辰未到，报应始终会来。五名好友因一时疏忽造成了一起严重车祸，他们决定一起毁尸灭迹掩盖真相。一年后，一个知晓该事件的神秘杀手在暗处伺机夺取他们的生命，而他们发现相似的事件曾在数年前发生过，他们决定向当时的两位幸存者 (詹妮弗·洛芙·休伊特、小弗雷迪·普林兹 饰) 求助。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPHiGV1m1BVOH2NO1OeGwKUejkE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gtD875E9Uu2YwwmiTIMfIh1bgU2.jpg"
-    },
-    {
       "id": 157239,
       "title": "异形：地球",
       "type": "tv",
@@ -279,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
     },
     {
+      "id": 1083433,
+      "title": "我知道你去年夏天干了什么",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•惊悚",
+      "rating": 5.9,
+      "release_date": "2025-07-16",
+      "overview": "重启《我知道你去年夏天干了什么》，由《鬼遮眼》的导演兼编剧迈克·弗拉纳根操刀剧本。\r 若然未报，时辰未到，报应始终会来。五名好友因一时疏忽造成了一起严重车祸，他们决定一起毁尸灭迹掩盖真相。一年后，一个知晓该事件的神秘杀手在暗处伺机夺取他们的生命，而他们发现相似的事件曾在数年前发生过，他们决定向当时的两位幸存者 (詹妮弗·洛芙·休伊特、小弗雷迪·普林兹 饰) 求助。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPHiGV1m1BVOH2NO1OeGwKUejkE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gtD875E9Uu2YwwmiTIMfIh1bgU2.jpg"
+    },
+    {
       "id": 219760,
       "title": "终极名单：黑狼",
       "type": "tv",
@@ -288,6 +288,17 @@
       "overview": "在《终极名单》故事发生之前，海豹突击队员本·爱德华兹（泰勒·克奇饰）踏入了中情局的黑暗战线。当他一步步走入灰色地带，就越发难以抵挡内心日益觉醒的黑暗冲动。每个人体内都住着两头狼——一光一暗，相互争斗。最终胜出的会是哪一头？",
       "poster_url": "https://image.tmdb.org/t/p/original/yStU0C9UaaekNj7SQz79ElUunba.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dV1TZIR5UgZZy62taBlMVRbNRYY.jpg"
+    },
+    {
+      "id": 1242011,
+      "title": "同甘共苦",
+      "type": "movie",
+      "genreTitle": "恐怖•爱情",
+      "rating": 7.2,
+      "release_date": "2025-07-23",
+      "overview": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
+      "poster_url": "https://image.tmdb.org/t/p/original/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
     },
     {
       "id": 575265,
@@ -312,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
     },
     {
-      "id": 1242011,
-      "title": "同甘共苦",
-      "type": "movie",
-      "genreTitle": "恐怖•爱情",
-      "rating": 7.2,
-      "release_date": "2025-07-23",
-      "overview": "　　多年情侣蒂姆和米莉为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村开启全新的二人世界。然而新生活不如想象中那般美好，两人却卷入了一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控制，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……。",
-      "poster_url": "https://image.tmdb.org/t/p/original/j2J7S2JP4Vvma24hBcf0YLAyq13.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
-    },
-    {
       "id": 541671,
       "title": "疾速追杀：芭蕾杀姬",
       "type": "movie",
@@ -334,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d89vm12F8PsAmG1d9FTRU6lJN4q.jpg"
     },
     {
-      "id": 986056,
-      "title": "雷霆特攻队",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-04-30",
-      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
-    },
-    {
       "id": 1038392,
       "title": "招魂4：终章",
       "type": "movie",
@@ -354,6 +343,17 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/zuespkjm1LdcWFJZvQc4vdUHohh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/29aMn7MwBNZS6tuKDsb2eKLSdHg.jpg"
+    },
+    {
+      "id": 986056,
+      "title": "雷霆特攻队",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-04-30",
+      "overview": "在《雷霆特攻队*》电影里，漫威组建了一支非常规的反英雄团队——叶莲娜·贝洛娃、巴基·巴恩斯、红色守卫者、幽灵、模仿大师和约翰·沃克。当他们发现自己陷入了瓦伦蒂娜·阿莱格拉·德拉方丹设置的死亡陷阱后，这些幻想破灭的弃儿必须执行一项危险的任务，这迫使他们将直面过去那些最黑暗的角落。最后他们是会分崩离析，还是会救赎自己并团结起来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zABNaGRml0V1QP4fRNqpXzmN4p4.jpg"
     },
     {
       "id": 1078605,
@@ -378,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3aZHMVeLb5z7iHIGyF0tbA1yZJZ.jpg"
     },
     {
-      "id": 1245993,
-      "title": "偷天盗日",
-      "type": "movie",
-      "genreTitle": "犯罪•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-08-26",
-      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uBctZISsjQwaKRqcoaaNHL96DhR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wvsWjzVEar2NXMX37YVc39PGXxY.jpg"
-    },
-    {
       "id": 119051,
       "title": "Wednesday",
       "type": "tv",
@@ -411,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2muoLb1pZypDPHwcGfuYiaslxqi.jpg"
     },
     {
+      "id": 1245993,
+      "title": "偷天盗日",
+      "type": "movie",
+      "genreTitle": "犯罪•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2025-08-26",
+      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uBctZISsjQwaKRqcoaaNHL96DhR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wvsWjzVEar2NXMX37YVc39PGXxY.jpg"
+    },
+    {
       "id": 1022787,
       "title": "地球特派员",
       "type": "movie",
@@ -422,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
     },
     {
-      "id": 1319969,
-      "title": "素描惊魂",
+      "id": 1355666,
+      "title": "卷卷初恋",
       "type": "movie",
-      "genreTitle": "冒险•奇幻•喜剧",
-      "rating": 7.2,
-      "release_date": "2025-08-06",
-      "overview": "　　当一个小女孩的怪诞涂鸦忽然成真，在混乱与飞扬的蜡笔屑中横冲直撞时，一个被悲痛笼罩的家庭不得不携手对抗这些从画中走出的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/73LxYWrw029v9WvLIMbwzSgOIi4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/51H83Y1QP1CJp9VKjLqo3Gb0E3R.jpg"
+      "genreTitle": "爱情•剧情•喜剧",
+      "rating": 8.2,
+      "release_date": "2025-08-28",
+      "overview": "1998年，19岁的卷发单恋少女朴世莉（申银秀 饰）有了聪明转学生的助攻，下定决心非追到校草不可。",
+      "poster_url": "https://image.tmdb.org/t/p/original/twh1r1nhlTgoN0kcy9fFy6UuSCc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/u0pkWnezF6XxBh9kllBHihLt1hq.jpg"
     },
     {
       "id": 13494,
