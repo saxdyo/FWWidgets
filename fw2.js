@@ -5186,4 +5186,245 @@ async function enhancedManageBlockedItems(params) {
   return await manageBlockedItems(params);
 }
 
+// ==============屏蔽系统诊断工具=============
+// 全面的屏蔽系统诊断功能
+async function diagnoseBlockingSystem() {
+  console.log("🔍 开始全面诊断屏蔽系统...");
+  
+  const diagnosis = {
+    timestamp: new Date().toISOString(),
+    storage: {},
+    functions: {},
+    data: {},
+    recommendations: []
+  };
+  
+  try {
+    // 1. 检查存储API
+    console.log("📋 1. 检查存储API...");
+    if (typeof Widget === 'undefined') {
+      diagnosis.storage.available = false;
+      diagnosis.storage.error = "Widget 对象未定义";
+      diagnosis.recommendations.push("确保脚本在正确的Widget环境中运行");
+    } else if (!Widget.storage) {
+      diagnosis.storage.available = false;
+      diagnosis.storage.error = "Widget.storage API 不可用";
+      diagnosis.recommendations.push("检查Widget环境配置");
+    } else {
+      diagnosis.storage.available = true;
+      diagnosis.storage.methods = Object.keys(Widget.storage);
+      console.log("✅ Widget.storage API 可用，方法:", diagnosis.storage.methods);
+    }
+    
+    // 2. 测试基本存储操作
+    if (diagnosis.storage.available) {
+      console.log("📋 2. 测试基本存储操作...");
+      try {
+        const testKey = "diagnostic_test";
+        const testValue = "test_data_" + Date.now();
+        
+        Widget.storage.set(testKey, testValue);
+        const retrieved = Widget.storage.get(testKey);
+        
+        if (retrieved === testValue) {
+          diagnosis.storage.basicTest = true;
+          console.log("✅ 基本存储操作测试通过");
+        } else {
+          diagnosis.storage.basicTest = false;
+          diagnosis.storage.basicTestError = `存储值不匹配: 期望 ${testValue}, 实际 ${retrieved}`;
+          diagnosis.recommendations.push("存储API可能存在数据一致性问题");
+        }
+        
+        // 清理测试数据
+        Widget.storage.set(testKey, "");
+      } catch (error) {
+        diagnosis.storage.basicTest = false;
+        diagnosis.storage.basicTestError = error.message;
+        diagnosis.recommendations.push("存储API操作失败，检查权限和配置");
+      }
+    }
+    
+    // 3. 检查存储键和常量
+    console.log("📋 3. 检查存储键和常量...");
+    diagnosis.constants = {
+      STORAGE_KEY: STORAGE_KEY,
+      SEARCH_HISTORY_KEY: SEARCH_HISTORY_KEY
+    };
+    console.log("🔑 存储键:", diagnosis.constants);
+    
+    // 4. 测试核心函数
+    console.log("📋 4. 测试核心函数...");
+    
+    // 测试 getBlockedItems
+    try {
+      const blockedItems = getBlockedItems();
+      diagnosis.functions.getBlockedItems = {
+        success: true,
+        result: blockedItems,
+        count: blockedItems.length
+      };
+      console.log("✅ getBlockedItems 函数正常，返回", blockedItems.length, "项");
+    } catch (error) {
+      diagnosis.functions.getBlockedItems = {
+        success: false,
+        error: error.message
+      };
+      diagnosis.recommendations.push("getBlockedItems 函数异常，检查实现");
+    }
+    
+    // 测试 addBlockedItem
+    try {
+      const testItem = {
+        id: "999999",
+        media_type: "movie",
+        title: "诊断测试电影",
+        poster_path: "/test.jpg",
+        overview: "这是一个诊断测试项",
+        vote_average: 7.0
+      };
+      
+      const addResult = addBlockedItem(testItem);
+      diagnosis.functions.addBlockedItem = {
+        success: true,
+        testItem: testItem,
+        result: addResult
+      };
+      console.log("✅ addBlockedItem 函数正常，测试添加结果:", addResult);
+      
+      // 清理测试项
+      removeBlockedItem("999999", "movie");
+    } catch (error) {
+      diagnosis.functions.addBlockedItem = {
+        success: false,
+        error: error.message
+      };
+      diagnosis.recommendations.push("addBlockedItem 函数异常，检查实现");
+    }
+    
+    // 5. 检查实际存储数据
+    console.log("📋 5. 检查实际存储数据...");
+    if (diagnosis.storage.available) {
+      try {
+        const rawData = Widget.storage.get(STORAGE_KEY);
+        diagnosis.data.rawStorage = {
+          exists: rawData !== null && rawData !== undefined,
+          type: typeof rawData,
+          length: rawData ? rawData.length : 0,
+          content: rawData
+        };
+        
+        if (rawData) {
+          try {
+            const parsed = JSON.parse(rawData);
+            diagnosis.data.parsedData = {
+              success: true,
+              type: Array.isArray(parsed) ? "array" : typeof parsed,
+              length: Array.isArray(parsed) ? parsed.length : "N/A",
+              sample: Array.isArray(parsed) && parsed.length > 0 ? parsed[0] : null
+            };
+            console.log("✅ 存储数据解析成功:", diagnosis.data.parsedData);
+          } catch (parseError) {
+            diagnosis.data.parsedData = {
+              success: false,
+              error: parseError.message
+            };
+            diagnosis.recommendations.push("存储数据格式错误，可能需要清理存储");
+          }
+        } else {
+          diagnosis.data.rawStorage.exists = false;
+          console.log("📭 存储中无数据");
+        }
+      } catch (error) {
+        diagnosis.data.storageError = error.message;
+        diagnosis.recommendations.push("读取存储数据失败，检查存储权限");
+      }
+    }
+    
+    // 6. 检查缓存状态
+    console.log("📋 6. 检查缓存状态...");
+    diagnosis.cache = {
+      blockedIdCache: blockedIdCache,
+      cacheCleared: blockedIdCache === null
+    };
+    console.log("🧹 缓存状态:", diagnosis.cache);
+    
+    // 7. 生成诊断报告
+    console.log("📋 7. 生成诊断报告...");
+    
+    // 检查是否有屏蔽项
+    const currentBlockedItems = getBlockedItems();
+    if (currentBlockedItems.length === 0) {
+      diagnosis.recommendations.push("当前没有屏蔽项，请先使用'TMDB 搜索屏蔽'模块添加一些内容");
+    }
+    
+    // 检查函数是否正常工作
+    if (!diagnosis.functions.getBlockedItems?.success) {
+      diagnosis.recommendations.push("核心函数 getBlockedItems 异常，需要修复");
+    }
+    
+    if (!diagnosis.functions.addBlockedItem?.success) {
+      diagnosis.recommendations.push("核心函数 addBlockedItem 异常，需要修复");
+    }
+    
+    // 检查存储API
+    if (!diagnosis.storage.available) {
+      diagnosis.recommendations.push("存储API不可用，这是主要问题");
+    } else if (!diagnosis.storage.basicTest) {
+      diagnosis.recommendations.push("存储API基本测试失败，可能存在配置问题");
+    }
+    
+    console.log("🔍 诊断完成！");
+    console.log("📊 诊断结果:", diagnosis);
+    
+    return diagnosis;
+    
+  } catch (error) {
+    console.error("❌ 诊断过程出错:", error);
+    diagnosis.error = error.message;
+    diagnosis.recommendations.push("诊断过程异常，请检查控制台错误信息");
+    return diagnosis;
+  }
+}
+
+// 快速诊断函数
+function quickDiagnose() {
+  console.log("🔍 快速诊断屏蔽系统...");
+  
+  try {
+    // 检查基本状态
+    const blockedItems = getBlockedItems();
+    console.log("📋 当前屏蔽项数量:", blockedItems.length);
+    
+    if (blockedItems.length === 0) {
+      console.log("📭 屏蔽列表为空");
+      console.log("💡 建议: 使用'TMDB 搜索屏蔽'模块添加一些内容");
+    } else {
+      console.log("✅ 屏蔽列表正常，包含", blockedItems.length, "项");
+      console.log("📋 前3项:", blockedItems.slice(0, 3));
+    }
+    
+    // 检查存储键
+    console.log("🔑 存储键:", STORAGE_KEY);
+    
+    // 检查Widget.storage
+    if (typeof Widget !== 'undefined' && Widget.storage) {
+      console.log("✅ Widget.storage API 可用");
+      
+      const rawData = Widget.storage.get(STORAGE_KEY);
+      console.log("📦 原始存储数据:", rawData ? `存在 (${rawData.length} 字符)` : "不存在");
+    } else {
+      console.log("❌ Widget.storage API 不可用");
+    }
+    
+  } catch (error) {
+    console.error("❌ 快速诊断失败:", error);
+  }
+}
+
+// 导出诊断函数到全局作用域（仅用于调试）
+if (typeof window !== 'undefined') {
+  window.diagnoseBlockingSystem = diagnoseBlockingSystem;
+  window.quickDiagnose = quickDiagnose;
+}
+
 
