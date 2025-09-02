@@ -760,6 +760,140 @@ var WidgetMetadata = {
           ]
         }
       ]
+    },
+
+    // TMDB 搜索屏蔽模块
+    {
+      title: "TMDB 搜索屏蔽",
+      description: "通过影片名称搜索TMDB并自动添加所有结果到黑名单",
+      requiresWebView: false,
+      functionName: "searchAndBlock",
+      cacheDuration: 0,
+      params: [
+        {
+          name: "action",
+          title: "操作类型",
+          type: "enumeration",
+          description: "选择要执行的操作",
+          value: "search",
+          enumOptions: [
+            { title: "搜索并屏蔽", value: "search" },
+            { title: "手动屏蔽", value: "manual" }
+          ]
+        },
+        {
+          name: "query",
+          title: "搜索关键词",
+          type: "text",
+          description: "输入要搜索的影片名称",
+          value: "",
+          required: true,
+          belongTo: {
+            paramName: "action",
+            value: ["search"]
+          }
+        },
+        {
+          name: "language",
+          title: "搜索语言",
+          type: "language",
+          description: "选择搜索语言",
+          value: "zh-CN",
+          belongTo: {
+            paramName: "action",
+            value: ["search"]
+          }
+        },
+        {
+          name: "tmdb_id",
+          title: "TMDB ID",
+          type: "text",
+          description: "输入要屏蔽的TMDB ID",
+          value: "",
+          required: true,
+          belongTo: {
+            paramName: "action",
+            value: ["manual"]
+          }
+        },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择媒体类型",
+          value: "movie",
+          belongTo: {
+            paramName: "action",
+            value: ["manual"]
+          },
+          enumOptions: [
+            { title: "电影", value: "movie" },
+            { title: "剧集", value: "tv" }
+          ]
+        }
+      ]
+    },
+
+    // TMDB 屏蔽管理模块
+    {
+      title: "TMDB 屏蔽管理",
+      description: "查看和管理已屏蔽的内容",
+      requiresWebView: false,
+      functionName: "manageBlockedItems",
+      cacheDuration: 0,
+      params: [
+        {
+          name: "action",
+          title: "管理操作",
+          type: "enumeration",
+          description: "选择要执行的管理操作",
+          value: "view",
+          enumOptions: [
+            { title: "查看屏蔽列表", value: "view" },
+            { title: "取消屏蔽", value: "unblock" },
+            { title: "清空屏蔽列表", value: "clear" },
+            { title: "导出屏蔽列表", value: "export" },
+            { title: "导入屏蔽列表", value: "import" }
+          ]
+        },
+        {
+          name: "unblock_id",
+          title: "取消屏蔽ID",
+          type: "text",
+          description: "输入要取消屏蔽的TMDB ID",
+          value: "",
+          belongTo: {
+            paramName: "action",
+            value: ["unblock"]
+          }
+        },
+        {
+          name: "unblock_media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择要取消屏蔽的媒体类型",
+          value: "movie",
+          belongTo: {
+            paramName: "action",
+            value: ["unblock"]
+          },
+          enumOptions: [
+            { title: "电影", value: "movie" },
+            { title: "剧集", value: "tv" }
+          ]
+        },
+        {
+          name: "import_data",
+          title: "导入数据",
+          type: "text",
+          description: "粘贴要导入的屏蔽列表数据（JSON格式）",
+          value: "",
+          belongTo: {
+            paramName: "action",
+            value: ["import"]
+          }
+        }
+      ]
     }
   ]
 };
@@ -1155,7 +1289,7 @@ function getBeijingDate() {
 async function fetchTmdbData(api, params) {
     const data = await Widget.tmdb.get(api, { params: params });
 
-    return data.results
+    const results = data.results
         .filter((item) => {
             return item.poster_path &&
                    item.id &&
@@ -1180,6 +1314,11 @@ async function fetchTmdbData(api, params) {
                 genreTitle: genreTitle
             };
         });
+
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+    
+    return filteredResults;
 }
 
 // 主要功能函数
@@ -1301,11 +1440,14 @@ async function loadTmdbTrendingWithAPI(params = {}) {
       });
     }
 
+    // 应用屏蔽过滤
+    results = filterBlockedItems(results);
+    
     // 限制返回数量
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
-    console.log(`✅ TMDB API加载成功: ${results.length}项`);
+    console.log(`✅ TMDB API加载成功: ${results.length}项 (已过滤屏蔽内容)`);
     return results;
 
   } catch (error) {
@@ -1398,10 +1540,14 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       });
     }
 
+    // 应用屏蔽过滤
+    widgetItems = filterBlockedItems(widgetItems);
+    
     // 限制结果数量
     widgetItems = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, widgetItems);
+    console.log(`✅ 预处理数据加载成功: ${widgetItems.length}项 (已过滤屏蔽内容)`);
     return widgetItems;
 
   } catch (error) {
@@ -1592,9 +1738,12 @@ async function loadImdbAnimeModule(params = {}) {
       console.log(`🎬 [DEBUG] 第一个最终item:`, widgetItems[0]);
     }
 
-    setCachedData(cacheKey, widgetItems);
-    console.log(`✅ IMDb动画模块加载成功: ${widgetItems.length}项`);
-    return widgetItems;
+    // 应用屏蔽过滤
+    const filteredItems = filterBlockedItems(widgetItems);
+    
+    setCachedData(cacheKey, filteredItems);
+    console.log(`✅ IMDb动画模块加载成功: ${filteredItems.length}项 (已过滤屏蔽内容)`);
+    return filteredItems;
     
   } catch (error) {
     console.error("❌ [DEBUG] IMDb动画模块加载失败:", error);
@@ -1665,9 +1814,12 @@ async function loadDoubanChineseTVList(params = {}) {
       };
     }).filter(item => item.title && item.title.trim().length > 0);
 
-    console.log(`✅ 豆瓣国产剧集加载成功: ${results.length}项`);
-    setCachedData(cacheKey, results);
-    return results;
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+    
+    console.log(`✅ 豆瓣国产剧集加载成功: ${filteredResults.length}项 (已过滤屏蔽内容)`);
+    setCachedData(cacheKey, filteredResults);
+    return filteredResults;
 
   } catch (error) {
     console.error("❌ 豆瓣国产剧集加载失败:", error);
@@ -1723,7 +1875,10 @@ async function loadTMDBChineseTVFallback(params = {}) {
       };
     }).filter(item => item.title && item.title.trim().length > 0);
 
-    return results;
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+    
+    return filteredResults;
   } catch (error) {
     console.error("❌ TMDB中国剧集回退也失败:", error);
     return [];
@@ -1853,9 +2008,12 @@ async function loadDoubanStyleList(params = {}) {
       };
     }).filter(item => item.title && item.title.trim().length > 0);
 
-    console.log(`✅ 豆瓣风格片单加载成功: ${results.length}项`);
-    setCachedData(cacheKey, results);
-    return results;
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+    
+    console.log(`✅ 豆瓣风格片单加载成功: ${filteredResults.length}项 (已过滤屏蔽内容)`);
+    setCachedData(cacheKey, filteredResults);
+    return filteredResults;
 
   } catch (error) {
     console.error("❌ 豆瓣风格片单加载失败:", error);
@@ -2171,7 +2329,11 @@ async function loadTmdbByCompany(params = {}) {
         .slice(0, CONFIG.MAX_ITEMS);
     }
     
+    // 应用屏蔽过滤
+    results = filterBlockedItems(results);
+    
     setCachedData(cacheKey, results);
+    console.log(`✅ TMDB出品公司加载成功: ${results.length}项 (已过滤屏蔽内容)`);
     return results;
     
   } catch (error) {
@@ -2268,8 +2430,12 @@ async function loadTmdbMediaRanking(params = {}) {
     
     const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
-    setCachedData(cacheKey, results);
-    return results;
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+    
+    setCachedData(cacheKey, filteredResults);
+    console.log(`✅ TMDB影视榜单加载成功: ${filteredResults.length}项 (已过滤屏蔽内容)`);
+    return filteredResults;
 
   } catch (error) {
     console.error("TMDB影视榜单加载失败:", error);
@@ -2426,10 +2592,13 @@ async function loadTmdbByTheme(params = {}) {
     
     const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
 
-    console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
 
-    setCachedData(cacheKey, results);
-    return results;
+    console.log(`✅ 成功处理主题分类数据: ${filteredResults.length} 条 (已过滤屏蔽内容)`);
+
+    setCachedData(cacheKey, filteredResults);
+    return filteredResults;
 
   } catch (error) {
     console.error("❌ TMDB主题分类加载失败:", error);
@@ -2519,8 +2688,11 @@ async function loadThemeFallback(params = {}) {
     
     const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
 
-    console.log("✅ 备用方案成功处理数据:", results.length, "条");
-    return results;
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+
+    console.log("✅ 备用方案成功处理数据:", filteredResults.length, "条 (已过滤屏蔽内容)");
+    return filteredResults;
 
   } catch (error) {
     console.error("❌ 主题分类备用数据加载失败:", error);
@@ -2654,8 +2826,11 @@ function generateThemeFallbackData(theme) {
     return widgetItem;
   });
 
-  console.log(`✅ 本地主题分类数据生成完成: ${results.length} 条`);
-  return results;
+  // 应用屏蔽过滤
+  const filteredResults = filterBlockedItems(results);
+  
+  console.log(`✅ 本地主题分类数据生成完成: ${filteredResults.length} 条 (已过滤屏蔽内容)`);
+  return filteredResults;
 }
 
 // 6. 🎨 TMDB背景图数据包
@@ -2844,10 +3019,13 @@ async function loadTmdbBackdropData(params = {}) {
       return widgetItem;
     });
 
-    console.log(`✅ 成功加载 ${results.length} 个背景图项目 (数据源: ${data_source}, 尺寸: ${backdrop_size})`);
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
     
-    setCachedData(cacheKey, results);
-    return results;
+    console.log(`✅ 成功加载 ${filteredResults.length} 个背景图项目 (数据源: ${data_source}, 尺寸: ${backdrop_size}, 已过滤屏蔽内容)`);
+    
+    setCachedData(cacheKey, filteredResults);
+    return filteredResults;
 
   } catch (error) {
     console.error("TMDB背景图数据包加载失败:", error);
@@ -2878,7 +3056,7 @@ async function loadTmdbBackdropData(params = {}) {
 
 // 生成后备数据的辅助函数
 function generateFallbackData() {
-  return [
+  const fallbackData = [
     {
       id: 1,
       title: "示例电影",
@@ -2897,9 +3075,688 @@ function generateFallbackData() {
       hasBackdrop: true
     }
   ];
+
+  // 应用屏蔽过滤
+  const filteredData = filterBlockedItems(fallbackData);
+  
+  return filteredData;
 }
 
 // ==================== 新增模块加载函数 ====================
+
+// ===============屏蔽配置===============
+const STORAGE_KEY = "tmdb_blocked_items";
+
+// 获取屏蔽ID集合（带缓存）
+let blockedIdCache = null;
+function getBlockedIdSet() {
+  if (blockedIdCache === null) {
+    try {
+      const blockedItems = Widget.storage.get(STORAGE_KEY) || [];
+      blockedIdCache = new Set(blockedItems.map(item => `${item.id}_${item.mediaType}`));
+    } catch (error) {
+      console.error("获取屏蔽列表失败:", error);
+      blockedIdCache = new Set();
+    }
+  }
+  return blockedIdCache;
+}
+
+// 清除屏蔽ID缓存
+function clearBlockedIdCache() {
+  blockedIdCache = null;
+}
+
+// 检查项目是否被屏蔽
+function isItemBlocked(item) {
+  if (!item || !item.id) return false;
+  const blockedSet = getBlockedIdSet();
+  return blockedSet.has(`${item.id}_${item.mediaType || 'movie'}`);
+}
+
+// 过滤屏蔽的项目
+function filterBlockedItems(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter(item => !isItemBlocked(item));
+}
+
+// 添加到屏蔽列表
+function addToBlockList(tmdbId, mediaType, title, additionalInfo = {}) {
+  try {
+    const blockedItems = Widget.storage.get(STORAGE_KEY) || [];
+    const newItem = {
+      id: tmdbId,
+      mediaType: mediaType,
+      title: title,
+      addedAt: new Date().toISOString(),
+      ...additionalInfo
+    };
+    
+    // 检查是否已存在
+    const exists = blockedItems.some(item => 
+      item.id === tmdbId && item.mediaType === mediaType
+    );
+    
+    if (!exists) {
+      blockedItems.push(newItem);
+      Widget.storage.set(STORAGE_KEY, blockedItems);
+      clearBlockedIdCache();
+      console.log(`✅ 已添加 ${title} (${mediaType}:${tmdbId}) 到屏蔽列表`);
+      return true;
+    } else {
+      console.log(`⚠️ ${title} (${mediaType}:${tmdbId}) 已在屏蔽列表中`);
+      return false;
+    }
+  } catch (error) {
+    console.error("添加屏蔽项目失败:", error);
+    return false;
+  }
+}
+
+// =============屏蔽管理功能函数=============
+
+// 获取屏蔽项目列表
+function getBlockedItems() {
+  try {
+    return Widget.storage.get(STORAGE_KEY) || [];
+  } catch (error) {
+    console.error("获取屏蔽项目失败:", error);
+    return [];
+  }
+}
+
+// 保存屏蔽项目列表
+function saveBlockedItems(items) {
+  try {
+    Widget.storage.set(STORAGE_KEY, items);
+    clearBlockedIdCache();
+    return true;
+  } catch (error) {
+    console.error("保存屏蔽项目失败:", error);
+    return false;
+  }
+}
+
+// 添加屏蔽项目
+function addBlockedItem(item) {
+  try {
+    const blockedItems = getBlockedItems();
+    blockedItems.push(item);
+    return saveBlockedItems(blockedItems);
+  } catch (error) {
+    console.error("添加屏蔽项目失败:", error);
+    return false;
+  }
+}
+
+// 移除屏蔽项目
+function removeBlockedItem(id, mediaType) {
+  try {
+    const blockedItems = getBlockedItems();
+    const filtered = blockedItems.filter(item => 
+      !(item.id === id && item.mediaType === mediaType)
+    );
+    return saveBlockedItems(filtered);
+  } catch (error) {
+    console.error("移除屏蔽项目失败:", error);
+    return false;
+  }
+}
+
+// 清空屏蔽列表
+function clearBlockedItems() {
+  try {
+    Widget.storage.clear(STORAGE_KEY);
+    clearBlockedIdCache();
+    return true;
+  } catch (error) {
+    console.error("清空屏蔽列表失败:", error);
+    return false;
+  }
+}
+
+// TMDB搜索函数
+async function searchTMDB(query, language = "zh-CN") {
+  try {
+    const response = await Widget.http.get({
+      url: `https://api.themoviedb.org/3/search/multi`,
+      params: {
+        api_key: CONFIG.API_KEY,
+        query: query,
+        language: language,
+        include_adult: false
+      },
+      timeout: CONFIG.NETWORK_TIMEOUT
+    });
+
+    if (response.data && response.data.results) {
+      return response.data.results.filter(item => 
+        item.media_type === 'movie' || item.media_type === 'tv'
+      );
+    }
+    return [];
+  } catch (error) {
+    console.error("TMDB搜索失败:", error);
+    return [];
+  }
+}
+
+// TMDB搜索屏蔽主函数
+async function searchAndBlock(params = {}) {
+  const { action, query, language, tmdb_id, media_type } = params;
+  
+  try {
+    if (action === "search") {
+      if (!query || query.trim() === "") {
+        return [{
+          id: "error",
+          type: "error",
+          title: "搜索失败",
+          genreTitle: "错误",
+          rating: 0,
+          description: "请输入搜索关键词",
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+
+      console.log(`🔍 搜索TMDB: ${query} (语言: ${language})`);
+      const searchResults = await searchTMDB(query, language);
+      
+      if (searchResults.length === 0) {
+        return [{
+          id: "no_results",
+          type: "info",
+          title: "无搜索结果",
+          genreTitle: "信息",
+          rating: 0,
+          description: `未找到与"${query}"相关的影视内容`,
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "info",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+
+      // 自动添加所有搜索结果到屏蔽列表
+      let blockedCount = 0;
+      searchResults.forEach(item => {
+        const success = addToBlockList(
+          item.id, 
+          item.media_type, 
+          item.title || item.name,
+          {
+            overview: item.overview,
+            releaseDate: item.release_date || item.first_air_date,
+            rating: item.vote_average,
+            popularity: item.popularity
+          }
+        );
+        if (success) blockedCount++;
+      });
+
+      // 返回搜索结果和屏蔽状态
+      const results = searchResults.map(item => {
+        const posterPath = item.poster_path ? 
+          `https://image.tmdb.org/t/p/w500${item.poster_path}` : "";
+        
+        return {
+          id: item.id,
+          type: "movie",
+          title: item.title || item.name,
+          genreTitle: `${item.media_type === 'movie' ? '电影' : 'TV剧'} · ${item.release_date || item.first_air_date || 'N/A'}`,
+          rating: item.vote_average || 0,
+          description: item.overview || "暂无简介",
+          releaseDate: item.release_date || item.first_air_date || "",
+          posterPath: posterPath,
+          coverUrl: posterPath,
+          backdropPath: posterPath,
+          mediaType: item.media_type || "movie",
+          popularity: item.popularity || 0,
+          voteCount: item.vote_count || 0,
+          link: `block://${item.id}_${item.media_type}`,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: [],
+          // 屏蔽状态
+          isBlocked: true,
+          blockedAt: new Date().toISOString(),
+          blockStatus: `✅ 已自动屏蔽 (共屏蔽 ${blockedCount} 项)`
+        };
+      });
+
+      console.log(`✅ 搜索完成，共找到 ${searchResults.length} 项，已屏蔽 ${blockedCount} 项`);
+      return results;
+
+    } else if (action === "manual") {
+      if (!tmdb_id || !media_type) {
+        return [{
+          id: "error",
+          type: "error",
+          title: "手动屏蔽失败",
+          genreTitle: "错误",
+          rating: 0,
+          description: "请输入TMDB ID和媒体类型",
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+
+      // 手动添加指定ID到屏蔽列表
+      const success = addToBlockList(tmdb_id, media_type, `手动屏蔽项目 (${media_type}:${tmdb_id})`);
+      
+      return [{
+        id: "manual_block",
+        type: "info",
+        title: "手动屏蔽完成",
+        genreTitle: "信息",
+        rating: 0,
+        description: success ? 
+          `已成功屏蔽 ${media_type}:${tmdb_id}` : 
+          `屏蔽失败或项目已存在`,
+        releaseDate: "",
+        posterPath: "",
+        coverUrl: "",
+        backdropPath: "",
+        mediaType: "info",
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        blockStatus: success ? "✅ 屏蔽成功" : "❌ 屏蔽失败"
+      }];
+    }
+
+  } catch (error) {
+    console.error("搜索屏蔽操作失败:", error);
+    return [{
+      id: "error",
+      type: "error",
+      title: "操作失败",
+      genreTitle: "错误",
+      rating: 0,
+      description: `操作执行失败: ${error.message}`,
+      releaseDate: "",
+      posterPath: "",
+      coverUrl: "",
+      backdropPath: "",
+      mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+    }];
+  }
+}
+
+// TMDB屏蔽管理主函数
+async function manageBlockedItems(params = {}) {
+  const { action, unblock_id, unblock_media_type, import_data } = params;
+  
+  try {
+    if (action === "view") {
+      const blockedItems = getBlockedItems();
+      
+      if (blockedItems.length === 0) {
+        return [{
+          id: "no_blocked",
+          type: "info",
+          title: "屏蔽列表为空",
+          genreTitle: "信息",
+          rating: 0,
+          description: "当前没有屏蔽任何影视内容",
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "info",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+
+      // 返回屏蔽项目列表
+      const results = blockedItems.map(item => {
+        const posterPath = item.posterPath || "";
+        
+        return {
+          id: item.id,
+          type: "movie",
+          title: item.title || `屏蔽项目 (${item.mediaType}:${item.id})`,
+          genreTitle: `${item.mediaType === 'movie' ? '电影' : 'TV剧'} · 屏蔽于 ${new Date(item.addedAt).toLocaleDateString()}`,
+          rating: item.rating || 0,
+          description: item.overview || "已屏蔽的影视内容",
+          releaseDate: item.releaseDate || "",
+          posterPath: posterPath,
+          coverUrl: posterPath,
+          backdropPath: posterPath,
+          mediaType: item.mediaType || "movie",
+          popularity: item.popularity || 0,
+          voteCount: 0,
+          link: `unblock://${item.id}_${item.mediaType}`,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: [],
+          // 屏蔽信息
+          isBlocked: true,
+          blockedAt: item.addedAt,
+          blockStatus: "🔒 已屏蔽"
+        };
+      });
+
+      console.log(`✅ 显示屏蔽列表，共 ${blockedItems.length} 项`);
+      return results;
+
+    } else if (action === "unblock") {
+      if (!unblock_id || !unblock_media_type) {
+        return [{
+          id: "error",
+          type: "error",
+          title: "取消屏蔽失败",
+          genreTitle: "错误",
+          rating: 0,
+          description: "请输入要取消屏蔽的ID和媒体类型",
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+
+      const success = removeBlockedItem(unblock_id, unblock_media_type);
+      
+      return [{
+        id: "unblock_result",
+        type: "info",
+        title: "取消屏蔽完成",
+        genreTitle: "信息",
+        rating: 0,
+        description: success ? 
+          `已成功取消屏蔽 ${unblock_media_type}:${unblock_id}` : 
+          `取消屏蔽失败`,
+        releaseDate: "",
+        posterPath: "",
+        coverUrl: "",
+        backdropPath: "",
+        mediaType: "info",
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        blockStatus: success ? "✅ 取消屏蔽成功" : "❌ 取消屏蔽失败"
+      }];
+
+    } else if (action === "clear") {
+      const success = clearBlockedItems();
+      
+      return [{
+        id: "clear_result",
+        type: "info",
+        title: "清空屏蔽列表完成",
+        genreTitle: "信息",
+        rating: 0,
+        description: success ? 
+          "已成功清空所有屏蔽项目" : 
+          "清空操作失败",
+        releaseDate: "",
+        posterPath: "",
+        coverUrl: "",
+        backdropPath: "",
+        mediaType: "info",
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        blockStatus: success ? "✅ 清空成功" : "❌ 清空失败"
+      }];
+
+    } else if (action === "export") {
+      const blockedItems = getBlockedItems();
+      const exportData = JSON.stringify(blockedItems, null, 2);
+      
+      return [{
+        id: "export_result",
+        type: "info",
+        title: "导出屏蔽列表完成",
+        genreTitle: "信息",
+        rating: 0,
+        description: `已导出 ${blockedItems.length} 项屏蔽数据，请复制以下内容：\n\n${exportData}`,
+        releaseDate: "",
+        posterPath: "",
+        coverUrl: "",
+        backdropPath: "",
+        mediaType: "info",
+        popularity: 0,
+        voteCount: 0,
+        link: null,
+        duration: 0,
+        durationText: "",
+        episode: 0,
+        childItems: [],
+        exportData: exportData,
+        blockStatus: `📤 导出完成 (${blockedItems.length} 项)`
+      }];
+
+    } else if (action === "import") {
+      if (!import_data || import_data.trim() === "") {
+        return [{
+          id: "error",
+          type: "error",
+          title: "导入失败",
+          genreTitle: "错误",
+          rating: 0,
+          description: "请输入要导入的屏蔽列表数据",
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+
+      try {
+        const importItems = JSON.parse(import_data);
+        if (!Array.isArray(importItems)) {
+          throw new Error("导入数据格式错误，应为数组");
+        }
+
+        // 验证数据格式
+        const validItems = importItems.filter(item => 
+          item.id && item.mediaType && item.title
+        );
+
+        if (validItems.length === 0) {
+          throw new Error("没有有效的屏蔽项目数据");
+        }
+
+        // 导入数据
+        const existingItems = getBlockedItems();
+        const mergedItems = [...existingItems];
+        
+        validItems.forEach(item => {
+          const exists = mergedItems.some(existing => 
+            existing.id === item.id && existing.mediaType === item.mediaType
+          );
+          if (!exists) {
+            mergedItems.push({
+              ...item,
+              addedAt: item.addedAt || new Date().toISOString()
+            });
+          }
+        });
+
+        const success = saveBlockedItems(mergedItems);
+        
+        return [{
+          id: "import_result",
+          type: "info",
+          title: "导入屏蔽列表完成",
+          genreTitle: "信息",
+          rating: 0,
+          description: success ? 
+            `成功导入 ${validItems.length} 项屏蔽数据，当前共 ${mergedItems.length} 项` : 
+            "导入操作失败",
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "info",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: [],
+          importCount: validItems.length,
+          totalCount: mergedItems.length,
+          blockStatus: success ? `📥 导入成功 (${validItems.length} 项)` : "❌ 导入失败"
+        }];
+
+      } catch (parseError) {
+        return [{
+          id: "import_error",
+          type: "error",
+          title: "导入失败",
+          genreTitle: "错误",
+          rating: 0,
+          description: `数据格式错误: ${parseError.message}`,
+          releaseDate: "",
+          posterPath: "",
+          coverUrl: "",
+          backdropPath: "",
+          mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+        }];
+      }
+    }
+
+  } catch (error) {
+    console.error("屏蔽管理操作失败:", error);
+    return [{
+      id: "error",
+      type: "error",
+      title: "操作失败",
+      genreTitle: "错误",
+      rating: 0,
+      description: `操作执行失败: ${error.message}`,
+      releaseDate: "",
+      posterPath: "",
+      coverUrl: "",
+          backdropPath: "",
+          mediaType: "error",
+          popularity: 0,
+          voteCount: 0,
+          link: null,
+          duration: 0,
+          durationText: "",
+          episode: 0,
+          childItems: []
+    }];
+  }
+}
+
+// 处理详情链接的辅助函数
+function loadDetail(link) {
+  if (link && link.startsWith("block://")) {
+    // 处理屏蔽链接
+    const parts = link.replace("block://", "").split("_");
+    if (parts.length === 2) {
+      const [id, mediaType] = parts;
+      console.log(`🔒 处理屏蔽链接: ${mediaType}:${id}`);
+      // 这里可以添加更多处理逻辑
+      return {
+        id: id,
+        mediaType: mediaType,
+        action: "block",
+        message: `已屏蔽 ${mediaType}:${id}`
+      };
+    }
+  } else if (link && link.startsWith("unblock://")) {
+    // 处理取消屏蔽链接
+    const parts = link.replace("unblock://", "").split("_");
+    if (parts.length === 2) {
+      const [id, mediaType] = parts;
+      console.log(`🔓 处理取消屏蔽链接: ${mediaType}:${id}`);
+      // 这里可以添加更多处理逻辑
+      return {
+        id: id,
+        mediaType: mediaType,
+        action: "unblock",
+        message: `已取消屏蔽 ${mediaType}:${id}`
+      };
+    }
+  }
+  return null;
+}
 
 
 
@@ -2976,9 +3833,12 @@ async function loadImdbMovieListModule(params = {}) {
 
     const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
-    setCachedData(cacheKey, results);
-    console.log(`✅ 影视榜单加载成功: ${results.length}项`);
-    return results;
+    // 应用屏蔽过滤
+    const filteredResults = filterBlockedItems(results);
+    
+    setCachedData(cacheKey, filteredResults);
+    console.log(`✅ 影视榜单加载成功: ${filteredResults.length}项 (已过滤屏蔽内容)`);
+    return filteredResults;
     
   } catch (error) {
     console.error("影视榜单加载失败:", error);
