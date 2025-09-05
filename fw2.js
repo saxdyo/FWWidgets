@@ -259,7 +259,7 @@ var WidgetMetadata = {
       title: "TMDB 预处理背景",
       description: "预处理数据背景图版本",
       requiresWebView: false,
-      functionName: "loadTmdbTrending",
+      functionName: "loadTmdbTrendingBackground",
       cacheDuration: 3600,
       params: [
         {
@@ -1297,7 +1297,7 @@ var WidgetMetadata = {
           name: "value",
           title: "屏蔽值",
           type: "text",
-          description: "输入要屏蔽的内容（评分和年份范围请使用JSON格式，如：{\"min\": 0, \"max\": 5}）",
+          description: "输入要屏蔽的内容（评分和年份范围请使用JSON格式，如：{min: 0, max: 5}）",
           value: ""
         }
       ]
@@ -4260,6 +4260,11 @@ async function importBlockingConfig(params = {}) {
     console.error("❌ 导入屏蔽配置失败:", error);
     throw error;
   }
+}
+
+// TMDB预处理背景版本（与loadTmdbTrending相同，但用于背景图模块）
+async function loadTmdbTrendingBackground(params = {}) {
+  return await loadTmdbTrending(params);
 }
 
 
