@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-05 23:01:01",
+  "last_updated": "2025-09-06 00:01:18",
   "today_global": [
     {
       "id": 1242434,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/29aMn7MwBNZS6tuKDsb2eKLSdHg.jpg"
     },
     {
-      "id": 253941,
-      "title": "报社",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 6.4,
-      "release_date": "2025-09-04",
-      "overview": "曾记录登德米福林斯克兰顿分部的摄制组正在寻找新的拍摄对象，结果发现了一家历史悠久的中西部报社，以及正努力重振报业的出版人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ms7LHYbtl7bH7UHX2SkWh6UQ7f3.jpg"
-    },
-    {
       "id": 119051,
       "title": "Wednesday",
       "type": "tv",
@@ -44,6 +33,17 @@
       "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/pPqyWNopqeDlZxFKMBNl2A4nvSM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
+    },
+    {
+      "id": 253941,
+      "title": "报社",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 6.4,
+      "release_date": "2025-09-04",
+      "overview": "曾记录登德米福林斯克兰顿分部的摄制组正在寻找新的拍摄对象，结果发现了一家历史悠久的中西部报社，以及正努力重振报业的出版人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ms7LHYbtl7bH7UHX2SkWh6UQ7f3.jpg"
     },
     {
       "id": 1035259,
@@ -68,28 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5LoqCXmirTselbWReHqHrvr2Riv.jpg"
     },
     {
-      "id": 1007734,
-      "title": "小人物2",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.2,
-      "release_date": "2025-08-13",
-      "overview": "　　昔日“小人物”哈奇携妻小赴偏远小镇度假，却被恶警与黑帮围剿。枪火惊梦，全家被迫联手反击。在枪火与尖叫交织的旋转木马上，哈奇终于明白：真正的“退休”不是金盆洗手，而是让家人活下来的那一刻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qLndYGKEBD4dZAOtgoC7BDElA8j.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
-    },
-    {
-      "id": 110492,
-      "title": "和平使者",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2022-01-13",
-      "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
-    },
-    {
       "id": 541671,
       "title": "疾速追杀：芭蕾杀姬",
       "type": "movie",
@@ -112,6 +90,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
     },
     {
+      "id": 110492,
+      "title": "和平使者",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2022-01-13",
+      "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
+    },
+    {
+      "id": 1007734,
+      "title": "小人物2",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
+      "release_date": "2025-08-13",
+      "overview": "　　昔日“小人物”哈奇携妻小赴偏远小镇度假，却被恶警与黑帮围剿。枪火惊梦，全家被迫联手反击。在枪火与尖叫交织的旋转木马上，哈奇终于明白：真正的“退休”不是金盆洗手，而是让家人活下来的那一刻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qLndYGKEBD4dZAOtgoC7BDElA8j.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
+    },
+    {
       "id": 911430,
       "title": "F1：狂飙飞车",
       "type": "movie",
@@ -121,6 +121,17 @@
       "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
       "poster_url": "https://image.tmdb.org/t/p/original/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
+    },
+    {
+      "id": 157239,
+      "title": "异形：地球",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.7,
+      "release_date": "2025-08-12",
+      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKu7x3R3FncoCFyk1fTXvu7xR5a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
       "id": 247732,
@@ -134,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2QsxHNhyl0YEGZYLVj1U0ToaktA.jpg"
     },
     {
-      "id": 157239,
-      "title": "异形：地球",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.7,
-      "release_date": "2025-08-12",
-      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hKu7x3R3FncoCFyk1fTXvu7xR5a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
-    },
-    {
       "id": 1061474,
       "title": "超人",
       "type": "movie",
@@ -154,17 +154,6 @@
       "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
       "poster_url": "https://image.tmdb.org/t/p/original/nMINzENxx1VNCjhFWe61PSTt9HT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
-    },
-    {
-      "id": 1234821,
-      "title": "侏罗纪世界：重生",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.4,
-      "release_date": "2025-07-01",
-      "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
     },
     {
       "id": 1404864,
@@ -178,6 +167,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gLYnGuGs0ihQLfqUrZMXcWHdpK7.jpg"
     },
     {
+      "id": 1234821,
+      "title": "侏罗纪世界：重生",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.4,
+      "release_date": "2025-07-01",
+      "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
+    },
+    {
       "id": 93740,
       "title": "Foundation",
       "type": "tv",
@@ -187,17 +187,6 @@
       "overview": "故事设定于虚构的未来，人类散布在银河系中的各个星球，但都从属于银河帝国(Galactic Empire)的统治之下，一位心理史学家却给出一个预言：帝国即将分崩离析，文明将会灰飞烟灭，为了维系人类这个族群，他不得不行动起来。",
       "poster_url": "https://image.tmdb.org/t/p/original/kNYbxPW4opiaPJuonbgfFKUzMOg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kpZr075vetnMsOpJMzjPTBSp8h8.jpg"
-    },
-    {
-      "id": 1540604,
-      "title": "纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会",
-      "type": "movie",
-      "genreTitle": "纪录",
-      "rating": 7.8,
-      "release_date": "2025-09-03",
-      "overview": "2025年9月3日上午，在首都天安门广场将举行盛大阅兵，中共中央总书记、国家主席、中央军委主席习近平将出席纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会并发表重要讲话。此次阅兵不再组织抗战老兵方队参阅，而是安排参加过抗战的老战士、老同志、老民兵、地方支前模范代表和抗战烈士遗属代表到天安门现场观礼。同时，此次阅兵将邀请国民党抗战老兵到现场观礼。这次阅兵，既有传统主战力量展示，又有新域新质力量参阅。这次参阅的所有装备均为国产现役主战装备，我们在展示新一代传统武器装备的基础上，也安排部分无人智能、水下作战、网电攻防、高超声速等新型作战力量参阅，体现我军适应科技发展和战争形态演变、打赢未来战争的强大能力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cWazA8AYxBUfviHpaw7zZ9WmhkV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whPu6jEepv2ttiPEzC9IX2yPwVU.jpg"
     },
     {
       "id": 240411,
@@ -211,29 +200,29 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yd1qHrUsqUucFaEBYG2j7tHs1Wb.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
       "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+      "genreTitle": "科幻•冒险",
+      "rating": 7.2,
+      "release_date": "2025-07-23",
+      "overview": "故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
+    },
+    {
+      "id": 127235,
+      "title": "Invasion",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.2,
+      "release_date": "2021-10-21",
+      "overview": "对人类生存构成威胁的外星物种访问地球。身处世界不同角落的五个普通人努力理解自己周围不断发生的混乱状况时，剧集通过他们的视角将各种事件一一实时展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cKDdeHU8uRn1p8pLCqqFRNKkZGc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/shs0WhDI7KF7LzUUhWpw0bOpjEp.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1035259,
-      "title": "白头神探：智斗灭世狂人",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.8,
-      "release_date": "2025-07-30",
-      "overview": "白头神探的儿子小弗兰克（连姆·尼森 Liam Neeson 饰）即将上演最无厘头的一次“营救”行动。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aaI9Ea98krD3zCEGWXRlqoSLFtg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mwgeDOT5BjHkNx3CAnRrUoRu6GN.jpg"
-    },
     {
       "id": 1242434,
       "title": "天国与地狱",
@@ -246,15 +235,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rjOVhuk1RJUapbcEmgW7097WuF4.jpg"
     },
     {
-      "id": 1038392,
-      "title": "招魂4：终章",
+      "id": 1035259,
+      "title": "白头神探：智斗灭世狂人",
       "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.3,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/29aMn7MwBNZS6tuKDsb2eKLSdHg.jpg"
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.8,
+      "release_date": "2025-07-30",
+      "overview": "白头神探的儿子小弗兰克（连姆·尼森 Liam Neeson 饰）即将上演最无厘头的一次“营救”行动。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aaI9Ea98krD3zCEGWXRlqoSLFtg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mwgeDOT5BjHkNx3CAnRrUoRu6GN.jpg"
     },
     {
       "id": 119051,
@@ -266,6 +255,17 @@
       "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/pPqyWNopqeDlZxFKMBNl2A4nvSM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
+    },
+    {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.3,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/29aMn7MwBNZS6tuKDsb2eKLSdHg.jpg"
     },
     {
       "id": 1007734,
@@ -290,6 +290,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
+      "id": 259909,
+      "title": "嗜血法医：杀魔复生",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.9,
+      "release_date": "2025-07-13",
+      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
+    },
+    {
       "id": 157239,
       "title": "异形：地球",
       "type": "tv",
@@ -312,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
     },
     {
-      "id": 259909,
-      "title": "嗜血法医：杀魔复生",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.9,
-      "release_date": "2025-07-13",
-      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
-    },
-    {
       "id": 541671,
       "title": "疾速追杀：芭蕾杀姬",
       "type": "movie",
@@ -343,17 +343,6 @@
       "overview": "他是真理、正义、美国方式的代表，在这个把善良当做老派的世界，他是善良的化身。",
       "poster_url": "https://image.tmdb.org/t/p/original/nMINzENxx1VNCjhFWe61PSTt9HT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4BjpVfSNB578UL34Z5rbqWJw2z7.jpg"
-    },
-    {
-      "id": 253941,
-      "title": "报社",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 6.4,
-      "release_date": "2025-09-04",
-      "overview": "曾记录登德米福林斯克兰顿分部的摄制组正在寻找新的拍摄对象，结果发现了一家历史悠久的中西部报社，以及正努力重振报业的出版人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ms7LHYbtl7bH7UHX2SkWh6UQ7f3.jpg"
     },
     {
       "id": 1119878,
@@ -378,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/16IuvohtrC7HL9Aii0Op5lm1OM0.jpg"
     },
     {
+      "id": 253941,
+      "title": "报社",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 6.4,
+      "release_date": "2025-09-04",
+      "overview": "曾记录登德米福林斯克兰顿分部的摄制组正在寻找新的拍摄对象，结果发现了一家历史悠久的中西部报社，以及正努力重振报业的出版人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ms7LHYbtl7bH7UHX2SkWh6UQ7f3.jpg"
+    },
+    {
       "id": 1234821,
       "title": "侏罗纪世界：重生",
       "type": "movie",
@@ -387,6 +387,17 @@
       "overview": "地球生态已被证明广泛不适合恐龙生存，危在旦夕的恐龙族群生存于孤岛之上，但是它们中却隐藏着能够带来人类医药奇迹的关键基因，为获取神秘基因，一支精英小队潜入恐龙禁地，然而等待他们的却是无法预知的危机和惊天阴谋……",
       "poster_url": "https://image.tmdb.org/t/p/original/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5qvpe67j8ar7fyIPRkwogE80Ul.jpg"
+    },
+    {
+      "id": 93740,
+      "title": "Foundation",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.7,
+      "release_date": "2021-09-23",
+      "overview": "故事设定于虚构的未来，人类散布在银河系中的各个星球，但都从属于银河帝国(Galactic Empire)的统治之下，一位心理史学家却给出一个预言：帝国即将分崩离析，文明将会灰飞烟灭，为了维系人类这个族群，他不得不行动起来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kNYbxPW4opiaPJuonbgfFKUzMOg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kpZr075vetnMsOpJMzjPTBSp8h8.jpg"
     },
     {
       "id": 575265,
@@ -411,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dV1TZIR5UgZZy62taBlMVRbNRYY.jpg"
     },
     {
-      "id": 93740,
-      "title": "Foundation",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.7,
-      "release_date": "2021-09-23",
-      "overview": "故事设定于虚构的未来，人类散布在银河系中的各个星球，但都从属于银河帝国(Galactic Empire)的统治之下，一位心理史学家却给出一个预言：帝国即将分崩离析，文明将会灰飞烟灭，为了维系人类这个族群，他不得不行动起来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kNYbxPW4opiaPJuonbgfFKUzMOg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kpZr075vetnMsOpJMzjPTBSp8h8.jpg"
-    },
-    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
       "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+      "genreTitle": "科幻•冒险",
+      "rating": 7.2,
+      "release_date": "2025-07-23",
+      "overview": "故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     }
   ],
   "popular_movies": [
