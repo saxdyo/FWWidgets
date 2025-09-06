@@ -1849,11 +1849,14 @@ async function loadTmdbTrending(params = {}) {
       result = await loadTmdbTrendingFromPreprocessed(updatedParams);
     }
     
+    // 应用屏蔽过滤
+    const filteredResult = filterBlockedItems(result);
+    
     // 结束性能监控
     endMonitor();
     
     // 应用数据质量监控
-    return dataQualityMonitor(result, 'TMDB热门模块');
+    return dataQualityMonitor(filteredResult, 'TMDB热门模块');
   } catch (error) {
     console.error("❌ TMDB热门模块加载失败:", error);
     endMonitor();
@@ -1953,6 +1956,9 @@ async function loadTmdbTrendingWithAPI(params = {}) {
       });
     }
 
+    // 应用屏蔽过滤
+    results = filterBlockedItems(results);
+    
     // 限制返回数量
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
@@ -2050,6 +2056,9 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       });
     }
 
+    // 应用屏蔽过滤
+    widgetItems = filterBlockedItems(widgetItems);
+    
     // 限制结果数量
     widgetItems = widgetItems.slice(0, CONFIG.MAX_ITEMS);
     
@@ -2094,8 +2103,10 @@ async function loadImdbAnimeModule(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) {
       console.log(`🎬 [DEBUG] 使用缓存数据: ${cached.length}项`);
+      // 应用屏蔽过滤
+      const filteredCached = filterBlockedItems(cached);
       endMonitor();
-      return dataQualityMonitor(cached, 'IMDB动画模块');
+      return dataQualityMonitor(filteredCached, 'IMDB动画模块');
     }
 
     console.log(`🎬 加载IMDb动画模块数据 (地区: ${region}, 排序: ${sort_by}, 页码: ${page})`);
@@ -2278,13 +2289,16 @@ async function loadImdbAnimeModule(params = {}) {
     // 应用数据质量监控（不影响功能）
     const validatedItems = silentDataValidation(widgetItems, 'IMDB动画模块');
     
-    setCachedData(cacheKey, validatedItems);
-    console.log(`✅ IMDb动画模块加载成功: ${validatedItems.length}项`);
+    // 应用屏蔽过滤
+    const filteredItems = filterBlockedItems(validatedItems);
+    
+    setCachedData(cacheKey, filteredItems);
+    console.log(`✅ IMDb动画模块加载成功: ${filteredItems.length}项`);
     
     // 结束性能监控
     endMonitor();
     
-    return dataQualityMonitor(validatedItems, 'IMDB动画模块');
+    return dataQualityMonitor(filteredItems, 'IMDB动画模块');
     
   } catch (error) {
     console.error("❌ [DEBUG] IMDb动画模块加载失败:", error);
