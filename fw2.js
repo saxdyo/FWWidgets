@@ -3168,20 +3168,34 @@ function getBlockedItems() {
 
 function saveBlockedItems(items) {
   try {
-    Widget.storage.set(STORAGE_KEY, JSON.stringify(items));
+    console.log("🔧 saveBlockedItems 开始执行");
+    console.log("🔧 STORAGE_KEY:", STORAGE_KEY);
+    console.log("🔧 items 数量:", items.length);
+    
+    const result = Widget.storage.set(STORAGE_KEY, JSON.stringify(items));
+    console.log("🔧 Widget.storage.set 结果:", result);
+    
     clearBlockedIdCache();
-    return true;
+    console.log("🔧 clearBlockedIdCache 完成");
+    
+    return result;
   } catch (error) {
+    console.log("❌ saveBlockedItems 异常:", error.message);
     return false;
   }
 }
 
 function addBlockedItem(item) {
+  console.log("🔧 addBlockedItem 开始执行");
+  console.log("🔧 参数 item:", item);
+  
   const blockedItems = getBlockedItems();
+  console.log("🔧 当前屏蔽列表长度:", blockedItems.length);
   
   const exists = blockedItems.some(blocked => 
     blocked.id === String(item.id) && blocked.media_type === item.media_type
   );
+  console.log("🔧 是否已存在:", exists);
   
   if (!exists) {
     blockedItems.push({
@@ -3283,6 +3297,11 @@ async function searchTMDB(query, language) {
 
 async function searchAndBlock(params) {
   const action = params.action || "search_and_block";
+  
+  // 添加调试信息
+  console.log("🔍 searchAndBlock 开始执行");
+  console.log("🔍 参数:", params);
+  console.log("🔍 操作模式:", action);
   
   if (action === "manual_block") {
     const tmdbId = params.tmdb_id ? params.tmdb_id.trim() : '';
@@ -3402,7 +3421,9 @@ async function searchAndBlock(params) {
   }
 
   try {
+    console.log("🔍 开始搜索TMDB:", query);
     const searchResults = await searchTMDB(query, language);
+    console.log("🔍 搜索结果数量:", searchResults.length);
     
     if (searchResults.length === 0) {
       return [{
@@ -3477,7 +3498,9 @@ async function searchAndBlock(params) {
           vote_average: item.vote_average
         };
         
+        console.log("🔍 尝试添加屏蔽项:", blockItem);
         const success = addBlockedItem(blockItem);
+        console.log("🔍 添加结果:", success);
         if (success) {
           blockedCount++;
         } else {
