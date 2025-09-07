@@ -1396,10 +1396,15 @@ var RequestBatcher = {
     
     // 设置延迟执行
     if (!this.batchTimers.has(batchKey)) {
-      const timer = setTimeout(() => {
+      if (typeof setTimeout !== 'undefined') {
+        const timer = setTimeout(() => {
+          this.executeBatch(batchKey);
+        }, CONFIG.BATCH_DELAY);
+        this.batchTimers.set(batchKey, timer);
+      } else {
+        // 如果setTimeout不可用，立即执行
         this.executeBatch(batchKey);
-      }, CONFIG.BATCH_DELAY);
-      this.batchTimers.set(batchKey, timer);
+      }
     }
     
     // 返回Promise
@@ -1428,7 +1433,9 @@ var RequestBatcher = {
     
     // 清除定时器
     if (this.batchTimers.has(batchKey)) {
-      clearTimeout(this.batchTimers.get(batchKey));
+      if (typeof clearTimeout !== 'undefined') {
+        clearTimeout(this.batchTimers.get(batchKey));
+      }
       this.batchTimers.delete(batchKey);
     }
     
@@ -1484,20 +1491,34 @@ var ImageOptimizer = {
     }
     
     const promise = new Promise((resolve, reject) => {
+      // 检查Image构造函数是否可用
+      if (typeof Image === 'undefined') {
+        reject(new Error(`Image构造函数不可用: ${url}`));
+        return;
+      }
+      
       const img = new Image();
-      const timeout = setTimeout(() => {
-        reject(new Error(`图片加载超时: ${url}`));
-      }, CONFIG.IMAGE_LOAD_TIMEOUT);
+      let timeout = null;
+      
+      if (typeof setTimeout !== 'undefined') {
+        timeout = setTimeout(() => {
+          reject(new Error(`图片加载超时: ${url}`));
+        }, CONFIG.IMAGE_LOAD_TIMEOUT);
+      }
       
       img.onload = () => {
-        clearTimeout(timeout);
+        if (timeout && typeof clearTimeout !== 'undefined') {
+          clearTimeout(timeout);
+        }
         this.loadedImages.add(url);
         this.loadingQueue.delete(url);
         resolve();
       };
       
       img.onerror = () => {
-        clearTimeout(timeout);
+        if (timeout && typeof clearTimeout !== 'undefined') {
+          clearTimeout(timeout);
+        }
         this.loadingQueue.delete(url);
         reject(new Error(`图片加载失败: ${url}`));
       };
@@ -2789,24 +2810,30 @@ function initSmartCache() {
     cleanupCache();
     
     // 只设置一个定时器 - 定期清理（10分钟，减少频率）
-    setInterval(() => {
-      cleanupCache();
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        cleanupCache();
+        
+        // 简单的状态检查
+        if (cache.size > 25) {
+          console.log("⚠️ 缓存过多，执行深度清理");
+          // 强制清理一半最老的缓存
+          const entries = Array.from(cache.entries());
+          entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
+          const toDelete = entries.slice(0, Math.floor(entries.length / 2));
+          toDelete.forEach(([key]) => cache.delete(key));
+        }
+      }, 10 * 60 * 1000); // 10分钟
       
-      // 简单的状态检查
-      if (cache.size > 25) {
-        console.log("⚠️ 缓存过多，执行深度清理");
-        // 强制清理一半最老的缓存
-        const entries = Array.from(cache.entries());
-        entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
-        const toDelete = entries.slice(0, Math.floor(entries.length / 2));
-        toDelete.forEach(([key]) => cache.delete(key));
-      }
-    }, 10 * 60 * 1000); // 10分钟
-    
-    console.log("✅ 智能缓存已启动");
+      console.log("✅ 智能缓存已启动");
+    } else {
+      console.log("⚠️ setInterval不可用，使用基础缓存模式");
+    }
   } catch (error) {
     console.log("⚠️ 使用基础缓存模式");
-    setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+    if (typeof setInterval !== 'undefined') {
+      setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+    }
   }
 }
 
@@ -2882,9 +2909,11 @@ function initializeCDN() {
     console.log(`🖼️ 图片优化: ${CONFIG.IMAGE_CDN_ENABLED ? "启用" : "禁用"} (${CONFIG.IMAGE_QUALITY})`);
     
     // 每10分钟输出CDN统计
-    setInterval(() => {
-      CDNStats.getStats();
-    }, 10 * 60 * 1000);
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        CDNStats.getStats();
+      }, 10 * 60 * 1000);
+    }
   } else {
     console.log("🌐 CDN优化已禁用，使用原始URL");
   }
