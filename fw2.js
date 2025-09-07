@@ -1312,6 +1312,18 @@ var WidgetMetadata = {
           type: "offset"
         }
       ]
+    },
+    
+    // 豆瓣日剧模块
+    {
+      title: "豆瓣日剧",
+      description: "豆瓣日本电视剧数据",
+      requiresWebView: false,
+      functionName: "loadDoubanJapaneseTVList",
+      cacheDuration: 3600,
+      params: [
+        { name: "page", title: "页码", type: "page" }
+      ]
     }
   ]
 };
@@ -2275,6 +2287,78 @@ async function loadImdbAnimeModule(params = {}) {
     // 结束性能监控（即使出错也要记录）
     endMonitor();
     
+    return [];
+  }
+}
+
+// 豆瓣日剧专用函数
+async function loadDoubanJapaneseTVList(params = {}) {
+  const { page = 1 } = params;
+  
+  try {
+    const cacheKey = `douban_japanese_tv_${page}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎌 开始加载豆瓣日剧数据: 页码 ${page}`);
+    
+    const start = (page - 1) * 18; // 豆瓣每页18条数据
+    const doubanAPI = `https://m.douban.com/rexxar/api/v2/subject_collection/tv_japanese/items`;
+    
+    console.log(`🌐 请求豆瓣API: ${doubanAPI}`);
+    
+    const response = await Widget.http.get(doubanAPI, {
+      params: {
+        os: "other",
+        for_mobile: 1,
+        start: start,
+        count: 18,
+        loc_id: 0
+      }
+    });
+
+    if (!response || !response.subject_collection_items) {
+      console.error("❌ 豆瓣日剧API响应异常");
+      console.error("❌ 响应对象:", response);
+      return [];
+    }
+
+    console.log(`📊 豆瓣日剧API返回 ${response.subject_collection_items.length} 条数据`);
+
+    // 转换豆瓣数据为标准格式
+    const results = response.subject_collection_items.map(item => {
+      const title = item.title;
+      const year = item.year || "";
+      const genres = item.genres || [];
+      const genreText = genres.slice(0, 2).join("•");
+      const description = genreText + (year ? ` (${year})` : "");
+
+      return {
+        id: String(item.id),
+        type: "douban_real", // 标记为真实豆瓣数据
+        title: title,
+        description: description,
+        rating: item.rating && item.rating.value ? Number(item.rating.value.toFixed(1)) : 0,
+        posterPath: item.cover ? item.cover.url : "",
+        backdropPath: item.cover ? item.cover.url : "",
+        title_backdrop: item.cover ? item.cover.url : "",
+        media_type: "tv",
+        genre_ids: [],
+        genreTitle: genreText,
+        douban_id: item.id,
+        douban_url: item.url || `https://movie.douban.com/subject/${item.id}/`
+      };
+    });
+
+    console.log(`✅ 成功处理 ${results.length} 条日剧数据`);
+    
+    // 缓存结果
+    setCachedData(cacheKey, results);
+    
+    return results;
+    
+  } catch (error) {
+    console.error("❌ 加载豆瓣日剧数据失败:", error);
     return [];
   }
 }
