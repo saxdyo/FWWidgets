@@ -2291,62 +2291,67 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
-// 豆瓣日剧专用函数
+// TMDB日剧专用函数（过滤动漫，只获取真人电视剧）
 async function loadDoubanJapaneseTVList(params = {}) {
   const { page = 1 } = params;
   
   try {
-    const cacheKey = `douban_japanese_tv_${page}`;
+    const cacheKey = `tmdb_japanese_tv_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    console.log(`🎌 开始加载豆瓣日剧数据: 页码 ${page}`);
+    console.log(`🎌 开始加载TMDB日剧数据: 页码 ${page}`);
     
-    const start = (page - 1) * 18; // 豆瓣每页18条数据
-    const doubanAPI = `https://m.douban.com/rexxar/api/v2/subject_collection/tv_japanese/items`;
+    // 使用TMDB API获取日本电视剧，排除动漫
+    const tmdbAPI = `https://api.themoviedb.org/3/discover/tv`;
     
-    console.log(`🌐 请求豆瓣API: ${doubanAPI}`);
+    console.log(`🌐 请求TMDB API: ${tmdbAPI}`);
     
-    const response = await Widget.http.get(doubanAPI, {
+    const response = await Widget.http.get(tmdbAPI, {
       params: {
-        os: "other",
-        for_mobile: 1,
-        start: start,
-        count: 18,
-        loc_id: 0
+        api_key: CONFIG.API_KEY,
+        with_origin_country: "JP",
+        language: "zh-CN",
+        page: page,
+        sort_by: "popularity.desc",
+        vote_count_gte: 10,
+        include_adult: false,
+        // 排除动漫类型 (genre_id 16)
+        without_genres: "16"
       }
     });
 
-    if (!response || !response.subject_collection_items) {
-      console.error("❌ 豆瓣日剧API响应异常");
+    if (!response || !response.results) {
+      console.error("❌ TMDB日剧API响应异常");
       console.error("❌ 响应对象:", response);
       return [];
     }
 
-    console.log(`📊 豆瓣日剧API返回 ${response.subject_collection_items.length} 条数据`);
+    console.log(`📊 TMDB日剧API返回 ${response.results.length} 条数据`);
 
-    // 转换豆瓣数据为标准格式
-    const results = response.subject_collection_items.map(item => {
-      const title = item.title;
-      const year = item.year || "";
-      const genres = item.genres || [];
-      const genreText = genres.slice(0, 2).join("•");
-      const description = genreText + (year ? ` (${year})` : "");
+    // 转换TMDB数据为标准格式
+    const results = response.results.map(item => {
+      const title = item.name || item.original_name;
+      const year = item.first_air_date ? item.first_air_date.split('-')[0] : "";
+      const genreTitle = getGenreTitle(item.genre_ids, "tv");
+      const description = genreTitle + (year ? ` (${year})` : "");
 
       return {
         id: String(item.id),
-        type: "douban_real", // 标记为真实豆瓣数据
+        type: "tmdb_real", // 标记为TMDB真实数据
         title: title,
         description: description,
-        rating: item.rating && item.rating.value ? Number(item.rating.value.toFixed(1)) : 0,
-        posterPath: item.cover ? item.cover.url : "",
-        backdropPath: item.cover ? item.cover.url : "",
-        title_backdrop: item.cover ? item.cover.url : "",
+        rating: item.vote_average ? Number(item.vote_average.toFixed(1)) : 0,
+        posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
+        title_backdrop: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
         media_type: "tv",
-        genre_ids: [],
-        genreTitle: genreText,
-        douban_id: item.id,
-        douban_url: item.url || `https://movie.douban.com/subject/${item.id}/`
+        genre_ids: item.genre_ids || [],
+        genreTitle: genreTitle,
+        tmdb_id: item.id,
+        tmdb_url: `https://www.themoviedb.org/tv/${item.id}`,
+        releaseDate: item.first_air_date,
+        popularity: item.popularity
       };
     });
 
@@ -2358,7 +2363,7 @@ async function loadDoubanJapaneseTVList(params = {}) {
     return results;
     
   } catch (error) {
-    console.error("❌ 加载豆瓣日剧数据失败:", error);
+    console.error("❌ 加载TMDB日剧数据失败:", error);
     return [];
   }
 }
