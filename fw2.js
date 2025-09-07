@@ -1,11 +1,46 @@
-// 性能监控工具（不影响现有功能）
+// 性能监控工具（简化版）
 const performanceMonitor = {
-  start: (moduleName) => {
+  stats: {
+    totalRequests: 0,
+    cachedRequests: 0,
+    totalTime: 0
+  },
+  
+  start: function(moduleName) {
     const startTime = Date.now();
-    return () => {
+    const self = this;
+    return function() {
       const duration = Date.now() - startTime;
+      self.stats.totalTime += duration;
       console.log(`📊 ${moduleName} 执行耗时: ${duration}ms`);
     };
+  },
+  
+  recordRequest: function(type) {
+    this.stats.totalRequests++;
+    if (type === 'cached') this.stats.cachedRequests++;
+  },
+  
+  getStats: function() {
+    const cacheHitRate = this.stats.totalRequests > 0 ? 
+      (this.stats.cachedRequests / this.stats.totalRequests * 100).toFixed(1) : 0;
+    
+    return {
+      totalRequests: this.stats.totalRequests,
+      cachedRequests: this.stats.cachedRequests,
+      cacheHitRate: `${cacheHitRate}%`,
+      avgTime: this.stats.totalRequests > 0 ? 
+        (this.stats.totalTime / this.stats.totalRequests).toFixed(1) : 0
+    };
+  },
+  
+  logStats: function() {
+    const stats = this.getStats();
+    console.log('📊 性能统计:', stats);
+  },
+  
+  exportStats: function() {
+    return this.getStats();
   }
 };
 
@@ -1259,6 +1294,49 @@ var WidgetMetadata = {
           type: "offset"
         }
       ]
+    },
+    
+    // TMDB日剧模块
+    {
+      title: "TMDB日剧",
+      description: "TMDB日本电视剧数据（真人剧，非动漫）",
+      requiresWebView: false,
+      functionName: "loadDoubanJapaneseTVList",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity.desc",
+          enumOptions: [
+            { title: "热度降序", value: "popularity.desc" },
+            { title: "热度升序", value: "popularity.asc" },
+            { title: "评分降序", value: "vote_average.desc" },
+            { title: "评分升序", value: "vote_average.asc" },
+            { title: "最新播出", value: "first_air_date.desc" },
+            { title: "最早播出", value: "first_air_date.asc" },
+            { title: "最多投票", value: "vote_count.desc" },
+            { title: "最少投票", value: "vote_count.asc" }
+          ]
+        },
+        {
+          name: "vote_count_gte",
+          title: "最低投票数",
+          type: "enumeration",
+          description: "设置最低投票数要求",
+          value: "10",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "10票以上", value: "10" },
+            { title: "50票以上", value: "50" },
+            { title: "100票以上", value: "100" },
+            { title: "500票以上", value: "500" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
     }
   ]
 };
@@ -1266,9 +1344,17 @@ var WidgetMetadata = {
 // 配置常量
 var CONFIG = {
   API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
-  CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
+  CACHE_DURATION: 60 * 60 * 1000, // 60分钟缓存（优化：延长缓存时间）
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
+  
+  // 新增：分层缓存配置
+  CACHE_STRATEGIES: {
+    TRENDING: 30 * 60 * 1000, // 热门内容30分钟
+    DISCOVER: 60 * 60 * 1000, // 发现内容60分钟
+    DETAILS: 2 * 60 * 60 * 1000, // 详细信息2小时
+    STATIC: 24 * 60 * 60 * 1000 // 静态数据24小时
+  },
   
   // CDN优化配置
   ENABLE_CDN_OPTIMIZATION: true, // 启用CDN优化
@@ -1283,11 +1369,13 @@ var CONFIG = {
   // 图片CDN优化
   IMAGE_CDN_ENABLED: true, // 启用图片CDN
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
-  IMAGE_CDN_FALLBACK: true // 图片CDN失败时回退到原始URL
+  IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
+  
 };
 
 // 缓存管理
 var cache = new Map();
+
 
 // CDN优化系统
 var CDNManager = {
@@ -1447,7 +1535,7 @@ var ImageCDN = {
 };
 
 // 智能缓存管理工具函数
-function getCachedData(key) {
+function getCachedData(key, cacheType = 'DEFAULT') {
   const cached = cache.get(key);
   if (!cached) {
     return null;
@@ -1456,56 +1544,86 @@ function getCachedData(key) {
   const now = Date.now();
   const age = now - cached.timestamp;
   
+  // 根据缓存类型确定缓存时间
+  let cacheDuration = CONFIG.CACHE_DURATION;
+  if (CONFIG.CACHE_STRATEGIES[cacheType]) {
+    cacheDuration = CONFIG.CACHE_STRATEGIES[cacheType];
+  }
+  
   // 检查是否需要自动刷新
-  if (shouldAutoRefresh(key, age)) {
-    console.log(`🔄 自动刷新缓存: ${key}`);
+  if (shouldAutoRefresh(key, age, cacheType)) {
+    console.log(`🔄 自动刷新缓存: ${key} (${cacheType})`);
     return null; // 触发新数据获取
   }
   
   // 使用缓存数据
-  if (age < CONFIG.CACHE_DURATION) {
+  if (age < cacheDuration) {
+    // 更新访问计数
+    cached.accessCount = (cached.accessCount || 0) + 1;
+    cached.lastAccess = now;
     return cached.data;
   }
   
   return null;
 }
 
-function setCachedData(key, data) {
+function setCachedData(key, data, cacheType = 'DEFAULT') {
+  const existing = cache.get(key);
   cache.set(key, {
     data: data,
     timestamp: Date.now(),
-    accessCount: (cache.get(key)?.accessCount || 0) + 1
+    accessCount: (existing?.accessCount || 0),
+    lastAccess: existing?.lastAccess || Date.now(),
+    cacheType: cacheType
   });
 }
 
-// 自动刷新策略（ForwardWidget优化版）
-function shouldAutoRefresh(key, age) {
+// 智能自动刷新策略（优化版）
+function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
   const cached = cache.get(key);
   if (!cached) return false;
   
+  // 根据缓存类型确定基础缓存时间
+  let baseCacheDuration = CONFIG.CACHE_DURATION;
+  if (CONFIG.CACHE_STRATEGIES[cacheType]) {
+    baseCacheDuration = CONFIG.CACHE_STRATEGIES[cacheType];
+  }
+  
   // 策略1: 基于访问频率 - 热门数据更频繁刷新
   const accessCount = cached.accessCount || 0;
-  if (accessCount > 3 && age > CONFIG.CACHE_DURATION * 0.6) { // 降低门槛
+  if (accessCount > 5 && age > baseCacheDuration * 0.5) {
     return true;
   }
   
-  // 策略2: 基于数据类型 - 热门内容更频繁刷新
-  if (key.includes('trending') && age > 20 * 60 * 1000) { // 20分钟，更保守
+  // 策略2: 基于数据类型 - 不同类型使用不同策略
+  if (cacheType === 'TRENDING' && age > 20 * 60 * 1000) {
     return true;
   }
   
-  // 策略3: 基于缓存总量 - 避免内存过载（主要策略）
-  if (cache.size > 15 && age > CONFIG.CACHE_DURATION * 0.7) {
+  if (cacheType === 'STATIC' && age > baseCacheDuration * 0.9) {
     return true;
   }
   
-  // 策略4: 简单的随机刷新 - 避免所有缓存同时过期
-  if (age > CONFIG.CACHE_DURATION * 0.8 && Math.random() < 0.3) {
+  // 策略3: 基于缓存总量 - 智能内存管理
+  if (cache.size > 20 && age > baseCacheDuration * 0.6) {
+    return true;
+  }
+  
+  // 策略4: 基于最后访问时间 - 长期未访问的数据优先刷新
+  const lastAccess = cached.lastAccess || cached.timestamp;
+  if (Date.now() - lastAccess > baseCacheDuration * 0.8 && age > baseCacheDuration * 0.4) {
+    return true;
+  }
+  
+  // 策略5: 随机刷新 - 避免同时过期（降低概率）
+  if (age > baseCacheDuration * 0.8 && Math.random() < 0.1) {
     return true;
   }
   
   return false;
 }
+
+
 
 // 智能海报处理函数
 function getOptimalPosterUrl(item, mediaType = "movie") {
@@ -1754,7 +1872,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
   
   try {
     const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey);
+    const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
     let endpoint, queryParams;
@@ -1843,7 +1961,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     // 限制返回数量
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
-    setCachedData(cacheKey, results);
+    setCachedData(cacheKey, results, 'TRENDING');
     console.log(`✅ TMDB API加载成功: ${results.length}项`);
     return results;
 
@@ -2186,6 +2304,86 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
+// TMDB日剧专用函数（过滤动漫，只获取真人电视剧）
+async function loadDoubanJapaneseTVList(params = {}) {
+  const { 
+    page = 1, 
+    sort_by = "popularity.desc", 
+    vote_count_gte = "10" 
+  } = params;
+  
+  try {
+    const cacheKey = `tmdb_japanese_tv_${page}_${sort_by}_${vote_count_gte}`;
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
+
+    console.log(`🎌 开始加载TMDB日剧数据: 页码 ${page}, 排序 ${sort_by}, 最低投票数 ${vote_count_gte}`);
+    
+    // 使用TMDB API获取日本电视剧，排除动漫
+    const tmdbAPI = `https://api.themoviedb.org/3/discover/tv`;
+    
+    console.log(`🌐 请求TMDB API: ${tmdbAPI}`);
+    
+    const response = await Widget.tmdb.get("/discover/tv", {
+      params: {
+        with_origin_country: "JP",
+        language: "zh-CN",
+        page: page,
+        sort_by: sort_by,
+        vote_count_gte: parseInt(vote_count_gte),
+        include_adult: false,
+        // 排除动漫类型 (genre_id 16)
+        without_genres: "16"
+      }
+    });
+
+    if (!response || !response.results) {
+      console.error("❌ TMDB日剧API响应异常");
+      console.error("❌ 响应对象:", response);
+      return [];
+    }
+
+    console.log(`📊 TMDB日剧API返回 ${response.results.length} 条数据`);
+
+    // 转换TMDB数据为标准格式
+    const results = response.results.map(item => {
+      const title = item.name || item.original_name;
+      const year = item.first_air_date ? item.first_air_date.split('-')[0] : "";
+      const genreTitle = getGenreTitle(item.genre_ids, "tv");
+      const description = genreTitle + (year ? ` (${year})` : "");
+
+      return {
+        id: String(item.id),
+        type: "tmdb_real", // 标记为TMDB真实数据
+        title: title,
+        description: description,
+        rating: item.vote_average ? Number(item.vote_average.toFixed(1)) : 0,
+        posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
+        title_backdrop: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
+        media_type: "tv",
+        genre_ids: item.genre_ids || [],
+        genreTitle: genreTitle,
+        tmdb_id: item.id,
+        tmdb_url: `https://www.themoviedb.org/tv/${item.id}`,
+        releaseDate: item.first_air_date,
+        popularity: item.popularity
+      };
+    });
+
+    console.log(`✅ 成功处理 ${results.length} 条日剧数据`);
+    
+    // 缓存结果
+    setCachedData(cacheKey, results);
+    
+    return results;
+    
+  } catch (error) {
+    console.error("❌ 加载TMDB日剧数据失败:", error);
+    return [];
+  }
+}
+
 // 豆瓣国产剧集专用函数
 async function loadDoubanChineseTVList(params = {}) {
   const { page = 1 } = params;
@@ -2391,24 +2589,30 @@ function initSmartCache() {
     cleanupCache();
     
     // 只设置一个定时器 - 定期清理（10分钟，减少频率）
-    setInterval(() => {
-      cleanupCache();
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        cleanupCache();
+        
+        // 简单的状态检查
+        if (cache.size > 25) {
+          console.log("⚠️ 缓存过多，执行深度清理");
+          // 强制清理一半最老的缓存
+          const entries = Array.from(cache.entries());
+          entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
+          const toDelete = entries.slice(0, Math.floor(entries.length / 2));
+          toDelete.forEach(([key]) => cache.delete(key));
+        }
+      }, 10 * 60 * 1000); // 10分钟
       
-      // 简单的状态检查
-      if (cache.size > 25) {
-        console.log("⚠️ 缓存过多，执行深度清理");
-        // 强制清理一半最老的缓存
-        const entries = Array.from(cache.entries());
-        entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
-        const toDelete = entries.slice(0, Math.floor(entries.length / 2));
-        toDelete.forEach(([key]) => cache.delete(key));
-      }
-    }, 10 * 60 * 1000); // 10分钟
-    
-    console.log("✅ 智能缓存已启动");
+      console.log("✅ 智能缓存已启动");
+    } else {
+      console.log("⚠️ setInterval不可用，使用基础缓存模式");
+    }
   } catch (error) {
     console.log("⚠️ 使用基础缓存模式");
-    setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+    if (typeof setInterval !== 'undefined') {
+      setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+    }
   }
 }
 
@@ -2484,9 +2688,11 @@ function initializeCDN() {
     console.log(`🖼️ 图片优化: ${CONFIG.IMAGE_CDN_ENABLED ? "启用" : "禁用"} (${CONFIG.IMAGE_QUALITY})`);
     
     // 每10分钟输出CDN统计
-    setInterval(() => {
-      CDNStats.getStats();
-    }, 10 * 60 * 1000);
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        CDNStats.getStats();
+      }, 10 * 60 * 1000);
+    }
   } else {
     console.log("🌐 CDN优化已禁用，使用原始URL");
   }
@@ -3386,7 +3592,7 @@ function generateFallbackData() {
 
 
 // 基础获取TMDB数据方法
-async function fetchTmdbData(key, mediaType) {
+async function searchTmdbData(key, mediaType) {
     const tmdbResults = await Widget.tmdb.get(`/search/${mediaType}`, {
         params: {
             query: key,
@@ -3454,7 +3660,7 @@ async function fetchImdbItems(scItems) {
     }
     let title = scItem.type === "tv" ? cleanTitle(scItem.title) : scItem.title;
     console.log("title: ", title, " ; type: ", scItem.type);
-    const tmdbDatas = await fetchTmdbData(title, scItem.type)
+    const tmdbDatas = await searchTmdbData(title, scItem.type)
 
     if (tmdbDatas.length !== 0) {
       return {
@@ -3713,4 +3919,26 @@ async function getPreferenceRecommendations(params = {}) {
     }
 }
 
+// 导出性能统计和优化工具（供外部使用）
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    performanceMonitor,
+    getPerformanceStats: () => performanceMonitor.exportStats()
+  };
+}
+
+// 全局性能统计导出
+if (typeof window !== 'undefined') {
+  window.FW2Performance = {
+    getStats: () => performanceMonitor.exportStats(),
+    logStats: () => performanceMonitor.logStats(),
+    clearStats: () => {
+      performanceMonitor.stats = {
+        totalRequests: 0,
+        cachedRequests: 0,
+        totalTime: 0
+      };
+    }
+  };
+}
 
