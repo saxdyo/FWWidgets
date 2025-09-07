@@ -1,11 +1,52 @@
-// 性能监控工具（不影响现有功能）
+// 性能监控工具（优化版）
 const performanceMonitor = {
-  start: (moduleName) => {
+  stats: {
+    totalRequests: 0,
+    cachedRequests: 0,
+    batchRequests: 0,
+    imagePreloads: 0,
+    lazyLoads: 0,
+    totalTime: 0
+  },
+  
+  start: function(moduleName) {
     const startTime = Date.now();
-    return () => {
+    const self = this;
+    return function() {
       const duration = Date.now() - startTime;
+      self.stats.totalTime += duration;
       console.log(`📊 ${moduleName} 执行耗时: ${duration}ms`);
     };
+  },
+  
+  recordRequest: function(type) {
+    this.stats.totalRequests++;
+    if (type === 'cached') this.stats.cachedRequests++;
+    if (type === 'batch') this.stats.batchRequests++;
+    if (type === 'image') this.stats.imagePreloads++;
+    if (type === 'lazy') this.stats.lazyLoads++;
+  },
+  
+  getStats: function() {
+    const cacheHitRate = this.stats.totalRequests > 0 ? 
+      (this.stats.cachedRequests / this.stats.totalRequests * 100).toFixed(1) : 0;
+    
+    return {
+      ...this.stats,
+      cacheHitRate: `${cacheHitRate}%`,
+      avgTime: this.stats.totalRequests > 0 ? 
+        (this.stats.totalTime / this.stats.totalRequests).toFixed(1) : 0
+    };
+  },
+  
+  logStats: function() {
+    const stats = this.getStats();
+    console.log('📊 性能统计:', stats);
+  },
+  
+  // 导出性能统计（供外部调用）
+  exportStats: function() {
+    return this.getStats();
   }
 };
 
@@ -51,11 +92,11 @@ const silentDataValidation = (items, moduleName) => {
 
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
-  title: "TMDB豆瓣影视榜单",
-  description: "优化的TMDB影视动画榜单 + 豆瓣片单组件",
+  title: "sax",
+  description: "TMDB",
   author: "saxdyo",
   site: "https://github.com/saxdyo/FWWidgets",
-  version: "2.1.0",
+  version: "1.1.1",
   requiredVersion: "0.0.1",
   detailCacheDuration: 60,
   modules: [
@@ -615,120 +656,7 @@ var WidgetMetadata = {
         { name: "page", title: "页码", type: "page" }
       ]
     },
-  // =============屏蔽管理模块=============
-    {
-      title: "TMDB 搜索屏蔽",
-      description: "通过影片名称搜索TMDB并自动添加所有结果到黑名单",
-      requiresWebView: false,
-      functionName: "searchAndBlock",
-      cacheDuration: 0,
-      params: [
-        {
-          name: "action",
-          title: "🎯 操作模式",
-          type: "enumeration",
-          description: "选择操作类型",
-          value: "search_and_block",
-          enumOptions: [
-            { title: "搜索并屏蔽", value: "search_and_block" },
-            { title: "仅搜索", value: "search_only" },
-            { title: "手动屏蔽ID", value: "manual_block" }
-          ]
-        },
-        {
-          name: "query",
-          title: "🔍 影片名称",
-          type: "input",
-          description: "输入要搜索的影片或剧集名称（搜索模式使用）",
-          value: "",
-          placeholder: "例如：鬼吹灯、南方公园"
-        },
-        {
-          name: "language",
-          title: "🌐 搜索语言",
-          type: "enumeration",
-          description: "选择搜索语言（搜索模式使用）",
-          value: "zh-CN",
-          enumOptions: [
-            { title: "中文", value: "zh-CN" },
-            { title: "English", value: "en-US" },
-            { title: "其他语言", value: "en" }
-          ]
-        },
-        {
-          name: "tmdb_id",
-          title: "🆔 TMDB ID",
-          type: "input",
-          description: "输入要屏蔽的TMDB ID（手动屏蔽模式使用）",
-          value: "",
-          placeholder: "例如：550, 1399"
-        },
-        {
-          name: "media_type",
-          title: "🎭 媒体类型",
-          type: "enumeration",
-          description: "选择媒体类型（手动屏蔽模式使用）",
-          value: "movie",
-          enumOptions: [
-            { title: "电影", value: "movie" },
-            { title: "剧集", value: "tv" }
-          ]
-        }
-      ]
-    },
-    {
-      title: "TMDB 屏蔽管理",
-      description: "查看和管理已屏蔽的内容",
-      requiresWebView: false,
-      functionName: "manageBlockedItems",
-      cacheDuration: 0,
-      params: [
-        {
-          name: "action",
-          title: "📋 操作",
-          type: "enumeration",
-          description: "选择要执行的操作",
-          value: "view",
-          enumOptions: [
-            { title: "查看黑名单", value: "view" },
-            { title: "取消屏蔽", value: "unblock" },
-            { title: "清空黑名单", value: "clear" },
-            { title: "导出配置", value: "export" },
-            { title: "导入配置", value: "import" }
-          ]
-        },
-        {
-          name: "unblock_id",
-          title: "🔓 取消屏蔽ID",
-          type: "input",
-          description: "输入要取消屏蔽的TMDB ID",
-          value: "",
-          placeholder: "例如：2190",
-          belongTo: { paramName: "action", value: ["unblock"] }
-        },
-        {
-          name: "unblock_media_type",
-          title: "🎭 媒体类型",
-          type: "enumeration",
-          description: "选择要取消屏蔽的媒体类型",
-          value: "tv",
-          enumOptions: [
-            { title: "电影", value: "movie" },
-            { title: "剧集", value: "tv" }
-          ],
-          belongTo: { paramName: "action", value: ["unblock"] }
-        },
-        {
-          name: "import_data",
-          title: "📥 导入数据",
-          type: "input",
-          description: "粘贴要导入的屏蔽ID列表，支持多种格式",
-          value: "",
-          placeholder: "支持格式：550,1399 或 '550','1399' 或 \"550\",\"1399\"",
-          belongTo: { paramName: "action", value: ["import"] }
-        }
-      ]
-    },
+
     // TMDB主题分类
     {
       title: "TMDB主题分类",
@@ -1379,9 +1307,17 @@ var WidgetMetadata = {
 // 配置常量
 var CONFIG = {
   API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
-  CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
+  CACHE_DURATION: 60 * 60 * 1000, // 60分钟缓存（优化：延长缓存时间）
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
+  
+  // 新增：分层缓存配置
+  CACHE_STRATEGIES: {
+    TRENDING: 30 * 60 * 1000, // 热门内容30分钟
+    DISCOVER: 60 * 60 * 1000, // 发现内容60分钟
+    DETAILS: 2 * 60 * 60 * 1000, // 详细信息2小时
+    STATIC: 24 * 60 * 60 * 1000 // 静态数据24小时
+  },
   
   // CDN优化配置
   ENABLE_CDN_OPTIMIZATION: true, // 启用CDN优化
@@ -1396,11 +1332,259 @@ var CONFIG = {
   // 图片CDN优化
   IMAGE_CDN_ENABLED: true, // 启用图片CDN
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
-  IMAGE_CDN_FALLBACK: true // 图片CDN失败时回退到原始URL
+  IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
+  
+  // 请求批处理配置
+  BATCH_REQUEST_ENABLED: true, // 启用请求批处理
+  BATCH_DELAY: 100, // 批处理延迟时间(ms)
+  BATCH_SIZE: 5, // 批处理大小
+  BATCH_TIMEOUT: 2000, // 批处理超时时间(ms)
+  
+  // 图片优化配置
+  IMAGE_LAZY_LOADING: true, // 启用图片懒加载
+  IMAGE_PRELOAD_COUNT: 3, // 预加载图片数量
+  IMAGE_LOAD_TIMEOUT: 5000, // 图片加载超时时间
+  IMAGE_RETRY_COUNT: 2 // 图片加载重试次数
 };
 
 // 缓存管理
 var cache = new Map();
+
+// 请求批处理管理器
+var RequestBatcher = {
+  pendingRequests: new Map(),
+  batchTimers: new Map(),
+  
+  // 添加请求到批处理队列
+  addRequest: function(requestId, requestFn, priority = 'normal') {
+    if (!CONFIG.BATCH_REQUEST_ENABLED) {
+      return requestFn();
+    }
+    
+    const batchKey = this.getBatchKey(requestId);
+    
+    if (!this.pendingRequests.has(batchKey)) {
+      this.pendingRequests.set(batchKey, []);
+    }
+    
+    const batch = this.pendingRequests.get(batchKey);
+    batch.push({ requestId, requestFn, priority });
+    
+    // 如果达到批处理大小，立即执行
+    if (batch.length >= CONFIG.BATCH_SIZE) {
+      this.executeBatch(batchKey);
+      return;
+    }
+    
+    // 设置延迟执行
+    if (!this.batchTimers.has(batchKey)) {
+      if (typeof setTimeout !== 'undefined') {
+        const timer = setTimeout(() => {
+          this.executeBatch(batchKey);
+        }, CONFIG.BATCH_DELAY);
+        this.batchTimers.set(batchKey, timer);
+      } else {
+        // 如果setTimeout不可用，立即执行
+        this.executeBatch(batchKey);
+      }
+    }
+    
+    // 返回Promise
+    return new Promise((resolve, reject) => {
+      const request = batch.find(r => r.requestId === requestId);
+      if (request) {
+        request.resolve = resolve;
+        request.reject = reject;
+      }
+    });
+  },
+  
+  // 获取批处理键
+  getBatchKey: function(requestId) {
+    // 根据请求类型分组
+    if (requestId.includes('trending')) return 'trending';
+    if (requestId.includes('discover')) return 'discover';
+    if (requestId.includes('search')) return 'search';
+    return 'default';
+  },
+  
+  // 执行批处理
+  executeBatch: function(batchKey) {
+    const batch = this.pendingRequests.get(batchKey);
+    if (!batch || batch.length === 0) return;
+    
+    // 清除定时器
+    if (this.batchTimers.has(batchKey)) {
+      if (typeof clearTimeout !== 'undefined') {
+        clearTimeout(this.batchTimers.get(batchKey));
+      }
+      this.batchTimers.delete(batchKey);
+    }
+    
+    // 按优先级排序
+    batch.sort((a, b) => {
+      const priorityOrder = { high: 3, normal: 2, low: 1 };
+      return priorityOrder[b.priority] - priorityOrder[a.priority];
+    });
+    
+    // 并行执行请求
+    const promises = batch.map(request => {
+      return request.requestFn()
+        .then(result => {
+          if (request.resolve) request.resolve(result);
+          return result;
+        })
+        .catch(error => {
+          if (request.reject) request.reject(error);
+          throw error;
+        });
+    });
+    
+    // 清理批处理队列
+    this.pendingRequests.delete(batchKey);
+    
+    return Promise.allSettled(promises);
+  }
+};
+
+// 图片优化管理器
+var ImageOptimizer = {
+  loadedImages: new Set(),
+  loadingQueue: new Map(),
+  
+  // 预加载图片
+  preloadImages: function(urls, maxCount = CONFIG.IMAGE_PRELOAD_COUNT) {
+    if (!CONFIG.IMAGE_LAZY_LOADING) return Promise.resolve();
+    
+    const urlsToLoad = urls.slice(0, maxCount);
+    const promises = urlsToLoad.map(url => this.loadImage(url));
+    
+    return Promise.allSettled(promises);
+  },
+  
+  // 加载单个图片
+  loadImage: function(url) {
+    if (!url || this.loadedImages.has(url)) {
+      return Promise.resolve();
+    }
+    
+    if (this.loadingQueue.has(url)) {
+      return this.loadingQueue.get(url);
+    }
+    
+    const promise = new Promise((resolve, reject) => {
+      // 检查Image构造函数是否可用
+      if (typeof Image === 'undefined') {
+        reject(new Error(`Image构造函数不可用: ${url}`));
+        return;
+      }
+      
+      const img = new Image();
+      let timeout = null;
+      
+      if (typeof setTimeout !== 'undefined') {
+        timeout = setTimeout(() => {
+          reject(new Error(`图片加载超时: ${url}`));
+        }, CONFIG.IMAGE_LOAD_TIMEOUT);
+      }
+      
+      img.onload = () => {
+        if (timeout && typeof clearTimeout !== 'undefined') {
+          clearTimeout(timeout);
+        }
+        this.loadedImages.add(url);
+        this.loadingQueue.delete(url);
+        resolve();
+      };
+      
+      img.onerror = () => {
+        if (timeout && typeof clearTimeout !== 'undefined') {
+          clearTimeout(timeout);
+        }
+        this.loadingQueue.delete(url);
+        reject(new Error(`图片加载失败: ${url}`));
+      };
+      
+      img.src = url;
+    });
+    
+    this.loadingQueue.set(url, promise);
+    return promise;
+  },
+  
+  // 批量优化图片URL
+  optimizeImageUrls: function(items) {
+    return items.map(item => {
+      if (item.posterPath) {
+        item.posterPath = this.optimizeImageUrl(item.posterPath);
+      }
+      if (item.title_backdrop) {
+        item.title_backdrop = this.optimizeImageUrl(item.title_backdrop);
+      }
+      if (item.backdropPath) {
+        item.backdropPath = this.optimizeImageUrl(item.backdropPath);
+      }
+      return item;
+    });
+  },
+  
+  // 优化单个图片URL
+  optimizeImageUrl: function(url) {
+    if (!url || !CONFIG.IMAGE_CDN_ENABLED) return url;
+    
+    // 如果已经是优化过的URL，直接返回
+    if (url.includes('image.tmdb.org')) {
+      return url.replace('/t/p/original/', `/t/p/${CONFIG.IMAGE_QUALITY}/`);
+    }
+    
+    return url;
+  }
+};
+
+// 懒加载管理器
+var LazyLoader = {
+  loadedModules: new Set(),
+  loadingPromises: new Map(),
+  
+  // 懒加载模块
+  loadModule: function(moduleName, loadFunction, priority = 'normal') {
+    if (this.loadedModules.has(moduleName)) {
+      return Promise.resolve();
+    }
+    
+    if (this.loadingPromises.has(moduleName)) {
+      return this.loadingPromises.get(moduleName);
+    }
+    
+    const promise = loadFunction()
+      .then(result => {
+        this.loadedModules.add(moduleName);
+        this.loadingPromises.delete(moduleName);
+        return result;
+      })
+      .catch(error => {
+        this.loadingPromises.delete(moduleName);
+        throw error;
+      });
+    
+    this.loadingPromises.set(moduleName, promise);
+    return promise;
+  },
+  
+  // 预加载模块
+  preloadModules: function(modules) {
+    const promises = modules.map(({ name, loadFunction, priority }) => 
+      this.loadModule(name, loadFunction, priority)
+    );
+    
+    return Promise.allSettled(promises);
+  },
+  
+  // 检查模块是否已加载
+  isLoaded: function(moduleName) {
+    return this.loadedModules.has(moduleName);
+  }
+};
 
 // CDN优化系统
 var CDNManager = {
@@ -1560,7 +1744,7 @@ var ImageCDN = {
 };
 
 // 智能缓存管理工具函数
-function getCachedData(key) {
+function getCachedData(key, cacheType = 'DEFAULT') {
   const cached = cache.get(key);
   if (!cached) {
     return null;
@@ -1569,55 +1753,159 @@ function getCachedData(key) {
   const now = Date.now();
   const age = now - cached.timestamp;
   
+  // 根据缓存类型确定缓存时间
+  let cacheDuration = CONFIG.CACHE_DURATION;
+  if (CONFIG.CACHE_STRATEGIES[cacheType]) {
+    cacheDuration = CONFIG.CACHE_STRATEGIES[cacheType];
+  }
+  
   // 检查是否需要自动刷新
-  if (shouldAutoRefresh(key, age)) {
-    console.log(`🔄 自动刷新缓存: ${key}`);
+  if (shouldAutoRefresh(key, age, cacheType)) {
+    console.log(`🔄 自动刷新缓存: ${key} (${cacheType})`);
     return null; // 触发新数据获取
   }
   
   // 使用缓存数据
-  if (age < CONFIG.CACHE_DURATION) {
+  if (age < cacheDuration) {
+    // 更新访问计数
+    cached.accessCount = (cached.accessCount || 0) + 1;
+    cached.lastAccess = now;
     return cached.data;
   }
   
   return null;
 }
 
-function setCachedData(key, data) {
+function setCachedData(key, data, cacheType = 'DEFAULT') {
+  const existing = cache.get(key);
   cache.set(key, {
     data: data,
     timestamp: Date.now(),
-    accessCount: (cache.get(key)?.accessCount || 0) + 1
+    accessCount: (existing?.accessCount || 0),
+    lastAccess: existing?.lastAccess || Date.now(),
+    cacheType: cacheType
   });
 }
 
-// 自动刷新策略（ForwardWidget优化版）
-function shouldAutoRefresh(key, age) {
+// 智能自动刷新策略（优化版）
+function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
   const cached = cache.get(key);
   if (!cached) return false;
   
+  // 根据缓存类型确定基础缓存时间
+  let baseCacheDuration = CONFIG.CACHE_DURATION;
+  if (CONFIG.CACHE_STRATEGIES[cacheType]) {
+    baseCacheDuration = CONFIG.CACHE_STRATEGIES[cacheType];
+  }
+  
   // 策略1: 基于访问频率 - 热门数据更频繁刷新
   const accessCount = cached.accessCount || 0;
-  if (accessCount > 3 && age > CONFIG.CACHE_DURATION * 0.6) { // 降低门槛
+  if (accessCount > 5 && age > baseCacheDuration * 0.5) {
     return true;
   }
   
-  // 策略2: 基于数据类型 - 热门内容更频繁刷新
-  if (key.includes('trending') && age > 20 * 60 * 1000) { // 20分钟，更保守
+  // 策略2: 基于数据类型 - 不同类型使用不同策略
+  if (cacheType === 'TRENDING' && age > 20 * 60 * 1000) {
     return true;
   }
   
-  // 策略3: 基于缓存总量 - 避免内存过载（主要策略）
-  if (cache.size > 15 && age > CONFIG.CACHE_DURATION * 0.7) {
+  if (cacheType === 'STATIC' && age > baseCacheDuration * 0.9) {
     return true;
   }
   
-  // 策略4: 简单的随机刷新 - 避免所有缓存同时过期
-  if (age > CONFIG.CACHE_DURATION * 0.8 && Math.random() < 0.3) {
+  // 策略3: 基于缓存总量 - 智能内存管理
+  if (cache.size > 20 && age > baseCacheDuration * 0.6) {
+    return true;
+  }
+  
+  // 策略4: 基于最后访问时间 - 长期未访问的数据优先刷新
+  const lastAccess = cached.lastAccess || cached.timestamp;
+  if (Date.now() - lastAccess > baseCacheDuration * 0.8 && age > baseCacheDuration * 0.4) {
+    return true;
+  }
+  
+  // 策略5: 随机刷新 - 避免同时过期（降低概率）
+  if (age > baseCacheDuration * 0.8 && Math.random() < 0.1) {
     return true;
   }
   
   return false;
+}
+
+
+// 通用数据获取函数（减少重复代码）
+async function fetchTmdbData(endpoint, params = {}, cacheType = 'DEFAULT', requestId = null) {
+  const cacheKey = `${endpoint}_${JSON.stringify(params)}`;
+  const cached = getCachedData(cacheKey, cacheType);
+  if (cached) {
+    performanceMonitor.recordRequest('cached');
+    return cached;
+  }
+  
+  try {
+    const requestFn = () => Widget.tmdb.get(endpoint, { params });
+    const result = requestId ? 
+      await RequestBatcher.addRequest(requestId, requestFn) : 
+      await requestFn();
+    
+    if (requestId) {
+      performanceMonitor.recordRequest('batch');
+    } else {
+      performanceMonitor.recordRequest('normal');
+    }
+    
+    setCachedData(cacheKey, result, cacheType);
+    return result;
+  } catch (error) {
+    console.error(`TMDB数据获取失败 (${endpoint}):`, error);
+    throw error;
+  }
+}
+
+// 通用数据处理函数（优化版）
+async function processTmdbResults(results, mediaType, options = {}) {
+  const { 
+    filterPoster = true, 
+    maxItems = CONFIG.MAX_ITEMS, 
+    addGenreTitle = true,
+    useCDN = true,
+    preloadImages = true
+  } = options;
+  
+  const processedResults = await Promise.all(results.map(async item => {
+    item.media_type = mediaType;
+    const widgetItem = useCDN ? await createWidgetItem(item) : createWidgetItemWithoutCDN(item);
+    
+    if (addGenreTitle) {
+      widgetItem.genreTitle = getGenreTitle(item.genre_ids, mediaType);
+    }
+    
+    return widgetItem;
+  }));
+  
+  // 优化图片URL
+  const optimizedResults = ImageOptimizer.optimizeImageUrls(processedResults);
+  
+  let filteredResults = optimizedResults;
+  if (filterPoster) {
+    filteredResults = optimizedResults.filter(item => item.posterPath);
+  }
+  
+  const finalResults = filteredResults.slice(0, maxItems);
+  
+  // 预加载图片
+  if (preloadImages && CONFIG.IMAGE_LAZY_LOADING) {
+    const imageUrls = finalResults
+      .map(item => [item.posterPath, item.title_backdrop, item.backdropPath])
+      .flat()
+      .filter(url => url);
+    
+    ImageOptimizer.preloadImages(imageUrls).catch(error => {
+      console.warn('图片预加载失败:', error);
+    });
+  }
+  
+  return finalResults;
 }
 
 // 智能海报处理函数
@@ -1867,7 +2155,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
   
   try {
     const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey);
+    const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
     let endpoint, queryParams;
@@ -1956,7 +2244,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     // 限制返回数量
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
-    setCachedData(cacheKey, results);
+    setCachedData(cacheKey, results, 'TRENDING');
     console.log(`✅ TMDB API加载成功: ${results.length}项`);
     return results;
 
@@ -2504,24 +2792,30 @@ function initSmartCache() {
     cleanupCache();
     
     // 只设置一个定时器 - 定期清理（10分钟，减少频率）
-    setInterval(() => {
-      cleanupCache();
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        cleanupCache();
+        
+        // 简单的状态检查
+        if (cache.size > 25) {
+          console.log("⚠️ 缓存过多，执行深度清理");
+          // 强制清理一半最老的缓存
+          const entries = Array.from(cache.entries());
+          entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
+          const toDelete = entries.slice(0, Math.floor(entries.length / 2));
+          toDelete.forEach(([key]) => cache.delete(key));
+        }
+      }, 10 * 60 * 1000); // 10分钟
       
-      // 简单的状态检查
-      if (cache.size > 25) {
-        console.log("⚠️ 缓存过多，执行深度清理");
-        // 强制清理一半最老的缓存
-        const entries = Array.from(cache.entries());
-        entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
-        const toDelete = entries.slice(0, Math.floor(entries.length / 2));
-        toDelete.forEach(([key]) => cache.delete(key));
-      }
-    }, 10 * 60 * 1000); // 10分钟
-    
-    console.log("✅ 智能缓存已启动");
+      console.log("✅ 智能缓存已启动");
+    } else {
+      console.log("⚠️ setInterval不可用，使用基础缓存模式");
+    }
   } catch (error) {
     console.log("⚠️ 使用基础缓存模式");
-    setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+    if (typeof setInterval !== 'undefined') {
+      setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
+    }
   }
 }
 
@@ -2597,9 +2891,11 @@ function initializeCDN() {
     console.log(`🖼️ 图片优化: ${CONFIG.IMAGE_CDN_ENABLED ? "启用" : "禁用"} (${CONFIG.IMAGE_QUALITY})`);
     
     // 每10分钟输出CDN统计
-    setInterval(() => {
-      CDNStats.getStats();
-    }, 10 * 60 * 1000);
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        CDNStats.getStats();
+      }, 10 * 60 * 1000);
+    }
   } else {
     console.log("🌐 CDN优化已禁用，使用原始URL");
   }
@@ -3023,791 +3319,6 @@ async function loadTmdbByTheme(params = {}) {
     return await loadThemeFallback(params);
   }
 }
-
-// ===============屏蔽配置===============
-// 使用Widget.storage API的动态屏蔽系统
-const STORAGE_KEY = "forward_blocked_items";
-
-let blockedIdCache = null;
-
-function getBlockedIdSet() {
-  try {
-    if (blockedIdCache) {
-      return blockedIdCache;
-    }
-    
-    const stored = Widget.storage.get(STORAGE_KEY);
-    const blockedItems = stored ? JSON.parse(stored) : [];
-    const idSet = new Set();
-    
-    for (let i = 0; i < blockedItems.length; i++) {
-      const item = blockedItems[i];
-      const idStr = String(item.id);
-      const idNum = parseInt(item.id);
-      
-      idSet.add(idStr + "_" + item.media_type);
-      idSet.add(idNum + "_" + item.media_type);
-      
-      idSet.add(idStr);
-      idSet.add(idNum);
-    }
-    
-    blockedIdCache = idSet;
-    
-    return idSet;
-  } catch (error) {
-    return new Set();
-  }
-}
-
-function clearBlockedIdCache() {
-  blockedIdCache = null;
-}
-
-function isItemBlocked(item) {
-  if (!item || !item.id) return false;
-  
-  const blockedIdSet = getBlockedIdSet();
-  const itemId = String(item.id);
-  const itemIdNum = parseInt(item.id);
-  
-  if (blockedIdSet.has(itemId) || blockedIdSet.has(itemIdNum)) {
-    return true;
-  }
-  
-  if (item.mediaType || item.media_type) {
-    const mediaType = item.mediaType || item.media_type;
-    if (blockedIdSet.has(itemId + "_" + mediaType) || blockedIdSet.has(itemIdNum + "_" + mediaType)) {
-      return true;
-    }
-  }
-  
-  if (item.originalDoubanId) {
-    const doubanId = String(item.originalDoubanId);
-    const doubanIdNum = parseInt(item.originalDoubanId);
-    if (blockedIdSet.has(doubanId) || blockedIdSet.has(doubanIdNum)) {
-      return true;
-    }
-  }
-  
-  return false;
-}
-
-function filterBlockedItems(items) {
-  if (!Array.isArray(items)) return items;
-  
-  const filtered = [];
-  for (let i = 0; i < items.length; i++) {
-    if (!isItemBlocked(items[i])) {
-      filtered.push(items[i]);
-    }
-  }
-  return filtered;
-}
-
-function addToBlockList(tmdbId, mediaType = "movie", title = "", additionalInfo = {}) {
-  try {
-    const stored = Widget.storage.get(STORAGE_KEY);
-    const blockedItems = stored ? JSON.parse(stored) : [];
-    
-    const itemId = String(tmdbId);
-    
-    let exists = false;
-    for (let i = 0; i < blockedItems.length; i++) {
-      if (blockedItems[i].id === itemId && blockedItems[i].media_type === mediaType) {
-        exists = true;
-        break;
-      }
-    }
-    
-    if (!exists) {
-      blockedItems.push({
-        id: itemId,
-        media_type: mediaType,
-        title: title || `TMDB ID: ${itemId}`,
-        poster_path: additionalInfo.poster_path || "",
-        overview: additionalInfo.overview || "通过combined.js添加的屏蔽项",
-        blocked_date: new Date().toISOString(),
-        vote_average: additionalInfo.vote_average || 0
-      });
-      
-      Widget.storage.set(STORAGE_KEY, JSON.stringify(blockedItems));
-      clearBlockedIdCache();
-      return true;
-    }
-    
-    return false;
-  } catch (error) {
-    return false;
-  }
-}
-
-//=============屏蔽管理功能函数=============
-function getBlockedItems() {
-  try {
-    const stored = Widget.storage.get(STORAGE_KEY);
-    return stored ? JSON.parse(stored) : [];
-  } catch (error) {
-    return [];
-  }
-}
-
-function saveBlockedItems(items) {
-  try {
-    Widget.storage.set(STORAGE_KEY, JSON.stringify(items));
-    clearBlockedIdCache();
-    return true;
-  } catch (error) {
-    return false;
-  }
-}
-
-function addBlockedItem(item) {
-  const blockedItems = getBlockedItems();
-  
-  const exists = blockedItems.some(blocked => 
-    blocked.id === String(item.id) && blocked.media_type === item.media_type
-  );
-  
-  if (!exists) {
-    blockedItems.push({
-      id: String(item.id),
-      media_type: item.media_type,
-      title: item.title,
-      poster_path: item.poster_path,
-      overview: item.overview,
-      blocked_date: new Date().toISOString(),
-      vote_average: item.vote_average || 0
-    });
-    
-    return saveBlockedItems(blockedItems);
-  }
-  
-  return false;
-}
-
-function removeBlockedItem(id, mediaType) {
-  const blockedItems = getBlockedItems();
-  const filtered = blockedItems.filter(item => 
-    !(item.id === String(id) && item.media_type === mediaType)
-  );
-  
-  return saveBlockedItems(filtered);
-}
-
-function clearBlockedItems() {
-  try {
-    Widget.storage.clear();
-    clearBlockedIdCache();
-    return true;
-  } catch (error) {
-    return false;
-  }
-}
-
-async function searchTMDB(query, language) {
-  if (!query || query.trim().length === 0) {
-    throw new Error("搜索关键词不能为空");
-  }
-
-  try {
-    
-    const response = await Widget.tmdb.get("/search/multi", {
-      params: {
-        query: query.trim(),
-        language: language || "zh-CN",
-        page: 1
-      }
-    });
-
-    if (!response) {
-      throw new Error("TMDB API无响应");
-    }
-
-    let results = [];
-    if (response.results) {
-      results = response.results;
-    } else if (response.data && response.data.results) {
-      results = response.data.results;
-    } else if (Array.isArray(response)) {
-      results = response;
-    } else {
-      throw new Error("无法解析TMDB响应结构");
-    }
-
-    const filteredResults = [];
-    for (let i = 0; i < results.length && filteredResults.length < 20; i++) {
-      const item = results[i];
-      if ((item.media_type === "movie" || item.media_type === "tv") &&
-          item.id &&
-          (item.title || item.name) &&
-          item.poster_path) {
-        
-        const title = item.title || item.name;
-        const releaseDate = item.release_date || item.first_air_date;
-        const year = releaseDate ? new Date(releaseDate).getFullYear() : "";
-        
-        filteredResults.push({
-          id: String(item.id),
-          media_type: item.media_type,
-          title: title,
-          poster_path: item.poster_path,
-          overview: item.overview || "",
-          vote_average: item.vote_average || 0,
-          release_date: releaseDate,
-          year: year
-        });
-      }
-    }
-    
-    return filteredResults;
-    
-  } catch (error) {
-    throw new Error("搜索失败: " + error.message);
-  }
-}
-
-async function searchAndBlock(params) {
-  const action = params.action || "search_and_block";
-  
-  if (action === "manual_block") {
-    const tmdbId = params.tmdb_id ? params.tmdb_id.trim() : '';
-    const mediaType = params.media_type || "movie";
-    
-    if (!tmdbId) {
-      return [{
-        id: "no_id",
-        type: "info",
-        title: "❓ 请输入TMDB ID",
-        description: "在上方输入框中输入要屏蔽的TMDB ID，然后重新运行此模块。",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      }];
-    }
-
-    if (!/^\d+$/.test(tmdbId)) {
-      return [{
-        id: "invalid_id",
-        type: "error",
-        title: "❌ 无效的ID格式",
-        description: "TMDB ID应该是纯数字，例如：550、1399",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "error"
-      }];
-    }
-
-    try {
-      const endpoint = mediaType === "movie" ? "/movie/" + tmdbId : "/tv/" + tmdbId;
-      
-      const response = await Widget.tmdb.get(endpoint, {
-        params: { language: "zh-CN" }
-      });
-
-      let item = null;
-      if (response && response.data) {
-        item = response.data;
-      } else if (response && (response.title || response.name)) {
-        item = response;
-      } else {
-        throw new Error("无法解析详情响应结构");
-      }
-
-      const title = item.title || item.name;
-      
-      if (!title) {
-        return [{
-          id: "not_found",
-          type: "error",
-          title: "❌ 内容不存在",
-          description: "未找到ID为 " + tmdbId + " 的" + (mediaType === "movie" ? "电影" : "剧集"),
-          posterPath: "",
-          backdropPath: "",
-          rating: 0,
-          mediaType: "error"
-        }];
-      }
-
-      const blockItem = {
-        id: tmdbId,
-        media_type: mediaType,
-        title: title,
-        poster_path: item.poster_path,
-        overview: item.overview,
-        vote_average: item.vote_average
-      };
-
-      const success = addBlockedItem(blockItem);
-      const mediaTypeText = mediaType === "movie" ? "电影" : "剧集";
-      const ratingText = item.vote_average ? " ⭐" + item.vote_average.toFixed(1) : "";
-      
-      return [{
-        id: "manual_block_result_" + tmdbId,
-        type: "info",
-        title: success ? "✅ 屏蔽成功" : "ℹ️ 已存在",
-        description: success ? 
-          mediaTypeText + "\"" + title + "\"" + ratingText + "已添加到黑名单" : 
-          mediaTypeText + "\"" + title + "\"" + ratingText + "已在黑名单中",
-        posterPath: item.poster_path ? "https://image.tmdb.org/t/p/w500" + item.poster_path : "",
-        backdropPath: "",
-        rating: item.vote_average || 0,
-        mediaType: mediaType
-      }];
-
-    } catch (error) {
-      return [{
-        id: "manual_block_error",
-        type: "error", 
-        title: "❌ 屏蔽失败",
-        description: "错误信息: " + error.message,
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "error"
-      }];
-    }
-  }
-  
-  const query = params.query ? params.query.trim() : '';
-  const language = params.language || "zh-CN";
-  
-  if (!query) {
-    return [{
-      id: "no_query",
-      type: "info",
-      title: "❓ 请输入搜索关键词",
-      description: "在上方输入框中输入要搜索的影片或剧集名称，然后重新运行此模块。",
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "info"
-    }];
-  }
-
-  try {
-    const searchResults = await searchTMDB(query, language);
-    
-    if (searchResults.length === 0) {
-      return [{
-        id: "no_results",
-        type: "info", 
-        title: "🔍 未找到匹配结果",
-        description: "没有找到与\"" + query + "\"相关的影片或剧集，请尝试其他关键词。",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      }];
-    }
-
-    const resultItems = [];
-    
-    if (action === "search_only") {
-      const blockedItems = getBlockedItems();
-      const blockedIds = new Set();
-      for (let i = 0; i < blockedItems.length; i++) {
-        blockedIds.add(blockedItems[i].id + "_" + blockedItems[i].media_type);
-      }
-      
-      for (let i = 0; i < searchResults.length; i++) {
-        const item = searchResults[i];
-        const isBlocked = blockedIds.has(item.id + "_" + item.media_type);
-        const mediaTypeText = item.media_type === "movie" ? "电影" : "剧集";
-        const yearText = item.year ? " (" + item.year + ")" : "";
-        const ratingText = item.vote_average ? " ⭐" + item.vote_average.toFixed(1) : "";
-        const statusText = isBlocked ? " 🚫已屏蔽" : "";
-        
-        resultItems.push({
-          id: "search_" + item.id + "_" + item.media_type,
-          type: "info",
-          title: item.title + yearText + statusText,
-          description: mediaTypeText + ratingText + " (TMDB ID: " + item.id + ") | " + (item.overview || "暂无简介"),
-          posterPath: item.poster_path ? "https://image.tmdb.org/t/p/w500" + item.poster_path : "",
-          backdropPath: "",
-          rating: item.vote_average || 0,
-          mediaType: item.media_type
-        });
-      }
-      
-      resultItems.unshift({
-        id: "search_summary",
-        type: "info",
-        title: "🔍 搜索结果",
-        description: "搜索\"" + query + "\"找到 " + searchResults.length + " 个结果\n\n" +
-                     "如需屏蔽这些内容，请选择\"搜索并屏蔽\"模式。",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      });
-      
-    } else {
-      let blockedCount = 0;
-      let alreadyBlockedCount = 0;
-      
-      for (let i = 0; i < searchResults.length; i++) {
-        const item = searchResults[i];
-        const mediaTypeText = item.media_type === "movie" ? "电影" : "剧集";
-        const yearText = item.year ? " (" + item.year + ")" : "";
-        const ratingText = item.vote_average ? " ⭐" + item.vote_average.toFixed(1) : "";
-        
-        const blockItem = {
-          id: item.id,
-          media_type: item.media_type,
-          title: item.title,
-          poster_path: item.poster_path,
-          overview: item.overview,
-          vote_average: item.vote_average
-        };
-        
-        const success = addBlockedItem(blockItem);
-        if (success) {
-          blockedCount++;
-        } else {
-          alreadyBlockedCount++;
-        }
-        
-        const status = success ? "✅ 已屏蔽" : "🚫 已存在";
-        
-        resultItems.push({
-          id: "blocked_" + item.id + "_" + item.media_type,
-          type: "info",
-          title: status + " " + item.title + yearText,
-          description: mediaTypeText + ratingText + " (TMDB ID: " + item.id + ") | " + (item.overview || "暂无简介"),
-          posterPath: item.poster_path ? "https://image.tmdb.org/t/p/w500" + item.poster_path : "",
-          backdropPath: "",
-          rating: item.vote_average || 0,
-          mediaType: item.media_type
-        });
-      }
-      
-      resultItems.unshift({
-        id: "block_summary",
-        type: "info",
-        title: "🎯 屏蔽操作完成",
-        description: "搜索\"" + query + "\"找到 " + searchResults.length + " 个结果\n" +
-                     "新增屏蔽: " + blockedCount + " 个\n" +
-                     "已存在: " + alreadyBlockedCount + " 个\n\n" +
-                     "这些内容将不再在任何TMDB榜单中显示。",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      });
-    }
-    
-    return resultItems;
-    
-  } catch (error) {
-    return [{
-      id: "error",
-      type: "error",
-      title: "❌ 搜索失败",
-      description: "错误信息: " + error.message,
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "error"
-    }];
-  }
-}
-
-async function manageBlockedItems(params) {
-  const action = params.action || "view";
-  
-  if (action === "unblock") {
-    const unblockId = params.unblock_id ? params.unblock_id.trim() : '';
-    const mediaType = params.unblock_media_type || "tv";
-    
-    if (!unblockId) {
-      return [{
-        id: "no_unblock_id",
-        type: "info",
-        title: "❓ 请输入要取消屏蔽的ID",
-        description: "在上方输入框中输入要取消屏蔽的TMDB ID，然后重新运行。",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      }];
-    }
-
-    if (!/^\d+$/.test(unblockId)) {
-      return [{
-        id: "invalid_unblock_id",
-        type: "error",
-        title: "❌ 无效的ID格式",
-        description: "TMDB ID应该是纯数字，例如：2190、550",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "error"
-      }];
-    }
-
-    const success = removeBlockedItem(unblockId, mediaType);
-    const mediaTypeText = mediaType === "movie" ? "电影" : "剧集";
-    
-    return [{
-      id: "unblock_result",
-      type: "info",
-      title: success ? "✅ 取消屏蔽成功" : "❌ 操作失败",
-      description: success ? 
-        mediaTypeText + " ID " + unblockId + " 已从黑名单中移除，将重新在榜单中显示。" : 
-        "未找到ID为 " + unblockId + " 的" + mediaTypeText + "，或取消屏蔽时出现错误。",
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "info"
-    }];
-  }
-  
-  if (action === "clear") {
-    const success = clearBlockedItems();
-    return [{
-      id: "clear_result",
-      type: "info",
-      title: success ? "✅ 黑名单已清空" : "❌ 清空失败",
-      description: success ? "所有屏蔽项已被移除，Widget存储已清空" : "清空黑名单时出现错误",
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "info"
-    }];
-  }
-
-  if (action === "export") {
-    const blockedItems = getBlockedItems();
-    const idList = blockedItems.map(item => item.id).join(',');
-    
-    return [{
-      id: "export_result",
-      type: "info",
-      title: "📤 导出屏蔽配置",
-      description: `当前屏蔽的ID列表（${blockedItems.length}个）：\n\n${idList || '无'}`,
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "info"
-    }];
-  }
-
-  if (action === "import") {
-    const importData = params.import_data ? params.import_data.trim() : '';
-    if (!importData) {
-      return [{
-        id: "import_empty",
-        type: "info",
-        title: "❓ 请输入导入数据",
-        description: "在上方输入框中输入要导入的TMDB ID列表（用逗号分隔），然后重新运行。",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      }];
-    }
-
-    try {
-      let cleanedData = importData;
-      
-      cleanedData = cleanedData.replace(/['"]/g, '');
-      
-      const idArray = cleanedData.split(',');
-      const ids = [];
-      for (let i = 0; i < idArray.length; i++) {
-        const id = idArray[i].trim();
-        if (/^\d+$/.test(id)) {
-          ids.push(id);
-        }
-      }
-      
-      let importedCount = 0;
-      const blockedItems = getBlockedItems();
-
-      for (let i = 0; i < ids.length; i++) {
-        const id = ids[i];
-        const exists = blockedItems.some(item => item.id === id);
-        if (!exists) {
-          blockedItems.push({
-            id: id,
-            media_type: "movie",
-            title: `TMDB ID: ${id}`,
-            poster_path: "",
-            overview: "通过ID导入的屏蔽项",
-            blocked_date: new Date().toISOString(),
-            vote_average: 0
-          });
-          importedCount++;
-        }
-      }
-
-      const success = saveBlockedItems(blockedItems);
-      
-      return [{
-        id: "import_result",
-        type: "info",
-        title: success ? `✅ 导入成功` : "❌ 导入失败",
-        description: success ? 
-          `成功导入 ${importedCount} 个新的屏蔽项，总计 ${blockedItems.length} 个屏蔽项` :
-          "导入过程中出现错误",
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "info"
-      }];
-    } catch (error) {
-      return [{
-        id: "import_error",
-        type: "error",
-        title: "❌ 导入失败",
-        description: `错误信息: ${error.message}`,
-        posterPath: "",
-        backdropPath: "",
-        rating: 0,
-        mediaType: "error"
-      }];
-    }
-  }
-  
-  const blockedItems = getBlockedItems();
-  
-  if (blockedItems.length === 0) {
-    return [{
-      id: "empty_list",
-      type: "info",
-      title: "黑名单为空",
-      description: "当前没有屏蔽任何内容。使用\"🚫 搜索屏蔽\"功能添加要屏蔽的影片。",
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "info"
-    }];
-  }
-
-  const sortedItems = [];
-  for (let i = 0; i < blockedItems.length; i++) {
-    sortedItems.push(blockedItems[i]);
-  }
-  
-  sortedItems.sort(function(a, b) {
-    return new Date(b.blocked_date) - new Date(a.blocked_date);
-  });
-
-  const resultItems = [];
-  
-  if (sortedItems.length > 0) {
-    resultItems.push({
-      id: "unblock_help",
-      type: "info",
-      title: "💡 取消屏蔽说明",
-      description: "要取消屏蔽某个内容，请：📝 记住要取消的TMDB ID,⚙️ 选择\"取消屏蔽\"操作, ✏️ 输入对应的ID和媒体类型",
-      posterPath: "",
-      backdropPath: "",
-      rating: 0,
-      mediaType: "info"
-    });
-  }
-  
-  for (let i = 0; i < sortedItems.length; i++) {
-    const item = sortedItems[i];
-    const mediaTypeText = item.media_type === "movie" ? "电影" : "剧集";
-    const blockedDate = new Date(item.blocked_date).toLocaleDateString();
-    const ratingText = item.vote_average ? " ⭐" + item.vote_average.toFixed(1) : "";
-    
-    resultItems.push({
-      id: "blocked_" + item.id + "_" + item.media_type,
-      type: "blocked_item",
-      title: "🚫 " + item.title,
-      description: mediaTypeText + ratingText + " | TMDB ID: " + item.id + " | 屏蔽于: " + blockedDate + "\n" + (item.overview || "暂无简介"),
-      posterPath: item.poster_path ? "https://image.tmdb.org/t/p/w500" + item.poster_path : "",
-      backdropPath: "",
-      rating: item.vote_average || 0,
-      mediaType: item.media_type,
-      tmdbId: item.id,
-      tmdbMediaType: item.media_type
-    });
-  }
-  
-  return resultItems;
-}
-
-async function loadDetail(link) {
-  try {
-    if (link.startsWith("block://")) {
-      const parts = link.replace("block://", "").split("/");
-      const [id, mediaType, encodedTitle] = parts;
-      const title = decodeURIComponent(encodedTitle);
-      
-      const endpoint = mediaType === "movie" ? "/movie/" + id : "/tv/" + id;
-      
-      const response = await Widget.tmdb.get(endpoint, {
-        params: { language: "zh-CN" }
-      });
-
-      let item = null;
-      if (response && response.data) {
-        item = response.data;
-      } else if (response && (response.title || response.name)) {
-        item = response;
-      } else {
-        throw new Error("无法解析详情响应结构");
-      }
-      const blockItem = {
-        id: id,
-        media_type: mediaType,
-        title: item.title || item.name,
-        poster_path: item.poster_path,
-        overview: item.overview,
-        vote_average: item.vote_average
-      };
-
-      const success = addBlockedItem(blockItem);
-      const mediaTypeText = mediaType === "movie" ? "电影" : "剧集";
-      const ratingText = item.vote_average ? ` ⭐${item.vote_average.toFixed(1)}` : "";
-      
-      return {
-        videoUrl: "",
-        title: success ? "✅ 屏蔽成功" : "ℹ️ 已存在",
-        description: success ? 
-          `${mediaTypeText}"${title}"${ratingText}已添加到黑名单，将不再在应用中显示。\n\n数据已保存到Widget.storage中，所有榜单都会自动过滤此内容。` : 
-          `${mediaTypeText}"${title}"${ratingText}已在黑名单中。`
-      };
-      
-    } else if (link.startsWith("unblock://")) {
-      const parts = link.replace("unblock://", "").split("/");
-      const [id, mediaType, encodedTitle] = parts;
-      const title = decodeURIComponent(encodedTitle);
-      
-      const success = removeBlockedItem(id, mediaType);
-      const mediaTypeText = mediaType === "movie" ? "电影" : "剧集";
-      
-      return {
-        videoUrl: "",
-        title: success ? "✅ 取消屏蔽成功" : "❌ 操作失败",
-        description: success ? 
-          `${mediaTypeText}"${title}"已从黑名单中移除，将重新在应用中显示。\n\nWidget.storage已更新，所有榜单将重新显示此内容。` : 
-          `取消屏蔽${mediaTypeText}"${title}"时出现错误。`
-      };
-    }
-    
-    return {
-      videoUrl: "",
-      title: "❌ 无效操作",
-      description: "无法识别的操作类型，请使用屏蔽管理器中的功能。"
-    };
-    
-  } catch (error) {
-    return {
-      videoUrl: "",
-      title: "❌ 操作失败", 
-      description: `错误信息: ${error.message}`
-    };
-  }
-}
-
 
 // 主题分类备用数据获取函数
 async function loadThemeFallback(params = {}) {
@@ -4611,4 +4122,32 @@ async function getPreferenceRecommendations(params = {}) {
     }
 }
 
+// 导出性能统计和优化工具（供外部使用）
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    performanceMonitor,
+    RequestBatcher,
+    ImageOptimizer,
+    LazyLoader,
+    getPerformanceStats: () => performanceMonitor.exportStats()
+  };
+}
+
+// 全局性能统计导出
+if (typeof window !== 'undefined') {
+  window.FW2Performance = {
+    getStats: () => performanceMonitor.exportStats(),
+    logStats: () => performanceMonitor.logStats(),
+    clearStats: () => {
+      performanceMonitor.stats = {
+        totalRequests: 0,
+        cachedRequests: 0,
+        batchRequests: 0,
+        imagePreloads: 0,
+        lazyLoads: 0,
+        totalTime: 0
+      };
+    }
+  };
+}
 
