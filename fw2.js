@@ -2772,21 +2772,109 @@ async function tmdbDiscoverByNetwork(params = {}) {
 async function loadTmdbByCompany(params = {}) {
   const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
   
+  console.log(`🏢 开始加载TMDB出品公司数据:`, {
+    with_companies,
+    type,
+    with_genres,
+    sort_by,
+    page,
+    language
+  });
+  
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey, 'DISCOVER');
-    if (cached) return cached;
+    if (cached) {
+      console.log(`📦 使用缓存数据: ${cached.length}项`);
+      return cached;
+    }
 
     let results = [];
     
-    // 如果选择全部类型，同时获取电影和剧集（使用批处理优化）
+    // 如果选择全部类型，同时获取电影和剧集
     if (type === "all") {
-      const movieRequestId = `discover_movie_${with_companies}_${with_genres}_${page}`;
-      const tvRequestId = `discover_tv_${with_companies}_${with_genres}_${page}`;
+      console.log(`🎬 开始加载全部类型内容: 公司=${with_companies}, 类型=${with_genres}, 页码=${page}`);
       
-      const [movieRes, tvRes] = await Promise.all([
-        RequestOptimizer.addRequest(movieRequestId, () => 
-          Widget.tmdb.get("/discover/movie", {
+      try {
+        // 构建查询参数
+        const queryParams = {
+          language,
+          page,
+          sort_by
+        };
+        
+        // 添加出品公司过滤器
+        if (with_companies) {
+          queryParams.with_companies = with_companies;
+        }
+        
+        // 添加题材类型过滤器
+        if (with_genres) {
+          queryParams.with_genres = with_genres;
+        }
+        
+        console.log(`📋 查询参数:`, queryParams);
+        
+        // 直接并行请求，不使用复杂的优化器
+        const [movieRes, tvRes] = await Promise.all([
+          Widget.tmdb.get("/discover/movie", { params: queryParams }),
+          Widget.tmdb.get("/discover/tv", { params: queryParams })
+        ]);
+        
+        console.log(`📊 电影结果: ${movieRes.results?.length || 0}项`);
+        console.log(`📊 剧集结果: ${tvRes.results?.length || 0}项`);
+      
+        // 处理电影结果
+        const movieResults = [];
+        if (movieRes.results && movieRes.results.length > 0) {
+          for (const item of movieRes.results) {
+            try {
+              item.media_type = "movie";
+              const widgetItem = await createWidgetItem(item);
+              widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
+              movieResults.push(widgetItem);
+            } catch (error) {
+              console.warn(`⚠️ 处理电影项失败:`, item.title, error);
+            }
+          }
+        }
+        
+        // 处理剧集结果
+        const tvResults = [];
+        if (tvRes.results && tvRes.results.length > 0) {
+          for (const item of tvRes.results) {
+            try {
+              item.media_type = "tv";
+              const widgetItem = await createWidgetItem(item);
+              widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
+              tvResults.push(widgetItem);
+            } catch (error) {
+              console.warn(`⚠️ 处理剧集项失败:`, item.name, error);
+            }
+          }
+        }
+        
+        console.log(`✅ 处理完成: 电影${movieResults.length}项, 剧集${tvResults.length}项`);
+        
+        // 过滤有海报的项目
+        const filteredMovieResults = movieResults.filter(item => item.posterPath);
+        const filteredTvResults = tvResults.filter(item => item.posterPath);
+        
+        console.log(`🖼️ 过滤后: 电影${filteredMovieResults.length}项, 剧集${filteredTvResults.length}项`);
+        
+        // 合并并排序（按热门度）
+        results = [...filteredMovieResults, ...filteredTvResults]
+          .sort((a, b) => (b.popularity || 0) - (a.popularity || 0))
+          .slice(0, CONFIG.MAX_ITEMS);
+          
+        console.log(`🎯 最终结果: ${results.length}项`);
+        
+      } catch (error) {
+        console.error(`❌ 全部类型加载失败:`, error);
+        // 如果全部类型失败，尝试单独加载电影
+        try {
+          console.log(`🔄 回退到单独加载电影...`);
+          const movieRes = await Widget.tmdb.get("/discover/movie", {
             params: {
               language,
               page,
@@ -2794,45 +2882,24 @@ async function loadTmdbByCompany(params = {}) {
               ...(with_companies && { with_companies }),
               ...(with_genres && { with_genres })
             }
-          })
-        ),
-        RequestOptimizer.addRequest(tvRequestId, () =>
-          Widget.tmdb.get("/discover/tv", {
-            params: {
-              language,
-              page,
-              sort_by,
-              ...(with_companies && { with_companies }),
-              ...(with_genres && { with_genres })
-            }
-          })
-        )
-      ]);
-      
-      // 合并电影和剧集结果，按热门度排序
-      const movieResults = await Promise.all(movieRes.results.map(async item => {
-        // 为电影显式设置media_type
-        item.media_type = "movie";
-        const widgetItem = await createWidgetItem(item);
-        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
-        return widgetItem;
-      }));
-      
-      const tvResults = await Promise.all(tvRes.results.map(async item => {
-        // 为TV节目显式设置media_type
-        item.media_type = "tv";
-        const widgetItem = await createWidgetItem(item);
-        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
-        return widgetItem;
-      }));
-      
-      const filteredMovieResults = movieResults.filter(item => item.posterPath);
-      const filteredTvResults = tvResults.filter(item => item.posterPath);
-      
-      // 合并并排序（按热门度）
-      results = [...filteredMovieResults, ...filteredTvResults]
-        .sort((a, b) => (b.popularity || 0) - (a.popularity || 0))
-        .slice(0, CONFIG.MAX_ITEMS);
+          });
+          
+          if (movieRes.results && movieRes.results.length > 0) {
+            results = await Promise.all(movieRes.results.map(async item => {
+              item.media_type = "movie";
+              const widgetItem = await createWidgetItem(item);
+              widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
+              return widgetItem;
+            }));
+            
+            results = results.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+            console.log(`✅ 回退加载成功: ${results.length}项电影`);
+          }
+        } catch (fallbackError) {
+          console.error(`❌ 回退加载也失败:`, fallbackError);
+          results = [];
+        }
+      }
       
     } else {
       // 构建API端点
@@ -2874,10 +2941,12 @@ async function loadTmdbByCompany(params = {}) {
     }
     
     setCachedData(cacheKey, results, 'DISCOVER');
+    console.log(`✅ TMDB出品公司加载完成: ${results.length}项`);
     return results;
     
   } catch (error) {
-    console.error("TMDB出品公司加载失败:", error);
+    console.error("❌ TMDB出品公司加载失败:", error);
+    console.error("错误详情:", error.message);
     return [];
   }
 }
