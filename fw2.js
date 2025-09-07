@@ -1319,17 +1319,9 @@ var WidgetMetadata = {
 // 配置常量
 var CONFIG = {
   API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
-  CACHE_DURATION: 60 * 60 * 1000, // 60分钟缓存（优化：延长缓存时间）
+  CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
-  
-  // 新增：分层缓存配置
-  CACHE_STRATEGIES: {
-    TRENDING: 30 * 60 * 1000, // 热门内容30分钟
-    DISCOVER: 60 * 60 * 1000, // 发现内容60分钟
-    DETAILS: 2 * 60 * 60 * 1000, // 详细信息2小时
-    STATIC: 24 * 60 * 60 * 1000 // 静态数据24小时
-  },
   
   // CDN优化配置
   ENABLE_CDN_OPTIMIZATION: true, // 启用CDN优化
@@ -1346,86 +1338,11 @@ var CONFIG = {
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
   IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
   
-  // 简化的优化配置
-  REQUEST_OPTIMIZATION: true, // 启用请求优化
-  IMAGE_OPTIMIZATION: true // 启用图片优化
 };
 
 // 缓存管理
 var cache = new Map();
 
-// 简化的请求优化（避免复杂批处理）
-var RequestOptimizer = {
-  // 简单的请求去重
-  pendingRequests: new Map(),
-  
-  // 添加请求（简化版）
-  addRequest: function(requestId, requestFn) {
-    if (this.pendingRequests.has(requestId)) {
-      return this.pendingRequests.get(requestId);
-    }
-    
-    const promise = requestFn()
-      .then(result => {
-        this.pendingRequests.delete(requestId);
-        return result;
-      })
-      .catch(error => {
-        this.pendingRequests.delete(requestId);
-        throw error;
-      });
-    
-    this.pendingRequests.set(requestId, promise);
-    return promise;
-  }
-};
-
-// 简化的图片优化管理器
-var ImageOptimizer = {
-  // 优化图片URL
-  optimizeImageUrl: function(url) {
-    if (!url || !CONFIG.IMAGE_CDN_ENABLED) return url;
-    
-    // 如果已经是优化过的URL，直接返回
-    if (url.includes('image.tmdb.org')) {
-      return url.replace('/t/p/original/', `/t/p/${CONFIG.IMAGE_QUALITY}/`);
-    }
-    
-    return url;
-  },
-  
-  // 批量优化图片URL
-  optimizeImageUrls: function(items) {
-    return items.map(item => {
-      if (item.posterPath) {
-        item.posterPath = this.optimizeImageUrl(item.posterPath);
-      }
-      if (item.title_backdrop) {
-        item.title_backdrop = this.optimizeImageUrl(item.title_backdrop);
-      }
-      if (item.backdropPath) {
-        item.backdropPath = this.optimizeImageUrl(item.backdropPath);
-      }
-      return item;
-    });
-  }
-};
-
-// 简化的模块管理器
-var ModuleManager = {
-  // 简单的模块状态跟踪
-  loadedModules: new Set(),
-  
-  // 标记模块为已加载
-  markLoaded: function(moduleName) {
-    this.loadedModules.add(moduleName);
-  },
-  
-  // 检查模块是否已加载
-  isLoaded: function(moduleName) {
-    return this.loadedModules.has(moduleName);
-  }
-};
 
 // CDN优化系统
 var CDNManager = {
@@ -1585,7 +1502,7 @@ var ImageCDN = {
 };
 
 // 智能缓存管理工具函数
-function getCachedData(key, cacheType = 'DEFAULT') {
+function getCachedData(key) {
   const cached = cache.get(key);
   if (!cached) {
     return null;
@@ -1594,139 +1511,57 @@ function getCachedData(key, cacheType = 'DEFAULT') {
   const now = Date.now();
   const age = now - cached.timestamp;
   
-  // 根据缓存类型确定缓存时间
-  let cacheDuration = CONFIG.CACHE_DURATION;
-  if (CONFIG.CACHE_STRATEGIES[cacheType]) {
-    cacheDuration = CONFIG.CACHE_STRATEGIES[cacheType];
-  }
-  
   // 检查是否需要自动刷新
-  if (shouldAutoRefresh(key, age, cacheType)) {
-    console.log(`🔄 自动刷新缓存: ${key} (${cacheType})`);
+  if (shouldAutoRefresh(key, age)) {
+    console.log(`🔄 自动刷新缓存: ${key}`);
     return null; // 触发新数据获取
   }
   
   // 使用缓存数据
-  if (age < cacheDuration) {
-    // 更新访问计数
-    cached.accessCount = (cached.accessCount || 0) + 1;
-    cached.lastAccess = now;
+  if (age < CONFIG.CACHE_DURATION) {
     return cached.data;
   }
   
   return null;
 }
 
-function setCachedData(key, data, cacheType = 'DEFAULT') {
-  const existing = cache.get(key);
+function setCachedData(key, data) {
   cache.set(key, {
     data: data,
     timestamp: Date.now(),
-    accessCount: (existing?.accessCount || 0),
-    lastAccess: existing?.lastAccess || Date.now(),
-    cacheType: cacheType
+    accessCount: (cache.get(key)?.accessCount || 0) + 1
   });
 }
 
-// 智能自动刷新策略（优化版）
-function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
+// 自动刷新策略（ForwardWidget优化版）
+function shouldAutoRefresh(key, age) {
   const cached = cache.get(key);
   if (!cached) return false;
   
-  // 根据缓存类型确定基础缓存时间
-  let baseCacheDuration = CONFIG.CACHE_DURATION;
-  if (CONFIG.CACHE_STRATEGIES[cacheType]) {
-    baseCacheDuration = CONFIG.CACHE_STRATEGIES[cacheType];
-  }
-  
   // 策略1: 基于访问频率 - 热门数据更频繁刷新
   const accessCount = cached.accessCount || 0;
-  if (accessCount > 5 && age > baseCacheDuration * 0.5) {
+  if (accessCount > 3 && age > CONFIG.CACHE_DURATION * 0.6) { // 降低门槛
     return true;
   }
   
-  // 策略2: 基于数据类型 - 不同类型使用不同策略
-  if (cacheType === 'TRENDING' && age > 20 * 60 * 1000) {
+  // 策略2: 基于数据类型 - 热门内容更频繁刷新
+  if (key.includes('trending') && age > 20 * 60 * 1000) { // 20分钟，更保守
     return true;
   }
   
-  if (cacheType === 'STATIC' && age > baseCacheDuration * 0.9) {
+  // 策略3: 基于缓存总量 - 避免内存过载（主要策略）
+  if (cache.size > 15 && age > CONFIG.CACHE_DURATION * 0.7) {
     return true;
   }
   
-  // 策略3: 基于缓存总量 - 智能内存管理
-  if (cache.size > 20 && age > baseCacheDuration * 0.6) {
-    return true;
-  }
-  
-  // 策略4: 基于最后访问时间 - 长期未访问的数据优先刷新
-  const lastAccess = cached.lastAccess || cached.timestamp;
-  if (Date.now() - lastAccess > baseCacheDuration * 0.8 && age > baseCacheDuration * 0.4) {
-    return true;
-  }
-  
-  // 策略5: 随机刷新 - 避免同时过期（降低概率）
-  if (age > baseCacheDuration * 0.8 && Math.random() < 0.1) {
+  // 策略4: 简单的随机刷新 - 避免所有缓存同时过期
+  if (age > CONFIG.CACHE_DURATION * 0.8 && Math.random() < 0.3) {
     return true;
   }
   
   return false;
 }
 
-// 简化的通用数据获取函数
-async function fetchTmdbData(endpoint, params = {}, cacheType = 'DEFAULT', requestId = null) {
-  const cacheKey = `${endpoint}_${JSON.stringify(params)}`;
-  const cached = getCachedData(cacheKey, cacheType);
-  if (cached) {
-    performanceMonitor.recordRequest('cached');
-    return cached;
-  }
-  
-  try {
-    const requestFn = () => Widget.tmdb.get(endpoint, { params });
-    const result = requestId ? 
-      await RequestOptimizer.addRequest(requestId, requestFn) : 
-      await requestFn();
-    
-    performanceMonitor.recordRequest('normal');
-    setCachedData(cacheKey, result, cacheType);
-    return result;
-  } catch (error) {
-    console.error(`TMDB数据获取失败 (${endpoint}):`, error);
-    throw error;
-  }
-}
-
-// 简化的通用数据处理函数
-async function processTmdbResults(results, mediaType, options = {}) {
-  const { 
-    filterPoster = true, 
-    maxItems = CONFIG.MAX_ITEMS, 
-    addGenreTitle = true,
-    useCDN = true
-  } = options;
-  
-  const processedResults = await Promise.all(results.map(async item => {
-    item.media_type = mediaType;
-    const widgetItem = useCDN ? await createWidgetItem(item) : createWidgetItemWithoutCDN(item);
-    
-    if (addGenreTitle) {
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, mediaType);
-    }
-    
-    return widgetItem;
-  }));
-  
-  // 优化图片URL
-  const optimizedResults = ImageOptimizer.optimizeImageUrls(processedResults);
-  
-  let filteredResults = optimizedResults;
-  if (filterPoster) {
-    filteredResults = optimizedResults.filter(item => item.posterPath);
-  }
-  
-  return filteredResults.slice(0, maxItems);
-}
 
 // 智能海报处理函数
 function getOptimalPosterUrl(item, mediaType = "movie") {
@@ -2772,134 +2607,60 @@ async function tmdbDiscoverByNetwork(params = {}) {
 async function loadTmdbByCompany(params = {}) {
   const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
   
-  console.log(`🏢 开始加载TMDB出品公司数据:`, {
-    with_companies,
-    type,
-    with_genres,
-    sort_by,
-    page,
-    language
-  });
-  
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey, 'DISCOVER');
-    if (cached) {
-      console.log(`📦 使用缓存数据: ${cached.length}项`);
-      return cached;
-    }
+    const cached = getCachedData(cacheKey);
+    if (cached) return cached;
 
     let results = [];
     
     // 如果选择全部类型，同时获取电影和剧集
     if (type === "all") {
-      console.log(`🎬 开始加载全部类型内容: 公司=${with_companies}, 类型=${with_genres}, 页码=${page}`);
+      const [movieRes, tvRes] = await Promise.all([
+        Widget.tmdb.get("/discover/movie", {
+          params: {
+            language,
+            page,
+            sort_by,
+            ...(with_companies && { with_companies }),
+            ...(with_genres && { with_genres })
+          }
+        }),
+        Widget.tmdb.get("/discover/tv", {
+          params: {
+            language,
+            page,
+            sort_by,
+            ...(with_companies && { with_companies }),
+            ...(with_genres && { with_genres })
+          }
+        })
+      ]);
       
-      try {
-        // 构建查询参数
-        const queryParams = {
-          language,
-          page,
-          sort_by
-        };
-        
-        // 添加出品公司过滤器
-        if (with_companies) {
-          queryParams.with_companies = with_companies;
-        }
-        
-        // 添加题材类型过滤器
-        if (with_genres) {
-          queryParams.with_genres = with_genres;
-        }
-        
-        console.log(`📋 查询参数:`, queryParams);
-        
-        // 直接并行请求，不使用复杂的优化器
-        const [movieRes, tvRes] = await Promise.all([
-          Widget.tmdb.get("/discover/movie", { params: queryParams }),
-          Widget.tmdb.get("/discover/tv", { params: queryParams })
-        ]);
-        
-        console.log(`📊 电影结果: ${movieRes.results?.length || 0}项`);
-        console.log(`📊 剧集结果: ${tvRes.results?.length || 0}项`);
+      // 合并电影和剧集结果，按热门度排序
+      const movieResults = await Promise.all(movieRes.results.map(async item => {
+        // 为电影显式设置media_type
+        item.media_type = "movie";
+        const widgetItem = await createWidgetItem(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
+        return widgetItem;
+      }));
       
-        // 处理电影结果
-        const movieResults = [];
-        if (movieRes.results && movieRes.results.length > 0) {
-          for (const item of movieRes.results) {
-            try {
-              item.media_type = "movie";
-              const widgetItem = await createWidgetItem(item);
-              widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
-              movieResults.push(widgetItem);
-            } catch (error) {
-              console.warn(`⚠️ 处理电影项失败:`, item.title, error);
-            }
-          }
-        }
-        
-        // 处理剧集结果
-        const tvResults = [];
-        if (tvRes.results && tvRes.results.length > 0) {
-          for (const item of tvRes.results) {
-            try {
-              item.media_type = "tv";
-              const widgetItem = await createWidgetItem(item);
-              widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
-              tvResults.push(widgetItem);
-            } catch (error) {
-              console.warn(`⚠️ 处理剧集项失败:`, item.name, error);
-            }
-          }
-        }
-        
-        console.log(`✅ 处理完成: 电影${movieResults.length}项, 剧集${tvResults.length}项`);
-        
-        // 过滤有海报的项目
-        const filteredMovieResults = movieResults.filter(item => item.posterPath);
-        const filteredTvResults = tvResults.filter(item => item.posterPath);
-        
-        console.log(`🖼️ 过滤后: 电影${filteredMovieResults.length}项, 剧集${filteredTvResults.length}项`);
-        
-        // 合并并排序（按热门度）
-        results = [...filteredMovieResults, ...filteredTvResults]
-          .sort((a, b) => (b.popularity || 0) - (a.popularity || 0))
-          .slice(0, CONFIG.MAX_ITEMS);
-          
-        console.log(`🎯 最终结果: ${results.length}项`);
-        
-      } catch (error) {
-        console.error(`❌ 全部类型加载失败:`, error);
-        // 如果全部类型失败，尝试单独加载电影
-        try {
-          console.log(`🔄 回退到单独加载电影...`);
-          const movieRes = await Widget.tmdb.get("/discover/movie", {
-            params: {
-              language,
-              page,
-              sort_by,
-              ...(with_companies && { with_companies }),
-              ...(with_genres && { with_genres })
-            }
-          });
-          
-          if (movieRes.results && movieRes.results.length > 0) {
-            results = await Promise.all(movieRes.results.map(async item => {
-              item.media_type = "movie";
-              const widgetItem = await createWidgetItem(item);
-              widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
-              return widgetItem;
-            }));
-            
-            results = results.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
-            console.log(`✅ 回退加载成功: ${results.length}项电影`);
-          }
-        } catch (fallbackError) {
-          console.error(`❌ 回退加载也失败:`, fallbackError);
-          results = [];
-        }
-      }
+      const tvResults = await Promise.all(tvRes.results.map(async item => {
+        // 为TV节目显式设置media_type
+        item.media_type = "tv";
+        const widgetItem = await createWidgetItem(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "tv");
+        return widgetItem;
+      }));
+      
+      const filteredMovieResults = movieResults.filter(item => item.posterPath);
+      const filteredTvResults = tvResults.filter(item => item.posterPath);
+      
+      // 合并并排序（按热门度）
+      results = [...filteredMovieResults, ...filteredTvResults]
+        .sort((a, b) => (b.popularity || 0) - (a.popularity || 0))
+        .slice(0, CONFIG.MAX_ITEMS);
       
     } else {
       // 构建API端点
@@ -2940,13 +2701,11 @@ async function loadTmdbByCompany(params = {}) {
         .slice(0, CONFIG.MAX_ITEMS);
     }
     
-    setCachedData(cacheKey, results, 'DISCOVER');
-    console.log(`✅ TMDB出品公司加载完成: ${results.length}项`);
+    setCachedData(cacheKey, results);
     return results;
     
   } catch (error) {
-    console.error("❌ TMDB出品公司加载失败:", error);
-    console.error("错误详情:", error.message);
+    console.error("TMDB出品公司加载失败:", error);
     return [];
   }
 }
@@ -4014,9 +3773,6 @@ async function getPreferenceRecommendations(params = {}) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     performanceMonitor,
-    RequestOptimizer,
-    ImageOptimizer,
-    ModuleManager,
     getPerformanceStats: () => performanceMonitor.exportStats()
   };
 }
