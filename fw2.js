@@ -1314,14 +1314,45 @@ var WidgetMetadata = {
       ]
     },
     
-    // 豆瓣日剧模块
+    // TMDB日剧模块
     {
-      title: "豆瓣日剧",
-      description: "豆瓣日本电视剧数据",
+      title: "TMDB日剧",
+      description: "TMDB日本电视剧数据（真人剧，非动漫）",
       requiresWebView: false,
       functionName: "loadDoubanJapaneseTVList",
       cacheDuration: 3600,
       params: [
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "popularity.desc",
+          enumOptions: [
+            { title: "热度降序", value: "popularity.desc" },
+            { title: "热度升序", value: "popularity.asc" },
+            { title: "评分降序", value: "vote_average.desc" },
+            { title: "评分升序", value: "vote_average.asc" },
+            { title: "最新播出", value: "first_air_date.desc" },
+            { title: "最早播出", value: "first_air_date.asc" },
+            { title: "最多投票", value: "vote_count.desc" },
+            { title: "最少投票", value: "vote_count.asc" }
+          ]
+        },
+        {
+          name: "vote_count_gte",
+          title: "最低投票数",
+          type: "enumeration",
+          description: "设置最低投票数要求",
+          value: "10",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "10票以上", value: "10" },
+            { title: "50票以上", value: "50" },
+            { title: "100票以上", value: "100" },
+            { title: "500票以上", value: "500" }
+          ]
+        },
         { name: "page", title: "页码", type: "page" }
       ]
     }
@@ -2293,14 +2324,18 @@ async function loadImdbAnimeModule(params = {}) {
 
 // TMDB日剧专用函数（过滤动漫，只获取真人电视剧）
 async function loadDoubanJapaneseTVList(params = {}) {
-  const { page = 1 } = params;
+  const { 
+    page = 1, 
+    sort_by = "popularity.desc", 
+    vote_count_gte = "10" 
+  } = params;
   
   try {
-    const cacheKey = `tmdb_japanese_tv_${page}`;
+    const cacheKey = `tmdb_japanese_tv_${page}_${sort_by}_${vote_count_gte}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    console.log(`🎌 开始加载TMDB日剧数据: 页码 ${page}`);
+    console.log(`🎌 开始加载TMDB日剧数据: 页码 ${page}, 排序 ${sort_by}, 最低投票数 ${vote_count_gte}`);
     
     // 使用TMDB API获取日本电视剧，排除动漫
     const tmdbAPI = `https://api.themoviedb.org/3/discover/tv`;
@@ -2312,8 +2347,8 @@ async function loadDoubanJapaneseTVList(params = {}) {
         with_origin_country: "JP",
         language: "zh-CN",
         page: page,
-        sort_by: "popularity.desc",
-        vote_count_gte: 10,
+        sort_by: sort_by,
+        vote_count_gte: parseInt(vote_count_gte),
         include_adult: false,
         // 排除动漫类型 (genre_id 16)
         without_genres: "16"
