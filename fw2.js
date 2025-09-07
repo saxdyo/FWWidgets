@@ -1810,7 +1810,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
   
   try {
     const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey, 'TRENDING');
+    const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
     let endpoint, queryParams;
@@ -1899,7 +1899,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     // 限制返回数量
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
-    setCachedData(cacheKey, results, 'TRENDING');
+    setCachedData(cacheKey, results);
     console.log(`✅ TMDB API加载成功: ${results.length}项`);
     return results;
 
