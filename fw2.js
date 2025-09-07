@@ -27,16 +27,17 @@ const performanceMonitor = {
     totalTime: 0
   },
   
-  start: (moduleName) => {
+  start: function(moduleName) {
     const startTime = Date.now();
-    return () => {
+    const self = this;
+    return function() {
       const duration = Date.now() - startTime;
-      this.stats.totalTime += duration;
+      self.stats.totalTime += duration;
       console.log(`📊 ${moduleName} 执行耗时: ${duration}ms`);
     };
   },
   
-  recordRequest: (type) => {
+  recordRequest: function(type) {
     this.stats.totalRequests++;
     if (type === 'cached') this.stats.cachedRequests++;
     if (type === 'batch') this.stats.batchRequests++;
@@ -44,7 +45,7 @@ const performanceMonitor = {
     if (type === 'lazy') this.stats.lazyLoads++;
   },
   
-  getStats: () => {
+  getStats: function() {
     const cacheHitRate = this.stats.totalRequests > 0 ? 
       (this.stats.cachedRequests / this.stats.totalRequests * 100).toFixed(1) : 0;
     
@@ -56,13 +57,13 @@ const performanceMonitor = {
     };
   },
   
-  logStats: () => {
+  logStats: function() {
     const stats = this.getStats();
     console.log('📊 性能统计:', stats);
   },
   
   // 导出性能统计（供外部调用）
-  exportStats: () => {
+  exportStats: function() {
     return this.getStats();
   }
 };
