@@ -2307,9 +2307,8 @@ async function loadDoubanJapaneseTVList(params = {}) {
     
     console.log(`🌐 请求TMDB API: ${tmdbAPI}`);
     
-    const response = await Widget.http.get(tmdbAPI, {
+    const response = await Widget.tmdb.get("/discover/tv", {
       params: {
-        api_key: CONFIG.API_KEY,
         with_origin_country: "JP",
         language: "zh-CN",
         page: page,
