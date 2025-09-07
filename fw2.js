@@ -16,14 +16,11 @@
  * - 改善用户体验
  */
 
-// 性能监控工具（优化版）
+// 性能监控工具（简化版）
 const performanceMonitor = {
   stats: {
     totalRequests: 0,
     cachedRequests: 0,
-    batchRequests: 0,
-    imagePreloads: 0,
-    lazyLoads: 0,
     totalTime: 0
   },
   
@@ -40,9 +37,6 @@ const performanceMonitor = {
   recordRequest: function(type) {
     this.stats.totalRequests++;
     if (type === 'cached') this.stats.cachedRequests++;
-    if (type === 'batch') this.stats.batchRequests++;
-    if (type === 'image') this.stats.imagePreloads++;
-    if (type === 'lazy') this.stats.lazyLoads++;
   },
   
   getStats: function() {
@@ -50,7 +44,8 @@ const performanceMonitor = {
       (this.stats.cachedRequests / this.stats.totalRequests * 100).toFixed(1) : 0;
     
     return {
-      ...this.stats,
+      totalRequests: this.stats.totalRequests,
+      cachedRequests: this.stats.cachedRequests,
       cacheHitRate: `${cacheHitRate}%`,
       avgTime: this.stats.totalRequests > 0 ? 
         (this.stats.totalTime / this.stats.totalRequests).toFixed(1) : 0
@@ -62,7 +57,6 @@ const performanceMonitor = {
     console.log('📊 性能统计:', stats);
   },
   
-  // 导出性能统计（供外部调用）
   exportStats: function() {
     return this.getStats();
   }
@@ -1352,257 +1346,11 @@ var CONFIG = {
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
   IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
   
-  // 请求批处理配置
-  BATCH_REQUEST_ENABLED: true, // 启用请求批处理
-  BATCH_DELAY: 100, // 批处理延迟时间(ms)
-  BATCH_SIZE: 5, // 批处理大小
-  BATCH_TIMEOUT: 2000, // 批处理超时时间(ms)
-  
-  // 图片优化配置
-  IMAGE_LAZY_LOADING: true, // 启用图片懒加载
-  IMAGE_PRELOAD_COUNT: 3, // 预加载图片数量
-  IMAGE_LOAD_TIMEOUT: 5000, // 图片加载超时时间
-  IMAGE_RETRY_COUNT: 2 // 图片加载重试次数
 };
 
 // 缓存管理
 var cache = new Map();
 
-// 请求批处理管理器
-var RequestBatcher = {
-  pendingRequests: new Map(),
-  batchTimers: new Map(),
-  
-  // 添加请求到批处理队列
-  addRequest: function(requestId, requestFn, priority = 'normal') {
-    if (!CONFIG.BATCH_REQUEST_ENABLED) {
-      return requestFn();
-    }
-    
-    const batchKey = this.getBatchKey(requestId);
-    
-    if (!this.pendingRequests.has(batchKey)) {
-      this.pendingRequests.set(batchKey, []);
-    }
-    
-    const batch = this.pendingRequests.get(batchKey);
-    batch.push({ requestId, requestFn, priority });
-    
-    // 如果达到批处理大小，立即执行
-    if (batch.length >= CONFIG.BATCH_SIZE) {
-      this.executeBatch(batchKey);
-      return;
-    }
-    
-    // 设置延迟执行
-    if (!this.batchTimers.has(batchKey)) {
-      if (typeof setTimeout !== 'undefined') {
-        const timer = setTimeout(() => {
-          this.executeBatch(batchKey);
-        }, CONFIG.BATCH_DELAY);
-        this.batchTimers.set(batchKey, timer);
-      } else {
-        // 如果setTimeout不可用，立即执行
-        this.executeBatch(batchKey);
-      }
-    }
-    
-    // 返回Promise
-    return new Promise((resolve, reject) => {
-      const request = batch.find(r => r.requestId === requestId);
-      if (request) {
-        request.resolve = resolve;
-        request.reject = reject;
-      }
-    });
-  },
-  
-  // 获取批处理键
-  getBatchKey: function(requestId) {
-    // 根据请求类型分组
-    if (requestId.includes('trending')) return 'trending';
-    if (requestId.includes('discover')) return 'discover';
-    if (requestId.includes('search')) return 'search';
-    return 'default';
-  },
-  
-  // 执行批处理
-  executeBatch: function(batchKey) {
-    const batch = this.pendingRequests.get(batchKey);
-    if (!batch || batch.length === 0) return;
-    
-    // 清除定时器
-    if (this.batchTimers.has(batchKey)) {
-      if (typeof clearTimeout !== 'undefined') {
-        clearTimeout(this.batchTimers.get(batchKey));
-      }
-      this.batchTimers.delete(batchKey);
-    }
-    
-    // 按优先级排序
-    batch.sort((a, b) => {
-      const priorityOrder = { high: 3, normal: 2, low: 1 };
-      return priorityOrder[b.priority] - priorityOrder[a.priority];
-    });
-    
-    // 并行执行请求
-    const promises = batch.map(request => {
-      return request.requestFn()
-        .then(result => {
-          if (request.resolve) request.resolve(result);
-          return result;
-        })
-        .catch(error => {
-          if (request.reject) request.reject(error);
-          throw error;
-        });
-    });
-    
-    // 清理批处理队列
-    this.pendingRequests.delete(batchKey);
-    
-    return Promise.allSettled(promises);
-  }
-};
-
-// 图片优化管理器
-var ImageOptimizer = {
-  loadedImages: new Set(),
-  loadingQueue: new Map(),
-  
-  // 预加载图片
-  preloadImages: function(urls, maxCount = CONFIG.IMAGE_PRELOAD_COUNT) {
-    if (!CONFIG.IMAGE_LAZY_LOADING) return Promise.resolve();
-    
-    const urlsToLoad = urls.slice(0, maxCount);
-    const promises = urlsToLoad.map(url => this.loadImage(url));
-    
-    return Promise.allSettled(promises);
-  },
-  
-  // 加载单个图片
-  loadImage: function(url) {
-    if (!url || this.loadedImages.has(url)) {
-      return Promise.resolve();
-    }
-    
-    if (this.loadingQueue.has(url)) {
-      return this.loadingQueue.get(url);
-    }
-    
-    const promise = new Promise((resolve, reject) => {
-      // 检查Image构造函数是否可用
-      if (typeof Image === 'undefined') {
-        reject(new Error(`Image构造函数不可用: ${url}`));
-        return;
-      }
-      
-      const img = new Image();
-      let timeout = null;
-      
-      if (typeof setTimeout !== 'undefined') {
-        timeout = setTimeout(() => {
-          reject(new Error(`图片加载超时: ${url}`));
-        }, CONFIG.IMAGE_LOAD_TIMEOUT);
-      }
-      
-      img.onload = () => {
-        if (timeout && typeof clearTimeout !== 'undefined') {
-          clearTimeout(timeout);
-        }
-        this.loadedImages.add(url);
-        this.loadingQueue.delete(url);
-        resolve();
-      };
-      
-      img.onerror = () => {
-        if (timeout && typeof clearTimeout !== 'undefined') {
-          clearTimeout(timeout);
-        }
-        this.loadingQueue.delete(url);
-        reject(new Error(`图片加载失败: ${url}`));
-      };
-      
-      img.src = url;
-    });
-    
-    this.loadingQueue.set(url, promise);
-    return promise;
-  },
-  
-  // 批量优化图片URL
-  optimizeImageUrls: function(items) {
-    return items.map(item => {
-      if (item.posterPath) {
-        item.posterPath = this.optimizeImageUrl(item.posterPath);
-      }
-      if (item.title_backdrop) {
-        item.title_backdrop = this.optimizeImageUrl(item.title_backdrop);
-      }
-      if (item.backdropPath) {
-        item.backdropPath = this.optimizeImageUrl(item.backdropPath);
-      }
-      return item;
-    });
-  },
-  
-  // 优化单个图片URL
-  optimizeImageUrl: function(url) {
-    if (!url || !CONFIG.IMAGE_CDN_ENABLED) return url;
-    
-    // 如果已经是优化过的URL，直接返回
-    if (url.includes('image.tmdb.org')) {
-      return url.replace('/t/p/original/', `/t/p/${CONFIG.IMAGE_QUALITY}/`);
-    }
-    
-    return url;
-  }
-};
-
-// 懒加载管理器
-var LazyLoader = {
-  loadedModules: new Set(),
-  loadingPromises: new Map(),
-  
-  // 懒加载模块
-  loadModule: function(moduleName, loadFunction, priority = 'normal') {
-    if (this.loadedModules.has(moduleName)) {
-      return Promise.resolve();
-    }
-    
-    if (this.loadingPromises.has(moduleName)) {
-      return this.loadingPromises.get(moduleName);
-    }
-    
-    const promise = loadFunction()
-      .then(result => {
-        this.loadedModules.add(moduleName);
-        this.loadingPromises.delete(moduleName);
-        return result;
-      })
-      .catch(error => {
-        this.loadingPromises.delete(moduleName);
-        throw error;
-      });
-    
-    this.loadingPromises.set(moduleName, promise);
-    return promise;
-  },
-  
-  // 预加载模块
-  preloadModules: function(modules) {
-    const promises = modules.map(({ name, loadFunction, priority }) => 
-      this.loadModule(name, loadFunction, priority)
-    );
-    
-    return Promise.allSettled(promises);
-  },
-  
-  // 检查模块是否已加载
-  isLoaded: function(moduleName) {
-    return this.loadedModules.has(moduleName);
-  }
-};
 
 // CDN优化系统
 var CDNManager = {
@@ -1851,80 +1599,6 @@ function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
 }
 
 
-// 通用数据获取函数（减少重复代码）
-async function fetchTmdbData(endpoint, params = {}, cacheType = 'DEFAULT', requestId = null) {
-  const cacheKey = `${endpoint}_${JSON.stringify(params)}`;
-  const cached = getCachedData(cacheKey, cacheType);
-  if (cached) {
-    performanceMonitor.recordRequest('cached');
-    return cached;
-  }
-  
-  try {
-    const requestFn = () => Widget.tmdb.get(endpoint, { params });
-    const result = requestId ? 
-      await RequestBatcher.addRequest(requestId, requestFn) : 
-      await requestFn();
-    
-    if (requestId) {
-      performanceMonitor.recordRequest('batch');
-    } else {
-      performanceMonitor.recordRequest('normal');
-    }
-    
-    setCachedData(cacheKey, result, cacheType);
-    return result;
-  } catch (error) {
-    console.error(`TMDB数据获取失败 (${endpoint}):`, error);
-    throw error;
-  }
-}
-
-// 通用数据处理函数（优化版）
-async function processTmdbResults(results, mediaType, options = {}) {
-  const { 
-    filterPoster = true, 
-    maxItems = CONFIG.MAX_ITEMS, 
-    addGenreTitle = true,
-    useCDN = true,
-    preloadImages = true
-  } = options;
-  
-  const processedResults = await Promise.all(results.map(async item => {
-    item.media_type = mediaType;
-    const widgetItem = useCDN ? await createWidgetItem(item) : createWidgetItemWithoutCDN(item);
-    
-    if (addGenreTitle) {
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, mediaType);
-    }
-    
-    return widgetItem;
-  }));
-  
-  // 优化图片URL
-  const optimizedResults = ImageOptimizer.optimizeImageUrls(processedResults);
-  
-  let filteredResults = optimizedResults;
-  if (filterPoster) {
-    filteredResults = optimizedResults.filter(item => item.posterPath);
-  }
-  
-  const finalResults = filteredResults.slice(0, maxItems);
-  
-  // 预加载图片
-  if (preloadImages && CONFIG.IMAGE_LAZY_LOADING) {
-    const imageUrls = finalResults
-      .map(item => [item.posterPath, item.title_backdrop, item.backdropPath])
-      .flat()
-      .filter(url => url);
-    
-    ImageOptimizer.preloadImages(imageUrls).catch(error => {
-      console.warn('图片预加载失败:', error);
-    });
-  }
-  
-  return finalResults;
-}
 
 // 智能海报处理函数
 function getOptimalPosterUrl(item, mediaType = "movie") {
@@ -3813,7 +3487,7 @@ function generateFallbackData() {
 
 
 // 基础获取TMDB数据方法
-async function fetchTmdbData(key, mediaType) {
+async function searchTmdbData(key, mediaType) {
     const tmdbResults = await Widget.tmdb.get(`/search/${mediaType}`, {
         params: {
             query: key,
@@ -3881,7 +3555,7 @@ async function fetchImdbItems(scItems) {
     }
     let title = scItem.type === "tv" ? cleanTitle(scItem.title) : scItem.title;
     console.log("title: ", title, " ; type: ", scItem.type);
-    const tmdbDatas = await fetchTmdbData(title, scItem.type)
+    const tmdbDatas = await searchTmdbData(title, scItem.type)
 
     if (tmdbDatas.length !== 0) {
       return {
@@ -4144,9 +3818,6 @@ async function getPreferenceRecommendations(params = {}) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     performanceMonitor,
-    RequestBatcher,
-    ImageOptimizer,
-    LazyLoader,
     getPerformanceStats: () => performanceMonitor.exportStats()
   };
 }
@@ -4160,9 +3831,6 @@ if (typeof window !== 'undefined') {
       performanceMonitor.stats = {
         totalRequests: 0,
         cachedRequests: 0,
-        batchRequests: 0,
-        imagePreloads: 0,
-        lazyLoads: 0,
         totalTime: 0
       };
     }
