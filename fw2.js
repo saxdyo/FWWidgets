@@ -293,18 +293,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
-        {
-          name: "adult_filter",
-          title: "成人内容过滤",
-          type: "enumeration",
-          description: "选择是否过滤成人内容（erotic、hentai等）",
-          value: "exclude_adult",
-          enumOptions: [
-            { title: "排除成人内容", value: "exclude_adult" },
-            { title: "包含所有内容", value: "include_all" }
-          ]
-        }
+        { name: "language", title: "语言", type: "language", value: "zh-CN" }
       ]
     },
     
@@ -676,7 +665,18 @@ var WidgetMetadata = {
             { title: "2010年", value: "2010" }
           ]
         },
-        { name: "page", title: "页码", type: "page" }
+        { name: "page", title: "页码", type: "page" },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
+          ]
+        }
       ]
     },
     {
@@ -1923,6 +1923,32 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
       widgetItems = widgetItems.filter(item => item.rating >= minRating);
     }
 
+    // 应用成人内容过滤（额外检查）
+    if (adult_filter === "exclude_adult") {
+      const originalCount = widgetItems.length;
+      widgetItems = widgetItems.filter(item => {
+        // 检查标题和描述中是否包含成人内容关键词
+        const title = (item.title || "").toLowerCase();
+        const description = (item.description || "").toLowerCase();
+        const genreTitle = (item.genreTitle || "").toLowerCase();
+        
+        const adultKeywords = [
+          'erotic', 'hentai', 'porn', 'xxx', 'adult', 'sex', 'nude', 'naked',
+          'sexual', 'explicit', 'mature', '18+', 'r18', 'ecchi', 'yuri', 'yaoi',
+          'bl', 'gl', 'harem', 'incest', 'rape', 'bdsm', 'fetish'
+        ];
+        
+        const hasAdultContent = adultKeywords.some(keyword => 
+          title.includes(keyword) || 
+          description.includes(keyword) || 
+          genreTitle.includes(keyword)
+        );
+        
+        return !hasAdultContent;
+      });
+      console.log(`🚫 TMDB热门模块成人内容过滤: 原始 ${originalCount} 条，过滤后 ${widgetItems.length} 条`);
+    }
+
     // 应用排序
     if (sort_by !== "original") {
       widgetItems.sort((a, b) => {
@@ -2523,7 +2549,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
             language: params.language || 'zh-CN',
             page: params.page || 1,
             sort_by: params.sort_by || "first_air_date.desc",
-            include_adult: params.adult_filter === "include_all"
+            include_adult: false
         };
         
         // 只有当选择了具体平台时才添加with_networks参数
@@ -2785,6 +2811,32 @@ async function loadTmdbMediaRanking(params = {}) {
       });
       console.log(`🎬 海报过滤: 原始 ${widgetItems.length} 条，过滤后 ${filteredItems.length} 条`);
     }
+
+    // 应用成人内容过滤（额外检查）
+    if (adult_filter === "exclude_adult") {
+      const originalCount = filteredItems.length;
+      filteredItems = filteredItems.filter(item => {
+        // 检查标题和描述中是否包含成人内容关键词
+        const title = (item.title || "").toLowerCase();
+        const description = (item.description || "").toLowerCase();
+        const genreTitle = (item.genreTitle || "").toLowerCase();
+        
+        const adultKeywords = [
+          'erotic', 'hentai', 'porn', 'xxx', 'adult', 'sex', 'nude', 'naked',
+          'sexual', 'explicit', 'mature', '18+', 'r18', 'ecchi', 'yuri', 'yaoi',
+          'bl', 'gl', 'harem', 'incest', 'rape', 'bdsm', 'fetish'
+        ];
+        
+        const hasAdultContent = adultKeywords.some(keyword => 
+          title.includes(keyword) || 
+          description.includes(keyword) || 
+          genreTitle.includes(keyword)
+        );
+        
+        return !hasAdultContent;
+      });
+      console.log(`🚫 成人内容过滤: 原始 ${originalCount} 条，过滤后 ${filteredItems.length} 条`);
+    }
     
     const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
     
@@ -2805,11 +2857,12 @@ async function loadTmdbByTheme(params = {}) {
     sort_by = "popularity_desc",
     min_rating = "0",
     year = "",
-    page = 1 
+    page = 1,
+    adult_filter = "exclude_adult"
   } = params;
   
   try {
-    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${page}`;
+    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${adult_filter}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -2845,7 +2898,7 @@ async function loadTmdbByTheme(params = {}) {
     const queryParams = {
       language: "zh-CN",
       page: page,
-      include_adult: false,
+      include_adult: adult_filter === "include_all",
       vote_count_gte: media_type === "movie" ? 50 : 20
     };
 
