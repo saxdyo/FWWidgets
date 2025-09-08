@@ -1794,10 +1794,10 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", adult_filter = "exclude_adult" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", adult_filter = "exclude_adult", blacklist_filter = "enabled", blacklist_keywords = "" } = params;
   
   try {
-    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${adult_filter}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${adult_filter}_${blacklist_filter}_${blacklist_keywords}_${page}`;
     const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
