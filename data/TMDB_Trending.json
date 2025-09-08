@@ -1,6 +1,28 @@
 {
-  "last_updated": "2025-09-08 11:31:34",
+  "last_updated": "2025-09-08 12:01:26",
   "today_global": [
+    {
+      "id": 228305,
+      "title": "特遣任务",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 6.1,
+      "release_date": "2025-09-07",
+      "overview": "联邦调查局探员汤姆·布兰迪斯（马克·鲁法洛 饰）率领一支特遣队来到费城郊区的劳工阶级住宅区，想要终结近来发生的一连串毒窟劫案；身为幕后主使的罗比·普伦德格拉斯特（汤姆·派福瑞 饰）则一边策划抢劫，一边应对自己支离破碎的家庭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9JdL1aQdAQiyYYQ2xCqbHaEcZt8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yEbGXfFzbH15YEKl1UNoJuTxtVm.jpg"
+    },
+    {
+      "id": 119051,
+      "title": "Wednesday",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•喜剧",
+      "rating": 8.4,
+      "release_date": "2022-11-23",
+      "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pPqyWNopqeDlZxFKMBNl2A4nvSM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
+    },
     {
       "id": 1038392,
       "title": "招魂4：终章",
@@ -22,28 +44,6 @@
       "overview": "影片松散改编自黑泽明同名经典电影，原著是爱德华·伯恩斯的小说《King's Ransom》，聚焦贫富阶级之间的对立与冲突，讲述一名唱片公司高管在处理复杂的工作时，得知绑匪将他司机的儿子误认为他自己的儿子而将其绑走，要求巨额赎金，陷入了两难境地。",
       "poster_url": "https://image.tmdb.org/t/p/original/xMwGBFnOdwdlwuS8gz1IyrxEuMX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rjOVhuk1RJUapbcEmgW7097WuF4.jpg"
-    },
-    {
-      "id": 119051,
-      "title": "Wednesday",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•喜剧",
-      "rating": 8.4,
-      "release_date": "2022-11-23",
-      "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pPqyWNopqeDlZxFKMBNl2A4nvSM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
-    },
-    {
-      "id": 228305,
-      "title": "特别小组",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.4,
-      "release_date": "2025-09-07",
-      "overview": "　　聚焦FBI探员汤姆·布兰迪斯（马克·鲁法洛 饰）领导一个特别小组来到费城郊外的工薪阶层区域，想要终结近来发生的一系列毒品屋洗劫活动，同时同步展示身为幕后主使的垃圾工罗比·普伦德格拉斯特（汤姆·派福瑞 饰）如何一边策划洗劫，一边应对自己支离破碎的家庭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9JdL1aQdAQiyYYQ2xCqbHaEcZt8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yEbGXfFzbH15YEKl1UNoJuTxtVm.jpg"
     },
     {
       "id": 1035259,
@@ -68,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
     },
     {
+      "id": 259710,
+      "title": "行骗天下KR",
+      "type": "tv",
+      "genreTitle": "犯罪•喜剧",
+      "rating": 7.8,
+      "release_date": "2025-09-06",
+      "overview": "以“欲望”和“金钱”为主题，具有强大领导力与专注度、天才又有些天然的主人公与新人诈欺师及经验丰富的老牌诈欺师携手，三人以金融、房地产业、艺术、艺能、美容等各行业的华丽世界为舞台，展开壮阔而异想天开的计划，对充满欲望的人们进行巨款诈欺。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b4KjSbvQfdFxeWydvOxhsMrM59Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dE9FHTn0Xh5CZkvMnHXkWU44DRV.jpg"
+    },
+    {
       "id": 1061474,
       "title": "超人",
       "type": "movie",
@@ -88,17 +99,6 @@
       "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
       "poster_url": "https://image.tmdb.org/t/p/original/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
-    },
-    {
-      "id": 259710,
-      "title": "行骗天下KR",
-      "type": "tv",
-      "genreTitle": "犯罪•喜剧",
-      "rating": 7.8,
-      "release_date": "2025-09-06",
-      "overview": "以“欲望”和“金钱”为主题，具有强大领导力与专注度、天才又有些天然的主人公与新人诈欺师及经验丰富的老牌诈欺师携手，三人以金融、房地产业、艺术、艺能、美容等各行业的华丽世界为舞台，展开壮阔而异想天开的计划，对充满欲望的人们进行巨款诈欺。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b4KjSbvQfdFxeWydvOxhsMrM59Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dE9FHTn0Xh5CZkvMnHXkWU44DRV.jpg"
     },
     {
       "id": 7451,
@@ -145,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
-      "id": 1119878,
-      "title": "冰路营救：复仇",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•剧情",
-      "rating": 6.6,
-      "release_date": "2025-06-27",
-      "overview": "前作主角迈克前往尼泊尔，将弟弟的骨灰洒在珠穆朗玛峰上。当迈克和他的登山向导在乘坐旅游巴士旅行时遇到一群雇佣兵时，他们被迫战斗以营救自己、乘客和国家。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sP5Xokw5dmj15X4H9TwMwiW6SIh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5LoqCXmirTselbWReHqHrvr2Riv.jpg"
+      "id": 259909,
+      "title": "嗜血法医：杀魔复生",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.8,
+      "release_date": "2025-07-13",
+      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
     },
     {
       "id": 211684,
@@ -167,15 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rC6uXYUetQ6jK3Yxn34BsJijbLG.jpg"
     },
     {
-      "id": 259909,
-      "title": "嗜血法医：杀魔复生",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.8,
-      "release_date": "2025-07-13",
-      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
+      "id": 1119878,
+      "title": "冰路营救：复仇",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•剧情",
+      "rating": 6.6,
+      "release_date": "2025-06-27",
+      "overview": "前作主角迈克前往尼泊尔，将弟弟的骨灰洒在珠穆朗玛峰上。当迈克和他的登山向导在乘坐旅游巴士旅行时遇到一群雇佣兵时，他们被迫战斗以营救自己、乘客和国家。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sP5Xokw5dmj15X4H9TwMwiW6SIh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5LoqCXmirTselbWReHqHrvr2Riv.jpg"
     },
     {
       "id": 253941,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jVCnkJgQUyiuGikIKNeTlccngCC.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 110492,
+      "title": "和平使者",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y7IozUi2dwICMl8aGvLxjTmJDYZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kphUAM2fM7EMKM34OqqDUiT8mmG.jpg"
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2022-01-13",
+      "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gFJwyu2OCTF6I9uidl7IaooPQol.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
     },
     {
-      "id": 1007734,
-      "title": "小人物2",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.3,
-      "release_date": "2025-08-13",
-      "overview": "　　昔日“小人物”哈奇携妻小赴偏远小镇度假，却被恶警与黑帮围剿。枪火惊梦，全家被迫联手反击。在枪火与尖叫交织的旋转木马上，哈奇终于明白：真正的“退休”不是金盆洗手，而是让家人活下来的那一刻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qLndYGKEBD4dZAOtgoC7BDElA8j.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
-    },
-    {
       "id": 1035259,
       "title": "白头神探：智斗灭世狂人",
       "type": "movie",
@@ -257,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mwgeDOT5BjHkNx3CAnRrUoRu6GN.jpg"
     },
     {
+      "id": 1007734,
+      "title": "小人物2",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.3,
+      "release_date": "2025-08-13",
+      "overview": "　　昔日“小人物”哈奇携妻小赴偏远小镇度假，却被恶警与黑帮围剿。枪火惊梦，全家被迫联手反击。在枪火与尖叫交织的旋转木马上，哈奇终于明白：真正的“退休”不是金盆洗手，而是让家人活下来的那一刻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qLndYGKEBD4dZAOtgoC7BDElA8j.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
+    },
+    {
       "id": 1038392,
       "title": "招魂4：终章",
       "type": "movie",
@@ -266,6 +266,17 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/29aMn7MwBNZS6tuKDsb2eKLSdHg.jpg"
+    },
+    {
+      "id": 228305,
+      "title": "特遣任务",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 6.1,
+      "release_date": "2025-09-07",
+      "overview": "联邦调查局探员汤姆·布兰迪斯（马克·鲁法洛 饰）率领一支特遣队来到费城郊区的劳工阶级住宅区，想要终结近来发生的一连串毒窟劫案；身为幕后主使的罗比·普伦德格拉斯特（汤姆·派福瑞 饰）则一边策划抢劫，一边应对自己支离破碎的家庭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9JdL1aQdAQiyYYQ2xCqbHaEcZt8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yEbGXfFzbH15YEKl1UNoJuTxtVm.jpg"
     },
     {
       "id": 1242434,
@@ -301,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
-      "id": 228305,
-      "title": "特别小组",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.4,
-      "release_date": "2025-09-07",
-      "overview": "　　聚焦FBI探员汤姆·布兰迪斯（马克·鲁法洛 饰）领导一个特别小组来到费城郊外的工薪阶层区域，想要终结近来发生的一系列毒品屋洗劫活动，同时同步展示身为幕后主使的垃圾工罗比·普伦德格拉斯特（汤姆·派福瑞 饰）如何一边策划洗劫，一边应对自己支离破碎的家庭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9JdL1aQdAQiyYYQ2xCqbHaEcZt8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yEbGXfFzbH15YEKl1UNoJuTxtVm.jpg"
-    },
-    {
       "id": 157239,
       "title": "异形：地球",
       "type": "tv",
@@ -345,6 +345,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d89vm12F8PsAmG1d9FTRU6lJN4q.jpg"
     },
     {
+      "id": 259909,
+      "title": "嗜血法医：杀魔复生",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.8,
+      "release_date": "2025-07-13",
+      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
+    },
+    {
       "id": 253941,
       "title": "报社",
       "type": "tv",
@@ -376,17 +387,6 @@
       "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
       "poster_url": "https://image.tmdb.org/t/p/original/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 259909,
-      "title": "嗜血法医：杀魔复生",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.8,
-      "release_date": "2025-07-13",
-      "overview": "　　德克斯特·摩根从昏迷中醒来，发现哈里森不知所踪。意识到自己对儿子造成的伤害，德克斯特启程前往纽约，决心找到哈里森，弥补过失。但最终的结局并非易事。迈阿密地铁的安吉尔·巴蒂斯塔带着疑问前来，德克斯特意识到自己的过去正迅速地追上自己。父子俩在这座不夜城里摸索着各自的黑暗，很快发现自己陷入了比想象中更深的困境——而唯一的出路就是携手共进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hIawSocuwqgNeRf3JuKuxgMHmSC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3pbfqoAPIuP1ErUooA3H64kOr5d.jpg"
     },
     {
       "id": 110492,
