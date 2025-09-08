@@ -1231,7 +1231,7 @@ var WidgetMetadata = {
     // 搜索屏蔽模块
     {
       title: "搜索内容屏蔽",
-      description: "屏蔽搜索结果中的特定内容，支持关键词、类型、地区等条件屏蔽",
+      description: "屏蔽搜索结果中的特定内容",
       requiresWebView: false,
       functionName: "loadSearchBlockedContent",
       cacheDuration: 1800,
@@ -1239,9 +1239,21 @@ var WidgetMetadata = {
         {
           name: "search_query",
           title: "搜索关键词",
-          type: "text",
-          description: "输入要搜索的关键词",
-          value: ""
+          type: "enumeration",
+          description: "选择要搜索的关键词",
+          value: "action",
+          enumOptions: [
+            { title: "动作", value: "action" },
+            { title: "喜剧", value: "comedy" },
+            { title: "爱情", value: "romance" },
+            { title: "科幻", value: "sci-fi" },
+            { title: "恐怖", value: "horror" },
+            { title: "悬疑", value: "mystery" },
+            { title: "动画", value: "animation" },
+            { title: "犯罪", value: "crime" },
+            { title: "战争", value: "war" },
+            { title: "家庭", value: "family" }
+          ]
         },
         {
           name: "block_type",
@@ -1254,7 +1266,6 @@ var WidgetMetadata = {
             { title: "低评分内容", value: "low_rating" },
             { title: "特定类型", value: "specific_genre" },
             { title: "特定地区", value: "specific_region" },
-            { title: "自定义关键词", value: "custom_keywords" },
             { title: "无海报内容", value: "no_poster" }
           ]
         },
@@ -1271,73 +1282,6 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "block_genre",
-          title: "屏蔽类型",
-          type: "enumeration",
-          description: "当选择特定类型屏蔽时，选择要屏蔽的类型",
-          belongTo: {
-            paramName: "block_type",
-            value: ["specific_genre"]
-          },
-          enumOptions: [
-            { title: "恐怖", value: "27" },
-            { title: "成人", value: "10749" },
-            { title: "犯罪", value: "80" },
-            { title: "惊悚", value: "53" },
-            { title: "战争", value: "10752" },
-            { title: "动作", value: "28" },
-            { title: "科幻", value: "878" }
-          ]
-        },
-        {
-          name: "block_region",
-          title: "屏蔽地区",
-          type: "enumeration",
-          description: "当选择特定地区屏蔽时，选择要屏蔽的地区",
-          belongTo: {
-            paramName: "block_type",
-            value: ["specific_region"]
-          },
-          enumOptions: [
-            { title: "美国", value: "US" },
-            { title: "日本", value: "JP" },
-            { title: "韩国", value: "KR" },
-            { title: "中国", value: "CN" },
-            { title: "欧洲", value: "GB,FR,DE,ES,IT" },
-            { title: "印度", value: "IN" },
-            { title: "泰国", value: "TH" }
-          ]
-        },
-        {
-          name: "min_rating",
-          title: "最低评分",
-          type: "enumeration",
-          description: "当选择低评分屏蔽时，设置最低评分阈值",
-          belongTo: {
-            paramName: "block_type",
-            value: ["low_rating"]
-          },
-          enumOptions: [
-            { title: "3.0分以上", value: "3.0" },
-            { title: "4.0分以上", value: "4.0" },
-            { title: "5.0分以上", value: "5.0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" }
-          ]
-        },
-        {
-          name: "custom_keywords",
-          title: "自定义关键词",
-          type: "text",
-          description: "当选择自定义关键词屏蔽时，输入要屏蔽的关键词（用逗号分隔）",
-          belongTo: {
-            paramName: "block_type",
-            value: ["custom_keywords"]
-          },
-          value: ""
-        },
-        {
           name: "block_mode",
           title: "屏蔽模式",
           type: "enumeration",
@@ -1347,12 +1291,6 @@ var WidgetMetadata = {
             { title: "排除屏蔽内容", value: "exclude_blocked" },
             { title: "仅显示屏蔽内容", value: "show_blocked_only" }
           ]
-        },
-        {
-          name: "language",
-          title: "语言",
-          type: "language",
-          value: "zh-CN"
         },
         {
           name: "page",
