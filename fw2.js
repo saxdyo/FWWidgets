@@ -1935,7 +1935,12 @@ async function fetchTmdbDiscoverData(api, params) {
             });
             
         console.log(`✅ 成功处理 ${filteredResults.length} 条数据`);
-        return filteredResults;
+        
+        // 应用屏蔽过滤
+        const finalResults = filterBlockedItems(filteredResults);
+        console.log(`🚫 屏蔽过滤: 原始 ${filteredResults.length} 条，过滤后 ${finalResults.length} 条`);
+        
+        return finalResults;
         
     } catch (error) {
         console.error("❌ TMDB API请求失败:", error);
@@ -1980,7 +1985,13 @@ async function loadTmdbTrending(params = {}) {
     endMonitor();
     
     // 应用数据质量监控
-    return dataQualityMonitor(result, 'TMDB热门模块');
+    const monitoredResults = dataQualityMonitor(result, 'TMDB热门模块');
+    
+    // 应用屏蔽过滤
+    const finalResults = filterBlockedItems(monitoredResults);
+    console.log(`🚫 TMDB热门模块屏蔽过滤: 原始 ${monitoredResults.length} 条，过滤后 ${finalResults.length} 条`);
+    
+    return finalResults;
   } catch (error) {
     console.error("❌ TMDB热门模块加载失败:", error);
     endMonitor();
@@ -2515,8 +2526,13 @@ async function loadDoubanChineseTVList(params = {}) {
     }).filter(item => item.title && item.title.trim().length > 0);
 
     console.log(`✅ 豆瓣国产剧集加载成功: ${results.length}项`);
-    setCachedData(cacheKey, results);
-    return results;
+    
+    // 应用屏蔽过滤
+    const finalResults = filterBlockedItems(results);
+    console.log(`🚫 豆瓣国产剧集屏蔽过滤: 原始 ${results.length} 条，过滤后 ${finalResults.length} 条`);
+    
+    setCachedData(cacheKey, finalResults);
+    return finalResults;
 
   } catch (error) {
     console.error("❌ 豆瓣国产剧集加载失败:", error);
@@ -2815,7 +2831,12 @@ async function tmdbDiscoverByNetwork(params = {}) {
         console.log("🌐 播出平台API参数:", discoverParams);
         const results = await fetchTmdbDiscoverData(api, discoverParams);
         console.log("✅ 播出平台数据加载成功，返回", results.length, "项");
-        return results;
+        
+        // 应用屏蔽过滤
+        const finalResults = filterBlockedItems(results);
+        console.log(`🚫 播出平台屏蔽过滤: 原始 ${results.length} 条，过滤后 ${finalResults.length} 条`);
+        
+        return finalResults;
         
     } catch (error) {
         console.error("❌ 播出平台数据加载失败:", error);
@@ -2922,8 +2943,12 @@ async function loadTmdbByCompany(params = {}) {
         .slice(0, CONFIG.MAX_ITEMS);
     }
     
-    setCachedData(cacheKey, results);
-    return results;
+    // 应用屏蔽过滤
+    const finalResults = filterBlockedItems(results);
+    console.log(`🚫 出品公司屏蔽过滤: 原始 ${results.length} 条，过滤后 ${finalResults.length} 条`);
+    
+    setCachedData(cacheKey, finalResults);
+    return finalResults;
     
   } catch (error) {
     console.error("TMDB出品公司加载失败:", error);
@@ -3075,8 +3100,12 @@ async function loadTmdbMediaRanking(params = {}) {
     
     const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
     
-    setCachedData(cacheKey, results);
-    return results;
+    // 应用屏蔽过滤
+    const finalResults = filterBlockedItems(results);
+    console.log(`🚫 影视榜单屏蔽过滤: 原始 ${results.length} 条，过滤后 ${finalResults.length} 条`);
+    
+    setCachedData(cacheKey, finalResults);
+    return finalResults;
 
   } catch (error) {
     console.error("TMDB影视榜单加载失败:", error);
@@ -3236,8 +3265,12 @@ async function loadTmdbByTheme(params = {}) {
 
     console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
 
-    setCachedData(cacheKey, results);
-    return results;
+    // 应用屏蔽过滤
+    const finalResults = filterBlockedItems(results);
+    console.log(`🚫 主题分类屏蔽过滤: 原始 ${results.length} 条，过滤后 ${finalResults.length} 条`);
+
+    setCachedData(cacheKey, finalResults);
+    return finalResults;
 
   } catch (error) {
     console.error("❌ TMDB主题分类加载失败:", error);
