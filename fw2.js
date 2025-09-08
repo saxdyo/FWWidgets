@@ -542,6 +542,18 @@ var WidgetMetadata = {
           ]
         },
         {
+          name: "anime_filter",
+          title: "动漫过滤",
+          type: "enumeration",
+          description: "当选择日本地区时，可选择是否过滤动漫内容",
+          value: "all",
+          enumOptions: [
+            { title: "包含动漫", value: "all" },
+            { title: "排除动漫", value: "exclude_anime" },
+            { title: "仅动漫", value: "anime_only" }
+          ]
+        },
+        {
           name: "sort_by",
           title: "排序方式",
           type: "enumeration",
@@ -2868,13 +2880,14 @@ async function loadTmdbMediaRanking(params = {}) {
     media_type = "tv",
     with_origin_country,
     with_genres,
+    anime_filter = "all",
     sort_by = "popularity.desc",
     vote_average_gte = "0",
     year = ""
   } = params;
   
   try {
-    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
+    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${anime_filter}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -2898,6 +2911,17 @@ async function loadTmdbMediaRanking(params = {}) {
     // 添加内容类型
     if (with_genres && with_genres !== "") {
       queryParams.with_genres = with_genres;
+    }
+    
+    // 处理动漫过滤逻辑（仅对日本地区生效）
+    if (with_origin_country === "JP" && anime_filter !== "all") {
+      if (anime_filter === "exclude_anime") {
+        // 排除动漫类型 (genre_id 16)
+        queryParams.without_genres = "16";
+      } else if (anime_filter === "anime_only") {
+        // 仅包含动漫类型 (genre_id 16)
+        queryParams.with_genres = "16";
+      }
     }
     
     // 添加最低评分要求
