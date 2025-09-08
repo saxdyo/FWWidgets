@@ -697,6 +697,24 @@ var WidgetMetadata = {
             { title: "排除成人内容", value: "exclude_adult" },
             { title: "包含所有内容", value: "include_all" }
           ]
+        },
+        {
+          name: "blacklist_filter",
+          title: "黑名单过滤",
+          type: "enumeration",
+          description: "选择是否启用黑名单过滤",
+          value: "enabled",
+          enumOptions: [
+            { title: "启用黑名单", value: "enabled" },
+            { title: "禁用黑名单", value: "disabled" }
+          ]
+        },
+        {
+          name: "blacklist_keywords",
+          title: "黑名单关键词",
+          type: "text",
+          description: "输入要屏蔽的关键词，用逗号分隔（如：某演员,某导演,某类型）",
+          value: ""
         }
       ]
     },
@@ -2884,7 +2902,7 @@ async function loadTmdbMediaRanking(params = {}) {
         console.log(`🚫 黑名单过滤: 原始 ${originalCount} 条，过滤后 ${filteredItems.length} 条，关键词: ${keywords.join(', ')}`);
       }
     }
-    
+
     const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
@@ -2905,11 +2923,13 @@ async function loadTmdbByTheme(params = {}) {
     min_rating = "0",
     year = "",
     page = 1,
-    adult_filter = "exclude_adult"
+    adult_filter = "exclude_adult",
+    blacklist_filter = "enabled",
+    blacklist_keywords = ""
   } = params;
   
   try {
-    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${adult_filter}_${page}`;
+    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${adult_filter}_${blacklist_filter}_${blacklist_keywords}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -3044,7 +3064,32 @@ async function loadTmdbByTheme(params = {}) {
       return widgetItem;
     }));
     
-    const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+    // 应用黑名单过滤
+    let filteredItems = widgetItems.filter(item => item.posterPath);
+    if (blacklist_filter === "enabled" && blacklist_keywords && blacklist_keywords.trim()) {
+      const originalCount = filteredItems.length;
+      const keywords = blacklist_keywords.split(',').map(k => k.trim().toLowerCase()).filter(k => k.length > 0);
+      
+      if (keywords.length > 0) {
+        filteredItems = filteredItems.filter(item => {
+          const title = (item.title || "").toLowerCase();
+          const description = (item.description || "").toLowerCase();
+          const genreTitle = (item.genreTitle || "").toLowerCase();
+          
+          // 检查是否包含黑名单关键词
+          const hasBlacklistedContent = keywords.some(keyword => 
+            title.includes(keyword) || 
+            description.includes(keyword) || 
+            genreTitle.includes(keyword)
+          );
+          
+          return !hasBlacklistedContent;
+        });
+        console.log(`🚫 主题分类黑名单过滤: 原始 ${originalCount} 条，过滤后 ${filteredItems.length} 条，关键词: ${keywords.join(', ')}`);
+      }
+    }
+    
+    const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
 
     console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
 
