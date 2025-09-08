@@ -86,11 +86,11 @@ const silentDataValidation = (items, moduleName) => {
 
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
-  title: "TMDB豆瓣影视榜单",
-  description: "优化的TMDB影视动画榜单 + 豆瓣片单组件",
+  title: "TMDBMK",
+  description: "fwmk",
   author: "saxdyo",
   site: "https://github.com/saxdyo/FWWidgets",
-  version: "2.1.0",
+  version: "1.1.1",
   requiredVersion: "0.0.1",
   detailCacheDuration: 60,
   modules: [
