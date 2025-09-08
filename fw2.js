@@ -288,8 +288,11 @@ var WidgetMetadata = {
           description: "选择内容排序方式,默认上映时间↓",
           value: "first_air_date.desc",
           enumOptions: [
+            { title: "上映时间↓", value: "first_air_date.desc" },
+            { title: "上映时间↑", value: "first_air_date.asc" },
             { title: "人气最高", value: "popularity.desc" },
-            { title: "上映时间↓", value: "first_air_date.desc" }
+            { title: "评分最高", value: "vote_average.desc" },
+            { title: "最多投票", value: "vote_count.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
