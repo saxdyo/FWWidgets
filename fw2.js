@@ -180,6 +180,17 @@ var WidgetMetadata = {
             { title: "预处理数据", value: "true" },
             { title: "正常TMDB API", value: "api" }
           ]
+        },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
+          ]
         }
       ]
     },
@@ -282,7 +293,18 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
+          ]
+        }
       ]
     },
     
@@ -452,6 +474,17 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "包含所有内容", value: "include_all" },
             { title: "仅显示有海报", value: "poster_only" }
+          ]
+        },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
           ]
         },
         {
@@ -1681,7 +1714,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true", adult_filter = "exclude_adult" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -1722,10 +1755,10 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", adult_filter = "exclude_adult" } = params;
   
   try {
-    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${adult_filter}_${page}`;
     const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
@@ -1750,7 +1783,8 @@ async function loadTmdbTrendingWithAPI(params = {}) {
 
     queryParams = {
       language,
-      page
+      page,
+      include_adult: adult_filter === "include_all"
     };
 
     if (with_origin_country) {
@@ -2489,6 +2523,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
             language: params.language || 'zh-CN',
             page: params.page || 1,
             sort_by: params.sort_by || "first_air_date.desc",
+            include_adult: params.adult_filter === "include_all"
         };
         
         // 只有当选择了具体平台时才添加with_networks参数
@@ -2645,13 +2680,14 @@ async function loadTmdbMediaRanking(params = {}) {
     with_genres,
     anime_filter = "all",
     poster_filter = "include_all",
+    adult_filter = "exclude_adult",
     sort_by = "popularity.desc",
     vote_average_gte = "0",
     year = ""
   } = params;
   
   try {
-    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${anime_filter}_${poster_filter}_${sort_by}_${vote_average_gte}_${year}_${page}`;
+    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${anime_filter}_${poster_filter}_${adult_filter}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -2664,7 +2700,9 @@ async function loadTmdbMediaRanking(params = {}) {
       page, 
       sort_by,
       // 确保有足够投票数
-      vote_count_gte: media_type === "movie" ? 100 : 50
+      vote_count_gte: media_type === "movie" ? 100 : 50,
+      // 成人内容过滤
+      include_adult: adult_filter === "include_all"
     };
     
     // 添加制作地区
