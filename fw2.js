@@ -86,11 +86,11 @@ const silentDataValidation = (items, moduleName) => {
 
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
-  title: "TMDB豆瓣影视榜单",
-  description: "优化的TMDB影视动画榜单 + 豆瓣片单组件",
+  title: "TMDBMK",
+  description: "fwmk",
   author: "saxdyo",
   site: "https://github.com/saxdyo/FWWidgets",
-  version: "2.1.0",
+  version: "1.1.1",
   requiredVersion: "0.0.1",
   detailCacheDuration: 60,
   modules: [
@@ -110,9 +110,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         {
@@ -162,10 +160,7 @@ var WidgetMetadata = {
           value: "popularity",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
-            { title: "评分排序", value: "rating" },
-            { title: "最新发布", value: "release_date" },
-            { title: "投票数", value: "vote_count" },
-            { title: "原始顺序", value: "original" }
+            { title: "最新发布", value: "release_date" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -179,6 +174,17 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "预处理数据", value: "true" },
             { title: "正常TMDB API", value: "api" }
+          ]
+        },
+        {
+          name: "poster_filter",
+          title: "海报过滤",
+          type: "enumeration",
+          description: "选择是否过滤掉没有海报的影视内容",
+          value: "include_all",
+          enumOptions: [
+            { title: "包含所有内容", value: "include_all" },
+            { title: "仅显示有海报", value: "poster_only" }
           ]
         }
       ]
@@ -277,11 +283,8 @@ var WidgetMetadata = {
           description: "选择内容排序方式,默认上映时间↓",
           value: "first_air_date.desc",
           enumOptions: [
-            { title: "上映时间↓", value: "first_air_date.desc" },
-            { title: "上映时间↑", value: "first_air_date.asc" },
             { title: "人气最高", value: "popularity.desc" },
-            { title: "评分最高", value: "vote_average.desc" },
-            { title: "最多投票", value: "vote_count.desc" }
+            { title: "上映时间↓", value: "first_air_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -305,9 +308,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         {
@@ -357,9 +358,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         {
@@ -370,9 +369,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -471,13 +468,8 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "上映日期↓", value: "release_date.desc" },
-            { title: "上映日期↑", value: "release_date.asc" },
-            { title: "首播日期↓", value: "first_air_date.desc" },
-            { title: "首播日期↑", value: "first_air_date.asc" }
+            { title: "首播日期↓", value: "first_air_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -542,6 +534,29 @@ var WidgetMetadata = {
           ]
         },
         {
+          name: "anime_filter",
+          title: "动漫过滤",
+          type: "enumeration",
+          description: "当选择日本地区时，可选择是否过滤动漫内容",
+          value: "all",
+          enumOptions: [
+            { title: "包含动漫", value: "all" },
+            { title: "排除动漫", value: "exclude_anime" },
+            { title: "仅动漫", value: "anime_only" }
+          ]
+        },
+        {
+          name: "poster_filter",
+          title: "海报过滤",
+          type: "enumeration",
+          description: "选择是否过滤掉没有海报的影视内容",
+          value: "include_all",
+          enumOptions: [
+            { title: "包含所有内容", value: "include_all" },
+            { title: "仅显示有海报", value: "poster_only" }
+          ]
+        },
+        {
           name: "sort_by",
           title: "排序方式",
           type: "enumeration",
@@ -549,15 +564,9 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "最新上映↓", value: "release_date.desc" },
-            { title: "最早上映↑", value: "release_date.asc" },
             { title: "最新播出↓", value: "first_air_date.desc" },
-            { title: "最早播出↑", value: "first_air_date.asc" },
-            { title: "最新更新↓", value: "last_air_date.desc" },
-            { title: "最早更新↑", value: "last_air_date.asc" }
+            { title: "最新更新↓", value: "last_air_date.desc" }
           ]
         },
         {
@@ -638,13 +647,7 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "时长↓", value: "duration.desc" },
-            { title: "时长↑", value: "duration.asc" },
-            { title: "最新↓", value: "release_date.desc" },
-            { title: "最新↑", value: "release_date.asc" }
+            { title: "最新↓", value: "release_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -700,11 +703,7 @@ var WidgetMetadata = {
           value: "popularity_desc",
           enumOptions: [
             { title: "热度降序", value: "popularity_desc" },
-            { title: "热度升序", value: "popularity_asc" },
-            { title: "评分降序", value: "vote_average_desc" },
-            { title: "评分升序", value: "vote_average_asc" },
-            { title: "上映时间降序", value: "release_date_desc" },
-            { title: "上映时间升序", value: "release_date_asc" }
+            { title: "上映时间降序", value: "release_date_desc" }
           ]
         },
         {
@@ -1294,49 +1293,6 @@ var WidgetMetadata = {
           type: "offset"
         }
       ]
-    },
-    
-    // TMDB日剧模块
-    {
-      title: "TMDB日剧",
-      description: "TMDB日本电视剧数据（真人剧，非动漫）",
-      requiresWebView: false,
-      functionName: "loadDoubanJapaneseTVList",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "popularity.desc",
-          enumOptions: [
-            { title: "热度降序", value: "popularity.desc" },
-            { title: "热度升序", value: "popularity.asc" },
-            { title: "评分降序", value: "vote_average.desc" },
-            { title: "评分升序", value: "vote_average.asc" },
-            { title: "最新播出", value: "first_air_date.desc" },
-            { title: "最早播出", value: "first_air_date.asc" },
-            { title: "最多投票", value: "vote_count.desc" },
-            { title: "最少投票", value: "vote_count.asc" }
-          ]
-        },
-        {
-          name: "vote_count_gte",
-          title: "最低投票数",
-          type: "enumeration",
-          description: "设置最低投票数要求",
-          value: "10",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "10票以上", value: "10" },
-            { title: "50票以上", value: "50" },
-            { title: "100票以上", value: "100" },
-            { title: "500票以上", value: "500" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
     }
   ]
 };
@@ -1827,7 +1783,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true", poster_filter = "include_all" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -1868,10 +1824,10 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", poster_filter = "include_all" } = params;
   
   try {
-    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${poster_filter}_${page}`;
     const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
@@ -2033,6 +1989,20 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     if (vote_average_gte !== "0") {
       const minRating = parseFloat(vote_average_gte);
       widgetItems = widgetItems.filter(item => item.rating >= minRating);
+    }
+
+    // 应用海报过滤
+    if (poster_filter === "poster_only") {
+      const originalCount = widgetItems.length;
+      widgetItems = widgetItems.filter(item => {
+        // 检查是否有真实的海报（不是占位符）
+        const hasRealPoster = item.posterPath && 
+          !item.posterPath.includes('placehold.co') && 
+          !item.posterPath.includes('placeholder') &&
+          item.posterPath.trim().length > 0;
+        return hasRealPoster;
+      });
+      console.log(`🎬 TMDB热门模块海报过滤: 原始 ${originalCount} 条，过滤后 ${widgetItems.length} 条`);
     }
 
     // 应用排序
@@ -2304,85 +2274,6 @@ async function loadImdbAnimeModule(params = {}) {
   }
 }
 
-// TMDB日剧专用函数（过滤动漫，只获取真人电视剧）
-async function loadDoubanJapaneseTVList(params = {}) {
-  const { 
-    page = 1, 
-    sort_by = "popularity.desc", 
-    vote_count_gte = "10" 
-  } = params;
-  
-  try {
-    const cacheKey = `tmdb_japanese_tv_${page}_${sort_by}_${vote_count_gte}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    console.log(`🎌 开始加载TMDB日剧数据: 页码 ${page}, 排序 ${sort_by}, 最低投票数 ${vote_count_gte}`);
-    
-    // 使用TMDB API获取日本电视剧，排除动漫
-    const tmdbAPI = `https://api.themoviedb.org/3/discover/tv`;
-    
-    console.log(`🌐 请求TMDB API: ${tmdbAPI}`);
-    
-    const response = await Widget.tmdb.get("/discover/tv", {
-      params: {
-        with_origin_country: "JP",
-        language: "zh-CN",
-        page: page,
-        sort_by: sort_by,
-        vote_count_gte: parseInt(vote_count_gte),
-        include_adult: false,
-        // 排除动漫类型 (genre_id 16)
-        without_genres: "16"
-      }
-    });
-
-    if (!response || !response.results) {
-      console.error("❌ TMDB日剧API响应异常");
-      console.error("❌ 响应对象:", response);
-      return [];
-    }
-
-    console.log(`📊 TMDB日剧API返回 ${response.results.length} 条数据`);
-
-    // 转换TMDB数据为标准格式
-    const results = response.results.map(item => {
-      const title = item.name || item.original_name;
-      const year = item.first_air_date ? item.first_air_date.split('-')[0] : "";
-      const genreTitle = getGenreTitle(item.genre_ids, "tv");
-      const description = genreTitle + (year ? ` (${year})` : "");
-
-      return {
-        id: String(item.id),
-        type: "tmdb_real", // 标记为TMDB真实数据
-        title: title,
-        description: description,
-        rating: item.vote_average ? Number(item.vote_average.toFixed(1)) : 0,
-        posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
-        backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
-        title_backdrop: item.backdrop_path ? `https://image.tmdb.org/t/p/w780${item.backdrop_path}` : "",
-        media_type: "tv",
-        genre_ids: item.genre_ids || [],
-        genreTitle: genreTitle,
-        tmdb_id: item.id,
-        tmdb_url: `https://www.themoviedb.org/tv/${item.id}`,
-        releaseDate: item.first_air_date,
-        popularity: item.popularity
-      };
-    });
-
-    console.log(`✅ 成功处理 ${results.length} 条日剧数据`);
-    
-    // 缓存结果
-    setCachedData(cacheKey, results);
-    
-    return results;
-    
-  } catch (error) {
-    console.error("❌ 加载TMDB日剧数据失败:", error);
-    return [];
-  }
-}
 
 // 豆瓣国产剧集专用函数
 async function loadDoubanChineseTVList(params = {}) {
@@ -2868,13 +2759,15 @@ async function loadTmdbMediaRanking(params = {}) {
     media_type = "tv",
     with_origin_country,
     with_genres,
+    anime_filter = "all",
+    poster_filter = "include_all",
     sort_by = "popularity.desc",
     vote_average_gte = "0",
     year = ""
   } = params;
   
   try {
-    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
+    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${anime_filter}_${poster_filter}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -2898,6 +2791,17 @@ async function loadTmdbMediaRanking(params = {}) {
     // 添加内容类型
     if (with_genres && with_genres !== "") {
       queryParams.with_genres = with_genres;
+    }
+    
+    // 处理动漫过滤逻辑（仅对日本地区生效）
+    if (with_origin_country === "JP" && anime_filter !== "all") {
+      if (anime_filter === "exclude_anime") {
+        // 排除动漫类型 (genre_id 16)
+        queryParams.without_genres = "16";
+      } else if (anime_filter === "anime_only") {
+        // 仅包含动漫类型 (genre_id 16)
+        queryParams.with_genres = "16";
+      }
     }
     
     // 添加最低评分要求
@@ -2946,7 +2850,21 @@ async function loadTmdbMediaRanking(params = {}) {
       return widgetItem;
     }));
     
-    const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
+    // 应用海报过滤
+    let filteredItems = widgetItems;
+    if (poster_filter === "poster_only") {
+      filteredItems = widgetItems.filter(item => {
+        // 检查是否有真实的海报（不是占位符）
+        const hasRealPoster = item.posterPath && 
+          !item.posterPath.includes('placehold.co') && 
+          !item.posterPath.includes('placeholder') &&
+          item.posterPath.trim().length > 0;
+        return hasRealPoster;
+      });
+      console.log(`🎬 海报过滤: 原始 ${widgetItems.length} 条，过滤后 ${filteredItems.length} 条`);
+    }
+    
+    const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
     return results;
