@@ -1,11 +1,8 @@
-// 性能监控工具（优化版）
+// 性能监控工具（简化版）
 const performanceMonitor = {
   stats: {
     totalRequests: 0,
     cachedRequests: 0,
-    batchRequests: 0,
-    imagePreloads: 0,
-    lazyLoads: 0,
     totalTime: 0
   },
   
@@ -22,9 +19,6 @@ const performanceMonitor = {
   recordRequest: function(type) {
     this.stats.totalRequests++;
     if (type === 'cached') this.stats.cachedRequests++;
-    if (type === 'batch') this.stats.batchRequests++;
-    if (type === 'image') this.stats.imagePreloads++;
-    if (type === 'lazy') this.stats.lazyLoads++;
   },
   
   getStats: function() {
@@ -32,7 +26,8 @@ const performanceMonitor = {
       (this.stats.cachedRequests / this.stats.totalRequests * 100).toFixed(1) : 0;
     
     return {
-      ...this.stats,
+      totalRequests: this.stats.totalRequests,
+      cachedRequests: this.stats.cachedRequests,
       cacheHitRate: `${cacheHitRate}%`,
       avgTime: this.stats.totalRequests > 0 ? 
         (this.stats.totalTime / this.stats.totalRequests).toFixed(1) : 0
@@ -44,7 +39,6 @@ const performanceMonitor = {
     console.log('📊 性能统计:', stats);
   },
   
-  // 导出性能统计（供外部调用）
   exportStats: function() {
     return this.getStats();
   }
@@ -92,8 +86,8 @@ const silentDataValidation = (items, moduleName) => {
 
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
-  title: "sax",
-  description: "TMDB",
+  title: "TMDBMK",
+  description: "fwmk",
   author: "saxdyo",
   site: "https://github.com/saxdyo/FWWidgets",
   version: "1.1.1",
@@ -185,6 +179,17 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "预处理数据", value: "true" },
             { title: "正常TMDB API", value: "api" }
+          ]
+        },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
           ]
         }
       ]
@@ -294,108 +299,6 @@ var WidgetMetadata = {
         { name: "language", title: "语言", type: "language", value: "zh-CN" }
       ]
     },
-
-    // TMDB预处理背景 (复制自热门内容模块)
-    {
-      title: "TMDB 预处理背景",
-      description: "预处理数据背景图版本",
-      requiresWebView: false,
-      functionName: "loadTmdbTrending",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "content_type",
-          title: "内容类型",
-          type: "enumeration",
-          description: "选择内容类型",
-          value: "today",
-          enumOptions: [
-            { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
-          ]
-        },
-        {
-          name: "media_type",
-          title: "媒体类型",
-          type: "enumeration",
-          description: "选择媒体类型",
-          value: "all",
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "电影", value: "movie" },
-            { title: "剧集", value: "tv" }
-          ]
-        },
-        {
-          name: "with_origin_country",
-          title: "制作地区",
-          type: "enumeration",
-          description: "按制作地区筛选",
-          value: "",
-          enumOptions: [
-            { title: "全部地区", value: "" },
-            { title: "美国", value: "US" },
-            { title: "中国", value: "CN" },
-            { title: "日本", value: "JP" },
-            { title: "韩国", value: "KR" }
-          ]
-        },
-        {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" }
-          ]
-        },
-        {
-          name: "backup_content_type",
-          title: "备用内容来源",
-          type: "enumeration",
-          description: "选择要获取的备用内容来源",
-          value: "today",
-          enumOptions: [
-            { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "today",
-          enumOptions: [
-            { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
-        {
-          name: "use_preprocessed_data",
-          title: "数据来源类型",
-          type: "enumeration",
-          description: "选择数据来源类型",
-          value: "true",
-          enumOptions: [
-            { title: "预处理数据", value: "true" },
-            { title: "正常TMDB API", value: "api" }
-          ]
-        }
-      ]
-    },
     
     // TMDB出品公司
     {
@@ -477,13 +380,8 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "上映日期↓", value: "release_date.desc" },
-            { title: "上映日期↑", value: "release_date.asc" },
-            { title: "首播日期↓", value: "first_air_date.desc" },
-            { title: "首播日期↑", value: "first_air_date.asc" }
+            { title: "首播日期↓", value: "first_air_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -548,6 +446,40 @@ var WidgetMetadata = {
           ]
         },
         {
+          name: "anime_filter",
+          title: "动漫过滤",
+          type: "enumeration",
+          description: "当选择日本地区时，可选择是否过滤动漫内容",
+          value: "all",
+          enumOptions: [
+            { title: "包含动漫", value: "all" },
+            { title: "排除动漫", value: "exclude_anime" },
+            { title: "仅动漫", value: "anime_only" }
+          ]
+        },
+        {
+          name: "poster_filter",
+          title: "海报过滤",
+          type: "enumeration",
+          description: "选择是否过滤掉没有海报的影视内容",
+          value: "include_all",
+          enumOptions: [
+            { title: "包含所有内容", value: "include_all" },
+            { title: "仅显示有海报", value: "poster_only" }
+          ]
+        },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
+          ]
+        },
+        {
           name: "sort_by",
           title: "排序方式",
           type: "enumeration",
@@ -555,15 +487,9 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "最新上映↓", value: "release_date.desc" },
-            { title: "最早上映↑", value: "release_date.asc" },
             { title: "最新播出↓", value: "first_air_date.desc" },
-            { title: "最早播出↑", value: "first_air_date.asc" },
-            { title: "最新更新↓", value: "last_air_date.desc" },
-            { title: "最早更新↑", value: "last_air_date.asc" }
+            { title: "最新更新↓", value: "last_air_date.desc" }
           ]
         },
         {
@@ -644,13 +570,7 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "时长↓", value: "duration.desc" },
-            { title: "时长↑", value: "duration.asc" },
-            { title: "最新↓", value: "release_date.desc" },
-            { title: "最新↑", value: "release_date.asc" }
+            { title: "最新↓", value: "release_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -706,11 +626,7 @@ var WidgetMetadata = {
           value: "popularity_desc",
           enumOptions: [
             { title: "热度降序", value: "popularity_desc" },
-            { title: "热度升序", value: "popularity_asc" },
-            { title: "评分降序", value: "vote_average_desc" },
-            { title: "评分升序", value: "vote_average_asc" },
-            { title: "上映时间降序", value: "release_date_desc" },
-            { title: "上映时间升序", value: "release_date_asc" }
+            { title: "上映时间降序", value: "release_date_desc" }
           ]
         },
         {
@@ -752,7 +668,18 @@ var WidgetMetadata = {
             { title: "2010年", value: "2010" }
           ]
         },
-        { name: "page", title: "页码", type: "page" }
+        { name: "page", title: "页码", type: "page" },
+        {
+          name: "adult_filter",
+          title: "成人内容过滤",
+          type: "enumeration",
+          description: "选择是否过滤成人内容（erotic、hentai等）",
+          value: "exclude_adult",
+          enumOptions: [
+            { title: "排除成人内容", value: "exclude_adult" },
+            { title: "包含所有内容", value: "include_all" }
+          ]
+        }
       ]
     },
     {
@@ -1334,257 +1261,11 @@ var CONFIG = {
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
   IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
   
-  // 请求批处理配置
-  BATCH_REQUEST_ENABLED: true, // 启用请求批处理
-  BATCH_DELAY: 100, // 批处理延迟时间(ms)
-  BATCH_SIZE: 5, // 批处理大小
-  BATCH_TIMEOUT: 2000, // 批处理超时时间(ms)
-  
-  // 图片优化配置
-  IMAGE_LAZY_LOADING: true, // 启用图片懒加载
-  IMAGE_PRELOAD_COUNT: 3, // 预加载图片数量
-  IMAGE_LOAD_TIMEOUT: 5000, // 图片加载超时时间
-  IMAGE_RETRY_COUNT: 2 // 图片加载重试次数
 };
 
 // 缓存管理
 var cache = new Map();
 
-// 请求批处理管理器
-var RequestBatcher = {
-  pendingRequests: new Map(),
-  batchTimers: new Map(),
-  
-  // 添加请求到批处理队列
-  addRequest: function(requestId, requestFn, priority = 'normal') {
-    if (!CONFIG.BATCH_REQUEST_ENABLED) {
-      return requestFn();
-    }
-    
-    const batchKey = this.getBatchKey(requestId);
-    
-    if (!this.pendingRequests.has(batchKey)) {
-      this.pendingRequests.set(batchKey, []);
-    }
-    
-    const batch = this.pendingRequests.get(batchKey);
-    batch.push({ requestId, requestFn, priority });
-    
-    // 如果达到批处理大小，立即执行
-    if (batch.length >= CONFIG.BATCH_SIZE) {
-      this.executeBatch(batchKey);
-      return;
-    }
-    
-    // 设置延迟执行
-    if (!this.batchTimers.has(batchKey)) {
-      if (typeof setTimeout !== 'undefined') {
-        const timer = setTimeout(() => {
-          this.executeBatch(batchKey);
-        }, CONFIG.BATCH_DELAY);
-        this.batchTimers.set(batchKey, timer);
-      } else {
-        // 如果setTimeout不可用，立即执行
-        this.executeBatch(batchKey);
-      }
-    }
-    
-    // 返回Promise
-    return new Promise((resolve, reject) => {
-      const request = batch.find(r => r.requestId === requestId);
-      if (request) {
-        request.resolve = resolve;
-        request.reject = reject;
-      }
-    });
-  },
-  
-  // 获取批处理键
-  getBatchKey: function(requestId) {
-    // 根据请求类型分组
-    if (requestId.includes('trending')) return 'trending';
-    if (requestId.includes('discover')) return 'discover';
-    if (requestId.includes('search')) return 'search';
-    return 'default';
-  },
-  
-  // 执行批处理
-  executeBatch: function(batchKey) {
-    const batch = this.pendingRequests.get(batchKey);
-    if (!batch || batch.length === 0) return;
-    
-    // 清除定时器
-    if (this.batchTimers.has(batchKey)) {
-      if (typeof clearTimeout !== 'undefined') {
-        clearTimeout(this.batchTimers.get(batchKey));
-      }
-      this.batchTimers.delete(batchKey);
-    }
-    
-    // 按优先级排序
-    batch.sort((a, b) => {
-      const priorityOrder = { high: 3, normal: 2, low: 1 };
-      return priorityOrder[b.priority] - priorityOrder[a.priority];
-    });
-    
-    // 并行执行请求
-    const promises = batch.map(request => {
-      return request.requestFn()
-        .then(result => {
-          if (request.resolve) request.resolve(result);
-          return result;
-        })
-        .catch(error => {
-          if (request.reject) request.reject(error);
-          throw error;
-        });
-    });
-    
-    // 清理批处理队列
-    this.pendingRequests.delete(batchKey);
-    
-    return Promise.allSettled(promises);
-  }
-};
-
-// 图片优化管理器
-var ImageOptimizer = {
-  loadedImages: new Set(),
-  loadingQueue: new Map(),
-  
-  // 预加载图片
-  preloadImages: function(urls, maxCount = CONFIG.IMAGE_PRELOAD_COUNT) {
-    if (!CONFIG.IMAGE_LAZY_LOADING) return Promise.resolve();
-    
-    const urlsToLoad = urls.slice(0, maxCount);
-    const promises = urlsToLoad.map(url => this.loadImage(url));
-    
-    return Promise.allSettled(promises);
-  },
-  
-  // 加载单个图片
-  loadImage: function(url) {
-    if (!url || this.loadedImages.has(url)) {
-      return Promise.resolve();
-    }
-    
-    if (this.loadingQueue.has(url)) {
-      return this.loadingQueue.get(url);
-    }
-    
-    const promise = new Promise((resolve, reject) => {
-      // 检查Image构造函数是否可用
-      if (typeof Image === 'undefined') {
-        reject(new Error(`Image构造函数不可用: ${url}`));
-        return;
-      }
-      
-      const img = new Image();
-      let timeout = null;
-      
-      if (typeof setTimeout !== 'undefined') {
-        timeout = setTimeout(() => {
-          reject(new Error(`图片加载超时: ${url}`));
-        }, CONFIG.IMAGE_LOAD_TIMEOUT);
-      }
-      
-      img.onload = () => {
-        if (timeout && typeof clearTimeout !== 'undefined') {
-          clearTimeout(timeout);
-        }
-        this.loadedImages.add(url);
-        this.loadingQueue.delete(url);
-        resolve();
-      };
-      
-      img.onerror = () => {
-        if (timeout && typeof clearTimeout !== 'undefined') {
-          clearTimeout(timeout);
-        }
-        this.loadingQueue.delete(url);
-        reject(new Error(`图片加载失败: ${url}`));
-      };
-      
-      img.src = url;
-    });
-    
-    this.loadingQueue.set(url, promise);
-    return promise;
-  },
-  
-  // 批量优化图片URL
-  optimizeImageUrls: function(items) {
-    return items.map(item => {
-      if (item.posterPath) {
-        item.posterPath = this.optimizeImageUrl(item.posterPath);
-      }
-      if (item.title_backdrop) {
-        item.title_backdrop = this.optimizeImageUrl(item.title_backdrop);
-      }
-      if (item.backdropPath) {
-        item.backdropPath = this.optimizeImageUrl(item.backdropPath);
-      }
-      return item;
-    });
-  },
-  
-  // 优化单个图片URL
-  optimizeImageUrl: function(url) {
-    if (!url || !CONFIG.IMAGE_CDN_ENABLED) return url;
-    
-    // 如果已经是优化过的URL，直接返回
-    if (url.includes('image.tmdb.org')) {
-      return url.replace('/t/p/original/', `/t/p/${CONFIG.IMAGE_QUALITY}/`);
-    }
-    
-    return url;
-  }
-};
-
-// 懒加载管理器
-var LazyLoader = {
-  loadedModules: new Set(),
-  loadingPromises: new Map(),
-  
-  // 懒加载模块
-  loadModule: function(moduleName, loadFunction, priority = 'normal') {
-    if (this.loadedModules.has(moduleName)) {
-      return Promise.resolve();
-    }
-    
-    if (this.loadingPromises.has(moduleName)) {
-      return this.loadingPromises.get(moduleName);
-    }
-    
-    const promise = loadFunction()
-      .then(result => {
-        this.loadedModules.add(moduleName);
-        this.loadingPromises.delete(moduleName);
-        return result;
-      })
-      .catch(error => {
-        this.loadingPromises.delete(moduleName);
-        throw error;
-      });
-    
-    this.loadingPromises.set(moduleName, promise);
-    return promise;
-  },
-  
-  // 预加载模块
-  preloadModules: function(modules) {
-    const promises = modules.map(({ name, loadFunction, priority }) => 
-      this.loadModule(name, loadFunction, priority)
-    );
-    
-    return Promise.allSettled(promises);
-  },
-  
-  // 检查模块是否已加载
-  isLoaded: function(moduleName) {
-    return this.loadedModules.has(moduleName);
-  }
-};
 
 // CDN优化系统
 var CDNManager = {
@@ -1833,80 +1514,6 @@ function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
 }
 
 
-// 通用数据获取函数（减少重复代码）
-async function fetchTmdbData(endpoint, params = {}, cacheType = 'DEFAULT', requestId = null) {
-  const cacheKey = `${endpoint}_${JSON.stringify(params)}`;
-  const cached = getCachedData(cacheKey, cacheType);
-  if (cached) {
-    performanceMonitor.recordRequest('cached');
-    return cached;
-  }
-  
-  try {
-    const requestFn = () => Widget.tmdb.get(endpoint, { params });
-    const result = requestId ? 
-      await RequestBatcher.addRequest(requestId, requestFn) : 
-      await requestFn();
-    
-    if (requestId) {
-      performanceMonitor.recordRequest('batch');
-    } else {
-      performanceMonitor.recordRequest('normal');
-    }
-    
-    setCachedData(cacheKey, result, cacheType);
-    return result;
-  } catch (error) {
-    console.error(`TMDB数据获取失败 (${endpoint}):`, error);
-    throw error;
-  }
-}
-
-// 通用数据处理函数（优化版）
-async function processTmdbResults(results, mediaType, options = {}) {
-  const { 
-    filterPoster = true, 
-    maxItems = CONFIG.MAX_ITEMS, 
-    addGenreTitle = true,
-    useCDN = true,
-    preloadImages = true
-  } = options;
-  
-  const processedResults = await Promise.all(results.map(async item => {
-    item.media_type = mediaType;
-    const widgetItem = useCDN ? await createWidgetItem(item) : createWidgetItemWithoutCDN(item);
-    
-    if (addGenreTitle) {
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, mediaType);
-    }
-    
-    return widgetItem;
-  }));
-  
-  // 优化图片URL
-  const optimizedResults = ImageOptimizer.optimizeImageUrls(processedResults);
-  
-  let filteredResults = optimizedResults;
-  if (filterPoster) {
-    filteredResults = optimizedResults.filter(item => item.posterPath);
-  }
-  
-  const finalResults = filteredResults.slice(0, maxItems);
-  
-  // 预加载图片
-  if (preloadImages && CONFIG.IMAGE_LAZY_LOADING) {
-    const imageUrls = finalResults
-      .map(item => [item.posterPath, item.title_backdrop, item.backdropPath])
-      .flat()
-      .filter(url => url);
-    
-    ImageOptimizer.preloadImages(imageUrls).catch(error => {
-      console.warn('图片预加载失败:', error);
-    });
-  }
-  
-  return finalResults;
-}
 
 // 智能海报处理函数
 function getOptimalPosterUrl(item, mediaType = "movie") {
@@ -2110,7 +1717,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true", adult_filter = "exclude_adult" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -2151,10 +1758,10 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", adult_filter = "exclude_adult" } = params;
   
   try {
-    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${adult_filter}_${page}`;
     const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
@@ -2179,7 +1786,8 @@ async function loadTmdbTrendingWithAPI(params = {}) {
 
     queryParams = {
       language,
-      page
+      page,
+      include_adult: adult_filter === "include_all"
     };
 
     if (with_origin_country) {
@@ -2316,6 +1924,32 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     if (vote_average_gte !== "0") {
       const minRating = parseFloat(vote_average_gte);
       widgetItems = widgetItems.filter(item => item.rating >= minRating);
+    }
+
+    // 应用成人内容过滤（额外检查）
+    if (adult_filter === "exclude_adult") {
+      const originalCount = widgetItems.length;
+      widgetItems = widgetItems.filter(item => {
+        // 检查标题和描述中是否包含成人内容关键词
+        const title = (item.title || "").toLowerCase();
+        const description = (item.description || "").toLowerCase();
+        const genreTitle = (item.genreTitle || "").toLowerCase();
+        
+        const adultKeywords = [
+          'erotic', 'hentai', 'porn', 'xxx', 'adult', 'sex', 'nude', 'naked',
+          'sexual', 'explicit', 'mature', '18+', 'r18', 'ecchi', 'yuri', 'yaoi',
+          'bl', 'gl', 'harem', 'incest', 'rape', 'bdsm', 'fetish'
+        ];
+        
+        const hasAdultContent = adultKeywords.some(keyword => 
+          title.includes(keyword) || 
+          description.includes(keyword) || 
+          genreTitle.includes(keyword)
+        );
+        
+        return !hasAdultContent;
+      });
+      console.log(`🚫 TMDB热门模块成人内容过滤: 原始 ${originalCount} 条，过滤后 ${widgetItems.length} 条`);
     }
 
     // 应用排序
@@ -2586,6 +2220,7 @@ async function loadImdbAnimeModule(params = {}) {
     return [];
   }
 }
+
 
 // 豆瓣国产剧集专用函数
 async function loadDoubanChineseTVList(params = {}) {
@@ -2917,6 +2552,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
             language: params.language || 'zh-CN',
             page: params.page || 1,
             sort_by: params.sort_by || "first_air_date.desc",
+            include_adult: false
         };
         
         // 只有当选择了具体平台时才添加with_networks参数
@@ -3071,13 +2707,16 @@ async function loadTmdbMediaRanking(params = {}) {
     media_type = "tv",
     with_origin_country,
     with_genres,
+    anime_filter = "all",
+    poster_filter = "include_all",
+    adult_filter = "exclude_adult",
     sort_by = "popularity.desc",
     vote_average_gte = "0",
     year = ""
   } = params;
   
   try {
-    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
+    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${anime_filter}_${poster_filter}_${adult_filter}_${sort_by}_${vote_average_gte}_${year}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -3090,7 +2729,9 @@ async function loadTmdbMediaRanking(params = {}) {
       page, 
       sort_by,
       // 确保有足够投票数
-      vote_count_gte: media_type === "movie" ? 100 : 50
+      vote_count_gte: media_type === "movie" ? 100 : 50,
+      // 成人内容过滤
+      include_adult: adult_filter === "include_all"
     };
     
     // 添加制作地区
@@ -3101,6 +2742,17 @@ async function loadTmdbMediaRanking(params = {}) {
     // 添加内容类型
     if (with_genres && with_genres !== "") {
       queryParams.with_genres = with_genres;
+    }
+    
+    // 处理动漫过滤逻辑（仅对日本地区生效）
+    if (with_origin_country === "JP" && anime_filter !== "all") {
+      if (anime_filter === "exclude_anime") {
+        // 排除动漫类型 (genre_id 16)
+        queryParams.without_genres = "16";
+      } else if (anime_filter === "anime_only") {
+        // 仅包含动漫类型 (genre_id 16)
+        queryParams.with_genres = "16";
+      }
     }
     
     // 添加最低评分要求
@@ -3149,7 +2801,47 @@ async function loadTmdbMediaRanking(params = {}) {
       return widgetItem;
     }));
     
-    const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
+    // 应用海报过滤
+    let filteredItems = widgetItems;
+    if (poster_filter === "poster_only") {
+      filteredItems = widgetItems.filter(item => {
+        // 检查是否有真实的海报（不是占位符）
+        const hasRealPoster = item.posterPath && 
+          !item.posterPath.includes('placehold.co') && 
+          !item.posterPath.includes('placeholder') &&
+          item.posterPath.trim().length > 0;
+        return hasRealPoster;
+      });
+      console.log(`🎬 海报过滤: 原始 ${widgetItems.length} 条，过滤后 ${filteredItems.length} 条`);
+    }
+
+    // 应用成人内容过滤（额外检查）
+    if (adult_filter === "exclude_adult") {
+      const originalCount = filteredItems.length;
+      filteredItems = filteredItems.filter(item => {
+        // 检查标题和描述中是否包含成人内容关键词
+        const title = (item.title || "").toLowerCase();
+        const description = (item.description || "").toLowerCase();
+        const genreTitle = (item.genreTitle || "").toLowerCase();
+        
+        const adultKeywords = [
+          'erotic', 'hentai', 'porn', 'xxx', 'adult', 'sex', 'nude', 'naked',
+          'sexual', 'explicit', 'mature', '18+', 'r18', 'ecchi', 'yuri', 'yaoi',
+          'bl', 'gl', 'harem', 'incest', 'rape', 'bdsm', 'fetish'
+        ];
+        
+        const hasAdultContent = adultKeywords.some(keyword => 
+          title.includes(keyword) || 
+          description.includes(keyword) || 
+          genreTitle.includes(keyword)
+        );
+        
+        return !hasAdultContent;
+      });
+      console.log(`🚫 成人内容过滤: 原始 ${originalCount} 条，过滤后 ${filteredItems.length} 条`);
+    }
+    
+    const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results);
     return results;
@@ -3168,11 +2860,12 @@ async function loadTmdbByTheme(params = {}) {
     sort_by = "popularity_desc",
     min_rating = "0",
     year = "",
-    page = 1 
+    page = 1,
+    adult_filter = "exclude_adult"
   } = params;
   
   try {
-    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${page}`;
+    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${adult_filter}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -3208,7 +2901,7 @@ async function loadTmdbByTheme(params = {}) {
     const queryParams = {
       language: "zh-CN",
       page: page,
-      include_adult: false,
+      include_adult: adult_filter === "include_all",
       vote_count_gte: media_type === "movie" ? 50 : 20
     };
 
@@ -3795,7 +3488,7 @@ function generateFallbackData() {
 
 
 // 基础获取TMDB数据方法
-async function fetchTmdbData(key, mediaType) {
+async function searchTmdbData(key, mediaType) {
     const tmdbResults = await Widget.tmdb.get(`/search/${mediaType}`, {
         params: {
             query: key,
@@ -3863,7 +3556,7 @@ async function fetchImdbItems(scItems) {
     }
     let title = scItem.type === "tv" ? cleanTitle(scItem.title) : scItem.title;
     console.log("title: ", title, " ; type: ", scItem.type);
-    const tmdbDatas = await fetchTmdbData(title, scItem.type)
+    const tmdbDatas = await searchTmdbData(title, scItem.type)
 
     if (tmdbDatas.length !== 0) {
       return {
@@ -4126,9 +3819,6 @@ async function getPreferenceRecommendations(params = {}) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     performanceMonitor,
-    RequestBatcher,
-    ImageOptimizer,
-    LazyLoader,
     getPerformanceStats: () => performanceMonitor.exportStats()
   };
 }
@@ -4142,9 +3832,6 @@ if (typeof window !== 'undefined') {
       performanceMonitor.stats = {
         totalRequests: 0,
         cachedRequests: 0,
-        batchRequests: 0,
-        imagePreloads: 0,
-        lazyLoads: 0,
         totalTime: 0
       };
     }
