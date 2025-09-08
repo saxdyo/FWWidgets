@@ -1228,14 +1228,21 @@ var WidgetMetadata = {
         }
       ]
     },
-    // TMDB屏蔽模块
+    // 搜索屏蔽模块
     {
-      title: "TMDB 内容屏蔽",
-      description: "屏蔽指定类型的TMDB内容，支持按类型、地区、评分等条件屏蔽",
+      title: "搜索内容屏蔽",
+      description: "屏蔽搜索结果中的特定内容，支持关键词、类型、地区等条件屏蔽",
       requiresWebView: false,
-      functionName: "loadTmdbBlockedContent",
-      cacheDuration: 3600,
+      functionName: "loadSearchBlockedContent",
+      cacheDuration: 1800,
       params: [
+        {
+          name: "search_query",
+          title: "搜索关键词",
+          type: "text",
+          description: "输入要搜索的关键词",
+          value: ""
+        },
         {
           name: "block_type",
           title: "屏蔽类型",
@@ -1247,14 +1254,15 @@ var WidgetMetadata = {
             { title: "低评分内容", value: "low_rating" },
             { title: "特定类型", value: "specific_genre" },
             { title: "特定地区", value: "specific_region" },
-            { title: "自定义关键词", value: "custom_keywords" }
+            { title: "自定义关键词", value: "custom_keywords" },
+            { title: "无海报内容", value: "no_poster" }
           ]
         },
         {
           name: "media_type",
           title: "媒体类型",
           type: "enumeration",
-          description: "选择要屏蔽的媒体类型",
+          description: "选择要搜索的媒体类型",
           value: "all",
           enumOptions: [
             { title: "全部", value: "all" },
@@ -1276,7 +1284,9 @@ var WidgetMetadata = {
             { title: "成人", value: "10749" },
             { title: "犯罪", value: "80" },
             { title: "惊悚", value: "53" },
-            { title: "战争", value: "10752" }
+            { title: "战争", value: "10752" },
+            { title: "动作", value: "28" },
+            { title: "科幻", value: "878" }
           ]
         },
         {
@@ -1293,7 +1303,9 @@ var WidgetMetadata = {
             { title: "日本", value: "JP" },
             { title: "韩国", value: "KR" },
             { title: "中国", value: "CN" },
-            { title: "欧洲", value: "GB,FR,DE,ES,IT" }
+            { title: "欧洲", value: "GB,FR,DE,ES,IT" },
+            { title: "印度", value: "IN" },
+            { title: "泰国", value: "TH" }
           ]
         },
         {
@@ -1306,6 +1318,8 @@ var WidgetMetadata = {
             value: ["low_rating"]
           },
           enumOptions: [
+            { title: "3.0分以上", value: "3.0" },
+            { title: "4.0分以上", value: "4.0" },
             { title: "5.0分以上", value: "5.0" },
             { title: "6.0分以上", value: "6.0" },
             { title: "7.0分以上", value: "7.0" },
@@ -1333,6 +1347,12 @@ var WidgetMetadata = {
             { title: "排除屏蔽内容", value: "exclude_blocked" },
             { title: "仅显示屏蔽内容", value: "show_blocked_only" }
           ]
+        },
+        {
+          name: "language",
+          title: "语言",
+          type: "language",
+          value: "zh-CN"
         },
         {
           name: "page",
@@ -3928,9 +3948,10 @@ async function getPreferenceRecommendations(params = {}) {
     }
 }
 
-// TMDB屏蔽模块功能函数
-async function loadTmdbBlockedContent(params = {}) {
+// 搜索屏蔽模块功能函数
+async function loadSearchBlockedContent(params = {}) {
   const { 
+    search_query = "", 
     block_type = "adult_content", 
     media_type = "all", 
     block_genre = "", 
@@ -3938,70 +3959,143 @@ async function loadTmdbBlockedContent(params = {}) {
     min_rating = "6.0", 
     custom_keywords = "", 
     block_mode = "exclude_blocked", 
+    language = "zh-CN",
     page = 1 
   } = params;
   
   // 添加性能监控
-  const endMonitor = performanceMonitor.start('TMDB屏蔽模块');
+  const endMonitor = performanceMonitor.start('搜索屏蔽模块');
   
   try {
-    const cacheKey = `blocked_${block_type}_${media_type}_${block_genre}_${block_region}_${min_rating}_${custom_keywords}_${block_mode}_${page}`;
-    const cached = getCachedData(cacheKey, 'BLOCKED');
+    const cacheKey = `search_blocked_${search_query}_${block_type}_${media_type}_${block_genre}_${block_region}_${min_rating}_${custom_keywords}_${block_mode}_${page}`;
+    const cached = getCachedData(cacheKey, 'SEARCH_BLOCKED');
     if (cached) return cached;
 
-    console.log(`🚫 加载TMDB屏蔽内容: ${block_type} - ${block_mode}`);
+    console.log(`🔍 搜索屏蔽内容: "${search_query}" - ${block_type} - ${block_mode}`);
     
-    // 根据屏蔽类型获取数据
-    let results = [];
+    // 如果没有搜索关键词，返回空结果
+    if (!search_query || !search_query.trim()) {
+      console.log("⚠️ 未提供搜索关键词");
+      return [];
+    }
+    
+    // 先执行搜索获取结果
+    const searchResults = await performTmdbSearch(search_query, media_type, language, page);
+    
+    if (!searchResults || searchResults.length === 0) {
+      console.log("🔍 搜索无结果");
+      return [];
+    }
+    
+    // 根据屏蔽类型过滤搜索结果
+    let filteredResults = [];
     
     switch (block_type) {
       case "adult_content":
-        results = await loadBlockedAdultContent(media_type, block_mode, page);
+        filteredResults = filterAdultContent(searchResults, block_mode);
         break;
       case "low_rating":
-        results = await loadBlockedLowRatingContent(media_type, min_rating, block_mode, page);
+        filteredResults = filterLowRatingContent(searchResults, min_rating, block_mode);
         break;
       case "specific_genre":
-        results = await loadBlockedGenreContent(media_type, block_genre, block_mode, page);
+        filteredResults = filterGenreContent(searchResults, block_genre, block_mode);
         break;
       case "specific_region":
-        results = await loadBlockedRegionContent(media_type, block_region, block_mode, page);
+        filteredResults = filterRegionContent(searchResults, block_region, block_mode);
         break;
       case "custom_keywords":
-        results = await loadBlockedCustomKeywordsContent(media_type, custom_keywords, block_mode, page);
+        filteredResults = filterCustomKeywordsContent(searchResults, custom_keywords, block_mode);
+        break;
+      case "no_poster":
+        filteredResults = filterNoPosterContent(searchResults, block_mode);
         break;
       default:
-        results = await loadBlockedAdultContent(media_type, block_mode, page);
+        filteredResults = filterAdultContent(searchResults, block_mode);
     }
     
     // 应用数据质量监控
-    const monitoredResults = dataQualityMonitor(results, 'TMDB屏蔽模块');
+    const monitoredResults = dataQualityMonitor(filteredResults, '搜索屏蔽模块');
     
     // 缓存结果
-    setCachedData(cacheKey, monitoredResults, 'BLOCKED');
+    setCachedData(cacheKey, monitoredResults, 'SEARCH_BLOCKED');
     
     endMonitor();
     return monitoredResults;
     
   } catch (error) {
-    console.error("❌ TMDB屏蔽模块加载失败:", error);
+    console.error("❌ 搜索屏蔽模块加载失败:", error);
     endMonitor();
     return [];
   }
 }
 
-// 屏蔽成人内容
-async function loadBlockedAdultContent(media_type, block_mode, page) {
-  const adultKeywords = ['adult', 'erotic', 'porn', 'sex', 'nude', 'naked', 'hentai', 'xxx', '18+'];
+// TMDB搜索功能
+async function performTmdbSearch(query, media_type, language, page) {
+  try {
+    console.log(`🔍 执行TMDB搜索: "${query}" - ${media_type}`);
+    
+    const searchParams = {
+      query: query,
+      language: language,
+      page: page,
+      include_adult: false
+    };
+    
+    let results = [];
+    
+    if (media_type === "all" || media_type === "movie") {
+      const movieResponse = await Widget.tmdb.get("/search/movie", { params: searchParams });
+      if (movieResponse.results) {
+        const movieResults = movieResponse.results.map(item => createWidgetItem(item, "movie"));
+        results = results.concat(movieResults);
+      }
+    }
+    
+    if (media_type === "all" || media_type === "tv") {
+      const tvResponse = await Widget.tmdb.get("/search/tv", { params: searchParams });
+      if (tvResponse.results) {
+        const tvResults = tvResponse.results.map(item => createWidgetItem(item, "tv"));
+        results = results.concat(tvResults);
+      }
+    }
+    
+    console.log(`🔍 TMDB搜索完成: 找到 ${results.length} 条结果`);
+    return results;
+    
+  } catch (error) {
+    console.error("❌ TMDB搜索失败:", error);
+    return [];
+  }
+}
+
+// 创建WidgetItem对象
+function createWidgetItem(item, mediaType) {
+  const genreTitle = getGenreTitle(item.genre_ids || [], mediaType);
   
-  // 获取热门内容
-  const trendingData = await loadTmdbTrendingFromPreprocessed({
-    media_type: media_type,
-    page: page,
-    adult_filter: "include_all" // 包含所有内容以便筛选
-  });
+  return {
+    id: item.id,
+    title: item.title || item.name,
+    description: item.overview || "",
+    posterPath: item.poster_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/w500${item.poster_path}`) : "",
+    backdropPath: item.backdrop_path ? ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/w1280${item.backdrop_path}`) : "",
+    rating: item.vote_average,
+    year: item.release_date ? new Date(item.release_date).getFullYear() : (item.first_air_date ? new Date(item.first_air_date).getFullYear() : null),
+    releaseDate: item.release_date || item.first_air_date,
+    mediaType: mediaType,
+    genreTitle: genreTitle,
+    genreIds: item.genre_ids || [],
+    originCountry: item.origin_country || [],
+    popularity: item.popularity,
+    source: `TMDB搜索`,
+    type: "tmdb"
+  };
+}
+
+// 过滤成人内容
+function filterAdultContent(searchResults, block_mode) {
+  const adultKeywords = ['adult', 'erotic', 'porn', 'sex', 'nude', 'naked', 'hentai', 'xxx', '18+', 'adulto', 'erotico'];
   
-  let filteredResults = trendingData.filter(item => {
+  let filteredResults = searchResults.filter(item => {
     const title = (item.title || "").toLowerCase();
     const description = (item.description || "").toLowerCase();
     const hasAdultContent = adultKeywords.some(keyword => 
@@ -4011,66 +4105,45 @@ async function loadBlockedAdultContent(media_type, block_mode, page) {
     return block_mode === "exclude_blocked" ? !hasAdultContent : hasAdultContent;
   });
   
-  console.log(`🚫 成人内容屏蔽: ${block_mode} - 原始 ${trendingData.length} 条，过滤后 ${filteredResults.length} 条`);
+  console.log(`🚫 成人内容过滤: ${block_mode} - 原始 ${searchResults.length} 条，过滤后 ${filteredResults.length} 条`);
   return filteredResults;
 }
 
-// 屏蔽低评分内容
-async function loadBlockedLowRatingContent(media_type, min_rating, block_mode, page) {
+// 过滤低评分内容
+function filterLowRatingContent(searchResults, min_rating, block_mode) {
   const minRating = parseFloat(min_rating);
   
-  // 获取热门内容
-  const trendingData = await loadTmdbTrendingFromPreprocessed({
-    media_type: media_type,
-    page: page,
-    adult_filter: "exclude_adult"
-  });
-  
-  let filteredResults = trendingData.filter(item => {
+  let filteredResults = searchResults.filter(item => {
     const rating = parseFloat(item.rating || 0);
     const isLowRating = rating < minRating;
     
     return block_mode === "exclude_blocked" ? !isLowRating : isLowRating;
   });
   
-  console.log(`🚫 低评分内容屏蔽: ${block_mode} - 最低评分 ${min_rating} - 原始 ${trendingData.length} 条，过滤后 ${filteredResults.length} 条`);
+  console.log(`🚫 低评分内容过滤: ${block_mode} - 最低评分 ${min_rating} - 原始 ${searchResults.length} 条，过滤后 ${filteredResults.length} 条`);
   return filteredResults;
 }
 
-// 屏蔽特定类型内容
-async function loadBlockedGenreContent(media_type, block_genre, block_mode, page) {
-  if (!block_genre) return [];
+// 过滤特定类型内容
+function filterGenreContent(searchResults, block_genre, block_mode) {
+  if (!block_genre) return searchResults;
   
-  // 获取热门内容
-  const trendingData = await loadTmdbTrendingFromPreprocessed({
-    media_type: media_type,
-    page: page,
-    adult_filter: "exclude_adult"
-  });
-  
-  let filteredResults = trendingData.filter(item => {
+  let filteredResults = searchResults.filter(item => {
     const genreIds = item.genreIds || [];
     const hasBlockedGenre = genreIds.includes(parseInt(block_genre));
     
     return block_mode === "exclude_blocked" ? !hasBlockedGenre : hasBlockedGenre;
   });
   
-  console.log(`🚫 特定类型屏蔽: ${block_mode} - 类型ID ${block_genre} - 原始 ${trendingData.length} 条，过滤后 ${filteredResults.length} 条`);
+  console.log(`🚫 特定类型过滤: ${block_mode} - 类型ID ${block_genre} - 原始 ${searchResults.length} 条，过滤后 ${filteredResults.length} 条`);
   return filteredResults;
 }
 
-// 屏蔽特定地区内容
-async function loadBlockedRegionContent(media_type, block_region, block_mode, page) {
-  if (!block_region) return [];
+// 过滤特定地区内容
+function filterRegionContent(searchResults, block_region, block_mode) {
+  if (!block_region) return searchResults;
   
-  // 获取热门内容
-  const trendingData = await loadTmdbTrendingFromPreprocessed({
-    media_type: media_type,
-    page: page,
-    adult_filter: "exclude_adult"
-  });
-  
-  let filteredResults = trendingData.filter(item => {
+  let filteredResults = searchResults.filter(item => {
     const originCountry = item.originCountry || [];
     const hasBlockedRegion = originCountry.some(country => 
       block_region.includes(country)
@@ -4079,25 +4152,18 @@ async function loadBlockedRegionContent(media_type, block_region, block_mode, pa
     return block_mode === "exclude_blocked" ? !hasBlockedRegion : hasBlockedRegion;
   });
   
-  console.log(`🚫 特定地区屏蔽: ${block_mode} - 地区 ${block_region} - 原始 ${trendingData.length} 条，过滤后 ${filteredResults.length} 条`);
+  console.log(`🚫 特定地区过滤: ${block_mode} - 地区 ${block_region} - 原始 ${searchResults.length} 条，过滤后 ${filteredResults.length} 条`);
   return filteredResults;
 }
 
-// 屏蔽自定义关键词内容
-async function loadBlockedCustomKeywordsContent(media_type, custom_keywords, block_mode, page) {
-  if (!custom_keywords || !custom_keywords.trim()) return [];
+// 过滤自定义关键词内容
+function filterCustomKeywordsContent(searchResults, custom_keywords, block_mode) {
+  if (!custom_keywords || !custom_keywords.trim()) return searchResults;
   
   const keywords = custom_keywords.split(',').map(k => k.trim().toLowerCase()).filter(k => k);
-  if (keywords.length === 0) return [];
+  if (keywords.length === 0) return searchResults;
   
-  // 获取热门内容
-  const trendingData = await loadTmdbTrendingFromPreprocessed({
-    media_type: media_type,
-    page: page,
-    adult_filter: "exclude_adult"
-  });
-  
-  let filteredResults = trendingData.filter(item => {
+  let filteredResults = searchResults.filter(item => {
     const title = (item.title || "").toLowerCase();
     const description = (item.description || "").toLowerCase();
     const hasCustomKeyword = keywords.some(keyword => 
@@ -4107,7 +4173,21 @@ async function loadBlockedCustomKeywordsContent(media_type, custom_keywords, blo
     return block_mode === "exclude_blocked" ? !hasCustomKeyword : hasCustomKeyword;
   });
   
-  console.log(`🚫 自定义关键词屏蔽: ${block_mode} - 关键词 ${keywords.join(', ')} - 原始 ${trendingData.length} 条，过滤后 ${filteredResults.length} 条`);
+  console.log(`🚫 自定义关键词过滤: ${block_mode} - 关键词 ${keywords.join(', ')} - 原始 ${searchResults.length} 条，过滤后 ${filteredResults.length} 条`);
+  return filteredResults;
+}
+
+// 过滤无海报内容
+function filterNoPosterContent(searchResults, block_mode) {
+  let filteredResults = searchResults.filter(item => {
+    const hasPoster = item.posterPath && 
+      !item.posterPath.includes('placehold.co') && 
+      item.posterPath.trim().length > 0;
+    
+    return block_mode === "exclude_blocked" ? hasPoster : !hasPoster;
+  });
+  
+  console.log(`🚫 无海报内容过滤: ${block_mode} - 原始 ${searchResults.length} 条，过滤后 ${filteredResults.length} 条`);
   return filteredResults;
 }
 
