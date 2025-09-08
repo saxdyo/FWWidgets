@@ -110,7 +110,9 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" }
+            { title: "本周热门", value: "week" },
+            { title: "热门电影", value: "popular" },
+            { title: "高分内容", value: "top_rated" }
           ]
         },
         {
@@ -160,7 +162,10 @@ var WidgetMetadata = {
           value: "popularity",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
-            { title: "最新发布", value: "release_date" }
+            { title: "评分排序", value: "rating" },
+            { title: "最新发布", value: "release_date" },
+            { title: "投票数", value: "vote_count" },
+            { title: "原始顺序", value: "original" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -174,17 +179,6 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "预处理数据", value: "true" },
             { title: "正常TMDB API", value: "api" }
-          ]
-        },
-        {
-          name: "poster_filter",
-          title: "海报过滤",
-          type: "enumeration",
-          description: "选择是否过滤掉没有海报的影视内容",
-          value: "include_all",
-          enumOptions: [
-            { title: "包含所有内容", value: "include_all" },
-            { title: "仅显示有海报", value: "poster_only" }
           ]
         }
       ]
@@ -289,102 +283,6 @@ var WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" },
         { name: "language", title: "语言", type: "language", value: "zh-CN" }
-      ]
-    },
-
-    // TMDB预处理背景 (复制自热门内容模块)
-    {
-      title: "TMDB 预处理背景",
-      description: "预处理数据背景图版本",
-      requiresWebView: false,
-      functionName: "loadTmdbTrending",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "content_type",
-          title: "内容类型",
-          type: "enumeration",
-          description: "选择内容类型",
-          value: "today",
-          enumOptions: [
-            { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" }
-          ]
-        },
-        {
-          name: "media_type",
-          title: "媒体类型",
-          type: "enumeration",
-          description: "选择媒体类型",
-          value: "all",
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "电影", value: "movie" },
-            { title: "剧集", value: "tv" }
-          ]
-        },
-        {
-          name: "with_origin_country",
-          title: "制作地区",
-          type: "enumeration",
-          description: "按制作地区筛选",
-          value: "",
-          enumOptions: [
-            { title: "全部地区", value: "" },
-            { title: "美国", value: "US" },
-            { title: "中国", value: "CN" },
-            { title: "日本", value: "JP" },
-            { title: "韩国", value: "KR" }
-          ]
-        },
-        {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" }
-          ]
-        },
-        {
-          name: "backup_content_type",
-          title: "备用内容来源",
-          type: "enumeration",
-          description: "选择要获取的备用内容来源",
-          value: "today",
-          enumOptions: [
-            { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "today",
-          enumOptions: [
-            { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
-        {
-          name: "use_preprocessed_data",
-          title: "数据来源类型",
-          type: "enumeration",
-          description: "选择数据来源类型",
-          value: "true",
-          enumOptions: [
-            { title: "预处理数据", value: "true" },
-            { title: "正常TMDB API", value: "api" }
-          ]
-        }
       ]
     },
     
@@ -1783,7 +1681,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true", poster_filter = "include_all" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -1824,10 +1722,10 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", poster_filter = "include_all" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
   
   try {
-    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${poster_filter}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
@@ -1989,20 +1887,6 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
     if (vote_average_gte !== "0") {
       const minRating = parseFloat(vote_average_gte);
       widgetItems = widgetItems.filter(item => item.rating >= minRating);
-    }
-
-    // 应用海报过滤
-    if (poster_filter === "poster_only") {
-      const originalCount = widgetItems.length;
-      widgetItems = widgetItems.filter(item => {
-        // 检查是否有真实的海报（不是占位符）
-        const hasRealPoster = item.posterPath && 
-          !item.posterPath.includes('placehold.co') && 
-          !item.posterPath.includes('placeholder') &&
-          item.posterPath.trim().length > 0;
-        return hasRealPoster;
-      });
-      console.log(`🎬 TMDB热门模块海报过滤: 原始 ${originalCount} 条，过滤后 ${widgetItems.length} 条`);
     }
 
     // 应用排序
