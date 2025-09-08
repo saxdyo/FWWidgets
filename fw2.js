@@ -679,6 +679,24 @@ var WidgetMetadata = {
             { title: "排除成人内容", value: "exclude_adult" },
             { title: "包含所有内容", value: "include_all" }
           ]
+        },
+        {
+          name: "keyword_filter",
+          title: "关键词过滤",
+          type: "enumeration",
+          description: "选择是否启用关键词过滤",
+          value: "disabled",
+          enumOptions: [
+            { title: "启用关键词过滤", value: "enabled" },
+            { title: "禁用关键词过滤", value: "disabled" }
+          ]
+        },
+        {
+          name: "exclude_keywords",
+          title: "排除关键词",
+          type: "text",
+          description: "输入要排除的关键词，用逗号分隔（如：某演员,某导演,某类型）",
+          value: ""
         }
       ]
     },
@@ -2861,11 +2879,13 @@ async function loadTmdbByTheme(params = {}) {
     min_rating = "0",
     year = "",
     page = 1,
-    adult_filter = "exclude_adult"
+    adult_filter = "exclude_adult",
+    keyword_filter = "disabled",
+    exclude_keywords = ""
   } = params;
   
   try {
-    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${adult_filter}_${page}`;
+    const cacheKey = `theme_${theme}_${media_type}_${sort_by}_${min_rating}_${year}_${adult_filter}_${keyword_filter}_${exclude_keywords}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
@@ -3000,7 +3020,32 @@ async function loadTmdbByTheme(params = {}) {
       return widgetItem;
     }));
     
-    const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
+    // 应用关键词过滤
+    let filteredItems = widgetItems.filter(item => item.posterPath);
+    if (keyword_filter === "enabled" && exclude_keywords && exclude_keywords.trim()) {
+      const originalCount = filteredItems.length;
+      const keywords = exclude_keywords.split(',').map(k => k.trim().toLowerCase()).filter(k => k.length > 0);
+      
+      if (keywords.length > 0) {
+        filteredItems = filteredItems.filter(item => {
+          const title = (item.title || "").toLowerCase();
+          const description = (item.description || "").toLowerCase();
+          const genreTitle = (item.genreTitle || "").toLowerCase();
+          
+          // 检查是否包含排除关键词
+          const hasExcludedContent = keywords.some(keyword => 
+            title.includes(keyword) || 
+            description.includes(keyword) || 
+            genreTitle.includes(keyword)
+          );
+          
+          return !hasExcludedContent;
+        });
+        console.log(`🚫 主题分类关键词过滤: 原始 ${originalCount} 条，过滤后 ${filteredItems.length} 条，排除关键词: ${keywords.join(', ')}`);
+      }
+    }
+    
+    const results = filteredItems.slice(0, CONFIG.MAX_ITEMS);
 
     console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
 
