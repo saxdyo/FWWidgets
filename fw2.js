@@ -191,24 +191,6 @@ var WidgetMetadata = {
             { title: "排除成人内容", value: "exclude_adult" },
             { title: "包含所有内容", value: "include_all" }
           ]
-        },
-        {
-          name: "blacklist_filter",
-          title: "黑名单过滤",
-          type: "enumeration",
-          description: "选择是否启用黑名单过滤",
-          value: "enabled",
-          enumOptions: [
-            { title: "启用黑名单", value: "enabled" },
-            { title: "禁用黑名单", value: "disabled" }
-          ]
-        },
-        {
-          name: "blacklist_keywords",
-          title: "黑名单关键词",
-          type: "text",
-          description: "输入要屏蔽的关键词，用逗号分隔（如：某演员,某导演,某类型）",
-          value: ""
         }
       ]
     },
@@ -1753,7 +1735,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true", adult_filter = "exclude_adult", blacklist_filter = "enabled", blacklist_keywords = "" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true", adult_filter = "exclude_adult" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -1794,10 +1776,10 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", adult_filter = "exclude_adult", blacklist_filter = "enabled", blacklist_keywords = "" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN", adult_filter = "exclude_adult" } = params;
   
   try {
-    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${adult_filter}_${blacklist_filter}_${blacklist_keywords}_${page}`;
+    const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${adult_filter}_${page}`;
     const cached = getCachedData(cacheKey, 'TRENDING');
     if (cached) return cached;
 
@@ -1986,30 +1968,6 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
         return !hasAdultContent;
       });
       console.log(`🚫 TMDB热门模块成人内容过滤: 原始 ${originalCount} 条，过滤后 ${widgetItems.length} 条`);
-    }
-
-    // 应用黑名单过滤
-    if (blacklist_filter === "enabled" && blacklist_keywords && blacklist_keywords.trim()) {
-      const originalCount = widgetItems.length;
-      const keywords = blacklist_keywords.split(',').map(k => k.trim().toLowerCase()).filter(k => k.length > 0);
-      
-      if (keywords.length > 0) {
-        widgetItems = widgetItems.filter(item => {
-          const title = (item.title || "").toLowerCase();
-          const description = (item.description || "").toLowerCase();
-          const genreTitle = (item.genreTitle || "").toLowerCase();
-          
-          // 检查是否包含黑名单关键词
-          const hasBlacklistedContent = keywords.some(keyword => 
-            title.includes(keyword) || 
-            description.includes(keyword) || 
-            genreTitle.includes(keyword)
-          );
-          
-          return !hasBlacklistedContent;
-        });
-        console.log(`🚫 TMDB热门模块黑名单过滤: 原始 ${originalCount} 条，过滤后 ${widgetItems.length} 条，关键词: ${keywords.join(', ')}`);
-      }
     }
 
     // 应用排序
