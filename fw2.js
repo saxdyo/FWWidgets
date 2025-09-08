@@ -162,10 +162,7 @@ var WidgetMetadata = {
           value: "popularity",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
-            { title: "评分排序", value: "rating" },
-            { title: "最新发布", value: "release_date" },
-            { title: "投票数", value: "vote_count" },
-            { title: "原始顺序", value: "original" }
+            { title: "最新发布", value: "release_date" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -277,11 +274,8 @@ var WidgetMetadata = {
           description: "选择内容排序方式,默认上映时间↓",
           value: "first_air_date.desc",
           enumOptions: [
-            { title: "上映时间↓", value: "first_air_date.desc" },
-            { title: "上映时间↑", value: "first_air_date.asc" },
             { title: "人气最高", value: "popularity.desc" },
-            { title: "评分最高", value: "vote_average.desc" },
-            { title: "最多投票", value: "vote_count.desc" }
+            { title: "上映时间↓", value: "first_air_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -305,9 +299,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         {
@@ -357,9 +349,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         {
@@ -370,9 +360,7 @@ var WidgetMetadata = {
           value: "today",
           enumOptions: [
             { title: "今日热门", value: "today" },
-            { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
+            { title: "本周热门", value: "week" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -471,13 +459,8 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "上映日期↓", value: "release_date.desc" },
-            { title: "上映日期↑", value: "release_date.asc" },
-            { title: "首播日期↓", value: "first_air_date.desc" },
-            { title: "首播日期↑", value: "first_air_date.asc" }
+            { title: "首播日期↓", value: "first_air_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -561,15 +544,9 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "最新上映↓", value: "release_date.desc" },
-            { title: "最早上映↑", value: "release_date.asc" },
             { title: "最新播出↓", value: "first_air_date.desc" },
-            { title: "最早播出↑", value: "first_air_date.asc" },
-            { title: "最新更新↓", value: "last_air_date.desc" },
-            { title: "最早更新↑", value: "last_air_date.asc" }
+            { title: "最新更新↓", value: "last_air_date.desc" }
           ]
         },
         {
@@ -650,13 +627,7 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "时长↓", value: "duration.desc" },
-            { title: "时长↑", value: "duration.asc" },
-            { title: "最新↓", value: "release_date.desc" },
-            { title: "最新↑", value: "release_date.asc" }
+            { title: "最新↓", value: "release_date.desc" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -712,11 +683,7 @@ var WidgetMetadata = {
           value: "popularity_desc",
           enumOptions: [
             { title: "热度降序", value: "popularity_desc" },
-            { title: "热度升序", value: "popularity_asc" },
-            { title: "评分降序", value: "vote_average_desc" },
-            { title: "评分升序", value: "vote_average_asc" },
-            { title: "上映时间降序", value: "release_date_desc" },
-            { title: "上映时间升序", value: "release_date_asc" }
+            { title: "上映时间降序", value: "release_date_desc" }
           ]
         },
         {
