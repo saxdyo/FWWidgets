@@ -3,17 +3,153 @@ const DEBUG_CONFIG = {
   enabled: false, // 生产环境关闭调试日志
   performance: false, // 性能监控
   cache: false, // 缓存日志
-  network: false // 网络请求日志
+  network: false, // 网络请求日志
+  system: false, // 系统内部日志（如导出配置等）
+  widget: false // Widget相关日志
+};
+
+// 注意：以下代码会自动屏蔽导出配置等系统日志，无需手动配置
+
+// 系统日志过滤器
+const shouldFilterLog = (message) => {
+  if (typeof message !== 'string') return false;
+  
+  // 检测包含大量ID数据的日志（通常是导出配置）
+  if (message.length > 1000 && message.includes('_movie') && message.includes('_tv')) {
+    return true;
+  }
+  
+  // 检测包含大量数字ID的日志
+  const idMatches = message.match(/\d+_(movie|tv)/g);
+  if (idMatches && idMatches.length > 10) {
+    return true;
+  }
+  
+  // 屏蔽导出配置相关的日志
+  const filterPatterns = [
+    '调用成功：［Forward Widget.Videoltem',
+    '调用成功：［Forward Widget.VideoItem',
+    '导出配置',
+    '共.*项，复制以下数据',
+    'mediaType: Optional("export")',
+    'type: "export"',
+    'id: "999013"',
+    'durationText: Optional("',
+    'Forward Widget.Videoltem',
+    'Forward Widget.VideoItem',
+    'Optional("export")',
+    'mediaType: Optional',
+    'durationText: Optional',
+    'previewUrl: nil',
+    'videoUrl: nil',
+    'episode: Optional',
+    'playerType: nil',
+    'link: nil',
+    'childitems: Optional',
+    'episodeltems: nil',
+    'relateditems: nil',
+    'customHeaders: nil',
+    'language: nil',
+    'coverRatio: nil',
+    'posterPath: Optional',
+    'backdropPath: Optional',
+    'rating: Optional',
+    'genreTitle: Optional',
+    'releaseDate: Optional',
+    'coverUrl: Optional',
+    // 专门针对您提到的日志格式
+    'Forward Widget.Videoltem （id：',
+    'title: Optional("导出配置"）',
+    'description: Optional（"共',
+    'coverUrl：Optional',
+    'coverRatio: nil',
+    'posterPath: Optional',
+    'backdropPath: Optional',
+    'releaseDate: Optional',
+    'mediaType: Optional ("export")',
+    'rating: Optional',
+    'genreTitle: Optional',
+    'customHeaders: nil',
+    'language: nil',
+    'duration: Optional',
+    'durationText: Optional',
+    'previewUrl: nil',
+    'videoUrl: nil',
+    'episode: Optional',
+    'playerType: nil',
+    'link: nil',
+    'childitems: Optional',
+    'episodeltems: nil',
+    'relateditems: nil'
+  ];
+  
+  return filterPatterns.some(pattern => message.includes(pattern));
+};
+
+// 全局日志拦截器
+const originalConsoleLog = console.log;
+const originalConsoleWarn = console.warn;
+const originalConsoleError = console.error;
+
+// 重写console方法以拦截系统日志
+console.log = function(...args) {
+  const message = args[0];
+  if (shouldFilterLog(message)) {
+    return; // 屏蔽系统日志
+  }
+  originalConsoleLog.apply(console, args);
+};
+
+console.warn = function(...args) {
+  const message = args[0];
+  if (shouldFilterLog(message)) {
+    return; // 屏蔽系统日志
+  }
+  originalConsoleWarn.apply(console, args);
+};
+
+console.error = function(...args) {
+  const message = args[0];
+  if (shouldFilterLog(message)) {
+    return; // 屏蔽系统日志
+  }
+  originalConsoleError.apply(console, args);
 };
 
 // 条件日志函数
 const debugLog = {
-  log: (message, ...args) => DEBUG_CONFIG.enabled && debugLog.log(message, ...args),
-  performance: (message, ...args) => DEBUG_CONFIG.performance && debugLog.log(message, ...args),
-  cache: (message, ...args) => DEBUG_CONFIG.cache && debugLog.log(message, ...args),
-  network: (message, ...args) => DEBUG_CONFIG.network && debugLog.log(message, ...args),
-  warn: (message, ...args) => console.warn(message, ...args), // 警告始终显示
-  error: (message, ...args) => console.error(message, ...args) // 错误始终显示
+  log: (message, ...args) => {
+    if (shouldFilterLog(message)) return; // 屏蔽系统日志
+    DEBUG_CONFIG.enabled && console.log(message, ...args);
+  },
+  performance: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    DEBUG_CONFIG.performance && console.log(message, ...args);
+  },
+  cache: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    DEBUG_CONFIG.cache && console.log(message, ...args);
+  },
+  network: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    DEBUG_CONFIG.network && console.log(message, ...args);
+  },
+  system: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    DEBUG_CONFIG.system && console.log(message, ...args);
+  },
+  widget: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    DEBUG_CONFIG.widget && console.log(message, ...args);
+  },
+  warn: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    console.warn(message, ...args); // 警告始终显示（除非被过滤）
+  },
+  error: (message, ...args) => {
+    if (shouldFilterLog(message)) return;
+    console.error(message, ...args); // 错误始终显示（除非被过滤）
+  }
 };
 
 // 性能监控工具（简化版）
