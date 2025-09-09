@@ -1,3 +1,21 @@
+// 调试配置
+const DEBUG_CONFIG = {
+  enabled: false, // 生产环境关闭调试日志
+  performance: false, // 性能监控
+  cache: false, // 缓存日志
+  network: false // 网络请求日志
+};
+
+// 条件日志函数
+const debugLog = {
+  log: (message, ...args) => DEBUG_CONFIG.enabled && debugLog.log(message, ...args),
+  performance: (message, ...args) => DEBUG_CONFIG.performance && debugLog.log(message, ...args),
+  cache: (message, ...args) => DEBUG_CONFIG.cache && debugLog.log(message, ...args),
+  network: (message, ...args) => DEBUG_CONFIG.network && debugLog.log(message, ...args),
+  warn: (message, ...args) => console.warn(message, ...args), // 警告始终显示
+  error: (message, ...args) => console.error(message, ...args) // 错误始终显示
+};
+
 // 性能监控工具（简化版）
 const performanceMonitor = {
   stats: {
@@ -12,7 +30,7 @@ const performanceMonitor = {
     return function() {
       const duration = Date.now() - startTime;
       self.stats.totalTime += duration;
-      console.log(`📊 ${moduleName} 执行耗时: ${duration}ms`);
+      debugLog.performance(`📊 ${moduleName} 执行耗时: ${duration}ms`);
     };
   },
   
@@ -36,7 +54,7 @@ const performanceMonitor = {
   
   logStats: function() {
     const stats = this.getStats();
-    console.log('📊 性能统计:', stats);
+    debugLog.performance('📊 性能统计:', stats);
   },
   
   exportStats: function() {
@@ -55,7 +73,7 @@ const dataQualityMonitor = (data, moduleName) => {
     withDate: data.filter(item => item.releaseDate).length
   };
   
-  console.log(`📊 ${moduleName} 数据质量:`, stats);
+  debugLog.log(`📊 ${moduleName} 数据质量:`, stats);
   return data; // 返回原数据，不修改
 };
 
@@ -70,7 +88,7 @@ const silentDataValidation = (items, moduleName) => {
     if (!item || !item.id || !item.title) {
       invalidCount++;
       if (index < 3) { // 只记录前3个无效项，避免日志过多
-        console.warn(`⚠️ ${moduleName} 数据项 ${index} 验证失败:`, item);
+        debugLog.warn(`⚠️ ${moduleName} 数据项 ${index} 验证失败:`, item);
       }
     } else {
       validCount++;
@@ -78,7 +96,7 @@ const silentDataValidation = (items, moduleName) => {
   });
   
   if (invalidCount > 0) {
-    console.log(`📊 ${moduleName} 数据验证: ${validCount}个有效, ${invalidCount}个无效`);
+    debugLog.log(`📊 ${moduleName} 数据验证: ${validCount}个有效, ${invalidCount}个无效`);
   }
   
   return items; // 返回原数据，不修改
@@ -701,7 +719,7 @@ var WidgetMetadata = {
     {
       title: "电影推荐(TMDB版)",
       requiresWebView: false,
-      functionName: "loadRecommendMovies",
+      functionName: "loadRecommendItems",
       cacheDuration: 86400,
       params: [
         {
@@ -767,12 +785,21 @@ var WidgetMetadata = {
           title: "页码",
           type: "page"
         },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          value: "movie",
+          enumOptions: [
+            { title: "电影", value: "movie" }
+          ]
+        }
       ],
     },
     {
       title: "剧集推荐(TMDB版)",
       requiresWebView: false,
-      functionName: "loadRecommendShows",
+      functionName: "loadRecommendItems",
       cacheDuration: 86400,
       params: [
         {
@@ -861,6 +888,15 @@ var WidgetMetadata = {
           title: "页码",
           type: "page"
         },
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          value: "tv",
+          enumOptions: [
+            { title: "剧集", value: "tv" }
+          ]
+        }
       ],
     },
     {
@@ -1460,8 +1496,78 @@ var CONFIG = {
   
 };
 
-// 缓存管理
-var cache = new Map();
+// 缓存管理 - 使用LRU机制
+class LRUCache {
+  constructor(maxSize = 50) {
+    this.maxSize = maxSize;
+    this.cache = new Map();
+  }
+  
+  get(key) {
+    if (this.cache.has(key)) {
+      // 移动到末尾（最近使用）
+      const value = this.cache.get(key);
+      this.cache.delete(key);
+      this.cache.set(key, value);
+      return value;
+    }
+    return null;
+  }
+  
+  set(key, value) {
+    if (this.cache.has(key)) {
+      // 更新现有值
+      this.cache.delete(key);
+    } else if (this.cache.size >= this.maxSize) {
+      // 删除最旧的项（第一个）
+      const firstKey = this.cache.keys().next().value;
+      this.cache.delete(firstKey);
+    }
+    this.cache.set(key, value);
+  }
+  
+  delete(key) {
+    return this.cache.delete(key);
+  }
+  
+  clear() {
+    this.cache.clear();
+  }
+  
+  get size() {
+    return this.cache.size;
+  }
+  
+  entries() {
+    return this.cache.entries();
+  }
+}
+
+var cache = new LRUCache(50); // 最大50个缓存项
+
+// 请求去重管理
+var pendingRequests = new Map();
+
+// 请求去重函数
+async function deduplicateRequest(requestKey, requestFunction) {
+  // 如果相同的请求正在进行中，等待其结果
+  if (pendingRequests.has(requestKey)) {
+    debugLog.network(`🔄 请求去重: 等待进行中的请求 ${requestKey}`);
+    return await pendingRequests.get(requestKey);
+  }
+  
+  // 创建新的请求Promise
+  const requestPromise = requestFunction().finally(() => {
+    // 请求完成后清理
+    pendingRequests.delete(requestKey);
+  });
+  
+  // 存储请求Promise
+  pendingRequests.set(requestKey, requestPromise);
+  
+  debugLog.network(`🚀 发起新请求: ${requestKey}`);
+  return await requestPromise;
+}
 
 
 // CDN优化系统
@@ -1541,7 +1647,7 @@ var CDNManager = {
       const startTime = Date.now();
       
       try {
-        console.log(`🌐 尝试CDN: ${cdnName} - ${url}`);
+        debugLog.network(`🌐 尝试CDN: ${cdnName} - ${url}`);
         
         const response = await Widget.http.get(url, {
           ...options,
@@ -1550,7 +1656,7 @@ var CDNManager = {
         
         const responseTime = Date.now() - startTime;
         CDNStats.recordPerformance(cdnName, responseTime, true);
-        console.log(`✅ CDN成功: ${cdnName} (${responseTime}ms)`);
+        debugLog.network(`✅ CDN成功: ${cdnName} (${responseTime}ms)`);
         return response;
         
       } catch (error) {
@@ -1621,6 +1727,71 @@ var ImageCDN = {
   }
 };
 
+// 统一的缓存装饰器
+function withCache(cacheType = 'DEFAULT', keyGenerator = null) {
+  return function(target, propertyKey, descriptor) {
+    const originalMethod = descriptor.value;
+    
+    descriptor.value = async function(...args) {
+      const params = args[0] || {};
+      const cacheKey = keyGenerator ? keyGenerator(params) : `${propertyKey}_${JSON.stringify(params)}`;
+      
+      // 尝试从缓存获取
+      const cached = getCachedData(cacheKey, cacheType);
+      if (cached) {
+        debugLog.cache(`📦 缓存命中: ${propertyKey}`);
+        return cached;
+      }
+      
+      // 执行原函数
+      debugLog.cache(`🔄 缓存未命中，执行: ${propertyKey}`);
+      const result = await originalMethod.apply(this, args);
+      
+      // 存储到缓存
+      if (result && (Array.isArray(result) ? result.length > 0 : true)) {
+        setCachedData(cacheKey, result, cacheType);
+        debugLog.cache(`💾 缓存存储: ${propertyKey} (${Array.isArray(result) ? result.length : 1}项)`);
+      }
+      
+      return result;
+    };
+    
+    return descriptor;
+  };
+}
+
+// 统一的错误处理装饰器
+function withErrorHandling(fallbackValue = [], moduleName = '') {
+  return function(target, propertyKey, descriptor) {
+    const originalMethod = descriptor.value;
+    
+    descriptor.value = async function(...args) {
+      try {
+        return await originalMethod.apply(this, args);
+      } catch (error) {
+        debugLog.error(`❌ ${moduleName || propertyKey} 执行失败:`, error.message);
+        debugLog.error(`❌ 错误详情:`, error);
+        return fallbackValue;
+      }
+    };
+    
+    return descriptor;
+  };
+}
+
+// 组合装饰器：缓存 + 错误处理
+function withCacheAndErrorHandling(cacheType = 'DEFAULT', fallbackValue = [], moduleName = '') {
+  return function(target, propertyKey, descriptor) {
+    // 先应用错误处理
+    withErrorHandling(fallbackValue, moduleName)(target, propertyKey, descriptor);
+    
+    // 再应用缓存
+    withCache(cacheType)(target, propertyKey, descriptor);
+    
+    return descriptor;
+  };
+}
+
 // 智能缓存管理工具函数
 function getCachedData(key, cacheType = 'DEFAULT') {
   const cached = cache.get(key);
@@ -1639,7 +1810,7 @@ function getCachedData(key, cacheType = 'DEFAULT') {
   
   // 检查是否需要自动刷新
   if (shouldAutoRefresh(key, age, cacheType)) {
-    console.log(`🔄 自动刷新缓存: ${key} (${cacheType})`);
+    debugLog.cache(`🔄 自动刷新缓存: ${key} (${cacheType})`);
     return null; // 触发新数据获取
   }
   
@@ -1858,7 +2029,7 @@ function getBeijingDate() {
 // TMDB数据获取函数
 async function fetchTmdbDiscoverData(api, params) {
     try {
-        console.log(`🌐 请求TMDB API: ${api}`);
+        debugLog.network(`🌐 请求TMDB API: ${api}`);
         const data = await Widget.tmdb.get(api, { params: params });
         
         if (!data || !data.results) {
@@ -1866,7 +2037,7 @@ async function fetchTmdbDiscoverData(api, params) {
             return [];
         }
         
-        console.log(`📊 TMDB API返回 ${data.results.length} 条原始数据`);
+        debugLog.network(`📊 TMDB API返回 ${data.results.length} 条原始数据`);
         
         const filteredResults = data.results
             .filter((item) => {
@@ -1874,9 +2045,9 @@ async function fetchTmdbDiscoverData(api, params) {
                 const hasId = item.id;
                 const hasTitle = (item.title || item.name) && (item.title || item.name).trim().length > 0;
                 
-                if (!hasPoster) console.log("⚠️ 跳过无海报项目:", item.title || item.name);
-                if (!hasId) console.log("⚠️ 跳过无ID项目:", item.title || item.name);
-                if (!hasTitle) console.log("⚠️ 跳过无标题项目:", item.id);
+                if (!hasPoster) debugLog.log("⚠️ 跳过无海报项目:", item.title || item.name);
+                if (!hasId) debugLog.log("⚠️ 跳过无ID项目:", item.title || item.name);
+                if (!hasTitle) debugLog.log("⚠️ 跳过无标题项目:", item.id);
                 
                 return hasPoster && hasId && hasTitle;
             })
@@ -1899,7 +2070,7 @@ async function fetchTmdbDiscoverData(api, params) {
                 };
             });
             
-        console.log(`✅ 成功处理 ${filteredResults.length} 条数据`);
+        debugLog.log(`✅ 成功处理 ${filteredResults.length} 条数据`);
         return filteredResults;
         
     } catch (error) {
@@ -1993,7 +2164,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
       queryParams.region = with_origin_country;
     }
 
-    console.log(`🌐 使用TMDB API请求: ${endpoint}`);
+    debugLog.network(`🌐 使用TMDB API请求: ${endpoint}`);
     const response = await Widget.tmdb.get(endpoint, { params: queryParams });
     
     // 应用媒体类型过滤
@@ -2052,12 +2223,12 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     results = results.slice(0, CONFIG.MAX_ITEMS);
     
     setCachedData(cacheKey, results, 'TRENDING');
-    console.log(`✅ TMDB API加载成功: ${results.length}项`);
+    debugLog.log(`✅ TMDB API加载成功: ${results.length}项`);
     return results;
 
   } catch (error) {
     console.error("TMDB API加载失败:", error);
-    console.log("🔄 回退到预处理数据");
+    debugLog.log("🔄 回退到预处理数据");
     return loadTmdbTrendingFromPreprocessed(params);
   }
 }
@@ -2158,18 +2329,7 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
   }
 }
 
-// 按照您代码中的实现方式，添加一些辅助函数
-async function loadTodayGlobalMedia(params = {}) {
-  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "today" });
-}
-
-async function loadWeekGlobalMovies(params = {}) {
-  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "week" });
-}
-
-async function tmdbPopularMovies(params = {}) {
-  return loadTmdbTrendingFromPreprocessed({ ...params, content_type: "popular" });
-}
+// 移除冗余包装函数，直接使用主函数
 
 
 
@@ -2186,12 +2346,12 @@ async function loadDoubanChineseTVList(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    console.log(`🎭 开始加载豆瓣国产剧集数据: 页码 ${page}`);
+    debugLog.log(`🎭 开始加载豆瓣国产剧集数据: 页码 ${page}`);
     
     const start = (page - 1) * 18; // 豆瓣每页18条数据
     const doubanAPI = `https://m.douban.com/rexxar/api/v2/subject_collection/tv_domestic/items`;
     
-    console.log(`🌐 请求豆瓣API: ${doubanAPI}`);
+    debugLog.network(`🌐 请求豆瓣API: ${doubanAPI}`);
     
     const response = await Widget.http.get(doubanAPI, {
       params: {
@@ -2209,7 +2369,7 @@ async function loadDoubanChineseTVList(params = {}) {
       return [];
     }
 
-    console.log(`📊 豆瓣API返回 ${response.subject_collection_items.length} 条数据`);
+    debugLog.network(`📊 豆瓣API返回 ${response.subject_collection_items.length} 条数据`);
 
     // 转换豆瓣数据为标准格式
     const results = response.subject_collection_items.map(item => {
@@ -2237,7 +2397,7 @@ async function loadDoubanChineseTVList(params = {}) {
       };
     }).filter(item => item.title && item.title.trim().length > 0);
 
-    console.log(`✅ 豆瓣国产剧集加载成功: ${results.length}项`);
+    debugLog.log(`✅ 豆瓣国产剧集加载成功: ${results.length}项`);
     setCachedData(cacheKey, results);
     return results;
 
@@ -2247,7 +2407,7 @@ async function loadDoubanChineseTVList(params = {}) {
     console.error("❌ 错误堆栈:", error.stack);
     
     // 如果豆瓣API失败，回退到TMDB
-    console.log("🔄 回退到TMDB API获取中国剧集");
+    debugLog.log("🔄 回退到TMDB API获取中国剧集");
     return await loadTMDBChineseTVFallback(params);
   }
 }
@@ -2342,7 +2502,7 @@ function cleanupCache() {
   }
   
   if (cleanedCount > 0) {
-    console.log(`🧹 清理了 ${cleanedCount} 个缓存项`);
+    debugLog.cache(`🧹 清理了 ${cleanedCount} 个缓存项`);
   }
 }
 
@@ -2388,7 +2548,7 @@ function initSmartCache() {
         
         // 简单的状态检查
         if (cache.size > 25) {
-          console.log("⚠️ 缓存过多，执行深度清理");
+          debugLog.cache("⚠️ 缓存过多，执行深度清理");
           // 强制清理一半最老的缓存
           const entries = Array.from(cache.entries());
           entries.sort((a, b) => a[1].timestamp - b[1].timestamp);
@@ -2397,12 +2557,12 @@ function initSmartCache() {
         }
       }, 10 * 60 * 1000); // 10分钟
       
-      console.log("✅ 智能缓存已启动");
+      debugLog.cache("✅ 智能缓存已启动");
     } else {
-      console.log("⚠️ setInterval不可用，使用基础缓存模式");
+      debugLog.cache("⚠️ setInterval不可用，使用基础缓存模式");
     }
   } catch (error) {
-    console.log("⚠️ 使用基础缓存模式");
+    debugLog.cache("⚠️ 使用基础缓存模式");
     if (typeof setInterval !== 'undefined') {
       setInterval(cleanupCache, 15 * 60 * 1000); // 15分钟备用清理
     }
@@ -2459,16 +2619,16 @@ var CDNStats = {
   
   // 输出统计信息
   getStats() {
-    console.log("📊 CDN性能统计:");
+    debugLog.network("📊 CDN性能统计:");
     Object.keys(this.providers).forEach(provider => {
       const stats = this.providers[provider];
       const successRate = ((stats.successes / stats.requests) * 100).toFixed(1);
-      console.log(`  ${provider}: ${stats.requests}次请求, ${successRate}%成功率, 平均${Math.round(stats.avgTime)}ms`);
+      debugLog.network(`  ${provider}: ${stats.requests}次请求, ${successRate}%成功率, 平均${Math.round(stats.avgTime)}ms`);
     });
     
     const best = this.getBestProvider();
     if (best) {
-      console.log(`🏆 最佳CDN: ${best}`);
+      debugLog.network(`🏆 最佳CDN: ${best}`);
     }
   }
 };
@@ -2476,9 +2636,9 @@ var CDNStats = {
 // 初始化CDN优化系统
 function initializeCDN() {
   if (CONFIG.ENABLE_CDN_OPTIMIZATION) {
-    console.log("🌐 CDN优化系统已启用");
-    console.log(`📊 CDN提供商: ${CONFIG.CDN_PROVIDERS.join(", ")}`);
-    console.log(`🖼️ 图片优化: ${CONFIG.IMAGE_CDN_ENABLED ? "启用" : "禁用"} (${CONFIG.IMAGE_QUALITY})`);
+    debugLog.network("🌐 CDN优化系统已启用");
+    debugLog.network(`📊 CDN提供商: ${CONFIG.CDN_PROVIDERS.join(", ")}`);
+    debugLog.network(`🖼️ 图片优化: ${CONFIG.IMAGE_CDN_ENABLED ? "启用" : "禁用"} (${CONFIG.IMAGE_QUALITY})`);
     
     // 每10分钟输出CDN统计
     if (typeof setInterval !== 'undefined') {
@@ -2487,7 +2647,7 @@ function initializeCDN() {
       }, 10 * 60 * 1000);
     }
   } else {
-    console.log("🌐 CDN优化已禁用，使用原始URL");
+    debugLog.network("🌐 CDN优化已禁用，使用原始URL");
   }
 }
 
@@ -2499,7 +2659,7 @@ initializeCDN();
 // 1. TMDB播出平台
 async function tmdbDiscoverByNetwork(params = {}) {
     try {
-        console.log("🎬 开始加载播出平台数据，参数:", params);
+        debugLog.log("🎬 开始加载播出平台数据，参数:", params);
         
         const api = "discover/tv";
         const beijingDate = getBeijingDate();
@@ -2512,31 +2672,31 @@ async function tmdbDiscoverByNetwork(params = {}) {
         // 只有当选择了具体平台时才添加with_networks参数
         if (params.with_networks && params.with_networks !== "") {
             discoverParams.with_networks = params.with_networks;
-            console.log("📺 选择平台:", params.with_networks);
+            debugLog.log("📺 选择平台:", params.with_networks);
         } else {
-            console.log("📺 未选择特定平台，将获取所有平台内容");
+            debugLog.log("📺 未选择特定平台，将获取所有平台内容");
         }
         
         if (params.air_status === 'released') {
             discoverParams['first_air_date.lte'] = beijingDate;
-            console.log("📅 筛选已上映内容，截止日期:", beijingDate);
+            debugLog.log("📅 筛选已上映内容，截止日期:", beijingDate);
         } else if (params.air_status === 'upcoming') {
             discoverParams['first_air_date.gte'] = beijingDate;
-            console.log("📅 筛选未上映内容，起始日期:", beijingDate);
+            debugLog.log("📅 筛选未上映内容，起始日期:", beijingDate);
         } else {
-            console.log("📅 不限制上映状态");
+            debugLog.log("📅 不限制上映状态");
         }
         
         if (params.with_genres && params.with_genres !== "") {
             discoverParams.with_genres = params.with_genres;
-            console.log("🎭 筛选内容类型:", params.with_genres);
+            debugLog.log("🎭 筛选内容类型:", params.with_genres);
         } else {
-            console.log("🎭 不限制内容类型");
+            debugLog.log("🎭 不限制内容类型");
         }
         
-        console.log("🌐 播出平台API参数:", discoverParams);
+        debugLog.log("🌐 播出平台API参数:", discoverParams);
         const results = await fetchTmdbDiscoverData(api, discoverParams);
-        console.log("✅ 播出平台数据加载成功，返回", results.length, "项");
+        debugLog.log("✅ 播出平台数据加载成功，返回", results.length, "项");
         return results;
         
     } catch (error) {
@@ -2766,7 +2926,7 @@ async function loadTmdbMediaRanking(params = {}) {
           item.posterPath.trim().length > 0;
         return hasRealPoster;
       });
-      console.log(`🎬 海报过滤: 原始 ${widgetItems.length} 条，过滤后 ${filteredItems.length} 条`);
+      debugLog.log(`🎬 海报过滤: 原始 ${widgetItems.length} 条，过滤后 ${filteredItems.length} 条`);
     }
 
     
@@ -2800,7 +2960,7 @@ async function loadTmdbByTheme(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    console.log(`🎭 加载TMDB主题分类: ${theme}`);
+    debugLog.log(`🎭 加载TMDB主题分类: ${theme}`);
 
     // 主题到类型ID的映射
     const themeToGenres = {
@@ -2888,16 +3048,16 @@ async function loadTmdbByTheme(params = {}) {
       }
     }
 
-    console.log("📊 主题分类查询参数:", queryParams);
+    debugLog.log("📊 主题分类查询参数:", queryParams);
 
     const res = await Widget.tmdb.get(endpoint, {
       params: queryParams
     });
 
-    console.log(`📊 获取到主题分类数据: ${res.results ? res.results.length : 0} 条`);
+    debugLog.log(`📊 获取到主题分类数据: ${res.results ? res.results.length : 0} 条`);
 
     if (!res.results || res.results.length === 0) {
-      console.log("⚠️ 未获取到主题分类数据，尝试备用方案...");
+      debugLog.log("⚠️ 未获取到主题分类数据，尝试备用方案...");
       return await loadThemeFallback(params);
     }
 
@@ -2932,7 +3092,7 @@ async function loadTmdbByTheme(params = {}) {
     
     const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
 
-    console.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
+    debugLog.log(`✅ 成功处理主题分类数据: ${results.length} 条`);
 
     setCachedData(cacheKey, results);
     
@@ -2951,7 +3111,7 @@ async function loadThemeFallback(params = {}) {
   const { theme = "action", media_type = "all", sort_by = "popularity_desc", min_rating = "0", year = "", page = 1 } = params;
   
   try {
-    console.log("🔄 尝试主题分类备用数据获取...");
+    debugLog.log("🔄 尝试主题分类备用数据获取...");
     
     // 使用更简单的查询参数
     const queryParams = {
@@ -2995,16 +3155,16 @@ async function loadThemeFallback(params = {}) {
       queryParams.release_date_lte = endDate;
     }
 
-    console.log("🔄 备用主题查询参数:", queryParams);
+    debugLog.log("🔄 备用主题查询参数:", queryParams);
 
     const res = await Widget.tmdb.get("/discover/movie", {
       params: queryParams
     });
 
-    console.log("📊 备用方案获取到数据:", res.results ? res.results.length : 0, "条");
+    debugLog.log("📊 备用方案获取到数据:", res.results ? res.results.length : 0, "条");
 
     if (!res.results || res.results.length === 0) {
-      console.log("⚠️ 备用方案也无数据，使用本地数据...");
+      debugLog.log("⚠️ 备用方案也无数据，使用本地数据...");
       return generateThemeFallbackData(theme);
     }
 
@@ -3027,19 +3187,19 @@ async function loadThemeFallback(params = {}) {
     
     const results = widgetItems.filter(item => item.posterPath).slice(0, CONFIG.MAX_ITEMS);
 
-    console.log("✅ 备用方案成功处理数据:", results.length, "条");
+    debugLog.log("✅ 备用方案成功处理数据:", results.length, "条");
     return results;
 
   } catch (error) {
     console.error("❌ 主题分类备用数据加载失败:", error);
-    console.log("🔄 使用本地备用数据...");
+    debugLog.log("🔄 使用本地备用数据...");
     return generateThemeFallbackData(theme);
   }
 }
 
 // 生成主题分类备用数据
 function generateThemeFallbackData(theme) {
-  console.log(`🏠 生成本地主题分类备用数据: ${theme}`);
+  debugLog.log(`🏠 生成本地主题分类备用数据: ${theme}`);
   
   // 主题对应的示例数据
   const themeData = {
@@ -3162,7 +3322,7 @@ function generateThemeFallbackData(theme) {
     return widgetItem;
   });
 
-  console.log(`✅ 本地主题分类数据生成完成: ${results.length} 条`);
+  debugLog.log(`✅ 本地主题分类数据生成完成: ${results.length} 条`);
   return results;
 }
 
@@ -3184,7 +3344,7 @@ async function loadTmdbBackdropData(params = {}) {
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
-    console.log(`📦 加载TMDB背景图数据包: ${data_source}`);
+    debugLog.log(`📦 加载TMDB背景图数据包: ${data_source}`);
 
     // 尝试加载本地数据文件
     let dataFile;
@@ -3212,7 +3372,7 @@ async function loadTmdbBackdropData(params = {}) {
     
     // 如果无法读取本地文件，则回退到API获取
     if (!rawData || rawData.length === 0) {
-      console.log("⚠️ 本地数据包不可用，回退到API获取...");
+      debugLog.log("⚠️ 本地数据包不可用，回退到API获取...");
       
       // 根据数据源类型决定API端点
       let endpoint = "/trending/all/day";
@@ -3352,7 +3512,7 @@ async function loadTmdbBackdropData(params = {}) {
       return widgetItem;
     });
 
-    console.log(`✅ 成功加载 ${results.length} 个背景图项目 (数据源: ${data_source}, 尺寸: ${backdrop_size})`);
+    debugLog.log(`✅ 成功加载 ${results.length} 个背景图项目 (数据源: ${data_source}, 尺寸: ${backdrop_size})`);
     
     setCachedData(cacheKey, results);
     
@@ -3431,13 +3591,13 @@ async function searchTmdbData(key, mediaType) {
         }
     });
     //打印结果
-    // console.log("搜索内容：" + key)
+    // debugLog.log("搜索内容：" + key)
     if (!tmdbResults) {
       return [];
     }
-    console.log("tmdbResults:" + JSON.stringify(tmdbResults, null, 2));
-    // console.log("tmdbResults.total_results:" + tmdbResults.total_results);
-    // console.log("tmdbResults.results[0]:" + tmdbResults.results[0]);
+    debugLog.log("tmdbResults:" + JSON.stringify(tmdbResults, null, 2));
+    // debugLog.log("tmdbResults.total_results:" + tmdbResults.total_results);
+    // debugLog.log("tmdbResults.results[0]:" + tmdbResults.results[0]);
     return tmdbResults.results;
 }
 
@@ -3490,7 +3650,7 @@ async function fetchImdbItems(scItems) {
       return null;
     }
     let title = scItem.type === "tv" ? cleanTitle(scItem.title) : scItem.title;
-    console.log("title: ", title, " ; type: ", scItem.type);
+    debugLog.log("title: ", title, " ; type: ", scItem.type);
     const tmdbDatas = await searchTmdbData(title, scItem.type)
 
     if (tmdbDatas.length !== 0) {
@@ -3529,8 +3689,8 @@ async function fetchImdbItems(scItems) {
 // 解析豆瓣片单
 async function loadCardItems(params = {}) {
   try {
-    console.log("开始解析豆瓣片单...");
-    console.log("参数:", params);
+    debugLog.log("开始解析豆瓣片单...");
+    debugLog.log("参数:", params);
     // 获取片单 URL
     const url = params.url;
     if (!url) {
@@ -3565,7 +3725,7 @@ async function loadDefaultList(params = {}) {
   // 构建片单页面 URL
   const pageUrl = `https://www.douban.com/doulist/${listId}/?start=${start}&sort=seq&playable=0&sub_type=`;
 
-  console.log("请求片单页面:", pageUrl);
+  debugLog.log("请求片单页面:", pageUrl);
   // 发送请求获取片单页面
   const response = await Widget.http.get(pageUrl, {
     headers: {
@@ -3579,20 +3739,20 @@ async function loadDefaultList(params = {}) {
     throw new Error("获取片单数据失败");
   }
 
-  console.log("片单页面数据长度:", response.data.length);
-  console.log("开始解析");
+  debugLog.log("片单页面数据长度:", response.data.length);
+  debugLog.log("开始解析");
 
   // 解析 HTML 得到文档 ID
   const docId = Widget.dom.parse(response.data);
   if (docId < 0) {
     throw new Error("解析 HTML 失败");
   }
-  console.log("解析成功:", docId);
+  debugLog.log("解析成功:", docId);
 
   // 获取所有视频项，得到元素ID数组
   const videoElementIds = Widget.dom.select(docId, ".doulist-item .title a");
 
-  console.log("items:", videoElementIds);
+  debugLog.log("items:", videoElementIds);
 
   let doubanIds = [];
   for (const itemId of videoElementIds) {
@@ -3608,14 +3768,14 @@ async function loadDefaultList(params = {}) {
 
   const items = await fetchImdbItems(doubanIds);
 
-  console.log(items)
+  debugLog.log(items)
 
   return items;
 }
 
 async function loadItemsFromApi(params = {}) {
   const url = params.url;
-  console.log("请求 API 页面:", url);
+  debugLog.log("请求 API 页面:", url);
   const listId = params.url.match(/subject_collection\/(\w+)/)?.[1];
   const response = await Widget.http.get(url, {
     headers: {
@@ -3625,13 +3785,13 @@ async function loadItemsFromApi(params = {}) {
     },
   });
 
-  console.log("请求结果:", response.data);
+  debugLog.log("请求结果:", response.data);
   if (response.data && response.data.subject_collection_items) {
     const scItems = response.data.subject_collection_items;
 
     const items = await fetchImdbItems(scItems);
 
-    console.log(items)
+    debugLog.log(items)
 
     return items;
   }
@@ -3657,39 +3817,34 @@ async function loadSubjectCollection(params = {}) {
   return await loadItemsFromApi(params);
 }
 
-async function loadRecommendMovies(params = {}) {
-  return await loadRecommendItems(params, "movie");
-}
+// 移除冗余包装函数，直接使用主函数
 
-async function loadRecommendShows(params = {}) {
-  return await loadRecommendItems(params, "tv");
-}
-
-async function loadRecommendItems(params = {}, type = "movie") {
+async function loadRecommendItems(params = {}) {
   const page = params.page;
   const count = 20
   const start = (page - 1) * count
   const category = params.category || "";
   const categoryType = params.type || "";
-  let url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${type}?start=${start}&limit=${count}&category=${category}&type=${categoryType}`;
+  const mediaType = params.media_type || "movie";
+  let url = `https://m.douban.com/rexxar/api/v2/subject/recent_hot/${mediaType}?start=${start}&limit=${count}&category=${category}&type=${categoryType}`;
   if (category == "all") {
-    url = `https://m.douban.com/rexxar/api/v2/${type}/recommend?refresh=0&start=${start}&count=${count}&selected_categories=%7B%7D&uncollect=false&score_range=0,10&tags=`;
+    url = `https://m.douban.com/rexxar/api/v2/${mediaType}/recommend?refresh=0&start=${start}&count=${count}&selected_categories=%7B%7D&uncollect=false&score_range=0,10&tags=`;
   }
   const response = await Widget.http.get(url, {
     headers: {
-      Referer: `https://movie.douban.com/${type}`,
+      Referer: `https://movie.douban.com/${mediaType}`,
       "User-Agent":
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     },
   });
 
-  console.log("请求结果:", response.data);
+  debugLog.log("请求结果:", response.data);
   if (response.data && response.data.items) {
     const recItems = response.data.items;
 
     const items = await fetchImdbItems(recItems);
 
-    console.log(items)
+    debugLog.log(items)
 
     return items;
   }
@@ -3707,7 +3862,7 @@ async function getPreferenceRecommendations(params = {}) {
             "地区": params.region || "",
             "形式": params.tvModus || "",
         };
-        console.log("selectedCategories: ", selectedCategories);
+        debugLog.log("selectedCategories: ", selectedCategories);
 
         const tags_sub = [];
         if (params.movieGenre) tags_sub.push(params.movieGenre);
@@ -3721,7 +3876,7 @@ async function getPreferenceRecommendations(params = {}) {
           const customTagsArray = params.tags.split(',').filter(tag => tag.trim() !== '');
           tags_sub.push(...customTagsArray);
         }
-        console.log("tags_sub: ", tags_sub);
+        debugLog.log("tags_sub: ", tags_sub);
 
         const limit = 20;
         const offset = Number(params.offset);
@@ -3742,7 +3897,7 @@ async function getPreferenceRecommendations(params = {}) {
 
         const items = await fetchImdbItems(validItems);
 
-        console.log(items)
+        debugLog.log(items)
 
         return items;
     } catch (error) {
@@ -3805,7 +3960,7 @@ async function searchAndBlock(params = {}) {
   const { action = "search_and_block", query = "", language = "zh-CN", tmdb_id = "", media_type = "movie" } = params;
   
   try {
-    console.log("🔍 搜索屏蔽模块调用:", params);
+    debugLog.log("🔍 搜索屏蔽模块调用:", params);
     
     if (action === "manual_block") {
       // 手动屏蔽模式
@@ -3820,7 +3975,7 @@ async function searchAndBlock(params = {}) {
       }
       
       const success = addToBlockList(tmdb_id, media_type, `手动屏蔽: ${tmdb_id}`);
-      console.log("✅ 手动屏蔽结果:", success);
+      debugLog.log("✅ 手动屏蔽结果:", success);
       
       return [createStandardItem({
         id: success ? String(parseInt(tmdb_id) || 999002) : String(parseInt(tmdb_id) || 999003),
@@ -3893,12 +4048,12 @@ async function manageBlockedItems(params = {}) {
   const { action = "view", unblock_id = "", unblock_media_type = "tv", import_data = "" } = params;
   
   try {
-    console.log("📋 屏蔽管理模块调用:", params);
+    debugLog.log("📋 屏蔽管理模块调用:", params);
     
     const stored = Widget.storage.get(STORAGE_KEY);
     const blockedItems = stored ? JSON.parse(stored) : [];
     
-    console.log("📦 当前屏蔽项目数量:", blockedItems.length);
+    debugLog.log("📦 当前屏蔽项目数量:", blockedItems.length);
     
     switch (action) {
       case "view":
