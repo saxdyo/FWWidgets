@@ -1326,7 +1326,13 @@ const PREDEFINED_BLOCKED_ITEMS = [
   
   // 从日志中提取的其他导出相关ID
   { id: "993234", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1470086", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "259815", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "212568", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "81044", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "80867", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "245215", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "93821", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
   { id: "1506456", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "715287", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "259872", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
