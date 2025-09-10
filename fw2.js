@@ -1349,6 +1349,7 @@ const PREDEFINED_BLOCKED_ITEMS = [
   { id: "104289", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "482204", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "437542", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "587727", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "276126-2", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "386716-3", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
   { id: "395000-4", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
