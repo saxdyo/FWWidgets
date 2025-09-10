@@ -3,15 +3,20 @@ const DEBUG_CONFIG = {
   enabled: false, // 生产环境关闭调试日志
   performance: false, // 性能监控
   cache: false, // 缓存日志
-  network: false // 网络请求日志
+  network: false, // 网络请求日志
+  system: false, // 系统内部日志（如导出配置等）
+  widget: false // Widget相关日志
 };
+
 
 // 条件日志函数
 const debugLog = {
-  log: (message, ...args) => DEBUG_CONFIG.enabled && debugLog.log(message, ...args),
-  performance: (message, ...args) => DEBUG_CONFIG.performance && debugLog.log(message, ...args),
-  cache: (message, ...args) => DEBUG_CONFIG.cache && debugLog.log(message, ...args),
-  network: (message, ...args) => DEBUG_CONFIG.network && debugLog.log(message, ...args),
+  log: (message, ...args) => DEBUG_CONFIG.enabled && console.log(message, ...args),
+  performance: (message, ...args) => DEBUG_CONFIG.performance && console.log(message, ...args),
+  cache: (message, ...args) => DEBUG_CONFIG.cache && console.log(message, ...args),
+  network: (message, ...args) => DEBUG_CONFIG.network && console.log(message, ...args),
+  system: (message, ...args) => DEBUG_CONFIG.system && console.log(message, ...args),
+  widget: (message, ...args) => DEBUG_CONFIG.widget && console.log(message, ...args),
   warn: (message, ...args) => console.warn(message, ...args), // 警告始终显示
   error: (message, ...args) => console.error(message, ...args) // 错误始终显示
 };
@@ -1313,6 +1318,104 @@ var WidgetMetadata = {
 // 使用Widget.storage API的动态屏蔽系统
 const STORAGE_KEY = "forward_blocked_items";
 
+// 预定义屏蔽列表 - 导出配置相关的ID
+// 这些ID来自系统日志中的导出配置数据，自动屏蔽以避免显示
+const PREDEFINED_BLOCKED_ITEMS = [
+  // 导出配置相关ID
+  { id: "999013", media_type: "export", title: "导出配置", reason: "系统导出功能" },
+  
+  // 从日志中提取的其他导出相关ID
+  { id: "993234", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1470086", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "259815", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "212568", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "81044", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "80867", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "245215", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "93821", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "1506456", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "715287", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "259872", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1188808", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1477114", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "932529", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "107420", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "529649", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "325133", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "431072", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "40760", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "719763", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "40446", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "9583", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "26688", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "40229", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1520015", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "176990", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "9662", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "982271", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "114402", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "460229", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1476292", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "507764", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "493103", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "633112", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1107278", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "463169", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "134702", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "64661", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1216917", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "431458", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "82023", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "9643", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1234720", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "707610", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "694943", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1442532", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "174414", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "465365", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "279989", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "283924", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "252776", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "135832", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "279012", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "1055110", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1447917", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "939099", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "372049", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "387848", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "409276", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1190586", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "391312", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "286687", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "666600", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1016097", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "713607", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "652572", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "700186", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "504891", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "387824", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "412092", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "482040", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "700199", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "721188", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "534179", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "701944", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "862780", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "423502", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "699071", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "465597", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "1068844", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "701919", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "481891", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "940184", media_type: "movie", title: "导出数据", reason: "导出配置数据" },
+  { id: "241454", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "97088", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "241002", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "279120", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "233643", media_type: "tv", title: "导出数据", reason: "导出配置数据" },
+  { id: "95897", media_type: "tv", title: "导出数据", reason: "导出配置数据" }
+];
+
 // 兼容性检查：如果不在Forward环境中，使用localStorage
 if (typeof Widget === 'undefined' || !Widget.storage) {
   console.warn("⚠️ Widget.storage API 不可用，使用 localStorage 作为备用");
@@ -1362,6 +1465,20 @@ function getBlockedIdSet() {
     const blockedItems = stored ? JSON.parse(stored) : [];
     const idSet = new Set();
     
+    // 添加预定义的屏蔽列表
+    for (let i = 0; i < PREDEFINED_BLOCKED_ITEMS.length; i++) {
+      const item = PREDEFINED_BLOCKED_ITEMS[i];
+      const idStr = String(item.id);
+      const idNum = parseInt(item.id);
+      
+      idSet.add(idStr + "_" + item.media_type);
+      idSet.add(idNum + "_" + item.media_type);
+      
+      idSet.add(idStr);
+      idSet.add(idNum);
+    }
+    
+    // 添加用户自定义的屏蔽列表
     for (let i = 0; i < blockedItems.length; i++) {
       const item = blockedItems[i];
       const idStr = String(item.id);
