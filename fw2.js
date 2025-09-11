@@ -633,7 +633,7 @@ var WidgetMetadata = {
       ]
     },
     {
-      title: "观影偏好(TMDB版)",
+      title: "TMDB观影偏好",
       description: "根据个人偏好推荐影视作品",
       requiresWebView: false,
       functionName: "getPreferenceRecommendations",
