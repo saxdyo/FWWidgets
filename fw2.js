@@ -109,8 +109,8 @@ const silentDataValidation = (items, moduleName) => {
 
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
-  title: "TMDBMK",
-  description: "fwmk",
+  title: "𝚃𝙼𝙳𝙱",
+  description: "𝚕𝚘𝚘𝚔",
   author: "saxdyo",
   site: "https://github.com/saxdyo/FWWidgets",
   version: "1.1.1",
