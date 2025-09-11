@@ -2080,6 +2080,30 @@ async function loadTmdbTrendingWithAPI(params = {}) {
       return widgetItem;
     }));
 
+    // 过滤掉综艺和短剧
+    results = results.filter(item => {
+      const genreIds = item.genre_ids || [];
+      
+      // 检查是否包含需要排除的类型
+      const excludedGenres = [];
+      
+      if (item.media_type === "tv") {
+        // 对于电视剧，排除综艺相关类型
+        excludedGenres.push(10764, 10767); // 真人秀, 脱口秀
+      } else if (item.media_type === "movie") {
+        // 对于电影，排除电视电影（短剧）
+        excludedGenres.push(10770); // 电视电影
+      }
+      
+      // 同时排除纪录片
+      excludedGenres.push(99); // 纪录片
+      
+      // 检查是否有任何排除的类型
+      const hasExcludedGenre = genreIds.some(id => excludedGenres.includes(id));
+      
+      return !hasExcludedGenre;
+    });
+
     // 应用评分过滤
     if (vote_average_gte !== "0") {
       const minRating = parseFloat(vote_average_gte);
@@ -2756,6 +2780,29 @@ async function loadTmdbMediaRanking(params = {}) {
       }
     }
     
+    // 过滤掉综艺和短剧
+    const excludedGenres = [];
+    
+    if (media_type === "tv") {
+      // 对于电视剧，排除综艺相关类型
+      excludedGenres.push("10764", "10767"); // 真人秀, 脱口秀
+    } else if (media_type === "movie") {
+      // 对于电影，排除电视电影（短剧）
+      excludedGenres.push("10770"); // 电视电影
+    }
+    
+    // 同时排除纪录片（根据需求）
+    excludedGenres.push("99"); // 纪录片
+    
+    if (excludedGenres.length > 0) {
+      // 如果已经有 without_genres 参数，则合并
+      if (queryParams.without_genres) {
+        queryParams.without_genres = queryParams.without_genres + "," + excludedGenres.join(",");
+      } else {
+        queryParams.without_genres = excludedGenres.join(",");
+      }
+    }
+    
     // 添加最低评分要求
     if (vote_average_gte && vote_average_gte !== "0") {
       queryParams.vote_average_gte = vote_average_gte;
@@ -2932,6 +2979,26 @@ async function loadTmdbByTheme(params = {}) {
       } else {
         queryParams.first_air_date_gte = startDate;
         queryParams.first_air_date_lte = endDate;
+      }
+    }
+    
+    // 过滤掉综艺和短剧（除了纪录片主题本身）
+    if (theme !== "documentary") {
+      const excludedGenres = [];
+      
+      if (media_type === "tv") {
+        // 对于电视剧，排除综艺相关类型
+        excludedGenres.push("10764", "10767"); // 真人秀, 脱口秀
+      } else if (media_type === "movie") {
+        // 对于电影，排除电视电影（短剧）
+        excludedGenres.push("10770"); // 电视电影
+      }
+      
+      // 同时排除纪录片（除非是纪录片主题）
+      excludedGenres.push("99"); // 纪录片
+      
+      if (excludedGenres.length > 0) {
+        queryParams.without_genres = excludedGenres.join(",");
       }
     }
 
