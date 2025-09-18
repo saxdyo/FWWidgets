@@ -1,17 +1,6 @@
 {
-  "last_updated": "2025-09-19 01:01:33",
+  "last_updated": "2025-09-19 02:01:30",
   "today_global": [
-    {
-      "id": 205715,
-      "title": "V世代",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
-      "rating": 7.8,
-      "release_date": "2023-09-28",
-      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
-    },
     {
       "id": 249039,
       "title": "黑兔",
@@ -24,11 +13,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lLPhLG7HOx8jSPpUPkKjnv3UZRk.jpg"
     },
     {
+      "id": 205715,
+      "title": "V世代",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2023-09-28",
+      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+    },
+    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
       "genreTitle": "动画•动作•奇幻",
-      "rating": 7.6,
+      "rating": 7.7,
       "release_date": "2025-07-18",
       "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，须佐能乎吉在宇治屋山庄出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被须佐能乎吉推入一个神秘的房间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
       "poster_url": "https://image.tmdb.org/t/p/original/aXwPa8NKNUhXNfUMLLNBkwmEBOH.jpg",
@@ -44,6 +44,39 @@
       "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
       "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+    },
+    {
+      "id": 1061474,
+      "title": "超人",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.5,
+      "release_date": "2025-07-09",
+      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？\r 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oM3GLJzlWHsLoYyta3S8CiS9DN6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
+    },
+    {
+      "id": 615,
+      "title": "飞出个未来",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "1999-03-28",
+      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f0Tm9EdOKMl0h9u3mwkJMOlmQnb.jpg"
+    },
+    {
+      "id": 194766,
+      "title": "我变漂亮的那个夏天",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.2,
+      "release_date": "2022-06-16",
+      "overview": "《我变漂亮的那个夏天》是改编自《纽约时报》畅销书的新剧集。每年夏天，柏莉都会和她的家人前往考辛斯的渔人海滨别墅度假。每年夏天都是一样的...直到柏莉长到16岁。人际关系将受到考验，痛苦的真相将被揭露，而柏莉将永远改变。这是一个关于初恋、第一次心碎和成长的夏天——这是她变漂亮的夏天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oor9tlOTmJnR9wcJ737VSM1zEBF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2FcVG76jzM90i25zVfDF816UWRF.jpg"
     },
     {
       "id": 1088166,
@@ -68,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
-      "id": 194766,
-      "title": "我变漂亮的那个夏天",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.2,
-      "release_date": "2022-06-16",
-      "overview": "《我变漂亮的那个夏天》是改编自《纽约时报》畅销书的新剧集。每年夏天，柏莉都会和她的家人前往考辛斯的渔人海滨别墅度假。每年夏天都是一样的...直到柏莉长到16岁。人际关系将受到考验，痛苦的真相将被揭露，而柏莉将永远改变。这是一个关于初恋、第一次心碎和成长的夏天——这是她变漂亮的夏天。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oor9tlOTmJnR9wcJ737VSM1zEBF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2FcVG76jzM90i25zVfDF816UWRF.jpg"
-    },
-    {
       "id": 1007734,
       "title": "小人物2",
       "type": "movie",
@@ -90,26 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
     },
     {
-      "id": 615,
-      "title": "飞出个未来",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "1999-03-28",
-      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f0Tm9EdOKMl0h9u3mwkJMOlmQnb.jpg"
-    },
-    {
-      "id": 1061474,
-      "title": "超人",
+      "id": 1054867,
+      "title": "一战再战",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.5,
-      "release_date": "2025-07-09",
-      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？\r 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oM3GLJzlWHsLoYyta3S8CiS9DN6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 8.8,
+      "release_date": "2025-09-23",
+      "overview": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1CGAgI0zD0zOMqpwC2OMwbxLW1w.jpg"
     },
     {
       "id": 1022787,
@@ -123,28 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tQvTiexWVaw1EOGt2NOt3BTOYby.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 8.0,
-      "release_date": "2025-09-23",
-      "overview": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1CGAgI0zD0zOMqpwC2OMwbxLW1w.jpg"
-    },
-    {
-      "id": 155,
-      "title": "蝙蝠侠：黑暗骑士",
-      "type": "movie",
-      "genreTitle": "剧情•动作•犯罪",
-      "rating": 8.5,
-      "release_date": "2008-07-16",
-      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
-    },
-    {
       "id": 247043,
       "title": "新手勇闯宝莱坞",
       "type": "tv",
@@ -153,29 +142,7 @@
       "release_date": "2025-09-18",
       "overview": "一个雄心勃勃的圈外人和他的朋友们在混乱、奢华、充满不确定性的宝莱坞世界中摸爬滚打。",
       "poster_url": "https://image.tmdb.org/t/p/original/lNlilsqj8wVs5xsNs8BLnTwPaVS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tW80eVy19UxCp9WZrmLiztdthSE.jpg"
-    },
-    {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.6,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
-    },
-    {
-      "id": 604079,
-      "title": "死亡竞走",
-      "type": "movie",
-      "genreTitle": "惊悚•恐怖",
-      "rating": 7.3,
-      "release_date": "2025-09-10",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/1RSI8TEueajZeeLlxXtOcU4J6DE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xSRlcTp44wQZFH8ub5Y5qFkhFp6.jpg"
     },
     {
       "id": 7451,
@@ -189,26 +156,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 90282,
-      "title": "The Morning Show",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2019-11-01",
-      "overview": "让我们揭开帷幕，聚焦每晨陪伴大众迎接新一天的新闻主播，走近早间新闻节目的台前幕后！剧集由詹妮弗·安妮斯顿、瑞茜·威瑟斯彭和史蒂夫·卡瑞尔领衔主演，以大胆直接的拍摄手法透视当代职场百态。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zUuIjtDvLCIsh32UPzylgsedcWO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7j2LjZyHePQJJ3YgupLSDj4T3m1.jpg"
+      "id": 155,
+      "title": "蝙蝠侠：黑暗骑士",
+      "type": "movie",
+      "genreTitle": "剧情•动作•犯罪",
+      "rating": 8.5,
+      "release_date": "2008-07-16",
+      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
     },
     {
-      "id": 1234731,
-      "title": "新狂蟒之灾",
+      "id": 1242011,
+      "title": "同甘共苦",
       "type": "movie",
-      "genreTitle": "冒险•喜剧•恐怖",
-      "rating": 0.0,
-      "release_date": "2025-12-24",
-      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/93yXJVBBC04mhgv5FlZRT8Zyofp.jpg"
+      "genreTitle": "恐怖",
+      "rating": 7.1,
+      "release_date": "2025-07-28",
+      "overview": "多年情侣蒂姆（戴夫·弗兰科 Dave Franco 饰）和米莉（爱丽森·布里 Alison Brie 饰）来到感情脆弱的关口，开始思考爱是……为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村展开全新二人世界。然而新生活未如理想，更卷入了当地一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……电锯是否还给大家自由的唯一解救方法？但染血的爱又那可修补，莫问爱是分离！",
+      "poster_url": "https://image.tmdb.org/t/p/original/6OlWLe4ohPQYrLFIFBPwD8BtO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
+    },
+    {
+      "id": 604079,
+      "title": "死亡竞走",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖",
+      "rating": 7.3,
+      "release_date": "2025-09-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/1RSI8TEueajZeeLlxXtOcU4J6DE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+    },
+    {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 6.6,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
+      "id": 1429747,
+      "title": "同日再爱你",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧•奇幻",
+      "rating": 7.0,
+      "release_date": "2025-09-18",
+      "overview": "梅萨一帆风顺的生活突然天翻地覆：工作出了大问题，未婚夫也拒绝了她，而这还不是最糟的 — 因为这一天开始反复上演。困在时间循环中，梅萨被迫一遍又一遍地经历同一天。但每重来一次，她就更勇敢地面对自己的缺点和恐惧，把混乱变成一次追寻真相的旅程，揭开这场不可思议循环的秘密，努力让自己从中解脱出来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u2APPpDvsEDVJJKOANWupjL65kD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ix7V26vlF9aIjqllVb45SEcD3MN.jpg"
     },
     {
       "id": 226637,
@@ -261,22 +261,11 @@
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
       "genreTitle": "动画•动作•奇幻",
-      "rating": 7.6,
+      "rating": 7.7,
       "release_date": "2025-07-18",
       "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，须佐能乎吉在宇治屋山庄出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被须佐能乎吉推入一个神秘的房间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
       "poster_url": "https://image.tmdb.org/t/p/original/aXwPa8NKNUhXNfUMLLNBkwmEBOH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
-    },
-    {
-      "id": 1007734,
-      "title": "小人物2",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.3,
-      "release_date": "2025-08-13",
-      "overview": "昔日“小人物”哈奇携妻小赴偏远小镇度假，却被恶警与黑帮围剿。枪火惊梦，全家被迫联手反击。在枪火与尖叫交织的旋转木马上，哈奇终于明白：真正的“退休”不是金盆洗手，而是让家人活下来的那一刻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qLndYGKEBD4dZAOtgoC7BDElA8j.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
     },
     {
       "id": 1061474,
@@ -290,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
+      "id": 1007734,
+      "title": "小人物2",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.3,
+      "release_date": "2025-08-13",
+      "overview": "昔日“小人物”哈奇携妻小赴偏远小镇度假，却被恶警与黑帮围剿。枪火惊梦，全家被迫联手反击。在枪火与尖叫交织的旋转木马上，哈奇终于明白：真正的“退休”不是金盆洗手，而是让家人活下来的那一刻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qLndYGKEBD4dZAOtgoC7BDElA8j.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
+    },
+    {
       "id": 157239,
       "title": "异形：地球",
       "type": "tv",
@@ -299,17 +299,6 @@
       "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
       "poster_url": "https://image.tmdb.org/t/p/original/hKu7x3R3FncoCFyk1fTXvu7xR5a.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
-    },
-    {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.6,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
       "id": 1035259,
@@ -323,26 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dFDXmUIlzSJHXuKPGb4UTDN2JjK.jpg"
     },
     {
-      "id": 604079,
-      "title": "死亡竞走",
+      "id": 1038392,
+      "title": "招魂4：终章",
       "type": "movie",
-      "genreTitle": "惊悚•恐怖",
-      "rating": 7.3,
-      "release_date": "2025-09-10",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/1RSI8TEueajZeeLlxXtOcU4J6DE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
-    },
-    {
-      "id": 615,
-      "title": "飞出个未来",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "1999-03-28",
-      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f0Tm9EdOKMl0h9u3mwkJMOlmQnb.jpg"
+      "genreTitle": "恐怖",
+      "rating": 6.6,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
       "id": 7451,
@@ -356,6 +334,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
+      "id": 615,
+      "title": "飞出个未来",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "1999-03-28",
+      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f0Tm9EdOKMl0h9u3mwkJMOlmQnb.jpg"
+    },
+    {
+      "id": 604079,
+      "title": "死亡竞走",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖",
+      "rating": 7.3,
+      "release_date": "2025-09-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/1RSI8TEueajZeeLlxXtOcU4J6DE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+    },
+    {
       "id": 119051,
       "title": "Wednesday",
       "type": "tv",
@@ -365,6 +365,17 @@
       "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/tKPZy6BVWBjcIMr39cGNZ0zB3ko.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
+    },
+    {
+      "id": 911430,
+      "title": "F1：狂飙飞车",
+      "type": "movie",
+      "genreTitle": "动作•剧情",
+      "rating": 7.8,
+      "release_date": "2025-06-25",
+      "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tz3S4zLDPHV3aWSV194ZmXMq5P1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
       "id": 110492,
@@ -378,15 +389,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
     },
     {
-      "id": 911430,
-      "title": "F1：狂飙飞车",
+      "id": 1242011,
+      "title": "同甘共苦",
       "type": "movie",
-      "genreTitle": "动作•剧情",
-      "rating": 7.8,
-      "release_date": "2025-06-25",
-      "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tz3S4zLDPHV3aWSV194ZmXMq5P1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
+      "genreTitle": "恐怖",
+      "rating": 7.1,
+      "release_date": "2025-07-28",
+      "overview": "多年情侣蒂姆（戴夫·弗兰科 Dave Franco 饰）和米莉（爱丽森·布里 Alison Brie 饰）来到感情脆弱的关口，开始思考爱是……为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村展开全新二人世界。然而新生活未如理想，更卷入了当地一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……电锯是否还给大家自由的唯一解救方法？但染血的爱又那可修补，莫问爱是分离！",
+      "poster_url": "https://image.tmdb.org/t/p/original/6OlWLe4ohPQYrLFIFBPwD8BtO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
+    },
+    {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 8.8,
+      "release_date": "2025-09-23",
+      "overview": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1CGAgI0zD0zOMqpwC2OMwbxLW1w.jpg"
     },
     {
       "id": 1321439,
@@ -411,37 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p638B93KDbby7FxuEI1MtoHHhjZ.jpg"
     },
     {
-      "id": 1242011,
-      "title": "同甘共苦",
-      "type": "movie",
-      "genreTitle": "恐怖•爱情",
-      "rating": 7.1,
-      "release_date": "2025-07-28",
-      "overview": "多年情侣蒂姆（戴夫·弗兰科 Dave Franco 饰）和米莉（爱丽森·布里 Alison Brie 饰）来到感情脆弱的关口，开始思考爱是……为了挽回渐淡的感情，决定抛开朋友和工作搬到陌生乡村展开全新二人世界。然而新生活未如理想，更卷入了当地一场超自然力量的恐怖漩涡。身体及意识渐渐变得不受控，当他们的心愈远，肉体却愈贴愈近，肌肤甚至开始无缝结合……电锯是否还给大家自由的唯一解救方法？但染血的爱又那可修补，莫问爱是分离！",
-      "poster_url": "https://image.tmdb.org/t/p/original/6OlWLe4ohPQYrLFIFBPwD8BtO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bQ7flFeoWuXuuOtJbAZcQqv3joL.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 8.0,
-      "release_date": "2025-09-23",
-      "overview": "　　当邪恶宿敌在沉寂16年后卷土重来，一群昔日同伴再度集结，为营救旧日好友的女儿挺身而出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1CGAgI0zD0zOMqpwC2OMwbxLW1w.jpg"
-    },
-    {
-      "id": 155,
-      "title": "蝙蝠侠：黑暗骑士",
-      "type": "movie",
-      "genreTitle": "剧情•动作•犯罪",
-      "rating": 8.5,
-      "release_date": "2008-07-16",
-      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
+      "id": 194766,
+      "title": "我变漂亮的那个夏天",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.2,
+      "release_date": "2022-06-16",
+      "overview": "《我变漂亮的那个夏天》是改编自《纽约时报》畅销书的新剧集。每年夏天，柏莉都会和她的家人前往考辛斯的渔人海滨别墅度假。每年夏天都是一样的...直到柏莉长到16岁。人际关系将受到考验，痛苦的真相将被揭露，而柏莉将永远改变。这是一个关于初恋、第一次心碎和成长的夏天——这是她变漂亮的夏天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oor9tlOTmJnR9wcJ737VSM1zEBF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2FcVG76jzM90i25zVfDF816UWRF.jpg"
     }
   ],
   "popular_movies": [
