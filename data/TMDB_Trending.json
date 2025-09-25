@@ -1,17 +1,6 @@
 {
-  "last_updated": "2025-09-25 18:01:20",
+  "last_updated": "2025-09-25 19:01:08",
   "today_global": [
-    {
-      "id": 138505,
-      "title": "漫威丧尸",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy",
-      "rating": 6.9,
-      "release_date": "2025-09-24",
-      "overview": "在复仇者联盟的英雄们沦为丧尸后，一群绝望的幸存者意外发现消灭这些超能力丧尸的关键，于是在反乌托邦的荒原上展开追逐，冒着生命危险拯救他们的世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aExEitz18waq0f4AD9ojmnWbItS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l0zEZLNs9PQPNvPxMd7ohlvtuG0.jpg"
-    },
     {
       "id": 110316,
       "title": "弥留之国的爱丽丝",
@@ -22,6 +11,17 @@
       "overview": "一位漫无目标的游戏玩家和两位好友发现他们身处平行世界中的东京。为了生存下来，他们必须在一系列残忍的游戏中展开较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/oiXGaJPuU8zGqEfX0iexbP5PuRL.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/i6vV0LDMnyFFT3yBysMHvpWEZor.jpg"
+    },
+    {
+      "id": 138505,
+      "title": "漫威丧尸",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy",
+      "rating": 6.9,
+      "release_date": "2025-09-24",
+      "overview": "在复仇者联盟的英雄们沦为丧尸后，一群绝望的幸存者意外发现消灭这些超能力丧尸的关键，于是在反乌托邦的荒原上展开追逐，冒着生命危险拯救他们的世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aExEitz18waq0f4AD9ojmnWbItS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l0zEZLNs9PQPNvPxMd7ohlvtuG0.jpg"
     },
     {
       "id": 617126,
@@ -55,6 +55,17 @@
       "overview": "这部充满机智趣味的间谍剧讲述了军情五处里一个不正常的特工团队和他们令人厌恶，臭名昭著的老板杰克逊兰姆的故事。他们在亦真亦假的间谍世界中周旋，保卫英国免受邪恶势力的侵害。",
       "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+    },
+    {
+      "id": 250988,
+      "title": "健力士王朝",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.0,
+      "release_date": "2025-09-25",
+      "overview": "故事灵感来自欧洲最著名又古老的健力士家族，背景设定在 19 世纪的都柏林和纽约，以本杰明·健力士爵士的辞世为开场。他生前成立了大获成功的健力士啤酒厂，遗嘱影响深远，不只主宰了四名成年子女亚瑟、爱德华、安妮和本的命运，也攸关都柏林一群与健力士大厂合作互动人士的人生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pt2ycpVIOU1PUCJi8N6z6gdibiF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/97MmaYfbNfrGveBemJWzxs71y2E.jpg"
     },
     {
       "id": 219760,
@@ -101,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Sj3VYDMS3KdHUMTrzV4szLXnOE.jpg"
     },
     {
-      "id": 250988,
-      "title": "健力士王朝",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.0,
-      "release_date": "2025-09-25",
-      "overview": "故事灵感来自欧洲最著名又古老的健力士家族，背景设定在 19 世纪的都柏林和纽约，以本杰明·健力士爵士的辞世为开场。他生前成立了大获成功的健力士啤酒厂，遗嘱影响深远，不只主宰了四名成年子女亚瑟、爱德华、安妮和本的命运，也攸关都柏林一群与健力士大厂合作互动人士的人生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cDjJBbJcOj7PsWAveLFdSa4J8zJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/97MmaYfbNfrGveBemJWzxs71y2E.jpg"
-    },
-    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -145,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
-      "id": 297464,
-      "title": "引客入室",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 9.5,
-      "release_date": "2025-09-24",
-      "overview": "发生婚外情后，这对夫妇试图拯救二人的婚姻，但来自妻子过去的一名神秘女子来到他们家，让一切陷入漩涡之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3mmN6KxbURjPbalFzWIop79SzPa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wJBYXpzKHZNWnkfMuXhr40daPan.jpg"
-    },
-    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -167,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 1337562,
-      "title": "分居",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.8,
-      "release_date": "2025-08-21",
-      "overview": "在阿什莉提出离婚后，凯里向好友朱莉和保罗寻求慰藉，却发现这对表面幸福的夫妻实则奉行开放式婚姻。但当凯里逾越界限时，所有人的感情生活都陷入了混乱漩涡。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gxCv6kUdywxYzIXX6xYcmX5APUV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4siUESVuAleNrloz4LXh6Ygc3Ca.jpg"
-    },
-    {
       "id": 153312,
       "title": "塔尔萨之王",
       "type": "tv",
@@ -187,6 +165,28 @@
       "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
       "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
+    },
+    {
+      "id": 297464,
+      "title": "引客入室",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 9.5,
+      "release_date": "2025-09-24",
+      "overview": "发生婚外情后，这对夫妇试图拯救二人的婚姻，但来自妻子过去的一名神秘女子来到他们家，让一切陷入漩涡之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nIzXMbPOPMzLQj2bBBmye8fpvSi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wJBYXpzKHZNWnkfMuXhr40daPan.jpg"
+    },
+    {
+      "id": 1337562,
+      "title": "分居",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.8,
+      "release_date": "2025-08-21",
+      "overview": "在阿什莉提出离婚后，凯里向好友朱莉和保罗寻求慰藉，却发现这对表面幸福的夫妻实则奉行开放式婚姻。但当凯里逾越界限时，所有人的感情生活都陷入了混乱漩涡。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gxCv6kUdywxYzIXX6xYcmX5APUV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4siUESVuAleNrloz4LXh6Ygc3Ca.jpg"
     },
     {
       "id": 1078605,
@@ -279,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
     },
     {
+      "id": 250988,
+      "title": "健力士王朝",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.0,
+      "release_date": "2025-09-25",
+      "overview": "故事灵感来自欧洲最著名又古老的健力士家族，背景设定在 19 世纪的都柏林和纽约，以本杰明·健力士爵士的辞世为开场。他生前成立了大获成功的健力士啤酒厂，遗嘱影响深远，不只主宰了四名成年子女亚瑟、爱德华、安妮和本的命运，也攸关都柏林一群与健力士大厂合作互动人士的人生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pt2ycpVIOU1PUCJi8N6z6gdibiF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/97MmaYfbNfrGveBemJWzxs71y2E.jpg"
+    },
+    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -301,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.4,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
-    },
-    {
       "id": 1054867,
       "title": "一战再战",
       "type": "movie",
@@ -321,17 +321,6 @@
       "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
       "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1CGAgI0zD0zOMqpwC2OMwbxLW1w.jpg"
-    },
-    {
-      "id": 250988,
-      "title": "健力士王朝",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.0,
-      "release_date": "2025-09-25",
-      "overview": "故事灵感来自欧洲最著名又古老的健力士家族，背景设定在 19 世纪的都柏林和纽约，以本杰明·健力士爵士的辞世为开场。他生前成立了大获成功的健力士啤酒厂，遗嘱影响深远，不只主宰了四名成年子女亚瑟、爱德华、安妮和本的命运，也攸关都柏林一群与健力士大厂合作互动人士的人生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cDjJBbJcOj7PsWAveLFdSa4J8zJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/97MmaYfbNfrGveBemJWzxs71y2E.jpg"
     },
     {
       "id": 7451,
@@ -356,6 +345,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dV1TZIR5UgZZy62taBlMVRbNRYY.jpg"
     },
     {
+      "id": 1078605,
+      "title": "凶器",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.4,
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7mmEEgmuT5NSJEDsDbfa1J0NdBl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+    },
+    {
       "id": 153312,
       "title": "塔尔萨之王",
       "type": "tv",
@@ -371,7 +371,7 @@
       "title": "亿万地堡",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 6.7,
+      "rating": 6.4,
       "release_date": "2025-09-19",
       "overview": "在一个专为抵御任何可能出现的灾难而设计的豪华地堡里，一群亿万富翁因前所未有的全球冲突威胁而被迫闭门共存。基梅拉地下乐园对两个背负着过去创伤的家庭来说，变成了一个幽闭恐怖的场所。在这个与世隔绝、无路可逃的地下世界中，他们逐渐暴露出真实的个性，揭开了最不可告人的秘密。然而，最出人意料的联盟也随之诞生。这是一幅关于亿万富翁们如何在“黄金囚笼”中生存的过度又惊人的情感 X 光图。",
       "poster_url": "https://image.tmdb.org/t/p/original/xNIbDAXB0kNfs41XW6BD0tggaFb.jpg",
@@ -400,17 +400,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dFDXmUIlzSJHXuKPGb4UTDN2JjK.jpg"
     },
     {
-      "id": 155,
-      "title": "蝙蝠侠：黑暗骑士",
-      "type": "movie",
-      "genreTitle": "剧情•动作•犯罪",
-      "rating": 8.5,
-      "release_date": "2008-07-16",
-      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
-    },
-    {
       "id": 119051,
       "title": "Wednesday",
       "type": "tv",
@@ -420,6 +409,17 @@
       "overview": "星期三·亚当斯聪明、爱挖苦人，内心有点死气沉沉。在调查一起连环杀人案时，她在奈弗莫尔学院结识了新朋友，也遇见了新对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/tKPZy6BVWBjcIMr39cGNZ0zB3ko.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/Ah1bTTgIi5iqaEe9S3czK0vM0PT.jpg"
+    },
+    {
+      "id": 155,
+      "title": "蝙蝠侠：黑暗骑士",
+      "type": "movie",
+      "genreTitle": "剧情•动作•犯罪",
+      "rating": 8.5,
+      "release_date": "2008-07-16",
+      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
     },
     {
       "id": 1007734,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/v9BsRiXVvyeTWQN4DgdToiPkHhi.jpg"
     },
     {
-      "id": 157336,
-      "title": "星际穿越",
-      "type": "movie",
-      "genreTitle": "冒险•剧情•科幻",
-      "rating": 8.5,
-      "release_date": "2014-11-05",
-      "overview": "近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前 NASA 宇航员库珀（马修·麦康纳 Matthew McConaughey 饰）接连在女儿墨菲（麦肯吉·弗依 Mackenzie Foy 饰）的书房发现奇怪的重力场现象，随即得知在某个未知区域内前 NASA 成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA 借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授（迈克尔·凯恩 Michael Caine 饰）的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德（安妮·海瑟薇 Anne Hathaway 饰）、罗米利（大卫·吉雅西 David Gyasi 饰）、多伊尔（韦斯·本特利 Wes Bentley 饰）搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7z0QoRia9Tknxe1R1vz7jwkzUrm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/NerBrEnSwyOWKwhsgoZrjTBaLM.jpg"
+      "id": 110492,
+      "title": "和平使者",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2022-01-13",
+      "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
     }
   ],
   "popular_movies": [
