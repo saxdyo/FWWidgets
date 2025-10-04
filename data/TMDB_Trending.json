@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-05 01:01:09",
+  "last_updated": "2025-10-05 02:01:14",
   "today_global": [
     {
       "id": 1236470,
@@ -17,7 +17,7 @@
       "title": "怪物：艾德·盖恩的故事",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2025-10-03",
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
     },
     {
+      "id": 1242404,
+      "title": "史蒂夫校长",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 6.8,
+      "release_date": "2025-09-19",
+      "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
+    },
+    {
       "id": 228689,
       "title": "许愿吧，精灵",
       "type": "tv",
@@ -44,17 +55,6 @@
       "overview": "沉睡千年后苏醒的精灵邂逅了个性有如冰山的新主人嘉盈，随着三个愿望引发一连串的冲突，这对主仆就在混乱却感人的魔法风暴中，携手谱写出一段既甜蜜又充满笑声的动人恋曲。",
       "poster_url": "https://image.tmdb.org/t/p/original/94cP8WFvq3ViPnEnojU5u1d5TiM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/941Ar9Mc8F9stDJSkmaqRPNFSEV.jpg"
-    },
-    {
-      "id": 1242404,
-      "title": "史蒂夫校长",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 6.9,
-      "release_date": "2025-09-19",
-      "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
     },
     {
       "id": 120089,
@@ -101,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
+      "id": 110492,
+      "title": "和平使者",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2022-01-13",
+      "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
+    },
+    {
       "id": 65930,
       "title": "我的英雄学院",
       "type": "tv",
@@ -123,15 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cSAVRsNxzpuf51wpwbju1udVgsz.jpg"
     },
     {
-      "id": 110492,
-      "title": "和平使者",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2022-01-13",
-      "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.8,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 1100800,
@@ -143,17 +154,6 @@
       "overview": "当一名傲慢的热气球驾驶员撞上一位传统养鸡人养鸡的鸡舍时，她的生活发生了翻天覆地的变化。",
       "poster_url": "https://image.tmdb.org/t/p/original/o1PND9xFwNVtEM2ASAXlSXcwKUT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1lfZLiwcn9wEjfgHJRTJVP39pi3.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.8,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 243200,
@@ -176,6 +176,17 @@
       "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
       "poster_url": "https://image.tmdb.org/t/p/original/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
+    },
+    {
+      "id": 225634,
+      "title": "Monsters: The Lyle and Erik Menendez Story",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.6,
+      "release_date": "2024-09-19",
+      "overview": "　　该剧改编自1996年，一对兄弟杀害亲生父母何西·梅内德斯与凯蒂·梅内德斯的真实罪案。检方指控他们觊觎庞大家族财富，兄弟俩却声称他们受尽父母身心虐待与性侵，出于恐惧才会犯下滔天大罪，他们仍在服无期徒刑，终身不得假释，时至今日仍坚持当初的证词。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AeY3ZbcWeJbiACFbRj6DkmRJJuP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/u0d52C7vtLT21L7E1U8P9IptBSv.jpg"
     },
     {
       "id": 278635,
@@ -209,17 +220,6 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
-    },
-    {
-      "id": 225634,
-      "title": "Monsters: The Lyle and Erik Menendez Story",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.6,
-      "release_date": "2024-09-19",
-      "overview": "　　该剧改编自1996年，一对兄弟杀害亲生父母何西·梅内德斯与凯蒂·梅内德斯的真实罪案。检方指控他们觊觎庞大家族财富，兄弟俩却声称他们受尽父母身心虐待与性侵，出于恐惧才会犯下滔天大罪，他们仍在服无期徒刑，终身不得假释，时至今日仍坚持当初的证词。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AeY3ZbcWeJbiACFbRj6DkmRJJuP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/u0d52C7vtLT21L7E1U8P9IptBSv.jpg"
     }
   ],
   "week_global_all": [
@@ -250,22 +250,11 @@
       "title": "怪物：艾德·盖恩的故事",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2025-10-03",
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
-    },
-    {
-      "id": 1245993,
-      "title": "偷天盗日",
-      "type": "movie",
-      "genreTitle": "犯罪•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-08-26",
-      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kjdbOaGGYQHT177IbQjR9OyvUOB.jpg"
     },
     {
       "id": 120089,
@@ -279,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/271dk4LLCQTLg1QbUfvXwWsp98L.jpg"
     },
     {
+      "id": 1245993,
+      "title": "偷天盗日",
+      "type": "movie",
+      "genreTitle": "犯罪•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2025-08-26",
+      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kjdbOaGGYQHT177IbQjR9OyvUOB.jpg"
+    },
+    {
       "id": 617126,
       "title": "神奇四侠：初露锋芒",
       "type": "movie",
@@ -288,17 +288,6 @@
       "overview": "故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
       "poster_url": "https://image.tmdb.org/t/p/original/aCsNBcRkhoujIuKQ36VIBSKPU56.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.8,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 1242404,
@@ -312,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
     },
     {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.8,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+    },
+    {
       "id": 110316,
       "title": "弥留之国的爱丽丝",
       "type": "tv",
@@ -321,17 +321,6 @@
       "overview": "一位漫无目标的游戏玩家和两位好友发现他们身处平行世界中的东京。为了生存下来，他们必须在一系列残忍的游戏中展开较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/ycBDes9DHFbfQZ3K676TTbEcfFX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sRbRd4suwhUYlzvIZEY0gXUHWiq.jpg"
-    },
-    {
-      "id": 157239,
-      "title": "异形：地球",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.5,
-      "release_date": "2025-08-12",
-      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/trhDJT37vrN4VgnVn64Evs2DV35.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
       "id": 911430,
@@ -365,6 +354,17 @@
       "overview": "大部分的人类，在这个时代里都拥有名为“个性”的力量，但有力量之人却不一定都属于正义的一方。只要邪恶出现的地方，必定会有英雄挺身而出拯救众人。一名天生没有力量的少年——绿谷出久从小就憧憬一位顶尖英雄，而他的梦想就是成为伟大的英雄，可是，没有力量的他能实现自己的梦想吗？虽然困难重重，少年却依旧不放弃，朝著自己的目标勇往前进！",
       "poster_url": "https://image.tmdb.org/t/p/original/AnECHXeDNcpyaYbN6Fy8FkHnDK5.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/prFONzxES6YtVcn5WGJsS04A4kB.jpg"
+    },
+    {
+      "id": 157239,
+      "title": "异形：地球",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.5,
+      "release_date": "2025-08-12",
+      "overview": "一艘神秘的飞船坠毁在地球，一名年轻女子和一群形形色色的战术士兵发现了一个攸关命运的秘密，让他们与地球最大的威胁正面对抗。当坠毁回收队的成员在残骸中寻找生还者时，他们遇到了比他们想象中更可怕的神秘掠食生命体。随着这个新威胁的浮现，搜救队必须为生存而战，而他们如何处理这一发现，可能会改变他们所知的地球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/trhDJT37vrN4VgnVn64Evs2DV35.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
       "id": 1038392,
@@ -422,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
-      "id": 541671,
-      "title": "疾速追杀：芭蕾杀姬",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-06-04",
-      "overview": "父亲惨遭杀害，少女伊芙（安娜·德·阿玛斯 饰）被迫加入杀手组织，在这里她被培养成为一名芭蕾舞者，同时接受了长达12年的魔鬼训练成为了顶级杀手，开启了血刃仇人的杀戮之旅。她不仅要独自一人完成组织下达的死亡任务，还要暗中搜集杀父仇家的信息。随时丧命的极端危险、各方势力的联合围剿，让伊芙的复仇之路艰难无比。同时，她又被传说中的杀手约翰·威克（基努·里维斯 饰）锁定，新老杀神狭路相逢，伊芙必须在被约翰追到之前杀出血路完成复仇。危险的倒计时开始，一场致命厮杀即将拉开血色序幕……",
-      "poster_url": "https://image.tmdb.org/t/p/original/5RuBsGKMmMwxsLkhdQ5CJdeBgar.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rncLZoEdrS6lj8kNCya4ACu2tbh.jpg"
-    },
-    {
       "id": 1078605,
       "title": "凶器",
       "type": "movie",
@@ -442,6 +431,17 @@
       "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
       "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+    },
+    {
+      "id": 541671,
+      "title": "疾速追杀：芭蕾杀姬",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.4,
+      "release_date": "2025-06-04",
+      "overview": "父亲惨遭杀害，少女伊芙（安娜·德·阿玛斯 饰）被迫加入杀手组织，在这里她被培养成为一名芭蕾舞者，同时接受了长达12年的魔鬼训练成为了顶级杀手，开启了血刃仇人的杀戮之旅。她不仅要独自一人完成组织下达的死亡任务，还要暗中搜集杀父仇家的信息。随时丧命的极端危险、各方势力的联合围剿，让伊芙的复仇之路艰难无比。同时，她又被传说中的杀手约翰·威克（基努·里维斯 饰）锁定，新老杀神狭路相逢，伊芙必须在被约翰追到之前杀出血路完成复仇。危险的倒计时开始，一场致命厮杀即将拉开血色序幕……",
+      "poster_url": "https://image.tmdb.org/t/p/original/5RuBsGKMmMwxsLkhdQ5CJdeBgar.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rncLZoEdrS6lj8kNCya4ACu2tbh.jpg"
     }
   ],
   "popular_movies": [
