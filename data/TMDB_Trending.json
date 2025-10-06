@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-06 12:01:19",
+  "last_updated": "2025-10-06 13:01:11",
   "today_global": [
     {
       "id": 286801,
       "title": "怪物：艾德·盖恩的故事",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.9,
+      "rating": 7.8,
       "release_date": "2025-10-03",
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
@@ -16,7 +16,7 @@
       "id": 1236470,
       "title": "火烧天堂镇",
       "type": "movie",
-      "genreTitle": "剧情•悬疑•惊悚",
+      "genreTitle": "惊悚•悬疑•剧情",
       "rating": 6.9,
       "release_date": "2025-09-19",
       "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
@@ -68,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 6.6,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -101,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.6,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
-    },
-    {
       "id": 1054867,
       "title": "一战再战",
       "type": "movie",
@@ -145,28 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kjdbOaGGYQHT177IbQjR9OyvUOB.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 10.0,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
-    },
-    {
-      "id": 258579,
-      "title": "叹气的亡灵想隐退",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 7.0,
-      "release_date": "2024-10-01",
-      "overview": "现在正值宝藏猎人的黄金时期，为了寻求财富、名誉以及力量，猎人们不顾自身危险想飞黄腾达，前往世界各地的宝藏殿展开探索。让我们一起成为宝藏猎人吧──克莱‧安东黎西与儿时玩伴们的这段誓言，理应无法顺利实现才对。原因是，克莱完全没有成为宝藏猎人的才能……但不知为何，周遭人对克莱的期待与日俱增，导致他送命的风险不断攀升。每当实力异于常人的儿时玩伴们大显身手，克莱向人磕头道歉的技能就跟着提升……！这是一部关于一名青年想开心退休养老的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fRm61KKK5LEoAI2Ohol8lHeRtFH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b3Zsy83aaq3lXKNrK0mFI5ZOaqf.jpg"
-    },
-    {
       "id": 228689,
       "title": "许愿吧，精灵",
       "type": "tv",
@@ -178,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/941Ar9Mc8F9stDJSkmaqRPNFSEV.jpg"
     },
     {
-      "id": 65930,
-      "title": "我的英雄学院",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2016-04-03",
-      "overview": "大部分的人类，在这个时代里都拥有名为“个性”的力量，但有力量之人却不一定都属于正义的一方。只要邪恶出现的地方，必定会有英雄挺身而出拯救众人。一名天生没有力量的少年——绿谷出久从小就憧憬一位顶尖英雄，而他的梦想就是成为伟大的英雄，可是，没有力量的他能实现自己的梦想吗？虽然困难重重，少年却依旧不放弃，朝著自己的目标勇往前进！",
-      "poster_url": "https://image.tmdb.org/t/p/original/AnECHXeDNcpyaYbN6Fy8FkHnDK5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/prFONzxES6YtVcn5WGJsS04A4kB.jpg"
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 10.0,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
       "id": 1061474,
@@ -200,6 +178,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
+      "id": 258579,
+      "title": "叹气的亡灵想隐退",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 7.0,
+      "release_date": "2024-10-01",
+      "overview": "现在正值宝藏猎人的黄金时期，为了寻求财富、名誉以及力量，猎人们不顾自身危险想飞黄腾达，前往世界各地的宝藏殿展开探索。让我们一起成为宝藏猎人吧──克莱‧安东黎西与儿时玩伴们的这段誓言，理应无法顺利实现才对。原因是，克莱完全没有成为宝藏猎人的才能……但不知为何，周遭人对克莱的期待与日俱增，导致他送命的风险不断攀升。每当实力异于常人的儿时玩伴们大显身手，克莱向人磕头道歉的技能就跟着提升……！这是一部关于一名青年想开心退休养老的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fRm61KKK5LEoAI2Ohol8lHeRtFH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b3Zsy83aaq3lXKNrK0mFI5ZOaqf.jpg"
+    },
+    {
+      "id": 65930,
+      "title": "我的英雄学院",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2016-04-03",
+      "overview": "大部分的人类，在这个时代里都拥有名为“个性”的力量，但有力量之人却不一定都属于正义的一方。只要邪恶出现的地方，必定会有英雄挺身而出拯救众人。一名天生没有力量的少年——绿谷出久从小就憧憬一位顶尖英雄，而他的梦想就是成为伟大的英雄，可是，没有力量的他能实现自己的梦想吗？虽然困难重重，少年却依旧不放弃，朝著自己的目标勇往前进！",
+      "poster_url": "https://image.tmdb.org/t/p/original/AnECHXeDNcpyaYbN6Fy8FkHnDK5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prFONzxES6YtVcn5WGJsS04A4kB.jpg"
+    },
+    {
       "id": 153312,
       "title": "塔尔萨之王",
       "type": "tv",
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
     },
     {
-      "id": 1078605,
-      "title": "凶器",
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.4,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 8.6,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dh0dLVLDLqUKhtytCFjkf3EHeJI.jpg"
     }
   ],
   "week_global_all": [
@@ -239,7 +239,7 @@
       "title": "怪物：艾德·盖恩的故事",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.9,
+      "rating": 7.8,
       "release_date": "2025-10-03",
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
@@ -249,12 +249,34 @@
       "id": 1236470,
       "title": "火烧天堂镇",
       "type": "movie",
-      "genreTitle": "剧情•悬疑•惊悚",
+      "genreTitle": "惊悚•悬疑•剧情",
       "rating": 6.9,
       "release_date": "2025-09-19",
       "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
       "poster_url": "https://image.tmdb.org/t/p/original/56ho9BTO28FCiON44Ltb1Bco85I.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iDmz3D653Wgh7VOsLRtW2tbuoZM.jpg"
+    },
+    {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 6.6,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
+      "id": 63926,
+      "title": "一拳超人",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.4,
+      "release_date": "2015-10-05",
+      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
+      "poster_url": "https://image.tmdb.org/t/p/original/oJB3QgMxb6ABdVI3iVMZSyAyDx7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     },
     {
       "id": 1245993,
@@ -277,17 +299,6 @@
       "overview": "故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
       "poster_url": "https://image.tmdb.org/t/p/original/aCsNBcRkhoujIuKQ36VIBSKPU56.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
-    },
-    {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.6,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
       "id": 1054867,
@@ -321,17 +332,6 @@
       "overview": "和平使者被救回去之后原以为自己获得了自由，结果却被安排执行新的任务——蝴蝶计划。",
       "poster_url": "https://image.tmdb.org/t/p/original/pExFtsyucEcsBgKrpCDJpYjfy3U.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
-    },
-    {
-      "id": 63926,
-      "title": "一拳超人",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 8.4,
-      "release_date": "2015-10-05",
-      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
-      "poster_url": "https://image.tmdb.org/t/p/original/oJB3QgMxb6ABdVI3iVMZSyAyDx7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     },
     {
       "id": 7451,
@@ -389,6 +389,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
+      "id": 228689,
+      "title": "许愿吧，精灵",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•喜剧",
+      "rating": 8.6,
+      "release_date": "2025-10-03",
+      "overview": "沉睡千年后苏醒的精灵邂逅了个性有如冰山的新主人嘉盈，随着三个愿望引发一连串的冲突，这对主仆就在混乱却感人的魔法风暴中，携手谱写出一段既甜蜜又充满笑声的动人恋曲。",
+      "poster_url": "https://image.tmdb.org/t/p/original/94cP8WFvq3ViPnEnojU5u1d5TiM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/941Ar9Mc8F9stDJSkmaqRPNFSEV.jpg"
+    },
+    {
       "id": 1242404,
       "title": "史蒂夫校长",
       "type": "movie",
@@ -398,6 +409,17 @@
       "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
       "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
+    },
+    {
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
+      "type": "movie",
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 8.6,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dh0dLVLDLqUKhtytCFjkf3EHeJI.jpg"
     },
     {
       "id": 157239,
@@ -411,17 +433,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wR5DQh8kZvQfuggSD4vLyMkgPbv.jpg"
     },
     {
-      "id": 228689,
-      "title": "许愿吧，精灵",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•喜剧",
-      "rating": 8.6,
-      "release_date": "2025-10-03",
-      "overview": "沉睡千年后苏醒的精灵邂逅了个性有如冰山的新主人嘉盈，随着三个愿望引发一连串的冲突，这对主仆就在混乱却感人的魔法风暴中，携手谱写出一段既甜蜜又充满笑声的动人恋曲。",
-      "poster_url": "https://image.tmdb.org/t/p/original/94cP8WFvq3ViPnEnojU5u1d5TiM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/941Ar9Mc8F9stDJSkmaqRPNFSEV.jpg"
-    },
-    {
       "id": 436969,
       "title": "X特遣队：全员集结",
       "type": "movie",
@@ -431,17 +442,6 @@
       "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
-    },
-    {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
-      "type": "movie",
-      "genreTitle": "动画•动作•奇幻",
-      "rating": 8.6,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dh0dLVLDLqUKhtytCFjkf3EHeJI.jpg"
     }
   ],
   "popular_movies": [
