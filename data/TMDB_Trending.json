@@ -1,17 +1,6 @@
 {
-  "last_updated": "2025-10-09 05:01:08",
+  "last_updated": "2025-10-09 06:00:56",
   "today_global": [
-    {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•悬疑",
-      "rating": 6.9,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
-    },
     {
       "id": 249551,
       "title": "从前有个刺客",
@@ -24,26 +13,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jc7hS7RKlSESTop3FAW3bYhEbvY.jpg"
     },
     {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•悬疑",
+      "rating": 6.9,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
       "id": 1352755,
       "title": "需要维护的爱",
       "type": "movie",
       "genreTitle": "爱情•喜剧",
-      "rating": 7.4,
+      "rating": 6.8,
       "release_date": "2025-10-07",
       "overview": "查莉被迫重新评估她的全女性机修店，无意中向她的网络知己博尔倾诉了心事。结果发现，博尔竟然是她现实生活中的商业竞争对手，她们的关系在职业竞争中如花绽放。",
       "poster_url": "https://image.tmdb.org/t/p/original/j9voKECdb5ftTFI53X4ZUKZTmiw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ghQkkRX6mQGKYunCbM1dfiMbRgS.jpg"
-    },
-    {
-      "id": 986097,
-      "title": "王者",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.4,
-      "release_date": "2025-09-18",
-      "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
     },
     {
       "id": 533533,
@@ -57,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
+      "id": 986097,
+      "title": "王者",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.4,
+      "release_date": "2025-09-18",
+      "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
+    },
+    {
       "id": 286801,
       "title": "怪物：艾德·盖恩的故事",
       "type": "tv",
@@ -65,7 +65,7 @@
       "release_date": "2025-10-03",
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cm2oUAPiTE1ERoYYOzzgloQw4YZ.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
     },
     {
       "id": 7451,
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uLhdhKiqYbHo3jG0YwLFaJCYoZs.jpg"
     },
     {
-      "id": 1236470,
-      "title": "火烧天堂镇",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑•惊悚",
-      "rating": 7.0,
-      "release_date": "2025-09-19",
-      "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
-      "poster_url": "https://image.tmdb.org/t/p/original/42W0xcmRGCyao1LCZu48qMtMkLH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iDmz3D653Wgh7VOsLRtW2tbuoZM.jpg"
-    },
-    {
       "id": 1054867,
       "title": "一战再战",
       "type": "movie",
@@ -132,6 +121,17 @@
       "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
       "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+    },
+    {
+      "id": 1236470,
+      "title": "火烧天堂镇",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑•惊悚",
+      "rating": 7.1,
+      "release_date": "2025-09-19",
+      "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
+      "poster_url": "https://image.tmdb.org/t/p/original/42W0xcmRGCyao1LCZu48qMtMkLH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iDmz3D653Wgh7VOsLRtW2tbuoZM.jpg"
     },
     {
       "id": 237052,
@@ -156,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 941109,
-      "title": "脏局",
-      "type": "movie",
-      "genreTitle": "犯罪",
-      "rating": 6.6,
-      "release_date": "2025-09-30",
-      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
-    },
-    {
       "id": 967941,
       "title": "魔法坏女巫2",
       "type": "movie",
@@ -178,15 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ivMJidrpZWs1ReE30AMbwkUrow.jpg"
     },
     {
-      "id": 436969,
-      "title": "X特遣队：全员集结",
+      "id": 941109,
+      "title": "脏局",
       "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.5,
-      "release_date": "2021-06-06",
-      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+      "genreTitle": "犯罪",
+      "rating": 6.6,
+      "release_date": "2025-09-30",
+      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
     },
     {
       "id": 1396,
@@ -200,6 +189,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2TAZVsYn5mEMz4A48JnKwXnOOPs.jpg"
     },
     {
+      "id": 436969,
+      "title": "X特遣队：全员集结",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•冒险",
+      "rating": 7.5,
+      "release_date": "2021-06-06",
+      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+    },
+    {
+      "id": 1217602,
+      "title": "伦敦呼叫",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•喜剧",
+      "rating": 7.4,
+      "release_date": "2025-09-18",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iWskzH9Xm1ID3lqfiLjoyYI0hdE.jpg"
+    },
+    {
       "id": 155,
       "title": "蝙蝠侠：黑暗骑士",
       "type": "movie",
@@ -209,20 +220,20 @@
       "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
       "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
-    },
-    {
-      "id": 1217602,
-      "title": "伦敦呼叫",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•喜剧",
-      "rating": 7.7,
-      "release_date": "2025-09-18",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iWskzH9Xm1ID3lqfiLjoyYI0hdE.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 286801,
+      "title": "怪物：艾德·盖恩的故事",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.5,
+      "release_date": "2025-10-03",
+      "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
+    },
     {
       "id": 1038392,
       "title": "招魂4：终章",
@@ -235,22 +246,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
-      "id": 286801,
-      "title": "怪物：艾德·盖恩的故事",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.5,
-      "release_date": "2025-10-03",
-      "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cm2oUAPiTE1ERoYYOzzgloQw4YZ.jpg"
-    },
-    {
       "id": 1236470,
       "title": "火烧天堂镇",
       "type": "movie",
       "genreTitle": "剧情•悬疑•惊悚",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2025-09-19",
       "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
       "poster_url": "https://image.tmdb.org/t/p/original/42W0xcmRGCyao1LCZu48qMtMkLH.jpg",
@@ -378,26 +378,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
     },
     {
+      "id": 249551,
+      "title": "从前有个刺客",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 0.0,
+      "release_date": "2025-10-08",
+      "overview": "1504 年的法国，一名冷血刺客带着关系疏远的女儿一路逃亡，对抗凶险的敌人与邪恶势力，为女儿保驾护航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/twNHmxeFkDEdGzYMeGTp9stoGUC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jc7hS7RKlSESTop3FAW3bYhEbvY.jpg"
+    },
+    {
+      "id": 1352755,
+      "title": "需要维护的爱",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.8,
+      "release_date": "2025-10-07",
+      "overview": "查莉被迫重新评估她的全女性机修店，无意中向她的网络知己博尔倾诉了心事。结果发现，博尔竟然是她现实生活中的商业竞争对手，她们的关系在职业竞争中如花绽放。",
+      "poster_url": "https://image.tmdb.org/t/p/original/j9voKECdb5ftTFI53X4ZUKZTmiw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ghQkkRX6mQGKYunCbM1dfiMbRgS.jpg"
+    },
+    {
       "id": 1242404,
       "title": "史蒂夫校长",
       "type": "movie",
       "genreTitle": "剧情•喜剧",
-      "rating": 6.6,
+      "rating": 6.7,
       "release_date": "2025-09-19",
       "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
       "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
-    },
-    {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
-      "type": "movie",
-      "genreTitle": "动画•动作•奇幻",
-      "rating": 8.5,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
       "id": 911430,
@@ -411,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
-      "id": 1352755,
-      "title": "需要维护的爱",
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
       "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 7.4,
-      "release_date": "2025-10-07",
-      "overview": "查莉被迫重新评估她的全女性机修店，无意中向她的网络知己博尔倾诉了心事。结果发现，博尔竟然是她现实生活中的商业竞争对手，她们的关系在职业竞争中如花绽放。",
-      "poster_url": "https://image.tmdb.org/t/p/original/j9voKECdb5ftTFI53X4ZUKZTmiw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ghQkkRX6mQGKYunCbM1dfiMbRgS.jpg"
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 8.5,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
       "id": 1396,
@@ -431,17 +442,6 @@
       "overview": "新墨西哥州的高中化学老师沃尔特·H·怀特是拮据家庭的唯一经济来源。他大半生安分守己，兢兢业业，却在50岁生日之际突然得知自己罹患肺癌晚期的噩耗，原本便不甚顺意的人生顿时雪上加霜。为了保障怀孕的妻子斯凯勒和残疾的儿子小沃特能在自己死后衣食无忧，沃尔特决意铤而走险。他主动找到曾经的学生、而今的毒贩小混混杰西·平克曼谈合作，并运用娴熟高超的化学技术提炼出高纯度冰毒交给后者贩售。孰料事态的发展却在平克曼带回毒品供销商疯狂小八及其表弟后急转直下，沃尔特的人生也由此彻底步向失控。他被迫开始了教书与制毒的双重生活，逐渐坠落至万劫不复的深渊。",
       "poster_url": "https://image.tmdb.org/t/p/original/9tfFl11jL5fBA2qtxRxro7yW8Fh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2TAZVsYn5mEMz4A48JnKwXnOOPs.jpg"
-    },
-    {
-      "id": 436969,
-      "title": "X特遣队：全员集结",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.5,
-      "release_date": "2021-06-06",
-      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
     }
   ],
   "popular_movies": [
