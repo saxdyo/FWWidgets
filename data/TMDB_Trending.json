@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-08 10:13:49",
+  "last_updated": "2025-10-08 11:22:14",
   "today_global": [
     {
       "id": 1038392,
@@ -17,7 +17,7 @@
       "title": "王者",
       "type": "movie",
       "genreTitle": "恐怖•悬疑",
-      "rating": 5.4,
+      "rating": 5.5,
       "release_date": "2025-09-18",
       "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
       "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
@@ -79,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
+      "id": 1236470,
+      "title": "火烧天堂镇",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑•惊悚",
+      "rating": 7.0,
+      "release_date": "2025-09-19",
+      "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
+      "poster_url": "https://image.tmdb.org/t/p/original/42W0xcmRGCyao1LCZu48qMtMkLH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iDmz3D653Wgh7VOsLRtW2tbuoZM.jpg"
+    },
+    {
       "id": 1054867,
       "title": "一战再战",
       "type": "movie",
@@ -101,22 +112,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 1236470,
-      "title": "火烧天堂镇",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑•惊悚",
-      "rating": 7.0,
-      "release_date": "2025-09-19",
-      "overview": "改编自真实事件，讲述一名意志坚定的司机父亲在猛烈的野火中拼死救援一位尽责的老师与她的学生们。",
-      "poster_url": "https://image.tmdb.org/t/p/original/42W0xcmRGCyao1LCZu48qMtMkLH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iDmz3D653Wgh7VOsLRtW2tbuoZM.jpg"
-    },
-    {
       "id": 941109,
       "title": "脏局",
       "type": "movie",
       "genreTitle": "犯罪",
-      "rating": 6.5,
+      "rating": 6.6,
       "release_date": "2025-09-30",
       "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
       "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
@@ -134,15 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/NerBrEnSwyOWKwhsgoZrjTBaLM.jpg"
     },
     {
-      "id": 284644,
-      "title": "明明只是暗杀者，我的面板数值却比勇者还要强",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.5,
-      "release_date": "2025-10-07",
-      "overview": "高中生织田晶与班上同学一起被召唤到了异世界。在召唤的影响下，他们每个人都被赋予了开挂级的能力，而他或许是因为天生就没有存在感，获得了平平无奇的“暗杀者”能力。然而，他这个本应平平无奇的“暗杀者”，面板数值竟然轻松凌驾了“勇者”这个最强职业！？\n\n其后，晶对作为召唤主使者的国王产生怀疑，一边隐藏自己一边试图揭露其阴谋，却反过来被扣上冤罪，遭到追杀。晶发誓要向国王复仇，逃入了人迹未至的迷宫深层，并在那里邂逅了精灵族少女艾蜜莉亚……\n\n这是一个，获得了“暗杀者”能力的少年与精灵族少女相遇，并成长为真正暗杀者的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tw6Dgceec86fUO70BS7KkhXEHsA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckQ2ZpoWGtuTFuCLZRAMd1I6xSo.jpg"
+      "id": 155,
+      "title": "蝙蝠侠：黑暗骑士",
+      "type": "movie",
+      "genreTitle": "剧情•动作•犯罪",
+      "rating": 8.5,
+      "release_date": "2008-07-16",
+      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
     },
     {
       "id": 911430,
@@ -156,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
-      "id": 1422096,
-      "title": "乖狗狗",
+      "id": 329,
+      "title": "侏罗纪公园",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.3,
-      "release_date": "2025-10-01",
-      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gUk0Tzo9iL4RUiQaYo6AkcNcA9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
+      "genreTitle": "冒险•科幻",
+      "rating": 8.0,
+      "release_date": "1993-06-11",
+      "overview": "哈蒙德立志要建立一个非同寻常的公园：恐龙将是这个公园的主角。他把众多科学家收归旗下，利用琥珀里面困住的远古蚊子体内的血液，提取出恐龙的基因信息，利用这些信息培育繁殖恐龙。结果如愿以偿，他把怒布拉岛建立成了一个恐龙公园，坚信可以从中赚取大钱。然而，科学家们则忧心忡忡。不幸的事情果然发生了。虽然公园有电脑系统管理，但却因为被员工破坏而造成了无法挽救的失控：所有的恐龙逃出了控制区，人们纷纷逃窜却逃不过恐龙的魔爪。恐龙自相残杀，人们亦死难无数，最后幸存者寥寥，只得四人逃出生天。怒布拉岛上空弥漫着恐怖的气息。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yA7cGO80LoWvP49pEXCkcQmDd4o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fGqcJq5mbGFSoVaybFJzYl3bggi.jpg"
     },
     {
       "id": 63926,
@@ -178,15 +178,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     },
     {
-      "id": 436969,
-      "title": "X特遣队：全员集结",
+      "id": 106646,
+      "title": "华尔街之狼",
       "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2013-12-25",
+      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e98lcYAxVpYxWvi6lmmiItZDmB0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
+    },
+    {
+      "id": 284644,
+      "title": "明明只是暗杀者，我的面板数值却比勇者还要强",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
       "rating": 7.5,
-      "release_date": "2021-06-06",
-      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+      "release_date": "2025-10-07",
+      "overview": "高中生织田晶与班上同学一起被召唤到了异世界。在召唤的影响下，他们每个人都被赋予了开挂级的能力，而他或许是因为天生就没有存在感，获得了平平无奇的“暗杀者”能力。然而，他这个本应平平无奇的“暗杀者”，面板数值竟然轻松凌驾了“勇者”这个最强职业！？\n\n其后，晶对作为召唤主使者的国王产生怀疑，一边隐藏自己一边试图揭露其阴谋，却反过来被扣上冤罪，遭到追杀。晶发誓要向国王复仇，逃入了人迹未至的迷宫深层，并在那里邂逅了精灵族少女艾蜜莉亚……\n\n这是一个，获得了“暗杀者”能力的少年与精灵族少女相遇，并成长为真正暗杀者的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tw6Dgceec86fUO70BS7KkhXEHsA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckQ2ZpoWGtuTFuCLZRAMd1I6xSo.jpg"
+    },
+    {
+      "id": 1422096,
+      "title": "乖狗狗",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.3,
+      "release_date": "2025-10-01",
+      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gUk0Tzo9iL4RUiQaYo6AkcNcA9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
     },
     {
       "id": 1242404,
@@ -198,42 +220,9 @@
       "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
       "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
-    },
-    {
-      "id": 155,
-      "title": "蝙蝠侠：黑暗骑士",
-      "type": "movie",
-      "genreTitle": "剧情•动作•犯罪",
-      "rating": 8.5,
-      "release_date": "2008-07-16",
-      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
-    },
-    {
-      "id": 1434,
-      "title": "恶搞之家",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 7.4,
-      "release_date": "1999-01-31",
-      "overview": "本剧集讲述了格里芬一家的冒险故事。无知得可爱的皮特及其家庭主妇妻子路易丝居住在罗得岛圆蛤市，他们有三个孩子。最大的孩子梅根与周围人格格不入，而青少年克里斯在面对异性时笨拙而无知。最小的孩子斯图尔特是个天才宝宝，一心想要杀死妈妈并毁灭世界。会说话的狗布莱恩在喝着马提尼酒和解决自己生活问题的同时，控制着斯图尔特。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8o8kiBkWFK3gVytHdyzEWUBXVfK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iAzcDIsUU6E18TgJo530j1IDBW0.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 941109,
-      "title": "脏局",
-      "type": "movie",
-      "genreTitle": "犯罪",
-      "rating": 6.5,
-      "release_date": "2025-09-30",
-      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
-    },
     {
       "id": 286801,
       "title": "怪物：艾德·盖恩的故事",
@@ -244,6 +233,17 @@
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cm2oUAPiTE1ERoYYOzzgloQw4YZ.jpg"
+    },
+    {
+      "id": 941109,
+      "title": "脏局",
+      "type": "movie",
+      "genreTitle": "犯罪",
+      "rating": 6.6,
+      "release_date": "2025-09-30",
+      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
     },
     {
       "id": 1038392,
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 1245993,
-      "title": "偷天盗日",
-      "type": "movie",
-      "genreTitle": "犯罪•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2025-08-26",
-      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kjdbOaGGYQHT177IbQjR9OyvUOB.jpg"
-    },
-    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
-      "id": 436969,
-      "title": "X特遣队：全员集结",
+      "id": 1245993,
+      "title": "偷天盗日",
       "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.5,
-      "release_date": "2021-06-06",
-      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+      "genreTitle": "犯罪•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2025-08-26",
+      "overview": "　　汉克·汤普森因帮邻居照看宠物猫而卷入致命旋涡。天降横财竟成死亡通缉令，被黑帮各派追杀的他开启逃亡之旅，面对步步紧逼的围剿，他必须使出浑身解数，只为活到真相大白那一刻……。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7MISPCoRs5njvoouFjIW7rVVcKN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kjdbOaGGYQHT177IbQjR9OyvUOB.jpg"
     },
     {
       "id": 533533,
@@ -334,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
+      "id": 986097,
+      "title": "王者",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.5,
+      "release_date": "2025-09-18",
+      "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
+    },
+    {
       "id": 911430,
       "title": "F1：狂飙飞车",
       "type": "movie",
@@ -345,15 +345,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
     },
     {
-      "id": 986097,
-      "title": "王者",
+      "id": 436969,
+      "title": "X特遣队：全员集结",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.4,
-      "release_date": "2025-09-18",
-      "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
+      "genreTitle": "动作•喜剧•冒险",
+      "rating": 7.5,
+      "release_date": "2021-06-06",
+      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+    },
+    {
+      "id": 155,
+      "title": "蝙蝠侠：黑暗骑士",
+      "type": "movie",
+      "genreTitle": "剧情•动作•犯罪",
+      "rating": 8.5,
+      "release_date": "2008-07-16",
+      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
+    },
+    {
+      "id": 329,
+      "title": "侏罗纪公园",
+      "type": "movie",
+      "genreTitle": "冒险•科幻",
+      "rating": 8.0,
+      "release_date": "1993-06-11",
+      "overview": "哈蒙德立志要建立一个非同寻常的公园：恐龙将是这个公园的主角。他把众多科学家收归旗下，利用琥珀里面困住的远古蚊子体内的血液，提取出恐龙的基因信息，利用这些信息培育繁殖恐龙。结果如愿以偿，他把怒布拉岛建立成了一个恐龙公园，坚信可以从中赚取大钱。然而，科学家们则忧心忡忡。不幸的事情果然发生了。虽然公园有电脑系统管理，但却因为被员工破坏而造成了无法挽救的失控：所有的恐龙逃出了控制区，人们纷纷逃窜却逃不过恐龙的魔爪。恐龙自相残杀，人们亦死难无数，最后幸存者寥寥，只得四人逃出生天。怒布拉岛上空弥漫着恐怖的气息。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yA7cGO80LoWvP49pEXCkcQmDd4o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fGqcJq5mbGFSoVaybFJzYl3bggi.jpg"
+    },
+    {
+      "id": 106646,
+      "title": "华尔街之狼",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2013-12-25",
+      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e98lcYAxVpYxWvi6lmmiItZDmB0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
     },
     {
       "id": 1242404,
@@ -389,28 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
     },
     {
-      "id": 155,
-      "title": "蝙蝠侠：黑暗骑士",
-      "type": "movie",
-      "genreTitle": "剧情•动作•犯罪",
-      "rating": 8.5,
-      "release_date": "2008-07-16",
-      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
-    },
-    {
-      "id": 541671,
-      "title": "疾速追杀：芭蕾杀姬",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.3,
-      "release_date": "2025-06-04",
-      "overview": "父亲惨遭杀害，少女伊芙（安娜·德·阿玛斯 饰）被迫加入杀手组织，在这里她被培养成为一名芭蕾舞者，同时接受了长达12年的魔鬼训练成为了顶级杀手，开启了血刃仇人的杀戮之旅。她不仅要独自一人完成组织下达的死亡任务，还要暗中搜集杀父仇家的信息。随时丧命的极端危险、各方势力的联合围剿，让伊芙的复仇之路艰难无比。同时，她又被传说中的杀手约翰·威克（基努·里维斯 饰）锁定，新老杀神狭路相逢，伊芙必须在被约翰追到之前杀出血路完成复仇。危险的倒计时开始，一场致命厮杀即将拉开血色序幕……",
-      "poster_url": "https://image.tmdb.org/t/p/original/5RuBsGKMmMwxsLkhdQ5CJdeBgar.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rncLZoEdrS6lj8kNCya4ACu2tbh.jpg"
-    },
-    {
       "id": 157336,
       "title": "星际穿越",
       "type": "movie",
@@ -422,40 +433,18 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/NerBrEnSwyOWKwhsgoZrjTBaLM.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.5,
-      "release_date": "2025-07-09",
-      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？ 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
-    },
-    {
-      "id": 247168,
-      "title": "查德·鲍尔斯",
+      "id": 63926,
+      "title": "一拳超人",
       "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.6,
-      "release_date": "2025-09-30",
-      "overview": "八年前，明星四分卫罗斯哈乐戴犯下无法弥补的错误，葬送了自己的大学足球生涯。现在，他乔装为怪咖天才查德鲍尔斯，加入陷入困境的南乔治亚鲶鱼队，渴望东山再起。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4qogSNE8UXAIF4DmYF1lRcNpnUx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7TQFPVZnhxDuxtvgIn6mkcHkkfu.jpg"
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.4,
+      "release_date": "2015-10-05",
+      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     }
   ],
   "popular_movies": [
-    {
-      "id": 941109,
-      "title": "脏局",
-      "type": "movie",
-      "genreTitle": "犯罪",
-      "rating": 6.5,
-      "release_date": "2025-09-30",
-      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
-    },
     {
       "id": 1038392,
       "title": "招魂4：终章",
@@ -466,6 +455,17 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。\r 　　这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
+      "id": 941109,
+      "title": "脏局",
+      "type": "movie",
+      "genreTitle": "犯罪",
+      "rating": 6.6,
+      "release_date": "2025-09-30",
+      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
     },
     {
       "id": 1186350,
@@ -538,7 +538,7 @@
       "title": "神圣之夜：恶魔猎人",
       "type": "movie",
       "genreTitle": "动作•奇幻•恐怖",
-      "rating": 6.6,
+      "rating": 6.7,
       "release_date": "2025-06-13",
       "overview": "影片讲述狩猎恶魔的黑暗解决师“神圣之夜”团队与崇拜邪恶的犯罪集团对抗的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/fKJUmyU8oUWa6Ug8lSNRASui8ac.jpg",
@@ -571,7 +571,7 @@
       "title": "Django Undisputed",
       "type": "movie",
       "genreTitle": "西部",
-      "rating": 6.1,
+      "rating": 5.3,
       "release_date": "2024-04-22",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/porcUhC4jqFt72TaxbjOQo2lTzL.jpg",
