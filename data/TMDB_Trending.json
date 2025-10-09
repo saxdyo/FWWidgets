@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-09 11:24:53",
+  "last_updated": "2025-10-09 12:01:09",
   "today_global": [
     {
       "id": 249551,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.7,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
-    },
-    {
       "id": 986097,
       "title": "王者",
       "type": "movie",
@@ -55,6 +44,17 @@
       "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
       "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
+    },
+    {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.9,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
       "id": 286801,
@@ -88,6 +88,17 @@
       "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
       "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+    },
+    {
+      "id": 1125257,
+      "title": "辣妈辣妹2",
+      "type": "movie",
+      "genreTitle": "喜剧•奇幻•家庭",
+      "rating": 7.0,
+      "release_date": "2025-08-06",
+      "overview": "　　多年以后，在泰丝和安娜经历了一场身份危机之后，安娜如今有了一个女儿和一个未来的继女。在两家人合并时面临的挑战中，泰丝和安娜发现，雷电或许会再次降临。",
+      "poster_url": "https://image.tmdb.org/t/p/original/18W2sgKbvuh0g6sodyQBcAxOkEH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wrTv1SuNERpNHH3uhjBUGIK0diu.jpg"
     },
     {
       "id": 1054867,
@@ -123,17 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uLhdhKiqYbHo3jG0YwLFaJCYoZs.jpg"
     },
     {
-      "id": 1125257,
-      "title": "辣妈辣妹2",
-      "type": "movie",
-      "genreTitle": "喜剧•奇幻•家庭",
-      "rating": 7.0,
-      "release_date": "2025-08-06",
-      "overview": "　　多年以后，在泰丝和安娜经历了一场身份危机之后，安娜如今有了一个女儿和一个未来的继女。在两家人合并时面临的挑战中，泰丝和安娜发现，雷电或许会再次降临。",
-      "poster_url": "https://image.tmdb.org/t/p/original/18W2sgKbvuh0g6sodyQBcAxOkEH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wrTv1SuNERpNHH3uhjBUGIK0diu.jpg"
-    },
-    {
       "id": 237052,
       "title": "Les Disparues de la gare",
       "type": "tv",
@@ -145,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3EpIf4C0cM0faMPGWQetTNdQDaH.jpg"
     },
     {
-      "id": 155,
-      "title": "蝙蝠侠：黑暗骑士",
+      "id": 941109,
+      "title": "脏局",
       "type": "movie",
-      "genreTitle": "剧情•动作•犯罪",
-      "rating": 8.5,
-      "release_date": "2008-07-16",
-      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
+      "genreTitle": "犯罪",
+      "rating": 6.6,
+      "release_date": "2025-09-30",
+      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
     },
     {
       "id": 617126,
@@ -167,15 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 941109,
-      "title": "脏局",
+      "id": 155,
+      "title": "蝙蝠侠：黑暗骑士",
       "type": "movie",
-      "genreTitle": "犯罪",
-      "rating": 6.6,
-      "release_date": "2025-09-30",
-      "overview": "在沙恩·布莱克执导的动作惊悚片《脏局》中，职业大盗帕克与格罗菲尔德、善及一众身怀绝技的同伙，精心策划了盗贼生涯中最大的一票，却因一笔横财意外卷入了与纽约黑帮的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4qY8VSqHWTTbdk2XtGEzBGeS2Gg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kP2xXRCPMPbYU80potDmhC76i2D.jpg"
+      "genreTitle": "剧情•动作•犯罪",
+      "rating": 8.5,
+      "release_date": "2008-07-16",
+      "overview": "从亲眼目睹父母被杀的阴影中走出来的蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰），在戈登警长（加里·奥德曼 Gary Oldman 饰）和检察官哈维（艾伦·艾克哈特 Aaron Eckhart 饰）的帮助下，无后顾之忧地满世界奔波，与罪犯们做着永无休止的争斗，哥谭市的犯罪率也以惊人的速度持续下降。但在哥谭这个科技与污秽并存的城市，平静不可能维持得太久，很快新一轮的混乱就席卷了整个城市，人们再度被恐慌笼罩，而这一切混乱的源头正是小丑（希斯·莱杰 Heath Ledger 饰）。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t41ic4OxC1XKQbvyoADhUS7hjPo.jpg"
     },
     {
       "id": 157336,
@@ -211,29 +211,18 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/c2dPK558peXs9QzacwzHYQqqS2r.jpg"
     },
     {
-      "id": 967941,
-      "title": "魔法坏女巫2",
-      "type": "movie",
-      "genreTitle": "剧情•爱情•奇幻",
-      "rating": 0.0,
-      "release_date": "2025-11-19",
-      "overview": "　　讲述未来西方邪恶女巫艾尔法巴和北方善良女巫格林达之间的关系。这是百老汇音乐剧改编的两部故事片中的第二部。",
-      "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ivMJidrpZWs1ReE30AMbwkUrow.jpg"
+      "id": 120089,
+      "title": "间谍过家家",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.5,
+      "release_date": "2022-04-09",
+      "overview": "为了潜入名校，西国能力最强的间谍“黄昏”被下令组建家庭。但是，他的“女儿”居然是能够读取他人内心的超能力者！“妻子”是暗杀者？互相隐藏了真实身份的新家庭，面临考验与世界危机的痛快家庭喜剧就此展开！",
+      "poster_url": "https://image.tmdb.org/t/p/original/lxxWe2u4NHMqzooIe1czHDvzjXl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/271dk4LLCQTLg1QbUfvXwWsp98L.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 286801,
-      "title": "怪物：艾德·盖恩的故事",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-10-03",
-      "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
-    },
     {
       "id": 1038392,
       "title": "招魂4：终章",
@@ -244,6 +233,17 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
+      "id": 286801,
+      "title": "怪物：艾德·盖恩的故事",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.5,
+      "release_date": "2025-10-03",
+      "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
     },
     {
       "id": 1236470,
@@ -272,7 +272,7 @@
       "title": "创：战神",
       "type": "movie",
       "genreTitle": "科幻•冒险•动作",
-      "rating": 6.7,
+      "rating": 6.9,
       "release_date": "2025-10-08",
       "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
       "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
@@ -288,6 +288,17 @@
       "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
       "poster_url": "https://image.tmdb.org/t/p/original/sCJ70nokIKWUD9RNktjk838HdDu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+    },
+    {
+      "id": 986097,
+      "title": "王者",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.5,
+      "release_date": "2025-09-18",
+      "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
     },
     {
       "id": 7451,
@@ -312,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 986097,
-      "title": "王者",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.5,
-      "release_date": "2025-09-18",
-      "overview": "“为了达到伟大，你愿意牺牲什么？”一个新人职业球员的梦想和潜力，因为接受一个荣誉满身的老将的指导，而变成一场可怕、荒唐的噩梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eC958HujFtJSdSaNdRlN4i6XXs7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rd90m7YsuUr7o41nyu3JRxu9RkO.jpg"
+      "id": 228689,
+      "title": "许愿吧，精灵",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•喜剧",
+      "rating": 7.6,
+      "release_date": "2025-10-03",
+      "overview": "沉睡千年后苏醒的精灵邂逅了个性有如冰山的新主人嘉盈，随着三个愿望引发一连串的冲突，这对主仆就在混乱却感人的魔法风暴中，携手谱写出一段既甜蜜又充满笑声的动人恋曲。",
+      "poster_url": "https://image.tmdb.org/t/p/original/94cP8WFvq3ViPnEnojU5u1d5TiM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/941Ar9Mc8F9stDJSkmaqRPNFSEV.jpg"
     },
     {
       "id": 1245993,
@@ -334,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kjdbOaGGYQHT177IbQjR9OyvUOB.jpg"
     },
     {
-      "id": 228689,
-      "title": "许愿吧，精灵",
+      "id": 120089,
+      "title": "间谍过家家",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•喜剧",
-      "rating": 7.6,
-      "release_date": "2025-10-03",
-      "overview": "沉睡千年后苏醒的精灵邂逅了个性有如冰山的新主人嘉盈，随着三个愿望引发一连串的冲突，这对主仆就在混乱却感人的魔法风暴中，携手谱写出一段既甜蜜又充满笑声的动人恋曲。",
-      "poster_url": "https://image.tmdb.org/t/p/original/94cP8WFvq3ViPnEnojU5u1d5TiM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/941Ar9Mc8F9stDJSkmaqRPNFSEV.jpg"
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.5,
+      "release_date": "2022-04-09",
+      "overview": "为了潜入名校，西国能力最强的间谍“黄昏”被下令组建家庭。但是，他的“女儿”居然是能够读取他人内心的超能力者！“妻子”是暗杀者？互相隐藏了真实身份的新家庭，面临考验与世界危机的痛快家庭喜剧就此展开！",
+      "poster_url": "https://image.tmdb.org/t/p/original/lxxWe2u4NHMqzooIe1czHDvzjXl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/271dk4LLCQTLg1QbUfvXwWsp98L.jpg"
     },
     {
       "id": 110492,
@@ -356,48 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mcdBbEH39OKPIFo0iM3Q1nuHRz8.jpg"
     },
     {
-      "id": 120089,
-      "title": "间谍过家家",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 8.5,
-      "release_date": "2022-04-09",
-      "overview": "为了潜入名校，西国能力最强的间谍“黄昏”被下令组建家庭。但是，他的“女儿”居然是能够读取他人内心的超能力者！“妻子”是暗杀者？互相隐藏了真实身份的新家庭，面临考验与世界危机的痛快家庭喜剧就此展开！",
-      "poster_url": "https://image.tmdb.org/t/p/original/lxxWe2u4NHMqzooIe1czHDvzjXl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/271dk4LLCQTLg1QbUfvXwWsp98L.jpg"
-    },
-    {
-      "id": 1242404,
-      "title": "史蒂夫校长",
+      "id": 1125257,
+      "title": "辣妈辣妹2",
       "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 6.6,
-      "release_date": "2025-09-19",
-      "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
-    },
-    {
-      "id": 911430,
-      "title": "F1：狂飙飞车",
-      "type": "movie",
-      "genreTitle": "动作•剧情",
-      "rating": 7.8,
-      "release_date": "2025-06-25",
-      "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
-    },
-    {
-      "id": 205715,
-      "title": "V世代",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
-      "rating": 7.7,
-      "release_date": "2023-09-28",
-      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+      "genreTitle": "喜剧•奇幻•家庭",
+      "rating": 7.0,
+      "release_date": "2025-08-06",
+      "overview": "　　多年以后，在泰丝和安娜经历了一场身份危机之后，安娜如今有了一个女儿和一个未来的继女。在两家人合并时面临的挑战中，泰丝和安娜发现，雷电或许会再次降临。",
+      "poster_url": "https://image.tmdb.org/t/p/original/18W2sgKbvuh0g6sodyQBcAxOkEH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wrTv1SuNERpNHH3uhjBUGIK0diu.jpg"
     },
     {
       "id": 1061474,
@@ -411,6 +389,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
+      "id": 911430,
+      "title": "F1：狂飙飞车",
+      "type": "movie",
+      "genreTitle": "动作•剧情",
+      "rating": 7.8,
+      "release_date": "2025-06-25",
+      "overview": "桑尼·海耶斯曾经是F1赛场上最具潜力的天才新星，但一场意外葬送了他的职业生涯，从此他沦为人们口中最生不逢时的“沧海遗珠”。三十年后的如今，桑尼是一名自由职业的落魄赛车手，他的前队友——如今是濒临破产的F1车队老板鲁本·塞万提斯却突然找上门来。鲁本说服桑尼重返F1赛场，这不仅是拯救他车队的最后希望，更是桑尼向世界证明自己仍是顶尖车手的最佳契机。桑尼将与车队的热门新秀乔舒亚·皮尔斯并肩前行，这位年轻的车手也渴望在赛道上书写自己的传奇。然而伴随着引擎开始轰鸣，桑尼过去的创伤也如影随形，他同时意识到在F1的世界里，并肩作战的队友也会是最强劲的对手，而通往自我救赎的道路，绝非孤身一人能够走完。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5f0SkrD6VUn34fUe4NDkda9bFdb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/y1iNp7dlwr8qfOwSNksseVjuSQt.jpg"
+    },
+    {
+      "id": 1242404,
+      "title": "史蒂夫校长",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 6.6,
+      "release_date": "2025-09-19",
+      "overview": "背景设定在 90 年代中期，讲述史蒂夫校长和校内学生在最后机会改造学校度过的关键一天。史蒂夫奋力守护学校，解决眼前的停办危机，同时还得应付自己的心理问题。在史蒂夫蜡烛两头烧之际，问题少年夏伊则为了过去与未来苦苦挣扎，不只面对内心的脆弱面，更要压抑自我毁灭与诉诸暴力的冲动。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8iUVbCEBbMqsJusljWNOpcUSx51.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/58MD9aLpYJLGV1FrwXgiAjIqVBa.jpg"
+    },
+    {
+      "id": 205715,
+      "title": "V世代",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
+      "rating": 7.7,
+      "release_date": "2023-09-28",
+      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+    },
+    {
       "id": 157336,
       "title": "星际穿越",
       "type": "movie",
@@ -420,17 +431,6 @@
       "overview": "近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前 NASA 宇航员库珀（马修·麦康纳 Matthew McConaughey 饰）接连在女儿墨菲（麦肯吉·弗依 Mackenzie Foy 饰）的书房发现奇怪的重力场现象，随即得知在某个未知区域内前 NASA 成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA 借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授（迈克尔·凯恩 Michael Caine 饰）的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德（安妮·海瑟薇 Anne Hathaway 饰）、罗米利（大卫·吉雅西 David Gyasi 饰）、多伊尔（韦斯·本特利 Wes Bentley 饰）搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……",
       "poster_url": "https://image.tmdb.org/t/p/original/zq8j3XRJDVqNhiRMensg2uTkYrd.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/NerBrEnSwyOWKwhsgoZrjTBaLM.jpg"
-    },
-    {
-      "id": 1125257,
-      "title": "辣妈辣妹2",
-      "type": "movie",
-      "genreTitle": "喜剧•奇幻•家庭",
-      "rating": 7.0,
-      "release_date": "2025-08-06",
-      "overview": "　　多年以后，在泰丝和安娜经历了一场身份危机之后，安娜如今有了一个女儿和一个未来的继女。在两家人合并时面临的挑战中，泰丝和安娜发现，雷电或许会再次降临。",
-      "poster_url": "https://image.tmdb.org/t/p/original/18W2sgKbvuh0g6sodyQBcAxOkEH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wrTv1SuNERpNHH3uhjBUGIK0diu.jpg"
     },
     {
       "id": 1218925,
