@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23 00:01:22",
+  "last_updated": "2025-10-23 01:02:00",
   "today_global": [
     {
       "id": 604079,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
     },
     {
-      "id": 1362315,
-      "title": "推动摇篮的手",
-      "type": "movie",
-      "genreTitle": "惊悚•恐怖",
-      "rating": 2.5,
-      "release_date": "2025-10-21",
-      "overview": "影片翻拍自1992年的同名恐怖片。\r 　　Caitlin（玛丽·伊丽莎白·温斯特德 Mary Elizabeth Winstead 饰） 聘请到一位似乎完美的新保姆 Polly（麦卡·梦露 Maika Monroe 饰）以为从此可以安心，殊不知保姆暗藏心机……一切幸福，原来只是噩梦的开始。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oL3S9G2beKKcsgsYNFIqo7uIYDb.jpg"
-    },
-    {
       "id": 247756,
       "title": "佛罗伦萨杀人魔",
       "type": "tv",
@@ -55,6 +44,17 @@
       "overview": "根据真实案件改编，1968年至1985年间，活跃在佛罗伦萨的连环杀手杀害了14名受害者，受害者通常是在郊外发生亲密关系的年轻情侣，该案至今未破。17 年的恐怖，震惊了整整一代人。",
       "poster_url": "https://image.tmdb.org/t/p/original/9tuv0kHfVEfNJaqXUld646y1g0I.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nYYJBixUNZAk4lmWdE5NBUfIMuw.jpg"
+    },
+    {
+      "id": 1362315,
+      "title": "推动摇篮的手",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖",
+      "rating": 2.5,
+      "release_date": "2025-10-21",
+      "overview": "影片翻拍自1992年的同名恐怖片。\r 　　Caitlin（玛丽·伊丽莎白·温斯特德 Mary Elizabeth Winstead 饰） 聘请到一位似乎完美的新保姆 Polly（麦卡·梦露 Maika Monroe 饰）以为从此可以安心，殊不知保姆暗藏心机……一切幸福，原来只是噩梦的开始。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oL3S9G2beKKcsgsYNFIqo7uIYDb.jpg"
     },
     {
       "id": 1235746,
@@ -112,39 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
-      "id": 1386827,
-      "title": "郊狼",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 5.7,
-      "release_date": "2025-10-02",
-      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hlLzR4nabtbGsqyqTOUn7XzuqV6.jpg"
-    },
-    {
-      "id": 301498,
-      "title": "黑帮战争：费城黑手党瓦解实录",
-      "type": "tv",
-      "genreTitle": "纪录•犯罪",
-      "rating": 0.0,
-      "release_date": "2025-10-22",
-      "overview": "费城是兄弟之爱的城市，但在 90 年代，它曾是一场血腥屠杀。在这部真实犯罪系列中，两个交战的黑帮派系为争夺控制权而战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kBKVnDdY5oBapK24XMRZNMU1DGS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dEvbe7rj6vdcbMpZUn1pE682qjh.jpg"
-    },
-    {
-      "id": 507244,
-      "title": "余烬夺宝",
-      "type": "movie",
-      "genreTitle": "科幻•动作•喜剧",
-      "rating": 6.0,
-      "release_date": "2025-08-20",
-      "overview": "在一场巨大的太阳耀斑摧毁了地球东半球之后，一名大胆的寻宝者受雇前往欧洲去寻找《蒙娜丽莎》，却发现这个世界更需要的是英雄，而非一幅画。",
-      "poster_url": "https://image.tmdb.org/t/p/original/o56GXr0H888NJjN3E6auc04MWTC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w7JCEAMCafn3C1DHE3Yn6QpdecM.jpg"
-    },
-    {
       "id": 95480,
       "title": "Slow Horses",
       "type": "tv",
@@ -156,26 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
-      "id": 927254,
-      "title": "蠢特夫妇",
+      "id": 1386827,
+      "title": "郊狼",
       "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 6.8,
-      "release_date": "2025-10-17",
-      "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
-      "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
-    },
-    {
-      "id": 1419027,
-      "title": "攻击鬼魂13号",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.0,
-      "release_date": "2025-06-13",
-      "overview": "欺负人是不好，可是如果从你活着的时候就欺负你，直到你死了变成鬼，还不停的欺负你……被欺负到死，他们还怎么活下去？",
-      "poster_url": "https://image.tmdb.org/t/p/original/beBUaewkS1ytANQJ5F2UXIo0Wty.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rC6ldrOrQGcCqgMOvAUV2Mi1Iw1.jpg"
+      "genreTitle": "恐怖•喜剧",
+      "rating": 5.7,
+      "release_date": "2025-10-02",
+      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hlLzR4nabtbGsqyqTOUn7XzuqV6.jpg"
     },
     {
       "id": 1218925,
@@ -189,6 +145,50 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "剧情•恐怖•科幻",
+      "rating": 8.4,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/5fqmZYw3o22VoJpXx9bjQuc7ZPV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
+    },
+    {
+      "id": 1419027,
+      "title": "攻击鬼魂13号",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.0,
+      "release_date": "2025-06-13",
+      "overview": "欺负人是不好，可是如果从你活着的时候就欺负你，直到你死了变成鬼，还不停的欺负你……被欺负到死，他们还怎么活下去？",
+      "poster_url": "https://image.tmdb.org/t/p/original/beBUaewkS1ytANQJ5F2UXIo0Wty.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rC6ldrOrQGcCqgMOvAUV2Mi1Iw1.jpg"
+    },
+    {
+      "id": 301498,
+      "title": "黑帮战争：费城黑手党瓦解实录",
+      "type": "tv",
+      "genreTitle": "纪录•犯罪",
+      "rating": 0.0,
+      "release_date": "2025-10-22",
+      "overview": "费城是兄弟之爱的城市，但在 90 年代，它曾是一场血腥屠杀。在这部真实犯罪系列中，两个交战的黑帮派系为争夺控制权而战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kBKVnDdY5oBapK24XMRZNMU1DGS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dEvbe7rj6vdcbMpZUn1pE682qjh.jpg"
+    },
+    {
+      "id": 927254,
+      "title": "蠢特夫妇",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 6.8,
+      "release_date": "2025-10-17",
+      "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
+      "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
+    },
+    {
       "id": 1038392,
       "title": "招魂4：终章",
       "type": "movie",
@@ -200,26 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
-      "id": 1156594,
-      "title": "是我们的错",
+      "id": 507244,
+      "title": "余烬夺宝",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.8,
-      "release_date": "2025-10-15",
-      "overview": "尼克和诺亚的关系正处于最美好的时刻。然而，这对恋人似乎再也无法回到从前。一系列事件将接踵而至，让他们最终明白彼此是否真正适合对方。或者，相反地，他们会发现最好的选择是分道扬镳，即便要忘记如此深刻的爱或抹去烙印在心上的记忆是那么困难。爱并非总是足够，而原谅有时也不足以修复一切。他们能否放下过去，重新开始呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vYTif7Io5juo4ASAgDdESKn6lSy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
+      "genreTitle": "科幻•动作•喜剧",
+      "rating": 6.0,
+      "release_date": "2025-08-20",
+      "overview": "在一场巨大的太阳耀斑摧毁了地球东半球之后，一名大胆的寻宝者受雇前往欧洲去寻找《蒙娜丽莎》，却发现这个世界更需要的是英雄，而非一幅画。",
+      "poster_url": "https://image.tmdb.org/t/p/original/o56GXr0H888NJjN3E6auc04MWTC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w7JCEAMCafn3C1DHE3Yn6QpdecM.jpg"
     },
     {
-      "id": 1396,
-      "title": "绝命毒师",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 8.9,
-      "release_date": "2008-01-20",
-      "overview": "新墨西哥州的高中化学老师沃尔特·H·怀特是拮据家庭的唯一经济来源。他大半生安分守己，兢兢业业，却在50岁生日之际突然得知自己罹患肺癌晚期的噩耗，原本便不甚顺意的人生顿时雪上加霜。为了保障怀孕的妻子斯凯勒和残疾的儿子小沃特能在自己死后衣食无忧，沃尔特决意铤而走险。他主动找到曾经的学生、而今的毒贩小混混杰西·平克曼谈合作，并运用娴熟高超的化学技术提炼出高纯度冰毒交给后者贩售。孰料事态的发展却在平克曼带回毒品供销商疯狂小八及其表弟后急转直下，沃尔特的人生也由此彻底步向失控。他被迫开始了教书与制毒的双重生活，逐渐坠落至万劫不复的深渊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9tfFl11jL5fBA2qtxRxro7yW8Fh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2TAZVsYn5mEMz4A48JnKwXnOOPs.jpg"
+      "id": 1230368,
+      "title": "无处释放我",
+      "type": "movie",
+      "genreTitle": "剧情•音乐",
+      "rating": 5.0,
+      "release_date": "2025-10-22",
+      "overview": "　　讲述布鲁斯·斯普林斯汀在与个人恶魔作斗争的同时，创作了1982年的专辑《内布加斯加》，这也是是近代音乐史上情感最原始、最黑暗、最真实的专辑之一。",
+      "poster_url": "https://image.tmdb.org/t/p/original/csBV3eq4RDjNg1acNQ8kwOZyPlZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dZdUxPhvTNyX1K4dGjxsciEi11S.jpg"
     }
   ],
   "week_global_all": [
@@ -246,6 +246,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     },
     {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1267905,
+      "title": "玫瑰",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情•爱情",
+      "rating": 7.1,
+      "release_date": "2025-08-27",
+      "overview": "艾薇（奥利维娅·科尔曼 Olivia Colman 饰）和西奥（本尼迪克特·康伯巴奇 Benedict Cumberbatch 饰）是一对表面幸福、实则危机四伏的中产夫妻。 他们有钱、有貌、有小孩，人生完美无死角……直到现实开始崩坏。 他失势、她崛起；爱情不再对等，成就变成武器，婚姻成了战场。 当爱不再是羁绊，而是竞争，家不再安全而是战场，你该如何处理枕边人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2tF5Okwh896buhmbcndnVphX8jA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
+    },
+    {
       "id": 1156594,
       "title": "是我们的错",
       "type": "movie",
@@ -268,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oL3S9G2beKKcsgsYNFIqo7uIYDb.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+      "id": 247756,
+      "title": "佛罗伦萨杀人魔",
+      "type": "tv",
+      "genreTitle": "犯罪•悬疑•剧情",
+      "rating": 3.0,
+      "release_date": "2025-10-22",
+      "overview": "根据真实案件改编，1968年至1985年间，活跃在佛罗伦萨的连环杀手杀害了14名受害者，受害者通常是在郊外发生亲密关系的年轻情侣，该案至今未破。17 年的恐怖，震惊了整整一代人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9tuv0kHfVEfNJaqXUld646y1g0I.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nYYJBixUNZAk4lmWdE5NBUfIMuw.jpg"
     },
     {
       "id": 1197137,
@@ -290,28 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
-      "id": 1267905,
-      "title": "玫瑰",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情•爱情",
-      "rating": 7.1,
-      "release_date": "2025-08-27",
-      "overview": "艾薇（奥利维娅·科尔曼 Olivia Colman 饰）和西奥（本尼迪克特·康伯巴奇 Benedict Cumberbatch 饰）是一对表面幸福、实则危机四伏的中产夫妻。 他们有钱、有貌、有小孩，人生完美无死角……直到现实开始崩坏。 他失势、她崛起；爱情不再对等，成就变成武器，婚姻成了战场。 当爱不再是羁绊，而是竞争，家不再安全而是战场，你该如何处理枕边人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2tF5Okwh896buhmbcndnVphX8jA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
-    },
-    {
-      "id": 247756,
-      "title": "佛罗伦萨杀人魔",
-      "type": "tv",
-      "genreTitle": "犯罪•悬疑•剧情",
-      "rating": 3.0,
-      "release_date": "2025-10-22",
-      "overview": "根据真实案件改编，1968年至1985年间，活跃在佛罗伦萨的连环杀手杀害了14名受害者，受害者通常是在郊外发生亲密关系的年轻情侣，该案至今未破。17 年的恐怖，震惊了整整一代人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9tuv0kHfVEfNJaqXUld646y1g0I.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nYYJBixUNZAk4lmWdE5NBUfIMuw.jpg"
-    },
-    {
       "id": 927254,
       "title": "蠢特夫妇",
       "type": "movie",
@@ -321,6 +321,17 @@
       "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
       "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
       "id": 1038392,
@@ -356,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "剧情•恐怖•科幻",
+      "rating": 8.4,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/5fqmZYw3o22VoJpXx9bjQuc7ZPV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
+    },
+    {
       "id": 1241921,
       "title": "绮梦之旅",
       "type": "movie",
@@ -389,26 +411,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
       "type": "movie",
-      "genreTitle": "剧情•恐怖•科幻",
+      "genreTitle": "动画•动作•奇幻",
       "rating": 8.4,
-      "release_date": "2025-10-17",
+      "release_date": "2025-09-19",
       "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/5fqmZYw3o22VoJpXx9bjQuc7ZPV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 286801,
@@ -420,28 +442,6 @@
       "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
       "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
-    },
-    {
-      "id": 63926,
-      "title": "一拳超人",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 8.4,
-      "release_date": "2015-10-05",
-      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
-    },
-    {
-      "id": 2190,
-      "title": "南方公园",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.3,
-      "release_date": "1997-08-13",
-      "overview": "《南方公园》，其他译法包括《衰仔乐园》（港版翻译）或《南方四贱客》（台版翻译），是美国喜剧中心（Comedy Central）制作的一部剪纸摆拍动画剧集，由Matt Stone和Trey Parker创作。主角为科罗拉多州虚构的南方公园小镇的四名10岁的男孩。南方公园经常通过歪曲式的摹仿来讽刺和嘲弄美国文化和社会时事的方方面面，挑战了许多根深蒂固的观念和禁忌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7qdorMrUa7Pgzhty7RqrsGZ0Zgo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
     }
   ],
   "popular_movies": [
