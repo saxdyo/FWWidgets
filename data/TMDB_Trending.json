@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22 12:11:24",
+  "last_updated": "2025-10-22 13:01:24",
   "today_global": [
     {
       "id": 604079,
@@ -28,7 +28,7 @@
       "title": "冬日之死",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 7.0,
+      "rating": 7.2,
       "release_date": "2025-09-23",
       "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
       "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
@@ -50,7 +50,7 @@
       "title": "银莲花",
       "type": "movie",
       "genreTitle": "剧情",
-      "rating": 6.1,
+      "rating": 6.3,
       "release_date": "2025-10-02",
       "overview": "中年男子（肖恩·宾 饰）从郊区的家中启程，走进一片森林，去探望与世隔绝、形同陌路的隐居兄弟（丹尼尔·戴-刘易斯 饰）。两人因一段神秘而复杂的往事相连，关系充满张力，却偶尔流露温情。几十年前的某桩毁灭性事件，永远改变了他们的命运。",
       "poster_url": "https://image.tmdb.org/t/p/original/kXFHVJqZkWtkSRlLpv2clN8KP6E.jpg",
@@ -79,6 +79,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
     },
     {
+      "id": 205715,
+      "title": "V世代",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
+      "rating": 7.7,
+      "release_date": "2023-09-28",
+      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+    },
+    {
+      "id": 1386827,
+      "title": "郊狼",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧",
+      "rating": 6.1,
+      "release_date": "2025-10-02",
+      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hlLzR4nabtbGsqyqTOUn7XzuqV6.jpg"
+    },
+    {
       "id": 1156594,
       "title": "是我们的错",
       "type": "movie",
@@ -101,17 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bwzERPU6WzK3oG8YzAgYQRlwxaV.jpg"
     },
     {
-      "id": 1386827,
-      "title": "郊狼",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 6.1,
-      "release_date": "2025-10-02",
-      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hlLzR4nabtbGsqyqTOUn7XzuqV6.jpg"
-    },
-    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -121,17 +132,6 @@
       "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
       "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
-    },
-    {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
-      "type": "movie",
-      "genreTitle": "动画•动作•奇幻",
-      "rating": 8.4,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
       "id": 37854,
@@ -145,26 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 617126,
-      "title": "神奇四侠：初露锋芒",
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 7.1,
-      "release_date": "2025-07-23",
-      "overview": "故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
-    },
-    {
-      "id": 205715,
-      "title": "V世代",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
-      "rating": 7.7,
-      "release_date": "2023-09-28",
-      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 8.4,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
       "id": 211684,
@@ -176,6 +165,28 @@
       "overview": "达里尔·迪克森醒来后发现自己身处法国的海岸，但他不知道自己为何会出现在该地。他随后便踏上旅途，一边调查他来到法国的原因，一边寻找回家的路。",
       "poster_url": "https://image.tmdb.org/t/p/original/rzBzemvzpNuEGacbPFITnbgUTXj.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lggCNnWdJL1IDoUzT7j8SUcjTAI.jpg"
+    },
+    {
+      "id": 63926,
+      "title": "一拳超人",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.4,
+      "release_date": "2015-10-05",
+      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
+    },
+    {
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 7.1,
+      "release_date": "2025-07-23",
+      "overview": "故事设定在以1960年代为灵感的复古未来世界，“漫威第一家庭”惊奇先生（佩德罗·帕斯卡 Pedro Pascal 饰）、隐形女（凡妮莎·柯比 Vanessa Kirby 饰）、霹雳火（约瑟夫·奎恩 Joseph Quinn 饰）和石头人（艾邦·摩斯-巴克拉赫 Ebon Moss-Bachrach 饰）面临迄今为止最艰巨的挑战。他们必须在英雄角色和家庭关系之间取得平衡，同时保卫地球，抵御名为行星吞噬者（拉尔夫·伊内森 Ralph Ineson 饰）的贪婪宇宙神及其神秘的使者银影侠（朱莉娅·加纳 Julia Garner 饰）。而当行星吞噬者计划吞噬整个星球及所有人，没有人可以置身事外。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
       "id": 1038392,
@@ -209,31 +220,9 @@
       "overview": "　　佛罗里达州一起看似微不足道的邻里纠纷升级为致命暴力。警察的执法记录仪视频和调查性采访揭示了佛罗里达“不退让法”带来的后果。在一个普通的美国家庭社区，孩子们互相玩耍，生活井然有序，然而其中一位女性却总是将任何冲突都视为需要报警处理的攻击行为。一位当地“凯伦”（Karen，指特权阶层中颐指气使的白人女性）令人讨厌的行为，逐渐被揭露为更加黑暗和令人发指的真相。导演吉塔·甘德比尔（Geeta Gandbhir）通过巧妙地呈现真实画面讲述了一个独特的美国故事，让事件本身以令人恐惧的清晰度为自己发声。然而，问题依然存在：正义能否得到伸张？还是那个本应用于保护一部分人免受另一部分人侵害的法律体系，会介入并为不可饶恕的行为开脱？《完美邻居》是对一起恐怖事件的深刻剖析，它对与那些可能住在隔壁的“怪物”共同生活的挑战有着深远的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/2NE7yN45zo19o4LJr6JFxDWmh2b.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2a3CC6VpCjqZ23Fe18GstMGg5Pj.jpg"
-    },
-    {
-      "id": 63926,
-      "title": "一拳超人",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 8.4,
-      "release_date": "2015-10-05",
-      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1156594,
-      "title": "是我们的错",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.8,
-      "release_date": "2025-10-15",
-      "overview": "尼克和诺亚的关系正处于最美好的时刻。然而，这对恋人似乎再也无法回到从前。一系列事件将接踵而至，让他们最终明白彼此是否真正适合对方。或者，相反地，他们会发现最好的选择是分道扬镳，即便要忘记如此深刻的爱或抹去烙印在心上的记忆是那么困难。爱并非总是足够，而原谅有时也不足以修复一切。他们能否放下过去，重新开始呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vYTif7Io5juo4ASAgDdESKn6lSy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
-    },
     {
       "id": 604079,
       "title": "死亡竞走",
@@ -244,6 +233,17 @@
       "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
       "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+    },
+    {
+      "id": 1156594,
+      "title": "是我们的错",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.8,
+      "release_date": "2025-10-15",
+      "overview": "尼克和诺亚的关系正处于最美好的时刻。然而，这对恋人似乎再也无法回到从前。一系列事件将接踵而至，让他们最终明白彼此是否真正适合对方。或者，相反地，他们会发现最好的选择是分道扬镳，即便要忘记如此深刻的爱或抹去烙印在心上的记忆是那么困难。爱并非总是足够，而原谅有时也不足以修复一切。他们能否放下过去，重新开始呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vYTif7Io5juo4ASAgDdESKn6lSy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
     },
     {
       "id": 7451,
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 927254,
-      "title": "蠢特夫妇",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 6.9,
-      "release_date": "2025-10-17",
-      "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
-      "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
-    },
-    {
       "id": 1197137,
       "title": "黑色电话2",
       "type": "movie",
@@ -279,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
+      "id": 927254,
+      "title": "蠢特夫妇",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 6.9,
+      "release_date": "2025-10-17",
+      "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
+      "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
+    },
+    {
       "id": 1267905,
       "title": "玫瑰",
       "type": "movie",
@@ -288,6 +288,17 @@
       "overview": "艾薇（奥利维娅·科尔曼 Olivia Colman 饰）和西奥（本尼迪克特·康伯巴奇 Benedict Cumberbatch 饰）是一对表面幸福、实则危机四伏的中产夫妻。 他们有钱、有貌、有小孩，人生完美无死角……直到现实开始崩坏。 他失势、她崛起；爱情不再对等，成就变成武器，婚姻成了战场。 当爱不再是羁绊，而是竞争，家不再安全而是战场，你该如何处理枕边人。",
       "poster_url": "https://image.tmdb.org/t/p/original/2tF5Okwh896buhmbcndnVphX8jA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
+    },
+    {
+      "id": 205715,
+      "title": "V世代",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
+      "rating": 7.7,
+      "release_date": "2023-09-28",
+      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
     },
     {
       "id": 533533,
@@ -323,6 +334,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.0,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
       "id": 2190,
       "title": "南方公园",
       "type": "tv",
@@ -345,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
-      "id": 205715,
-      "title": "V世代",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
-      "rating": 7.7,
-      "release_date": "2023-09-28",
-      "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+      "id": 1241921,
+      "title": "绮梦之旅",
+      "type": "movie",
+      "genreTitle": "爱情•奇幻•剧情",
+      "rating": 6.3,
+      "release_date": "2025-09-17",
+      "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
+      "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
     },
     {
       "id": 286801,
@@ -367,48 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
     },
     {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.0,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
-    },
-    {
-      "id": 1241921,
-      "title": "绮梦之旅",
-      "type": "movie",
-      "genreTitle": "爱情•奇幻•剧情",
-      "rating": 6.3,
-      "release_date": "2025-09-17",
-      "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
-    },
-    {
-      "id": 228305,
-      "title": "特遣任务",
+      "id": 153312,
+      "title": "塔尔萨之王",
       "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 6.2,
-      "release_date": "2025-09-07",
-      "overview": "联邦调查局探员汤姆·布兰迪斯（马克·鲁法洛 饰）率领一支特遣队来到费城郊区的劳工阶级住宅区，想要终结近来发生的一连串毒窟劫案；身为幕后主使的罗比·普伦德格拉斯特（汤姆·派福瑞 饰）则一边策划抢劫，一边应对自己支离破碎的家庭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4NG7R2K780lbqwa5PUMZS6osQiu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bwzERPU6WzK3oG8YzAgYQRlwxaV.jpg"
-    },
-    {
-      "id": 203857,
-      "title": "头号外交官",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 7.5,
-      "release_date": "2023-04-20",
-      "overview": "在一场国际危机期间，这名职业外交官既要应对身为英国大使的重责，又要处理她与政坛明星的动荡婚姻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xmVWrkNhIIWpNiV8abuMvL5wDM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s5KaidPKwFkCM7BvZALVQ7yjbI4.jpg"
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2022-11-13",
+      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
     },
     {
       "id": 1078605,
@@ -433,15 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 153312,
-      "title": "塔尔萨之王",
+      "id": 228305,
+      "title": "特遣任务",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2022-11-13",
-      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 6.2,
+      "release_date": "2025-09-07",
+      "overview": "联邦调查局探员汤姆·布兰迪斯（马克·鲁法洛 饰）率领一支特遣队来到费城郊区的劳工阶级住宅区，想要终结近来发生的一连串毒窟劫案；身为幕后主使的罗比·普伦德格拉斯特（汤姆·派福瑞 饰）则一边策划抢劫，一边应对自己支离破碎的家庭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4NG7R2K780lbqwa5PUMZS6osQiu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bwzERPU6WzK3oG8YzAgYQRlwxaV.jpg"
+    },
+    {
+      "id": 1235746,
+      "title": "冬日之死",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
+      "release_date": "2025-09-23",
+      "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q45Gan0K2N5dNNh1jzoJWxArQlA.jpg"
     }
   ],
   "popular_movies": [
