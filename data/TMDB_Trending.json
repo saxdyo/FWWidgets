@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22 18:02:19",
+  "last_updated": "2025-10-22 19:01:23",
   "today_global": [
     {
       "id": 604079,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
     },
     {
-      "id": 1235746,
-      "title": "冬日之死",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.2,
-      "release_date": "2025-09-23",
-      "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q45Gan0K2N5dNNh1jzoJWxArQlA.jpg"
-    },
-    {
       "id": 205715,
       "title": "V世代",
       "type": "tv",
@@ -44,6 +33,17 @@
       "overview": "《黑袍纠察队》衍生剧《V世代》是一部以美国唯一的超级英雄学院为背景的惊心动魄的新剧集。这些天赋异禀的学生们将经历道德的考验，争夺大学的最高排名，以及加入沃特国际的超级英雄精英团队七人队的机会。当这所学校的黑暗秘密曝光时，他们必须决定自己想成为什么样的英雄。",
       "poster_url": "https://image.tmdb.org/t/p/original/lT3ZT7GzvOt2DJQhjFIqxD9TaC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
+    },
+    {
+      "id": 1235746,
+      "title": "冬日之死",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
+      "release_date": "2025-09-23",
+      "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q45Gan0K2N5dNNh1jzoJWxArQlA.jpg"
     },
     {
       "id": 7451,
@@ -75,30 +75,8 @@
       "rating": 1.0,
       "release_date": "2025-10-21",
       "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/hH953zlL3xdEDpizAquISRrSm1P.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oL3S9G2beKKcsgsYNFIqo7uIYDb.jpg"
-    },
-    {
-      "id": 106646,
-      "title": "华尔街之狼",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2013-12-25",
-      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
-      "poster_url": "https://image.tmdb.org/t/p/original/e98lcYAxVpYxWvi6lmmiItZDmB0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
-    },
-    {
-      "id": 1386827,
-      "title": "郊狼",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 6.1,
-      "release_date": "2025-10-02",
-      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hlLzR4nabtbGsqyqTOUn7XzuqV6.jpg"
     },
     {
       "id": 247756,
@@ -112,8 +90,30 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nYYJBixUNZAk4lmWdE5NBUfIMuw.jpg"
     },
     {
+      "id": 245827,
+      "title": "拉撒路",
+      "type": "tv",
+      "genreTitle": "悬疑",
+      "rating": 0.0,
+      "release_date": "2025-10-22",
+      "overview": "法医精神病学家乔尔·拉撒路在父亲离奇身亡后，被迫面对心中埋藏多年的恶梦。起初，他以为父亲的死是自杀，但很快便卷入层层谋杀阴谋，并透过一连串已故熟人的离奇幻象，展开一场与时间赛跑的缉凶行动。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6tTDjWJfPkcYfotG7g7o4g1Xs5z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3JC1cGw9Absw6bx8yKtqdxoOe0M.jpg"
+    },
+    {
+      "id": 1386827,
+      "title": "郊狼",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧",
+      "rating": 6.0,
+      "release_date": "2025-10-02",
+      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hlLzR4nabtbGsqyqTOUn7XzuqV6.jpg"
+    },
+    {
       "id": 228305,
-      "title": "特遣任务",
+      "title": "特别小组",
       "type": "tv",
       "genreTitle": "犯罪•剧情",
       "rating": 6.2,
@@ -123,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bwzERPU6WzK3oG8YzAgYQRlwxaV.jpg"
     },
     {
-      "id": 927254,
-      "title": "蠢特夫妇",
+      "id": 106646,
+      "title": "华尔街之狼",
       "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 6.9,
-      "release_date": "2025-10-17",
-      "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
-      "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2013-12-25",
+      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e98lcYAxVpYxWvi6lmmiItZDmB0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
     },
     {
       "id": 1156594,
@@ -143,6 +143,17 @@
       "overview": "尼克和诺亚的关系正处于最美好的时刻。然而，这对恋人似乎再也无法回到从前。一系列事件将接踵而至，让他们最终明白彼此是否真正适合对方。或者，相反地，他们会发现最好的选择是分道扬镳，即便要忘记如此深刻的爱或抹去烙印在心上的记忆是那么困难。爱并非总是足够，而原谅有时也不足以修复一切。他们能否放下过去，重新开始呢？",
       "poster_url": "https://image.tmdb.org/t/p/original/vYTif7Io5juo4ASAgDdESKn6lSy.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
+    },
+    {
+      "id": 927254,
+      "title": "蠢特夫妇",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 6.9,
+      "release_date": "2025-10-17",
+      "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
+      "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
     },
     {
       "id": 1038392,
@@ -178,28 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2TAZVsYn5mEMz4A48JnKwXnOOPs.jpg"
     },
     {
-      "id": 245827,
-      "title": "拉撒路",
-      "type": "tv",
-      "genreTitle": "悬疑",
-      "rating": 0.0,
-      "release_date": "2025-10-22",
-      "overview": "法医精神病学家乔尔·拉撒路在父亲离奇身亡后，被迫面对心中埋藏多年的恶梦。起初，他以为父亲的死是自杀，但很快便卷入层层谋杀阴谋，并透过一连串已故熟人的离奇幻象，展开一场与时间赛跑的缉凶行动。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6tTDjWJfPkcYfotG7g7o4g1Xs5z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3JC1cGw9Absw6bx8yKtqdxoOe0M.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 617126,
       "title": "神奇四侠：初露锋芒",
       "type": "movie",
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 211684,
-      "title": "行尸走肉：达里尔·迪克森",
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.4,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险•剧情",
-      "rating": 8.1,
-      "release_date": "2023-09-10",
-      "overview": "达里尔·迪克森醒来后发现自己身处法国的海岸，但他不知道自己为何会出现在该地。他随后便踏上旅途，一边调查他来到法国的原因，一边寻找回家的路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rzBzemvzpNuEGacbPFITnbgUTXj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lggCNnWdJL1IDoUzT7j8SUcjTAI.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "week_global_all": [
@@ -279,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
+      "id": 1362315,
+      "title": "推动摇篮的手",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖",
+      "rating": 1.0,
+      "release_date": "2025-10-21",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oL3S9G2beKKcsgsYNFIqo7uIYDb.jpg"
+    },
+    {
       "id": 927254,
       "title": "蠢特夫妇",
       "type": "movie",
@@ -301,26 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
-      "id": 1362315,
-      "title": "推动摇篮的手",
-      "type": "movie",
-      "genreTitle": "惊悚•恐怖",
-      "rating": 1.0,
-      "release_date": "2025-10-21",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/hH953zlL3xdEDpizAquISRrSm1P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oL3S9G2beKKcsgsYNFIqo7uIYDb.jpg"
-    },
-    {
-      "id": 1241921,
-      "title": "绮梦之旅",
-      "type": "movie",
-      "genreTitle": "爱情•奇幻•剧情",
-      "rating": 6.3,
-      "release_date": "2025-09-17",
-      "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
+      "id": 247756,
+      "title": "佛罗伦萨杀人魔",
+      "type": "tv",
+      "genreTitle": "犯罪•悬疑•剧情",
+      "rating": 0.0,
+      "release_date": "2025-10-22",
+      "overview": "　　根据真实案件改编，1968年至1985年间，活跃在佛罗伦萨的连环杀手杀害了14名受害者，受害者通常是在郊外发生亲密关系的年轻情侣，该案至今未破。17 年的恐怖，震惊了整整一代人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9tuv0kHfVEfNJaqXUld646y1g0I.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nYYJBixUNZAk4lmWdE5NBUfIMuw.jpg"
     },
     {
       "id": 1197137,
@@ -334,15 +334,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
-      "id": 106646,
-      "title": "华尔街之狼",
+      "id": 228305,
+      "title": "特别小组",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 6.2,
+      "release_date": "2025-09-07",
+      "overview": "联邦调查局探员汤姆·布兰迪斯（马克·鲁法洛 饰）率领一支特遣队来到费城郊区的劳工阶级住宅区，想要终结近来发生的一连串毒窟劫案；身为幕后主使的罗比·普伦德格拉斯特（汤姆·派福瑞 饰）则一边策划抢劫，一边应对自己支离破碎的家庭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4NG7R2K780lbqwa5PUMZS6osQiu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bwzERPU6WzK3oG8YzAgYQRlwxaV.jpg"
+    },
+    {
+      "id": 1241921,
+      "title": "绮梦之旅",
       "type": "movie",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2013-12-25",
-      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
-      "poster_url": "https://image.tmdb.org/t/p/original/e98lcYAxVpYxWvi6lmmiItZDmB0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
+      "genreTitle": "爱情•奇幻•剧情",
+      "rating": 6.3,
+      "release_date": "2025-09-17",
+      "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
+      "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
     },
     {
       "id": 617126,
@@ -367,26 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
-      "id": 63926,
-      "title": "一拳超人",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 8.4,
-      "release_date": "2015-10-05",
-      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
-    },
-    {
-      "id": 228305,
-      "title": "特遣任务",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 6.2,
-      "release_date": "2025-09-07",
-      "overview": "联邦调查局探员汤姆·布兰迪斯（马克·鲁法洛 饰）率领一支特遣队来到费城郊区的劳工阶级住宅区，想要终结近来发生的一连串毒窟劫案；身为幕后主使的罗比·普伦德格拉斯特（汤姆·派福瑞 饰）则一边策划抢劫，一边应对自己支离破碎的家庭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4NG7R2K780lbqwa5PUMZS6osQiu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bwzERPU6WzK3oG8YzAgYQRlwxaV.jpg"
+      "id": 106646,
+      "title": "华尔街之狼",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2013-12-25",
+      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e98lcYAxVpYxWvi6lmmiItZDmB0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
     },
     {
       "id": 575265,
@@ -400,37 +400,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
-      "id": 247756,
-      "title": "佛罗伦萨杀人魔",
-      "type": "tv",
-      "genreTitle": "犯罪•悬疑•剧情",
-      "rating": 0.0,
-      "release_date": "2025-10-22",
-      "overview": "　　根据真实案件改编，1968年至1985年间，活跃在佛罗伦萨的连环杀手杀害了14名受害者，受害者通常是在郊外发生亲密关系的年轻情侣，该案至今未破。17 年的恐怖，震惊了整整一代人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9tuv0kHfVEfNJaqXUld646y1g0I.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nYYJBixUNZAk4lmWdE5NBUfIMuw.jpg"
+      "id": 1235746,
+      "title": "冬日之死",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
+      "release_date": "2025-09-23",
+      "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q45Gan0K2N5dNNh1jzoJWxArQlA.jpg"
     },
     {
-      "id": 2190,
-      "title": "南方公园",
+      "id": 63926,
+      "title": "一拳超人",
       "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.3,
-      "release_date": "1997-08-13",
-      "overview": "《南方公园》，其他译法包括《衰仔乐园》（港版翻译）或《南方四贱客》（台版翻译），是美国喜剧中心（Comedy Central）制作的一部剪纸摆拍动画剧集，由Matt Stone和Trey Parker创作。主角为科罗拉多州虚构的南方公园小镇的四名10岁的男孩。南方公园经常通过歪曲式的摹仿来讽刺和嘲弄美国文化和社会时事的方方面面，挑战了许多根深蒂固的观念和禁忌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7qdorMrUa7Pgzhty7RqrsGZ0Zgo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.4,
+      "release_date": "2015-10-05",
+      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     },
     {
       "id": 1078605,
@@ -442,6 +431,17 @@
       "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
       "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+    },
+    {
+      "id": 2190,
+      "title": "南方公园",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 8.3,
+      "release_date": "1997-08-13",
+      "overview": "《南方公园》，其他译法包括《衰仔乐园》（港版翻译）或《南方四贱客》（台版翻译），是美国喜剧中心（Comedy Central）制作的一部剪纸摆拍动画剧集，由Matt Stone和Trey Parker创作。主角为科罗拉多州虚构的南方公园小镇的四名10岁的男孩。南方公园经常通过歪曲式的摹仿来讽刺和嘲弄美国文化和社会时事的方方面面，挑战了许多根深蒂固的观念和禁忌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7qdorMrUa7Pgzhty7RqrsGZ0Zgo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
     }
   ],
   "popular_movies": [
