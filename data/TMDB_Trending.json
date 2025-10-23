@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23 13:01:09",
+  "last_updated": "2025-10-23 14:01:15",
   "today_global": [
     {
       "id": 604079,
@@ -93,8 +93,8 @@
       "id": 1235746,
       "title": "冬日之死",
       "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.9,
+      "genreTitle": "惊悚",
+      "rating": 7.0,
       "release_date": "2025-09-23",
       "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
       "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
@@ -134,17 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/amcOpAGkcTEZqmUG1LNM2gYGCam.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
-    },
-    {
       "id": 803796,
       "title": "K-POP：猎魔女团",
       "type": "movie",
@@ -167,15 +156,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rC6ldrOrQGcCqgMOvAUV2Mi1Iw1.jpg"
     },
     {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+    },
+    {
+      "id": 19995,
+      "title": "阿凡达",
       "type": "movie",
-      "genreTitle": "动画•动作•奇幻",
-      "rating": 8.5,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+      "genreTitle": "动作•冒险•奇幻",
+      "rating": 7.6,
+      "release_date": "2009-12-15",
+      "overview": "战斗中负伤而下身瘫痪的前海军战士杰克·萨利（萨姆·沃辛顿 Sam Worthington 饰）决定替死去的同胞哥哥来到潘多拉星操纵格蕾丝博士（西格妮·韦弗 Sigourney Weaver 饰）用人类基因与当地纳美部族基因结合创造出的 “阿凡达” 混血生物。杰克的目的是打入纳美部落，外交说服他们自愿离开世代居住的家园，从而SecFor公司可砍伐殆尽该地区的原始森林，开采地下昂贵的“不可得”矿。在探索潘多拉星的过程中，杰克遇到了纳美部落的公主娜蒂瑞（佐伊·索尔达娜 Zoe Saldana 饰），向她学习了纳美人的生存技能与对待自然的态度。与此同时，SecFor 公司的经理和军方代表上校迈尔斯（史蒂芬·朗 Stephen Lang 饰）逐渐丧失耐心，决定诉诸武力驱赶纳美人……",
+      "poster_url": "https://image.tmdb.org/t/p/original/bwKhj6tHlm8hiw9QjhpooJjQWgG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Antz70VlRI2yU3iwYxyYUknzfz9.jpg"
     },
     {
       "id": 1386827,
@@ -189,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kqoU9uzUnHk5hmHTYJLtF9natAA.jpg"
     },
     {
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
+      "type": "movie",
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 8.5,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+    },
+    {
       "id": 301498,
       "title": "黑帮战争：费城黑手党瓦解实录",
       "type": "tv",
@@ -198,17 +209,6 @@
       "overview": "费城是兄弟之爱的城市，但在 90 年代，它曾是一场血腥屠杀。在这部真实犯罪系列中，两个交战的黑帮派系为争夺控制权而战。",
       "poster_url": "https://image.tmdb.org/t/p/original/kBKVnDdY5oBapK24XMRZNMU1DGS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dEvbe7rj6vdcbMpZUn1pE682qjh.jpg"
-    },
-    {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.0,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
     },
     {
       "id": 617126,
@@ -268,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
     },
     {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
       "id": 1267905,
       "title": "玫瑰",
       "type": "movie",
@@ -290,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
       "id": 927254,
       "title": "蠢特夫妇",
       "type": "movie",
@@ -310,28 +310,6 @@
       "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
       "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
-    },
-    {
-      "id": 1038392,
-      "title": "招魂4：终章",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.0,
-      "release_date": "2025-09-03",
-      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
-    },
-    {
-      "id": 1062722,
-      "title": "Frankenstein",
-      "type": "movie",
-      "genreTitle": "剧情•恐怖•科幻",
-      "rating": 8.7,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/7epNZFNXjqc3wZ5rMgFVqskkohr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
     },
     {
       "id": 63926,
@@ -345,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     },
     {
+      "id": 1038392,
+      "title": "招魂4：终章",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.0,
+      "release_date": "2025-09-03",
+      "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
       "id": 803796,
       "title": "K-POP：猎魔女团",
       "type": "movie",
@@ -354,6 +343,28 @@
       "overview": "K-pop 超级明星鲁米、米拉和佐伊如果不是在座无虚席的体育场举办演唱会，就是在利用自己的秘密力量保护粉丝们免受超自然威胁。",
       "poster_url": "https://image.tmdb.org/t/p/original/kjb9FFNItBc4awWPCrbp7hDLtni.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3aZHMVeLb5z7iHIGyF0tbA1yZJZ.jpg"
+    },
+    {
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 7.1,
+      "release_date": "2025-07-23",
+      "overview": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
+    },
+    {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "剧情•恐怖•科幻",
+      "rating": 8.7,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/7epNZFNXjqc3wZ5rMgFVqskkohr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
     },
     {
       "id": 1362315,
@@ -367,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tteTm9eypuEh2lqGJYZXdKEt8i8.jpg"
     },
     {
-      "id": 617126,
-      "title": "神奇四侠：初露锋芒",
+      "id": 19995,
+      "title": "阿凡达",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 7.1,
-      "release_date": "2025-07-23",
-      "overview": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
+      "genreTitle": "动作•冒险•奇幻",
+      "rating": 7.6,
+      "release_date": "2009-12-15",
+      "overview": "战斗中负伤而下身瘫痪的前海军战士杰克·萨利（萨姆·沃辛顿 Sam Worthington 饰）决定替死去的同胞哥哥来到潘多拉星操纵格蕾丝博士（西格妮·韦弗 Sigourney Weaver 饰）用人类基因与当地纳美部族基因结合创造出的 “阿凡达” 混血生物。杰克的目的是打入纳美部落，外交说服他们自愿离开世代居住的家园，从而SecFor公司可砍伐殆尽该地区的原始森林，开采地下昂贵的“不可得”矿。在探索潘多拉星的过程中，杰克遇到了纳美部落的公主娜蒂瑞（佐伊·索尔达娜 Zoe Saldana 饰），向她学习了纳美人的生存技能与对待自然的态度。与此同时，SecFor 公司的经理和军方代表上校迈尔斯（史蒂芬·朗 Stephen Lang 饰）逐渐丧失耐心，决定诉诸武力驱赶纳美人……",
+      "poster_url": "https://image.tmdb.org/t/p/original/bwKhj6tHlm8hiw9QjhpooJjQWgG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Antz70VlRI2yU3iwYxyYUknzfz9.jpg"
     },
     {
       "id": 533533,
@@ -400,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
     },
     {
+      "id": 1235746,
+      "title": "冬日之死",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 7.0,
+      "release_date": "2025-09-23",
+      "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q45Gan0K2N5dNNh1jzoJWxArQlA.jpg"
+    },
+    {
       "id": 2190,
       "title": "南方公园",
       "type": "tv",
@@ -420,28 +442,6 @@
       "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
       "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
-    },
-    {
-      "id": 286801,
-      "title": "怪物：艾德·盖恩的故事",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-10-03",
-      "overview": "连续杀人魔、盗墓贼、心理变态，在 1950 年代威斯康星州乡间冰冻的原野中，看似友善温和的艾德·盖恩静静隐居在一座朽坏的农场，他的屋子里藏着血腥骇人的秘密，足以彻底改写“美国梦魇”的定义。在孤独、精神疾病，以及对母亲的强烈执着驱使下，盖恩犯下令人发指的罪行，一种全新的怪物就此诞生。他影响了好莱坞数十年，更可说是现代恐怖的原型。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8TKeJMG8T2adWb1SB23d2Sv6Yi6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cldtjBMTV4PIXmhcYrY7a4CTJtb.jpg"
-    },
-    {
-      "id": 1235746,
-      "title": "冬日之死",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.9,
-      "release_date": "2025-09-23",
-      "overview": "一名孤身穿越明尼苏达北境雪原的女子，意外撞破少女绑架现场。百里荒原杳无人烟，暴雪割断通讯网络，她成为深陷绝境的少女唯一生机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q45Gan0K2N5dNNh1jzoJWxArQlA.jpg"
     }
   ],
   "popular_movies": [
