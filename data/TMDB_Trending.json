@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23 11:29:15",
+  "last_updated": "2025-10-23 12:01:22",
   "today_global": [
     {
       "id": 604079,
@@ -36,7 +36,7 @@
     },
     {
       "id": 245827,
-      "title": "拉撒路",
+      "title": "哈兰科本的拉撒路",
       "type": "tv",
       "genreTitle": "悬疑",
       "rating": 5.8,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
       "id": 436969,
       "title": "X特遣队：全员集结",
       "type": "movie",
@@ -88,6 +77,17 @@
       "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
       "id": 1235746,
@@ -116,11 +116,22 @@
       "title": "Frankenstein",
       "type": "movie",
       "genreTitle": "剧情•恐怖•科幻",
-      "rating": 8.6,
+      "rating": 8.7,
       "release_date": "2025-10-17",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/7epNZFNXjqc3wZ5rMgFVqskkohr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
+    },
+    {
+      "id": 1419027,
+      "title": "攻击鬼魂13号",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.0,
+      "release_date": "2025-06-13",
+      "overview": "欺负人是不好，可是如果从你活着的时候就欺负你，直到你死了变成鬼，还不停的欺负你……被欺负到死，他们还怎么活下去？",
+      "poster_url": "https://image.tmdb.org/t/p/original/beBUaewkS1ytANQJ5F2UXIo0Wty.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rC6ldrOrQGcCqgMOvAUV2Mi1Iw1.jpg"
     },
     {
       "id": 803796,
@@ -145,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
-      "id": 1419027,
-      "title": "攻击鬼魂13号",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.0,
-      "release_date": "2025-06-13",
-      "overview": "欺负人是不好，可是如果从你活着的时候就欺负你，直到你死了变成鬼，还不停的欺负你……被欺负到死，他们还怎么活下去？",
-      "poster_url": "https://image.tmdb.org/t/p/original/beBUaewkS1ytANQJ5F2UXIo0Wty.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rC6ldrOrQGcCqgMOvAUV2Mi1Iw1.jpg"
-    },
-    {
       "id": 1327862,
       "title": "为你遗憾",
       "type": "movie",
@@ -165,6 +165,17 @@
       "overview": "　　一宗牵涉两条人命的严重交通意外，揭开了令人震惊的秘密；一对母女被迫面对家族的伤痕，探索爱的定义，并重新认识彼此。  　　影片改编自《爱情，到此为止》原作者科琳·胡佛的同名畅销小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/75EjcPb8oVexrVUY3md0ZjCbHeR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/amcOpAGkcTEZqmUG1LNM2gYGCam.jpg"
+    },
+    {
+      "id": 1386827,
+      "title": "郊狼",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧",
+      "rating": 6.0,
+      "release_date": "2025-10-02",
+      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
+      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kqoU9uzUnHk5hmHTYJLtF9natAA.jpg"
     },
     {
       "id": 1218925,
@@ -189,28 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dEvbe7rj6vdcbMpZUn1pE682qjh.jpg"
     },
     {
-      "id": 1386827,
-      "title": "郊狼",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 6.0,
-      "release_date": "2025-10-02",
-      "overview": "在好莱坞山脉，一场凶猛的野火肆虐，一家人不得不与一群凶恶的郊狼展开生死搏斗。烈火和野兽双重威胁之下，险象环生的求生之战一触即发。面对无情的火焰和凶残的野兽，他们能否在这场浩劫中幸存下来？",
-      "poster_url": "https://image.tmdb.org/t/p/original/aAiPpgy4rWq56RZGFR7bjbdeFQJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kqoU9uzUnHk5hmHTYJLtF9natAA.jpg"
-    },
-    {
-      "id": 617126,
-      "title": "神奇四侠：初露锋芒",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 7.1,
-      "release_date": "2025-07-23",
-      "overview": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
-    },
-    {
       "id": 927254,
       "title": "蠢特夫妇",
       "type": "movie",
@@ -220,6 +209,17 @@
       "overview": "改编自罗尔德·达尔的同名儿童小说，蠢特夫妇是世界上最卑鄙、恶臭、下流的人，他们恰巧经营着世上最恶心、危险、愚蠢的游乐园Twitlandia。当他们在生活的城镇崛起掌权时，两个勇敢的孤儿和一群神奇的动物挺身而出，被迫变得像蠢特夫妇一样狡猾，以拯救这座城市。",
       "poster_url": "https://image.tmdb.org/t/p/original/39BQ64G31EGKS629sn1Za3kVldh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
+    },
+    {
+      "id": 63926,
+      "title": "一拳超人",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.4,
+      "release_date": "2015-10-05",
+      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     }
   ],
   "week_global_all": [
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
-      "id": 1156594,
-      "title": "是我们的错",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.8,
-      "release_date": "2025-10-15",
-      "overview": "尼克和诺亚的关系正处于最美好的时刻。然而，这对恋人似乎再也无法回到从前。一系列事件将接踵而至，让他们最终明白彼此是否真正适合对方。或者，相反地，他们会发现最好的选择是分道扬镳，即便要忘记如此深刻的爱或抹去烙印在心上的记忆是那么困难。爱并非总是足够，而原谅有时也不足以修复一切。他们能否放下过去，重新开始呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vYTif7Io5juo4ASAgDdESKn6lSy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
-    },
-    {
       "id": 205715,
       "title": "V世代",
       "type": "tv",
@@ -268,6 +257,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l05sqkFQov4zGlUSZ7K2tmLMjja.jpg"
     },
     {
+      "id": 1156594,
+      "title": "是我们的错",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.8,
+      "release_date": "2025-10-15",
+      "overview": "尼克和诺亚的关系正处于最美好的时刻。然而，这对恋人似乎再也无法回到从前。一系列事件将接踵而至，让他们最终明白彼此是否真正适合对方。或者，相反地，他们会发现最好的选择是分道扬镳，即便要忘记如此深刻的爱或抹去烙印在心上的记忆是那么困难。爱并非总是足够，而原谅有时也不足以修复一切。他们能否放下过去，重新开始呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vYTif7Io5juo4ASAgDdESKn6lSy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dPLgmvYXYMvVW1wWpZrJfayIcqq.jpg"
+    },
+    {
       "id": 1267905,
       "title": "玫瑰",
       "type": "movie",
@@ -277,6 +277,17 @@
       "overview": "艾薇（奥利维娅·科尔曼 Olivia Colman 饰）和西奥（本尼迪克特·康伯巴奇 Benedict Cumberbatch 饰）是一对表面幸福、实则危机四伏的中产夫妻。 他们有钱、有貌、有小孩，人生完美无死角……直到现实开始崩坏。 他失势、她崛起；爱情不再对等，成就变成武器，婚姻成了战场。 当爱不再是羁绊，而是竞争，家不再安全而是战场，你该如何处理枕边人。",
       "poster_url": "https://image.tmdb.org/t/p/original/2tF5Okwh896buhmbcndnVphX8jA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
+    },
+    {
+      "id": 436969,
+      "title": "X特遣队：全员集结",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•冒险",
+      "rating": 7.5,
+      "release_date": "2021-07-28",
+      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
     },
     {
       "id": 7451,
@@ -301,26 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9tI7huO9xuGp3RjDGuTYfjqfeHA.jpg"
     },
     {
-      "id": 436969,
-      "title": "X特遣队：全员集结",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.5,
-      "release_date": "2021-07-28",
-      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
-    },
-    {
-      "id": 803796,
-      "title": "K-POP：猎魔女团",
-      "type": "movie",
-      "genreTitle": "奇幻•音乐•喜剧",
-      "rating": 8.3,
-      "release_date": "2025-06-20",
-      "overview": "K-pop 超级明星鲁米、米拉和佐伊如果不是在座无虚席的体育场举办演唱会，就是在利用自己的秘密力量保护粉丝们免受超自然威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kjb9FFNItBc4awWPCrbp7hDLtni.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3aZHMVeLb5z7iHIGyF0tbA1yZJZ.jpg"
+      "id": 63926,
+      "title": "一拳超人",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•动作冒险",
+      "rating": 8.4,
+      "release_date": "2015-10-05",
+      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
     },
     {
       "id": 1038392,
@@ -332,6 +332,17 @@
       "overview": "故事设定在1986年，即《招魂3》的五年后。沃伦夫妇因艾德在第三部中经历恶灵事件而突发心脏病，已正式退休，不再从事驱魔工作。他们仍会到大学巡回演讲，但连这类机会也在逐渐减少。一些事件最终还是让他们重返战场。这次的核心案件，是沃伦夫妇生涯中最著名的一起事件之一：斯莫尔家族闹鬼案。据“新英格兰通灵研究协会”（由艾德与洛琳的现实中的女儿朱迪和女婿托尼·斯佩拉负责运营）称，1970年代，珍妮特与杰克·斯莫尔搬入宾夕法尼亚州西皮特斯顿查斯街上的一套复式住宅。随后数年，包括他们的女儿与杰克的父母在内的家人纷纷声称经历了超自然现象，从怪味、怪声到鬼魂骚扰等。",
       "poster_url": "https://image.tmdb.org/t/p/original/uYqkcZ6CdYjtndhrg2s43wEdc7k.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hCP9sV9j985KYTehf97JTZQhJlu.jpg"
+    },
+    {
+      "id": 803796,
+      "title": "K-POP：猎魔女团",
+      "type": "movie",
+      "genreTitle": "奇幻•音乐•喜剧",
+      "rating": 8.3,
+      "release_date": "2025-06-20",
+      "overview": "K-pop 超级明星鲁米、米拉和佐伊如果不是在座无虚席的体育场举办演唱会，就是在利用自己的秘密力量保护粉丝们免受超自然威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kjb9FFNItBc4awWPCrbp7hDLtni.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3aZHMVeLb5z7iHIGyF0tbA1yZJZ.jpg"
     },
     {
       "id": 617126,
@@ -360,33 +371,11 @@
       "title": "Frankenstein",
       "type": "movie",
       "genreTitle": "剧情•恐怖•科幻",
-      "rating": 8.6,
+      "rating": 8.7,
       "release_date": "2025-10-17",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/7epNZFNXjqc3wZ5rMgFVqskkohr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zSFLSqLKU9qgWGrprfKA4HZ9Q7P.jpg"
-    },
-    {
-      "id": 63926,
-      "title": "一拳超人",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 8.4,
-      "release_date": "2015-10-05",
-      "overview": "主人公埼玉原本是一名整日奔波于求职的普通人。3年前的一天偶然遇到了要对淘气少年下杀手的异变螃蟹人后，回忆起年少年时“想要成为英雄”的梦想，最终拼尽全力救下了淘气少年。重拾对于成为英雄的兴趣之后，通过拼命锻炼，埼玉终于脱胎换骨获得了最强的力量，但同时失去了头发变成了光头，似乎还失去了某些感情。在无人知晓的情况下独自做了一段时间英雄后，与弟子杰诺斯一起，正式加入英雄协会，与众多英雄一起开始了对抗各种怪人以及灾难的生活……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fHO4ssyUOO1FTJmy7Q3ofbCE8XS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t9futsXE3RhY9ielKHjA6oDAhrL.jpg"
-    },
-    {
-      "id": 1241921,
-      "title": "绮梦之旅",
-      "type": "movie",
-      "genreTitle": "爱情•奇幻•剧情",
-      "rating": 6.3,
-      "release_date": "2025-09-17",
-      "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
     },
     {
       "id": 2190,
@@ -398,6 +387,17 @@
       "overview": "《南方公园》，其他译法包括《衰仔乐园》（港版翻译）或《南方四贱客》（台版翻译），是美国喜剧中心（Comedy Central）制作的一部剪纸摆拍动画剧集，由Matt Stone和Trey Parker创作。主角为科罗拉多州虚构的南方公园小镇的四名10岁的男孩。南方公园经常通过歪曲式的摹仿来讽刺和嘲弄美国文化和社会时事的方方面面，挑战了许多根深蒂固的观念和禁忌。",
       "poster_url": "https://image.tmdb.org/t/p/original/7qdorMrUa7Pgzhty7RqrsGZ0Zgo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
+    },
+    {
+      "id": 1241921,
+      "title": "绮梦之旅",
+      "type": "movie",
+      "genreTitle": "爱情•奇幻•剧情",
+      "rating": 6.3,
+      "release_date": "2025-09-17",
+      "overview": "机缘巧合下相遇的莎拉和大卫意外穿过时空之门，踏上充满奇幻色彩的冒险之旅。旅程中两人重历了各自生命中至关重要的时刻，而他们的未来是否会因此改写？",
+      "poster_url": "https://image.tmdb.org/t/p/original/kQpxBpe8z806IsQK2UupTf84PEE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cwYIijfKraOJdP7y7c3aZXcIhYT.jpg"
     },
     {
       "id": 1078605,
@@ -422,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tteTm9eypuEh2lqGJYZXdKEt8i8.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
+      "id": 575265,
+      "title": "碟中谍8：最终清算",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.4,
-      "release_date": "2025-07-09",
-      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？ 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 7.3,
+      "release_date": "2025-05-17",
+      "overview": "超级人工智能“智体”即将引爆全球核弹危机，把世界推向毁灭边缘。而伊森·亨特和他的IMF小队在上次行动中遭遇重创，团队濒临分崩离析。虽然伊森已获得关闭“智体”的钥匙，但要彻底消灭“智体”，完成这一拯救全人类的终极任务，仍需要IMF小队齐心协力突破重重困难。他们不仅要面对全知全能又无影无形的“智体”与其手下盖布瑞尔的百般阻拦，还要解决来自过去的种种恩怨。每个抉择都关乎信念与命运，等待伊森和IMF小队的，究竟是怎样的结局？",
+      "poster_url": "https://image.tmdb.org/t/p/original/x5wNw81Rek3lyA4pPEMJheKh6Nb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yHTzCiPZdn8sp6s4R33G19CgRR1.jpg"
     },
     {
       "id": 286801,
