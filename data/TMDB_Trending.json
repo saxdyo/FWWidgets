@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-31 18:01:23",
+  "last_updated": "2025-10-31 19:01:18",
   "today_global": [
     {
       "id": 71912,
@@ -11,6 +11,17 @@
       "overview": "利维亚的杰洛特是一名猎杀变异怪物的雇佣猎人。在这个人类往往比野兽更邪恶的动荡世界里，他一步步踏上命运之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/qNmjUGaoSj2iBFbKT8M1TIypbgW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
+    },
+    {
+      "id": 200875,
+      "title": "小丑回魂：欢迎来到德里镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 8.0,
+      "release_date": "2025-10-26",
+      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
       "id": 1272166,
@@ -44,17 +55,6 @@
       "overview": "网飞的猎魔人系列新的前传故事，讲述一群青少年的盗贼团。",
       "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
-    },
-    {
-      "id": 200875,
-      "title": "小丑回魂：欢迎来到德里镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 8.0,
-      "release_date": "2025-10-26",
-      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
       "id": 249586,
@@ -145,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sKDt3ZV0CzmA93hkr3MJ5fKXkbB.jpg"
     },
     {
-      "id": 94954,
-      "title": "地狱客栈",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 8.7,
-      "release_date": "2024-01-18",
-      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
-    },
-    {
       "id": 217837,
       "title": "迷尸校园",
       "type": "tv",
@@ -167,26 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8Nme9MlUDmI2ataPNT4QOl6OORZ.jpg"
     },
     {
-      "id": 282440,
-      "title": "黑金新秩序",
+      "id": 94954,
+      "title": "地狱客栈",
       "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 5.8,
-      "release_date": "2025-10-29",
-      "overview": "年轻男子渴望在里约的地下赌博界出人头地，殊不知等待他的是一场充满背叛、欲望和血腥的危险游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kv7E0fEuDzEdzdsazwfLWedpBvs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1b2OYNA3Ikq9BBwk6If8As89bge.jpg"
-    },
-    {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.3,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
+      "genreTitle": "动画•喜剧•剧情",
+      "rating": 8.7,
+      "release_date": "2024-01-18",
+      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
     },
     {
       "id": 95480,
@@ -200,15 +178,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
-      "id": 604079,
-      "title": "死亡竞走",
+      "id": 533533,
+      "title": "创：战神",
       "type": "movie",
-      "genreTitle": "惊悚•恐怖•科幻",
-      "rating": 6.9,
-      "release_date": "2025-09-10",
-      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.3,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/F4AJdovZycduKPfyematVHhSpx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
+    },
+    {
+      "id": 282440,
+      "title": "黑金新秩序",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 5.8,
+      "release_date": "2025-10-29",
+      "overview": "年轻男子渴望在里约的地下赌博界出人头地，殊不知等待他的是一场充满背叛、欲望和血腥的危险游戏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kv7E0fEuDzEdzdsazwfLWedpBvs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1b2OYNA3Ikq9BBwk6If8As89bge.jpg"
     },
     {
       "id": 252000,
@@ -220,6 +209,17 @@
       "overview": "一名儿童在房屋爆炸案后离奇失踪，忧心忡忡的邻居因此跟私家侦探联手寻人。随着秘密逐一曝光，巨大的军事阴谋亦逐渐浮现，为南牛津这个平静的市郊带来一场腥风血雨。",
       "poster_url": "https://image.tmdb.org/t/p/original/grPePVCm0kdSUKZU8moyFtKrqIW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ktI24nvPuGDHNefc27Ktxf9ZwTY.jpg"
+    },
+    {
+      "id": 604079,
+      "title": "死亡竞走",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖•科幻",
+      "rating": 6.9,
+      "release_date": "2025-09-10",
+      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
-      "id": 1290159,
-      "title": "炸药屋",
-      "type": "movie",
-      "genreTitle": "惊悚•战争",
-      "rating": 6.4,
-      "release_date": "2025-10-02",
-      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
-    },
-    {
       "id": 71912,
       "title": "猎魔人",
       "type": "tv",
@@ -255,6 +244,17 @@
       "overview": "利维亚的杰洛特是一名猎杀变异怪物的雇佣猎人。在这个人类往往比野兽更邪恶的动荡世界里，他一步步踏上命运之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/qNmjUGaoSj2iBFbKT8M1TIypbgW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
+    },
+    {
+      "id": 1290159,
+      "title": "炸药屋",
+      "type": "movie",
+      "genreTitle": "惊悚•战争",
+      "rating": 6.4,
+      "release_date": "2025-10-02",
+      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
     },
     {
       "id": 1422096,
@@ -301,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lCRLLe8kiwb99JOlkTPAfchhqwk.jpg"
     },
     {
-      "id": 997113,
-      "title": "海达",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚•爱情",
-      "rating": 4.6,
-      "release_date": "2025-10-22",
-      "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
-    },
-    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -323,6 +312,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
+      "id": 997113,
+      "title": "海达",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚•爱情",
+      "rating": 4.6,
+      "release_date": "2025-10-22",
+      "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
+    },
+    {
+      "id": 1078605,
+      "title": "凶器",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.4,
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+    },
+    {
       "id": 1062722,
       "title": "Frankenstein",
       "type": "movie",
@@ -332,6 +354,17 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
+    },
+    {
+      "id": 66732,
+      "title": "Stranger Things",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•悬疑",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
       "id": 114478,
@@ -378,37 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 66732,
-      "title": "Stranger Things",
+      "id": 221079,
+      "title": "失序边缘",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•悬疑",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.4,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
-    },
-    {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.5,
+      "release_date": "2025-10-09",
+      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
     },
     {
       "id": 701387,
@@ -422,26 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/stq0EbHFJxVFdaC3saery03UZIG.jpg"
     },
     {
-      "id": 94954,
-      "title": "地狱客栈",
+      "id": 252000,
+      "title": "坟场回路",
       "type": "tv",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 8.7,
-      "release_date": "2024-01-18",
-      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
-    },
-    {
-      "id": 221079,
-      "title": "失序边缘",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.5,
-      "release_date": "2025-10-09",
-      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
+      "genreTitle": "剧情•犯罪•悬疑",
+      "rating": 10.0,
+      "release_date": "2025-10-29",
+      "overview": "一名儿童在房屋爆炸案后离奇失踪，忧心忡忡的邻居因此跟私家侦探联手寻人。随着秘密逐一曝光，巨大的军事阴谋亦逐渐浮现，为南牛津这个平静的市郊带来一场腥风血雨。",
+      "poster_url": "https://image.tmdb.org/t/p/original/grPePVCm0kdSUKZU8moyFtKrqIW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ktI24nvPuGDHNefc27Ktxf9ZwTY.jpg"
     }
   ],
   "popular_movies": [
