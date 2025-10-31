@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-01 00:01:12",
+  "last_updated": "2025-11-01 01:01:31",
   "today_global": [
     {
       "id": 71912,
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2sORBXHcWuh000pKAl93bsMmf76.jpg"
     },
     {
-      "id": 1290159,
-      "title": "炸药屋",
-      "type": "movie",
-      "genreTitle": "惊悚•战争",
-      "rating": 6.4,
-      "release_date": "2025-10-02",
-      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
-    },
-    {
       "id": 1422096,
       "title": "好狗狗",
       "type": "movie",
@@ -101,26 +90,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
     },
     {
+      "id": 1290159,
+      "title": "炸药屋",
+      "type": "movie",
+      "genreTitle": "惊悚•战争",
+      "rating": 6.4,
+      "release_date": "2025-10-02",
+      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
+    },
+    {
       "id": 997113,
       "title": "海达",
       "type": "movie",
       "genreTitle": "剧情•惊悚•爱情",
-      "rating": 4.6,
+      "rating": 4.9,
       "release_date": "2025-10-22",
       "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
       "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
-    },
-    {
-      "id": 1159559,
-      "title": "Scream 7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 0.0,
-      "release_date": "2026-02-25",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/k6jqyvgYnSoo3PayLX4gIPa1EOp.jpg"
     },
     {
       "id": 533533,
@@ -134,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
-      "id": 1550569,
-      "title": "艾琳：连环杀手女王",
+      "id": 1159559,
+      "title": "Scream 7",
       "type": "movie",
-      "genreTitle": "纪录•犯罪",
-      "rating": 7.8,
-      "release_date": "2025-10-29",
-      "overview": "作为一名女性连环杀手，艾琳·乌尔诺斯仍然是个稀罕人物。从童年受虐的经历到被判死刑的真相，这部纪录片重新审视了她的生平与罪行。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iBCorGTwpXhIOeWwTA21HC5Rprx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sKDt3ZV0CzmA93hkr3MJ5fKXkbB.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 0.0,
+      "release_date": "2026-02-25",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/k6jqyvgYnSoo3PayLX4gIPa1EOp.jpg"
     },
     {
       "id": 1062722,
@@ -156,6 +145,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
+      "id": 1550569,
+      "title": "艾琳：连环杀手女王",
+      "type": "movie",
+      "genreTitle": "纪录•犯罪",
+      "rating": 7.8,
+      "release_date": "2025-10-29",
+      "overview": "作为一名女性连环杀手，艾琳·乌尔诺斯仍然是个稀罕人物。从童年受虐的经历到被判死刑的真相，这部纪录片重新审视了她的生平与罪行。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iBCorGTwpXhIOeWwTA21HC5Rprx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sKDt3ZV0CzmA93hkr3MJ5fKXkbB.jpg"
+    },
+    {
       "id": 701387,
       "title": "拯救地球",
       "type": "movie",
@@ -165,6 +165,17 @@
       "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
       "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/stq0EbHFJxVFdaC3saery03UZIG.jpg"
+    },
+    {
+      "id": 279013,
+      "title": "Tremembé",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 0.0,
+      "release_date": "2025-10-31",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/eVqBFACBpovk0sEtjx3HEb3jOYS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ca3UijLciLkhxXeriCWWbRXN98i.jpg"
     },
     {
       "id": 217837,
@@ -178,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8Nme9MlUDmI2ataPNT4QOl6OORZ.jpg"
     },
     {
-      "id": 114478,
-      "title": "星球大战：幻境",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.1,
-      "release_date": "2021-09-22",
-      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
+      "id": 604079,
+      "title": "死亡竞走",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖•科幻",
+      "rating": 6.9,
+      "release_date": "2025-09-10",
+      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     },
     {
       "id": 95480,
@@ -200,26 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
-      "id": 282440,
-      "title": "黑金新秩序",
+      "id": 114478,
+      "title": "星球大战：幻境",
       "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 5.8,
-      "release_date": "2025-10-29",
-      "overview": "年轻男子渴望在里约的地下赌博界出人头地，殊不知等待他的是一场充满背叛、欲望和血腥的危险游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kv7E0fEuDzEdzdsazwfLWedpBvs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1b2OYNA3Ikq9BBwk6If8As89bge.jpg"
-    },
-    {
-      "id": 604079,
-      "title": "死亡竞走",
-      "type": "movie",
-      "genreTitle": "惊悚•恐怖•科幻",
-      "rating": 6.9,
-      "release_date": "2025-09-10",
-      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 7.1,
+      "release_date": "2021-09-22",
+      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
     }
   ],
   "week_global_all": [
@@ -290,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
-      "id": 604079,
-      "title": "死亡竞走",
+      "id": 1062722,
+      "title": "Frankenstein",
       "type": "movie",
-      "genreTitle": "惊悚•恐怖•科幻",
-      "rating": 6.9,
-      "release_date": "2025-09-10",
-      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+      "genreTitle": "剧情•恐怖•科幻",
+      "rating": 7.9,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
       "id": 533533,
@@ -312,37 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
+      "id": 604079,
+      "title": "死亡竞走",
       "type": "movie",
-      "genreTitle": "剧情•恐怖•科幻",
-      "rating": 7.9,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.4,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
-    },
-    {
-      "id": 997113,
-      "title": "海达",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚•爱情",
-      "rating": 4.6,
-      "release_date": "2025-10-22",
-      "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
+      "genreTitle": "惊悚•恐怖•科幻",
+      "rating": 6.9,
+      "release_date": "2025-09-10",
+      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     },
     {
       "id": 701387,
@@ -354,6 +332,28 @@
       "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
       "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/stq0EbHFJxVFdaC3saery03UZIG.jpg"
+    },
+    {
+      "id": 997113,
+      "title": "海达",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚•爱情",
+      "rating": 4.9,
+      "release_date": "2025-10-22",
+      "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
+    },
+    {
+      "id": 1078605,
+      "title": "凶器",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.4,
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
     },
     {
       "id": 1500536,
@@ -378,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
-      "id": 1306525,
-      "title": "长生血战",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.7,
-      "release_date": "2025-10-22",
-      "overview": "一个关系不和的家庭经营着一家知名的草药公司。公司老板试图创新，研制一种新药水，结果却引发了丧尸疫情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k1Fkw79eBYy0KTmAvI5ANtPdsRY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w3h3XA14tlKfQXazDLTFUJkwyRK.jpg"
-    },
-    {
       "id": 1218925,
       "title": "电锯人 - 剧场版：蕾塞篇",
       "type": "movie",
@@ -398,28 +387,6 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
-    },
-    {
-      "id": 221079,
-      "title": "失序边缘",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.5,
-      "release_date": "2025-10-09",
-      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 967941,
@@ -433,15 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
     },
     {
-      "id": 114478,
-      "title": "星球大战：幻境",
+      "id": 221079,
+      "title": "失序边缘",
       "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.1,
-      "release_date": "2021-09-22",
-      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.5,
+      "release_date": "2025-10-09",
+      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
+    },
+    {
+      "id": 1306525,
+      "title": "长生血战",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.7,
+      "release_date": "2025-10-22",
+      "overview": "一个关系不和的家庭经营着一家知名的草药公司。公司老板试图创新，研制一种新药水，结果却引发了丧尸疫情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k1Fkw79eBYy0KTmAvI5ANtPdsRY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w3h3XA14tlKfQXazDLTFUJkwyRK.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 252000,
+      "title": "坟场回路",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪•悬疑",
+      "rating": 10.0,
+      "release_date": "2025-10-29",
+      "overview": "一名儿童在房屋爆炸案后离奇失踪，忧心忡忡的邻居因此跟私家侦探联手寻人。随着秘密逐一曝光，巨大的军事阴谋亦逐渐浮现，为南牛津这个平静的市郊带来一场腥风血雨。",
+      "poster_url": "https://image.tmdb.org/t/p/original/grPePVCm0kdSUKZU8moyFtKrqIW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ktI24nvPuGDHNefc27Ktxf9ZwTY.jpg"
     }
   ],
   "popular_movies": [
@@ -450,7 +450,7 @@
       "title": "余烬夺宝",
       "type": "movie",
       "genreTitle": "科幻•动作•喜剧",
-      "rating": 6.5,
+      "rating": 6.6,
       "release_date": "2025-08-20",
       "overview": "在一场巨大的太阳耀斑摧毁了地球东半球之后，一名大胆的寻宝者受雇前往欧洲去寻找《蒙娜丽莎》，却发现这个世界更需要的是英雄，而非一幅画。",
       "poster_url": "https://image.tmdb.org/t/p/original/xR0IhVBjbNU34b8erhJCgRbjXo3.jpg",
@@ -490,17 +490,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y9fNYJSpHNPUc9DfgudeHbsg5E3.jpg"
     },
     {
-      "id": 1306525,
-      "title": "长生血战",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.7,
-      "release_date": "2025-10-22",
-      "overview": "一个关系不和的家庭经营着一家知名的草药公司。公司老板试图创新，研制一种新药水，结果却引发了丧尸疫情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k1Fkw79eBYy0KTmAvI5ANtPdsRY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w3h3XA14tlKfQXazDLTFUJkwyRK.jpg"
-    },
-    {
       "id": 1311031,
       "title": "鬼灭之刃剧场版：无限城篇Part.1",
       "type": "movie",
@@ -523,6 +512,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1620O3cU3GcJt5wbhmpbtMNOp9J.jpg"
     },
     {
+      "id": 1290159,
+      "title": "炸药屋",
+      "type": "movie",
+      "genreTitle": "惊悚•战争",
+      "rating": 6.4,
+      "release_date": "2025-10-02",
+      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
+    },
+    {
       "id": 1280450,
       "title": "急转直下",
       "type": "movie",
@@ -534,15 +534,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uWIpSRVkaofixcWwSkZwi7e7OqN.jpg"
     },
     {
-      "id": 1290159,
-      "title": "炸药屋",
+      "id": 1306525,
+      "title": "长生血战",
       "type": "movie",
-      "genreTitle": "惊悚•战争",
-      "rating": 6.4,
-      "release_date": "2025-10-02",
-      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.7,
+      "release_date": "2025-10-22",
+      "overview": "一个关系不和的家庭经营着一家知名的草药公司。公司老板试图创新，研制一种新药水，结果却引发了丧尸疫情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k1Fkw79eBYy0KTmAvI5ANtPdsRY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w3h3XA14tlKfQXazDLTFUJkwyRK.jpg"
     },
     {
       "id": 861451,
@@ -589,15 +589,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
-      "id": 1072699,
-      "title": "重返虎穴2",
+      "id": 1284120,
+      "title": "丑陋的继姐",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.5,
-      "release_date": "2025-10-14",
-      "overview": "厮杀过后，狂怒帮的新头目阿金开始统领这支残暴又强大的黑帮，并将目标转向了境外。",
-      "poster_url": "https://image.tmdb.org/t/p/original/l7ZTDFtAgmuyHGdI1GSQiX4WGL1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9WiWj08EqdzPWJFYLhRbnqRpvjK.jpg"
+      "genreTitle": "恐怖•喜剧•奇幻",
+      "rating": 7.3,
+      "release_date": "2025-03-07",
+      "overview": "在一个童话王国里，美丽是一件残酷的事情，埃尔维拉与她美丽得令人难以置信的继姐姐竞争，她将不惜一切代价吸引王子的目光。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5QMjWBM0GpjV4RO9vfrjgv5DK3b.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ntBqSlSfho6xsN6GhdnMjK0AbLr.jpg"
     },
     {
       "id": 1038392,
