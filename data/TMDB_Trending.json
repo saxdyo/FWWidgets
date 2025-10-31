@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-01 05:01:14",
+  "last_updated": "2025-11-01 06:01:23",
   "today_global": [
     {
       "id": 71912,
@@ -17,7 +17,7 @@
       "title": "耗子帮：猎魔人传说",
       "type": "movie",
       "genreTitle": "奇幻•剧情•冒险",
-      "rating": 5.6,
+      "rating": 5.7,
       "release_date": "2025-10-29",
       "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
@@ -167,39 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/stq0EbHFJxVFdaC3saery03UZIG.jpg"
     },
     {
-      "id": 114478,
-      "title": "星球大战：幻境",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.1,
-      "release_date": "2021-09-22",
-      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
-    },
-    {
-      "id": 282440,
-      "title": "黑金新秩序",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 5.8,
-      "release_date": "2025-10-29",
-      "overview": "年轻男子渴望在里约的地下赌博界出人头地，殊不知等待他的是一场充满背叛、欲望和血腥的危险游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kv7E0fEuDzEdzdsazwfLWedpBvs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1b2OYNA3Ikq9BBwk6If8As89bge.jpg"
-    },
-    {
-      "id": 221079,
-      "title": "失序边缘",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.5,
-      "release_date": "2025-10-09",
-      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
-    },
-    {
       "id": 1078605,
       "title": "凶器",
       "type": "movie",
@@ -220,6 +187,39 @@
       "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
       "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+    },
+    {
+      "id": 221079,
+      "title": "失序边缘",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.5,
+      "release_date": "2025-10-09",
+      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
+    },
+    {
+      "id": 114478,
+      "title": "星球大战：幻境",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 7.1,
+      "release_date": "2021-09-22",
+      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
+    },
+    {
+      "id": 296243,
+      "title": "未葬之人",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.0,
+      "release_date": "2025-10-31",
+      "overview": "艾琳是工人阶级社区出身的少女，她发现自己拥有超自然能力——只要吃下泥土，就会产生幻象，帮助她找到失踪的人。在哥哥和朋友的陪伴下，她逐渐学会了掌控这种力量。随着能力的增强，她也成为对抗社区暴力与不公的女英雄。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xSdJEDbgDZXFqK6yc4JM1c1aVXN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/thbftv8NL0lyEOge5hZ7qmbXyEz.jpg"
     }
   ],
   "week_global_all": [
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
     },
     {
-      "id": 1422096,
-      "title": "好狗狗",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.0,
-      "release_date": "2025-10-01",
-      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mdY6BDQ3Am1HNKbk8X4z6ecF4ok.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
-    },
-    {
       "id": 1272166,
       "title": "小人物之歌",
       "type": "movie",
@@ -277,6 +266,17 @@
       "overview": "杜尔勋爵（柯林·法瑞尔 饰）在澳门避风头时，日日夜夜混迹赌场、酗酒赌博，败光身上仅剩的钱财。他很快便陷入债务深渊，幸好一位名叫“稻茗”的赌场员工（陈法拉 饰）对他伸出援手，而来历成谜的她其实藏着不可告人的秘密。\r 然而，私家侦探辛西娅·布利特（蒂尔达·斯文顿 饰）对杜尔穷追不舍，矢言揭开他百般逃避的真相。正当他寻求救赎的同时，现实却像牢笼般一步步将他禁锢，让他无处可逃。",
       "poster_url": "https://image.tmdb.org/t/p/original/2Po4MP9xhyg4L9daJlKq35YQN7V.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whuRtds71UiOlT3j914jXrEllis.jpg"
+    },
+    {
+      "id": 1422096,
+      "title": "好狗狗",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.0,
+      "release_date": "2025-10-01",
+      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mdY6BDQ3Am1HNKbk8X4z6ecF4ok.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
     },
     {
       "id": 66732,
@@ -323,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
+      "id": 1078605,
+      "title": "凶器",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.4,
+      "release_date": "2025-08-04",
+      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+    },
+    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -345,15 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 1078605,
-      "title": "凶器",
+      "id": 997113,
+      "title": "海达",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.4,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+      "genreTitle": "剧情•惊悚•爱情",
+      "rating": 4.8,
+      "release_date": "2025-10-22",
+      "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
     },
     {
       "id": 701387,
@@ -367,28 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/stq0EbHFJxVFdaC3saery03UZIG.jpg"
     },
     {
-      "id": 997113,
-      "title": "海达",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚•爱情",
-      "rating": 4.8,
-      "release_date": "2025-10-22",
-      "overview": "海达深陷过去爱情的余痛与当前生活的窒息之中。随着一个充满张力的夜晚展开，她那被长久压抑的欲望与隐藏的矛盾终于爆发，不仅将她自己，也将她身边所有人，卷入一场操控、激情与背叛的旋涡之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c3CnIRHMmlrdqMm4RzbLJhmS5nd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
-    },
-    {
-      "id": 114478,
-      "title": "星球大战：幻境",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.1,
-      "release_date": "2021-09-22",
-      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
-    },
-    {
       "id": 1306525,
       "title": "长生血战",
       "type": "movie",
@@ -400,26 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/w3h3XA14tlKfQXazDLTFUJkwyRK.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
+      "id": 114478,
+      "title": "星球大战：幻境",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 7.1,
+      "release_date": "2021-09-22",
+      "overview": "卢卡斯影业将打造全新星战短片合集《星球大战：幻象》(Star Wars: Visions，暂译)。10部短片将由日本几家不同的动漫工作室创作，将为星战引入不同文化视角。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rlfArvK4vTxaDuNfWk7t9SorGlA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
     },
     {
       "id": 1218925,
@@ -442,6 +420,28 @@
       "overview": "　　布伦屋热门恐怖片《黑色电话》续集《黑色电话2》定档2025年6月27日北美上映，阵容和剧情暂未曝光。",
       "poster_url": "https://image.tmdb.org/t/p/original/ssEH6ukQ4WKP5j3iXnp7uJSdjq5.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
+    },
+    {
+      "id": 221079,
+      "title": "失序边缘",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.5,
+      "release_date": "2025-10-09",
+      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     }
   ],
   "popular_movies": [
