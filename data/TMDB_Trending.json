@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-11-03 16:01:21",
+  "last_updated": "2025-11-03 17:01:10",
   "today_global": [
     {
       "id": 272418,
       "title": "罗宾汉",
       "type": "tv",
       "genreTitle": "剧情•动作冒险",
-      "rating": 8.2,
+      "rating": 8.3,
       "release_date": "2025-11-02",
       "overview": "在12世纪的英格兰，撒克逊人生活在诺曼人残酷的统治之下。其中就包括洛克斯利的罗伯特，他的父亲是一位护林员，他的家族被剥夺了祖传的家园，他的父亲也被诺丁汉郡长处决，他的生活从此破碎。罗伯特拥有一把长弓，他从悲痛中走出来，最终走向反抗，他的命运永远与玛丽安交织在一起，玛丽安是一位在对家族的忠诚和对他的爱之间左右为难的贵妇。随着紧张局势的加剧，罗伯召集了一群不法之徒——他们几乎没有共同点，但都拥有撒克逊血统，并且渴望反抗暴政。在舍伍德森林，他们与腐败和不公抗争，激怒了郡长、男爵和诺曼王室。最初的复仇之举最终演变成了更伟大的事业：罗宾汉的传奇，他象征着反抗，而他的抗争将决定英格兰的命运。",
       "poster_url": "https://image.tmdb.org/t/p/original/3teWChNzKJdbfen46IdeKTygdZa.jpg",
@@ -17,7 +17,7 @@
       "title": "耗子帮：猎魔人传说",
       "type": "movie",
       "genreTitle": "奇幻•剧情•冒险",
-      "rating": 4.8,
+      "rating": 4.7,
       "release_date": "2025-10-29",
       "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
@@ -50,22 +50,11 @@
       "title": "我爱洛杉矶",
       "type": "tv",
       "genreTitle": "喜剧",
-      "rating": 4.7,
+      "rating": 3.8,
       "release_date": "2025-11-02",
       "overview": "一群关系紧密的朋友在多年分离后重聚在一起，探讨着复杂的抱负、人际关系以及时间是如何改变他们的。",
       "poster_url": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5Y42w4ZsDkKoC7tnzEFoiVbl28B.jpg"
-    },
-    {
-      "id": 66732,
-      "title": "Stranger Things",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•悬疑",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
       "id": 37854,
@@ -77,6 +66,17 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 66732,
+      "title": "Stranger Things",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•悬疑",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
       "id": 1290159,
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 9.4,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ePgxI4IO7yXJyWBEqDx4bVCBcgJ.jpg"
-    },
-    {
       "id": 1272166,
       "title": "小人物之歌",
       "type": "movie",
@@ -121,6 +110,17 @@
       "overview": "杜尔勋爵（柯林·法瑞尔 饰）在澳门避风头时，日日夜夜混迹赌场、酗酒赌博，败光身上仅剩的钱财。他很快便陷入债务深渊，幸好一位名叫“稻茗”的赌场员工（陈法拉 饰）对他伸出援手，而来历成谜的她其实藏着不可告人的秘密。\r 然而，私家侦探辛西娅·布利特（蒂尔达·斯文顿 饰）对杜尔穷追不舍，矢言揭开他百般逃避的真相。正当他寻求救赎的同时，现实却像牢笼般一步步将他禁锢，让他无处可逃。",
       "poster_url": "https://image.tmdb.org/t/p/original/2Po4MP9xhyg4L9daJlKq35YQN7V.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whuRtds71UiOlT3j914jXrEllis.jpg"
+    },
+    {
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 9.4,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ePgxI4IO7yXJyWBEqDx4bVCBcgJ.jpg"
     },
     {
       "id": 63926,
@@ -145,6 +145,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
+      "type": "movie",
+      "genreTitle": "动画•动作•爱情",
+      "rating": 8.2,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+    },
+    {
       "id": 2190,
       "title": "南方公园",
       "type": "tv",
@@ -167,26 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
     },
     {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
+      "id": 1197137,
+      "title": "黑色电话2",
       "type": "movie",
-      "genreTitle": "动画•动作•爱情",
-      "rating": 8.2,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.3,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.0,
+      "release_date": "2025-10-15",
+      "overview": "　　布伦屋热门恐怖片《黑色电话》续集《黑色电话2》定档2025年6月27日北美上映，阵容和剧情暂未曝光。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ssEH6ukQ4WKP5j3iXnp7uJSdjq5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
       "id": 604079,
@@ -200,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
-    },
-    {
       "id": 1062722,
       "title": "Frankenstein",
       "type": "movie",
@@ -220,6 +209,17 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     }
   ],
   "week_global_all": [
@@ -279,6 +279,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.3,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viyt29Tlea4PFDFSRMOR6hDdUt9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
       "id": 604079,
       "title": "死亡竞走",
       "type": "movie",
@@ -290,15 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.3,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viyt29Tlea4PFDFSRMOR6hDdUt9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
+      "id": 271053,
+      "title": "我爱洛杉矶",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 3.8,
+      "release_date": "2025-11-02",
+      "overview": "一群关系紧密的朋友在多年分离后重聚在一起，探讨着复杂的抱负、人际关系以及时间是如何改变他们的。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5Y42w4ZsDkKoC7tnzEFoiVbl28B.jpg"
     },
     {
       "id": 114478,
@@ -312,15 +334,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
+      "type": "movie",
+      "genreTitle": "动画•动作•爱情",
+      "rating": 8.2,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+    },
+    {
+      "id": 272418,
+      "title": "罗宾汉",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "剧情•动作冒险",
+      "rating": 8.3,
+      "release_date": "2025-11-02",
+      "overview": "在12世纪的英格兰，撒克逊人生活在诺曼人残酷的统治之下。其中就包括洛克斯利的罗伯特，他的父亲是一位护林员，他的家族被剥夺了祖传的家园，他的父亲也被诺丁汉郡长处决，他的生活从此破碎。罗伯特拥有一把长弓，他从悲痛中走出来，最终走向反抗，他的命运永远与玛丽安交织在一起，玛丽安是一位在对家族的忠诚和对他的爱之间左右为难的贵妇。随着紧张局势的加剧，罗伯召集了一群不法之徒——他们几乎没有共同点，但都拥有撒克逊血统，并且渴望反抗暴政。在舍伍德森林，他们与腐败和不公抗争，激怒了郡长、男爵和诺曼王室。最初的复仇之举最终演变成了更伟大的事业：罗宾汉的传奇，他象征着反抗，而他的抗争将决定英格兰的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3teWChNzKJdbfen46IdeKTygdZa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/anIW4Zlzsd38VuOYGlMAo3PWvF7.jpg"
+    },
+    {
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 9.4,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ePgxI4IO7yXJyWBEqDx4bVCBcgJ.jpg"
+    },
+    {
+      "id": 701387,
+      "title": "拯救地球",
+      "type": "movie",
+      "genreTitle": "科幻•犯罪•惊悚",
+      "rating": 7.8,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
+    },
+    {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•奇幻",
+      "rating": 7.9,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
       "id": 1422096,
@@ -345,81 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
     },
     {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪•惊悚",
-      "rating": 7.8,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
-    },
-    {
-      "id": 1078605,
-      "title": "凶器",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.3,
-      "release_date": "2025-08-04",
-      "overview": "　　同一个班上除了一名孩子外，其余所有孩子在同一天晚上的同一时间神秘失踪，这让整个社区开始怀疑究竟是谁或什么导致了他们的失踪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yNm9xjdkBeVriMrD9fcCSHrSFax.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
-    },
-    {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
-      "type": "movie",
-      "genreTitle": "动画•动作•爱情",
-      "rating": 8.2,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
-    },
-    {
-      "id": 1062722,
-      "title": "Frankenstein",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•奇幻",
-      "rating": 7.9,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
-    },
-    {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 9.4,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ePgxI4IO7yXJyWBEqDx4bVCBcgJ.jpg"
-    },
-    {
-      "id": 252000,
-      "title": "坟场回路",
+      "id": 153312,
+      "title": "塔尔萨之王",
       "type": "tv",
-      "genreTitle": "剧情•犯罪•悬疑",
-      "rating": 5.8,
-      "release_date": "2025-10-29",
-      "overview": "一名儿童在房屋爆炸案后离奇失踪，忧心忡忡的邻居因此跟私家侦探联手寻人。随着秘密逐一曝光，巨大的军事阴谋亦逐渐浮现，为南牛津这个平静的市郊带来一场腥风血雨。",
-      "poster_url": "https://image.tmdb.org/t/p/original/grPePVCm0kdSUKZU8moyFtKrqIW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ktI24nvPuGDHNefc27Ktxf9ZwTY.jpg"
-    },
-    {
-      "id": 271053,
-      "title": "我爱洛杉矶",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 4.7,
-      "release_date": "2025-11-02",
-      "overview": "一群关系紧密的朋友在多年分离后重聚在一起，探讨着复杂的抱负、人际关系以及时间是如何改变他们的。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5Y42w4ZsDkKoC7tnzEFoiVbl28B.jpg"
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2022-11-13",
+      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
     },
     {
       "id": 2190,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
     },
     {
-      "id": 153312,
-      "title": "塔尔萨之王",
+      "id": 252000,
+      "title": "坟场回路",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2022-11-13",
-      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
+      "genreTitle": "剧情•犯罪•悬疑",
+      "rating": 5.8,
+      "release_date": "2025-10-29",
+      "overview": "一名儿童在房屋爆炸案后离奇失踪，忧心忡忡的邻居因此跟私家侦探联手寻人。随着秘密逐一曝光，巨大的军事阴谋亦逐渐浮现，为南牛津这个平静的市郊带来一场腥风血雨。",
+      "poster_url": "https://image.tmdb.org/t/p/original/grPePVCm0kdSUKZU8moyFtKrqIW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ktI24nvPuGDHNefc27Ktxf9ZwTY.jpg"
     }
   ],
   "popular_movies": [
