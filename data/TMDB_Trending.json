@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04 15:01:14",
+  "last_updated": "2025-11-04 16:01:15",
   "today_global": [
     {
       "id": 285770,
@@ -24,6 +24,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/anIW4Zlzsd38VuOYGlMAo3PWvF7.jpg"
     },
     {
+      "id": 1571470,
+      "title": "耗子帮：猎魔人传说",
+      "type": "movie",
+      "genreTitle": "奇幻•剧情•冒险",
+      "rating": 4.7,
+      "release_date": "2025-10-29",
+      "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
+    },
+    {
       "id": 271053,
       "title": "我爱洛杉矶",
       "type": "tv",
@@ -33,17 +44,6 @@
       "overview": "一群有抱负的朋友，在洛杉矶探索人生与爱情。",
       "poster_url": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5Y42w4ZsDkKoC7tnzEFoiVbl28B.jpg"
-    },
-    {
-      "id": 1571470,
-      "title": "耗子帮：猎魔人传说",
-      "type": "movie",
-      "genreTitle": "奇幻•剧情•冒险",
-      "rating": 4.8,
-      "release_date": "2025-10-29",
-      "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
     },
     {
       "id": 71912,
@@ -61,7 +61,7 @@
       "title": "铁血战士：杀戮之地",
       "type": "movie",
       "genreTitle": "动作•科幻•冒险",
-      "rating": 7.8,
+      "rating": 7.2,
       "release_date": "2025-11-05",
       "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
       "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
@@ -79,6 +79,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
+      "id": 1197137,
+      "title": "黑色电话2",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.1,
+      "release_date": "2025-10-15",
+      "overview": "在逃离“掳童怪”的四年后，芬尼·布莱克依然难以从那段被囚禁的经历中恢复。妹妹格温在梦中开始接到来自那部黑色电话的来电，并看见三个男孩在冬令营中被神秘人跟踪的可怕景象。兄妹俩决定揭开真相，直面那个在死后变得更为强大、也与他们命运纠缠得愈发紧密的杀手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ssEH6ukQ4WKP5j3iXnp7uJSdjq5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
+    },
+    {
+      "id": 258742,
+      "title": "诉讼女王",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 10.0,
+      "release_date": "2025-11-04",
+      "overview": "一群女律师脱离男性主导的事务所，自立门户，开创自己的事业。她们精明干练，心思细腻，处理各种棘手的离婚案件、丑闻秘辛，以及法庭内外不断变化的结盟关系。在金钱至上、爱情如战场的世界里，她们不只是参与者，更是游戏规则的改变者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kaDwWJaS2wdDDGAU9JhT8myWhEu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z6Kh7b8IT2FoldOViA80dMTN0Wj.jpg"
+    },
+    {
       "id": 66732,
       "title": "Stranger Things",
       "type": "tv",
@@ -90,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
-      "id": 967941,
-      "title": "魔法坏女巫2",
+      "id": 760329,
+      "title": "粉碎机",
       "type": "movie",
-      "genreTitle": "爱情•奇幻•冒险",
-      "rating": 0.0,
-      "release_date": "2025-11-19",
-      "overview": "　　讲述未来西方邪恶女巫艾尔法巴和北方善良女巫格林达之间的关系。这是百老汇音乐剧改编的两部故事片中的第二部。",
-      "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
+      "genreTitle": "历史•剧情",
+      "rating": 6.6,
+      "release_date": "2025-10-01",
+      "overview": "聚焦UFC传奇人物马克·克尔在职业生涯巅峰时期的生活，他对自己产生质疑，与生活和人际关系作斗争，与此同时，马克的女友Dawn Staple也努力在他混乱矛盾的世界里找到自己的位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wV6g7xW8nfUj37hlC07fRyCjQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jwMqAPyXnveoxmFtdJG1eIdkZa9.jpg"
     },
     {
       "id": 1311031,
@@ -123,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
     },
     {
-      "id": 1197137,
-      "title": "黑色电话2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.1,
-      "release_date": "2025-10-15",
-      "overview": "在逃离“掳童怪”的四年后，芬尼·布莱克依然难以从那段被囚禁的经历中恢复。妹妹格温在梦中开始接到来自那部黑色电话的来电，并看见三个男孩在冬令营中被神秘人跟踪的可怕景象。兄妹俩决定揭开真相，直面那个在死后变得更为强大、也与他们命运纠缠得愈发紧密的杀手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ssEH6ukQ4WKP5j3iXnp7uJSdjq5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
-    },
-    {
       "id": 1062722,
       "title": "Frankenstein",
       "type": "movie",
@@ -145,15 +156,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
-      "id": 279013,
-      "title": "特雷门贝监狱风云",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 8.9,
-      "release_date": "2025-10-31",
-      "overview": "在这座关押着巴西最臭名昭罪犯的监狱高墙内，不为人知的秘辛、阴谋与情爱正悄然浮出水面。当铁窗隔绝了外界目光，那些曾震惊全国的真实罪案背后，更多超越罪案本身的人性纠葛正在黑暗中疯狂滋长。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eVqBFACBpovk0sEtjx3HEb3jOYS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ca3UijLciLkhxXeriCWWbRXN98i.jpg"
+      "id": 436969,
+      "title": "X特遣队：全员集结",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•冒险",
+      "rating": 7.5,
+      "release_date": "2021-07-28",
+      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
+    },
+    {
+      "id": 1272166,
+      "title": "小人物之歌",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚•犯罪",
+      "rating": 6.0,
+      "release_date": "2025-10-15",
+      "overview": "杜尔勋爵（柯林·法瑞尔 饰）在澳门避风头时，日日夜夜混迹赌场、酗酒赌博，败光身上仅剩的钱财。他很快便陷入债务深渊，幸好一位名叫“稻茗”的赌场员工（陈法拉 饰）对他伸出援手，而来历成谜的她其实藏着不可告人的秘密。\r 然而，私家侦探辛西娅·布利特（蒂尔达·斯文顿 饰）对杜尔穷追不舍，矢言揭开他百般逃避的真相。正当他寻求救赎的同时，现实却像牢笼般一步步将他禁锢，让他无处可逃。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2Po4MP9xhyg4L9daJlKq35YQN7V.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whuRtds71UiOlT3j914jXrEllis.jpg"
+    },
+    {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.3,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viyt29Tlea4PFDFSRMOR6hDdUt9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
       "id": 37854,
@@ -178,48 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
     },
     {
-      "id": 436969,
-      "title": "X特遣队：全员集结",
+      "id": 106646,
+      "title": "华尔街之狼",
       "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.5,
-      "release_date": "2021-07-28",
-      "overview": "被关押在美梦监狱的自杀小队成员获得一项可以减轻刑罚的新任务，前往南美洲的科多·马提斯岛国，摧毁纳粹时期遗留的约顿海姆监狱和实验室，它当前用于关押该国的政治犯并施行人体实验。执行任务期间，自杀小队遭遇巨型外星生物——海星斯塔罗，并与它发生冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pjvtoWEki8x5DMI9YhgvFyq6XCp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rVwe70pxwygdt4metZOEISbaChn.jpg"
-    },
-    {
-      "id": 153312,
-      "title": "塔尔萨之王",
-      "type": "tv",
       "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2022-11-13",
-      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
-    },
-    {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.3,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viyt29Tlea4PFDFSRMOR6hDdUt9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
-    },
-    {
-      "id": 126506,
-      "title": "微笑朋友",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-04-01",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/q3CSxl3G06MBc73TpHWwBYYTPxL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dfkHCNbOXIdRqTsMT58ResKDgTe.jpg"
+      "rating": 8.0,
+      "release_date": "2013-12-25",
+      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9RJ2WU0ZZhu5eishs7cXRyJ5gCx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
     }
   ],
   "week_global_all": [
@@ -279,37 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
-      "id": 617126,
-      "title": "神奇四侠：初露锋芒",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 7.1,
-      "release_date": "2025-07-23",
-      "overview": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
-    },
-    {
-      "id": 967941,
-      "title": "魔法坏女巫2",
-      "type": "movie",
-      "genreTitle": "爱情•奇幻•冒险",
-      "rating": 0.0,
-      "release_date": "2025-11-19",
-      "overview": "　　讲述未来西方邪恶女巫艾尔法巴和北方善良女巫格林达之间的关系。这是百老汇音乐剧改编的两部故事片中的第二部。",
-      "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
-    },
-    {
-      "id": 1422096,
-      "title": "好狗狗",
+      "id": 1197137,
+      "title": "黑色电话2",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 6.9,
-      "release_date": "2025-10-01",
-      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mdY6BDQ3Am1HNKbk8X4z6ecF4ok.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
+      "rating": 7.1,
+      "release_date": "2025-10-15",
+      "overview": "在逃离“掳童怪”的四年后，芬尼·布莱克依然难以从那段被囚禁的经历中恢复。妹妹格温在梦中开始接到来自那部黑色电话的来电，并看见三个男孩在冬令营中被神秘人跟踪的可怕景象。兄妹俩决定揭开真相，直面那个在死后变得更为强大、也与他们命运纠缠得愈发紧密的杀手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ssEH6ukQ4WKP5j3iXnp7uJSdjq5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     },
     {
       "id": 533533,
@@ -323,26 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
-      "id": 604079,
-      "title": "死亡竞走",
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
       "type": "movie",
-      "genreTitle": "惊悚•恐怖•科幻",
-      "rating": 7.0,
-      "release_date": "2025-09-10",
-      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
-    },
-    {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪•惊悚",
-      "rating": 7.8,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.2,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ePgxI4IO7yXJyWBEqDx4bVCBcgJ.jpg"
     },
     {
       "id": 997113,
@@ -356,15 +323,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zXBO1usnT1MOUpvohf0IbaVUqZs.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
+      "id": 604079,
+      "title": "死亡竞走",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.8,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ePgxI4IO7yXJyWBEqDx4bVCBcgJ.jpg"
+      "genreTitle": "惊悚•恐怖•科幻",
+      "rating": 7.0,
+      "release_date": "2025-09-10",
+      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
+    },
+    {
+      "id": 760329,
+      "title": "粉碎机",
+      "type": "movie",
+      "genreTitle": "历史•剧情",
+      "rating": 6.6,
+      "release_date": "2025-10-01",
+      "overview": "聚焦UFC传奇人物马克·克尔在职业生涯巅峰时期的生活，他对自己产生质疑，与生活和人际关系作斗争，与此同时，马克的女友Dawn Staple也努力在他混乱矛盾的世界里找到自己的位置。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wV6g7xW8nfUj37hlC07fRyCjQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jwMqAPyXnveoxmFtdJG1eIdkZa9.jpg"
+    },
+    {
+      "id": 1571470,
+      "title": "耗子帮：猎魔人传说",
+      "type": "movie",
+      "genreTitle": "奇幻•剧情•冒险",
+      "rating": 4.7,
+      "release_date": "2025-10-29",
+      "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
     },
     {
       "id": 1062722,
@@ -378,48 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
-      "id": 2190,
-      "title": "南方公园",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.3,
-      "release_date": "1997-08-13",
-      "overview": "《南方公园》，其他译法包括《衰仔乐园》（港版翻译）或《南方四贱客》（台版翻译），是美国喜剧中心（Comedy Central）制作的一部剪纸摆拍动画剧集，由Matt Stone和Trey Parker创作。主角为科罗拉多州虚构的南方公园小镇的四名10岁的男孩。南方公园经常通过歪曲式的摹仿来讽刺和嘲弄美国文化和社会时事的方方面面，挑战了许多根深蒂固的观念和禁忌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7qdorMrUa7Pgzhty7RqrsGZ0Zgo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
-    },
-    {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
+      "id": 701387,
+      "title": "拯救地球",
       "type": "movie",
-      "genreTitle": "动画•动作•爱情",
-      "rating": 8.2,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
-    },
-    {
-      "id": 1197137,
-      "title": "黑色电话2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.1,
-      "release_date": "2025-10-15",
-      "overview": "在逃离“掳童怪”的四年后，芬尼·布莱克依然难以从那段被囚禁的经历中恢复。妹妹格温在梦中开始接到来自那部黑色电话的来电，并看见三个男孩在冬令营中被神秘人跟踪的可怕景象。兄妹俩决定揭开真相，直面那个在死后变得更为强大、也与他们命运纠缠得愈发紧密的杀手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ssEH6ukQ4WKP5j3iXnp7uJSdjq5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
-    },
-    {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+      "genreTitle": "科幻•犯罪•惊悚",
+      "rating": 7.8,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
     },
     {
       "id": 114478,
@@ -433,15 +389,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/64wq66hnD7GcRWLe5XYUVL3Gzc2.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
+      "id": 1422096,
+      "title": "好狗狗",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.4,
-      "release_date": "2025-07-09",
-      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？ 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.9,
+      "release_date": "2025-10-01",
+      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mdY6BDQ3Am1HNKbk8X4z6ecF4ok.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
+    },
+    {
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
+      "type": "movie",
+      "genreTitle": "动画•动作•爱情",
+      "rating": 8.2,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+    },
+    {
+      "id": 258742,
+      "title": "诉讼女王",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 10.0,
+      "release_date": "2025-11-04",
+      "overview": "一群女律师脱离男性主导的事务所，自立门户，开创自己的事业。她们精明干练，心思细腻，处理各种棘手的离婚案件、丑闻秘辛，以及法庭内外不断变化的结盟关系。在金钱至上、爱情如战场的世界里，她们不只是参与者，更是游戏规则的改变者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kaDwWJaS2wdDDGAU9JhT8myWhEu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z6Kh7b8IT2FoldOViA80dMTN0Wj.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据Mick Herron的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qq7CaRWC4xZXTKDSkIVuRy45fOH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "popular_movies": [
