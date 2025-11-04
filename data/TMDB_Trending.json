@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04 11:35:45",
+  "last_updated": "2025-11-04 12:10:42",
   "today_global": [
     {
       "id": 272418,
@@ -123,17 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•奇幻",
-      "rating": 7.9,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
-    },
-    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -145,15 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
-      "id": 1290159,
-      "title": "炸裂白宫",
+      "id": 1062722,
+      "title": "Frankenstein",
       "type": "movie",
-      "genreTitle": "惊悚•战争",
-      "rating": 6.4,
-      "release_date": "2025-10-02",
-      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
+      "genreTitle": "恐怖•科幻•奇幻",
+      "rating": 7.9,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
       "id": 967941,
@@ -165,6 +154,17 @@
       "overview": "　　讲述未来西方邪恶女巫艾尔法巴和北方善良女巫格林达之间的关系。这是百老汇音乐剧改编的两部故事片中的第二部。",
       "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
+    },
+    {
+      "id": 1290159,
+      "title": "炸裂白宫",
+      "type": "movie",
+      "genreTitle": "惊悚•战争",
+      "rating": 6.4,
+      "release_date": "2025-10-02",
+      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
     },
     {
       "id": 279013,
@@ -189,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
     },
     {
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
+      "type": "movie",
+      "genreTitle": "动画•动作•爱情",
+      "rating": 8.2,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+    },
+    {
       "id": 155,
       "title": "蝙蝠侠：黑暗骑士",
       "type": "movie",
@@ -209,17 +220,6 @@
       "overview": "年轻男子渴望在里约的地下赌博界出人头地，殊不知等待他的是一场充满背叛、欲望和血腥的危险游戏。",
       "poster_url": "https://image.tmdb.org/t/p/original/kv7E0fEuDzEdzdsazwfLWedpBvs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1b2OYNA3Ikq9BBwk6If8As89bge.jpg"
-    },
-    {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
-      "type": "movie",
-      "genreTitle": "动画•动作•爱情",
-      "rating": 8.2,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     }
   ],
   "week_global_all": [
@@ -290,28 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lrDYkVklLJOaab5IATBmoEaeMk6.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•奇幻",
-      "rating": 7.9,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
-    },
-    {
-      "id": 604079,
-      "title": "死亡竞走",
-      "type": "movie",
-      "genreTitle": "惊悚•恐怖•科幻",
-      "rating": 7.0,
-      "release_date": "2025-09-10",
-      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
-    },
-    {
       "id": 701387,
       "title": "拯救地球",
       "type": "movie",
@@ -321,6 +299,17 @@
       "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
       "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
+    },
+    {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•奇幻",
+      "rating": 7.9,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/d6eIIB8q5MTe3Zop3Jx8el3qqMe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
       "id": 37854,
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1218925,
-      "title": "电锯人 - 剧场版：蕾塞篇",
+      "id": 604079,
+      "title": "死亡竞走",
       "type": "movie",
-      "genreTitle": "动画•动作•爱情",
-      "rating": 8.2,
-      "release_date": "2025-09-19",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+      "genreTitle": "惊悚•恐怖•科幻",
+      "rating": 7.0,
+      "release_date": "2025-09-10",
+      "overview": "　　在一个未来的反乌托邦社会中，政府举办的残酷的死亡游戏——“死亡竞走”。这是一场没有终点的竞走比赛，参赛者是100名被挑选出来的年轻人。任何落后或走不动的人，会在三次警告后被立即处决，直到剩下最后一个。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kwK17FjV8PhxJ3z2QajW0z8Prgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kCKJCoqJbzeK4ySQQwpwYz7fgLQ.jpg"
     },
     {
       "id": 1242898,
@@ -367,26 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ywxqeYt9ne2l7TFqBgtrrV4w6O9.jpg"
     },
     {
-      "id": 1422096,
-      "title": "好狗狗",
+      "id": 1218925,
+      "title": "电锯人 - 剧场版：蕾塞篇",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.9,
-      "release_date": "2025-10-01",
-      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mdY6BDQ3Am1HNKbk8X4z6ecF4ok.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
-    },
-    {
-      "id": 252000,
-      "title": "坟场回路",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪•悬疑",
-      "rating": 5.8,
-      "release_date": "2025-10-29",
-      "overview": "一名儿童在房屋爆炸案后离奇失踪，忧心忡忡的邻居因此跟私家侦探联手寻人。随着秘密逐一曝光，巨大的军事阴谋亦逐渐浮现，为南牛津这个平静的市郊带来一场腥风血雨。",
-      "poster_url": "https://image.tmdb.org/t/p/original/grPePVCm0kdSUKZU8moyFtKrqIW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ktI24nvPuGDHNefc27Ktxf9ZwTY.jpg"
+      "genreTitle": "动画•动作•爱情",
+      "rating": 8.2,
+      "release_date": "2025-09-19",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
       "id": 1571470,
@@ -398,6 +376,17 @@
       "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
+    },
+    {
+      "id": 1422096,
+      "title": "好狗狗",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.9,
+      "release_date": "2025-10-01",
+      "overview": "　　一部由狗狗担任主角的恐怖片。 小狗印第跟随他的主人和挚友托德踏上了一段新的旅途，离开城市生活，搬到了乡下一栋空置已久的旧宅。然而搬进家后，印第却立刻被充满空阔角落的不详气息所困扰。一只死去已久的狗的魂灵现身，向印第发出若有若无的警告，而前任房主惨死的景象更是突然浮现在它面前。当托德渐渐屈服于萦绕房子的黑暗力量，印第必须与来自死亡的恶灵搏斗，保护它挚爱的人类。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mdY6BDQ3Am1HNKbk8X4z6ecF4ok.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pzr6mKfsG08ClS6wmUCKg5V3oWv.jpg"
     },
     {
       "id": 967941,
@@ -422,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dMsDzm3SbOfEaJXXcHhc9qNFA25.jpg"
     },
     {
+      "id": 1311031,
+      "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭",
+      "type": "movie",
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 7.8,
+      "release_date": "2025-07-18",
+      "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，鬼舞辻无惨在产屋敷宅邸出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被鸣女推入一个神秘的异空间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bhIytk0hlaHmGrQFY9P7bWhZZfC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
+    },
+    {
       "id": 95480,
       "title": "Slow Horses",
       "type": "tv",
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aCchA95DXlhktH9qPWpDVmtj4l7.jpg"
     },
     {
-      "id": 1311031,
-      "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭",
-      "type": "movie",
-      "genreTitle": "动画•动作•奇幻",
-      "rating": 7.8,
-      "release_date": "2025-07-18",
-      "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，鬼舞辻无惨在产屋敷宅邸出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被鸣女推入一个神秘的异空间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bhIytk0hlaHmGrQFY9P7bWhZZfC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
+      "id": 153312,
+      "title": "塔尔萨之王",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2022-11-13",
+      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7inOrhtz9of0v6ggsleMLOlwNGl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
     }
   ],
   "popular_movies": [
