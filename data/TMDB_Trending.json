@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-07 00:01:25",
+  "last_updated": "2025-11-07 01:10:19",
   "today_global": [
     {
       "id": 7451,
@@ -17,7 +17,7 @@
       "title": "雷殛元首",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 9.0,
+      "rating": 5.0,
       "release_date": "2025-11-06",
       "overview": "改编自詹姆斯·加菲尔德和查尔斯·吉托两人之间比小说更精彩离奇的真实故事，讲述詹姆斯当上了美国第 20 任总统六个月后，被向来最支持他的查尔斯刺杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/fFXIzuSMQ9zSCOJtAkNDuJDzHVW.jpg",
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uanBIz4myibV0ytiPgzCVDz1kNg.jpg"
     },
     {
-      "id": 1252382,
-      "title": "寻找快乐",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 4.8,
-      "release_date": "2025-11-05",
-      "overview": "乔伊是一位才华横溢却不得重用的纽约时尚设计师。她在事业和爱情两方面都失意，于是追随自己的暗恋对象来到科罗拉多度假放松。当乔伊得知了一个让人震惊的真相并因暴风雪而滞留时，是里奇给了她意料之外的慰藉，这场偶然的邂逅将彻底改变乔伊对人生与爱情的看法，她可能会走上不同的人生道路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sN0uzqhIMGXMRV4XFfIZCVPtOTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eH5oJP8PnONLRWjhBCX7o9wtyQb.jpg"
-    },
-    {
       "id": 760329,
       "title": "粉碎机",
       "type": "movie",
@@ -99,6 +88,17 @@
       "overview": "聚焦UFC传奇人物马克·克尔在职业生涯巅峰时期的生活，他对自己产生质疑，与生活和人际关系作斗争，与此同时，马克的女友Dawn Staple也努力在他混乱矛盾的世界里找到自己的位置。",
       "poster_url": "https://image.tmdb.org/t/p/original/wV6g7xW8nfUj37hlC07fRyCjQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8pEFxrRnqW04Q1hCdDjPKEd9tFL.jpg"
+    },
+    {
+      "id": 1252382,
+      "title": "寻找快乐",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 4.8,
+      "release_date": "2025-11-05",
+      "overview": "乔伊是一位才华横溢却不得重用的纽约时尚设计师。她在事业和爱情两方面都失意，于是追随自己的暗恋对象来到科罗拉多度假放松。当乔伊得知了一个让人震惊的真相并因暴风雪而滞留时，是里奇给了她意料之外的慰藉，这场偶然的邂逅将彻底改变乔伊对人生与爱情的看法，她可能会走上不同的人生道路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sN0uzqhIMGXMRV4XFfIZCVPtOTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eH5oJP8PnONLRWjhBCX7o9wtyQb.jpg"
     },
     {
       "id": 1571470,
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wrP05wyzyrxwsaicfVx7VMqHgEu.jpg"
     },
     {
+      "id": 71912,
+      "title": "猎魔人",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.0,
+      "release_date": "2019-12-20",
+      "overview": "利维亚的杰洛特是一名猎杀变异怪物的雇佣猎人。在这个人类往往比野兽更邪恶的动荡世界里，他一步步踏上命运之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qNmjUGaoSj2iBFbKT8M1TIypbgW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
+    },
+    {
       "id": 1242501,
       "title": "冰湖行动",
       "type": "movie",
@@ -178,28 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
     },
     {
-      "id": 226197,
-      "title": "新闻女王",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.2,
-      "release_date": "2023-11-17",
-      "overview": "收视最高的六点半新闻报道是主播的必争之地。在新闻电视部，资深主播文慧心和梁景仁分成两派、平分秋色，前者一番兴风作浪，终攀上管理层之位。黄金时段女主播的空缺，引发连场风暴。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9nrVW6P44OPw2pxkAgEI5fMfjl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lXmJUTkzWt3gd2Ss7MECd2oDExu.jpg"
-    },
-    {
-      "id": 258742,
-      "title": "诉讼女王",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 3.2,
-      "release_date": "2025-11-04",
-      "overview": "一群女律师脱离男性主导的事务所，自立门户，开创自己的事业。她们精明干练，心思细腻，处理各种棘手的离婚案件、丑闻秘辛，以及法庭内外不断变化的结盟关系。在金钱至上、爱情如战场的世界里，她们不只是参与者，更是游戏规则的改变者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mJ54EO4DxPgqJEJPKXzT3boyqiK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6cpMTu7PSNfVqnboVYqABk5VClL.jpg"
-    },
-    {
       "id": 66732,
       "title": "Stranger Things",
       "type": "tv",
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/89T83vE1ol8wcI879LutCqv7hMa.jpg"
     },
     {
-      "id": 71912,
-      "title": "猎魔人",
+      "id": 302723,
+      "title": "就是爱丽丝",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "genreTitle": "剧情•喜剧•肥皂剧",
       "rating": 8.0,
-      "release_date": "2019-12-20",
-      "overview": "利维亚的杰洛特是一名猎杀变异怪物的雇佣猎人。在这个人类往往比野兽更邪恶的动荡世界里，他一步步踏上命运之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qNmjUGaoSj2iBFbKT8M1TIypbgW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
+      "release_date": "2025-11-05",
+      "overview": "爱丽丝难以在两个爱人间做出抉择，悄悄地和一个有名的作家以及一名前牧师结了婚。但她能够在爱、谎言和双重生活中坚持多久呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/xV0dzVfaYgqWBnKVNWWyZk2YdrE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xHo8DmcIoYSc27O7CL4Z7Ysp5Tz.jpg"
+    },
+    {
+      "id": 258742,
+      "title": "诉讼女王",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 3.2,
+      "release_date": "2025-11-04",
+      "overview": "一群女律师脱离男性主导的事务所，自立门户，开创自己的事业。她们精明干练，心思细腻，处理各种棘手的离婚案件、丑闻秘辛，以及法庭内外不断变化的结盟关系。在金钱至上、爱情如战场的世界里，她们不只是参与者，更是游戏规则的改变者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mJ54EO4DxPgqJEJPKXzT3boyqiK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6cpMTu7PSNfVqnboVYqABk5VClL.jpg"
     }
   ],
   "week_global_all": [
@@ -239,7 +239,7 @@
       "title": "雷殛元首",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 9.0,
+      "rating": 5.0,
       "release_date": "2025-11-06",
       "overview": "改编自詹姆斯·加菲尔德和查尔斯·吉托两人之间比小说更精彩离奇的真实故事，讲述詹姆斯当上了美国第 20 任总统六个月后，被向来最支持他的查尔斯刺杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/fFXIzuSMQ9zSCOJtAkNDuJDzHVW.jpg",
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
     },
     {
-      "id": 1571470,
-      "title": "耗子帮：猎魔人传说",
-      "type": "movie",
-      "genreTitle": "奇幻•剧情•冒险",
-      "rating": 4.9,
-      "release_date": "2025-10-29",
-      "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。巫师同意加入他们的行列，但计划很快就出了差错，并酿成了灾难性的后果。影片聚焦于这群被称为“鼠帮”的年轻盗贼的起源和冒险经历，以及他们与希里相遇之前的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
-    },
-    {
       "id": 302540,
       "title": "坏蛋联盟：闯关大行动",
       "type": "tv",
@@ -301,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sO4Em9tttEG7nHAKcl6obm2QDFv.jpg"
     },
     {
-      "id": 200875,
-      "title": "小丑回魂：欢迎来到德里镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.9,
-      "release_date": "2025-10-26",
-      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
+      "id": 1571470,
+      "title": "耗子帮：猎魔人传说",
+      "type": "movie",
+      "genreTitle": "奇幻•剧情•冒险",
+      "rating": 4.9,
+      "release_date": "2025-10-29",
+      "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。巫师同意加入他们的行列，但计划很快就出了差错，并酿成了灾难性的后果。影片聚焦于这群被称为“鼠帮”的年轻盗贼的起源和冒险经历，以及他们与希里相遇之前的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
     },
     {
       "id": 760329,
@@ -323,6 +312,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8pEFxrRnqW04Q1hCdDjPKEd9tFL.jpg"
     },
     {
+      "id": 246386,
+      "title": "都是她的错",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.0,
+      "release_date": "2025-11-06",
+      "overview": "玛丽莎去接年幼的儿子米洛，他刚和新学校的一名男孩结束第一次的玩伴聚会。然而，开门的女人并不是她认识的那位母亲或保姆，更没有米洛的踪影。全天下父母最不愿面对的噩梦就此展开…",
+      "poster_url": "https://image.tmdb.org/t/p/original/o8vZKZlc8H4OcgpbJuqP0iK4B2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uv0LVwNM8mZcwhCa5pd6FJxvKDz.jpg"
+    },
+    {
+      "id": 617126,
+      "title": "神奇四侠：初露锋芒",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.1,
+      "release_date": "2025-07-23",
+      "overview": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
+    },
+    {
       "id": 1062722,
       "title": "Frankenstein",
       "type": "movie",
@@ -334,15 +345,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pBjg8hOYhFD26TXmNmVL25xvXpF.jpg"
     },
     {
-      "id": 246386,
-      "title": "都是她的错",
+      "id": 239385,
+      "title": "操控游戏",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.0,
-      "release_date": "2025-11-06",
-      "overview": "玛丽莎去接年幼的儿子米洛，他刚和新学校的一名男孩结束第一次的玩伴聚会。然而，开门的女人并不是她认识的那位母亲或保姆，更没有米洛的踪影。全天下父母最不愿面对的噩梦就此展开…",
-      "poster_url": "https://image.tmdb.org/t/p/original/o8vZKZlc8H4OcgpbJuqP0iK4B2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uv0LVwNM8mZcwhCa5pd6FJxvKDz.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.5,
+      "release_date": "2025-11-05",
+      "overview": "原本过着平凡生活的朴台仲，突然被冠上莫须有的罪名并锒铛入狱。在发现一切都是由安耀翰一手策划后，他决定展开复仇，一场激烈的对决就此展开！",
+      "poster_url": "https://image.tmdb.org/t/p/original/5WDNTTaxA9f3dp6XCBy6zqeImfc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/78qM10pXWzY9ykASvvNO2Woy2Ld.jpg"
+    },
+    {
+      "id": 200875,
+      "title": "小丑回魂：欢迎来到德里镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.9,
+      "release_date": "2025-10-26",
+      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
       "id": 66732,
@@ -367,39 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
     },
     {
-      "id": 239385,
-      "title": "操控游戏",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 8.5,
-      "release_date": "2025-11-05",
-      "overview": "原本过着平凡生活的朴台仲，突然被冠上莫须有的罪名并锒铛入狱。在发现一切都是由安耀翰一手策划后，他决定展开复仇，一场激烈的对决就此展开！",
-      "poster_url": "https://image.tmdb.org/t/p/original/5WDNTTaxA9f3dp6XCBy6zqeImfc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/78qM10pXWzY9ykASvvNO2Woy2Ld.jpg"
-    },
-    {
-      "id": 617126,
-      "title": "神奇四侠：初露锋芒",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.1,
-      "release_date": "2025-07-23",
-      "overview": "神奇先生、隐形女、霹雳火和石头人面对来自宇宙级威胁“行星吞噬者”及其使者“银影侠”对地球上所有生灵的威胁，四人必须在家庭羁绊与英雄使命间抉择，挺身而出接受这个前所未有的严峻挑战。更令人措手不及的是，这场关乎地球存亡的危机竟与他们有着意想不到的关联。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mLLRlXftxQl7vagEqHKbk73a7ZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
-    },
-    {
-      "id": 1272166,
-      "title": "小人物之歌",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚•犯罪",
-      "rating": 6.0,
-      "release_date": "2025-10-15",
-      "overview": "杜尔勋爵（柯林·法瑞尔 饰）在澳门避风头时，日日夜夜混迹赌场、酗酒赌博，败光身上仅剩的钱财。他很快便陷入债务深渊，幸好一位名叫“稻茗”的赌场员工（陈法拉 饰）对他伸出援手，而来历成谜的她其实藏着不可告人的秘密。\r 然而，私家侦探辛西娅·布利特（蒂尔达·斯文顿 饰）对杜尔穷追不舍，矢言揭开他百般逃避的真相。正当他寻求救赎的同时，现实却像牢笼般一步步将他禁锢，让他无处可逃。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2Po4MP9xhyg4L9daJlKq35YQN7V.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whuRtds71UiOlT3j914jXrEllis.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -422,15 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qY3MTxuYvAiuMZlVzQDvl1iI2Vr.jpg"
     },
     {
-      "id": 1290159,
-      "title": "炸裂白宫",
+      "id": 1272166,
+      "title": "小人物之歌",
       "type": "movie",
-      "genreTitle": "惊悚•战争",
-      "rating": 6.4,
-      "release_date": "2025-10-02",
-      "overview": "一颗来源不明的导弹朝着美国发射，谁该负责？又该如何应对？一场分秒必争的角力就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gs75oVYmKlt2Q9keluLQWG7d5B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
+      "genreTitle": "悬疑•惊悚•犯罪",
+      "rating": 6.0,
+      "release_date": "2025-10-15",
+      "overview": "杜尔勋爵（柯林·法瑞尔 饰）在澳门避风头时，日日夜夜混迹赌场、酗酒赌博，败光身上仅剩的钱财。他很快便陷入债务深渊，幸好一位名叫“稻茗”的赌场员工（陈法拉 饰）对他伸出援手，而来历成谜的她其实藏着不可告人的秘密。\r 然而，私家侦探辛西娅·布利特（蒂尔达·斯文顿 饰）对杜尔穷追不舍，矢言揭开他百般逃避的真相。正当他寻求救赎的同时，现实却像牢笼般一步步将他禁锢，让他无处可逃。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2Po4MP9xhyg4L9daJlKq35YQN7V.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whuRtds71UiOlT3j914jXrEllis.jpg"
     },
     {
       "id": 967941,
@@ -442,6 +431,17 @@
       "overview": "　　讲述未来西方邪恶女巫艾尔法巴和北方善良女巫格林达之间的关系。这是百老汇音乐剧改编的两部故事片中的第二部。",
       "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
+    },
+    {
+      "id": 256226,
+      "title": "亲爱的X",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 0.0,
+      "release_date": "2025-11-06",
+      "overview": "本剧讲述女演员白雅珍隐藏自己伤痕累累的过去，透过操纵人心和欺骗手段攀上顶峰的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fZynQ0tbUUF2MbgIsz6m3BJE1kx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wrP05wyzyrxwsaicfVx7VMqHgEu.jpg"
     }
   ],
   "popular_movies": [
