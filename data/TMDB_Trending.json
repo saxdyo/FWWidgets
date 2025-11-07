@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-08 06:01:07",
+  "last_updated": "2025-11-08 07:01:13",
   "today_global": [
     {
       "id": 7451,
@@ -28,7 +28,7 @@
       "title": "Pluribus",
       "type": "tv",
       "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
+      "rating": 8.4,
       "release_date": "2025-11-06",
       "overview": "　　故事发生在美国新墨西哥州的阿尔伯克基市，一股来自外太空的神秘的“末世病毒”席卷了这里。它没有带来灾难，反而消除了人与人之间的冲突和自我厌恶，将几乎所有人口都转变为“持续感到满足和乐观”的公民。在这个全世界都沉浸在快乐中的背景下，卡罗尔却成了一个异类。她是一位情感有些麻木的历史言情小说作家，对这场席卷全球的幸福感免疫 ，成为了“地球上最不快乐的人”。这位“最痛苦的人”被迫肩负起一个看似匪夷所思的使命——将世界从这种绝对的幸福中“拯救”出来。",
       "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
@@ -39,7 +39,7 @@
       "title": "好运连连",
       "type": "movie",
       "genreTitle": "喜剧•奇幻",
-      "rating": 6.6,
+      "rating": 6.7,
       "release_date": "2025-10-14",
       "overview": "　　好心但笨拙的天使加百列（基努·里维斯 饰）想要去守护人类，因此卷入了一个打零工的人和一个富有资本家的人生，和复杂的红尘大世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/x9W61jL7MaWRv5c9v2qjjxJyb1W.jpg",
@@ -50,7 +50,7 @@
       "title": "铁血战士：杀戮之地",
       "type": "movie",
       "genreTitle": "动作•科幻•冒险",
-      "rating": 6.5,
+      "rating": 6.6,
       "release_date": "2025-11-05",
       "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
       "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
@@ -72,7 +72,7 @@
       "title": "你旁观的罪",
       "type": "tv",
       "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.0,
+      "rating": 9.0,
       "release_date": "2025-11-07",
       "overview": "　　为了逃离饱受虐待的婚姻，两名女子策划了一起谋杀。不料，一位不速之客扬言要揭露她们的计划，并毁掉她们的世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/x92xajQ7Qcs5e7kcJkoCNJXccYi.jpg",
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/msrMvALBcBkb80R62t9bagRFspW.jpg"
     },
     {
-      "id": 1561969,
-      "title": "巴拉穆拉诡影",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 0.0,
-      "release_date": "2025-11-07",
-      "overview": "　　一名警察在调查一起儿童失踪案件时，逐步揭开了隐藏在巴拉穆拉小镇的黑暗秘密。随着调查深入，他发现案件背后牵涉到一个神秘的邪教组织，以及一系列无法用常理解释的灵异现象。他的家人也逐渐卷入其中，小镇的祥和表象开始崩塌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2raITTyjXVUcsbJ7lJAQt8HzjDK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lZAmefq0U012syyXxtdGRwfHFk6.jpg"
-    },
-    {
       "id": 1571470,
       "title": "耗子帮：猎魔人传说",
       "type": "movie",
@@ -121,6 +110,17 @@
       "overview": "为了完成大胆的劫盗行动，六个社会边缘的亡命之徒必须挑战以前从没做过的事：信任彼此，还有一个落魄的猎魔人。巫师同意加入他们的行列，但计划很快就出了差错，并酿成了灾难性的后果。影片聚焦于这群被称为“鼠帮”的年轻盗贼的起源和冒险经历，以及他们与希里相遇之前的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/5Gr4amaB1xxeYAEMOdrVutaWwgz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vAHCe8mWfPW6Um7ugRss1tqKCyT.jpg"
+    },
+    {
+      "id": 1561969,
+      "title": "巴拉穆拉诡影",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 0.0,
+      "release_date": "2025-11-07",
+      "overview": "　　一名警察在调查一起儿童失踪案件时，逐步揭开了隐藏在巴拉穆拉小镇的黑暗秘密。随着调查深入，他发现案件背后牵涉到一个神秘的邪教组织，以及一系列无法用常理解释的灵异现象。他的家人也逐渐卷入其中，小镇的祥和表象开始崩塌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2raITTyjXVUcsbJ7lJAQt8HzjDK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lZAmefq0U012syyXxtdGRwfHFk6.jpg"
     },
     {
       "id": 66732,
@@ -138,22 +138,11 @@
       "title": "粉碎机",
       "type": "movie",
       "genreTitle": "历史•剧情",
-      "rating": 6.3,
+      "rating": 6.4,
       "release_date": "2025-10-01",
       "overview": "聚焦UFC传奇人物马克·克尔在职业生涯巅峰时期的生活，他对自己产生质疑，与生活和人际关系作斗争，与此同时，马克的女友Dawn Staple也努力在他混乱矛盾的世界里找到自己的位置。",
       "poster_url": "https://image.tmdb.org/t/p/original/wV6g7xW8nfUj37hlC07fRyCjQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8pEFxrRnqW04Q1hCdDjPKEd9tFL.jpg"
-    },
-    {
-      "id": 302540,
-      "title": "坏蛋联盟：闯关大行动",
-      "type": "tv",
-      "genreTitle": "动画",
-      "rating": 6.8,
-      "release_date": "2025-11-06",
-      "overview": "在这群最受欢迎的恶棍成为\"坏蛋联盟\"之前，他们不过是一群努力打响名号的小混混。为了成为史上最猖狂的罪犯，大坏狼立志要带领团队登上《六点新闻》\"头号通缉榜\"的榜首，为此策划了一系列惊天劫案......只可惜这群家伙，偏偏连使坏都不太在行。这群坏蛋当初做了哪些作奸犯科的坏事？打开这部背景设定在热门电影系列之前的爆笑前传剧集寻找答案吧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vWULYz6Pp5vDevVVBawVDZcgKJh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sO4Em9tttEG7nHAKcl6obm2QDFv.jpg"
     },
     {
       "id": 71912,
@@ -167,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
     },
     {
+      "id": 302540,
+      "title": "坏蛋联盟：闯关大行动",
+      "type": "tv",
+      "genreTitle": "动画",
+      "rating": 6.8,
+      "release_date": "2025-11-06",
+      "overview": "在这群最受欢迎的恶棍成为\"坏蛋联盟\"之前，他们不过是一群努力打响名号的小混混。为了成为史上最猖狂的罪犯，大坏狼立志要带领团队登上《六点新闻》\"头号通缉榜\"的榜首，为此策划了一系列惊天劫案......只可惜这群家伙，偏偏连使坏都不太在行。这群坏蛋当初做了哪些作奸犯科的坏事？打开这部背景设定在热门电影系列之前的爆笑前传剧集寻找答案吧。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vWULYz6Pp5vDevVVBawVDZcgKJh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sO4Em9tttEG7nHAKcl6obm2QDFv.jpg"
+    },
+    {
       "id": 246386,
       "title": "都是她的错",
       "type": "tv",
@@ -176,17 +176,6 @@
       "overview": "玛丽莎去接年幼的儿子麦洛，他刚和新学校的一名男孩结束第一次的玩伴聚会。然而，开门的女人并不是她认识的那位母亲或保姆，更没有麦洛的踪影。全天下父母最不愿面对的噩梦就此展开…",
       "poster_url": "https://image.tmdb.org/t/p/original/o8vZKZlc8H4OcgpbJuqP0iK4B2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uv0LVwNM8mZcwhCa5pd6FJxvKDz.jpg"
-    },
-    {
-      "id": 256226,
-      "title": "亲爱的X",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 8.0,
-      "release_date": "2025-11-06",
-      "overview": "本剧讲述女演员白雅珍隐藏自己伤痕累累的过去，透过操纵人心和欺骗手段攀上顶峰的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fZynQ0tbUUF2MbgIsz6m3BJE1kx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wrP05wyzyrxwsaicfVx7VMqHgEu.jpg"
     },
     {
       "id": 617126,
@@ -200,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
+      "id": 256226,
+      "title": "亲爱的X",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "本剧讲述女演员白雅珍隐藏自己伤痕累累的过去，透过操纵人心和欺骗手段攀上顶峰的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fZynQ0tbUUF2MbgIsz6m3BJE1kx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wrP05wyzyrxwsaicfVx7VMqHgEu.jpg"
+    },
+    {
       "id": 200875,
       "title": "小丑回魂：欢迎来到德里镇",
       "type": "tv",
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
-      "id": 1252382,
-      "title": "寻找快乐",
+      "id": 1446358,
+      "title": "新娘二选一",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 6.5,
-      "release_date": "2025-11-05",
-      "overview": "乔伊是一位才华横溢却不得重用的纽约时尚设计师。她在事业和爱情两方面都失意，于是追随自己的暗恋对象来到科罗拉多度假放松。当乔伊得知了一个让人震惊的真相并因暴风雪而滞留时，是里奇给了她意料之外的慰藉，这场偶然的邂逅将彻底改变乔伊对人生与爱情的看法，她可能会走上不同的人生道路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sN0uzqhIMGXMRV4XFfIZCVPtOTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eH5oJP8PnONLRWjhBCX7o9wtyQb.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 0.0,
+      "release_date": "2025-11-07",
+      "overview": "亚当对爱情过敏，但不知何故竟与老板的女儿和自己的初恋同时订了婚。现在，他必须努力隐瞒自己的双重生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pofgUZkETInWRlyzFz82Kf6jOEZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vWMt9uu77fJP5PU6MfYXANSH4Cs.jpg"
     }
   ],
   "week_global_all": [
@@ -250,18 +250,29 @@
       "title": "Pluribus",
       "type": "tv",
       "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
+      "rating": 8.4,
       "release_date": "2025-11-06",
       "overview": "　　故事发生在美国新墨西哥州的阿尔伯克基市，一股来自外太空的神秘的“末世病毒”席卷了这里。它没有带来灾难，反而消除了人与人之间的冲突和自我厌恶，将几乎所有人口都转变为“持续感到满足和乐观”的公民。在这个全世界都沉浸在快乐中的背景下，卡罗尔却成了一个异类。她是一位情感有些麻木的历史言情小说作家，对这场席卷全球的幸福感免疫 ，成为了“地球上最不快乐的人”。这位“最痛苦的人”被迫肩负起一个看似匪夷所思的使命——将世界从这种绝对的幸福中“拯救”出来。",
       "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
+      "id": 1114967,
+      "title": "好运连连",
+      "type": "movie",
+      "genreTitle": "喜剧•奇幻",
+      "rating": 6.7,
+      "release_date": "2025-10-14",
+      "overview": "　　好心但笨拙的天使加百列（基努·里维斯 饰）想要去守护人类，因此卷入了一个打零工的人和一个富有资本家的人生，和复杂的红尘大世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/x9W61jL7MaWRv5c9v2qjjxJyb1W.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fiHhRBBJLnLhmnCxqFrwZBAZx2.jpg"
+    },
+    {
       "id": 1242898,
       "title": "铁血战士：杀戮之地",
       "type": "movie",
       "genreTitle": "动作•科幻•冒险",
-      "rating": 6.5,
+      "rating": 6.6,
       "release_date": "2025-11-05",
       "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
       "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
@@ -277,17 +288,6 @@
       "overview": "在逃离“掳童怪”的四年后，芬尼·布莱克依然难以从那段被囚禁的经历中恢复。妹妹格温在梦中开始接到来自那部黑色电话的来电，并看见三个男孩在冬令营中被神秘人跟踪的可怕景象。兄妹俩决定揭开真相，直面那个在死后变得更为强大、也与他们命运纠缠得愈发紧密的杀手。",
       "poster_url": "https://image.tmdb.org/t/p/original/kMo1mRFnSDId6mj0Jvqh22RNS6S.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
-    },
-    {
-      "id": 1114967,
-      "title": "好运连连",
-      "type": "movie",
-      "genreTitle": "喜剧•奇幻",
-      "rating": 6.6,
-      "release_date": "2025-10-14",
-      "overview": "　　好心但笨拙的天使加百列（基努·里维斯 饰）想要去守护人类，因此卷入了一个打零工的人和一个富有资本家的人生，和复杂的红尘大世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/x9W61jL7MaWRv5c9v2qjjxJyb1W.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fiHhRBBJLnLhmnCxqFrwZBAZx2.jpg"
     },
     {
       "id": 1571470,
@@ -323,11 +323,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/89T83vE1ol8wcI879LutCqv7hMa.jpg"
     },
     {
+      "id": 200875,
+      "title": "小丑回魂：欢迎来到德里镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.9,
+      "release_date": "2025-10-26",
+      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
+    },
+    {
       "id": 760329,
       "title": "粉碎机",
       "type": "movie",
       "genreTitle": "历史•剧情",
-      "rating": 6.3,
+      "rating": 6.4,
       "release_date": "2025-10-01",
       "overview": "聚焦UFC传奇人物马克·克尔在职业生涯巅峰时期的生活，他对自己产生质疑，与生活和人际关系作斗争，与此同时，马克的女友Dawn Staple也努力在他混乱矛盾的世界里找到自己的位置。",
       "poster_url": "https://image.tmdb.org/t/p/original/wV6g7xW8nfUj37hlC07fRyCjQ.jpg",
@@ -343,17 +354,6 @@
       "overview": "露比无意中目睹了麦克斯顿霍尔私立高中一个爆炸性的秘密，傲慢的百万富翁继承人詹姆斯博福被迫跟这个聪明敏锐的优秀学生杠上了，试图封住她的嘴，但他们的过招让他懊恼不已。他们火药味十足的针锋相对，意外地点燃了火花…",
       "poster_url": "https://image.tmdb.org/t/p/original/eBQ3iqNu6b76XrhwN1OQE9AfM02.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n3ekogAscgyzyZ66gvEu61conDW.jpg"
-    },
-    {
-      "id": 200875,
-      "title": "小丑回魂：欢迎来到德里镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.9,
-      "release_date": "2025-10-26",
-      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
       "id": 617126,
@@ -382,7 +382,7 @@
       "title": "你旁观的罪",
       "type": "tv",
       "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.0,
+      "rating": 9.0,
       "release_date": "2025-11-07",
       "overview": "　　为了逃离饱受虐待的婚姻，两名女子策划了一起谋杀。不料，一位不速之客扬言要揭露她们的计划，并毁掉她们的世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/x92xajQ7Qcs5e7kcJkoCNJXccYi.jpg",
@@ -400,17 +400,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lZAmefq0U012syyXxtdGRwfHFk6.jpg"
     },
     {
-      "id": 272418,
-      "title": "罗宾汉",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 8.0,
-      "release_date": "2025-11-02",
-      "overview": "在12世纪的英格兰，撒克逊人生活在诺曼人残酷的统治之下。其中就包括洛克斯利的罗伯特，他的父亲是一位护林员，他的家族被剥夺了祖传的家园，他的父亲也被诺丁汉郡长处决，他的生活从此破碎。罗伯特拥有一把长弓，他从悲痛中走出来，最终走向反抗，他的命运永远与玛丽安交织在一起，玛丽安是一位在对家族的忠诚和对他的爱之间左右为难的贵妇。随着紧张局势的加剧，罗伯召集了一群不法之徒——他们几乎没有共同点，但都拥有撒克逊血统，并且渴望反抗暴政。在舍伍德森林，他们与腐败和不公抗争，激怒了郡长、男爵和诺曼王室。最初的复仇之举最终演变成了更伟大的事业：罗宾汉的传奇，他象征着反抗，而他的抗争将决定英格兰的命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3teWChNzKJdbfen46IdeKTygdZa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/anIW4Zlzsd38VuOYGlMAo3PWvF7.jpg"
-    },
-    {
       "id": 1290159,
       "title": "炸裂白宫",
       "type": "movie",
@@ -422,15 +411,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/axODBTiRL2EQEiTpB6i9lO1IH3v.jpg"
     },
     {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪",
-      "rating": 7.8,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
+      "id": 272418,
+      "title": "罗宾汉",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 8.0,
+      "release_date": "2025-11-02",
+      "overview": "在12世纪的英格兰，撒克逊人生活在诺曼人残酷的统治之下。其中就包括洛克斯利的罗伯特，他的父亲是一位护林员，他的家族被剥夺了祖传的家园，他的父亲也被诺丁汉郡长处决，他的生活从此破碎。罗伯特拥有一把长弓，他从悲痛中走出来，最终走向反抗，他的命运永远与玛丽安交织在一起，玛丽安是一位在对家族的忠诚和对他的爱之间左右为难的贵妇。随着紧张局势的加剧，罗伯召集了一群不法之徒——他们几乎没有共同点，但都拥有撒克逊血统，并且渴望反抗暴政。在舍伍德森林，他们与腐败和不公抗争，激怒了郡长、男爵和诺曼王室。最初的复仇之举最终演变成了更伟大的事业：罗宾汉的传奇，他象征着反抗，而他的抗争将决定英格兰的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3teWChNzKJdbfen46IdeKTygdZa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/anIW4Zlzsd38VuOYGlMAo3PWvF7.jpg"
+    },
+    {
+      "id": 221079,
+      "title": "失序边缘",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.5,
+      "release_date": "2025-10-09",
+      "overview": "一架监狱运输机在偏远的阿拉斯加荒野坠毁，数十名暴力囚犯因而获得自由，而该地区单枪匹马的警长必须保护他誓言要守护的小镇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hKOPr8nj2BcrhqxBtHE281BO5td.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x0RosYC6GrhRhkHMGjIwNcNOH84.jpg"
     },
     {
       "id": 967941,
