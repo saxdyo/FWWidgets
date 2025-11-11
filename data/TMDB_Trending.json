@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-11 23:09:02",
+  "last_updated": "2025-11-12 00:01:22",
   "today_global": [
     {
       "id": 7451,
@@ -90,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fiHhRBBJLnLhmnCxqFrwZBAZx2.jpg"
     },
     {
+      "id": 1253000,
+      "title": "圣剑屠魔",
+      "type": "movie",
+      "genreTitle": "动作•冒险•奇幻",
+      "rating": 4.0,
+      "release_date": "2025-10-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/ePpEZavm379yDhx92ekbDnpGa9a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cugd16e3WbCG3Zogb8N7lwUnVXH.jpg"
+    },
+    {
       "id": 200875,
       "title": "小丑回魂：欢迎来到德里镇",
       "type": "tv",
@@ -112,28 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fsDM2WHk07Bvyh0GTp5X8nrqBFG.jpg"
     },
     {
-      "id": 1253000,
-      "title": "圣剑屠魔",
-      "type": "movie",
-      "genreTitle": "动作•冒险•奇幻",
-      "rating": 4.0,
-      "release_date": "2025-10-10",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/ePpEZavm379yDhx92ekbDnpGa9a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cugd16e3WbCG3Zogb8N7lwUnVXH.jpg"
-    },
-    {
-      "id": 66732,
-      "title": "Stranger Things",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/89T83vE1ol8wcI879LutCqv7hMa.jpg"
-    },
-    {
       "id": 1197137,
       "title": "黑色电话2",
       "type": "movie",
@@ -152,8 +141,19 @@
       "rating": 6.8,
       "release_date": "2025-10-09",
       "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/foR6KBhlyMwsRdgRriWZO7OqLua.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/5iFpMQmUZ7cy5Hj1GjC2yt1irWs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/i9WyAlafg4Pz2FUHfJHIzo32Qwi.jpg"
+    },
+    {
+      "id": 66732,
+      "title": "Stranger Things",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/89T83vE1ol8wcI879LutCqv7hMa.jpg"
     },
     {
       "id": 967941,
@@ -189,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 71912,
-      "title": "猎魔人",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.0,
-      "release_date": "2019-12-20",
-      "overview": "利维亚的杰洛特是一名猎杀变异怪物的雇佣猎人。在这个人类往往比野兽更邪恶的动荡世界里，他一步步踏上命运之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qNmjUGaoSj2iBFbKT8M1TIypbgW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
-    },
-    {
       "id": 272418,
       "title": "罗宾汉",
       "type": "tv",
@@ -209,6 +198,17 @@
       "overview": "在12世纪的英格兰，撒克逊人生活在诺曼人残酷的统治之下。其中就包括洛克斯利的罗伯特，他的父亲是一位护林员，他的家族被剥夺了祖传的家园，他的父亲也被诺丁汉郡长处决，他的生活从此破碎。罗伯特拥有一把长弓，他从悲痛中走出来，最终走向反抗，他的命运永远与玛丽安交织在一起，玛丽安是一位在对家族的忠诚和对他的爱之间左右为难的贵妇。随着紧张局势的加剧，罗伯召集了一群不法之徒——他们几乎没有共同点，但都拥有撒克逊血统，并且渴望反抗暴政。在舍伍德森林，他们与腐败和不公抗争，激怒了郡长、男爵和诺曼王室。最初的复仇之举最终演变成了更伟大的事业：罗宾汉的传奇，他象征着反抗，而他的抗争将决定英格兰的命运。",
       "poster_url": "https://image.tmdb.org/t/p/original/3teWChNzKJdbfen46IdeKTygdZa.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/anIW4Zlzsd38VuOYGlMAo3PWvF7.jpg"
+    },
+    {
+      "id": 71912,
+      "title": "猎魔人",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.0,
+      "release_date": "2019-12-20",
+      "overview": "利维亚的杰洛特是一名猎杀变异怪物的雇佣猎人。在这个人类往往比野兽更邪恶的动荡世界里，他一步步踏上命运之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qNmjUGaoSj2iBFbKT8M1TIypbgW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
     },
     {
       "id": 1293286,
@@ -323,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/89T83vE1ol8wcI879LutCqv7hMa.jpg"
     },
     {
-      "id": 200875,
-      "title": "小丑回魂：欢迎来到德里镇",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.0,
-      "release_date": "2025-10-26",
-      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
-    },
-    {
       "id": 425274,
       "title": "惊天魔盗团3",
       "type": "movie",
@@ -343,6 +332,17 @@
       "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
       "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
+    },
+    {
+      "id": 200875,
+      "title": "小丑回魂：欢迎来到德里镇",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.0,
+      "release_date": "2025-10-26",
+      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6KBpIWkCKfl5U0s1FyQpG53p7Fn.jpg"
     },
     {
       "id": 967941,
@@ -400,15 +400,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xnzNSuExUTFYNUTsbpT8LIoi6mh.jpg"
     },
     {
-      "id": 271885,
-      "title": "你旁观的罪",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.6,
-      "release_date": "2025-11-07",
-      "overview": "　　为了逃离饱受虐待的婚姻，两名女子策划了一起谋杀。不料，一位不速之客扬言要揭露她们的计划，并毁掉她们的世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/x92xajQ7Qcs5e7kcJkoCNJXccYi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z4CO3bYVc26RJiWVsUI9zGAluIb.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 617126,
@@ -422,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdVsKapsE43gZa9gihTstQ7nD2l.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "id": 701387,
+      "title": "拯救地球",
+      "type": "movie",
+      "genreTitle": "科幻•犯罪",
+      "rating": 7.6,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f5stYb742P3BuBB8kPOaQgrsTZH.jpg"
     }
   ],
   "popular_movies": [
