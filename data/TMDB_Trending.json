@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-20 04:01:03",
+  "last_updated": "2025-11-20 05:01:09",
   "today_global": [
     {
       "id": 673,
@@ -57,15 +57,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
     },
     {
+      "id": 425274,
+      "title": "惊天魔盗团3",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•悬疑",
+      "rating": 6.4,
+      "release_date": "2025-11-12",
+      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
+      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
+    },
+    {
       "id": 1160360,
       "title": "如果有腿，我会踢你",
       "type": "movie",
       "genreTitle": "剧情•惊悚",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2025-10-10",
       "overview": "琳达（罗丝·伯恩 Rose Byrne 饰）的生活分崩离析，她努力应对孩子的神秘疾病、缺席的丈夫、家里塌陷的天花板、一位失踪人士以及与自己的治疗师之间日益紧张的关系。",
       "poster_url": "https://image.tmdb.org/t/p/original/gkIFK1HzqfgQg4v4ifeNKogHtPG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/i6WJKdsdLKUPTOisdWySc84kp5I.jpg"
+    },
+    {
+      "id": 1299209,
+      "title": "千人之子",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.0,
+      "release_date": "2025-10-30",
+      "overview": "　　年届四十的渔夫克里斯托斯托莫，他常年独居，深感无子之空虚，渴望成为人父。在追寻真挚深厚情感联结的过程中，他遇见孤儿卡米洛，决定抚养这个男孩，由此构建起一段非传统的独特亲情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t6mcgsz7drJq37DmhajSAh9DvVy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zJyt6FnZNDLo22u8MpA8Lsg1bOl.jpg"
     },
     {
       "id": 1054867,
@@ -79,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
-      "id": 1299209,
-      "title": "千人之子",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 5.5,
-      "release_date": "2025-10-30",
-      "overview": "　　年届四十的渔夫克里斯托斯托莫，他常年独居，深感无子之空虚，渴望成为人父。在追寻真挚深厚情感联结的过程中，他遇见孤儿卡米洛，决定抚养这个男孩，由此构建起一段非传统的独特亲情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/t6mcgsz7drJq37DmhajSAh9DvVy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jt0wp7kq51U9yIEX9T5gmVl8fOn.jpg"
+      "id": 66732,
+      "title": "Stranger Things",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4WmGkcqE4EGBr5xw5oY1rnsGXPt.jpg"
     },
     {
       "id": 225171,
@@ -101,28 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 94954,
-      "title": "地狱客栈",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 8.7,
-      "release_date": "2024-01-18",
-      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
-    },
-    {
-      "id": 425274,
-      "title": "惊天魔盗团3",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•悬疑",
-      "rating": 6.4,
-      "release_date": "2025-11-12",
-      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
-      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -134,6 +134,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
     },
     {
+      "id": 94954,
+      "title": "地狱客栈",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•剧情",
+      "rating": 8.7,
+      "release_date": "2024-01-18",
+      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
+    },
+    {
+      "id": 798645,
+      "title": "猎杀游戏",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•科幻",
+      "rating": 7.0,
+      "release_date": "2025-11-11",
+      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l3cPJIf0ryUVh60kcFPkgYGIZno.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
+    },
+    {
       "id": 937941,
       "title": "谢尔比橡树",
       "type": "movie",
@@ -143,39 +165,6 @@
       "overview": "一个女人痴迷地寻找她失踪的妹妹，使她陷入一个未知的邪恶手中的可怕谜团。",
       "poster_url": "https://image.tmdb.org/t/p/original/yAN5iYIh5b6MD09qF5qQdDVlUzJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZBOL168M77Qe3e6PsFSznujxZl.jpg"
-    },
-    {
-      "id": 66732,
-      "title": "Stranger Things",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4WmGkcqE4EGBr5xw5oY1rnsGXPt.jpg"
-    },
-    {
-      "id": 1419406,
-      "title": "捕风追影",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.4,
-      "release_date": "2025-08-16",
-      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
-    },
-    {
-      "id": 252193,
-      "title": "武士生死斗",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.1,
-      "release_date": "2025-11-13",
-      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
     },
     {
       "id": 7451,
@@ -200,15 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9pxO6cRvYsDFFUaJ4PA25yvf7NM.jpg"
     },
     {
-      "id": 798645,
-      "title": "猎杀游戏",
+      "id": 252193,
+      "title": "武士生死斗",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.1,
+      "release_date": "2025-11-13",
+      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
+    },
+    {
+      "id": 1419406,
+      "title": "捕风追影",
       "type": "movie",
-      "genreTitle": "动作•惊悚•科幻",
-      "rating": 7.0,
-      "release_date": "2025-11-11",
-      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/l3cPJIf0ryUVh60kcFPkgYGIZno.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.4,
+      "release_date": "2025-08-16",
+      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
     },
     {
       "id": 1242898,
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 252193,
-      "title": "武士生死斗",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.1,
-      "release_date": "2025-11-13",
-      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
-    },
-    {
       "id": 425274,
       "title": "惊天魔盗团3",
       "type": "movie",
@@ -312,37 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 1117857,
-      "title": "白日梦奇遇记",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.2,
-      "release_date": "2025-11-07",
-      "overview": "一对姐弟踏上狂野荒诞的梦境之旅，请求许愿睡魔赐给他们一个完美的家庭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9OCiB2bA6EkX7SXDUvjmG8xt1xZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg"
+      "id": 252193,
+      "title": "武士生死斗",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.1,
+      "release_date": "2025-11-13",
+      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
     },
     {
       "id": 66732,
@@ -367,6 +334,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
     },
     {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
+    },
+    {
+      "id": 1117857,
+      "title": "白日梦奇遇记",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.2,
+      "release_date": "2025-11-07",
+      "overview": "一对姐弟踏上狂野荒诞的梦境之旅，请求许愿睡魔赐给他们一个完美的家庭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9OCiB2bA6EkX7SXDUvjmG8xt1xZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -376,17 +376,6 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
-    },
-    {
-      "id": 1242419,
-      "title": "屋顶人",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情•犯罪",
-      "rating": 7.2,
-      "release_date": "2025-10-08",
-      "overview": "　　一名前美国陆军游骑兵兼生活困顿的父亲，因走投无路而开始抢劫麦当劳餐厅，他通过在屋顶上凿洞潜入行窃，因此得名“屋顶人”。他被捕入狱后越狱，在一家玩具反斗城商场内秘密藏身长达六个月，神不知鬼不觉地生存下来，同时策划下一步行动。然而，当他爱上一位被他无法抗拒的魅力所吸引的单身母亲时，他的双重生活开始逐渐暴露。随着过往的阴影步步逼近，一场扣人心弦、充满悬念的猫鼠游戏就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uhXxW7EmzZIWFVpbF42r6L2g7Oh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jZeCb4V7C6LLymabvnXheKHjPpx.jpg"
     },
     {
       "id": 200875,
@@ -400,6 +389,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
+      "id": 1242419,
+      "title": "屋顶人",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情•犯罪",
+      "rating": 7.2,
+      "release_date": "2025-10-08",
+      "overview": "　　一名前美国陆军游骑兵兼生活困顿的父亲，因走投无路而开始抢劫麦当劳餐厅，他通过在屋顶上凿洞潜入行窃，因此得名“屋顶人”。他被捕入狱后越狱，在一家玩具反斗城商场内秘密藏身长达六个月，神不知鬼不觉地生存下来，同时策划下一步行动。然而，当他爱上一位被他无法抗拒的魅力所吸引的单身母亲时，他的双重生活开始逐渐暴露。随着过往的阴影步步逼近，一场扣人心弦、充满悬念的猫鼠游戏就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uhXxW7EmzZIWFVpbF42r6L2g7Oh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jZeCb4V7C6LLymabvnXheKHjPpx.jpg"
+    },
+    {
       "id": 250504,
       "title": "兽藏我心",
       "type": "tv",
@@ -409,6 +409,17 @@
       "overview": "　　讲述了作家艾吉·威格斯在幼子意外去世后封笔，而当隔壁来了一位新邻居，妻子失踪案的头号嫌疑人——地产大亨奈尔·贾维斯时，艾吉打算寻找真相并以此为题材重新开始写作。",
       "poster_url": "https://image.tmdb.org/t/p/original/gKX1dsnIIoDFyZxmKv3s7PZ8iXJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xkwaooD0omvM922ddc9P9U9HcLF.jpg"
+    },
+    {
+      "id": 94954,
+      "title": "地狱客栈",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•剧情",
+      "rating": 8.7,
+      "release_date": "2024-01-18",
+      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
     },
     {
       "id": 1419406,
@@ -422,26 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
     },
     {
-      "id": 1425122,
-      "title": "一个很乔纳斯的圣诞节",
+      "id": 1197137,
+      "title": "黑色电话2",
       "type": "movie",
-      "genreTitle": "喜剧•音乐",
+      "genreTitle": "恐怖•惊悚",
       "rating": 6.9,
-      "release_date": "2025-11-10",
-      "overview": "乔纳斯兄弟在返家途中遭遇重重阻碍，却依然努力赶在圣诞节前与家人团聚。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dHF8Gm48bU70eBpQnVqy5tMyU8h.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aWWvSVWv7Mi9ubQCHbPWYMHXYQ7.jpg"
-    },
-    {
-      "id": 94954,
-      "title": "地狱客栈",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 8.7,
-      "release_date": "2024-01-18",
-      "overview": "地狱公主夏莉·晨星努力说服一众恶魔与天使，地狱的灵魂可以被救赎。这部有歌唱有咒骂的成人音乐喜剧讲述灵魂获得第二次机会的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aaype3RCJefEDe5fgu12EhbQH0J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
+      "release_date": "2025-10-15",
+      "overview": "在逃离“掳童怪”的四年后，芬尼·布莱克依然难以从那段被囚禁的经历中恢复。妹妹格温在梦中开始接到来自那部黑色电话的来电，并看见三个男孩在冬令营中被神秘人跟踪的可怕景象。兄妹俩决定揭开真相，直面那个在死后变得更为强大、也与他们命运纠缠得愈发紧密的杀手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kMo1mRFnSDId6mj0Jvqh22RNS6S.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/twxHdrJa7ZSAgiD2TD7OMs4nPKb.jpg"
     }
   ],
   "popular_movies": [
