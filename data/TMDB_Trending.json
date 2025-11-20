@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-20 19:01:08",
+  "last_updated": "2025-11-20 20:16:37",
   "today_global": [
     {
       "id": 1323475,
@@ -24,6 +24,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aserKd5JhnjFSHNwQjm3mIGJ8P0.jpg"
     },
     {
+      "id": 245312,
+      "title": "卧底老绅士",
+      "type": "tv",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 7.5,
+      "release_date": "2024-11-21",
+      "overview": "　　一位擅长调查的退休教授受雇于一名私家侦探，为侦破案件做卧底，并由此找到了新的激情。本剧改编自获得 2021 年奥斯卡最佳纪录片提名的纪录片《名侦探赛大爷》。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ly5yPszZWIRhBIaS7CiiGwhwxPM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uNMq3lLSnK1j0dZbJ2nTXDxqnSp.jpg"
+    },
+    {
       "id": 1299209,
       "title": "千人之子",
       "type": "movie",
@@ -46,6 +57,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
     },
     {
+      "id": 425274,
+      "title": "惊天魔盗团3",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•悬疑",
+      "rating": 6.3,
+      "release_date": "2025-11-12",
+      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
+      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
+    },
+    {
+      "id": 1419406,
+      "title": "捕风追影",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.4,
+      "release_date": "2025-08-16",
+      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
+    },
+    {
+      "id": 252193,
+      "title": "武士生死斗",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.1,
+      "release_date": "2025-11-13",
+      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
+    },
+    {
       "id": 94954,
       "title": "地狱客栈",
       "type": "tv",
@@ -57,15 +101,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
     },
     {
-      "id": 225171,
-      "title": "Pluribus",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+      "id": 1363282,
+      "title": "卡曼家族死亡谜案",
+      "type": "movie",
+      "genreTitle": "纪录•犯罪",
+      "rating": 7.7,
+      "release_date": "2025-11-18",
+      "overview": "年轻的内森·卡曼与母亲琳达在新英格兰海岸附近出海钓鱼后，母亲失踪，他却在救生筏上幸存了一周。这起轰动一时的事件重新唤起了人们对卡曼富有的祖父多年前悬而未决的谋杀案的关注，引发了媒体的狂热报道，一场围绕巨额家族财富的争夺战，多方调查，最终导致卡曼被联邦政府以公海谋杀罪起诉。影片以前所未有的视角，采访了卡曼的家人、朋友和调查人员，以航海惊悚片的形式，探讨了关于家庭、贪婪、认知、心理健康以及一位神秘年轻人难以捉摸的内心世界等诸多引人入胜的人性谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kBbKJKBL2Y32SL5BcqILcyOnzI2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7BzlM1VAL4lSoX93KmL9JKk8Vnc.jpg"
+    },
+    {
+      "id": 673,
+      "title": "哈利·波特与阿兹卡班的囚徒",
+      "type": "movie",
+      "genreTitle": "冒险•奇幻",
+      "rating": 8.0,
+      "release_date": "2004-05-31",
+      "overview": "哈利即将在霍格沃兹渡过第三个年头，此时却传出恶棍小天狼星从阿兹卡班越狱的消息。据说小天狼星正是背叛哈利父母的好友，他的教父，而这次小天狼星越狱似乎正是为了找他。哈利的心里悄悄的滋生了为父母报仇的想法，期待着小天狼星的出现。新来的魔法老师卢平有着桀骜不驯的个性，与哈利关系很好，教了哈利许多实用的黑魔法防御知识。而此时在他的魔法地图上却出现了一个神秘人物，虫尾巴。偶然的机会下，在尖叫棚屋里集齐了哈利父亲当年的所有好友，卢平、虫尾巴、小天狼星，哈利的魔杖直指向小天狼星，但他发现那罪犯看他的眼神里充满了疼爱…",
+      "poster_url": "https://image.tmdb.org/t/p/original/iCwifbvs8pZNPo8o485143y3FdC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mdRJFF5OIg6zskIuQ4DhAzsKFum.jpg"
     },
     {
       "id": 1062722,
@@ -77,6 +132,17 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
+    },
+    {
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
       "id": 1084242,
@@ -101,28 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
-      "id": 1419406,
-      "title": "捕风追影",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.4,
-      "release_date": "2025-08-16",
-      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
-    },
-    {
-      "id": 425274,
-      "title": "惊天魔盗团3",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•悬疑",
-      "rating": 6.3,
-      "release_date": "2025-11-12",
-      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
-      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
-    },
-    {
       "id": 1265063,
       "title": "猎杀之后",
       "type": "movie",
@@ -130,8 +174,19 @@
       "rating": 6.3,
       "release_date": "2025-10-09",
       "overview": "　　一位大学教授的学生指控她的同事行为不端，为了保护这位女学生，她本人一段尘封的黑暗往事面临曝光的风险，女教授的忠诚、道德和真相本身都受到了严峻的考验，这让她陷入了个人生活与职业生涯的双重危机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ryF8QPGUGlo8gRB4OYKb4J0r3aJ.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/guwNSQWUhqkEVibHE03eQOUDY9j.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fzEU3UA2E002tmmKIGcPqA9Vw5K.jpg"
+    },
+    {
+      "id": 937941,
+      "title": "谢尔比橡树",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.7,
+      "release_date": "2025-10-02",
+      "overview": "一个女人痴迷地寻找她失踪的妹妹，使她陷入一个未知的邪恶手中的可怕谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yAN5iYIh5b6MD09qF5qQdDVlUzJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zZBOL168M77Qe3e6PsFSznujxZl.jpg"
     },
     {
       "id": 200875,
@@ -145,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 66732,
-      "title": "Stranger Things",
+      "id": 239385,
+      "title": "操控游戏",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4WmGkcqE4EGBr5xw5oY1rnsGXPt.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 9.0,
+      "release_date": "2025-11-05",
+      "overview": "原本过着平凡生活的朴台仲，突然被冠上莫须有的罪名并锒铛入狱。在发现一切都是由安耀翰一手策划后，他决定展开复仇，一场激烈的对决就此展开！",
+      "poster_url": "https://image.tmdb.org/t/p/original/5WDNTTaxA9f3dp6XCBy6zqeImfc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/78qM10pXWzY9ykASvvNO2Woy2Ld.jpg"
     },
     {
       "id": 1362315,
@@ -165,61 +220,6 @@
       "overview": "影片翻拍自1992年的同名恐怖片。\r 　　Caitlin（玛丽·伊丽莎白·温斯特德 Mary Elizabeth Winstead 饰） 聘请到一位似乎完美的新保姆 Polly（麦卡·梦露 Maika Monroe 饰）以为从此可以安心，殊不知保姆暗藏心机……一切幸福，原来只是噩梦的开始。",
       "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9pxO6cRvYsDFFUaJ4PA25yvf7NM.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
-    },
-    {
-      "id": 252193,
-      "title": "武士生死斗",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.1,
-      "release_date": "2025-11-13",
-      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
-    },
-    {
-      "id": 639988,
-      "title": "无可奈何",
-      "type": "movie",
-      "genreTitle": "犯罪•惊悚•喜剧",
-      "rating": 7.6,
-      "release_date": "2025-09-24",
-      "overview": "影片改编自美国作家唐纳德·维斯雷克的小说《斧头》，讲述了中产阶级男子刘万洙（李秉宪 饰）失业后为了再就业，在一本杂志上刊登了一个虚假的招聘广告，决定淘汰五个比他更有才华、更年轻、更英俊的人。他在无奈与希望之间来回穿梭，将竞争对手一一杀死……",
-      "poster_url": "https://image.tmdb.org/t/p/original/zpU8hKX52RbN79qot5YVyTlRbwm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7t7vmtha1uYok0MrgYSmHbJsaVD.jpg"
-    },
-    {
-      "id": 673,
-      "title": "哈利·波特与阿兹卡班的囚徒",
-      "type": "movie",
-      "genreTitle": "冒险•奇幻",
-      "rating": 8.0,
-      "release_date": "2004-05-31",
-      "overview": "哈利即将在霍格沃兹渡过第三个年头，此时却传出恶棍小天狼星从阿兹卡班越狱的消息。据说小天狼星正是背叛哈利父母的好友，他的教父，而这次小天狼星越狱似乎正是为了找他。哈利的心里悄悄的滋生了为父母报仇的想法，期待着小天狼星的出现。新来的魔法老师卢平有着桀骜不驯的个性，与哈利关系很好，教了哈利许多实用的黑魔法防御知识。而此时在他的魔法地图上却出现了一个神秘人物，虫尾巴。偶然的机会下，在尖叫棚屋里集齐了哈利父亲当年的所有好友，卢平、虫尾巴、小天狼星，哈利的魔杖直指向小天狼星，但他发现那罪犯看他的眼神里充满了疼爱…",
-      "poster_url": "https://image.tmdb.org/t/p/original/iCwifbvs8pZNPo8o485143y3FdC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mdRJFF5OIg6zskIuQ4DhAzsKFum.jpg"
     }
   ],
   "week_global_all": [
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
-      "type": "movie",
-      "genreTitle": "剧情•恐怖•奇幻",
-      "rating": 7.8,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
-    },
-    {
       "id": 967941,
       "title": "魔法坏女巫2",
       "type": "movie",
@@ -268,26 +257,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jEFZ3fPcmFEKG7iTRpBz49dJE6S.jpg"
     },
     {
-      "id": 1248226,
-      "title": "玩爆约会",
+      "id": 1062722,
+      "title": "Frankenstein",
       "type": "movie",
-      "genreTitle": "动作•喜剧•家庭",
-      "rating": 6.3,
-      "release_date": "2025-11-05",
-      "overview": "失业会计师布莱恩应邀与全职爸爸杰夫一起带着他们的儿子们玩耍，他原本以为会度过一个轻松愉快的下午。然而，他们却遭到一群雇佣兵的追杀，毫无准备的布莱恩不得不一次又一次地克服各种荒诞的障碍。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fGodXWqJkkkbSebPIlxLSygV8GY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4JsEaJxyd11Kt82UMnpzBKUXhTK.jpg"
-    },
-    {
-      "id": 252193,
-      "title": "武士生死斗",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.1,
-      "release_date": "2025-11-13",
-      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
+      "genreTitle": "剧情•恐怖•奇幻",
+      "rating": 7.8,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
     },
     {
       "id": 425274,
@@ -301,15 +279,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
+      "id": 252193,
+      "title": "武士生死斗",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.1,
+      "release_date": "2025-11-13",
+      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
+    },
+    {
+      "id": 1248226,
+      "title": "玩爆约会",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
+      "genreTitle": "动作•喜剧•家庭",
+      "rating": 6.3,
       "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
+      "overview": "失业会计师布莱恩应邀与全职爸爸杰夫一起带着他们的儿子们玩耍，他原本以为会度过一个轻松愉快的下午。然而，他们却遭到一群雇佣兵的追杀，毫无准备的布莱恩不得不一次又一次地克服各种荒诞的障碍。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fGodXWqJkkkbSebPIlxLSygV8GY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4JsEaJxyd11Kt82UMnpzBKUXhTK.jpg"
     },
     {
       "id": 200875,
@@ -323,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 10.0,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
-    },
-    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -343,6 +321,17 @@
       "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
       "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 10.0,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
     },
     {
       "id": 1117857,
@@ -356,15 +345,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg"
     },
     {
-      "id": 1265063,
-      "title": "猎杀之后",
+      "id": 798645,
+      "title": "猎杀游戏",
       "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 6.3,
-      "release_date": "2025-10-09",
-      "overview": "　　一位大学教授的学生指控她的同事行为不端，为了保护这位女学生，她本人一段尘封的黑暗往事面临曝光的风险，女教授的忠诚、道德和真相本身都受到了严峻的考验，这让她陷入了个人生活与职业生涯的双重危机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ryF8QPGUGlo8gRB4OYKb4J0r3aJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fzEU3UA2E002tmmKIGcPqA9Vw5K.jpg"
+      "genreTitle": "动作•惊悚•科幻",
+      "rating": 6.9,
+      "release_date": "2025-11-11",
+      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l3cPJIf0ryUVh60kcFPkgYGIZno.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
+    },
+    {
+      "id": 219080,
+      "title": "强大九人",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy",
+      "rating": 8.8,
+      "release_date": "2025-11-19",
+      "overview": "一件能重塑现实的奥法圣物落入了邪恶势力之手，而拯救大陆的重任竟阴差阳错地落在了一群格格不入的罪犯和社会边缘人肩上。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pys1QrUDBfyVrYi68JrQC8m9yj1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aserKd5JhnjFSHNwQjm3mIGJ8P0.jpg"
+    },
+    {
+      "id": 245312,
+      "title": "卧底老绅士",
+      "type": "tv",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 7.5,
+      "release_date": "2024-11-21",
+      "overview": "　　一位擅长调查的退休教授受雇于一名私家侦探，为侦破案件做卧底，并由此找到了新的激情。本剧改编自获得 2021 年奥斯卡最佳纪录片提名的纪录片《名侦探赛大爷》。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ly5yPszZWIRhBIaS7CiiGwhwxPM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uNMq3lLSnK1j0dZbJ2nTXDxqnSp.jpg"
     },
     {
       "id": 66732,
@@ -389,26 +400,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
     },
     {
-      "id": 219080,
-      "title": "强大九人",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy",
-      "rating": 8.8,
-      "release_date": "2025-11-19",
-      "overview": "一件能重塑现实的奥法圣物落入了邪恶势力之手，而拯救大陆的重任竟阴差阳错地落在了一群格格不入的罪犯和社会边缘人肩上。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pys1QrUDBfyVrYi68JrQC8m9yj1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aserKd5JhnjFSHNwQjm3mIGJ8P0.jpg"
-    },
-    {
-      "id": 798645,
-      "title": "猎杀游戏",
+      "id": 1323475,
+      "title": "香槟情缘",
       "type": "movie",
-      "genreTitle": "动作•惊悚•科幻",
-      "rating": 6.9,
-      "release_date": "2025-11-11",
-      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/l3cPJIf0ryUVh60kcFPkgYGIZno.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 5.8,
+      "release_date": "2025-11-18",
+      "overview": "坚定果敢的主管席德妮前往法国，打算在圣诞节前收购一个全球知名的香槟品牌。然而当她与一位迷人的巴黎男子迅速坠入爱河，又发现他是品牌创办人的儿子，她的计划一下子全乱了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3z3nFeYHjm5jur7EPTpmak7cedn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooFnyUkI17WEVJ0h2NKL4EJKYKd.jpg"
     },
     {
       "id": 94954,
@@ -422,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
     },
     {
-      "id": 1323475,
-      "title": "香槟情缘",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 5.8,
-      "release_date": "2025-11-18",
-      "overview": "坚定果敢的主管席德妮前往法国，打算在圣诞节前收购一个全球知名的香槟品牌。然而当她与一位迷人的巴黎男子迅速坠入爱河，又发现他是品牌创办人的儿子，她的计划一下子全乱了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3z3nFeYHjm5jur7EPTpmak7cedn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ooFnyUkI17WEVJ0h2NKL4EJKYKd.jpg"
+      "id": 211089,
+      "title": "唐朝诡事录",
+      "type": "tv",
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 8.2,
+      "release_date": "2022-09-27",
+      "overview": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u1jhOe8iwuRZfE6wd5YYqtVLidg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gzWIS9LsH3DrrA6cHPnXkwOIwSJ.jpg"
     },
     {
       "id": 250504,
