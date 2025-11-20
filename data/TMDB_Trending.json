@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-21 00:01:26",
+  "last_updated": "2025-11-21 01:08:02",
   "today_global": [
     {
       "id": 1265063,
@@ -39,22 +39,11 @@
       "title": "千人之子",
       "type": "movie",
       "genreTitle": "剧情",
-      "rating": 6.2,
+      "rating": 6.5,
       "release_date": "2025-10-30",
       "overview": "　　年届四十的渔夫克里斯托斯托莫，他常年独居，深感无子之空虚，渴望成为人父。在追寻真挚深厚情感联结的过程中，他遇见孤儿卡米洛，决定抚养这个男孩，由此构建起一段非传统的独特亲情。",
       "poster_url": "https://image.tmdb.org/t/p/original/t6mcgsz7drJq37DmhajSAh9DvVy.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zJyt6FnZNDLo22u8MpA8Lsg1bOl.jpg"
-    },
-    {
-      "id": 219080,
-      "title": "强大九人",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy",
-      "rating": 8.8,
-      "release_date": "2025-11-19",
-      "overview": "一件能重塑现实的奥法圣物落入了邪恶势力之手，而拯救大陆的重任竟阴差阳错地落在了一群格格不入的罪犯和社会边缘人肩上。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pys1QrUDBfyVrYi68JrQC8m9yj1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aserKd5JhnjFSHNwQjm3mIGJ8P0.jpg"
     },
     {
       "id": 245312,
@@ -68,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uNMq3lLSnK1j0dZbJ2nTXDxqnSp.jpg"
     },
     {
+      "id": 219080,
+      "title": "强大九人",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy",
+      "rating": 8.8,
+      "release_date": "2025-11-19",
+      "overview": "一件能重塑现实的奥法圣物落入了邪恶势力之手，而拯救大陆的重任竟阴差阳错地落在了一群格格不入的罪犯和社会边缘人肩上。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pys1QrUDBfyVrYi68JrQC8m9yj1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aserKd5JhnjFSHNwQjm3mIGJ8P0.jpg"
+    },
+    {
       "id": 1062722,
       "title": "Frankenstein",
       "type": "movie",
@@ -77,17 +77,6 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
-    },
-    {
-      "id": 225171,
-      "title": "Pluribus",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
       "id": 425274,
@@ -101,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
     },
     {
+      "id": 639988,
+      "title": "无可奈何",
+      "type": "movie",
+      "genreTitle": "犯罪•惊悚•喜剧",
+      "rating": 7.6,
+      "release_date": "2025-09-24",
+      "overview": "影片改编自美国作家唐纳德·维斯雷克的小说《斧头》，讲述了中产阶级男子刘万洙（李秉宪 饰）失业后为了再就业，在一本杂志上刊登了一个虚假的招聘广告，决定淘汰五个比他更有才华、更年轻、更英俊的人。他在无奈与希望之间来回穿梭，将竞争对手一一杀死……",
+      "poster_url": "https://image.tmdb.org/t/p/original/3wb1VmmTjq47HS7oD0exgYjAHnv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7t7vmtha1uYok0MrgYSmHbJsaVD.jpg"
+    },
+    {
       "id": 94954,
       "title": "地狱客栈",
       "type": "tv",
@@ -112,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rx3w8Z1KsHIcv0ARcH8hjS302z.jpg"
     },
     {
-      "id": 639988,
-      "title": "无可奈何",
-      "type": "movie",
-      "genreTitle": "犯罪•惊悚•喜剧",
-      "rating": 7.6,
-      "release_date": "2025-09-24",
-      "overview": "影片改编自美国作家唐纳德·维斯雷克的小说《斧头》，讲述了中产阶级男子刘万洙（李秉宪 饰）失业后为了再就业，在一本杂志上刊登了一个虚假的招聘广告，决定淘汰五个比他更有才华、更年轻、更英俊的人。他在无奈与希望之间来回穿梭，将竞争对手一一杀死……",
-      "poster_url": "https://image.tmdb.org/t/p/original/3wb1VmmTjq47HS7oD0exgYjAHnv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7t7vmtha1uYok0MrgYSmHbJsaVD.jpg"
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
       "id": 1054867,
@@ -156,28 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4WmGkcqE4EGBr5xw5oY1rnsGXPt.jpg"
     },
     {
-      "id": 1419406,
-      "title": "捕风追影",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.5,
-      "release_date": "2025-08-16",
-      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
-    },
-    {
-      "id": 1362315,
-      "title": "推动摇篮的手",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 5.7,
-      "release_date": "2025-10-16",
-      "overview": "影片翻拍自1992年的同名恐怖片。\r 　　Caitlin（玛丽·伊丽莎白·温斯特德 Mary Elizabeth Winstead 饰） 聘请到一位似乎完美的新保姆 Polly（麦卡·梦露 Maika Monroe 饰）以为从此可以安心，殊不知保姆暗藏心机……一切幸福，原来只是噩梦的开始。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9pxO6cRvYsDFFUaJ4PA25yvf7NM.jpg"
-    },
-    {
       "id": 1248226,
       "title": "玩爆约会",
       "type": "movie",
@@ -189,26 +167,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4JsEaJxyd11Kt82UMnpzBKUXhTK.jpg"
     },
     {
-      "id": 200875,
-      "title": "小丑回魂：欢迎来到德里镇",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.0,
-      "release_date": "2025-10-26",
-      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dUjBCp7VI88xsQAjVg2Pl0I2whl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
+      "id": 1419406,
+      "title": "捕风追影",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.5,
+      "release_date": "2025-08-16",
+      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
     },
     {
-      "id": 1363282,
-      "title": "卡曼家族死亡谜案",
-      "type": "movie",
-      "genreTitle": "纪录•犯罪",
-      "rating": 7.7,
-      "release_date": "2025-11-18",
-      "overview": "年轻的内森·卡曼与母亲琳达在新英格兰海岸附近出海钓鱼后，母亲失踪，他却在救生筏上幸存了一周。这起轰动一时的事件重新唤起了人们对卡曼富有的祖父多年前悬而未决的谋杀案的关注，引发了媒体的狂热报道，一场围绕巨额家族财富的争夺战，多方调查，最终导致卡曼被联邦政府以公海谋杀罪起诉。影片以前所未有的视角，采访了卡曼的家人、朋友和调查人员，以航海惊悚片的形式，探讨了关于家庭、贪婪、认知、心理健康以及一位神秘年轻人难以捉摸的内心世界等诸多引人入胜的人性谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yFc6F5PmAIdqpAU9wReCqLHWwMm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7BzlM1VAL4lSoX93KmL9JKk8Vnc.jpg"
+      "id": 252193,
+      "title": "武士生死斗",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.1,
+      "release_date": "2025-11-13",
+      "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
     },
     {
       "id": 1242898,
@@ -220,6 +198,28 @@
       "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
       "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
+    },
+    {
+      "id": 798645,
+      "title": "猎杀游戏",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•科幻",
+      "rating": 6.9,
+      "release_date": "2025-11-11",
+      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l3cPJIf0ryUVh60kcFPkgYGIZno.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
+    },
+    {
+      "id": 1362315,
+      "title": "推动摇篮的手",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 5.7,
+      "release_date": "2025-10-16",
+      "overview": "影片翻拍自1992年的同名恐怖片。\r 　　Caitlin（玛丽·伊丽莎白·温斯特德 Mary Elizabeth Winstead 饰） 聘请到一位似乎完美的新保姆 Polly（麦卡·梦露 Maika Monroe 饰）以为从此可以安心，殊不知保姆暗藏心机……一切幸福，原来只是噩梦的开始。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w2NtYTf86gIBhjrJCHiXGYv18fA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9pxO6cRvYsDFFUaJ4PA25yvf7NM.jpg"
     }
   ],
   "week_global_all": [
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
-      "type": "movie",
-      "genreTitle": "剧情•恐怖•奇幻",
-      "rating": 7.8,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
-    },
-    {
       "id": 1248226,
       "title": "玩爆约会",
       "type": "movie",
@@ -279,15 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4JsEaJxyd11Kt82UMnpzBKUXhTK.jpg"
     },
     {
-      "id": 225171,
-      "title": "Pluribus",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "剧情•恐怖•奇幻",
+      "rating": 7.8,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
     },
     {
       "id": 425274,
@@ -301,6 +290,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
     },
     {
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pGl5oc6dN6DKWDGgDPbeplxxPS6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
       "id": 252193,
       "title": "武士生死斗",
       "type": "tv",
@@ -310,39 +310,6 @@
       "overview": "时值19世纪末明治时期，包括嵯峨愁二郎（冈田准一 饰）在内的 292 位武士受到丰厚奖金吸引，深夜齐聚京都天龙寺，参加一场宛如人间炼狱的比赛：每人分得一块木札，唯有夺取他人木札并率先抵达东京，方能获得奖金。夜幕低垂，寺院内弥漫诡谲气息，嗜血武士蠢蠢欲动。随着比赛号令一响，武士立刻展开血腥而残酷的生存之战。",
       "poster_url": "https://image.tmdb.org/t/p/original/wsvxr5FBgrSIdbJ1nX5GKz9kF4T.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bEybTBMADskN53viIciK3CUQr01.jpg"
-    },
-    {
-      "id": 66732,
-      "title": "Stranger Things",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4WmGkcqE4EGBr5xw5oY1rnsGXPt.jpg"
-    },
-    {
-      "id": 1117857,
-      "title": "白日梦奇遇记",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.2,
-      "release_date": "2025-11-07",
-      "overview": "一对姐弟踏上狂野荒诞的梦境之旅，请求许愿睡魔赐给他们一个完美的家庭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9OCiB2bA6EkX7SXDUvjmG8xt1xZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg"
-    },
-    {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.4,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
       "id": 245312,
@@ -356,15 +323,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uNMq3lLSnK1j0dZbJ2nTXDxqnSp.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
+      "id": 66732,
+      "title": "Stranger Things",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "《怪奇物语》以 1983 年的印第安纳州为背景，一个小男孩莫名其妙地消失了。当朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4WmGkcqE4EGBr5xw5oY1rnsGXPt.jpg"
+    },
+    {
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
+    },
+    {
+      "id": 1117857,
+      "title": "白日梦奇遇记",
       "type": "movie",
       "genreTitle": "动画•家庭•喜剧",
-      "rating": 10.0,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
+      "rating": 7.2,
+      "release_date": "2025-11-07",
+      "overview": "一对姐弟踏上狂野荒诞的梦境之旅，请求许愿睡魔赐给他们一个完美的家庭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9OCiB2bA6EkX7SXDUvjmG8xt1xZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg"
     },
     {
       "id": 798645,
@@ -376,6 +365,39 @@
       "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
       "poster_url": "https://image.tmdb.org/t/p/original/l3cPJIf0ryUVh60kcFPkgYGIZno.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2DednGTJiv8BngCKcf7gCu770yw.jpg"
+    },
+    {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 10.0,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
+    },
+    {
+      "id": 1323475,
+      "title": "香槟情缘",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.2,
+      "release_date": "2025-11-18",
+      "overview": "坚定果敢的主管席德妮前往法国，打算在圣诞节前收购一个全球知名的香槟品牌。然而当她与一位迷人的巴黎男子迅速坠入爱河，又发现他是品牌创办人的儿子，她的计划一下子全乱了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3z3nFeYHjm5jur7EPTpmak7cedn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooFnyUkI17WEVJ0h2NKL4EJKYKd.jpg"
+    },
+    {
+      "id": 1419406,
+      "title": "捕风追影",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.5,
+      "release_date": "2025-08-16",
+      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
+      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
     },
     {
       "id": 200875,
@@ -409,28 +431,6 @@
       "overview": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
       "poster_url": "https://image.tmdb.org/t/p/original/u1jhOe8iwuRZfE6wd5YYqtVLidg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gzWIS9LsH3DrrA6cHPnXkwOIwSJ.jpg"
-    },
-    {
-      "id": 1419406,
-      "title": "捕风追影",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.5,
-      "release_date": "2025-08-16",
-      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕......",
-      "poster_url": "https://image.tmdb.org/t/p/original/25OeH0GOuEljJqZoF0HoKxOpq0B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/va9BcW9AK2iWIgixB3UGXeptb8.jpg"
-    },
-    {
-      "id": 1323475,
-      "title": "香槟情缘",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.2,
-      "release_date": "2025-11-18",
-      "overview": "坚定果敢的主管席德妮前往法国，打算在圣诞节前收购一个全球知名的香槟品牌。然而当她与一位迷人的巴黎男子迅速坠入爱河，又发现他是品牌创办人的儿子，她的计划一下子全乱了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3z3nFeYHjm5jur7EPTpmak7cedn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ooFnyUkI17WEVJ0h2NKL4EJKYKd.jpg"
     },
     {
       "id": 639988,
