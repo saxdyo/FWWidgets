@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-04 15:11:33",
+  "last_updated": "2025-12-04 16:01:11",
   "today_global": [
     {
       "id": 1261825,
       "title": "佳节愉快",
       "type": "movie",
       "genreTitle": "喜剧",
-      "rating": 7.0,
+      "rating": 7.2,
       "release_date": "2025-12-02",
       "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
       "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
@@ -61,7 +61,7 @@
       "title": "山怪巨魔2",
       "type": "movie",
       "genreTitle": "动作•奇幻•惊悚",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2025-11-30",
       "overview": "一头危险的新巨怪在家园里大肆破坏，诺拉、安德烈亚斯和克里斯少校开启迄今最危险的任务。",
       "poster_url": "https://image.tmdb.org/t/p/original/hWUD73m3UKhLalaGDTcwsk8P27b.jpg",
@@ -178,15 +178,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
-      "id": 1266127,
-      "title": "Ready or Not 2: Here I Come",
+      "id": 255251,
+      "title": "肖恩·库姆斯：审判",
+      "type": "tv",
+      "genreTitle": "纪录",
+      "rating": 6.4,
+      "release_date": "2025-12-02",
+      "overview": "这部纪录片剧集揭露了“吹牛老爹”肖恩·库姆斯及其“坏小子”唱片帝国背后令人震惊的指控，回顾了他几十年的生活和职业生涯。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zvozYQ1idmnkF0ugfTud82lpNIJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5L9YS9mpYs0WfuSKYpLd9GUBFc9.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
       "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-08",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/jVozkVVBitcSht83XmoOTTBqzNa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sJAzq4IvgohP9nVzijCH6lovX3e.jpg"
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
       "id": 37854,
@@ -200,26 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1241983,
-      "title": "火车梦",
+      "id": 1266127,
+      "title": "Ready or Not 2: Here I Come",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.3,
-      "release_date": "2025-11-05",
-      "overview": "根据丹尼斯·约翰逊备受喜爱的中篇小说改编，生动地描绘了罗伯特·格兰尼尔的人生，他是一位伐木工和铁路工人，在20世纪初快速变化的美国，他过着意想不到的深刻而美好的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/koXjBzWUTfaATD4ReuR9FNOnbhg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4ScTB6ScjY1OONxmPRBXeMzTBdQ.jpg"
-    },
-    {
-      "id": 255251,
-      "title": "肖恩·库姆斯：审判",
-      "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 6.4,
-      "release_date": "2025-12-02",
-      "overview": "这部纪录片剧集揭露了“吹牛老爹”肖恩·库姆斯及其“坏小子”唱片帝国背后令人震惊的指控，回顾了他几十年的生活和职业生涯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zvozYQ1idmnkF0ugfTud82lpNIJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5L9YS9mpYs0WfuSKYpLd9GUBFc9.jpg"
+      "genreTitle": "恐怖•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-08",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/jVozkVVBitcSht83XmoOTTBqzNa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sJAzq4IvgohP9nVzijCH6lovX3e.jpg"
     }
   ],
   "week_global_all": [
@@ -261,7 +261,7 @@
       "title": "山怪巨魔2",
       "type": "movie",
       "genreTitle": "动作•奇幻•惊悚",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2025-11-30",
       "overview": "一头危险的新巨怪在家园里大肆破坏，诺拉、安德烈亚斯和克里斯少校开启迄今最危险的任务。",
       "poster_url": "https://image.tmdb.org/t/p/original/hWUD73m3UKhLalaGDTcwsk8P27b.jpg",
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
-      "id": 1246049,
-      "title": "德古拉",
-      "type": "movie",
-      "genreTitle": "恐怖•奇幻•爱情",
-      "rating": 7.1,
-      "release_date": "2025-07-30",
-      "overview": "故事讲述 15 世纪的弗拉基米尔王子，在爱妻离世后诅咒上帝，最终化作吸血鬼；此后在 19 世纪的伦敦，他遇见了与妻子容貌一模一样的分身，却因执意追寻她而自取毁灭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gZeZXI3RRBAyOMNgQb5lybiBZLR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dFIZEBL5aMgCKEvvNqx7pdainLb.jpg"
-    },
-    {
       "id": 225171,
       "title": "Pluribus",
       "type": "tv",
@@ -310,6 +299,17 @@
       "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
+      "id": 1246049,
+      "title": "德古拉",
+      "type": "movie",
+      "genreTitle": "恐怖•奇幻•爱情",
+      "rating": 7.1,
+      "release_date": "2025-07-30",
+      "overview": "故事讲述 15 世纪的弗拉基米尔王子，在爱妻离世后诅咒上帝，最终化作吸血鬼；此后在 19 世纪的伦敦，他遇见了与妻子容貌一模一样的分身，却因执意追寻她而自取毁灭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gZeZXI3RRBAyOMNgQb5lybiBZLR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dFIZEBL5aMgCKEvvNqx7pdainLb.jpg"
     },
     {
       "id": 200875,
@@ -323,15 +323,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
+      "id": 1261825,
+      "title": "佳节愉快",
       "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+      "genreTitle": "喜剧",
+      "rating": 7.2,
+      "release_date": "2025-12-02",
+      "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lvuont4qKPCj8ozQzXsLcAFTAVP.jpg"
+    },
+    {
+      "id": 1228246,
+      "title": "玩具熊的五夜惊魂2",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.3,
+      "release_date": "2025-12-03",
+      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gbOJy0sxjD99TODdXQ9b35tw45r.jpg"
     },
     {
       "id": 967941,
@@ -356,28 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xlzoGqZENfvI3MDBkctrna2qtX.jpg"
     },
     {
-      "id": 1228246,
-      "title": "玩具熊的五夜惊魂2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.3,
-      "release_date": "2025-12-03",
-      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gbOJy0sxjD99TODdXQ9b35tw45r.jpg"
-    },
-    {
-      "id": 1241983,
-      "title": "火车梦",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.3,
-      "release_date": "2025-11-05",
-      "overview": "根据丹尼斯·约翰逊备受喜爱的中篇小说改编，生动地描绘了罗伯特·格兰尼尔的人生，他是一位伐木工和铁路工人，在20世纪初快速变化的美国，他过着意想不到的深刻而美好的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/koXjBzWUTfaATD4ReuR9FNOnbhg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4ScTB6ScjY1OONxmPRBXeMzTBdQ.jpg"
-    },
-    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -389,15 +378,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 157336,
-      "title": "星际穿越",
+      "id": 83533,
+      "title": "阿凡达：火与烬",
       "type": "movie",
-      "genreTitle": "冒险•剧情•科幻",
-      "rating": 8.5,
-      "release_date": "2014-11-05",
-      "overview": "近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前 NASA 宇航员库珀（马修·麦康纳 Matthew McConaughey 饰）接连在女儿墨菲（麦肯吉·弗依 Mackenzie Foy 饰）的书房发现奇怪的重力场现象，随即得知在某个未知区域内前 NASA 成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA 借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授（迈克尔·凯恩 Michael Caine 饰）的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德（安妮·海瑟薇 Anne Hathaway 饰）、罗米利（大卫·吉雅西 David Gyasi 饰）、多伊尔（韦斯·本特利 Wes Bentley 饰）搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……",
-      "poster_url": "https://image.tmdb.org/t/p/original/zq8j3XRJDVqNhiRMensg2uTkYrd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/NerBrEnSwyOWKwhsgoZrjTBaLM.jpg"
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 0.0,
+      "release_date": "2025-12-17",
+      "overview": "故事发生在2154年，故事从地球开始，杰克·萨利是一个双腿瘫痪的前海军陆战队员，他觉得没有任何东西值得他去战斗，因此他对被派遣去潘多拉星球的采矿公司工作欣然接受。这个星球上有一种别的地方都没有的矿物元素“Unobtanium”，能够吸引人类不远万里来到这里拓荒的原因就是“Unobtanium”将彻底改变人类的能源产业。但是问题是，资源丰富的潘多拉星球并不适合人类生活，这里的空气对人类致命，本土的动植物都是凶猛的掠食者，极度危险。这里的环境也造就了与人类不同的种族：10英尺高（约3米）的蓝色类人生物“Na'vi族”。Na'vi族不满人类拓荒者的到来，也不喜欢人类的机器在这个星球的土地上因为到处挖矿而留下的斑斑伤痕。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
+    },
+    {
+      "id": 239385,
+      "title": "操控游戏",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.8,
+      "release_date": "2025-11-05",
+      "overview": "原本过着平凡生活的朴台仲，突然被冠上莫须有的罪名并锒铛入狱。在发现一切都是由安耀翰一手策划后，他决定展开复仇，一场激烈的对决就此展开！",
+      "poster_url": "https://image.tmdb.org/t/p/original/5WDNTTaxA9f3dp6XCBy6zqeImfc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6t1xH2qAeqqqQdiNBk1KwSWYl4M.jpg"
     },
     {
       "id": 37854,
@@ -411,37 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1261825,
-      "title": "佳节愉快",
+      "id": 1062722,
+      "title": "Frankenstein",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 7.0,
-      "release_date": "2025-12-02",
-      "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lvuont4qKPCj8ozQzXsLcAFTAVP.jpg"
+      "genreTitle": "剧情•奇幻•恐怖",
+      "rating": 7.8,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
     },
     {
-      "id": 812583,
-      "title": "利刃出鞘：亡者归来",
+      "id": 157336,
+      "title": "星际穿越",
       "type": "movie",
-      "genreTitle": "喜剧•悬疑•犯罪",
-      "rating": 7.9,
-      "release_date": "2025-11-26",
-      "overview": "　　《利刃出鞘》系列第三部，黑暗程度更胜以往。\r 　　大侦探布兰科再度出马，调查他有生以来最危险的案子。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nlQulJ98z4hyCVlIxuAYrNdpyPg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hU7kY7YXE62ILeshnk64jYw3N8O.jpg"
+      "genreTitle": "冒险•剧情•科幻",
+      "rating": 8.5,
+      "release_date": "2014-11-05",
+      "overview": "近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前 NASA 宇航员库珀（马修·麦康纳 Matthew McConaughey 饰）接连在女儿墨菲（麦肯吉·弗依 Mackenzie Foy 饰）的书房发现奇怪的重力场现象，随即得知在某个未知区域内前 NASA 成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA 借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授（迈克尔·凯恩 Michael Caine 饰）的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德（安妮·海瑟薇 Anne Hathaway 饰）、罗米利（大卫·吉雅西 David Gyasi 饰）、多伊尔（韦斯·本特利 Wes Bentley 饰）搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……",
+      "poster_url": "https://image.tmdb.org/t/p/original/zq8j3XRJDVqNhiRMensg2uTkYrd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/NerBrEnSwyOWKwhsgoZrjTBaLM.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
+      "id": 1054867,
+      "title": "一战再战",
       "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 0.0,
-      "release_date": "2025-12-17",
-      "overview": "故事发生在2154年，故事从地球开始，杰克·萨利是一个双腿瘫痪的前海军陆战队员，他觉得没有任何东西值得他去战斗，因此他对被派遣去潘多拉星球的采矿公司工作欣然接受。这个星球上有一种别的地方都没有的矿物元素“Unobtanium”，能够吸引人类不远万里来到这里拓荒的原因就是“Unobtanium”将彻底改变人类的能源产业。但是问题是，资源丰富的潘多拉星球并不适合人类生活，这里的空气对人类致命，本土的动植物都是凶猛的掠食者，极度危险。这里的环境也造就了与人类不同的种族：10英尺高（约3米）的蓝色类人生物“Na'vi族”。Na'vi族不满人类拓荒者的到来，也不喜欢人类的机器在这个星球的土地上因为到处挖矿而留下的斑斑伤痕。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
+      "genreTitle": "惊悚•犯罪•动作",
+      "rating": 7.5,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     }
   ],
   "popular_movies": [
