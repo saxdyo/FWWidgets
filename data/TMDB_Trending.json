@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-06 10:22:24",
+  "last_updated": "2025-12-06 11:35:34",
   "today_global": [
     {
       "id": 1069905,
       "title": "影星杰·凯利",
       "type": "movie",
       "genreTitle": "剧情•喜剧",
-      "rating": 6.6,
+      "rating": 6.4,
       "release_date": "2025-11-12",
       "overview": "著名演员杰·凯利（乔治·克鲁尼 饰）与经纪人罗恩（亚当·桑德勒 饰）在欧洲旅行，反思彼此人生的选择、关系与意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg",
@@ -17,22 +17,11 @@
       "title": "斯巴达克斯：亚述家族",
       "type": "tv",
       "genreTitle": "剧情•动作冒险",
-      "rating": 4.9,
+      "rating": 4.8,
       "release_date": "2025-12-05",
       "overview": "该剧为原版的后续和拓展，如果《斯巴达克斯：复仇》第二季的结尾，Ashur（尼克·塔拉贝 Nick E. Tarabay 饰）没有死在维苏威山，如果他因为帮助罗马人杀掉斯巴达克斯并终结奴隶反叛而被赠与了曾属于巴蒂塔斯的角斗士学院，会怎么样？",
       "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
-    },
-    {
-      "id": 209110,
-      "title": "认罪之罪",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 8.5,
-      "release_date": "2025-12-05",
-      "overview": "　　美术老师安允秀（全度妍饰）原本过着平静的生活，但在结婚十周年之际却成为丈夫遇害案的唯一嫌疑人，人生瞬间陷入绝境。此时，身份神秘且患有精神疾病的慕恩（金高银饰）主动靠近她，自称能看透他人的杀意，并愿意为安允秀承担罪责，但提出了一个危险的交换条件。北部地方检察厅实力最强的检察官白东勋（朴海秀饰），他以自身信念和组织名誉为赌注，决心揭开安允秀和慕恩背后的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tq3OXIPLuHSRK6llBNm2GtMMe2l.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jlszdLPIqFiGXTGNP2ZWp63f2a8.jpg"
     },
     {
       "id": 66732,
@@ -46,15 +35,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 223300,
-      "title": "弃徒",
+      "id": 209110,
+      "title": "认罪之罪",
       "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 5.4,
-      "release_date": "2025-12-04",
-      "overview": "故事讲述了一群多元化的边缘家庭在19世纪50年代的俄勒冈州追寻他们的“天命”，然而，一股贪婪土地的腐败势力试图将他们驱逐。这些被遗弃的灵魂——那些生活在社会边缘的迷失者——联合起来组成一个家庭，共同抗争。在这场血腥的过程中，“正义”被拉伸到超越法律的界限。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yExbpOGgyhyAa3SVvO7hMfRJget.jpg"
+      "genreTitle": "悬疑•剧情",
+      "rating": 8.5,
+      "release_date": "2025-12-05",
+      "overview": "　　美术老师安允秀（全度妍饰）原本过着平静的生活，但在结婚十周年之际却成为丈夫遇害案的唯一嫌疑人，人生瞬间陷入绝境。此时，身份神秘且患有精神疾病的慕恩（金高银饰）主动靠近她，自称能看透他人的杀意，并愿意为安允秀承担罪责，但提出了一个危险的交换条件。北部地方检察厅实力最强的检察官白东勋（朴海秀饰），他以自身信念和组织名誉为赌注，决心揭开安允秀和慕恩背后的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tq3OXIPLuHSRK6llBNm2GtMMe2l.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jlszdLPIqFiGXTGNP2ZWp63f2a8.jpg"
     },
     {
       "id": 225171,
@@ -66,6 +55,28 @@
       "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
+      "id": 223300,
+      "title": "弃徒",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 5.2,
+      "release_date": "2025-12-04",
+      "overview": "故事讲述了一群多元化的边缘家庭在19世纪50年代的俄勒冈州追寻他们的“天命”，然而，一股贪婪土地的腐败势力试图将他们驱逐。这些被遗弃的灵魂——那些生活在社会边缘的迷失者——联合起来组成一个家庭，共同抗争。在这场血腥的过程中，“正义”被拉伸到超越法律的界限。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yExbpOGgyhyAa3SVvO7hMfRJget.jpg"
+    },
+    {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
     },
     {
       "id": 1228246,
@@ -101,15 +112,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
+      "id": 1392796,
+      "title": "小屁孩日记4：老爸別逼我",
       "type": "movie",
       "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.7,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
+      "rating": 8.5,
+      "release_date": "2025-12-04",
+      "overview": "本片改编自杰夫肯尼全球热卖系列作品第三集，葛瑞赫夫雷在《小屁孩日记4：老爸别逼我》中再度把全家拖下水，演出一场令人忍俊不住的闹剧。当个性闲散悠闲的葛瑞发现自己无法达到父亲对自己过高的期待，开始感受到必须振作起来的压力。发生一连串的爆笑惊险场面后，葛瑞的爸爸对他下了最后通牒，要他做出彻底的改变。本片由麦特丹纳执导（《三骑士传奇》），由杰夫肯尼担任编剧和制片。《小屁孩日记4：老爸别逼我》，由亚伦哈里斯（《律师无限耆》）为葛瑞赫夫雷配音，法兰克赫夫雷则由克里斯达玛托普拉斯（《矽谷群瞎传》）配音。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xkMFNcXO4SAQ1DFdH11hciaDJv7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2NpXU0U8pdC520welMVx6Pu0esc.jpg"
+    },
+    {
+      "id": 1196207,
+      "title": "我爸救了圣诞节2",
+      "type": "movie",
+      "genreTitle": "喜剧•家庭",
+      "rating": 6.0,
+      "release_date": "2025-12-05",
+      "overview": "一家玩具公司的狡猾主管绑架了圣诞老人，这对父子必须挺身而出，营救圣诞老人，拯救圣诞节。",
+      "poster_url": "https://image.tmdb.org/t/p/original/76ZIgt8seQ0fdXdXg1tyAYK2ZIf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oPGJL2UNsp7Zbh0F4xYqA9YHXx.jpg"
     },
     {
       "id": 1180831,
@@ -123,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y0o5MAGciafy71JzyZWUg5CQShF.jpg"
     },
     {
-      "id": 1392796,
-      "title": "小屁孩日记4：老爸別逼我",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.5,
-      "release_date": "2025-12-04",
-      "overview": "本片改编自杰夫肯尼全球热卖系列作品第三集，葛瑞赫夫雷在《小屁孩日记4：老爸别逼我》中再度把全家拖下水，演出一场令人忍俊不住的闹剧。当个性闲散悠闲的葛瑞发现自己无法达到父亲对自己过高的期待，开始感受到必须振作起来的压力。发生一连串的爆笑惊险场面后，葛瑞的爸爸对他下了最后通牒，要他做出彻底的改变。本片由麦特丹纳执导（《三骑士传奇》），由杰夫肯尼担任编剧和制片。《小屁孩日记4：老爸别逼我》，由亚伦哈里斯（《律师无限耆》）为葛瑞赫夫雷配音，法兰克赫夫雷则由克里斯达玛托普拉斯（《矽谷群瞎传》）配音。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xkMFNcXO4SAQ1DFdH11hciaDJv7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2NpXU0U8pdC520welMVx6Pu0esc.jpg"
-    },
-    {
       "id": 1566269,
       "title": "布偶奇遇记：美好初雪",
       "type": "movie",
@@ -143,17 +154,6 @@
       "overview": "当假期充满了意想不到的冒险与挑战时，佛莱戈们学会要珍惜每一天，因为它们都像雪花一样独特又特别。",
       "poster_url": "https://image.tmdb.org/t/p/original/tzYzmhBXFjZa3nXLX9fXYIZmCxH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/eBfGx58pPKVya5q6rFhwzTjRQPW.jpg"
-    },
-    {
-      "id": 1196207,
-      "title": "我爸救了圣诞节2",
-      "type": "movie",
-      "genreTitle": "喜剧•家庭",
-      "rating": 6.0,
-      "release_date": "2025-12-05",
-      "overview": "一家玩具公司的狡猾主管绑架了圣诞老人，这对父子必须挺身而出，营救圣诞老人，拯救圣诞节。",
-      "poster_url": "https://image.tmdb.org/t/p/original/76ZIgt8seQ0fdXdXg1tyAYK2ZIf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oPGJL2UNsp7Zbh0F4xYqA9YHXx.jpg"
     },
     {
       "id": 1261825,
@@ -200,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cuoqdXX42y66f5LLdiEOuagd3SM.jpg"
     },
     {
-      "id": 1439112,
-      "title": "神探忠犬：狼之城",
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.3,
-      "release_date": "2025-11-13",
-      "overview": "　　杰克·罗瑟曾是一名警犬训导员，因服役期间的创伤后应激障碍（PTSD）而饱受折磨，如今他努力与家人及退役警犬伙伴过着平静安宁的生活。然而，一场残酷的暴力袭击瞬间打破了这份宁静——一个残忍无情的帮派将他们锁定为目标。为了保护所爱之人，杰克与他的新警犬搭档“阿戈斯”深入罪恶滋生的黑暗世界，在那里，他不仅要面对腐败官员、揭开危险的毒品走私网络，更要直面自己内心的恶魔。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8qTMRmC07XCGidnKQFLbRM3FoDU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zXuBWKfUquvBDHFngZzphb2qRUX.jpg"
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.4,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
       "id": 83533,
@@ -235,6 +235,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
+    },
+    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -255,17 +266,6 @@
       "overview": "一头危险的新巨怪在家园里大肆破坏，诺拉、安德烈亚斯和克里斯少校开启迄今最危险的任务。",
       "poster_url": "https://image.tmdb.org/t/p/original/hWUD73m3UKhLalaGDTcwsk8P27b.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/y0o5MAGciafy71JzyZWUg5CQShF.jpg"
-    },
-    {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.7,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）与狐尼克（杰森·贝特曼 Jason Bateman 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
     },
     {
       "id": 701387,
@@ -290,6 +290,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
+      "id": 1069905,
+      "title": "影星杰·凯利",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 6.4,
+      "release_date": "2025-11-12",
+      "overview": "著名演员杰·凯利（乔治·克鲁尼 饰）与经纪人罗恩（亚当·桑德勒 饰）在欧洲旅行，反思彼此人生的选择、关系与意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pZc47DYloGB1Mcc6zYIXRjMVdF3.jpg"
+    },
+    {
       "id": 1228246,
       "title": "玩具熊的五夜惊魂2",
       "type": "movie",
@@ -299,17 +310,6 @@
       "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
       "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
-    },
-    {
-      "id": 1261825,
-      "title": "佳节愉快",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.5,
-      "release_date": "2025-12-02",
-      "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lvuont4qKPCj8ozQzXsLcAFTAVP.jpg"
     },
     {
       "id": 1242898,
@@ -327,22 +327,33 @@
       "title": "弃徒",
       "type": "tv",
       "genreTitle": "西部•剧情",
-      "rating": 5.4,
+      "rating": 5.2,
       "release_date": "2025-12-04",
       "overview": "故事讲述了一群多元化的边缘家庭在19世纪50年代的俄勒冈州追寻他们的“天命”，然而，一股贪婪土地的腐败势力试图将他们驱逐。这些被遗弃的灵魂——那些生活在社会边缘的迷失者——联合起来组成一个家庭，共同抗争。在这场血腥的过程中，“正义”被拉伸到超越法律的界限。",
       "poster_url": "https://image.tmdb.org/t/p/original/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/yExbpOGgyhyAa3SVvO7hMfRJget.jpg"
     },
     {
-      "id": 1069905,
-      "title": "影星杰·凯利",
+      "id": 1261825,
+      "title": "佳节愉快",
       "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 6.6,
-      "release_date": "2025-11-12",
-      "overview": "著名演员杰·凯利（乔治·克鲁尼 饰）与经纪人罗恩（亚当·桑德勒 饰）在欧洲旅行，反思彼此人生的选择、关系与意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pZc47DYloGB1Mcc6zYIXRjMVdF3.jpg"
+      "genreTitle": "喜剧",
+      "rating": 6.5,
+      "release_date": "2025-12-02",
+      "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lvuont4qKPCj8ozQzXsLcAFTAVP.jpg"
+    },
+    {
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 4.8,
+      "release_date": "2025-12-05",
+      "overview": "该剧为原版的后续和拓展，如果《斯巴达克斯：复仇》第二季的结尾，Ashur（尼克·塔拉贝 Nick E. Tarabay 饰）没有死在维苏威山，如果他因为帮助罗马人杀掉斯巴达克斯并终结奴隶反叛而被赠与了曾属于巴蒂塔斯的角斗士学院，会怎么样？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
     },
     {
       "id": 83533,
@@ -378,15 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
     },
     {
-      "id": 240459,
-      "title": "斯巴达克斯：亚述家族",
+      "id": 209110,
+      "title": "认罪之罪",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 4.9,
+      "genreTitle": "悬疑•剧情",
+      "rating": 8.5,
       "release_date": "2025-12-05",
-      "overview": "该剧为原版的后续和拓展，如果《斯巴达克斯：复仇》第二季的结尾，Ashur（尼克·塔拉贝 Nick E. Tarabay 饰）没有死在维苏威山，如果他因为帮助罗马人杀掉斯巴达克斯并终结奴隶反叛而被赠与了曾属于巴蒂塔斯的角斗士学院，会怎么样？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
+      "overview": "　　美术老师安允秀（全度妍饰）原本过着平静的生活，但在结婚十周年之际却成为丈夫遇害案的唯一嫌疑人，人生瞬间陷入绝境。此时，身份神秘且患有精神疾病的慕恩（金高银饰）主动靠近她，自称能看透他人的杀意，并愿意为安允秀承担罪责，但提出了一个危险的交换条件。北部地方检察厅实力最强的检察官白东勋（朴海秀饰），他以自身信念和组织名誉为赌注，决心揭开安允秀和慕恩背后的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tq3OXIPLuHSRK6llBNm2GtMMe2l.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jlszdLPIqFiGXTGNP2ZWp63f2a8.jpg"
     },
     {
       "id": 200875,
@@ -400,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
+      "id": 1441563,
+      "title": "我的秘密圣诞老人",
+      "type": "movie",
+      "genreTitle": "喜剧•爱情",
+      "rating": 7.1,
+      "release_date": "2025-12-02",
+      "overview": "一位单身母亲需要工作，一个滑雪度假村需要圣诞老人。泰勒假扮成圣诞老人，她能否骗过迷人的酒店继承人，拿到这份工作？",
+      "poster_url": "https://image.tmdb.org/t/p/original/tpOAzBasKPsKwsUtPZOx1Mzuqq3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mIfsxQE4VWkKqzkPAb4jIpT4eFn.jpg"
+    },
+    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -411,17 +433,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 812583,
-      "title": "利刃出鞘：亡者归来",
-      "type": "movie",
-      "genreTitle": "喜剧•悬疑•犯罪",
-      "rating": 7.8,
-      "release_date": "2025-11-26",
-      "overview": "　　《利刃出鞘》系列第三部，黑暗程度更胜以往。\r 　　大侦探布兰科再度出马，调查他有生以来最危险的案子。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nlQulJ98z4hyCVlIxuAYrNdpyPg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vsanAIAPx88MVOlNpyyqT3CJ9Gk.jpg"
-    },
-    {
       "id": 1062722,
       "title": "Frankenstein",
       "type": "movie",
@@ -431,17 +442,6 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
-    },
-    {
-      "id": 1441563,
-      "title": "我的秘密圣诞老人",
-      "type": "movie",
-      "genreTitle": "喜剧•爱情",
-      "rating": 7.1,
-      "release_date": "2025-12-02",
-      "overview": "一位单身母亲需要工作，一个滑雪度假村需要圣诞老人。泰勒假扮成圣诞老人，她能否骗过迷人的酒店继承人，拿到这份工作？",
-      "poster_url": "https://image.tmdb.org/t/p/original/tpOAzBasKPsKwsUtPZOx1Mzuqq3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mIfsxQE4VWkKqzkPAb4jIpT4eFn.jpg"
     }
   ],
   "popular_movies": [
