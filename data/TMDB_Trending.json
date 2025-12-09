@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-09 11:43:35",
+  "last_updated": "2025-12-09 12:18:10",
   "today_global": [
     {
       "id": 1218925,
-      "title": "链锯人 剧场版：蕾塞篇",
+      "title": "电锯人剧场版：蕾塞篇",
       "type": "movie",
       "genreTitle": "动画•动作•爱情",
       "rating": 7.8,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/syXtlr03vW3yLcTmcyazwMTwGLh.jpg"
     },
     {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪",
-      "rating": 7.5,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
-    },
-    {
       "id": 1228246,
       "title": "玩具熊的五夜惊魂2",
       "type": "movie",
@@ -77,6 +66,17 @@
       "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
       "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
+    },
+    {
+      "id": 701387,
+      "title": "拯救地球",
+      "type": "movie",
+      "genreTitle": "科幻•犯罪",
+      "rating": 7.5,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     },
     {
       "id": 1069905,
@@ -178,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tTXN5mlKm4W5mdqgo8Y6mo2Bz0t.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
-    },
-    {
       "id": 209110,
       "title": "认罪之罪",
       "type": "tv",
@@ -209,6 +198,17 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
+    },
+    {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•动作",
+      "rating": 7.5,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 157741,
@@ -235,15 +235,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
+      "id": 1218925,
+      "title": "电锯人剧场版：蕾塞篇",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.5,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q57Mrxy0u7XRa5xPrPjM78ccdFV.jpg"
+      "genreTitle": "动画•动作•爱情",
+      "rating": 7.8,
+      "release_date": "2025-09-19",
+      "overview": "故事延续TV动画的最终章，讲述男主角电次在偶然邂逅的神秘少女雷泽的庇护下，在快节奏的战斗中，奔向难以预测的命运。  电次，一个少年，与“电锯恶魔”签订契约，化身“电锯人”，成为隶属于公安部魔物对策特别课四课的魔物猎人，与魔物战斗。正兴奋地等待着与心仪的女性、公安部上司真喜真约会，却遭遇突如其来的暴雨，不得不在雨中避雨。在避雨的过程中，他邂逅了名为雷泽的少女。在附近咖啡馆工作的雷泽对电次露出了和善的笑容，两人迅速成为了好朋友。这次邂逅标志着电次的日常生活发生了重大改变。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
       "id": 1084242,
@@ -257,15 +257,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hi6h3ACrwAswclPEt4VTCeqGfTK.jpg"
     },
     {
-      "id": 1218925,
-      "title": "链锯人 剧场版：蕾塞篇",
+      "id": 533533,
+      "title": "创：战神",
       "type": "movie",
-      "genreTitle": "动画•动作•爱情",
-      "rating": 7.8,
-      "release_date": "2025-09-19",
-      "overview": "故事延续TV动画的最终章，讲述男主角电次在偶然邂逅的神秘少女雷泽的庇护下，在快节奏的战斗中，奔向难以预测的命运。  电次，一个少年，与“电锯恶魔”签订契约，化身“电锯人”，成为隶属于公安部魔物对策特别课四课的魔物猎人，与魔物战斗。正兴奋地等待着与心仪的女性、公安部上司真喜真约会，却遭遇突如其来的暴雨，不得不在雨中避雨。在避雨的过程中，他邂逅了名为雷泽的少女。在附近咖啡馆工作的雷泽对电次露出了和善的笑容，两人迅速成为了好朋友。这次邂逅标志着电次的日常生活发生了重大改变。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mnauEV7WyvI5zVDvqqBRswNPyfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.5,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q57Mrxy0u7XRa5xPrPjM78ccdFV.jpg"
     },
     {
       "id": 1180831,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mIfsxQE4VWkKqzkPAb4jIpT4eFn.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
+      "id": 1062722,
+      "title": "Frankenstein",
       "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+      "genreTitle": "剧情•奇幻•恐怖",
+      "rating": 7.8,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
     }
   ],
   "popular_movies": [
