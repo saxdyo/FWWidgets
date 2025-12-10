@@ -192,7 +192,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        { name: "language", title: "语言", type: "language", value: "en-US" },
         {
           name: "use_preprocessed_data",
           title: "数据来源类型",
@@ -308,7 +308,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "en-US" }
       ]
     },
     
@@ -397,7 +397,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "en-US" }
       ]
     },
     // TMDB影视榜单
@@ -533,7 +533,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "en-US" }
       ]
     },
 
@@ -958,9 +958,9 @@ var WidgetMetadata = {
           title: "🌐 搜索语言",
           type: "enumeration",
           description: "选择搜索语言（搜索模式使用）",
-          value: "zh-CN",
+          value: "en-US",
           enumOptions: [
-            { title: "中文", value: "zh-CN" },
+            { title: "中文", value: "en-US" },
             { title: "English", value: "en-US" },
             { title: "其他语言", value: "en" }
           ]
@@ -1769,7 +1769,7 @@ function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
 }
 
 // 获取带有图片详情的TMDB项目
-async function getTmdbItemWithImages(tmdbId, mediaType = "movie", language = "zh-CN") {
+async function getTmdbItemWithImages(tmdbId, mediaType = "movie", language = "en-US") {
   try {
     const cacheKey = `tmdb_${mediaType}_${tmdbId}_images`;
     const cached = getCachedData(cacheKey, 'DETAILS');
@@ -2040,7 +2040,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "en-US", use_preprocessed_data = "true" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -2084,7 +2084,7 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "en-US" } = params;
   
   try {
     const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
@@ -2137,7 +2137,7 @@ async function loadTmdbTrendingWithAPI(params = {}) {
         const itemWithImages = await getTmdbItemWithImages(
           item.id, 
           item.media_type || "movie", 
-          params.language || "zh-CN"
+          params.language || "en-US"
         );
         
         // 合并数据
@@ -2394,7 +2394,7 @@ async function loadTMDBChineseTVFallback(params = {}) {
   try {
     const response = await Widget.tmdb.get("/discover/tv", {
       params: {
-        language: "zh-CN",
+        language: "en-US",
         page: page,
         region: "CN",
         with_origin_country: "CN",
@@ -2635,7 +2635,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
         const api = "discover/tv";
         const beijingDate = getBeijingDate();
         const discoverParams = {
-            language: params.language || 'zh-CN',
+            language: params.language || 'en-US',
             page: params.page || 1,
             sort_by: params.sort_by || "first_air_date.desc"
         };
@@ -2679,7 +2679,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
 
 // 2. TMDB出品公司
 async function loadTmdbByCompany(params = {}) {
-  const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
+  const { language = "en-US", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
   
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
@@ -2790,7 +2790,7 @@ async function loadTmdbByCompany(params = {}) {
 // 3. TMDB影视榜单
 async function loadTmdbMediaRanking(params = {}) {
   const { 
-    language = "zh-CN", 
+    language = "en-US", 
     page = 1, 
     media_type = "tv",
     with_origin_country,
@@ -2961,7 +2961,7 @@ async function loadTmdbByTheme(params = {}) {
     
     // 构建查询参数
     const queryParams = {
-      language: "zh-CN",
+      language: "en-US",
       page: page,
       vote_count_gte: media_type === "movie" ? 50 : 20
     };
@@ -3086,7 +3086,7 @@ async function loadThemeFallback(params = {}) {
     
     // 使用更简单的查询参数
     const queryParams = {
-      language: "zh-CN",
+      language: "en-US",
       page: page,
       sort_by: "popularity.desc",
       vote_count_gte: 10
@@ -3345,7 +3345,7 @@ async function loadTmdbBackdropData(params = {}) {
       
       // 根据数据源类型决定API端点
       let endpoint = "/trending/all/day";
-      let queryParams = { language: "zh-CN", page: 1 };
+      let queryParams = { language: "en-US", page: 1 };
       
       switch (data_source) {
         case "movies":
@@ -3749,7 +3749,7 @@ function createStandardItem(overrides = {}) {
 
 // TMDB搜索屏蔽功能
 async function searchAndBlock(params = {}) {
-  const { action = "search_and_block", query = "", language = "zh-CN", tmdb_id = "", media_type = "movie" } = params;
+  const { action = "search_and_block", query = "", language = "en-US", tmdb_id = "", media_type = "movie" } = params;
   
   try {
     debugLog.log("🔍 搜索屏蔽模块调用:", params);
@@ -3986,7 +3986,7 @@ async function manageBlockedItems(params = {}) {
 }
 
 // 辅助函数：搜索TMDB
-async function searchTMDB(query, mediaType, language = "zh-CN") {
+async function searchTMDB(query, mediaType, language = "en-US") {
   try {
     const apiKey = CONFIG.API_KEY;
     const url = `https://api.themoviedb.org/3/search/${mediaType}?api_key=${apiKey}&query=${encodeURIComponent(query)}&language=${language}`;
