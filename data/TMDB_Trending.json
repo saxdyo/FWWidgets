@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-10 18:01:24",
+  "last_updated": "2025-12-10 19:01:11",
   "today_global": [
     {
       "id": 1218925,
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cs4WsdaZBf4Bh4K7rPPCmzV2BVc.jpg"
     },
     {
+      "id": 103540,
+      "title": "Percy Jackson and the Olympians",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.3,
+      "release_date": "2023-12-19",
+      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
+    },
+    {
       "id": 1287322,
       "title": "克里斯蒂",
       "type": "movie",
@@ -57,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
-      "id": 103540,
-      "title": "Percy Jackson and the Olympians",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.3,
-      "release_date": "2023-12-19",
-      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
-    },
-    {
       "id": 66732,
       "title": "Stranger Things",
       "type": "tv",
@@ -77,17 +77,6 @@
       "overview": "1983 年，印第安纳州的一个小男孩莫名其妙地消失了。当他的朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
       "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
-    },
-    {
-      "id": 1286185,
-      "title": "木匠之子",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 4.8,
-      "release_date": "2025-11-13",
-      "overview": "一个仅被称作 “男孩” 的少年，因另一个神秘孩童心生疑虑，进而反抗监护人 “木匠”，意外唤醒自身潜藏的力量，以及一段他无法理解的宿命。当他开始运用这份力量时，男孩与他的家人便成了恐怖的目标 —— 这些恐怖，既源于自然，也来自神性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4d4tHmFKeJv9GQw2nyMq37c3WDp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/y5hz3oQWCFAE6g4gGWv1XFqI8Mb.jpg"
     },
     {
       "id": 1242898,
@@ -101,26 +90,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
-      "id": 240459,
-      "title": "斯巴达克斯：亚述家族",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 5.9,
-      "release_date": "2025-12-05",
-      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
+      "id": 1286185,
+      "title": "木匠之子",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 4.8,
+      "release_date": "2025-11-13",
+      "overview": "一个仅被称作 “男孩” 的少年，因另一个神秘孩童心生疑虑，进而反抗监护人 “木匠”，意外唤醒自身潜藏的力量，以及一段他无法理解的宿命。当他开始运用这份力量时，男孩与他的家人便成了恐怖的目标 —— 这些恐怖，既源于自然，也来自神性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4d4tHmFKeJv9GQw2nyMq37c3WDp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/y5hz3oQWCFAE6g4gGWv1XFqI8Mb.jpg"
     },
     {
-      "id": 216985,
-      "title": "血红海岸",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.3,
-      "release_date": "2023-12-06",
-      "overview": "一个凶恶的毒贩试图控制马赛，而这名离经叛道的警长和悍不畏死的小队迎来一名另有目的的新人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6moL4YlWPQbAoAM70Mr5GpprTUg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vINfddqZKlEsOzDpDfnHrrEAaH1.jpg"
+      "id": 1255775,
+      "title": "爱犬莫福",
+      "type": "movie",
+      "genreTitle": "喜剧•爱情",
+      "rating": 7.0,
+      "release_date": "2025-12-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5caQ0TVKVKAzn3KWAEs2ra1nG7.jpg"
     },
     {
       "id": 83533,
@@ -134,6 +123,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
+      "id": 216985,
+      "title": "血红海岸",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.3,
+      "release_date": "2023-12-06",
+      "overview": "一个凶恶的毒贩试图控制马赛，而这名离经叛道的警长和悍不畏死的小队迎来一名另有目的的新人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6moL4YlWPQbAoAM70Mr5GpprTUg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vINfddqZKlEsOzDpDfnHrrEAaH1.jpg"
+    },
+    {
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 5.9,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
+    },
+    {
       "id": 259886,
       "title": "陆海之战",
       "type": "tv",
@@ -145,26 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/syXtlr03vW3yLcTmcyazwMTwGLh.jpg"
     },
     {
-      "id": 1069905,
-      "title": "影星杰·凯利",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 5.9,
-      "release_date": "2025-11-14",
-      "overview": "著名演员杰·凯利（乔治·克鲁尼 饰）与经纪人罗恩（亚当·桑德勒 饰）在欧洲旅行，反思彼此人生的选择、关系与意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9f4fOKEc7uPodf7m4yM4o7Ub3Zh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pZc47DYloGB1Mcc6zYIXRjMVdF3.jpg"
-    },
-    {
-      "id": 225171,
-      "title": "Pluribus",
+      "id": 114868,
+      "title": "终末的女武神",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2021-06-17",
+      "overview": "无论神的力量多么强大，人类都不会放弃赌上物种存续的战斗。人类与上帝一对一的认真较量将进入新的局面，人类的恶意和杀机将对正义的斗神猛然露出獠牙！",
+      "poster_url": "https://image.tmdb.org/t/p/original/m28Ey0LYoeqzx7mdJ25NVUqRueB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lB9OT1hH6ZXucAI4Z0JDBVlLKab.jpg"
     },
     {
       "id": 200875,
@@ -178,6 +178,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
       "id": 1228246,
       "title": "玩具熊的五夜惊魂2",
       "type": "movie",
@@ -189,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
+      "id": 1069905,
+      "title": "影星杰·凯利",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.6,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 5.9,
+      "release_date": "2025-11-14",
+      "overview": "著名演员杰·凯利（乔治·克鲁尼 饰）与经纪人罗恩（亚当·桑德勒 饰）在欧洲旅行，反思彼此人生的选择、关系与意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9f4fOKEc7uPodf7m4yM4o7Ub3Zh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pZc47DYloGB1Mcc6zYIXRjMVdF3.jpg"
     },
     {
       "id": 701387,
@@ -209,17 +220,6 @@
       "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
       "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
-    },
-    {
-      "id": 114868,
-      "title": "终末的女武神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2021-06-17",
-      "overview": "无论神的力量多么强大，人类都不会放弃赌上物种存续的战斗。人类与上帝一对一的认真较量将进入新的局面，人类的恶意和杀机将对正义的斗神猛然露出獠牙！",
-      "poster_url": "https://image.tmdb.org/t/p/original/m28Ey0LYoeqzx7mdJ25NVUqRueB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lB9OT1hH6ZXucAI4Z0JDBVlLKab.jpg"
     }
   ],
   "week_global_all": [
@@ -257,6 +257,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
+      "id": 103540,
+      "title": "Percy Jackson and the Olympians",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.3,
+      "release_date": "2023-12-19",
+      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
+    },
+    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -301,15 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
-      "id": 103540,
-      "title": "Percy Jackson and the Olympians",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.3,
-      "release_date": "2023-12-19",
-      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
+      "id": 1033148,
+      "title": "去死吧，我的爱",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 6.8,
+      "release_date": "2025-10-06",
+      "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
     },
     {
       "id": 1228246,
@@ -345,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     },
     {
-      "id": 1033148,
-      "title": "去死吧，我的爱",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 6.8,
-      "release_date": "2025-10-06",
-      "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
-    },
-    {
       "id": 225171,
       "title": "Pluribus",
       "type": "tv",
@@ -365,28 +365,6 @@
       "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
-    },
-    {
-      "id": 223300,
-      "title": "弃徒",
-      "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 5.8,
-      "release_date": "2025-12-04",
-      "overview": "故事讲述了一群多元化的边缘家庭在19世纪50年代的俄勒冈州追寻他们的“天命”，然而，一股贪婪土地的腐败势力试图将他们驱逐。这些被遗弃的灵魂——那些生活在社会边缘的迷失者——联合起来组成一个家庭，共同抗争。在这场血腥的过程中，“正义”被拉伸到超越法律的界限。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yExbpOGgyhyAa3SVvO7hMfRJget.jpg"
-    },
-    {
-      "id": 1261825,
-      "title": "乐开怀",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 5.9,
-      "release_date": "2025-12-02",
-      "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lvuont4qKPCj8ozQzXsLcAFTAVP.jpg"
     },
     {
       "id": 83533,
@@ -400,6 +378,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
+      "id": 223300,
+      "title": "弃徒",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 5.8,
+      "release_date": "2025-12-04",
+      "overview": "故事讲述了一群多元化的边缘家庭在19世纪50年代的俄勒冈州追寻他们的“天命”，然而，一股贪婪土地的腐败势力试图将他们驱逐。这些被遗弃的灵魂——那些生活在社会边缘的迷失者——联合起来组成一个家庭，共同抗争。在这场血腥的过程中，“正义”被拉伸到超越法律的界限。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mfJz8kOjFmYoLT2m4YQfwDC1P80.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yExbpOGgyhyAa3SVvO7hMfRJget.jpg"
+    },
+    {
+      "id": 1255775,
+      "title": "爱犬莫福",
+      "type": "movie",
+      "genreTitle": "喜剧•爱情",
+      "rating": 7.0,
+      "release_date": "2025-12-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5caQ0TVKVKAzn3KWAEs2ra1nG7.jpg"
+    },
+    {
+      "id": 1261825,
+      "title": "乐开怀",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 5.9,
+      "release_date": "2025-12-02",
+      "overview": "每逢假日，克莱尔克劳斯特都是凝聚这个混乱而可爱的家庭的粘合剂。然而今年，她为家人安排了一场特别的外出活动，家人却犯了一个致命错误，把她一个人落在了家里。忍无可忍的她感觉未得到应有的感激，一气之下踏上了属于自己的即兴冒险。当家人手忙脚乱地找她时，克莱尔却意外发现了偏离计划的圣诞节的独特魔力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/unDUIDiULwG2s7fsGIrBFEf6aXb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lvuont4qKPCj8ozQzXsLcAFTAVP.jpg"
+    },
+    {
       "id": 200875,
       "title": "小丑回魂：欢迎来到德里镇",
       "type": "tv",
@@ -411,6 +422,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
+      "id": 114868,
+      "title": "终末的女武神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2021-06-17",
+      "overview": "无论神的力量多么强大，人类都不会放弃赌上物种存续的战斗。人类与上帝一对一的认真较量将进入新的局面，人类的恶意和杀机将对正义的斗神猛然露出獠牙！",
+      "poster_url": "https://image.tmdb.org/t/p/original/m28Ey0LYoeqzx7mdJ25NVUqRueB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lB9OT1hH6ZXucAI4Z0JDBVlLKab.jpg"
+    },
+    {
       "id": 1288072,
       "title": "颤惧",
       "type": "movie",
@@ -420,28 +442,6 @@
       "overview": "莉兹和马尔科姆逃离城市，前往一座僻静的木屋度过浪漫的周年纪念周末。当马尔科姆突然返回城市后，莉兹陷入孤立无援的境地，并遭遇了一种不可名状的邪恶，这邪恶揭露了木屋骇人的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/A4KKlbScv8qlajoiqIqVDv3pQZz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cs4WsdaZBf4Bh4K7rPPCmzV2BVc.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
-      "id": 209110,
-      "title": "认罪之罪",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.4,
-      "release_date": "2025-12-05",
-      "overview": "　　美术老师安允秀（全度妍饰）原本过着平静的生活，但在结婚十周年之际却成为丈夫遇害案的唯一嫌疑人，人生瞬间陷入绝境。此时，身份神秘且患有精神疾病的慕恩（金高银饰）主动靠近她，自称能看透他人的杀意，并愿意为安允秀承担罪责，但提出了一个危险的交换条件。北部地方检察厅实力最强的检察官白东勋（朴海秀饰），他以自身信念和组织名誉为赌注，决心揭开安允秀和慕恩背后的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tq3OXIPLuHSRK6llBNm2GtMMe2l.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jlszdLPIqFiGXTGNP2ZWp63f2a8.jpg"
     }
   ],
   "popular_movies": [
