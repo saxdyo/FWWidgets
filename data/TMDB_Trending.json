@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12 18:01:18",
+  "last_updated": "2025-12-12 19:01:06",
   "today_global": [
     {
       "id": 798645,
@@ -32,7 +32,7 @@
       "release_date": "2025-11-26",
       "overview": "侦探伯努瓦·布兰克与一名热忱的年轻神父联手，在有着黑暗历史的小镇教会里调查一桩手段完美的罪案。",
       "poster_url": "https://image.tmdb.org/t/p/original/nlQulJ98z4hyCVlIxuAYrNdpyPg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vsanAIAPx88MVOlNpyyqT3CJ9Gk.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q2sNZ2jE9eSqdyEaZIgXdMbttk8.jpg"
     },
     {
       "id": 1218925,
@@ -55,6 +55,17 @@
       "overview": "安娜和拉斯分手后，他们的爱犬莫福变得无精打采，两人不得不开始了一段堪称世上最尴尬的共同养育生活。为了帮助莫福打起精神，拉斯决定带它去佛罗里达州来一场急需的度假，却意外遇到了突然出现的安娜。随着莫福逐渐恢复活力，修复爱犬破碎心灵的过程竟意外地重燃了两人之间久违的火花。",
       "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/awMxonJX6Wbuvpe5OsVf3QAhaiX.jpg"
+    },
+    {
+      "id": 1379963,
+      "title": "轻声告诉我",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 5.0,
+      "release_date": "2025-12-11",
+      "overview": "一切都在卡米拉的掌控之中：学习、社交生活、她的形象……唯独没想到她的邻居迪比安科兄弟会在离开七年后意外归来。蒂亚戈曾经偷走她的初吻，泰勒曾是她的挚友，但他们的归来将把卡米的世界搅得天翻地覆。他们三人能否走出将他们捆绑在一起的过往？还是说一切将再次分崩离析？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vs0FFjYTM2JKpdZ5A0UM2YH4wUD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mEYW3i5AMSCJuXdFMq0Yu6YBxLm.jpg"
     },
     {
       "id": 225171,
@@ -90,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
-      "id": 117830,
-      "title": "古墓丽影：劳拉·克劳馥传奇",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画",
-      "rating": 6.3,
-      "release_date": "2024-10-10",
-      "overview": "继生存系列的故事情节之后，劳拉·克劳馥抛下朋友，只身踏上更危险的冒险旅程。但她必须回家一趟，因为克劳馥庄园有件危险且力量强大的中国文物遭窃，而小偷似乎跟她有着不寻常的关联。她大胆展开追查，冒险前往世界各地，深入被遗忘的古墓深处。在过程中，她不得不面对真实的自我，并弄清自己想成为什么样的英雄。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1WF982MFHGmsURH13HMQP51Dgr3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t0sgb6ih2AplRPx31zjqih6WFC7.jpg"
-    },
-    {
       "id": 103540,
       "title": "Percy Jackson and the Olympians",
       "type": "tv",
@@ -123,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
+      "id": 117830,
+      "title": "古墓丽影：劳拉·克劳馥传奇",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画",
+      "rating": 6.3,
+      "release_date": "2024-10-10",
+      "overview": "继生存系列的故事情节之后，劳拉·克劳馥抛下朋友，只身踏上更危险的冒险旅程。但她必须回家一趟，因为克劳馥庄园有件危险且力量强大的中国文物遭窃，而小偷似乎跟她有着不寻常的关联。她大胆展开追查，冒险前往世界各地，深入被遗忘的古墓深处。在过程中，她不得不面对真实的自我，并弄清自己想成为什么样的英雄。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1WF982MFHGmsURH13HMQP51Dgr3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t0sgb6ih2AplRPx31zjqih6WFC7.jpg"
+    },
+    {
       "id": 114868,
       "title": "终末的女武神",
       "type": "tv",
@@ -132,17 +143,6 @@
       "overview": "无论神的力量多么强大，人类都不会放弃赌上物种存续的战斗。人类与上帝一对一的认真较量将进入新的局面，人类的恶意和杀机将对正义的斗神猛然露出獠牙！",
       "poster_url": "https://image.tmdb.org/t/p/original/m28Ey0LYoeqzx7mdJ25NVUqRueB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lB9OT1hH6ZXucAI4Z0JDBVlLKab.jpg"
-    },
-    {
-      "id": 1379963,
-      "title": "轻声告诉我",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 5.0,
-      "release_date": "2025-12-11",
-      "overview": "一切都在卡米拉的掌控之中：学习、社交生活、她的形象……唯独没想到她的邻居迪比安科兄弟会在离开七年后意外归来。蒂亚戈曾经偷走她的初吻，泰勒曾是她的挚友，但他们的归来将把卡米的世界搅得天翻地覆。他们三人能否走出将他们捆绑在一起的过往？还是说一切将再次分崩离析？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vs0FFjYTM2JKpdZ5A0UM2YH4wUD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mEYW3i5AMSCJuXdFMq0Yu6YBxLm.jpg"
     },
     {
       "id": 1580353,
@@ -178,6 +178,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
     },
     {
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.0,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
+    },
+    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -200,29 +211,29 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
-      "id": 278100,
-      "title": "小镇横祸",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.0,
-      "release_date": "2025-12-11",
-      "overview": "一群囊中羞涩的好友在老家偶然发现了一笔被盗的巨款，几人的道德和关系因此备受考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uFiVVvUAvCuoXOAvwKGxzNjvsIK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gYSE4tc6Cl9eZ3p8md2y9j2NI2w.jpg"
-    },
-    {
-      "id": 240459,
-      "title": "斯巴达克斯：亚述家族",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 6.0,
-      "release_date": "2025-12-05",
-      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
+      "id": 945801,
+      "title": "刺杀小说家2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 6.5,
+      "release_date": "2025-10-01",
+      "overview": "陷人生低谷的小说家路空文（董子健 饰）被巨大的诱惑牵引，导致他自己和书中的角色都陷入了不可逆转的危机。最终小说家找回了信念，与书中人一起拯救了双世界危机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7ZSHpRBXIoGFAEdDuP3IjdgPmpW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1mHTEDRSZ9PersHOTKfYBRXZw89.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 812583,
+      "title": "利刃出鞘：亡者归来",
+      "type": "movie",
+      "genreTitle": "喜剧•悬疑•犯罪",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "侦探伯努瓦·布兰克与一名热忱的年轻神父联手，在有着黑暗历史的小镇教会里调查一桩手段完美的罪案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nlQulJ98z4hyCVlIxuAYrNdpyPg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q2sNZ2jE9eSqdyEaZIgXdMbttk8.jpg"
+    },
     {
       "id": 798645,
       "title": "猎杀游戏",
@@ -233,17 +244,6 @@
       "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
       "poster_url": "https://image.tmdb.org/t/p/original/gYTFq8qMd5B6M554BkfdOcEsA1c.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6fDGScbxWTsi6st22tKQRw7dkka.jpg"
-    },
-    {
-      "id": 812583,
-      "title": "利刃出鞘：亡者归来",
-      "type": "movie",
-      "genreTitle": "喜剧•悬疑•犯罪",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "侦探伯努瓦·布兰克与一名热忱的年轻神父联手，在有着黑暗历史的小镇教会里调查一桩手段完美的罪案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nlQulJ98z4hyCVlIxuAYrNdpyPg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vsanAIAPx88MVOlNpyyqT3CJ9Gk.jpg"
     },
     {
       "id": 1218925,
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 225171,
-      "title": "Pluribus",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -299,6 +288,17 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
       "id": 240459,
@@ -345,6 +345,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     },
     {
+      "id": 1379963,
+      "title": "轻声告诉我",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 5.0,
+      "release_date": "2025-12-11",
+      "overview": "一切都在卡米拉的掌控之中：学习、社交生活、她的形象……唯独没想到她的邻居迪比安科兄弟会在离开七年后意外归来。蒂亚戈曾经偷走她的初吻，泰勒曾是她的挚友，但他们的归来将把卡米的世界搅得天翻地覆。他们三人能否走出将他们捆绑在一起的过往？还是说一切将再次分崩离析？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vs0FFjYTM2JKpdZ5A0UM2YH4wUD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mEYW3i5AMSCJuXdFMq0Yu6YBxLm.jpg"
+    },
+    {
+      "id": 103540,
+      "title": "Percy Jackson and the Olympians",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.3,
+      "release_date": "2023-12-19",
+      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
+    },
+    {
       "id": 533533,
       "title": "创：战神",
       "type": "movie",
@@ -367,15 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
+      "id": 1255775,
+      "title": "爱犬莫福",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.3,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
+      "genreTitle": "喜剧•爱情",
+      "rating": 5.8,
+      "release_date": "2025-12-09",
+      "overview": "安娜和拉斯分手后，他们的爱犬莫福变得无精打采，两人不得不开始了一段堪称世上最尴尬的共同养育生活。为了帮助莫福打起精神，拉斯决定带它去佛罗里达州来一场急需的度假，却意外遇到了突然出现的安娜。随着莫福逐渐恢复活力，修复爱犬破碎心灵的过程竟意外地重燃了两人之间久违的火花。",
+      "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/awMxonJX6Wbuvpe5OsVf3QAhaiX.jpg"
     },
     {
       "id": 1180831,
@@ -389,28 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/y0o5MAGciafy71JzyZWUg5CQShF.jpg"
     },
     {
-      "id": 103540,
-      "title": "Percy Jackson and the Olympians",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.3,
-      "release_date": "2023-12-19",
-      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
-    },
-    {
-      "id": 200875,
-      "title": "小丑回魂：欢迎来到德里镇",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.2,
-      "release_date": "2025-10-26",
-      "overview": "《小丑回魂》系列前传剧集，故事背景设定在1962年，比原版电影的时间线早了27年，深入探索了恐怖小丑潘尼怀斯的起源以及德里镇背后循环发生的恐怖事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kk0hdltG1EkGNRV8noegSErSZKQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
-    },
-    {
       "id": 1033148,
       "title": "去死吧，我的爱",
       "type": "movie",
@@ -422,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
     },
     {
-      "id": 1255775,
-      "title": "爱犬莫福",
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
       "type": "movie",
-      "genreTitle": "喜剧•爱情",
-      "rating": 5.8,
-      "release_date": "2025-12-09",
-      "overview": "安娜和拉斯分手后，他们的爱犬莫福变得无精打采，两人不得不开始了一段堪称世上最尴尬的共同养育生活。为了帮助莫福打起精神，拉斯决定带它去佛罗里达州来一场急需的度假，却意外遇到了突然出现的安娜。随着莫福逐渐恢复活力，修复爱犬破碎心灵的过程竟意外地重燃了两人之间久违的火花。",
-      "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/awMxonJX6Wbuvpe5OsVf3QAhaiX.jpg"
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.3,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bUEp1MbnmdqkgO3F2MtB6W2Mzc4.jpg"
     },
     {
       "id": 7451,
