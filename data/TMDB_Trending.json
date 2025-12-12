@@ -1,11 +1,11 @@
 {
-  "last_updated": "2025-12-13 06:01:14",
+  "last_updated": "2025-12-13 07:01:14",
   "today_global": [
     {
       "id": 812583,
       "title": "利刃出鞘：亡者归来",
       "type": "movie",
-      "genreTitle": "悬疑•犯罪",
+      "genreTitle": "惊悚•悬疑•喜剧",
       "rating": 7.6,
       "release_date": "2025-11-26",
       "overview": "侦探伯努瓦·布兰克与一名热忱的年轻神父联手，在有着黑暗历史的小镇教会里调查一桩手段完美的罪案。",
@@ -94,7 +94,7 @@
       "title": "爱犬莫福",
       "type": "movie",
       "genreTitle": "喜剧•爱情",
-      "rating": 5.9,
+      "rating": 6.1,
       "release_date": "2025-12-09",
       "overview": "安娜和拉斯分手后，他们的爱犬莫福变得无精打采，两人不得不开始了一段堪称世上最尴尬的共同养育生活。为了帮助莫福打起精神，拉斯决定带它去佛罗里达州来一场急需的度假，却意外遇到了突然出现的安娜。随着莫福逐渐恢复活力，修复爱犬破碎心灵的过程竟意外地重燃了两人之间久违的火花。",
       "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
@@ -145,6 +145,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.6,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+    },
+    {
+      "id": 1387382,
+      "title": "狩猎季",
+      "type": "movie",
+      "genreTitle": "动作•剧情•惊悚",
+      "rating": 6.4,
+      "release_date": "2025-12-05",
+      "overview": "当一位隐居的生存主义者与女儿从河中救起一名神秘的受伤女子后，他们便陷入了一场充满暴力与复仇的致命漩涡，被迫直面残暴的罪犯以求生存。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tTXN5mlKm4W5mdqgo8Y6mo2Bz0t.jpg"
+    },
+    {
       "id": 240459,
       "title": "斯巴达克斯：亚述家族",
       "type": "tv",
@@ -167,26 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.6,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+      "id": 114868,
+      "title": "终末的女武神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2021-06-17",
+      "overview": "无论神的力量多么强大，人类都不会放弃赌上物种存续的战斗。人类与上帝一对一的认真较量将进入新的局面，人类的恶意和杀机将对正义的斗神猛然露出獠牙！",
+      "poster_url": "https://image.tmdb.org/t/p/original/m28Ey0LYoeqzx7mdJ25NVUqRueB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lB9OT1hH6ZXucAI4Z0JDBVlLKab.jpg"
     },
     {
-      "id": 1387382,
-      "title": "狩猎季",
+      "id": 106646,
+      "title": "华尔街之狼",
       "type": "movie",
-      "genreTitle": "动作•剧情•惊悚",
-      "rating": 6.1,
-      "release_date": "2025-12-05",
-      "overview": "当一位隐居的生存主义者与女儿从河中救起一名神秘的受伤女子后，他们便陷入了一场充满暴力与复仇的致命漩涡，被迫直面残暴的罪犯以求生存。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tTXN5mlKm4W5mdqgo8Y6mo2Bz0t.jpg"
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.0,
+      "release_date": "2013-12-25",
+      "overview": "在危机四伏的投资界，掌管史崔顿·奥克蒙公司的乔丹·贝尔福特生活侈靡、实力雄厚。1987年，22岁的乔丹进入罗斯柴尔德公司，从接线员做起，在高级经纪人马克指点下，进入了股票经纪人充满毒品和欲望的世界，半年后因“黑色星期一”，乔丹转投靠贩卖“便士股票”的小公司，凭借巧舌如簧获得成功，与邻居唐尼和一班朋友另立门户，游走在灰色地带获利颇丰，获称“华尔街之狼”，然而，FBI已经开始留意他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9RJ2WU0ZZhu5eishs7cXRyJ5gCx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ooHqvEGe5NqtAAHDDOruATtfXrf.jpg"
     },
     {
       "id": 1033148,
@@ -198,28 +220,6 @@
       "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
       "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
-    },
-    {
-      "id": 1228246,
-      "title": "玩具熊的五夜惊魂2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.4,
-      "release_date": "2025-12-03",
-      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
-    },
-    {
-      "id": 117830,
-      "title": "古墓丽影：劳拉·克劳馥传奇",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画",
-      "rating": 6.3,
-      "release_date": "2024-10-10",
-      "overview": "继生存系列的故事情节之后，劳拉·克劳馥抛下朋友，只身踏上更危险的冒险旅程。但她必须回家一趟，因为克劳馥庄园有件危险且力量强大的中国文物遭窃，而小偷似乎跟她有着不寻常的关联。她大胆展开追查，冒险前往世界各地，深入被遗忘的古墓深处。在过程中，她不得不面对真实的自我，并弄清自己想成为什么样的英雄。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1WF982MFHGmsURH13HMQP51Dgr3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t0sgb6ih2AplRPx31zjqih6WFC7.jpg"
     }
   ],
   "week_global_all": [
@@ -227,7 +227,7 @@
       "id": 812583,
       "title": "利刃出鞘：亡者归来",
       "type": "movie",
-      "genreTitle": "悬疑•犯罪",
+      "genreTitle": "惊悚•悬疑•喜剧",
       "rating": 7.6,
       "release_date": "2025-11-26",
       "overview": "侦探伯努瓦·布兰克与一名热忱的年轻神父联手，在有着黑暗历史的小镇教会里调查一桩手段完美的罪案。",
@@ -301,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
     },
     {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.6,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+    },
+    {
       "id": 279601,
       "title": "人来宝",
       "type": "tv",
@@ -310,17 +321,6 @@
       "overview": "特雷弗·宾利（罗温·艾金森 饰）上次在《人来蜂》中照看高科技宅邸，却因为恼人的虫横加捣乱，酿成巨大灾难，这次离开了帮人看家的高压世界来担任学校工友，享受安静一些的生活。此时出现一个高薪工作机会，要他在圣诞期间到奢华伦敦顶楼公寓顾家，这样的诱惑实在令人难以抗拒。没想到学期的最后一天，居然没人来接学校圣诞剧的耶稣宝宝，特雷弗多了一位出乎意料的小同伴。这下他得照看顶楼公寓，还得照顾小宝宝，特雷弗还能享受他期待的平静圣诞吗？又或者这个佳节会就此陷入大乱？",
       "poster_url": "https://image.tmdb.org/t/p/original/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3EcomsrV59IFSfA2ZlKeMhagyfC.jpg"
-    },
-    {
-      "id": 1228246,
-      "title": "玩具熊的五夜惊魂2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.4,
-      "release_date": "2025-12-03",
-      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
       "id": 83533,
@@ -334,22 +334,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
+      "id": 1228246,
+      "title": "玩具熊的五夜惊魂2",
       "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.5,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.4,
+      "release_date": "2025-12-03",
+      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
       "id": 1069905,
       "title": "影星杰·凯利",
       "type": "movie",
       "genreTitle": "剧情•喜剧",
-      "rating": 5.9,
+      "rating": 6.0,
       "release_date": "2025-11-14",
       "overview": "著名演员杰·凯利（乔治·克鲁尼 饰）与经纪人罗恩（亚当·桑德勒 饰）在欧洲旅行，反思彼此人生的选择、关系与意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/9f4fOKEc7uPodf7m4yM4o7Ub3Zh.jpg",
@@ -367,28 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪",
-      "rating": 7.5,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
       "id": 103540,
       "title": "Percy Jackson and the Olympians",
       "type": "tv",
@@ -400,15 +378,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
     },
     {
+      "id": 701387,
+      "title": "拯救地球",
+      "type": "movie",
+      "genreTitle": "科幻•犯罪",
+      "rating": 7.5,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
+    },
+    {
       "id": 1255775,
       "title": "爱犬莫福",
       "type": "movie",
       "genreTitle": "喜剧•爱情",
-      "rating": 5.9,
+      "rating": 6.1,
       "release_date": "2025-12-09",
       "overview": "安娜和拉斯分手后，他们的爱犬莫福变得无精打采，两人不得不开始了一段堪称世上最尴尬的共同养育生活。为了帮助莫福打起精神，拉斯决定带它去佛罗里达州来一场急需的度假，却意外遇到了突然出现的安娜。随着莫福逐渐恢复活力，修复爱犬破碎心灵的过程竟意外地重燃了两人之间久违的火花。",
       "poster_url": "https://image.tmdb.org/t/p/original/84ltW2FwGaLMbRvAnKNlTFlceov.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/awMxonJX6Wbuvpe5OsVf3QAhaiX.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
       "id": 1033148,
