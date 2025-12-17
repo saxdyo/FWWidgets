@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-17 23:11:06",
+  "last_updated": "2025-12-18 00:12:40",
   "today_global": [
     {
       "id": 106379,
@@ -17,7 +17,7 @@
       "title": "永生战士2",
       "type": "movie",
       "genreTitle": "动作•战争",
-      "rating": 7.5,
+      "rating": 7.4,
       "release_date": "2025-10-21",
       "overview": "一名男子回到故乡，准备拆除家人在战争中遇害的房屋，另寻他处重建。凶手是一名红军指挥官，他找到了他，一场残酷的跨国追捕由此展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/vUiAm0jbrPgbUDCOhRKsvdT0u5h.jpg",
@@ -39,7 +39,7 @@
       "title": "阿凡达3",
       "type": "movie",
       "genreTitle": "科幻•冒险•奇幻",
-      "rating": 6.9,
+      "rating": 7.0,
       "release_date": "2025-12-17",
       "overview": "故事发生在2154年，故事从地球开始，杰克·萨利是一个双腿瘫痪的前海军陆战队员，他觉得没有任何东西值得他去战斗，因此他对被派遣去潘多拉星球的采矿公司工作欣然接受。这个星球上有一种别的地方都没有的矿物元素“Unobtanium”，能够吸引人类不远万里来到这里拓荒的原因就是“Unobtanium”将彻底改变人类的能源产业。但是问题是，资源丰富的潘多拉星球并不适合人类生活，这里的空气对人类致命，本土的动植物都是凶猛的掠食者，极度危险。这里的环境也造就了与人类不同的种族：10英尺高（约3米）的蓝色类人生物“Na'vi族”。Na'vi族不满人类拓荒者的到来，也不喜欢人类的机器在这个星球的土地上因为到处挖矿而留下的斑斑伤痕。",
       "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
@@ -134,6 +134,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
       "id": 1127628,
       "title": "长翅膀的东西",
       "type": "movie",
@@ -145,15 +156,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p36EspnJvhzhTCgRGtxpc9qgL6F.jpg"
     },
     {
-      "id": 225171,
-      "title": "Pluribus",
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 103540,
+      "title": "Percy Jackson and the Olympians",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.3,
+      "release_date": "2023-12-19",
+      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
     },
     {
       "id": 701387,
@@ -178,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
     },
     {
-      "id": 103540,
-      "title": "Percy Jackson and the Olympians",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.3,
-      "release_date": "2023-12-19",
-      "overview": "波西·杰克逊正在执行一项危险的任务。他必须战胜怪物，智取众神，穿越美洲，归还宙斯的闪电权杖，并阻止一场全面战争。在任务搭档安娜贝丝和格洛弗的帮助下，波西的旅程将引导他更接近他所追寻的答案：如何融入他感觉格格不入的世界，以及他是否能弄清楚自己注定要成为什么样的人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lV4wuzl0XRbUwJsbJPErlgmc3pw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
-    },
-    {
       "id": 1368166,
       "title": "家弑服务",
       "type": "movie",
@@ -209,17 +220,6 @@
       "overview": "特雷弗·宾利（罗温·艾金森 饰）上次在《人来蜂》中照看高科技宅邸，却因为恼人的虫横加捣乱，酿成巨大灾难，这次离开了帮人看家的高压世界来担任学校工友，享受安静一些的生活。此时出现一个高薪工作机会，要他在圣诞期间到奢华伦敦顶楼公寓顾家，这样的诱惑实在令人难以抗拒。没想到学期的最后一天，居然没人来接学校圣诞剧的耶稣宝宝，特雷弗多了一位出乎意料的小同伴。这下他得照看顶楼公寓，还得照顾小宝宝，特雷弗还能享受他期待的平静圣诞吗？又或者这个佳节会就此陷入大乱？",
       "poster_url": "https://image.tmdb.org/t/p/original/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3EcomsrV59IFSfA2ZlKeMhagyfC.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     }
   ],
   "week_global_all": [
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
     },
     {
-      "id": 798645,
-      "title": "猎杀游戏",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•科幻",
-      "rating": 6.9,
-      "release_date": "2025-11-11",
-      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vxleCpULOzkJgszhQWnffPXXXu2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6fDGScbxWTsi6st22tKQRw7dkka.jpg"
-    },
-    {
       "id": 83533,
       "title": "阿凡达3",
       "type": "movie",
@@ -277,6 +266,17 @@
       "overview": "故事发生在2154年，故事从地球开始，杰克·萨利是一个双腿瘫痪的前海军陆战队员，他觉得没有任何东西值得他去战斗，因此他对被派遣去潘多拉星球的采矿公司工作欣然接受。这个星球上有一种别的地方都没有的矿物元素“Unobtanium”，能够吸引人类不远万里来到这里拓荒的原因就是“Unobtanium”将彻底改变人类的能源产业。但是问题是，资源丰富的潘多拉星球并不适合人类生活，这里的空气对人类致命，本土的动植物都是凶猛的掠食者，极度危险。这里的环境也造就了与人类不同的种族：10英尺高（约3米）的蓝色类人生物“Na'vi族”。Na'vi族不满人类拓荒者的到来，也不喜欢人类的机器在这个星球的土地上因为到处挖矿而留下的斑斑伤痕。",
       "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
+    },
+    {
+      "id": 798645,
+      "title": "猎杀游戏",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•科幻",
+      "rating": 6.9,
+      "release_date": "2025-11-11",
+      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vxleCpULOzkJgszhQWnffPXXXu2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6fDGScbxWTsi6st22tKQRw7dkka.jpg"
     },
     {
       "id": 1223601,
@@ -378,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/chzZpWAMcyW8U4c6nCv1oOrDVTr.jpg"
     },
     {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
-    },
-    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -398,6 +387,17 @@
       "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
       "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 701387,
+      "title": "拯救地球",
+      "type": "movie",
+      "genreTitle": "科幻•犯罪",
+      "rating": 7.4,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     },
     {
       "id": 1033148,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
     },
     {
-      "id": 1379963,
-      "title": "轻声告诉我",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.2,
-      "release_date": "2025-12-11",
-      "overview": "一切都在卡米拉的掌控之中：学习、社交生活、她的形象……唯独没想到她的邻居迪比安科兄弟会在离开七年后意外归来。蒂亚戈曾经偷走她的初吻，泰勒曾是她的挚友，但他们的归来将把卡米的世界搅得天翻地覆。他们三人能否走出将他们捆绑在一起的过往？还是说一切将再次分崩离析？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vs0FFjYTM2JKpdZ5A0UM2YH4wUD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iyr9VnThgqjw58vkuhwhUyOheJQ.jpg"
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.3,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
     }
   ],
   "popular_movies": [
