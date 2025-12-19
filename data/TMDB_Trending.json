@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-19 23:01:00",
+  "last_updated": "2025-12-20 00:01:05",
   "today_global": [
     {
       "id": 982843,
       "title": "巨洪",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
-      "rating": 8.1,
+      "rating": 7.3,
       "release_date": "2025-09-18",
       "overview": "影片以地球的最后一天为背景，一场突如其来的巨洪将整座城市淹没，幸存者只能被迫困在逐步下沉的高层公寓，寻找最后的逃生路。",
       "poster_url": "https://image.tmdb.org/t/p/original/3lHyuPSrENyH1DdKj4yUBx9QwRd.jpg",
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/90xkPbXRHIy9SlgBLHp6A7dVt8s.jpg"
-    },
-    {
       "id": 225171,
       "title": "Pluribus",
       "type": "tv",
@@ -44,6 +33,28 @@
       "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
+      "id": 1589891,
+      "title": "勇者时刻",
+      "type": "movie",
+      "genreTitle": "喜剧•动作",
+      "rating": 8.0,
+      "release_date": "2025-12-19",
+      "overview": "接受社区服务处罚的精神分析师帮助因不忠而心碎的调查员。他们将一同面对危险，并发现重新来过的机会。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8ZoDrAbrsSLDVjXsyvOlwjJakUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gtuXARxjGdfsGFqEwggBB8zUJza.jpg"
+    },
+    {
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/90xkPbXRHIy9SlgBLHp6A7dVt8s.jpg"
     },
     {
       "id": 1223601,
@@ -57,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2FPNjxU9LVNzjveW58yEulhEEH.jpg"
     },
     {
-      "id": 82596,
-      "title": "艾米丽在巴黎",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 7.6,
-      "release_date": "2020-10-02",
-      "overview": "芝加哥市场营销主管艾米丽·库珀得到一份在巴黎供职的理想工作，她一面拥抱充满挑战的新生活，一面努力兼顾职业、友情和爱情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xiQw73Mff7yEGfqG7Fx53lny9am.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fvf5vru81izgi56iIUr3CI1tDqn.jpg"
-    },
-    {
       "id": 812583,
       "title": "利刃出鞘3：亡者归来",
       "type": "movie",
@@ -79,26 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q2sNZ2jE9eSqdyEaZIgXdMbttk8.jpg"
     },
     {
-      "id": 1400032,
-      "title": "十项舞蹈",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 5.8,
-      "release_date": "2025-12-18",
-      "overview": "铃木信也（竹内凉真饰）是日本拉丁舞冠军，而有“帝王”之称的杉木信也（町田启太饰）则是日本国标舞冠军，世界排名第二。有一天，杉木出现在铃木面前，邀他一同参与“10 项舞蹈锦标赛”，该赛事要求参赛者精通 5 种拉丁舞及 5 种国标舞，总共 10 项舞科，且全部赛程要在一天之内完成，是对体力与意志力的终极考验。于是，铃木和杉木分别与搭档田鸠亚季（土居志央梨饰）及矢上房子 （石井杏奈饰）在杉木舞蹈教室展开特训。这两个男人生活方式与性格截然不同，因此冲突不断，不过，随着他们逐渐理解对方的舞风，内心也慢慢朝着彼此靠近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/htFISi1tgQNrYP9FWQDvbSK8DI1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hsuT5b5EcDAVCY3Oe0Iyez2lTES.jpg"
-    },
-    {
-      "id": 1589891,
-      "title": "勇者时刻",
-      "type": "movie",
-      "genreTitle": "喜剧•动作",
-      "rating": 0.0,
-      "release_date": "2025-12-19",
-      "overview": "接受社区服务处罚的精神分析师帮助因不忠而心碎的调查员。他们将一同面对危险，并发现重新来过的机会。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8ZoDrAbrsSLDVjXsyvOlwjJakUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gtuXARxjGdfsGFqEwggBB8zUJza.jpg"
+      "id": 82596,
+      "title": "艾米丽在巴黎",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.6,
+      "release_date": "2020-10-02",
+      "overview": "芝加哥市场营销主管艾米丽·库珀得到一份在巴黎供职的理想工作，她一面拥抱充满挑战的新生活，一面努力兼顾职业、友情和爱情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xiQw73Mff7yEGfqG7Fx53lny9am.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fvf5vru81izgi56iIUr3CI1tDqn.jpg"
     },
     {
       "id": 425274,
@@ -110,6 +99,17 @@
       "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
       "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
+    },
+    {
+      "id": 1400032,
+      "title": "十项舞蹈",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 5.8,
+      "release_date": "2025-12-18",
+      "overview": "铃木信也（竹内凉真饰）是日本拉丁舞冠军，而有“帝王”之称的杉木信也（町田启太饰）则是日本国标舞冠军，世界排名第二。有一天，杉木出现在铃木面前，邀他一同参与“10 项舞蹈锦标赛”，该赛事要求参赛者精通 5 种拉丁舞及 5 种国标舞，总共 10 项舞科，且全部赛程要在一天之内完成，是对体力与意志力的终极考验。于是，铃木和杉木分别与搭档田鸠亚季（土居志央梨饰）及矢上房子 （石井杏奈饰）在杉木舞蹈教室展开特训。这两个男人生活方式与性格截然不同，因此冲突不断，不过，随着他们逐渐理解对方的舞风，内心也慢慢朝着彼此靠近。",
+      "poster_url": "https://image.tmdb.org/t/p/original/htFISi1tgQNrYP9FWQDvbSK8DI1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hsuT5b5EcDAVCY3Oe0Iyez2lTES.jpg"
     },
     {
       "id": 66732,
@@ -182,7 +182,7 @@
       "title": "孤夜：豪门血案",
       "type": "movie",
       "genreTitle": "惊悚•悬疑•犯罪",
-      "rating": 0.0,
+      "rating": 6.0,
       "release_date": "2025-12-19",
       "overview": "班萨尔家族成员遭到谋杀，警探贾蒂尔·亚达夫在调查过程中逐渐揭开一条由贪婪、背叛和秘密串起的线索，而这一切都指向一场致命的阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/8EpDSwnjMBc9dmTPEYBF4Bixmwf.jpg",
@@ -200,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
-      "id": 1314129,
-      "title": "彼岸",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 4.7,
-      "release_date": "2025-09-05",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/8JbuKgQBc8KlXopF1eege54HNQ5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/49sbzDZE6V5sUSfFOmjRQGeh0dE.jpg"
-    },
-    {
       "id": 1033148,
       "title": "去死吧，我的爱",
       "type": "movie",
@@ -220,6 +209,17 @@
       "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
       "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
+    },
+    {
+      "id": 1314129,
+      "title": "彼岸",
+      "type": "movie",
+      "genreTitle": "剧情•爱情",
+      "rating": 4.7,
+      "release_date": "2025-09-05",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/8JbuKgQBc8KlXopF1eege54HNQ5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49sbzDZE6V5sUSfFOmjRQGeh0dE.jpg"
     }
   ],
   "week_global_all": [
@@ -250,22 +250,11 @@
       "title": "巨洪",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
-      "rating": 8.1,
+      "rating": 7.3,
       "release_date": "2025-09-18",
       "overview": "影片以地球的最后一天为背景，一场突如其来的巨洪将整座城市淹没，幸存者只能被迫困在逐步下沉的高层公寓，寻找最后的逃生路。",
       "poster_url": "https://image.tmdb.org/t/p/original/3lHyuPSrENyH1DdKj4yUBx9QwRd.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xAzwi0Du6r2x2n0ELyzgwJYpjs7.jpg"
-    },
-    {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/90xkPbXRHIy9SlgBLHp6A7dVt8s.jpg"
     },
     {
       "id": 1223601,
@@ -277,6 +266,17 @@
       "overview": "一名男子回到故乡，准备拆除家人在战争中遇害的房屋，另寻他处重建。凶手是一名红军指挥官，他找到了他，一场残酷的跨国追捕由此展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/vUiAm0jbrPgbUDCOhRKsvdT0u5h.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2FPNjxU9LVNzjveW58yEulhEEH.jpg"
+    },
+    {
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/90xkPbXRHIy9SlgBLHp6A7dVt8s.jpg"
     },
     {
       "id": 425274,
@@ -312,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 66732,
-      "title": "Stranger Things",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "1983 年，印第安纳州的一个小男孩莫名其妙地消失了。当他的朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
-    },
-    {
       "id": 200875,
       "title": "小丑回魂：欢迎来到德里镇",
       "type": "tv",
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 211089,
-      "title": "唐朝诡事录",
+      "id": 66732,
+      "title": "Stranger Things",
       "type": "tv",
-      "genreTitle": "悬疑•犯罪•剧情",
-      "rating": 8.3,
-      "release_date": "2022-09-27",
-      "overview": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gzWIS9LsH3DrrA6cHPnXkwOIwSJ.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "1983 年，印第安纳州的一个小男孩莫名其妙地消失了。当他的朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
       "id": 1084242,
@@ -356,6 +345,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
+      "id": 211089,
+      "title": "唐朝诡事录",
+      "type": "tv",
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 8.3,
+      "release_date": "2022-09-27",
+      "overview": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gzWIS9LsH3DrrA6cHPnXkwOIwSJ.jpg"
+    },
+    {
+      "id": 1589891,
+      "title": "勇者时刻",
+      "type": "movie",
+      "genreTitle": "喜剧•动作",
+      "rating": 8.0,
+      "release_date": "2025-12-19",
+      "overview": "接受社区服务处罚的精神分析师帮助因不忠而心碎的调查员。他们将一同面对危险，并发现重新来过的机会。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8ZoDrAbrsSLDVjXsyvOlwjJakUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gtuXARxjGdfsGFqEwggBB8zUJza.jpg"
+    },
+    {
       "id": 1218925,
       "title": "电锯人剧场版：蕾塞篇",
       "type": "movie",
@@ -365,28 +376,6 @@
       "overview": "故事延续TV动画的最终章，讲述男主角电次在偶然邂逅的神秘少女雷泽的庇护下，在快节奏的战斗中，奔向难以预测的命运。  电次，一个少年，与“电锯恶魔”签订契约，化身“电锯人”，成为隶属于公安部魔物对策特别课四课的魔物猎人，与魔物战斗。正兴奋地等待着与心仪的女性、公安部上司真喜真约会，却遭遇突如其来的暴雨，不得不在雨中避雨。在避雨的过程中，他邂逅了名为雷泽的少女。在附近咖啡馆工作的雷泽对电次露出了和善的笑容，两人迅速成为了好朋友。这次邂逅标志着电次的日常生活发生了重大改变。",
       "poster_url": "https://image.tmdb.org/t/p/original/xA7tJ29oHlDGwYMAwILs90DVAQg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/36B8DfGZcp2Pwsdbnzqpk4w7pbc.jpg"
-    },
-    {
-      "id": 1589891,
-      "title": "勇者时刻",
-      "type": "movie",
-      "genreTitle": "喜剧•动作",
-      "rating": 0.0,
-      "release_date": "2025-12-19",
-      "overview": "接受社区服务处罚的精神分析师帮助因不忠而心碎的调查员。他们将一同面对危险，并发现重新来过的机会。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8ZoDrAbrsSLDVjXsyvOlwjJakUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gtuXARxjGdfsGFqEwggBB8zUJza.jpg"
-    },
-    {
-      "id": 279601,
-      "title": "人来宝",
-      "type": "tv",
-      "genreTitle": "喜剧•家庭",
-      "rating": 6.8,
-      "release_date": "2025-12-11",
-      "overview": "特雷弗·宾利（罗温·艾金森 饰）上次在《人来蜂》中照看高科技宅邸，却因为恼人的虫横加捣乱，酿成巨大灾难，这次离开了帮人看家的高压世界来担任学校工友，享受安静一些的生活。此时出现一个高薪工作机会，要他在圣诞期间到奢华伦敦顶楼公寓顾家，这样的诱惑实在令人难以抗拒。没想到学期的最后一天，居然没人来接学校圣诞剧的耶稣宝宝，特雷弗多了一位出乎意料的小同伴。这下他得照看顶楼公寓，还得照顾小宝宝，特雷弗还能享受他期待的平静圣诞吗？又或者这个佳节会就此陷入大乱？",
-      "poster_url": "https://image.tmdb.org/t/p/original/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3EcomsrV59IFSfA2ZlKeMhagyfC.jpg"
     },
     {
       "id": 7451,
@@ -420,6 +409,17 @@
       "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
       "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
+    },
+    {
+      "id": 279601,
+      "title": "人来宝",
+      "type": "tv",
+      "genreTitle": "喜剧•家庭",
+      "rating": 6.8,
+      "release_date": "2025-12-11",
+      "overview": "特雷弗·宾利（罗温·艾金森 饰）上次在《人来蜂》中照看高科技宅邸，却因为恼人的虫横加捣乱，酿成巨大灾难，这次离开了帮人看家的高压世界来担任学校工友，享受安静一些的生活。此时出现一个高薪工作机会，要他在圣诞期间到奢华伦敦顶楼公寓顾家，这样的诱惑实在令人难以抗拒。没想到学期的最后一天，居然没人来接学校圣诞剧的耶稣宝宝，特雷弗多了一位出乎意料的小同伴。这下他得照看顶楼公寓，还得照顾小宝宝，特雷弗还能享受他期待的平静圣诞吗？又或者这个佳节会就此陷入大乱？",
+      "poster_url": "https://image.tmdb.org/t/p/original/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3EcomsrV59IFSfA2ZlKeMhagyfC.jpg"
     },
     {
       "id": 1054867,
