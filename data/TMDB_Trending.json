@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-20 08:40:52",
+  "last_updated": "2025-12-20 10:25:20",
   "today_global": [
     {
       "id": 982843,
       "title": "巨洪",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
-      "rating": 7.1,
+      "rating": 6.7,
       "release_date": "2025-09-18",
       "overview": "影片以地球的最后一天为背景，一场突如其来的巨洪将整座城市淹没，幸存者只能被迫困在逐步下沉的高层公寓，寻找最后的逃生路。",
       "poster_url": "https://image.tmdb.org/t/p/original/3lHyuPSrENyH1DdKj4yUBx9QwRd.jpg",
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
-      "id": 1223601,
-      "title": "永生战士2",
-      "type": "movie",
-      "genreTitle": "动作•战争",
-      "rating": 7.7,
-      "release_date": "2025-10-21",
-      "overview": "一名男子回到故乡，准备拆除家人在战争中遇害的房屋，另寻他处重建。凶手是一名红军指挥官，他找到了他，一场残酷的跨国追捕由此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fId4eJY2ThJuUf2WGTXQuOFLiBi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s2FPNjxU9LVNzjveW58yEulhEEH.jpg"
-    },
-    {
       "id": 225171,
       "title": "Pluribus",
       "type": "tv",
@@ -44,6 +33,17 @@
       "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+    },
+    {
+      "id": 1223601,
+      "title": "永生战士2",
+      "type": "movie",
+      "genreTitle": "动作•战争",
+      "rating": 7.8,
+      "release_date": "2025-10-21",
+      "overview": "一名男子回到故乡，准备拆除家人在战争中遇害的房屋，另寻他处重建。凶手是一名红军指挥官，他找到了他，一场残酷的跨国追捕由此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fId4eJY2ThJuUf2WGTXQuOFLiBi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s2FPNjxU9LVNzjveW58yEulhEEH.jpg"
     },
     {
       "id": 1589891,
@@ -68,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q2sNZ2jE9eSqdyEaZIgXdMbttk8.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
+      "id": 425274,
+      "title": "惊天魔盗团3",
       "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+      "genreTitle": "惊悚•犯罪•悬疑",
+      "rating": 6.4,
+      "release_date": "2025-11-12",
+      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
+      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
     },
     {
       "id": 106379,
@@ -90,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/90xkPbXRHIy9SlgBLHp6A7dVt8s.jpg"
     },
     {
-      "id": 425274,
-      "title": "惊天魔盗团3",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•悬疑",
-      "rating": 6.4,
-      "release_date": "2025-11-12",
-      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
-      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h02rwSwl41w646xeF7VJo5lnRDA.jpg"
-    },
-    {
       "id": 1400032,
       "title": "十项舞蹈",
       "type": "movie",
@@ -109,29 +98,7 @@
       "release_date": "2025-12-18",
       "overview": "铃木信也（竹内凉真饰）是日本拉丁舞冠军，而有“帝王”之称的杉木信也（町田启太饰）则是日本国标舞冠军，世界排名第二。有一天，杉木出现在铃木面前，邀他一同参与“10 项舞蹈锦标赛”，该赛事要求参赛者精通 5 种拉丁舞及 5 种国标舞，总共 10 项舞科，且全部赛程要在一天之内完成，是对体力与意志力的终极考验。于是，铃木和杉木分别与搭档田鸠亚季（土居志央梨饰）及矢上房子 （石井杏奈饰）在杉木舞蹈教室展开特训。这两个男人生活方式与性格截然不同，因此冲突不断，不过，随着他们逐渐理解对方的舞风，内心也慢慢朝着彼此靠近。",
       "poster_url": "https://image.tmdb.org/t/p/original/htFISi1tgQNrYP9FWQDvbSK8DI1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/AkrBGNV7oGYkxhLGilwbAcTANWV.jpg"
-    },
-    {
-      "id": 66732,
-      "title": "Stranger Things",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "1983 年，印第安纳州的一个小男孩莫名其妙地消失了。当他的朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
-    },
-    {
-      "id": 82596,
-      "title": "艾米丽在巴黎",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 7.6,
-      "release_date": "2020-10-02",
-      "overview": "芝加哥市场营销主管艾米丽·库珀得到一份在巴黎供职的理想工作，她一面拥抱充满挑战的新生活，一面努力兼顾职业、友情和爱情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xiQw73Mff7yEGfqG7Fx53lny9am.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fvf5vru81izgi56iIUr3CI1tDqn.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hsuT5b5EcDAVCY3Oe0Iyez2lTES.jpg"
     },
     {
       "id": 798645,
@@ -145,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sV9JUF7X1HrhOJYgckqPknP2ae1.jpg"
     },
     {
+      "id": 66732,
+      "title": "Stranger Things",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "1983 年，印第安纳州的一个小男孩莫名其妙地消失了。当他的朋友、家人和当地警察寻找答案时，他们都被卷入一个非同寻常的谜团，其中涉及绝密的政府实验、恐怖的超自然力量，还有一个非常奇怪的小女孩。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
+    },
+    {
       "id": 200875,
       "title": "小丑回魂：欢迎来到德里镇",
       "type": "tv",
@@ -156,26 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
-    },
-    {
-      "id": 1368166,
-      "title": "家弑服务",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 8.4,
-      "release_date": "2025-12-18",
-      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
+      "id": 82596,
+      "title": "艾米丽在巴黎",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.6,
+      "release_date": "2020-10-02",
+      "overview": "芝加哥市场营销主管艾米丽·库珀得到一份在巴黎供职的理想工作，她一面拥抱充满挑战的新生活，一面努力兼顾职业、友情和爱情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xiQw73Mff7yEGfqG7Fx53lny9am.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fvf5vru81izgi56iIUr3CI1tDqn.jpg"
     },
     {
       "id": 1415974,
@@ -189,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/89QsOD0h5jkEfkaLm7TSX5cebuh.jpg"
     },
     {
-      "id": 1033148,
-      "title": "去死吧，我的爱",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 6.4,
-      "release_date": "2025-10-06",
-      "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
-    },
-    {
       "id": 1321624,
       "title": "731",
       "type": "movie",
@@ -209,6 +165,50 @@
       "overview": "1945年抗战胜利前夕，侵华日军第七三一部队在哈尔滨平房区以“给水防疫”为名，秘密进行惨无人道的细菌战研究，大肆抓捕平民进行活体实验，妄图以此扭转败局。小贩王永章等人被强行抓入“特设监狱”，日军以“配合健康检查与防疫研究即可换取自由”的虚伪承诺，欺骗他们遭受冻伤实验、毒气实验、活体解剖等极端折磨……",
       "poster_url": "https://image.tmdb.org/t/p/original/e53iGvxG7ebdJP6GE3x1JI1744z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1sU4w7DLJbcKdYjPrLB9jeiIkfz.jpg"
+    },
+    {
+      "id": 1368166,
+      "title": "家弑服务",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚",
+      "rating": 8.4,
+      "release_date": "2025-12-18",
+      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
+    },
+    {
+      "id": 1033148,
+      "title": "去死吧，我的爱",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 6.3,
+      "release_date": "2025-10-06",
+      "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
+    },
+    {
+      "id": 211089,
+      "title": "唐朝诡事录",
+      "type": "tv",
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 8.3,
+      "release_date": "2022-09-27",
+      "overview": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gzWIS9LsH3DrrA6cHPnXkwOIwSJ.jpg"
+    },
+    {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
       "id": 7451,
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5eVDG1Jkt59mCadrobDxTiolQZ.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
-    },
-    {
       "id": 425274,
       "title": "惊天魔盗团3",
       "type": "movie",
@@ -272,7 +261,7 @@
       "title": "永生战士2",
       "type": "movie",
       "genreTitle": "动作•战争",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2025-10-21",
       "overview": "一名男子回到故乡，准备拆除家人在战争中遇害的房屋，另寻他处重建。凶手是一名红军指挥官，他找到了他，一场残酷的跨国追捕由此展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/fId4eJY2ThJuUf2WGTXQuOFLiBi.jpg",
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oG5ABwXg9GBQGkG3oPrl5XlcjbH.jpg"
     },
     {
-      "id": 279601,
-      "title": "人来宝",
+      "id": 225171,
+      "title": "Pluribus",
       "type": "tv",
-      "genreTitle": "喜剧•家庭",
-      "rating": 6.8,
-      "release_date": "2025-12-11",
-      "overview": "特雷弗·宾利（罗温·艾金森 饰）上次在《人来蜂》中照看高科技宅邸，却因为恼人的虫横加捣乱，酿成巨大灾难，这次离开了帮人看家的高压世界来担任学校工友，享受安静一些的生活。此时出现一个高薪工作机会，要他在圣诞期间到奢华伦敦顶楼公寓顾家，这样的诱惑实在令人难以抗拒。没想到学期的最后一天，居然没人来接学校圣诞剧的耶稣宝宝，特雷弗多了一位出乎意料的小同伴。这下他得照看顶楼公寓，还得照顾小宝宝，特雷弗还能享受他期待的平静圣诞吗？又或者这个佳节会就此陷入大乱？",
-      "poster_url": "https://image.tmdb.org/t/p/original/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3EcomsrV59IFSfA2ZlKeMhagyfC.jpg"
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
       "id": 66732,
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 225171,
-      "title": "Pluribus",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+      "id": 982843,
+      "title": "巨洪",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 6.7,
+      "release_date": "2025-09-18",
+      "overview": "影片以地球的最后一天为背景，一场突如其来的巨洪将整座城市淹没，幸存者只能被迫困在逐步下沉的高层公寓，寻找最后的逃生路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3lHyuPSrENyH1DdKj4yUBx9QwRd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xAzwi0Du6r2x2n0ELyzgwJYpjs7.jpg"
     },
     {
       "id": 1368166,
@@ -356,26 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
+      "id": 1084242,
+      "title": "疯狂动物城2",
       "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/viTq6Rfc3Hmv7tCK0jn0P28Lorr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
       "id": 1218925,
@@ -400,37 +378,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 1401778,
-      "title": "空中乱流",
-      "type": "movie",
-      "genreTitle": "惊悚•动作•冒险",
-      "rating": 5.0,
-      "release_date": "2025-11-26",
-      "overview": "年轻夫妇扎克和艾米决定乘坐热气球穿越意大利多洛米蒂山脉，重燃爱火。当他们和飞行员哈里与第三位乘客茱莉亚 同行时，在五千米的高空，一系列意想不到的事情发生了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6PdAODwR9amGEq5ER42FsuzV7op.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hxlXnqugycl75Rov3ph7WODgLGm.jpg"
-    },
-    {
-      "id": 259886,
-      "title": "陆海之战",
+      "id": 211089,
+      "title": "唐朝诡事录",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.0,
-      "release_date": "2025-12-07",
-      "overview": "UNIT-即联合情报特遣部队，在联合国主持下运作的独立情报组织。在隐藏于深海之中的古老生物浮出水面之后，UNIT以及目前的掌门人凯特·莱斯布里奇·斯图尔特必须阻止这群曾经称霸古地球的远古生物卷土重来引发全球性危机。同时在陆地与浪潮的黑暗深处，Sea Salt和Barclay之间的结盟也将在这场史无前例的霸主之战中得到挑战。该剧为《神秘博士》于2005年重启后推出的第四部衍生剧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fmlam3xNaZOx9XJTo5SoQctkwOv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/syXtlr03vW3yLcTmcyazwMTwGLh.jpg"
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 8.3,
+      "release_date": "2022-09-27",
+      "overview": "该剧改编自作家魏风华同名原著，讲述了在繁华的大唐盛世之下发生的一系列奇闻异事，长安金吾卫中郎将卢凌风将与狄公亲传弟子苏无名携手共破诡案，守护苍生，担负起挽救社稷于危急的使命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sgv6nwj1TlDDKqxbcUEuds8fqoz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gzWIS9LsH3DrrA6cHPnXkwOIwSJ.jpg"
     },
     {
-      "id": 982843,
-      "title": "巨洪",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.1,
-      "release_date": "2025-09-18",
-      "overview": "影片以地球的最后一天为背景，一场突如其来的巨洪将整座城市淹没，幸存者只能被迫困在逐步下沉的高层公寓，寻找最后的逃生路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3lHyuPSrENyH1DdKj4yUBx9QwRd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xAzwi0Du6r2x2n0ELyzgwJYpjs7.jpg"
+      "id": 279601,
+      "title": "人来宝",
+      "type": "tv",
+      "genreTitle": "喜剧•家庭",
+      "rating": 6.8,
+      "release_date": "2025-12-11",
+      "overview": "特雷弗·宾利（罗温·艾金森 饰）上次在《人来蜂》中照看高科技宅邸，却因为恼人的虫横加捣乱，酿成巨大灾难，这次离开了帮人看家的高压世界来担任学校工友，享受安静一些的生活。此时出现一个高薪工作机会，要他在圣诞期间到奢华伦敦顶楼公寓顾家，这样的诱惑实在令人难以抗拒。没想到学期的最后一天，居然没人来接学校圣诞剧的耶稣宝宝，特雷弗多了一位出乎意料的小同伴。这下他得照看顶楼公寓，还得照顾小宝宝，特雷弗还能享受他期待的平静圣诞吗？又或者这个佳节会就此陷入大乱？",
+      "poster_url": "https://image.tmdb.org/t/p/original/xNmFwRkCZNPoHB8CXeBmAt5QMtk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3EcomsrV59IFSfA2ZlKeMhagyfC.jpg"
     },
     {
       "id": 701387,
@@ -442,6 +409,39 @@
       "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
       "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
+    },
+    {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.6,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+    },
+    {
+      "id": 1033148,
+      "title": "去死吧，我的爱",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 6.3,
+      "release_date": "2025-10-06",
+      "overview": "葛蕾丝（珍妮弗劳伦斯 饰）和杰克森（罗伯派汀森 饰）的第一个孩子诞生后，搬回了杰克森的老家蒙大拿州生活，葛蕾丝在这个陌生的环境，面对帮不上忙的丈夫和吵闹的婴儿与狗，她在努力保持理智的同时愈加执着于对爱的追求......。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ybKyrOAldXIivrQ0AS15QWpJFo2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zYCqHKTNeer6B5aJm5qJHlPnmU.jpg"
+    },
+    {
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.3,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fp1aWbpiIUYR0p6QXiv5TdA4RZS.jpg"
     }
   ],
   "popular_movies": [
