@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-28 05:01:02",
+  "last_updated": "2025-12-28 06:00:45",
   "today_global": [
     {
       "id": 66732,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 1259102,
-      "title": "永恒站",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2025-11-26",
-      "overview": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
-      "poster_url": "https://image.tmdb.org/t/p/original/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aA8JeLtFdGh3K2YNOZXLtvPtwue.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -79,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 1234731,
-      "title": "新狂蟒之灾",
+      "id": 1259102,
+      "title": "永恒站",
       "type": "movie",
-      "genreTitle": "冒险•喜剧•恐怖",
-      "rating": 6.6,
-      "release_date": "2025-12-24",
-      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2025-11-26",
+      "overview": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
+      "poster_url": "https://image.tmdb.org/t/p/original/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aA8JeLtFdGh3K2YNOZXLtvPtwue.jpg"
     },
     {
       "id": 1228246,
@@ -101,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.6,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
-    },
-    {
       "id": 812583,
       "title": "利刃出鞘3：亡者归来",
       "type": "movie",
@@ -121,6 +99,28 @@
       "overview": "侦探伯努瓦·布兰克与一名热忱的年轻神父联手，在有着黑暗历史的小镇教会里调查一桩手段完美的罪案。",
       "poster_url": "https://image.tmdb.org/t/p/original/nlQulJ98z4hyCVlIxuAYrNdpyPg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/q2sNZ2jE9eSqdyEaZIgXdMbttk8.jpg"
+    },
+    {
+      "id": 1234731,
+      "title": "新狂蟒之灾",
+      "type": "movie",
+      "genreTitle": "冒险•喜剧•恐怖",
+      "rating": 6.5,
+      "release_date": "2025-12-24",
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
+    },
+    {
+      "id": 246412,
+      "title": "哥本哈根测试",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•悬疑",
+      "rating": 5.5,
+      "release_date": "2025-12-27",
+      "overview": "该剧讲述美籍华裔情报分析师亚历山大·黑尔（刘思慕 饰）发现自己的大脑遭黑客入侵，幕后黑手能看到并听到他所感知的一切。深陷情报机构与神秘黑客的夹缝中，他必须24小时保持伪装状态，既要揪出元凶又要证明自身忠诚。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p9YM7g3grTSjH88xv0ds00IXfLz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hmNihHmvYZjCcb6c8RRKDXSx8EW.jpg"
     },
     {
       "id": 7451,
@@ -145,15 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
-      "id": 246412,
-      "title": "哥本哈根测试",
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.6,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+    },
+    {
+      "id": 301507,
+      "title": "巅峰对决",
       "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•悬疑",
-      "rating": 5.5,
-      "release_date": "2025-12-27",
-      "overview": "该剧讲述美籍华裔情报分析师亚历山大·黑尔（刘思慕 饰）发现自己的大脑遭黑客入侵，幕后黑手能看到并听到他所感知的一切。深陷情报机构与神秘黑客的夹缝中，他必须24小时保持伪装状态，既要揪出元凶又要证明自身忠诚。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p9YM7g3grTSjH88xv0ds00IXfLz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hmNihHmvYZjCcb6c8RRKDXSx8EW.jpg"
+      "genreTitle": "剧情",
+      "rating": 8.5,
+      "release_date": "2025-11-28",
+      "overview": "该剧以职业冰球联赛为背景，改编自Rachel Reid的同名小说，讲述了肖恩·霍兰德与伊利亚·罗扎诺夫长达八年的复杂关系；两人自17岁相识后，在赛场屡次交锋对抗，私下却因隐秘情愫陷入纠结，最终不得不在竞技荣耀与禁忌情感间作出抉择的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7PesAhRRgoGrDlCYBzWAkF4WR37.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
     },
     {
       "id": 798645,
@@ -178,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hfwzCPUjsCeEKmo9ch5uFmrjRbx.jpg"
     },
     {
-      "id": 301507,
-      "title": "巅峰对决",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.5,
-      "release_date": "2025-11-28",
-      "overview": "该剧以职业冰球联赛为背景，改编自Rachel Reid的同名小说，讲述了肖恩·霍兰德与伊利亚·罗扎诺夫长达八年的复杂关系；两人自17岁相识后，在赛场屡次交锋对抗，私下却因隐秘情愫陷入纠结，最终不得不在竞技荣耀与禁忌情感间作出抉择的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7PesAhRRgoGrDlCYBzWAkF4WR37.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•动作",
+      "rating": 7.5,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 1175174,
@@ -198,17 +209,6 @@
       "overview": "　　本片对传统的时期剧如《唐顿庄园》和《高斯福德庄园》进行戏谑。这部作品被形容为“延续了《裸枪》系列和《空前绝后满天飞》等经典笑料不断的恶搞喜剧的传统”。 费恩斯·提芬饰演一名新来的搬运工，他与英国一个显赫家族的小女儿（麦肯齐）展开了一段出人意料的关系。同时，达文波特家族内部矛盾不断爆发，由达文波特勋爵和勋爵夫人（沃特斯顿）领导的家族还要面对长女（莱尔德）和她不靠谱的堂弟婚礼惨败的巨大尴尬。",
       "poster_url": "https://image.tmdb.org/t/p/original/fwpdRe6WGmzqXFEJYJVepDQ6jrw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9vNplVaogVEWVIjmYs6aZPKubCC.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 991494,
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
-    },
-    {
       "id": 1228246,
       "title": "玩具熊的五夜惊魂2",
       "type": "movie",
@@ -279,15 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
-      "id": 1259102,
-      "title": "永恒站",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2025-11-26",
-      "overview": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
-      "poster_url": "https://image.tmdb.org/t/p/original/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aA8JeLtFdGh3K2YNOZXLtvPtwue.jpg"
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
       "id": 1084242,
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q2sNZ2jE9eSqdyEaZIgXdMbttk8.jpg"
     },
     {
-      "id": 982843,
-      "title": "巨洪",
+      "id": 1259102,
+      "title": "永恒站",
       "type": "movie",
-      "genreTitle": "科幻•冒险•剧情",
-      "rating": 6.1,
-      "release_date": "2025-09-18",
-      "overview": "由于小行星撞击导致全球冰川融化，一场巨大的洪水席卷全球，造成了空前的灾难。巨型海啸袭来，吞噬了城市，公寓楼中除了高层部分，其余均被洪水淹没。人工智能研究员安娜（金多美 饰）来不及收拾行李，便带着儿子载仁（权恩成 饰）赶往屋顶避难，然而现场的混乱使得他们的逃生之路异常艰难。此时，人工智能研究所的安保队长熙祖（朴海秀 饰）主动提出帮助，但他的提议伴随着相当苛刻的条件。在洪水淹没的公寓中，生存的搏斗与艰难的抉择交织在一起。最终，幸存者们的命运将何去何从。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8eKL8kVKCtnk8hicXiMpClBAkGS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xAzwi0Du6r2x2n0ELyzgwJYpjs7.jpg"
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2025-11-26",
+      "overview": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
+      "poster_url": "https://image.tmdb.org/t/p/original/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aA8JeLtFdGh3K2YNOZXLtvPtwue.jpg"
     },
     {
       "id": 7451,
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 1234731,
-      "title": "新狂蟒之灾",
+      "id": 982843,
+      "title": "巨洪",
       "type": "movie",
-      "genreTitle": "冒险•喜剧•恐怖",
-      "rating": 6.6,
-      "release_date": "2025-12-24",
-      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
+      "genreTitle": "科幻•冒险•剧情",
+      "rating": 6.1,
+      "release_date": "2025-09-18",
+      "overview": "由于小行星撞击导致全球冰川融化，一场巨大的洪水席卷全球，造成了空前的灾难。巨型海啸袭来，吞噬了城市，公寓楼中除了高层部分，其余均被洪水淹没。人工智能研究员安娜（金多美 饰）来不及收拾行李，便带着儿子载仁（权恩成 饰）赶往屋顶避难，然而现场的混乱使得他们的逃生之路异常艰难。此时，人工智能研究所的安保队长熙祖（朴海秀 饰）主动提出帮助，但他的提议伴随着相当苛刻的条件。在洪水淹没的公寓中，生存的搏斗与艰难的抉择交织在一起。最终，幸存者们的命运将何去何从。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8eKL8kVKCtnk8hicXiMpClBAkGS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xAzwi0Du6r2x2n0ELyzgwJYpjs7.jpg"
     },
     {
       "id": 798645,
@@ -354,6 +343,17 @@
       "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
       "poster_url": "https://image.tmdb.org/t/p/original/vxleCpULOzkJgszhQWnffPXXXu2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sV9JUF7X1HrhOJYgckqPknP2ae1.jpg"
+    },
+    {
+      "id": 1234731,
+      "title": "新狂蟒之灾",
+      "type": "movie",
+      "genreTitle": "冒险•喜剧•恐怖",
+      "rating": 6.5,
+      "release_date": "2025-12-24",
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
     },
     {
       "id": 425274,
@@ -378,6 +378,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•动作",
+      "rating": 7.5,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+    },
+    {
       "id": 1223601,
       "title": "永生战士2",
       "type": "movie",
@@ -387,6 +398,17 @@
       "overview": "一名男子回到故乡，准备拆除家人在战争中遇害的房屋，另寻他处重建。凶手是一名红军指挥官，他找到了他，一场残酷的跨国追捕由此展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/fId4eJY2ThJuUf2WGTXQuOFLiBi.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2FPNjxU9LVNzjveW58yEulhEEH.jpg"
+    },
+    {
+      "id": 301507,
+      "title": "巅峰对决",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.5,
+      "release_date": "2025-11-28",
+      "overview": "该剧以职业冰球联赛为背景，改编自Rachel Reid的同名小说，讲述了肖恩·霍兰德与伊利亚·罗扎诺夫长达八年的复杂关系；两人自17岁相识后，在赛场屡次交锋对抗，私下却因隐秘情愫陷入纠结，最终不得不在竞技荣耀与禁忌情感间作出抉择的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7PesAhRRgoGrDlCYBzWAkF4WR37.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
     },
     {
       "id": 1214931,
@@ -400,39 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3GydSc8iIdhEgi9swE3FIzPFPm8.jpg"
     },
     {
-      "id": 238458,
-      "title": "现金英雄",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 7.6,
-      "release_date": "2025-12-26",
-      "overview": "讲述平凡公务员姜常雄（李俊昊 饰）获得与金钱数量成正比的超能力，并用自己的薪水拯救世界，与超级英雄们共同守护普通人日常生活的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mfXqqVNMHf37YpjYEw4ABPLjkm7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oL6qmTvpCCPHCYKqB8VRdhYt1Wf.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.5,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
-    },
-    {
-      "id": 991494,
-      "title": "海绵宝宝：深海大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 6.9,
-      "release_date": "2025-12-16",
-      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9iOBIxOuy9IqsljsVUiboLrgEp6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cQMfWsFzQXUKfaoGSjhHXDjDSSX.jpg"
-    },
-    {
       "id": 1368166,
       "title": "家弑服务",
       "type": "movie",
@@ -442,6 +431,17 @@
       "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
+    },
+    {
+      "id": 238458,
+      "title": "现金英雄",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 7.6,
+      "release_date": "2025-12-26",
+      "overview": "讲述平凡公务员姜常雄（李俊昊 饰）获得与金钱数量成正比的超能力，并用自己的薪水拯救世界，与超级英雄们共同守护普通人日常生活的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mfXqqVNMHf37YpjYEw4ABPLjkm7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oL6qmTvpCCPHCYKqB8VRdhYt1Wf.jpg"
     }
   ],
   "popular_movies": [
