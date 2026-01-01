@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-01 11:00:36",
+  "last_updated": "2026-01-01 12:37:50",
   "today_global": [
     {
       "id": 66732,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
     },
     {
-      "id": 628847,
-      "title": "青出于蓝",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.5,
-      "release_date": "2025-11-14",
-      "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ctU9S47MoJDN9CB7SCaitcfyyIu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -55,6 +44,17 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 628847,
+      "title": "青出于蓝",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.5,
+      "release_date": "2025-11-14",
+      "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ctU9S47MoJDN9CB7SCaitcfyyIu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
     },
     {
       "id": 83533,
@@ -112,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
+      "id": 83121,
+      "title": "辉夜大小姐想让我告白",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 8.5,
+      "release_date": "2019-01-12",
+      "overview": "不论家世还是人品都很优秀!!将来备受期待的人才云集的秀知院学园!!在此处的学生会相遇的副会长·四宫辉夜，以及会长·白银御行本该会被对方所吸引，然而…… 就这样什么都没发生地过了半年!!自尊心极强而又不坦率的两个人，陷入了总是想着“如何让对方告白”这种麻烦的事态!?直到恋爱开花结果之前，尽情期待吧!!新感觉“头脑战”恋爱喜剧，开战!!",
+      "poster_url": "https://image.tmdb.org/t/p/original/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fctgiiT7Qc7UlctSLLspVuKNglI.jpg"
+    },
+    {
       "id": 1054867,
       "title": "一战再战",
       "type": "movie",
@@ -121,6 +132,17 @@
       "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
       "poster_url": "https://image.tmdb.org/t/p/original/pcaSAivZ8uFYAVmufI0ArKy7mE3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+    },
+    {
+      "id": 1061474,
+      "title": "超人",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.4,
+      "release_date": "2025-07-09",
+      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？ 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     },
     {
       "id": 1233413,
@@ -145,39 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
-      "id": 1061474,
-      "title": "超人",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 7.4,
-      "release_date": "2025-07-09",
-      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？ 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
-    },
-    {
-      "id": 701387,
-      "title": "拯救地球",
-      "type": "movie",
-      "genreTitle": "科幻•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-10-23",
-      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
-    },
-    {
-      "id": 83121,
-      "title": "辉夜大小姐想让我告白",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.5,
-      "release_date": "2019-01-12",
-      "overview": "不论家世还是人品都很优秀!!将来备受期待的人才云集的秀知院学园!!在此处的学生会相遇的副会长·四宫辉夜，以及会长·白银御行本该会被对方所吸引，然而…… 就这样什么都没发生地过了半年!!自尊心极强而又不坦率的两个人，陷入了总是想着“如何让对方告白”这种麻烦的事态!?直到恋爱开花结果之前，尽情期待吧!!新感觉“头脑战”恋爱喜剧，开战!!",
-      "poster_url": "https://image.tmdb.org/t/p/original/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fctgiiT7Qc7UlctSLLspVuKNglI.jpg"
-    },
-    {
       "id": 1078605,
       "title": "凶器",
       "type": "movie",
@@ -200,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
-      "id": 1062722,
-      "title": "Frankenstein",
+      "id": 701387,
+      "title": "拯救地球",
       "type": "movie",
-      "genreTitle": "剧情•奇幻•恐怖",
-      "rating": 7.7,
-      "release_date": "2025-10-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
+      "genreTitle": "科幻•犯罪",
+      "rating": 7.4,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     },
     {
       "id": 285166,
@@ -220,6 +209,17 @@
       "overview": "　　“奥伦·杜勒，限你在今天内离开队伍”奥伦因队伍的需要，从剑士，转职成为了并非本职的赋予术士。这样的他在一天突然收到的是，因实力不足而开除的通知。不管是身体素质，还是能使用的魔术都是平均水平，没有什么突出的东西——。而这样的奥伦的优点是，能够将就算是凡人只要努力就能习得的技术，全部都学会——正所谓“泛而不精”。在独自开始重新活动后，奥伦从赋予术士转职回了剑士。不过，赋予术士绝对不是白当的。在勇者队伍时代培养的知识、经验，以及开发出的数个原创魔术，让奥伦成长为了强得脱离常识的剑士……？！",
       "poster_url": "https://image.tmdb.org/t/p/original/4krFgYKveJfBPrrG8RHUkk2DcCn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/swefPajdX6SMpxAdfm3qoaTyZYV.jpg"
+    },
+    {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "type": "movie",
+      "genreTitle": "剧情•奇幻•恐怖",
+      "rating": 7.7,
+      "release_date": "2025-10-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GLwLJ3YCLOUZpZ3F57Ysy5UOTP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1WdgXsGpfYT0dZg2LdUyGgz8Qze.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.4,
-      "release_date": "2025-12-17",
-      "overview": "故事叙述从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -255,6 +244,17 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.4,
+      "release_date": "2025-12-17",
+      "overview": "故事叙述从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
       "id": 106379,
@@ -323,26 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
-      "id": 1228246,
-      "title": "玩具熊的五夜惊魂2",
+      "id": 1234731,
+      "title": "新狂蟒之灾",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.9,
-      "release_date": "2025-12-03",
-      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
-    },
-    {
-      "id": 238458,
-      "title": "现金英雄",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 7.4,
-      "release_date": "2025-12-26",
-      "overview": "讲述平凡公务员姜常雄（李俊昊 饰）获得与金钱数量成正比的超能力，并用自己的薪水拯救世界，与超级英雄们共同守护普通人日常生活的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hIQwZleQDWyhwGlnW1O6wUTnIiY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mPW3sT0MKCDp8VBRhlZbLRLKQ8e.jpg"
+      "genreTitle": "冒险•喜剧•恐怖",
+      "rating": 6.7,
+      "release_date": "2025-12-24",
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
     },
     {
       "id": 1368166,
@@ -356,48 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
-      "id": 1234731,
-      "title": "新狂蟒之灾",
-      "type": "movie",
-      "genreTitle": "冒险•喜剧•恐怖",
-      "rating": 6.8,
-      "release_date": "2025-12-24",
-      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 425274,
-      "title": "惊天魔盗团3",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•悬疑",
-      "rating": 6.6,
-      "release_date": "2025-11-12",
-      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
-      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hfwzCPUjsCeEKmo9ch5uFmrjRbx.jpg"
-    },
-    {
-      "id": 1214931,
-      "title": "纽伦堡",
-      "type": "movie",
-      "genreTitle": "历史•剧情",
-      "rating": 7.3,
-      "release_date": "2025-11-06",
-      "overview": "　　改编自《纳粹与精神病医生》，聚焦二战结尾，纽伦堡法庭对德国劳工阵线领导人罗伯特·莱伊的审判(其后来在狱中自杀)，以被委任来对纳粹头领们进行评估的美军精神科医生Douglas Kelley的视角展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8l88dZ7XwwiJo0qLJ80RiO8pw5A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3GydSc8iIdhEgi9swE3FIzPFPm8.jpg"
+      "id": 238458,
+      "title": "现金英雄",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 7.4,
+      "release_date": "2025-12-26",
+      "overview": "讲述平凡公务员姜常雄（李俊昊 饰）获得与金钱数量成正比的超能力，并用自己的薪水拯救世界，与超级英雄们共同守护普通人日常生活的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hIQwZleQDWyhwGlnW1O6wUTnIiY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mPW3sT0MKCDp8VBRhlZbLRLKQ8e.jpg"
     },
     {
       "id": 1311031,
@@ -411,15 +367,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 1435092,
-      "title": "再见琼",
+      "id": 7451,
+      "title": "极限特工",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 6.8,
-      "release_date": "2025-12-12",
-      "overview": "圣诞节前夕，母亲的健康突然出状况，让四名成年子女和他们令人头痛的父亲慌了手脚，面对可能即将发生的失去，家庭气氛也混乱失衡。但聪明的母亲六月处变不惊，以犀利的幽默、坦率的态度和丰沛的爱，安排好自己的人生谢幕。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cdYF0lD0S9QYIA5GTMmJsGEoaOX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gYnzEbczhtYzFBMgq6WJps9Eyez.jpg"
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1228246,
+      "title": "玩具熊的五夜惊魂2",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.9,
+      "release_date": "2025-12-03",
+      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
+    },
+    {
+      "id": 1214931,
+      "title": "纽伦堡",
+      "type": "movie",
+      "genreTitle": "历史•剧情",
+      "rating": 7.3,
+      "release_date": "2025-11-06",
+      "overview": "　　改编自《纳粹与精神病医生》，聚焦二战结尾，纽伦堡法庭对德国劳工阵线领导人罗伯特·莱伊的审判(其后来在狱中自杀)，以被委任来对纳粹头领们进行评估的美军精神科医生Douglas Kelley的视角展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8l88dZ7XwwiJo0qLJ80RiO8pw5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3GydSc8iIdhEgi9swE3FIzPFPm8.jpg"
+    },
+    {
+      "id": 425274,
+      "title": "惊天魔盗团3",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•悬疑",
+      "rating": 6.6,
+      "release_date": "2025-11-12",
+      "overview": "　　因神秘塔罗牌的指引，那群用魔术“替天行盗”的骑士们杀回来了！“初代四骑士”与三位新生代魔术师携手，目标直指一位钻石大亨——其家族凭借庞大资本与隐秘势力，构建了全球性犯罪网络，也为骑士团布下层层陷阱！面对史上最难的“盗窃任务”，骑士们再现奇迹，上演横跨全球的魔术大秀，与“血色钻石家族”展开骗中骗、局中局、计中计的巅峰博弈……",
+      "poster_url": "https://image.tmdb.org/t/p/original/ew4YPi9d0korzDmAOC9N1SCjYp0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hfwzCPUjsCeEKmo9ch5uFmrjRbx.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 1054867,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "id": 1061474,
+      "title": "超人",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 7.4,
+      "release_date": "2025-07-09",
+      "overview": "当超人（大卫·科伦斯韦 饰）被卷入国内外多重冲突时，他保护人类的行为遭到质疑。而他显露的弱点，也趁机被科技巨擘、阴谋大师莱克斯·卢瑟（尼古拉斯·霍尔特 饰）利用，准备一举铲除超人。《星球日报》勇敢无畏的记者露易丝·莱恩（瑞秋·布罗斯纳安 饰）能否联手大都会的其他超能力者，以及超人忠诚的伙伴超狗小氪，在卢瑟彻底毁灭超人前拯救他？ 影片讲述了超人在两个身份之间自我和解的成长之旅，他既是来自氪星的卡尔-艾尔，也是在堪萨斯小镇长大的克拉克·肯特，他选择怀抱无私信念，将自身的强大力量用于守护人类。在这个将“善良”视作过时的世界里，他以人性之善为指引，坚定践行“真理、正义与更美好的明天”的永恒信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iTil24OZutt1bNTsbnc1YI04kuw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f1E8DUFWpDkf1BMjJgNsX78T0A9.jpg"
     }
   ],
   "popular_movies": [
