@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-02 23:01:25",
+  "last_updated": "2026-01-03 00:01:16",
   "today_global": [
     {
       "id": 66732,
@@ -17,7 +17,7 @@
       "title": "猛虎末路",
       "type": "movie",
       "genreTitle": "战争•动作•剧情",
-      "rating": 6.3,
+      "rating": 6.5,
       "release_date": "2025-09-18",
       "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj8JY9a5saJCAp0R9Z066pdYJoC.jpg",
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
     },
     {
-      "id": 244244,
-      "title": "危险追逃",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2026-01-01",
-      "overview": "　　为了找到失踪的女儿，你愿意深入错综复杂的黑暗秘密之网吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/btmvtGsVZZUvJoWGGtzPaBOGEgr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg"
-    },
-    {
       "id": 309671,
       "title": "辉夜大小姐想让我告白 通往大人的阶梯",
       "type": "tv",
@@ -55,6 +44,17 @@
       "overview": "「每一样都令人怀念，所有的一切都是无可替代的宝贵回忆。」聚集了众多优秀学生的精英学校——秀知院学园。 在该校的学生会中，副会长四宫辉夜与学生会长白银御行相遇了。 两人经过长久的恋爱头脑战后，最终开始交往……时光飞逝，辉夜独自一人在房间里翻阅着相簿。 里面并列着许多照片，收录了她与白银以及秀知院学园的伙伴们共同度过的点滴回忆。每当沉浸在怀旧情绪中翻开新的一页，辉夜的记忆便会再次鲜明地浮现。",
       "poster_url": "https://image.tmdb.org/t/p/original/6Bt4cA3WF2EBcqeisNoPUZBu5Zj.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/b3KFUksLjuEVZZJLkgtKND6XFdR.jpg"
+    },
+    {
+      "id": 244244,
+      "title": "危险追逃",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2026-01-01",
+      "overview": "　　为了找到失踪的女儿，你愿意深入错综复杂的黑暗秘密之网吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/btmvtGsVZZUvJoWGGtzPaBOGEgr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg"
     },
     {
       "id": 83533,
@@ -68,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 61859,
-      "title": "夜班经理",
+      "id": 106379,
+      "title": "辐射",
       "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 7.7,
-      "release_date": "2016-02-21",
-      "overview": "乔纳森（汤姆·希德勒斯顿 Tom Hiddleston 饰）曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲（奥雷·阿蒂卡 Aure Atika 饰）的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德（休·劳瑞 Hugh Laurie 饰）的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉（奥莉薇娅·柯尔曼 Olivia Colman 饰），安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f99GnEDXsfF3sicqZzSqjzQutAB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yw36rzKpHZ1sVFiA3uf9AIykPTV.jpg"
+      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
       "id": 1084242,
@@ -90,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
+      "id": 61859,
+      "title": "夜班经理",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 7.7,
+      "release_date": "2016-02-21",
+      "overview": "乔纳森（汤姆·希德勒斯顿 Tom Hiddleston 饰）曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲（奥雷·阿蒂卡 Aure Atika 饰）的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德（休·劳瑞 Hugh Laurie 饰）的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉（奥莉薇娅·柯尔曼 Olivia Colman 饰），安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f99GnEDXsfF3sicqZzSqjzQutAB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yw36rzKpHZ1sVFiA3uf9AIykPTV.jpg"
+    },
+    {
       "id": 628847,
       "title": "青出于蓝",
       "type": "movie",
@@ -101,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
     },
     {
-      "id": 106379,
-      "title": "辐射",
+      "id": 272586,
+      "title": "罪土",
       "type": "tv",
-      "genreTitle": "动作冒险•剧情•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+      "genreTitle": "犯罪•悬疑",
+      "rating": 8.0,
+      "release_date": "2026-01-02",
+      "overview": "一名少年失踪后，一位与此案有私人关系的侦探参与到紧张的调查中，由此揭开了强烈的忠诚与古老的家族恩怨。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Hb0TgRRIrwC9qRo4UkT2ZmbFj0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zzlz3ElVtdm07yixMKMgHdFFkCz.jpg"
     },
     {
       "id": 225171,
@@ -123,17 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 83121,
-      "title": "辉夜大小姐想让我告白",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.5,
-      "release_date": "2019-01-12",
-      "overview": "不论家世还是人品都很优秀!!将来备受期待的人才云集的秀知院学园!!在此处的学生会相遇的副会长·四宫辉夜，以及会长·白银御行本该会被对方所吸引，然而…… 就这样什么都没发生地过了半年!!自尊心极强而又不坦率的两个人，陷入了总是想着“如何让对方告白”这种麻烦的事态!?直到恋爱开花结果之前，尽情期待吧!!新感觉“头脑战”恋爱喜剧，开战!!",
-      "poster_url": "https://image.tmdb.org/t/p/original/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fctgiiT7Qc7UlctSLLspVuKNglI.jpg"
-    },
-    {
       "id": 1368166,
       "title": "家弑服务",
       "type": "movie",
@@ -145,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
-      "id": 272586,
-      "title": "罪土",
+      "id": 83121,
+      "title": "辉夜大小姐想让我告白",
       "type": "tv",
-      "genreTitle": "犯罪•悬疑",
-      "rating": 8.0,
-      "release_date": "2026-01-02",
-      "overview": "一名少年失踪后，一位与此案有私人关系的侦探参与到紧张的调查中，由此揭开了强烈的忠诚与古老的家族恩怨。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Hb0TgRRIrwC9qRo4UkT2ZmbFj0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zzlz3ElVtdm07yixMKMgHdFFkCz.jpg"
+      "genreTitle": "动画•喜剧",
+      "rating": 8.5,
+      "release_date": "2019-01-12",
+      "overview": "不论家世还是人品都很优秀!!将来备受期待的人才云集的秀知院学园!!在此处的学生会相遇的副会长·四宫辉夜，以及会长·白银御行本该会被对方所吸引，然而…… 就这样什么都没发生地过了半年!!自尊心极强而又不坦率的两个人，陷入了总是想着“如何让对方告白”这种麻烦的事态!?直到恋爱开花结果之前，尽情期待吧!!新感觉“头脑战”恋爱喜剧，开战!!",
+      "poster_url": "https://image.tmdb.org/t/p/original/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fctgiiT7Qc7UlctSLLspVuKNglI.jpg"
     },
     {
       "id": 277513,
@@ -189,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rtdp4G5C3BaGzh17gT0H4gGQ9PI.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
       "id": 67063,
       "title": "一人之下",
       "type": "tv",
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l29CWMGbHqMZ7PzzCb4auLgtEHH.jpg"
     },
     {
-      "id": 1295026,
-      "title": "百米。",
+      "id": 7451,
+      "title": "极限特工",
       "type": "movie",
-      "genreTitle": "动画•剧情",
-      "rating": 7.4,
-      "release_date": "2025-09-19",
-      "overview": "他，天生就跑得快。此外没有优于他人的地方了，但也觉得只要跑得快就足够了。得以立足于学校、成为交友的桥梁。这便是，这位少年的一切。而与他相遇的，是为了忘掉痛苦而跑步的少年。他跑得并不快，却有热情。被他的热情所感染，随后感受到了兴奋。可、这却是“异常”的开端。“100米”，让一切都变得疯狂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/86XhoDE61sNqLKcuUOOXzgDxoeu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hOGV149e3YyjP5EQ1ToUStHwu8r.jpg"
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.9,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7WbCDgiBKdzqKY6FQszTL5D3Du8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     }
   ],
   "week_global_all": [
@@ -294,7 +294,7 @@
       "title": "猛虎末路",
       "type": "movie",
       "genreTitle": "战争•动作•剧情",
-      "rating": 6.3,
+      "rating": 6.5,
       "release_date": "2025-09-18",
       "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj8JY9a5saJCAp0R9Z066pdYJoC.jpg",
@@ -334,28 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rtdp4G5C3BaGzh17gT0H4gGQ9PI.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.9,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7WbCDgiBKdzqKY6FQszTL5D3Du8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
-    },
-    {
-      "id": 301507,
-      "title": "巅峰对决",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.6,
-      "release_date": "2025-11-28",
-      "overview": "该剧以职业冰球联赛为背景，改编自Rachel Reid的同名小说，讲述了肖恩·霍兰德与伊利亚·罗扎诺夫长达八年的复杂关系；两人自17岁相识后，在赛场屡次交锋对抗，私下却因隐秘情愫陷入纠结，最终不得不在竞技荣耀与禁忌情感间作出抉择的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7PesAhRRgoGrDlCYBzWAkF4WR37.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
-    },
-    {
       "id": 628847,
       "title": "青出于蓝",
       "type": "movie",
@@ -365,6 +343,28 @@
       "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
       "poster_url": "https://image.tmdb.org/t/p/original/wKNe1BonauSwiYzm3eQoHRm6OIv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
+    },
+    {
+      "id": 1311031,
+      "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭",
+      "type": "movie",
+      "genreTitle": "动画•动作•奇幻",
+      "rating": 7.6,
+      "release_date": "2025-07-18",
+      "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，鬼舞辻无惨在产屋敷宅邸出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被鸣女推入一个神秘的异空间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bhIytk0hlaHmGrQFY9P7bWhZZfC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
+    },
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.9,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7WbCDgiBKdzqKY6FQszTL5D3Du8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
       "id": 37854,
@@ -378,15 +378,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1311031,
-      "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭",
-      "type": "movie",
-      "genreTitle": "动画•动作•奇幻",
-      "rating": 7.6,
-      "release_date": "2025-07-18",
-      "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，鬼舞辻无惨在产屋敷宅邸出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被鸣女推入一个神秘的异空间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bhIytk0hlaHmGrQFY9P7bWhZZfC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
+      "id": 244244,
+      "title": "危险追逃",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2026-01-01",
+      "overview": "　　为了找到失踪的女儿，你愿意深入错综复杂的黑暗秘密之网吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/btmvtGsVZZUvJoWGGtzPaBOGEgr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg"
+    },
+    {
+      "id": 301507,
+      "title": "巅峰对决",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.6,
+      "release_date": "2025-11-28",
+      "overview": "该剧以职业冰球联赛为背景，改编自Rachel Reid的同名小说，讲述了肖恩·霍兰德与伊利亚·罗扎诺夫长达八年的复杂关系；两人自17岁相识后，在赛场屡次交锋对抗，私下却因隐秘情愫陷入纠结，最终不得不在竞技荣耀与禁忌情感间作出抉择的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7PesAhRRgoGrDlCYBzWAkF4WR37.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
     },
     {
       "id": 7451,
@@ -420,17 +431,6 @@
       "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
-    },
-    {
-      "id": 244244,
-      "title": "危险追逃",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2026-01-01",
-      "overview": "　　为了找到失踪的女儿，你愿意深入错综复杂的黑暗秘密之网吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/btmvtGsVZZUvJoWGGtzPaBOGEgr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg"
     },
     {
       "id": 425274,
