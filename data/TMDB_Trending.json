@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-03 01:08:25",
+  "last_updated": "2026-01-03 02:01:23",
   "today_global": [
     {
       "id": 66732,
@@ -17,7 +17,7 @@
       "title": "猛虎末路",
       "type": "movie",
       "genreTitle": "战争•动作•剧情",
-      "rating": 6.5,
+      "rating": 6.8,
       "release_date": "2025-09-18",
       "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj8JY9a5saJCAp0R9Z066pdYJoC.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.7,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -88,17 +77,6 @@
       "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
       "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
-    },
-    {
-      "id": 628847,
-      "title": "青出于蓝",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.2,
-      "release_date": "2025-11-14",
-      "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wKNe1BonauSwiYzm3eQoHRm6OIv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
     },
     {
       "id": 61859,
@@ -112,15 +90,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yw36rzKpHZ1sVFiA3uf9AIykPTV.jpg"
     },
     {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
       "id": 272586,
       "title": "罪土",
       "type": "tv",
-      "genreTitle": "犯罪•悬疑",
+      "genreTitle": "犯罪•悬疑•剧情",
       "rating": 8.0,
       "release_date": "2026-01-02",
       "overview": "一名少年失踪后，一位与此案有私人关系的侦探参与到紧张的调查中，由此揭开了强烈的忠诚与古老的家族恩怨。",
       "poster_url": "https://image.tmdb.org/t/p/original/Hb0TgRRIrwC9qRo4UkT2ZmbFj0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zzlz3ElVtdm07yixMKMgHdFFkCz.jpg"
+    },
+    {
+      "id": 628847,
+      "title": "青出于蓝",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.1,
+      "release_date": "2025-11-14",
+      "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wKNe1BonauSwiYzm3eQoHRm6OIv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
     },
     {
       "id": 225171,
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fctgiiT7Qc7UlctSLLspVuKNglI.jpg"
     },
     {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.8,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
+    },
+    {
       "id": 812583,
       "title": "利刃出鞘3：亡者归来",
       "type": "movie",
@@ -167,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rtdp4G5C3BaGzh17gT0H4gGQ9PI.jpg"
     },
     {
-      "id": 277513,
-      "title": "我们不可能成为恋人！绝对不行。(※似乎可行！？)",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.1,
-      "release_date": "2025-07-08",
-      "overview": "「我再也不要孤零零的了！我要赢得最棒的高中生活！」\n\n舍弃孤零零的中学时代，在高中初次亮相的我——甘织玲奈子。但我本性阴暗，没办法习惯我所憧憬的阳光生活，要窒息了！就在这时，因为一些意外我与我们学校的超级巨星·王冢真唯成为了共享彼此烦恼的密友。只要有真唯在，我每天都能努力——本应如此！\n\n「我……爱上你了」\n\n「等等！说好的做朋友呢」\n\n恋人什么的是不稳定的关系，不行！我想交到最棒的朋友享受高中生活！但真唯似乎也不能完全放下恋心——。\n\n「一决胜负吧，看看符合我们的关系到底是恋人还是挚友」\n\n如此这般，赌上两人关系的马不停蹄的爱情喜剧，开幕！",
-      "poster_url": "https://image.tmdb.org/t/p/original/oQYDpExc2po7mLGsFgaWQNAoyvY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oqvJfqBLNZR7BJAPkLfN5HioJQ6.jpg"
+      "id": 1144443,
+      "title": "Sigue mi voz",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.3,
+      "release_date": "2025-09-12",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/saNidIuqNyFSkCoW60cybQg3tL3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h6yXyWquvBbroXr7KZ56zIm0GD7.jpg"
     },
     {
       "id": 1311031,
@@ -189,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
+      "id": 277513,
+      "title": "我们不可能成为恋人！绝对不行。(※似乎可行！？)",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 8.1,
+      "release_date": "2025-07-08",
+      "overview": "「我再也不要孤零零的了！我要赢得最棒的高中生活！」\n\n舍弃孤零零的中学时代，在高中初次亮相的我——甘织玲奈子。但我本性阴暗，没办法习惯我所憧憬的阳光生活，要窒息了！就在这时，因为一些意外我与我们学校的超级巨星·王冢真唯成为了共享彼此烦恼的密友。只要有真唯在，我每天都能努力——本应如此！\n\n「我……爱上你了」\n\n「等等！说好的做朋友呢」\n\n恋人什么的是不稳定的关系，不行！我想交到最棒的朋友享受高中生活！但真唯似乎也不能完全放下恋心——。\n\n「一决胜负吧，看看符合我们的关系到底是恋人还是挚友」\n\n如此这般，赌上两人关系的马不停蹄的爱情喜剧，开幕！",
+      "poster_url": "https://image.tmdb.org/t/p/original/oQYDpExc2po7mLGsFgaWQNAoyvY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oqvJfqBLNZR7BJAPkLfN5HioJQ6.jpg"
     },
     {
       "id": 7451,
@@ -209,17 +220,6 @@
       "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
       "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
-      "id": 301507,
-      "title": "巅峰对决",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.6,
-      "release_date": "2025-11-28",
-      "overview": "该剧以职业冰球联赛为背景，改编自Rachel Reid的同名小说，讲述了肖恩·霍兰德与伊利亚·罗扎诺夫长达八年的复杂关系；两人自17岁相识后，在赛场屡次交锋对抗，私下却因隐秘情愫陷入纠结，最终不得不在竞技荣耀与禁忌情感间作出抉择的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7PesAhRRgoGrDlCYBzWAkF4WR37.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
     }
   ],
   "week_global_all": [
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.7,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -283,11 +272,22 @@
       "title": "猛虎末路",
       "type": "movie",
       "genreTitle": "战争•动作•剧情",
-      "rating": 6.5,
+      "rating": 6.6,
       "release_date": "2025-09-18",
       "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj8JY9a5saJCAp0R9Z066pdYJoC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3k4DwUZmwkOVOS5h1RPhZQsKUir.jpg"
+    },
+    {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vmz5Ev5dZGPltYH58wOZhPmxL7Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
       "id": 225171,
@@ -312,15 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
-      "id": 628847,
-      "title": "青出于蓝",
+      "id": 1317288,
+      "title": "至尊马蒂",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.2,
-      "release_date": "2025-11-14",
-      "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wKNe1BonauSwiYzm3eQoHRm6OIv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
+      "genreTitle": "剧情",
+      "rating": 7.8,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
       "id": 812583,
@@ -334,6 +334,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rtdp4G5C3BaGzh17gT0H4gGQ9PI.jpg"
     },
     {
+      "id": 628847,
+      "title": "青出于蓝",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.1,
+      "release_date": "2025-11-14",
+      "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wKNe1BonauSwiYzm3eQoHRm6OIv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fAjYaSd9DzSaPMa5SAARW4jG1QY.jpg"
+    },
+    {
       "id": 244244,
       "title": "危险追逃",
       "type": "tv",
@@ -343,17 +354,6 @@
       "overview": "　　为了找到失踪的女儿，你愿意深入错综复杂的黑暗秘密之网吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/btmvtGsVZZUvJoWGGtzPaBOGEgr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1jBYTcOuiPNJsTcfYk66bbVLSBz.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
       "id": 1259102,
@@ -389,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqJ60vNYuaNWAuYuJzT3Zp5Yxv9.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
-    },
-    {
       "id": 1054867,
       "title": "一战再战",
       "type": "movie",
@@ -411,15 +400,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 61859,
+      "title": "夜班经理",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 7.7,
+      "release_date": "2016-02-21",
+      "overview": "乔纳森（汤姆·希德勒斯顿 Tom Hiddleston 饰）曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲（奥雷·阿蒂卡 Aure Atika 饰）的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德（休·劳瑞 Hugh Laurie 饰）的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉（奥莉薇娅·柯尔曼 Olivia Colman 饰），安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f99GnEDXsfF3sicqZzSqjzQutAB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yw36rzKpHZ1sVFiA3uf9AIykPTV.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
+    },
+    {
+      "id": 1214931,
+      "title": "纽伦堡",
+      "type": "movie",
+      "genreTitle": "历史•剧情",
+      "rating": 7.3,
+      "release_date": "2025-11-06",
+      "overview": "　　改编自《纳粹与精神病医生》，聚焦二战结尾，纽伦堡法庭对德国劳工阵线领导人罗伯特·莱伊的审判(其后来在狱中自杀)，以被委任来对纳粹头领们进行评估的美军精神科医生Douglas Kelley的视角展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8l88dZ7XwwiJo0qLJ80RiO8pw5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3GydSc8iIdhEgi9swE3FIzPFPm8.jpg"
     },
     {
       "id": 1234731,
@@ -431,17 +442,6 @@
       "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h0bcxrUI9l46YjkgopGO9q71xZD.jpg"
-    },
-    {
-      "id": 798645,
-      "title": "猎杀游戏",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•科幻",
-      "rating": 6.8,
-      "release_date": "2025-11-11",
-      "overview": "在近未来的反乌托邦社会，一档电视真人秀《猎杀游戏》以残酷的生存竞赛霸占收视榜首。参赛者必须在职业杀手的猎杀下存活30天，其中的一举一动皆被实时直播给公众，每多活一天便能累积更高额奖金。本·理查兹为拯救重病女儿而孤注一掷，以“最后希望”的身份踏入这场死亡游戏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vxleCpULOzkJgszhQWnffPXXXu2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sV9JUF7X1HrhOJYgckqPknP2ae1.jpg"
     }
   ],
   "popular_movies": [
