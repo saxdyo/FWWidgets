@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-10 22:00:58",
+  "last_updated": "2026-01-10 23:01:06",
   "today_global": [
     {
       "id": 1034716,
@@ -61,7 +61,7 @@
       "title": "他和她的谎",
       "type": "tv",
       "genreTitle": "悬疑•犯罪•剧情",
-      "rating": 4.9,
+      "rating": 4.8,
       "release_date": "2026-01-08",
       "overview": "这对关系疏远的夫妻一方是警探，另一方则是新闻记者。他们争相要抢先对方破解一桩凶案，也都深信对方就是主嫌。",
       "poster_url": "https://image.tmdb.org/t/p/original/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
@@ -112,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
     },
     {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.4,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -121,17 +132,6 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
-    },
-    {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.6,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
     },
     {
       "id": 7451,
@@ -145,26 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8uSAAwi0DHIWqeRxixip272P0Of.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
+      "id": 533533,
+      "title": "创：战神",
       "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.4,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.6,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
     },
     {
       "id": 1368166,
@@ -178,6 +167,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+    },
+    {
       "id": 240459,
       "title": "斯巴达克斯：亚述家族",
       "type": "tv",
@@ -189,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vQrCtWkkoPSuRuVtsYCAFZUP1dw.jpg"
     },
     {
-      "id": 215092,
-      "title": "大男人",
+      "id": 291414,
+      "title": "和机器人啪啪啪能算在经验次数里吗？",
       "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 7.5,
-      "release_date": "2022-12-30",
-      "overview": "佩德罗、路易斯、劳尔和桑迪这四个伙伴在女权崛起的新世界感到有些茫然无措，每个人都试图以自己的方式勉强应对。",
-      "poster_url": "https://image.tmdb.org/t/p/original/t7Sj8cuz6Sggsx8czMP1pUUMQmr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nSpwDQTuBBstfJQkQgKemqDbK8g.jpg"
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-01-10",
+      "overview": "　　“因为我是最吃透主人身体的人啦”\n\n　　一心扑在工作上，在大型电动机械制造商的企划部上班的OL：津田茜（28岁）。虽然在职场上作为部门王牌而被仰慕着，但是在私下其房间十分地脏乱，酒相很差也没有谈过对象。\n\n　　一天，她借着酒劲与寂寞买下的是，啪啪啪用机器人：抚子……？！\n\n　　单身OL与机器人，两人（？）的工口喜剧！！",
+      "poster_url": "https://image.tmdb.org/t/p/original/4dfyZ5UZKGuS5Pur5nMqFp6s675.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zILyMZTZRKleQuE1GfuCE7oZBIv.jpg"
     },
     {
       "id": 296523,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/95z3mFo2KuHvnWPz2TaWLO3ioW8.jpg"
     },
     {
-      "id": 279136,
-      "title": "轧戏",
+      "id": 139060,
+      "title": "魔都精兵的奴隶",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 10.0,
-      "release_date": "2026-01-09",
-      "overview": "肖稚宇与胡羞因一场民国主题剧本杀结缘，漫雪纷飞、谍影交错的剧本世界里，两人碰撞出宿命火花；现实世界的意外重逢，却揭开彼此身份谜题，二人穿梭于现实与剧本的错位时空，最终在跨越维度的羁绊中实现双向成长，完成对爱情与自我的进阶蜕变。",
-      "poster_url": "https://image.tmdb.org/t/p/original/GTA0HRSb7yXksLVwTNLueqdzd0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1Zw31KeFT1b29CBwmjmVaHy6jf.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.6,
+      "release_date": "2024-01-04",
+      "overview": "日本各地出现了异空间「魔都」，由于只有女性能从魔都的「桃」得到特异的能力，因此便由女兵组成了「魔防队」。某一天，过着抑郁生活的男高中生──和仓优希不小心闯进了突发性产生的魔都入口，在那里，遇到了「魔防队」第七组的美丽队长──羽前京香，而她竟向优希宣言：「我要你当我的奴隶。」",
+      "poster_url": "https://image.tmdb.org/t/p/original/bAvclqxxYczAgyd1WfCSLrGOYpk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ncKJRkANwkiv3NtCMWwbS6PJsqv.jpg"
     }
   ],
   "week_global_all": [
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 967941,
-      "title": "魔法坏女巫2",
-      "type": "movie",
-      "genreTitle": "奇幻•冒险•爱情",
-      "rating": 6.7,
-      "release_date": "2025-11-19",
-      "overview": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
-    },
-    {
       "id": 83533,
       "title": "阿凡达：火与烬",
       "type": "movie",
@@ -290,26 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vPLv0KqnKKUoUWF7oYka4Z9ElNH.jpg"
     },
     {
-      "id": 1252037,
-      "title": "猛虎末路",
+      "id": 967941,
+      "title": "魔法坏女巫2",
       "type": "movie",
-      "genreTitle": "战争•动作•剧情",
-      "rating": 7.1,
-      "release_date": "2025-09-18",
-      "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/g4lFT9d7v2x075Mau2tjIRkzBSd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wQNYu4VBpqnCCHN7M1JdXv15DFK.jpg"
-    },
-    {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+      "genreTitle": "奇幻•冒险•爱情",
+      "rating": 6.7,
+      "release_date": "2025-11-19",
+      "overview": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
     },
     {
       "id": 1368166,
@@ -332,6 +310,28 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 1252037,
+      "title": "猛虎末路",
+      "type": "movie",
+      "genreTitle": "战争•动作•剧情",
+      "rating": 7.1,
+      "release_date": "2025-09-18",
+      "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/g4lFT9d7v2x075Mau2tjIRkzBSd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wQNYu4VBpqnCCHN7M1JdXv15DFK.jpg"
+    },
+    {
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
       "id": 250307,
@@ -389,22 +389,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
-      "id": 240459,
-      "title": "斯巴达克斯：亚述家族",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 6.3,
-      "release_date": "2025-12-05",
-      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vQrCtWkkoPSuRuVtsYCAFZUP1dw.jpg"
-    },
-    {
       "id": 259731,
       "title": "他和她的谎",
       "type": "tv",
       "genreTitle": "悬疑•犯罪•剧情",
-      "rating": 4.9,
+      "rating": 4.8,
       "release_date": "2026-01-08",
       "overview": "这对关系疏远的夫妻一方是警探，另一方则是新闻记者。他们争相要抢先对方破解一桩凶案，也都深信对方就是主嫌。",
       "poster_url": "https://image.tmdb.org/t/p/original/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
@@ -422,15 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.3,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vQrCtWkkoPSuRuVtsYCAFZUP1dw.jpg"
     },
     {
       "id": 244244,
@@ -442,6 +431,17 @@
       "overview": "女儿离家出走，这位绝望的父亲在寻女时竟意外卷入一起谋杀案，并偶然发现了一连串可能彻底毁掉全家的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gwUmGEZT7ttPr1xeTa48olZuOgs.jpg"
+    },
+    {
+      "id": 88046,
+      "title": "炎炎消防队",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2019-07-05",
+      "overview": "全人类恐慌着——没有任何变异的人突然燃烧起来，变成火炎怪物“焰人”、极尽破坏力的“人体起火现象”。与火焰之恐怖对抗的特殊消防队，他们的使命是解开现象之谜并拯救人类！出于某个原因被称为“恶魔”的新入队少年・森罗，以成为“英雄”为目标，与伙伴们一起，投身于与火焰对抗的日子中！！",
+      "poster_url": "https://image.tmdb.org/t/p/original/gCQy0ajY5Hv8XtbgXtK5Jqafea7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/weR6w2k3HaDyohmDjDJSz1iPgrM.jpg"
     }
   ],
   "popular_movies": [
@@ -505,7 +505,7 @@
       "title": "青出于蓝",
       "type": "movie",
       "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2025-11-14",
       "overview": "一名美国缉毒局卧底特工和他的搭档与一群大胆且令人意想不到的窃贼展开了一场猫捉老鼠的游戏——这些窃贼竟是他们叛逆的青少年子女，这些孩子开始从一个危险的贩毒集团那里行窃，还运用了他们父母的策略和绝密情报。",
       "poster_url": "https://image.tmdb.org/t/p/original/wKNe1BonauSwiYzm3eQoHRm6OIv.jpg",
@@ -589,15 +589,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hfwzCPUjsCeEKmo9ch5uFmrjRbx.jpg"
     },
     {
-      "id": 982843,
-      "title": "巨洪",
+      "id": 1419406,
+      "title": "捕风追影",
       "type": "movie",
-      "genreTitle": "科幻•冒险•剧情",
-      "rating": 6.0,
-      "release_date": "2025-09-18",
-      "overview": "由于小行星撞击导致全球冰川融化，一场巨大的洪水席卷全球，造成了空前的灾难。巨型海啸袭来，吞噬了城市，公寓楼中除了高层部分，其余均被洪水淹没。人工智能研究员安娜（金多美 饰）来不及收拾行李，便带着儿子载仁（权恩成 饰）赶往屋顶避难，然而现场的混乱使得他们的逃生之路异常艰难。此时，人工智能研究所的安保队长熙祖（朴海秀 饰）主动提出帮助，但他的提议伴随着相当苛刻的条件。在洪水淹没的公寓中，生存的搏斗与艰难的抉择交织在一起。最终，幸存者们的命运将何去何从。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8eKL8kVKCtnk8hicXiMpClBAkGS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xAzwi0Du6r2x2n0ELyzgwJYpjs7.jpg"
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.7,
+      "release_date": "2025-08-16",
+      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕……",
+      "poster_url": "https://image.tmdb.org/t/p/original/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5htusrnQhBC4k0kpJYcuVMKz3o5.jpg"
     },
     {
       "id": 1512623,
