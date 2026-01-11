@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-11 12:37:47",
+  "last_updated": "2026-01-11 13:16:12",
   "today_global": [
     {
       "id": 95479,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5oxSBGmDBXuGrF3I693295D8Bul.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.4,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -88,6 +77,17 @@
       "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.4,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
       "id": 259731,
@@ -123,6 +123,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
+      "id": 533533,
+      "title": "创：战神",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•动作",
+      "rating": 6.5,
+      "release_date": "2025-10-08",
+      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
+    },
+    {
       "id": 229858,
       "title": "命运／奇异赝品",
       "type": "tv",
@@ -156,37 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/weR6w2k3HaDyohmDjDJSz1iPgrM.jpg"
     },
     {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
-    },
-    {
-      "id": 533533,
-      "title": "创：战神",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•动作",
-      "rating": 6.5,
-      "release_date": "2025-10-08",
-      "overview": "　　“战神”阿瑞斯（Ares）这个来自数字世界的高度人工智能体，被派遣至现实世界执行高危任务，他的行动将引发人类与人工智能体的首次正面相遇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a21TyFXoehSk7EOWsxCB0UrrHoF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
-    },
-    {
-      "id": 208851,
-      "title": "千锤百炼",
+      "id": 285291,
+      "title": "转生之后的我变成了龙蛋",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 6.6,
-      "release_date": "2025-02-21",
-      "overview": "希泽基亚和亚历克是两个来自牙买加的朋友，他们发现自己被卷入了伦敦东区的犯罪活动。在这里，他们遇到了玛丽·卡尔，一个全由女性组成的犯罪团伙“四十头大象”的女王，并与犯罪头目、臭名昭著的拳击手舒格·古德森发生了冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/598wQ3wr0fxpGemkR7ZVFTuHPXg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9As6wLhCkV11BYc5wiawu4GSk4K.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-01-10",
+      "overview": "　　睁开眼睛后，映入眼帘的是陌生的森林。看样子是这里似乎是我所不知道的奇幻世界。\n\n　　放眼四处望去，尽是些可怕的异形魔兽。再看看自己的样子，那儿有着这一颗很大的蛋……啊这，喂！我，转生成了个蛋啊？！\n\n　　而且，想要破壳而出似乎必须得要靠打怪升级才行。我绝对战斗不了的啊！因为我，是个蛋啊啊啊啊啊啊啊！！！",
+      "poster_url": "https://image.tmdb.org/t/p/original/eQd0CiwzfhSftE71FAZzoUGzmJ5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mB9zWzImN8Xvw2C8T8CupU9EIQ5.jpg"
     },
     {
       "id": 271609,
@@ -200,26 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qRpeAuvoTJhkVD0u9qYqm3SohNt.jpg"
     },
     {
-      "id": 1228246,
-      "title": "玩具熊的五夜惊魂2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.8,
-      "release_date": "2025-12-03",
-      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
-      "id": 1252037,
-      "title": "猛虎末路",
-      "type": "movie",
-      "genreTitle": "战争•动作•剧情",
-      "rating": 7.1,
-      "release_date": "2025-09-18",
-      "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/g4lFT9d7v2x075Mau2tjIRkzBSd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wQNYu4VBpqnCCHN7M1JdXv15DFK.jpg"
+      "id": 208851,
+      "title": "千锤百炼",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 6.6,
+      "release_date": "2025-02-21",
+      "overview": "希泽基亚和亚历克是两个来自牙买加的朋友，他们发现自己被卷入了伦敦东区的犯罪活动。在这里，他们遇到了玛丽·卡尔，一个全由女性组成的犯罪团伙“四十头大象”的女王，并与犯罪头目、臭名昭著的拳击手舒格·古德森发生了冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/598wQ3wr0fxpGemkR7ZVFTuHPXg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9As6wLhCkV11BYc5wiawu4GSk4K.jpg"
     }
   ],
   "week_global_all": [
@@ -323,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8N6V423yOAIy7ikRXewd887m32.jpg"
     },
     {
-      "id": 1252037,
-      "title": "猛虎末路",
-      "type": "movie",
-      "genreTitle": "战争•动作•剧情",
-      "rating": 7.1,
-      "release_date": "2025-09-18",
-      "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/g4lFT9d7v2x075Mau2tjIRkzBSd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wQNYu4VBpqnCCHN7M1JdXv15DFK.jpg"
-    },
-    {
       "id": 1034716,
       "title": "盛夏假期遇见爱",
       "type": "movie",
@@ -356,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yPuAG30rh5efVUnemLZ8pszi9t.jpg"
     },
     {
-      "id": 225171,
-      "title": "Pluribus",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2025-11-06",
-      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
+      "id": 1252037,
+      "title": "猛虎末路",
+      "type": "movie",
+      "genreTitle": "战争•动作•剧情",
+      "rating": 7.1,
+      "release_date": "2025-09-18",
+      "overview": "　　一辆德国虎式坦克的五名车组成员被派往战火纷飞的前线后方执行一项秘密任务。在德军亢奋药物的刺激下，他们的任务逐渐变成了一场深入黑暗之心的旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/g4lFT9d7v2x075Mau2tjIRkzBSd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wQNYu4VBpqnCCHN7M1JdXv15DFK.jpg"
     },
     {
       "id": 7451,
@@ -378,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
     },
     {
-      "id": 1228246,
-      "title": "玩具熊的五夜惊魂2",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.8,
-      "release_date": "2025-12-03",
-      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
+      "id": 225171,
+      "title": "Pluribus",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-11-06",
+      "overview": "故事围绕“幸福也会像病毒一样传染”这一概念展开。背景设定在一个与现实世界相似却被微妙扭曲的平行世界中，当快乐突然成为可怕的“传染病”，女主必须想办法在这场全民狂欢中拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CmFP7hMzC8OGu9ur2oQu12J5A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nTZAAugcWU0U16UWV5ST6I2y2zn.jpg"
     },
     {
       "id": 229858,
@@ -398,6 +387,17 @@
       "overview": "魔术师与英灵为夺取能如愿所偿的愿望机“圣杯”而展开圣杯战争。日本的第五次圣杯战争结束后的几年，在美国西部的城市雪原市被观测到有新的圣杯战争预兆，集结的魔术师与英灵…… 缺失的职阶，无法被选中的英灵，暗中涌动的国家，为战斗造起来的城市。",
       "poster_url": "https://image.tmdb.org/t/p/original/2r5MEaLYl5lZxzgfSmrDybipngl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6SkZ268BIStCeCNu0yGH7dC09uY.jpg"
+    },
+    {
+      "id": 1228246,
+      "title": "玩具熊的五夜惊魂2",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.8,
+      "release_date": "2025-12-03",
+      "overview": "2023年《佛萊迪餐館之五夜驚魂》續集，伊莉莎白萊爾、喬許哈契遜、馬修利拉德主演。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vf6zd73SXTjBgLQX7o9ytFmRufZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hXdsrgqp2vAO3LxUzwLyDd74tvp.jpg"
     },
     {
       "id": 259731,
