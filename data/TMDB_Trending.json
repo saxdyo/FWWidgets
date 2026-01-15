@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-15 17:15:39",
+  "last_updated": "2026-01-15 18:01:19",
   "today_global": [
     {
       "id": 198102,
@@ -46,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
     },
     {
+      "id": 223530,
+      "title": "星际迷航：星际舰队学院",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy",
+      "rating": 4.4,
+      "release_date": "2026-01-15",
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8vbue190HMhQk1N7AViAQUxXHxE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
+    },
+    {
       "id": 1043197,
       "title": "尘兔",
       "type": "movie",
@@ -68,22 +79,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 223530,
-      "title": "星际迷航：星际舰队学院",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy",
-      "rating": 3.0,
-      "release_date": "2026-01-15",
-      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8vbue190HMhQk1N7AViAQUxXHxE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
-    },
-    {
       "id": 1272837,
       "title": "惊变28年2：白骨圣殿",
       "type": "movie",
       "genreTitle": "恐怖•惊悚•科幻",
-      "rating": 5.8,
+      "rating": 5.6,
       "release_date": "2026-01-14",
       "overview": "末日丧钟再度敲响，带领观众直视人性毁灭的炼狱，感染者的威胁和幸存人类的邪恶。",
       "poster_url": "https://image.tmdb.org/t/p/original/rLsxpg09Y7E1G0h3vX4frr0yh1D.jpg",
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 1371185,
-      "title": "蓝调之歌",
-      "type": "movie",
-      "genreTitle": "剧情•音乐•爱情",
-      "rating": 7.6,
-      "release_date": "2025-12-25",
-      "overview": "影片改编自真实故事，讲述两名时运不佳的音乐人组成一支充满欢乐气氛的尼尔·戴门致敬乐团，证明了寻找爱情和追逐梦想永远不会太晚。",
-      "poster_url": "https://image.tmdb.org/t/p/original/scrkIF5ILNA0Ov5ZAidPoJtUk7I.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rWv8HTCH8CpJxiQ7JQHBl9POErI.jpg"
-    },
-    {
       "id": 1584215,
       "title": "反叛行动",
       "type": "movie",
@@ -123,15 +112,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2EptPFNLmu61CzCSHW6J5vDqJRw.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
+      "id": 1371185,
+      "title": "蓝调之歌",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 0.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iSnDGqiziA6Ybdkep7n9dIh1TZQ.jpg"
+      "genreTitle": "剧情•音乐•爱情",
+      "rating": 7.6,
+      "release_date": "2025-12-25",
+      "overview": "影片改编自真实故事，讲述两名时运不佳的音乐人组成一支充满欢乐气氛的尼尔·戴门致敬乐团，证明了寻找爱情和追逐梦想永远不会太晚。",
+      "poster_url": "https://image.tmdb.org/t/p/original/scrkIF5ILNA0Ov5ZAidPoJtUk7I.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rWv8HTCH8CpJxiQ7JQHBl9POErI.jpg"
+    },
+    {
+      "id": 250505,
+      "title": "阿加莎·克里斯蒂之七面钟",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.0,
+      "release_date": "2026-01-15",
+      "overview": "1925年，英格兰一座乡间大宅铺张设宴，席间一个恶作剧出了差错，竟闹出人命。绰号“邦德尔”的艾琳·布伦特着手探查真相，她外表不像侦探，但生性活泼好奇，究竟命案背后的可怕阴谋会如何改变她的人生？乡间大宅里又暗藏什么秘密？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3uRQi9HDEAGSadoKee1UHoFCaU9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qvcocNQRo0Jt83QCs6UlYhmGaYv.jpg"
     },
     {
       "id": 246473,
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5WOikKpCZ5H0zEzVDeE6eJwA8BH.jpg"
     },
     {
+      "id": 1159559,
+      "title": "惊声尖叫7",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 0.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iSnDGqiziA6Ybdkep7n9dIh1TZQ.jpg"
+    },
+    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -165,17 +176,6 @@
       "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
       "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
-    },
-    {
-      "id": 250505,
-      "title": "阿加莎·克里斯蒂之七面钟",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 0.0,
-      "release_date": "2026-01-15",
-      "overview": "1925年，英格兰一座乡间大宅铺张设宴，席间一个恶作剧出了差错，竟闹出人命。绰号“邦德尔”的艾琳·布伦特着手探查真相，她外表不像侦探，但生性活泼好奇，究竟命案背后的可怕阴谋会如何改变她的人生？乡间大宅里又暗藏什么秘密？",
-      "poster_url": "https://image.tmdb.org/t/p/original/8Ve3pcCPJWJh8AxsFp1Go7ipeDc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qvcocNQRo0Jt83QCs6UlYhmGaYv.jpg"
     },
     {
       "id": 61859,
@@ -207,7 +207,7 @@
       "rating": 0.0,
       "release_date": "2026-01-13",
       "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/hJjBRMOKvA0BZanm5pHgO0t04qj.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/74zSvHdqFoCfQdXc8ZFqhkrbrPj.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fmj4ZQSuLsJFZkLgYq9C9hxv4Av.jpg"
     },
     {
@@ -257,6 +257,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
+      "id": 223530,
+      "title": "星际迷航：星际舰队学院",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy",
+      "rating": 4.4,
+      "release_date": "2026-01-15",
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8vbue190HMhQk1N7AViAQUxXHxE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
+    },
+    {
       "id": 1242898,
       "title": "铁血战士：杀戮之地",
       "type": "movie",
@@ -277,17 +288,6 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/eXvE7YKLmlF5KpxxrU9inECAHJi.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 223530,
-      "title": "星际迷航：星际舰队学院",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy",
-      "rating": 3.0,
-      "release_date": "2026-01-15",
-      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8vbue190HMhQk1N7AViAQUxXHxE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
     },
     {
       "id": 1208348,
@@ -323,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 61859,
-      "title": "夜班经理",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 7.8,
-      "release_date": "2016-02-21",
-      "overview": "乔纳森（汤姆·希德勒斯顿 Tom Hiddleston 饰）曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲（奥雷·阿蒂卡 Aure Atika 饰）的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德（休·劳瑞 Hugh Laurie 饰）的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉（奥莉薇娅·柯尔曼 Olivia Colman 饰），安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aIqIIQWKC6d7UVHtX53bigu4jVF.jpg"
-    },
-    {
       "id": 7451,
       "title": "极限特工",
       "type": "movie",
@@ -345,15 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
     },
     {
-      "id": 1368166,
-      "title": "家弑服务",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 7.2,
-      "release_date": "2025-12-18",
-      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
+      "id": 61859,
+      "title": "夜班经理",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 7.8,
+      "release_date": "2016-02-21",
+      "overview": "乔纳森（汤姆·希德勒斯顿 Tom Hiddleston 饰）曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲（奥雷·阿蒂卡 Aure Atika 饰）的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德（休·劳瑞 Hugh Laurie 饰）的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉（奥莉薇娅·柯尔曼 Olivia Colman 饰），安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aIqIIQWKC6d7UVHtX53bigu4jVF.jpg"
     },
     {
       "id": 203737,
@@ -367,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9WagHM3tyoWYP5YyCZOjIeCME4f.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.4,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/yp36G3PQsTcFM6qOGBmUGrZdj30.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
-    },
-    {
       "id": 198102,
       "title": "历劫惊途",
       "type": "tv",
@@ -387,6 +365,28 @@
       "overview": "在挟持者夺取控制权后，谈判专家山姆·尼尔森面临人生中最惊险的挑战，所有乘客亦深陷其中。为了扭转局势，他将施展所有谈判手段，而情况亦越来越严峻。",
       "poster_url": "https://image.tmdb.org/t/p/original/h8Y9FDPIk1aHDpTbPoLLu7jnxid.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cnFw8up7YcJdmxTsBpJ5TVy09FT.jpg"
+    },
+    {
+      "id": 1368166,
+      "title": "家弑服务",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚",
+      "rating": 7.2,
+      "release_date": "2025-12-18",
+      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
+    },
+    {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•动作",
+      "rating": 7.4,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/yp36G3PQsTcFM6qOGBmUGrZdj30.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 259731,
@@ -404,11 +404,22 @@
       "title": "惊变28年2：白骨圣殿",
       "type": "movie",
       "genreTitle": "恐怖•惊悚•科幻",
-      "rating": 5.8,
+      "rating": 5.6,
       "release_date": "2026-01-14",
       "overview": "末日丧钟再度敲响，带领观众直视人性毁灭的炼狱，感染者的威胁和幸存人类的邪恶。",
       "poster_url": "https://image.tmdb.org/t/p/original/rLsxpg09Y7E1G0h3vX4frr0yh1D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kXO8iWBPzQyS6JPLs9fRc7MTQaJ.jpg"
+    },
+    {
+      "id": 250505,
+      "title": "阿加莎·克里斯蒂之七面钟",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.0,
+      "release_date": "2026-01-15",
+      "overview": "1925年，英格兰一座乡间大宅铺张设宴，席间一个恶作剧出了差错，竟闹出人命。绰号“邦德尔”的艾琳·布伦特着手探查真相，她外表不像侦探，但生性活泼好奇，究竟命案背后的可怕阴谋会如何改变她的人生？乡间大宅里又暗藏什么秘密？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3uRQi9HDEAGSadoKee1UHoFCaU9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qvcocNQRo0Jt83QCs6UlYhmGaYv.jpg"
     },
     {
       "id": 967941,
@@ -431,17 +442,6 @@
       "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
-    },
-    {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "在《疯狂动物城2》中，警官兔朱迪（金妮弗·古德温 配音）与狐尼克（杰森·贝特曼 配音）这对备受全球观众喜爱的搭档将再度携手，带领观众重返充满活力的动物城，开启全新冒险。故事紧接前作，这对默契十足的搭档将直面职业与关系上的新挑战，揭开动物城深藏的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/YQildBNfvOR8IQiwFY66IzrT9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     }
   ],
   "popular_movies": [
