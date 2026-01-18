@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-18 10:59:27",
+  "last_updated": "2026-01-18 12:04:34",
   "today_global": [
     {
       "id": 1306368,
       "title": "全信没收",
       "type": "movie",
       "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.1,
+      "rating": 7.2,
       "release_date": "2026-01-13",
       "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
       "poster_url": "https://image.tmdb.org/t/p/original/eqsFbKArVhdzQnfE4AygVCxUKEP.jpg",
@@ -39,22 +39,11 @@
       "title": "杀人鲸",
       "type": "movie",
       "genreTitle": "惊悚•恐怖•动作",
-      "rating": 5.7,
+      "rating": 6.1,
       "release_date": "2026-01-16",
       "overview": "故事围绕一对挚友Trish Stevens与Maddie Clark展开，二人被困在一座与世隔绝的环礁湖里，与一头危险的虎鲸狭路相逢。",
       "poster_url": "https://image.tmdb.org/t/p/original/xC6zdIoIHjhOIFmjNyGgtzhuhiF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ykigHs1OIyqqV04zfFqIlSHp546.jpg"
-    },
-    {
-      "id": 106379,
-      "title": "辐射",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
       "id": 229891,
@@ -68,15 +57,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/60Hm8JC1Ps8DsrstAt4PTQuBdIB.jpg"
     },
     {
-      "id": 1208348,
-      "title": "临租家庭",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.9,
-      "release_date": "2025-11-20",
-      "overview": "本片讲述了一位在东京落魄的美国演员的故事。他受雇于一家日本家庭租赁公司，充当门面上的“美籍演员”，由此通过扮演他人生活中的各种角色，踏上了一段意想不到的自我发现之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/msX6Gv6MzP9IMbuV6XbUC9U2xCu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
+      "id": 223530,
+      "title": "星际迷航：星际舰队学院",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 5.1,
+      "release_date": "2026-01-15",
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
+    },
+    {
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
       "id": 250505,
@@ -90,26 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3SzZoElCKY271vihTpyURYoD5Q7.jpg"
     },
     {
-      "id": 223530,
-      "title": "星际迷航：星际舰队学院",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 5.2,
-      "release_date": "2026-01-15",
-      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
-    },
-    {
-      "id": 1043197,
-      "title": "尘兔",
+      "id": 1208348,
+      "title": "临租家庭",
       "type": "movie",
-      "genreTitle": "动作•奇幻•惊悚",
-      "rating": 7.0,
-      "release_date": "2025-12-11",
-      "overview": "小女孩奥萝拉深信，家中的地板下潜伏着一只吃掉她全家的神秘怪物。 她决定向隔壁冷峻的邻居求助，因为她发现这位看似平凡的男人竟是一名职业杀手！",
-      "poster_url": "https://image.tmdb.org/t/p/original/iZl0DTHJIQQhLyh53CYQOX12l6O.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rB6MzWxyzu7uwf4JgYZ2UBAuihB.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.9,
+      "release_date": "2025-11-20",
+      "overview": "本片讲述了一位在东京落魄的美国演员的故事。他受雇于一家日本家庭租赁公司，充当门面上的“美籍演员”，由此通过扮演他人生活中的各种角色，踏上了一段意想不到的自我发现之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/msX6Gv6MzP9IMbuV6XbUC9U2xCu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
     },
     {
       "id": 66732,
@@ -123,37 +112,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eXvE7YKLmlF5KpxxrU9inECAHJi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
       "id": 293608,
       "title": "卧底洪小姐",
       "type": "tv",
       "genreTitle": "犯罪•喜剧",
-      "rating": 8.0,
+      "rating": 7.3,
       "release_date": "2026-01-17",
       "overview": "因IMF而混乱的90年代末，锲而不舍的调查员洪金宝（朴信惠 饰）利用天生的\"童颜外貌\"潜入一间证券公司，准备揭发贪腐情事，没想到新上任的代表竟是自己的前男友申正宇（高庚杓 饰），这场任务开始节外生枝。",
       "poster_url": "https://image.tmdb.org/t/p/original/47T6il9NGTvqm9I58GtPt9eNGTv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4cnrxStoArm0som0Hgu2U7r3EO9.jpg"
     },
     {
-      "id": 270420,
-      "title": "今天开始是人类",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-01-16",
-      "overview": "游戏人间的“MZ世代”九尾狐金玉淳，为了享受永恒的美貌与青春，选择选离人群，拒绝成为平凡的人类，直到遇见了唯我独尊、实力强大的足球明星姜施洌，精准计算的生活逐渐失控。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wPqwfPOfJOMLFR1ZF2HL6mcpVas.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iFqDa1Ao2A4K65jCcG6T5SPLe7c.jpg"
+      "id": 1043197,
+      "title": "尘兔",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•惊悚",
+      "rating": 7.0,
+      "release_date": "2025-12-11",
+      "overview": "小女孩奥萝拉深信，家中的地板下潜伏着一只吃掉她全家的神秘怪物。 她决定向隔壁冷峻的邻居求助，因为她发现这位看似平凡的男人竟是一名职业杀手！",
+      "poster_url": "https://image.tmdb.org/t/p/original/iZl0DTHJIQQhLyh53CYQOX12l6O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rB6MzWxyzu7uwf4JgYZ2UBAuihB.jpg"
     },
     {
       "id": 1272837,
@@ -167,15 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kXO8iWBPzQyS6JPLs9fRc7MTQaJ.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
+      "id": 270420,
+      "title": "今天开始是人类",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•喜剧",
+      "rating": 8.0,
+      "release_date": "2026-01-16",
+      "overview": "游戏人间的“MZ世代”九尾狐金玉淳，为了享受永恒的美貌与青春，选择选离人群，拒绝成为平凡的人类，直到遇见了唯我独尊、实力强大的足球明星姜施洌，精准计算的生活逐渐失控。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wPqwfPOfJOMLFR1ZF2HL6mcpVas.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iFqDa1Ao2A4K65jCcG6T5SPLe7c.jpg"
+    },
+    {
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eXvE7YKLmlF5KpxxrU9inECAHJi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 296009,
@@ -187,6 +176,17 @@
       "overview": "该剧讲述高中教师张曦媛因失恋与盛德集团副董事长姜霜剑意外发生关系后怀孕，由此展开未婚妈妈与不婚男性之间关于责任与情感的纠葛 。",
       "poster_url": "https://image.tmdb.org/t/p/original/dkp8M5W06ETul7wRWRFRBGmE1Me.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1gokuoiUKl7is9gnyCC18R2eStp.jpg"
+    },
+    {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
       "id": 203737,
@@ -228,7 +228,7 @@
       "title": "全信没收",
       "type": "movie",
       "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.1,
+      "rating": 7.2,
       "release_date": "2026-01-13",
       "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
       "poster_url": "https://image.tmdb.org/t/p/original/eqsFbKArVhdzQnfE4AygVCxUKEP.jpg",
@@ -244,28 +244,6 @@
       "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
       "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
-    },
-    {
-      "id": 1208348,
-      "title": "临租家庭",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.9,
-      "release_date": "2025-11-20",
-      "overview": "本片讲述了一位在东京落魄的美国演员的故事。他受雇于一家日本家庭租赁公司，充当门面上的“美籍演员”，由此通过扮演他人生活中的各种角色，踏上了一段意想不到的自我发现之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/msX6Gv6MzP9IMbuV6XbUC9U2xCu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
-    },
-    {
-      "id": 7451,
-      "title": "极限特工",
-      "type": "movie",
-      "genreTitle": "动作•冒险•惊悚",
-      "rating": 6.0,
-      "release_date": "2002-08-09",
-      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
     },
     {
       "id": 209867,
@@ -290,6 +268,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
+      "id": 1208348,
+      "title": "临租家庭",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.9,
+      "release_date": "2025-11-20",
+      "overview": "本片讲述了一位在东京落魄的美国演员的故事。他受雇于一家日本家庭租赁公司，充当门面上的“美籍演员”，由此通过扮演他人生活中的各种角色，踏上了一段意想不到的自我发现之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/msX6Gv6MzP9IMbuV6XbUC9U2xCu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
+    },
+    {
+      "id": 7451,
+      "title": "极限特工",
+      "type": "movie",
+      "genreTitle": "动作•冒险•惊悚",
+      "rating": 6.0,
+      "release_date": "2002-08-09",
+      "overview": "克桑德是极限运动界的明星，但他离经叛道，总是以他的身手对社会上那些败类名流发出挑战，当地警方对他也经常无可奈何。特工头子奥古斯塔斯看上了克桑德，于是派人将他抓了回来，说服他前往捷克进行一项危险而艰巨的任务。捷克的地下犯罪组织头子尤里正在进行一项疯狂的计划，他抓走了很多前苏联的科学家，利用他们研究一种威力无比的武器——毒气弹。他企图利用即将研制成功的武器引起世界大战，进而达到他统治世界的目的。克桑德以走私汽车贩子的身份前往捷克接近了尤里的组织，一场惊心动魄的行动展开了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fPS0MgOCD7VmFy4EVmq21cr0BFC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tALQc7ZuB7mGiPGnjygRJgymqQi.jpg"
+    },
+    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -301,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eXvE7YKLmlF5KpxxrU9inECAHJi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
       "id": 1272837,
       "title": "惊变28年2：白骨圣殿",
       "type": "movie",
@@ -321,6 +310,17 @@
       "overview": "末日丧钟再度敲响，带领观众直视人性毁灭的炼狱，感染者的威胁和幸存人类的邪恶。",
       "poster_url": "https://image.tmdb.org/t/p/original/rLsxpg09Y7E1G0h3vX4frr0yh1D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kXO8iWBPzQyS6JPLs9fRc7MTQaJ.jpg"
+    },
+    {
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eXvE7YKLmlF5KpxxrU9inECAHJi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 83533,
@@ -343,6 +343,17 @@
       "overview": "乔纳森（汤姆·希德勒斯顿 Tom Hiddleston 饰）曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲（奥雷·阿蒂卡 Aure Atika 饰）的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德（休·劳瑞 Hugh Laurie 饰）的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉（奥莉薇娅·柯尔曼 Olivia Colman 饰），安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
       "poster_url": "https://image.tmdb.org/t/p/original/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aIqIIQWKC6d7UVHtX53bigu4jVF.jpg"
+    },
+    {
+      "id": 223530,
+      "title": "星际迷航：星际舰队学院",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 5.1,
+      "release_date": "2026-01-15",
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
     },
     {
       "id": 1242898,
@@ -387,17 +398,6 @@
       "overview": "自由奔放的波比（艾米丽·巴德 Emily Bader 饰）与循规蹈矩的亚历克斯（汤姆·布莱斯 Tom Blyth 饰）每逢夏天都会一起旅行冒险，这个传统却在延续近十年后突然中断了，两人此后便再无交集。多年后，他们在一次旅行中不期而遇，共同面对彼此未说出口的情感。 影片根据艾米莉·亨利的同名畅销书改编。",
       "poster_url": "https://image.tmdb.org/t/p/original/ip1GREVTFUE2eMNnZmRzdnh119i.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vPLv0KqnKKUoUWF7oYka4Z9ElNH.jpg"
-    },
-    {
-      "id": 223530,
-      "title": "星际迷航：星际舰队学院",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 5.2,
-      "release_date": "2026-01-15",
-      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
     },
     {
       "id": 1368166,
