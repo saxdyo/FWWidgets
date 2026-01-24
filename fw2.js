@@ -1353,7 +1353,7 @@ function addToBlockList(tmdbId, mediaType = "movie", title = "", additionalInfo 
 
 // 配置常量
 var CONFIG = {
-  API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
+  API_KEY: "", // TMDB API密钥
   CACHE_DURATION: 60 * 60 * 1000, // 60分钟缓存（优化：延长缓存时间）
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
