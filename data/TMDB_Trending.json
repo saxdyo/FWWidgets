@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-25 13:19:24",
+  "last_updated": "2026-01-25 14:01:01",
   "today_global": [
     {
       "id": 1443762,
@@ -90,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 991494,
-      "title": "海绵宝宝：深海大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 6.5,
-      "release_date": "2025-12-16",
-      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cQMfWsFzQXUKfaoGSjhHXDjDSSX.jpg"
-    },
-    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -134,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uWlKWm6VU1p2JNbjnWJfYcy6HAP.jpg"
     },
     {
+      "id": 991494,
+      "title": "海绵宝宝：深海大冒险",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 6.5,
+      "release_date": "2025-12-16",
+      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cQMfWsFzQXUKfaoGSjhHXDjDSSX.jpg"
+    },
+    {
       "id": 279446,
       "title": "太平年",
       "type": "tv",
@@ -143,17 +143,6 @@
       "overview": "讲述了五代十国时期，钱弘俶、赵匡胤、郭荣三位有志青年经历了家国动乱、秩序崩溃、生灵涂炭后，逐渐认识到只有国家一统才能摆脱战火国殇。钱弘俶于政权动乱之时扛起吴越国主的重任，“保境安民”，福泽一方；历经战乱的赵匡胤则延续了郭荣未竟的事业，建立北宋政权，严明军纪，改革弊政，安定民生，慎用兵戈，一扫五代丧乱之颓风，向着天下太平一步步迈进。",
       "poster_url": "https://image.tmdb.org/t/p/original/76gwCVQG1MoItK25o48opYP7TmG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hjvePE4NWOO2eFXNZIwRfZN6N6L.jpg"
-    },
-    {
-      "id": 1220564,
-      "title": "密探",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•惊悚",
-      "rating": 7.7,
-      "release_date": "2025-07-23",
-      "overview": "1977年，巴西。四十岁出头的技术专家马塞洛正在奔逃。他在狂欢节期间抵达累西腓，渴望与儿子重聚，却很快意识到这座城市远非他寻求的非暴力庇护所。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ptMhBAOi5La3NYLX2nWQFMzkXVL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4on1ZZu7TZNnthwD84FOa9m57WR.jpg"
     },
     {
       "id": 1317288,
@@ -167,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ujcNgyHIxy76RKwBCkYv6l786Eq.jpg"
     },
     {
-      "id": 680493,
-      "title": "重返寂静岭",
+      "id": 1220564,
+      "title": "密探",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.3,
-      "release_date": "2026-01-21",
-      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
+      "genreTitle": "犯罪•剧情•惊悚",
+      "rating": 7.7,
+      "release_date": "2025-07-23",
+      "overview": "1977年，巴西。四十岁出头的技术专家马塞洛正在奔逃。他在狂欢节期间抵达累西腓，渴望与儿子重聚，却很快意识到这座城市远非他寻求的非暴力庇护所。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ptMhBAOi5La3NYLX2nWQFMzkXVL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4on1ZZu7TZNnthwD84FOa9m57WR.jpg"
     },
     {
       "id": 250307,
@@ -187,6 +176,17 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+    },
+    {
+      "id": 680493,
+      "title": "重返寂静岭",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.3,
+      "release_date": "2026-01-21",
+      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
     },
     {
       "id": 1236153,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
-      "id": 1208348,
-      "title": "临租家庭",
+      "id": 701387,
+      "title": "拯救地球",
       "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.8,
-      "release_date": "2025-11-20",
-      "overview": "本片讲述了一位在东京落魄的美国演员的故事。他受雇于一家日本家庭租赁公司，充当门面上的“美籍演员”，由此通过扮演他人生活中的各种角色，踏上了一段意想不到的自我发现之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/msX6Gv6MzP9IMbuV6XbUC9U2xCu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
+      "genreTitle": "科幻•惊悚•犯罪",
+      "rating": 7.4,
+      "release_date": "2025-10-23",
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pbDBF6GGderTKLvZkbUaB2MBlMV.jpg"
     }
   ],
   "week_global_all": [
@@ -334,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4on1ZZu7TZNnthwD84FOa9m57WR.jpg"
     },
     {
-      "id": 991494,
-      "title": "海绵宝宝：深海大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 6.5,
-      "release_date": "2025-12-16",
-      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cQMfWsFzQXUKfaoGSjhHXDjDSSX.jpg"
-    },
-    {
       "id": 1233413,
       "title": "罪人",
       "type": "movie",
@@ -354,6 +343,17 @@
       "overview": "《黑豹》《奎迪》导演瑞恩·库格勒执导，迈克尔·B·乔丹主演，带来恐惧的全新诠释。一对双胞胎兄弟（均由迈克尔·B·乔丹饰演）试图摆脱过去纷扰的生活，回到家乡寻求新生，却发现更深的邪恶正等待着他们的归来。[华纳兄弟影业]",
       "poster_url": "https://image.tmdb.org/t/p/original/I91EahT9ytqtl4KfA2QCzGlvSD.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fB1VykVmC8EvApDgKMecl40FIoT.jpg"
+    },
+    {
+      "id": 991494,
+      "title": "海绵宝宝：深海大冒险",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 6.5,
+      "release_date": "2025-12-16",
+      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cQMfWsFzQXUKfaoGSjhHXDjDSSX.jpg"
     },
     {
       "id": 1236153,
@@ -378,6 +378,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+    },
+    {
       "id": 66732,
       "title": "怪奇物语",
       "type": "tv",
@@ -398,17 +409,6 @@
       "overview": "故事背景设定在西德克萨斯的繁荣小镇，以现代石油钻井行业的淘金热为主题。这是一部关于基层工人和冒险致富的亿万富翁的上下阶层故事。他们推动了一场如此庞大的繁荣，不仅正在重塑我们的气候、经济，还改变了全球地缘政治格局。",
       "poster_url": "https://image.tmdb.org/t/p/original/pEKgBPrLN7x8fAZKjzN8NayQHiW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/66sWWyJp28bkNQWcIw3YPUyDFvO.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 680493,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
-      "id": 1208348,
-      "title": "临租家庭",
+      "id": 1443762,
+      "title": "伪术奇才",
       "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.8,
-      "release_date": "2025-11-20",
-      "overview": "本片讲述了一位在东京落魄的美国演员的故事。他受雇于一家日本家庭租赁公司，充当门面上的“美籍演员”，由此通过扮演他人生活中的各种角色，踏上了一段意想不到的自我发现之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/msX6Gv6MzP9IMbuV6XbUC9U2xCu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s1mwdEYODtFcyvfYr8vwXp9HZn1.jpg"
+      "genreTitle": "惊悚•犯罪•剧情",
+      "rating": 6.5,
+      "release_date": "2026-01-22",
+      "overview": "1970年代，托尼来到罗马，他身无长物，只有一身绘画才华，以及成为伟大艺术家的梦想。对生活、命运甚至历史的渴望，最终让他成为史上最伟大的伪造大师，更是牵动意大利最难解谜团的核心人物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bGLgIRasU93kIZbmOClkBA51E5T.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hbGZ0dBaLFxCuk1mamsyEq5eRKP.jpg"
     }
   ],
   "popular_movies": [
