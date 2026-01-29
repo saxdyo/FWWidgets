@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-29 16:23:11",
+  "last_updated": "2026-01-29 17:28:59",
   "today_global": [
     {
       "id": 1168190,
@@ -17,7 +17,7 @@
       "title": "奇迹人",
       "type": "tv",
       "genreTitle": "喜剧•剧情",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2026-01-27",
       "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/6HxLMcdaoAg5vpURwmazdU5wVV8.jpg",
@@ -90,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/k8aCatZeJTdwl26utChphKwqVrS.jpg"
     },
     {
-      "id": 1167307,
-      "title": "大卫",
-      "type": "movie",
-      "genreTitle": "动画•家庭•剧情",
+      "id": 91239,
+      "title": "布里杰顿家族",
+      "type": "tv",
+      "genreTitle": "剧情",
       "rating": 8.1,
-      "release_date": "2025-12-14",
-      "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
+      "release_date": "2020-12-25",
+      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
+      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
     },
     {
       "id": 1413097,
@@ -112,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3R5SXP6AWMclxhrWChOqWPl3W9d.jpg"
     },
     {
-      "id": 801937,
-      "title": "平安夜，杀人夜",
+      "id": 1167307,
+      "title": "大卫",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.8,
-      "release_date": "2025-12-11",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/6cvHz1TnF2ktoLbbHACh99nKL9H.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2gpkWSDjU8c28Wgt4AXHWhLY97b.jpg"
+      "genreTitle": "动画•家庭•剧情",
+      "rating": 8.1,
+      "release_date": "2025-12-14",
+      "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
     },
     {
       "id": 1306368,
@@ -132,6 +132,39 @@
       "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
       "poster_url": "https://image.tmdb.org/t/p/original/icXEintMlPvKGxCskYRzwd66Oc7.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
+    },
+    {
+      "id": 801937,
+      "title": "平安夜，杀人夜",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.8,
+      "release_date": "2025-12-11",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/6cvHz1TnF2ktoLbbHACh99nKL9H.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2gpkWSDjU8c28Wgt4AXHWhLY97b.jpg"
+    },
+    {
+      "id": 66732,
+      "title": "怪奇物语",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
+    },
+    {
+      "id": 224372,
+      "title": "七王国的骑士",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
       "id": 95479,
@@ -156,37 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
     },
     {
-      "id": 66732,
-      "title": "怪奇物语",
+      "id": 198102,
+      "title": "历劫惊途",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
-    },
-    {
-      "id": 1206008,
-      "title": "政坛新星",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 5.4,
-      "release_date": "2025-12-11",
-      "overview": "34岁的年轻女子艾拉·麦凯当上了州长，她需要努力平衡政坛职责和家庭生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kMnytogLXnSP81sNAIP0LtAi8y3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/doIGrhYdiMMMMIGAIM146iZ8gF0.jpg"
-    },
-    {
-      "id": 1316092,
-      "title": "呼啸山庄",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 0.0,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3iK4OUoMztIg7basATxRGLXEulR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+      "genreTitle": "剧情",
+      "rating": 7.6,
+      "release_date": "2023-06-28",
+      "overview": "在挟持者夺取控制权后，谈判专家山姆·尼尔森面临人生中最惊险的挑战，所有乘客亦深陷其中。为了扭转局势，他将施展所有谈判手段，而情况亦越来越严峻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/h8Y9FDPIk1aHDpTbPoLLu7jnxid.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cnFw8up7YcJdmxTsBpJ5TVy09FT.jpg"
     },
     {
       "id": 273160,
@@ -200,29 +211,29 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oWUsAwIzGm6GTK6USR4QXEgAmcc.jpg"
     },
     {
-      "id": 224372,
-      "title": "七王国的骑士",
+      "id": 208397,
+      "title": "校园怪灵",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.1,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
-      "id": 91239,
-      "title": "布里杰顿家族",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2020-12-25",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.8,
+      "release_date": "2023-03-09",
+      "overview": "麦迪是一个被困在死后世界的少女，她要调查自己神秘失踪一事。麦迪在学校适应死后世界，同时踏上查案的旅程。可是，她越接近揭晓真相，就发现越多秘密和谎言。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eb7ZJYZjed1bBQ8a4aMDwp5nvjF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xApNVBGQ6tcgqdKXSg8R62q9Tza.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.2,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
+    },
     {
       "id": 1084242,
       "title": "疯狂动物城2",
@@ -239,7 +250,7 @@
       "title": "奇迹人",
       "type": "tv",
       "genreTitle": "喜剧•剧情",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2026-01-27",
       "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/6HxLMcdaoAg5vpURwmazdU5wVV8.jpg",
@@ -255,17 +266,6 @@
       "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
-    },
-    {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.2,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 840464,
@@ -301,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
     },
     {
+      "id": 91239,
+      "title": "布里杰顿家族",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.1,
+      "release_date": "2020-12-25",
+      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
+      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
+    },
+    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -310,17 +321,6 @@
       "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
       "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
       "id": 1198994,
@@ -345,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oWUsAwIzGm6GTK6USR4QXEgAmcc.jpg"
     },
     {
-      "id": 1233413,
-      "title": "罪人",
-      "type": "movie",
-      "genreTitle": "恐怖•动作•惊悚",
-      "rating": 7.5,
-      "release_date": "2025-04-16",
-      "overview": "《黑豹》《奎迪》导演瑞恩·库格勒执导，迈克尔·B·乔丹主演，带来恐惧的全新诠释。一对双胞胎兄弟（均由迈克尔·B·乔丹饰演）试图摆脱过去纷扰的生活，回到家乡寻求新生，却发现更深的邪恶正等待着他们的归来。[华纳兄弟影业]",
-      "poster_url": "https://image.tmdb.org/t/p/original/I91EahT9ytqtl4KfA2QCzGlvSD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fB1VykVmC8EvApDgKMecl40FIoT.jpg"
-    },
-    {
       "id": 209867,
       "title": "葬送的芙莉莲",
       "type": "tv",
@@ -367,6 +356,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
       "id": 254071,
       "title": "强制窃贼",
       "type": "tv",
@@ -376,6 +376,28 @@
       "overview": "这部惊心动魄、张力十足的惊悚影集，故事围绕著一场世纪抢案。洛克米尔投信平凡无奇的上班日，因武装抢匪闯入而天翻地覆，他们胁迫萨拉（苏菲特纳饰演）和她的好友路克（亚契马德维饰演）执行他们的命令。抢案过后，满腹疑问的瑞斯总警督（雅各弗钦洛伊德饰演）必须与时间赛跑，查出是谁抢走人民四十亿英镑退休金，幕后主使是谁，动机又为何。",
       "poster_url": "https://image.tmdb.org/t/p/original/qFOgwQtUEcKPVafbIl5ImKtB8Vz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zf31d80REGIthHsfOGyjoBwUXk2.jpg"
+    },
+    {
+      "id": 1233413,
+      "title": "罪人",
+      "type": "movie",
+      "genreTitle": "恐怖•动作•惊悚",
+      "rating": 7.5,
+      "release_date": "2025-04-16",
+      "overview": "《黑豹》《奎迪》导演瑞恩·库格勒执导，迈克尔·B·乔丹主演，带来恐惧的全新诠释。一对双胞胎兄弟（均由迈克尔·B·乔丹饰演）试图摆脱过去纷扰的生活，回到家乡寻求新生，却发现更深的邪恶正等待着他们的归来。[华纳兄弟影业]",
+      "poster_url": "https://image.tmdb.org/t/p/original/I91EahT9ytqtl4KfA2QCzGlvSD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fB1VykVmC8EvApDgKMecl40FIoT.jpg"
+    },
+    {
+      "id": 66732,
+      "title": "怪奇物语",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "release_date": "2016-07-15",
+      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
       "id": 1443762,
@@ -400,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
-      "id": 66732,
-      "title": "怪奇物语",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
-    },
-    {
       "id": 1236153,
       "title": "极限审判",
       "type": "movie",
@@ -431,17 +442,6 @@
       "overview": "“月读”是希望与梦想交会的虚拟空间，而舞台幕布将缓缓升起，见证几位少女在此谱写短暂却珍贵的相遇篇章。17岁的东京都高中生酒寄彩叶，过着在打工与学业间奔波的忙碌生活。她唯一的纾压方式，就是沉浸在人气网络主播月见八千代的频道中，享受片刻的抽离。彩叶是月读的常客，在这里她能自由挥洒创意、体验不同的人生。某天回家的路上，彩叶偶然发现一根闪耀着奇异光芒电线杆冒出一位神秘的宝宝，无法视而不见的彩叶只好将她抱回家。随后宝宝以惊人的速度，迅速成长为一位与彩叶同龄的少女——辉夜。在辉夜的恳求下，彩叶决定在月读上帮她开设直播。彩叶负责音乐制作和作词，辉夜则专注于直播和演唱，两人合作无间，彼此的关系也更加亲密。然而，一股危险势力正伺机而动，企图将辉夜带回月球。",
       "poster_url": "https://image.tmdb.org/t/p/original/9tkMo2GNrtuzggwNF4MzixXw3B1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
-    },
-    {
-      "id": 991494,
-      "title": "海绵宝宝：深海大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 6.6,
-      "release_date": "2025-12-16",
-      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cQMfWsFzQXUKfaoGSjhHXDjDSSX.jpg"
     }
   ],
   "popular_movies": [
