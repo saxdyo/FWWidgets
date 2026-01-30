@@ -15,9 +15,9 @@
     {
       "id": "anime_tracker_combo",
       "title": "trakt&amine",
-      "description": "trakt&amine",
-      "requiredVersion": "1.1.1",
-      "version": "1.1.1",
+      "description": "整合版：Trakt 追剧 + 五大动漫榜单（B站/Bangumi/TMDB/AniList/MAL）",
+      "requiredVersion": "0.0.1",
+      "version": "2.0.0",
       "author": "sax",
       "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw3.js"
     }
