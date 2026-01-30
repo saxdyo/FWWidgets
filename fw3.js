@@ -4,7 +4,7 @@ WidgetMetadata = {
     author: "saxdyo",
     description: "trakt",
     version: "1.1.1",
-    requiredVersion: "1.1.1",
+    requiredVersion: "0.0.1",
     site: "https://github.com/saxdyo",
 
     globalParams: [
