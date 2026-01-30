@@ -1,10 +1,10 @@
 WidgetMetadata = {
-    id: "anime_tracker_combo",
+    id: "trakt",
     title: "trakt&amine",
     author: "saxdyo",
-    description: "整合版：Trakt 追剧 + 五大动漫榜单（B站/Bangumi/TMDB/AniList/MAL）",
-    version: "2.0.0",
-    requiredVersion: "0.0.1",
+    description: "trakt",
+    version: "1.1.1",
+    requiredVersion: "1.1.1",
     site: "https://github.com/saxdyo",
 
     globalParams: [
