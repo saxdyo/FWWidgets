@@ -1,15 +1,15 @@
 {
-  "title": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖'𝙨 𝙒𝙞𝙙𝙜𝙚𝙩𝙨",
-  "description": "汇聚追剧日历,流媒体top10,烂番茄好评榜，弹幕api-pro等追剧模块",
-  "icon": "https://github.com/MakkaPakka518/ForwardWidgets/raw/main/makka.png",
+  "title": "trakt",
+  "description": "trakt&amine",
+  "icon": "https://github.com/saxdyo/FWWidgets/blob/main/1cd480910a2793873e3e4f56818f9968.png",
   "widgets": [
     {
-      "id": "anime_omni_fix",
-      "title": "二次元全境聚合",
-      "description": "一站式聚合多平台动漫榜单。",
-      "requiredVersion": "0.0.1",
-      "version": "2.2.1",
-      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "id": "trakt",
+      "title": "trakt&amine",
+      "description": "trakt&amine。",
+      "requiredVersion": "1.1.1",
+      "version": "1.1.1",
+      "author": "saxdyo",
       "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw3.js"
     }
   ]
