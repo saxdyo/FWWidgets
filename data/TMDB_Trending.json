@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30 17:26:22",
+  "last_updated": "2026-01-30 18:19:53",
   "today_global": [
     {
       "id": 1168190,
@@ -17,7 +17,7 @@
       "title": "奇迹人",
       "type": "tv",
       "genreTitle": "喜剧•剧情",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-01-27",
       "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/vTSGKFCwIKVM1ipceHZTzZJNZKz.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
-      "id": 1198994,
-      "title": "荒岛求救",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "　　当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
-    },
-    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -88,6 +77,17 @@
       "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
       "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "荒岛求救",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "　　当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
       "id": 106379,
@@ -160,11 +160,44 @@
       "title": "Melania",
       "type": "movie",
       "genreTitle": "纪录",
-      "rating": 2.7,
+      "rating": 2.6,
       "release_date": "2026-01-30",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/ba6Silct0Y4pyvrSv0Tj0Urmx9f.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2eWJiUN5NwiTDzVGAsFTXEIG76z.jpg"
+    },
+    {
+      "id": 1306368,
+      "title": "全信没收",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-01-13",
+      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
+      "poster_url": "https://image.tmdb.org/t/p/original/icXEintMlPvKGxCskYRzwd66Oc7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
+    },
+    {
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+    },
+    {
+      "id": 1236153,
+      "title": "极限审判",
+      "type": "movie",
+      "genreTitle": "科幻•动作•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-01-19",
+      "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
     },
     {
       "id": 801937,
@@ -187,39 +220,6 @@
       "overview": "吉米在担当爸爸、朋友和心理治疗师的同时，还要痛苦地哀悼亡妻。他决定尝试一种新的方式来对待所遇到的每一个人：毫不留情地直话直说。他能通过助人来助己吗？这能让他的人生恢复光明吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/rmKIFxoBNHQBtsux2Pjob6AP3rl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/k8aCatZeJTdwl26utChphKwqVrS.jpg"
-    },
-    {
-      "id": 1306368,
-      "title": "全信没收",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.1,
-      "release_date": "2026-01-13",
-      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
-      "poster_url": "https://image.tmdb.org/t/p/original/icXEintMlPvKGxCskYRzwd66Oc7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
-    },
-    {
-      "id": 1236153,
-      "title": "极限审判",
-      "type": "movie",
-      "genreTitle": "科幻•动作•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-01-19",
-      "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     }
   ],
   "week_global_all": [
@@ -228,7 +228,7 @@
       "title": "特工迷阵",
       "type": "movie",
       "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.4,
+      "rating": 6.3,
       "release_date": "2026-01-28",
       "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
@@ -246,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
     },
     {
+      "id": 198178,
+      "title": "奇迹人",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 6.8,
+      "release_date": "2026-01-27",
+      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vTSGKFCwIKVM1ipceHZTzZJNZKz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -255,28 +266,6 @@
       "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "poster_url": "https://image.tmdb.org/t/p/original/fqUJHyzHtchLlpsMpfht7GyCTnK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
-    },
-    {
-      "id": 198178,
-      "title": "奇迹人",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 6.7,
-      "release_date": "2026-01-27",
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vTSGKFCwIKVM1ipceHZTzZJNZKz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
-    },
-    {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.5,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
       "id": 106379,
@@ -290,15 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 1198994,
-      "title": "荒岛求救",
+      "id": 840464,
+      "title": "末日逃生2：迁移",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "　　当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.5,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
       "id": 95479,
@@ -321,6 +310,17 @@
       "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
       "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "荒岛求救",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "　　当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
       "id": 1306368,
@@ -356,6 +356,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
     },
     {
+      "id": 1291608,
+      "title": "征服者",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.8,
+      "release_date": "2025-12-05",
+      "overview": "2000年代初，一名卧底特务潜入喀拉蚩的黑社会，打进权力核心，只为从内部瓦解暴力网络。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
+    },
+    {
       "id": 1236153,
       "title": "极限审判",
       "type": "movie",
@@ -378,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
-      "id": 224372,
-      "title": "七王国的骑士",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.1,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
       "id": 1443762,
       "title": "伪术奇才",
       "type": "movie",
@@ -400,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hbGZ0dBaLFxCuk1mamsyEq5eRKP.jpg"
     },
     {
+      "id": 224372,
+      "title": "七王国的骑士",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
+    },
+    {
       "id": 209867,
       "title": "葬送的芙莉莲",
       "type": "tv",
@@ -409,17 +420,6 @@
       "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
       "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
-      "id": 1291608,
-      "title": "征服者",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.8,
-      "release_date": "2025-12-05",
-      "overview": "2000年代初，一名卧底特务潜入喀拉蚩的黑社会，打进权力核心，只为从内部瓦解暴力网络。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
     },
     {
       "id": 254071,
