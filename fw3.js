@@ -1,6 +1,6 @@
 WidgetMetadata = {
     id: "anime_tracker_combo",
-    title: "动漫追踪器组合版",
+    title: "trakt&amine",
     author: "sax",
     description: "整合版：Trakt 追剧 + 五大动漫榜单（B站/Bangumi/TMDB/AniList/MAL）",
     version: "2.0.0",
