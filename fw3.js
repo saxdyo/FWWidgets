@@ -148,7 +148,7 @@ WidgetMetadata = {
         // 模块 4: AniList 流行榜
         // ===========================================
         {
-            title: "🌐 AniList 流行榜",
+            title: " AniList 流行榜",
             functionName: "loadAniListRanking",
             type: "list",
             cacheDuration: 7200,
