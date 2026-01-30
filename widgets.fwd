@@ -1,0 +1,25 @@
+{
+  "title": "sax",
+  "description": "TMDB&Trakt&Amine",
+  "icon": "https://github.com/saxdyo/FWWidgets/blob/main/1cd480910a2793873e3e4f56818f9968.png",
+  "widgets": [
+    {
+      "id": "forward.combined.media.lists.v2",
+      "title": "𝚃𝙼𝙳𝙱",
+      "description": "𝚃𝙼𝙳𝙱。",
+      "requiredVersion": "1.1.1",
+      "version": "1.1.1",
+      "author": "sax",
+      "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw2.js"
+    },
+    {
+      "id": "anime_tracker_combo",
+      "title": "trakt&amine",
+      "description": "trakt&amine",
+      "requiredVersion": "1.1.1",
+      "version": "1.1.1",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw3.js"
+    }
+  ]
+}
