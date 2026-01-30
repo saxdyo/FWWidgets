@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31 00:22:41",
+  "last_updated": "2026-01-31 01:22:58",
   "today_global": [
     {
       "id": 1168190,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
     },
     {
-      "id": 91239,
-      "title": "布里杰顿家族",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2020-12-25",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -55,6 +44,17 @@
       "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "poster_url": "https://image.tmdb.org/t/p/original/fqUJHyzHtchLlpsMpfht7GyCTnK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 91239,
+      "title": "布里杰顿家族",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.1,
+      "release_date": "2020-12-25",
+      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
+      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
     },
     {
       "id": 1291608,
@@ -101,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
+      "id": 1602705,
+      "title": "致我的青春",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 8.0,
+      "release_date": "2026-01-29",
+      "overview": "这是一个关于和解与疗愈的故事。主人公（由 Fedi Nuril 饰演）偶然发现了一封自己在多年前写给未来的信。这封信唤醒了他对青春时代的记忆，迫使他重新审视那些曾经被遗忘的梦想、错过的爱情以及至今未解的心结。在现在的他与过去的自己进行跨时空“对话”的过程中，他试图原谅当年的错误，并从回忆中汲取力量，去拥抱当下的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7bgnGJxHjysPtIAvpqoxFDWHHlY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/41ep9kAEosmHFVxF9ik0HD4ff91.jpg"
+    },
+    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -112,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 1602705,
-      "title": "致我的青春",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 8.0,
-      "release_date": "2026-01-29",
-      "overview": "这是一个关于和解与疗愈的故事。主人公（由 Fedi Nuril 饰演）偶然发现了一封自己在多年前写给未来的信。这封信唤醒了他对青春时代的记忆，迫使他重新审视那些曾经被遗忘的梦想、错过的爱情以及至今未解的心结。在现在的他与过去的自己进行跨时空“对话”的过程中，他试图原谅当年的错误，并从回忆中汲取力量，去拥抱当下的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7bgnGJxHjysPtIAvpqoxFDWHHlY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/41ep9kAEosmHFVxF9ik0HD4ff91.jpg"
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 250307,
@@ -138,7 +149,7 @@
       "title": "平安夜，杀人夜",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 6.1,
+      "rating": 6.2,
       "release_date": "2025-12-11",
       "overview": "Cineverse制作新版《平安夜，杀人夜》，计划于2025年底上院线。",
       "poster_url": "https://image.tmdb.org/t/p/original/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
@@ -156,28 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
     },
     {
-      "id": 282558,
-      "title": "生命树",
-      "type": "tv",
-      "genreTitle": "",
-      "rating": 9.0,
-      "release_date": "2026-01-30",
-      "overview": "上世纪九十年代，青海高原上的拉曲县高度依赖农牧业，其周边的无人区博拉木拉富含矿产和野生动物资源，大量的盗猎盗采分子为牟取暴利滥采滥杀。拉曲县副县长多杰在县长林培生的支持下成立了巡山队，起初是为脱贫在无人区探矿，眼见藏羚羊被屠杀的惨状后，多杰将一切都倾注在环保上。而巡山队里的青年女警白菊成了多杰命定的变数，她是援藏医生张勤勤收养的遗孤，是白家敢闯敢拼的小女儿。枪法过人的白菊与巡山队队员们成了莫逆之交，与报社记者邵云飞相爱，众志成城以建立自然保护区，却在功成前夕经历了领袖多杰的失踪和巡山队的解散。十多年过去，博拉木拉重获宁静，煤矿盗采问题却让开发和环保的天平再次失衡，白菊与昔日爱人、旧友和手足家人重聚首，在新时代的环保路上一并追查着多杰失踪的真相，最终还英雄以清名，继续守护着青藏高原的绿水蓝天。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ddgXqCBhU3opPoKoWAuHzNfOU8o.jpg"
-    },
-    {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
       "id": 273160,
       "title": "美丽毒素",
       "type": "tv",
@@ -187,6 +176,17 @@
       "overview": "国际超模接连以骇人听闻的诡异方式惨死，两名FBI探员奉命前往巴黎、威尼斯、罗马和纽约，誓言揭开离奇死亡背后的真相，却意外发现一桩威胁到全人类未来的阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/gh5XBBjNTIfjfeDLuzPRDW7RFUS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oWUsAwIzGm6GTK6USR4QXEgAmcc.jpg"
+    },
+    {
+      "id": 282558,
+      "title": "生命树",
+      "type": "tv",
+      "genreTitle": "",
+      "rating": 9.0,
+      "release_date": "2026-01-30",
+      "overview": "上世纪九十年代，青海高原上的拉曲县高度依赖农牧业，其周边的无人区博拉木拉富含矿产和野生动物资源，大量的盗猎盗采分子为牟取暴利滥采滥杀。拉曲县副县长多杰在县长林培生的支持下成立了巡山队，起初是为脱贫在无人区探矿，眼见藏羚羊被屠杀的惨状后，多杰将一切都倾注在环保上。而巡山队里的青年女警白菊成了多杰命定的变数，她是援藏医生张勤勤收养的遗孤，是白家敢闯敢拼的小女儿。枪法过人的白菊与巡山队队员们成了莫逆之交，与报社记者邵云飞相爱，众志成城以建立自然保护区，却在功成前夕经历了领袖多杰的失踪和巡山队的解散。十多年过去，博拉木拉重获宁静，煤矿盗采问题却让开发和环保的天平再次失衡，白菊与昔日爱人、旧友和手足家人重聚首，在新时代的环保路上一并追查着多杰失踪的真相，最终还英雄以清名，继续守护着青藏高原的绿水蓝天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ddgXqCBhU3opPoKoWAuHzNfOU8o.jpg"
     },
     {
       "id": 66732,
@@ -200,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
-      "id": 1116201,
-      "title": "铁肺",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻",
-      "rating": 7.7,
-      "release_date": "2026-01-30",
-      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7X1VkuBg2LaT7yLkj0avzGcX2VN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
-    },
-    {
       "id": 1167307,
       "title": "大卫",
       "type": "movie",
@@ -220,6 +209,17 @@
       "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。",
       "poster_url": "https://image.tmdb.org/t/p/original/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
+    },
+    {
+      "id": 1116201,
+      "title": "铁肺",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻",
+      "rating": 7.6,
+      "release_date": "2026-01-30",
+      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7X1VkuBg2LaT7yLkj0avzGcX2VN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     }
   ],
   "week_global_all": [
@@ -290,26 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 91239,
-      "title": "布里杰顿家族",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2020-12-25",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
-    },
-    {
-      "id": 1198994,
-      "title": "荒岛求救",
+      "id": 1291608,
+      "title": "征服者",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "　　当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
+      "genreTitle": "动作•惊悚",
+      "rating": 6.8,
+      "release_date": "2025-12-05",
+      "overview": "2000年代初，一名卧底特务潜入喀拉蚩的黑社会，打进权力核心，只为从内部瓦解暴力网络。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
     },
     {
       "id": 95479,
@@ -323,26 +312,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 1291608,
-      "title": "征服者",
+      "id": 1198994,
+      "title": "荒岛求救",
       "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.8,
-      "release_date": "2025-12-05",
-      "overview": "2000年代初，一名卧底特务潜入喀拉蚩的黑社会，打进权力核心，只为从内部瓦解暴力网络。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "　　当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
-      "id": 1306368,
-      "title": "全信没收",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.1,
-      "release_date": "2026-01-13",
-      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
-      "poster_url": "https://image.tmdb.org/t/p/original/icXEintMlPvKGxCskYRzwd66Oc7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
+      "id": 91239,
+      "title": "布里杰顿家族",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.1,
+      "release_date": "2020-12-25",
+      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
+      "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
     },
     {
       "id": 209867,
@@ -356,6 +345,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
+      "id": 1306368,
+      "title": "全信没收",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-01-13",
+      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
+      "poster_url": "https://image.tmdb.org/t/p/original/icXEintMlPvKGxCskYRzwd66Oc7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
+    },
+    {
       "id": 1575337,
       "title": "超时空辉夜姬!",
       "type": "movie",
@@ -367,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
     },
     {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
       "id": 1317288,
       "title": "至尊马蒂",
       "type": "movie",
@@ -387,6 +376,17 @@
       "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
+    },
+    {
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 66732,
@@ -411,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oWUsAwIzGm6GTK6USR4QXEgAmcc.jpg"
     },
     {
+      "id": 858024,
+      "title": "哈姆尼特",
+      "type": "movie",
+      "genreTitle": "剧情•爱情•历史",
+      "rating": 7.8,
+      "release_date": "2025-11-26",
+      "overview": "讲述了一个关于爱与失落的感人至深的故事，正是这段经历启发了莎士比亚创作出其永恒的杰作《哈姆雷特》。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wKGcgF3KS0luee7HjlzZF6hHKRH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
+    },
+    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -431,17 +442,6 @@
       "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
       "poster_url": "https://image.tmdb.org/t/p/original/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
-    },
-    {
-      "id": 1443762,
-      "title": "伪术奇才",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•剧情",
-      "rating": 6.5,
-      "release_date": "2025-10-19",
-      "overview": "1970年代，托尼来到罗马，他身无长物，只有一身绘画才华，以及成为伟大艺术家的梦想。对生活、命运甚至历史的渴望，最终让他成为史上最伟大的伪造大师，更是牵动意大利最难解谜团的核心人物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4uyZ8nTdzVrWqKunELNba3lXcc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hbGZ0dBaLFxCuk1mamsyEq5eRKP.jpg"
     }
   ],
   "popular_movies": [
