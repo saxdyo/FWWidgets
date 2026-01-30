@@ -7,10 +7,18 @@
       "id": "trakt",
       "title": "trakt&amine",
       "description": "trakt&amine。",
-      "requiredVersion": "1.1.1",
+      "requiredVersion": "0.0.1",
       "version": "1.1.1",
       "author": "saxdyo",
       "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw3.js"
-    }
+    },
+    {
+      "id": "𝚃𝙼𝙳𝙱",
+      "title": "𝚃𝙼𝙳𝙱",
+      "description": "𝚃𝙼𝙳𝙱",
+      "requiredVersion": "0.0.1",
+      "version": "1.1.1",
+      "author": "saxdyo",
+      "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw2.js"
   ]
 }
