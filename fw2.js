@@ -1,3 +1,111 @@
+// 调试配置
+const DEBUG_CONFIG = {
+  enabled: false, // 生产环境关闭调试日志
+  performance: false, // 性能监控
+  cache: false, // 缓存日志
+  network: false, // 网络请求日志
+  system: false, // 系统内部日志（如导出配置等）
+  widget: false // Widget相关日志
+};
+
+
+// 条件日志函数
+const debugLog = {
+  log: (message, ...args) => DEBUG_CONFIG.enabled && console.log(message, ...args),
+  performance: (message, ...args) => DEBUG_CONFIG.performance && console.log(message, ...args),
+  cache: (message, ...args) => DEBUG_CONFIG.cache && console.log(message, ...args),
+  network: (message, ...args) => DEBUG_CONFIG.network && console.log(message, ...args),
+  system: (message, ...args) => DEBUG_CONFIG.system && console.log(message, ...args),
+  widget: (message, ...args) => DEBUG_CONFIG.widget && console.log(message, ...args),
+  warn: (message, ...args) => console.warn(message, ...args), // 警告始终显示
+  error: (message, ...args) => console.error(message, ...args) // 错误始终显示
+};
+
+// 性能监控工具（简化版）
+const performanceMonitor = {
+  stats: {
+    totalRequests: 0,
+    cachedRequests: 0,
+    totalTime: 0
+  },
+  
+  start: function(moduleName) {
+    const startTime = Date.now();
+    const self = this;
+    return function() {
+      const duration = Date.now() - startTime;
+      self.stats.totalTime += duration;
+      debugLog.performance(`📊 ${moduleName} 执行耗时: ${duration}ms`);
+    };
+  },
+  
+  recordRequest: function(type) {
+    this.stats.totalRequests++;
+    if (type === 'cached') this.stats.cachedRequests++;
+  },
+  
+  getStats: function() {
+    const cacheHitRate = this.stats.totalRequests > 0 ? 
+      (this.stats.cachedRequests / this.stats.totalRequests * 100).toFixed(1) : 0;
+    
+    return {
+      totalRequests: this.stats.totalRequests,
+      cachedRequests: this.stats.cachedRequests,
+      cacheHitRate: `${cacheHitRate}%`,
+      avgTime: this.stats.totalRequests > 0 ? 
+        (this.stats.totalTime / this.stats.totalRequests).toFixed(1) : 0
+    };
+  },
+  
+  logStats: function() {
+    const stats = this.getStats();
+    debugLog.performance('📊 性能统计:', stats);
+  },
+  
+  exportStats: function() {
+    return this.getStats();
+  }
+};
+
+// 数据质量监控（不影响现有功能）
+const dataQualityMonitor = (data, moduleName) => {
+  if (!Array.isArray(data)) return data;
+  
+  const stats = {
+    total: data.length,
+    withPoster: data.filter(item => item.posterPath).length,
+    withRating: data.filter(item => item.rating && item.rating !== '0.0').length,
+    withDate: data.filter(item => item.releaseDate).length
+  };
+  
+  debugLog.log(`📊 ${moduleName} 数据质量:`, stats);
+  return data; // 返回原数据，不修改
+};
+
+// 静默数据验证（不影响现有功能）
+const silentDataValidation = (items, moduleName) => {
+  if (!Array.isArray(items)) return items;
+  
+  let validCount = 0;
+  let invalidCount = 0;
+  
+  items.forEach((item, index) => {
+    if (!item || !item.id || !item.title) {
+      invalidCount++;
+      if (index < 3) { // 只记录前3个无效项，避免日志过多
+        debugLog.warn(`⚠️ ${moduleName} 数据项 ${index} 验证失败:`, item);
+      }
+    } else {
+      validCount++;
+    }
+  });
+  
+  if (invalidCount > 0) {
+    debugLog.log(`📊 ${moduleName} 数据验证: ${validCount}个有效, ${invalidCount}个无效`);
+  }
+  
+  return items; // 返回原数据，不修改
+};
 
 var WidgetMetadata = {
   id: "forward.combined.media.lists.v2",
