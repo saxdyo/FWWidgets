@@ -1,25 +1,27 @@
-{
-  "title": "sax",
-  "description": "TMDB&Trakt&Amine",
-  "icon": "https://github.com/saxdyo/FWWidgets/blob/main/1cd480910a2793873e3e4f56818f9968.png",
-  "widgets": [
+[
     {
-      "id": "forward.combined.media.lists.v2",
-      "title": "𝚃𝙼𝙳𝙱",
-      "description": "𝚃𝙼𝙳𝙱。",
-      "requiredVersion": "1.1.1",
-      "version": "1.1.1",
-      "author": "sax",
-      "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw2.js"
-    },
-    {
-      "id": "anime_tracker_combo",
-      "title": "trakt&amine",
-      "description": "整合版：Trakt 追剧 + 五大动漫榜单（B站/Bangumi/TMDB/AniList/MAL）",
-      "requiredVersion": "0.0.1",
-      "version": "2.0.0",
-      "author": "sax",
-      "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw3.js"
+        "title": "动漫追踪器组合版",
+        "description": "一站式动漫聚合工具：整合动漫榜单与Trakt追剧功能",
+        "icon": "https://github.com/saxdyo/FWWidgets/blob/main/1cd480910a2793873e3e4f56818f9968.png", // 您可以在仓库中添加图标文件
+        "widgets": [
+            {
+                "id": "anime_rankings_combo",
+                "title": "二次元动漫聚合",
+                "description": "一站式聚合多平台动漫榜单（B站/Bangumi/TMDB/AniList/MAL）",
+                "requiredVersion": "0.0.1",
+                "version": "2.2.1",
+                "author": "saxdyo",
+                "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw2.js"
+            },
+            {
+                "id": "trakt_personal_key",
+                "title": "Trakt追剧日历免key版",
+                "description": "内置Key版：只需填写用户名即可使用。显示追剧日历、待看、收藏及历史记录",
+                "requiredVersion": "0.0.1",
+                "version": "1.0.7",
+                "author": "saxdyo",
+                "url": "https://raw.githubusercontent.com/saxdyo/FWWidgets/refs/heads/main/fw3.js"
+            }
+        ]
     }
-  ]
-}
+]
