@@ -23,7 +23,7 @@ WidgetMetadata = {
         // 模块 0: Trakt 个人追剧 (可选)
         // ===========================================
         {
-            title: "📅 Trakt 追剧日历",
+            title: " Trakt 追剧日历",
             functionName: "loadTraktProfile",
             type: "list",
             cacheDuration: 300,
@@ -72,7 +72,7 @@ WidgetMetadata = {
         // 模块 1: Bilibili 热榜
         // ===========================================
         {
-            title: "📺 Bilibili 热榜",
+            title: " Bilibili 热榜",
             functionName: "loadBilibiliRank",
             type: "list",
             cacheDuration: 1800,
@@ -95,7 +95,7 @@ WidgetMetadata = {
         // 模块 2: Bangumi 放送表
         // ===========================================
         {
-            title: "📅 Bangumi 追番日历",
+            title: " Bangumi 追番日历",
             functionName: "loadBangumiCalendar",
             type: "list",
             cacheDuration: 3600,
@@ -124,7 +124,7 @@ WidgetMetadata = {
         // 模块 3: TMDB 原生榜单
         // ===========================================
         {
-            title: "🎬 TMDB 热门/新番",
+            title: " TMDB 热门/新番",
             functionName: "loadTmdbAnimeRanking",
             type: "list",
             cacheDuration: 3600,
@@ -172,7 +172,7 @@ WidgetMetadata = {
         // 模块 5: MAL 权威榜单
         // ===========================================
         {
-            title: "🏆 MAL 权威榜单",
+            title: " MAL 权威榜单",
             functionName: "loadMalRanking",
             type: "list",
             cacheDuration: 7200,
