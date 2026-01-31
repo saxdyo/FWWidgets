@@ -113,6 +113,7 @@ var WidgetMetadata = {
           title: "追剧模式",
           type: "enumeration",
           value: "future_first",
+          description: "选择排序方式",
           belongTo: { paramName: "section", value: ["updates"] },
           enumOptions: [
             { title: " 从今天往后", value: "future_first" },
@@ -137,6 +138,7 @@ var WidgetMetadata = {
           name: "type",
           title: "榜单分区",
           type: "enumeration",
+          description: "选择排序方式",
           value: "1",
           enumOptions: [
             { title: "📺 B站番剧 (日漫)", value: "1" },
@@ -160,6 +162,7 @@ var WidgetMetadata = {
           name: "weekday",
           title: "选择日期",
           type: "enumeration",
+          description: "选择排序方式",
           value: "today",
           enumOptions: [
             { title: " 今日更新", value: "today" },
@@ -189,6 +192,7 @@ var WidgetMetadata = {
           name: "sort",
           title: "榜单类型",
           type: "enumeration",
+          description: "选择排序方式",
           value: "trending",
           enumOptions: [
             { title: " 实时流行 (Trending)", value: "trending" },
@@ -213,6 +217,7 @@ var WidgetMetadata = {
           name: "sort",
           title: "排序方式",
           type: "enumeration",
+          description: "选择排序方式",
           value: "TRENDING_DESC",
           enumOptions: [
             { title: " 近期趋势 (Trending)", value: "TRENDING_DESC" },
@@ -237,6 +242,7 @@ var WidgetMetadata = {
           name: "filter",
           title: "榜单类型",
           type: "enumeration",
+          description: "选择排序方式",
           value: "airing",
           enumOptions: [
             { title: " 当前热播 Top", value: "airing" },
