@@ -143,6 +143,16 @@ var WidgetMetadata = {
             { title: "🇨🇳 B站国创 (国漫)", value: "4" }
           ]
         },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          value: "1",
+          enumOptions: [
+            { title: "📺 B站番剧 (日漫)", value: "1" },
+            { title: "🇨🇳 B站国创 (国漫)", value: "4" }
+          ]
+        },
         { name: "page", title: "页码", type: "page" }
       ]
     },
@@ -159,6 +169,22 @@ var WidgetMetadata = {
         {
           name: "weekday",
           title: "选择日期",
+          type: "enumeration",
+          value: "today",
+          enumOptions: [
+            { title: " 今日更新", value: "today" },
+            { title: "周一 (月)", value: "1" },
+            { title: "周二 (火)", value: "2" },
+            { title: "周三 (水)", value: "3" },
+            { title: "周四 (木)", value: "4" },
+            { title: "周五 (金)", value: "5" },
+            { title: "周六 (土)", value: "6" },
+            { title: "周日 (日)", value: "7" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
           type: "enumeration",
           value: "today",
           enumOptions: [
@@ -196,6 +222,17 @@ var WidgetMetadata = {
             { title: " 高分神作 (Top Rated)", value: "top" }
           ]
         },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          value: "trending",
+          enumOptions: [
+            { title: " 实时流行 (Trending)", value: "trending" },
+            { title: " 最新首播 (New)", value: "new" },
+            { title: " 高分神作 (Top Rated)", value: "top" }}
+          ]
+        },
         { name: "page", title: "页码", type: "page" }
       ]
     },
@@ -212,6 +249,17 @@ var WidgetMetadata = {
         {
           name: "sort",
           title: "排序方式",
+          type: "enumeration",
+          value: "TRENDING_DESC",
+          enumOptions: [
+            { title: " 近期趋势 (Trending)", value: "TRENDING_DESC" },
+            { title: " 历史人气 (Popularity)", value: "POPULARITY_DESC" },
+            { title: " 评分最高 (Score)", value: "SCORE_DESC" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "客户端排序",
           type: "enumeration",
           value: "TRENDING_DESC",
           enumOptions: [
@@ -243,6 +291,18 @@ var WidgetMetadata = {
             { title: " 历史总榜 Top", value: "all" },
             { title: " 最佳剧场版", value: "movie" },
             { title: " 即将上映", value: "upcoming" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          value: "airing",
+          enumOptions: [
+            { title: " 当前热播 Top", value: "airing" },
+            { title: " 历史总榜 Top", value: "all" },
+            { title: " 最佳剧场版", value: "movie" },
+            { title: " 即将上映", value: "upcoming" }}
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -1446,7 +1506,7 @@ function getItemTime(item, section) {
 // =========================================================================
 
 async function loadBilibiliRank(params = {}) {
-  const { type = "1", page = 1 } = params;
+  const { type = "1", sort_by = "default", page = 1 } = params;
   const url = `https://api.bilibili.com/pgc/web/rank/list?day=3&season_type=${type}`;
   
   try {
@@ -1473,23 +1533,53 @@ async function loadBilibiliRank(params = {}) {
       const tmdbItem = await searchTmdbBestMatch(cleanName, item.title);
       if (!tmdbItem || !tmdbItem.id) return null;
 
-      return buildAnimeItem({
-        id: tmdbItem.id,
-        tmdbId: parseInt(tmdbItem.id),
-        type: "tv",
-        title: tmdbItem.name || tmdbItem.title || cleanName,
-        year: (tmdbItem.first_air_date || "").substring(0, 4),
-        poster: tmdbItem.poster_path,
-        backdrop: tmdbItem.backdrop_path,
-        rating: tmdbItem.vote_average,
-        genreText: getGenreText(tmdbItem.genre_ids),
-        subTitle: `No.${rank} • ${item.new_ep?.index_show || "热播"}`,
-        desc: tmdbItem.overview || item.desc || ""
-      });
+      return {
+        ...buildAnimeItem({
+          id: tmdbItem.id,
+          tmdbId: parseInt(tmdbItem.id),
+          type: "tv",
+          title: tmdbItem.name || tmdbItem.title || cleanName,
+          year: (tmdbItem.first_air_date || "").substring(0, 4),
+          poster: tmdbItem.poster_path,
+          backdrop: tmdbItem.backdrop_path,
+          rating: tmdbItem.vote_average,
+          genreText: getGenreText(tmdbItem.genre_ids),
+          subTitle: `No.${rank} • ${item.new_ep?.index_show || "热播"}`,
+          desc: tmdbItem.overview || item.desc || ""
+        }),
+        _sortData: {
+          rank: rank,
+          rating: tmdbItem.vote_average || 0,
+          popularity: tmdbItem.popularity || 0
+        }
+      };
     });
 
-    const results = await Promise.all(promises);
-    return results.filter(Boolean);
+    let results = await Promise.all(promises);
+    results = results.filter(Boolean);
+    
+    // 应用排序
+    if (sort_by !== "default") {
+      results.sort((a, b) => {
+        switch (sort_by) {
+          case "rating_desc":
+            return b._sortData.rating - a._sortData.rating;
+          case "rating_asc":
+            return a._sortData.rating - b._sortData.rating;
+          case "popularity_desc":
+            return b._sortData.popularity - a._sortData.popularity;
+          case "popularity_asc":
+            return a._sortData.popularity - b._sortData.popularity;
+          default:
+            return 0;
+        }
+      });
+    }
+    
+    // 删除排序辅助数据
+    results.forEach(item => delete item._sortData);
+    
+    return results;
 
   } catch (e) { 
     console.error("Bilibili 错误:", e);
@@ -1502,7 +1592,7 @@ async function loadBilibiliRank(params = {}) {
 // =========================================================================
 
 async function loadBangumiCalendar(params = {}) {
-  const { weekday = "today", page = 1 } = params;
+  const { weekday = "today", sort_by = "default", page = 1 } = params;
   const pageSize = 20;
 
   let targetDayId = parseInt(weekday);
@@ -1531,23 +1621,56 @@ async function loadBangumiCalendar(params = {}) {
 
       if (!tmdbItem || !tmdbItem.id) return null;
 
-      return buildAnimeItem({
-        id: tmdbItem.id,
-        tmdbId: parseInt(tmdbItem.id),
-        type: "tv",
-        title: tmdbItem.name || tmdbItem.title || cnTitle,
-        year: (tmdbItem.first_air_date || "").substring(0, 4),
-        poster: tmdbItem.poster_path,
-        backdrop: tmdbItem.backdrop_path,
-        rating: item.rating?.score || tmdbItem.vote_average,
-        genreText: getGenreText(tmdbItem.genre_ids),
-        subTitle: `${dayName} • ${item.air_date || "更新"}`,
-        desc: tmdbItem.overview || item.summary || ""
-      });
+      return {
+        ...buildAnimeItem({
+          id: tmdbItem.id,
+          tmdbId: parseInt(tmdbItem.id),
+          type: "tv",
+          title: tmdbItem.name || tmdbItem.title || cnTitle,
+          year: (tmdbItem.first_air_date || "").substring(0, 4),
+          poster: tmdbItem.poster_path,
+          backdrop: tmdbItem.backdrop_path,
+          rating: item.rating?.score || tmdbItem.vote_average,
+          genreText: getGenreText(tmdbItem.genre_ids),
+          subTitle: `${dayName} • ${item.air_date || "更新"}`,
+          desc: tmdbItem.overview || item.summary || ""
+        }),
+        _sortData: {
+          tmdb_rating: tmdbItem.vote_average || 0,
+          bgm_rating: item.rating?.score || 0,
+          year: parseInt((tmdbItem.first_air_date || "0000").substring(0, 4))
+        }
+      };
     });
 
-    const results = await Promise.all(promises);
-    return results.filter(Boolean);
+    let results = await Promise.all(promises);
+    results = results.filter(Boolean);
+    
+    // 应用排序
+    if (sort_by !== "default") {
+      results.sort((a, b) => {
+        switch (sort_by) {
+          case "tmdb_rating_desc":
+            return b._sortData.tmdb_rating - a._sortData.tmdb_rating;
+          case "tmdb_rating_asc":
+            return a._sortData.tmdb_rating - b._sortData.tmdb_rating;
+          case "bgm_rating_desc":
+            return b._sortData.bgm_rating - a._sortData.bgm_rating;
+          case "bgm_rating_asc":
+            return a._sortData.bgm_rating - b._sortData.bgm_rating;
+          case "year_desc":
+            return b._sortData.year - a._sortData.year;
+          case "year_asc":
+            return a._sortData.year - b._sortData.year;
+          default:
+            return 0;
+        }
+      });
+    }
+    
+    results.forEach(item => delete item._sortData);
+    
+    return results;
   } catch (e) { 
     console.error("Bangumi 错误:", e);
     return [{ id: "err", type: "text", title: "Bangumi 连接失败" }]; 
@@ -1559,7 +1682,7 @@ async function loadBangumiCalendar(params = {}) {
 // =========================================================================
 
 async function loadTmdbAnimeRanking(params = {}) {
-  const { sort = "trending", page = 1 } = params;
+  const { sort = "trending", sort_by = "default", page = 1 } = params;
   
   let queryParams = {
     language: "zh-CN",
@@ -1591,21 +1714,59 @@ async function loadTmdbAnimeRanking(params = {}) {
     const data = res || {};
     if (!data.results) return [];
 
-    return data.results.map(item => {
-      return buildAnimeItem({
-        id: item.id,
-        tmdbId: item.id,
-        type: "tv",
-        title: item.name || item.title || "",
-        year: (item.first_air_date || "").substring(0, 4),
-        poster: item.poster_path,
-        backdrop: item.backdrop_path,
-        rating: item.vote_average,
-        genreText: getGenreText(item.genre_ids),
-        subTitle: `TMDB Hot ${Math.round(item.popularity)}`,
-        desc: item.overview || ""
-      });
+    let results = data.results.map(item => {
+      return {
+        ...buildAnimeItem({
+          id: item.id,
+          tmdbId: item.id,
+          type: "tv",
+          title: item.name || item.title || "",
+          year: (item.first_air_date || "").substring(0, 4),
+          poster: item.poster_path,
+          backdrop: item.backdrop_path,
+          rating: item.vote_average,
+          genreText: getGenreText(item.genre_ids),
+          subTitle: `TMDB Hot ${Math.round(item.popularity)}`,
+          desc: item.overview || ""
+        }),
+        _sortData: {
+          rating: item.vote_average || 0,
+          popularity: item.popularity || 0,
+          vote_count: item.vote_count || 0,
+          release_date: item.first_air_date || "1970-01-01"
+        }
+      };
     });
+    
+    // 应用客户端排序
+    if (sort_by !== "default") {
+      results.sort((a, b) => {
+        switch (sort_by) {
+          case "rating_desc":
+            return b._sortData.rating - a._sortData.rating;
+          case "rating_asc":
+            return a._sortData.rating - b._sortData.rating;
+          case "popularity_desc":
+            return b._sortData.popularity - a._sortData.popularity;
+          case "popularity_asc":
+            return a._sortData.popularity - b._sortData.popularity;
+          case "vote_count_desc":
+            return b._sortData.vote_count - a._sortData.vote_count;
+          case "vote_count_asc":
+            return a._sortData.vote_count - b._sortData.vote_count;
+          case "date_desc":
+            return new Date(b._sortData.release_date) - new Date(a._sortData.release_date);
+          case "date_asc":
+            return new Date(a._sortData.release_date) - new Date(b._sortData.release_date);
+          default:
+            return 0;
+        }
+      });
+    }
+    
+    results.forEach(item => delete item._sortData);
+    
+    return results;
   } catch (e) { 
     console.error("TMDB 榜单错误:", e);
     return [{ id: "err", type: "text", title: "TMDB 连接失败" }]; 
@@ -1617,7 +1778,7 @@ async function loadTmdbAnimeRanking(params = {}) {
 // =========================================================================
 
 async function loadAniListRanking(params = {}) {
-  const { sort = "TRENDING_DESC", page = 1 } = params;
+  const { sort = "TRENDING_DESC", sort_by = "default", page = 1 } = params;
   const perPage = 20;
 
   const query = `
@@ -1654,23 +1815,56 @@ async function loadAniListRanking(params = {}) {
 
       if (!tmdbItem || !tmdbItem.id) return null;
 
-      return buildAnimeItem({
-        id: tmdbItem.id,
-        tmdbId: parseInt(tmdbItem.id),
-        type: "tv",
-        title: tmdbItem.name || tmdbItem.title || searchQ,
-        year: String(media.seasonYear || (tmdbItem.first_air_date || "").substring(0, 4)),
-        poster: tmdbItem.poster_path,
-        backdrop: tmdbItem.backdrop_path,
-        rating: (media.averageScore / 10).toFixed(1),
-        genreText: getGenreText(tmdbItem.genre_ids),
-        subTitle: `AniList ${(media.averageScore / 10).toFixed(1)}`,
-        desc: tmdbItem.overview || media.description || ""
-      });
+      return {
+        ...buildAnimeItem({
+          id: tmdbItem.id,
+          tmdbId: parseInt(tmdbItem.id),
+          type: "tv",
+          title: tmdbItem.name || tmdbItem.title || searchQ,
+          year: String(media.seasonYear || (tmdbItem.first_air_date || "").substring(0, 4)),
+          poster: tmdbItem.poster_path,
+          backdrop: tmdbItem.backdrop_path,
+          rating: (media.averageScore / 10).toFixed(1),
+          genreText: getGenreText(tmdbItem.genre_ids),
+          subTitle: `AniList ${(media.averageScore / 10).toFixed(1)}`,
+          desc: tmdbItem.overview || media.description || ""
+        }),
+        _sortData: {
+          tmdb_rating: tmdbItem.vote_average || 0,
+          anilist_score: media.averageScore || 0,
+          year: media.seasonYear || 0
+        }
+      };
     });
 
-    const results = await Promise.all(promises);
-    return results.filter(Boolean);
+    let results = await Promise.all(promises);
+    results = results.filter(Boolean);
+    
+    // 应用客户端排序
+    if (sort_by !== "default") {
+      results.sort((a, b) => {
+        switch (sort_by) {
+          case "tmdb_rating_desc":
+            return b._sortData.tmdb_rating - a._sortData.tmdb_rating;
+          case "tmdb_rating_asc":
+            return a._sortData.tmdb_rating - b._sortData.tmdb_rating;
+          case "anilist_score_desc":
+            return b._sortData.anilist_score - a._sortData.anilist_score;
+          case "anilist_score_asc":
+            return a._sortData.anilist_score - b._sortData.anilist_score;
+          case "year_desc":
+            return b._sortData.year - a._sortData.year;
+          case "year_asc":
+            return a._sortData.year - b._sortData.year;
+          default:
+            return 0;
+        }
+      });
+    }
+    
+    results.forEach(item => delete item._sortData);
+    
+    return results;
   } catch (e) { 
     console.error("AniList 错误:", e);
     return [{ id: "err", type: "text", title: "AniList 连接失败" }]; 
@@ -1682,7 +1876,7 @@ async function loadAniListRanking(params = {}) {
 // =========================================================================
 
 async function loadMalRanking(params = {}) {
-  const { filter = "airing", page = 1 } = params;
+  const { filter = "airing", sort_by = "default", page = 1 } = params;
   const baseUrl = "https://api.jikan.moe/v4/top/anime";
   let apiParams = { page: page };
   
@@ -1702,23 +1896,56 @@ async function loadMalRanking(params = {}) {
 
       if (!tmdbItem || !tmdbItem.id) return null;
 
-      return buildAnimeItem({
-        id: tmdbItem.id,
-        tmdbId: parseInt(tmdbItem.id),
-        type: item.type === "Movie" ? "movie" : "tv",
-        title: tmdbItem.name || tmdbItem.title || searchQ,
-        year: String(item.year || (tmdbItem.first_air_date || "").substring(0, 4)),
-        poster: tmdbItem.poster_path,
-        backdrop: tmdbItem.backdrop_path,
-        rating: item.score || 0,
-        genreText: getGenreText(tmdbItem.genre_ids),
-        subTitle: `MAL ${item.score || "-"}`,
-        desc: tmdbItem.overview || item.synopsis || ""
-      });
+      return {
+        ...buildAnimeItem({
+          id: tmdbItem.id,
+          tmdbId: parseInt(tmdbItem.id),
+          type: item.type === "Movie" ? "movie" : "tv",
+          title: tmdbItem.name || tmdbItem.title || searchQ,
+          year: String(item.year || (tmdbItem.first_air_date || "").substring(0, 4)),
+          poster: tmdbItem.poster_path,
+          backdrop: tmdbItem.backdrop_path,
+          rating: item.score || 0,
+          genreText: getGenreText(tmdbItem.genre_ids),
+          subTitle: `MAL ${item.score || "-"}`,
+          desc: tmdbItem.overview || item.synopsis || ""
+        }),
+        _sortData: {
+          tmdb_rating: tmdbItem.vote_average || 0,
+          mal_score: item.score || 0,
+          year: item.year || 0
+        }
+      };
     });
 
-    const results = await Promise.all(promises);
-    return results.filter(Boolean);
+    let results = await Promise.all(promises);
+    results = results.filter(Boolean);
+    
+    // 应用客户端排序
+    if (sort_by !== "default") {
+      results.sort((a, b) => {
+        switch (sort_by) {
+          case "tmdb_rating_desc":
+            return b._sortData.tmdb_rating - a._sortData.tmdb_rating;
+          case "tmdb_rating_asc":
+            return a._sortData.tmdb_rating - b._sortData.tmdb_rating;
+          case "mal_score_desc":
+            return b._sortData.mal_score - a._sortData.mal_score;
+          case "mal_score_asc":
+            return a._sortData.mal_score - b._sortData.mal_score;
+          case "year_desc":
+            return b._sortData.year - a._sortData.year;
+          case "year_asc":
+            return a._sortData.year - b._sortData.year;
+          default:
+            return 0;
+        }
+      });
+    }
+    
+    results.forEach(item => delete item._sortData);
+    
+    return results;
   } catch (e) { 
     console.error("MAL 错误:", e);
     return [{ id: "err", type: "text", title: "MAL 连接失败" }]; 
