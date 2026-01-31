@@ -55,9 +55,9 @@ const CONFIG = {
 // =========================================================================
 var WidgetMetadata = {
   id: "media.aggregator.pro",
-  title: "媒体聚合专业版",
+  title: "TMDB",
   author: "saxdyo",
-  description: "整合Trakt、TMDB、Bilibili、Bangumi、AniList、MAL等多平台媒体信息",
+  description: "TMDB、Trakt、TMDB、Bilibili、Bangumi、AniList、MAL",
   version: "2.0.0",
   requiredVersion: "0.0.1",
   site: "https://github.com/saxdyo",
@@ -90,10 +90,10 @@ var WidgetMetadata = {
           type: "enumeration",
           value: "updates",
           enumOptions: [
-            { title: "📅 追剧日历", value: "updates" },
-            { title: "📜 待看列表", value: "watchlist" },
-            { title: "📦 收藏列表", value: "collection" },
-            { title: "🕒 观看历史", value: "history" }
+            { title: " 追剧日历", value: "updates" },
+            { title: " 待看列表", value: "watchlist" },
+            { title: " 收藏列表", value: "collection" },
+            { title: " 观看历史", value: "history" }
           ]
         },
         {
@@ -115,9 +115,9 @@ var WidgetMetadata = {
           value: "future_first",
           belongTo: { paramName: "section", value: ["updates"] },
           enumOptions: [
-            { title: "🔜 从今天往后", value: "future_first" },
-            { title: "🔄 按更新倒序", value: "air_date_desc" },
-            { title: "👁️ 按观看倒序", value: "watched_at" }
+            { title: " 从今天往后", value: "future_first" },
+            { title: " 按更新倒序", value: "air_date_desc" },
+            { title: " 按观看倒序", value: "watched_at" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -162,7 +162,7 @@ var WidgetMetadata = {
           type: "enumeration",
           value: "today",
           enumOptions: [
-            { title: "📅 今日更新", value: "today" },
+            { title: " 今日更新", value: "today" },
             { title: "周一 (月)", value: "1" },
             { title: "周二 (火)", value: "2" },
             { title: "周三 (水)", value: "3" },
@@ -191,9 +191,9 @@ var WidgetMetadata = {
           type: "enumeration",
           value: "trending",
           enumOptions: [
-            { title: "🔥 实时流行 (Trending)", value: "trending" },
-            { title: "📅 最新首播 (New)", value: "new" },
-            { title: "👑 高分神作 (Top Rated)", value: "top" }
+            { title: " 实时流行 (Trending)", value: "trending" },
+            { title: " 最新首播 (New)", value: "new" },
+            { title: " 高分神作 (Top Rated)", value: "top" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -215,9 +215,9 @@ var WidgetMetadata = {
           type: "enumeration",
           value: "TRENDING_DESC",
           enumOptions: [
-            { title: "📈 近期趋势 (Trending)", value: "TRENDING_DESC" },
-            { title: "💖 历史人气 (Popularity)", value: "POPULARITY_DESC" },
-            { title: "⭐ 评分最高 (Score)", value: "SCORE_DESC" }
+            { title: " 近期趋势 (Trending)", value: "TRENDING_DESC" },
+            { title: " 历史人气 (Popularity)", value: "POPULARITY_DESC" },
+            { title: " 评分最高 (Score)", value: "SCORE_DESC" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -239,10 +239,10 @@ var WidgetMetadata = {
           type: "enumeration",
           value: "airing",
           enumOptions: [
-            { title: "🔥 当前热播 Top", value: "airing" },
-            { title: "🏆 历史总榜 Top", value: "all" },
-            { title: "🎥 最佳剧场版", value: "movie" },
-            { title: "🔜 即将上映", value: "upcoming" }
+            { title: " 当前热播 Top", value: "airing" },
+            { title: " 历史总榜 Top", value: "all" },
+            { title: " 最佳剧场版", value: "movie" },
+            { title: " 即将上映", value: "upcoming" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
