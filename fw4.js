@@ -17,7 +17,7 @@ WidgetMetadata = {
         },
         {
             name: "traktUser",
-            title: "🔗 Trakt 用户名 (追剧日历)",
+            title: " Trakt 用户名 (追剧日历)",
             type: "input",
             value: "",
             placeholder: "可选：如需 Trakt 追剧功能，请填写用户名"
@@ -29,7 +29,7 @@ WidgetMetadata = {
         // 模块 1: 全球追剧日历 (原全球追剧时刻表)
         // ===========================================
         {
-            title: "📅 全球追剧日历",
+            title: " 全球追剧日历",
             functionName: "loadTvCalendar",
             type: "list",
             cacheDuration: 3600,
@@ -68,7 +68,7 @@ WidgetMetadata = {
         // 模块 2: 综艺时刻
         // ===========================================
         {
-            title: "🎤 综艺时刻",
+            title: " 综艺时刻",
             functionName: "loadVarietyCalendar",
             type: "list",
             cacheDuration: 3600,
@@ -79,11 +79,11 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "cn",
                     enumOptions: [
-                        { title: "🇨🇳 国产综艺", value: "cn" },
-                        { title: "🇰🇷 韩国综艺", value: "kr" },
-                        { title: "🇺🇸 欧美综艺", value: "us" },
-                        { title: "🇯🇵 日本综艺", value: "jp" },
-                        { title: "🌍 全球热门", value: "global" }
+                        { title: " 国产综艺", value: "cn" },
+                        { title: " 韩国综艺", value: "kr" },
+                        { title: " 欧美综艺", value: "us" },
+                        { title: " 日本综艺", value: "jp" },
+                        { title: " 全球热门", value: "global" }
                     ]
                 },
                 {
@@ -104,7 +104,7 @@ WidgetMetadata = {
         // 模块 3: 动漫周更
         // ===========================================
         {
-            title: "🌸 动漫周更",
+            title: " 动漫周更",
             functionName: "loadBangumiCalendar",
             type: "list",
             cacheDuration: 3600,
@@ -115,7 +115,7 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "today",
                     enumOptions: [
-                        { title: "📅 今天", value: "today" },
+                        { title: " 今天", value: "today" },
                         { title: "周一 (月)", value: "1" },
                         { title: "周二 (火)", value: "2" },
                         { title: "周三 (水)", value: "3" },
@@ -133,7 +133,7 @@ WidgetMetadata = {
         // 模块 4: 全球热榜聚合
         // ===========================================
         {
-            title: "🔥 全球热榜聚合",
+            title: " 全球热榜聚合",
             functionName: "loadTrendHub",
             type: "list",
             cacheDuration: 3600,
@@ -144,16 +144,16 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "trakt_trending",
                     enumOptions: [
-                        { title: "🌍 Trakt - 实时热播", value: "trakt_trending" },
-                        { title: "🌍 Trakt - 最受欢迎", value: "trakt_popular" },
-                        { title: "🌍 Trakt - 最受期待", value: "trakt_anticipated" },
-                        { title: "🇨🇳 豆瓣 - 热门国产剧", value: "db_tv_cn" },
-                        { title: "🇨🇳 豆瓣 - 热门综艺", value: "db_variety" },
-                        { title: "🇨🇳 豆瓣 - 热门电影", value: "db_movie" },
-                        { title: "🇺🇸 豆瓣 - 热门美剧", value: "db_tv_us" },
-                        { title: "📺 B站 - 番剧热播", value: "bili_bgm" },
-                        { title: "📺 B站 - 国创热播", value: "bili_cn" },
-                        { title: "🌸 Bangumi - 每日放送", value: "bgm_daily" }
+                        { title: " Trakt - 实时热播", value: "trakt_trending" },
+                        { title: " Trakt - 最受欢迎", value: "trakt_popular" },
+                        { title: " Trakt - 最受期待", value: "trakt_anticipated" },
+                        { title: " 豆瓣 - 热门国产剧", value: "db_tv_cn" },
+                        { title: " 豆瓣 - 热门综艺", value: "db_variety" },
+                        { title: " 豆瓣 - 热门电影", value: "db_movie" },
+                        { title: " 豆瓣 - 热门美剧", value: "db_tv_us" },
+                        { title: " B站 - 番剧热播", value: "bili_bgm" },
+                        { title: " B站 - 国创热播", value: "bili_cn" },
+                        { title: " Bangumi - 每日放送", value: "bgm_daily" }
                     ]
                 },
                 {
@@ -204,10 +204,10 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "tv_drama",
                     enumOptions: [
-                        { title: "📺 电视剧", value: "tv_drama" },
-                        { title: "🎤 综艺", value: "tv_variety" },
-                        { title: "🐲 动漫", value: "tv_anime" },
-                        { title: "🎬 电影", value: "movie" }
+                        { title: " 电视剧", value: "tv_drama" },
+                        { title: " 综艺", value: "tv_variety" },
+                        { title: " 动漫", value: "tv_anime" },
+                        { title: " 电影", value: "movie" }
                     ]
                 },
                 {
@@ -216,9 +216,9 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "popularity.desc",
                     enumOptions: [
-                        { title: "🔥 热度最高", value: "popularity.desc" },
-                        { title: "📅 最新首播", value: "first_air_date.desc" },
-                        { title: "⭐ 评分最高", value: "vote_average.desc" }
+                        { title: " 热度最高", value: "popularity.desc" },
+                        { title: " 最新首播", value: "first_air_date.desc" },
+                        { title: " 评分最高", value: "vote_average.desc" }
                     ]
                 },
                 { name: "page", title: "页码", type: "page" }
@@ -229,7 +229,7 @@ WidgetMetadata = {
         // 模块 6: Trakt 追剧日历
         // ===========================================
         {
-            title: "🔗 Trakt 追剧日历",
+            title: " Trakt 追剧日历",
             functionName: "loadTraktProfile",
             type: "list",
             cacheDuration: 300,
@@ -240,10 +240,10 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "updates",
                     enumOptions: [
-                        { title: "📅 追剧日历", value: "updates" },
-                        { title: "📜 待看列表", value: "watchlist" },
-                        { title: "📦 收藏列表", value: "collection" },
-                        { title: "🕒 观看历史", value: "history" }
+                        { title: " 追剧日历", value: "updates" },
+                        { title: " 待看列表", value: "watchlist" },
+                        { title: " 收藏列表", value: "collection" },
+                        { title: " 观看历史", value: "history" }
                     ]
                 },
                 {
@@ -265,9 +265,9 @@ WidgetMetadata = {
                     value: "future_first",
                     belongTo: { paramName: "section", value: ["updates"] },
                     enumOptions: [
-                        { title: "🔜 从今天往后", value: "future_first" },
-                        { title: "🔄 按更新倒序", value: "air_date_desc" },
-                        { title: "👁️ 按观看倒序", value: "watched_at" }
+                        { title: " 从今天往后", value: "future_first" },
+                        { title: " 按更新倒序", value: "air_date_desc" },
+                        { title: " 按观看倒序", value: "watched_at" }
                     ]
                 },
                 { name: "page", title: "页码", type: "page" }
@@ -278,7 +278,7 @@ WidgetMetadata = {
         // 模块 7: TMDB 动漫榜单
         // ===========================================
         {
-            title: "🎬 TMDB 动漫榜单",
+            title: " TMDB 动漫榜单",
             functionName: "loadTmdbAnimeRanking",
             type: "list",
             cacheDuration: 3600,
@@ -289,9 +289,9 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "trending",
                     enumOptions: [
-                        { title: "🔥 实时流行", value: "trending" },
-                        { title: "📅 最新首播", value: "new" },
-                        { title: "👑 高分神作", value: "top" }
+                        { title: " 实时流行", value: "trending" },
+                        { title: " 最新首播", value: "new" },
+                        { title: " 高分神作", value: "top" }
                     ]
                 },
                 { name: "page", title: "页码", type: "page" }
@@ -302,7 +302,7 @@ WidgetMetadata = {
         // 模块 8: 动漫权威榜单
         // ===========================================
         {
-            title: "🏆 动漫权威榜单",
+            title: " 动漫权威榜单",
             functionName: "loadAnimeRanking",
             type: "list",
             cacheDuration: 7200,
@@ -313,8 +313,8 @@ WidgetMetadata = {
                     type: "enumeration",
                     value: "anilist",
                     enumOptions: [
-                        { title: "🌐 AniList 流行榜", value: "anilist" },
-                        { title: "🎯 MAL 权威榜单", value: "mal" }
+                        { title: " AniList 流行榜", value: "anilist" },
+                        { title: " MAL 权威榜单", value: "mal" }
                     ]
                 },
                 {
@@ -324,9 +324,9 @@ WidgetMetadata = {
                     value: "TRENDING_DESC",
                     belongTo: { paramName: "source", value: ["anilist"] },
                     enumOptions: [
-                        { title: "📈 近期趋势", value: "TRENDING_DESC" },
-                        { title: "💖 历史人气", value: "POPULARITY_DESC" },
-                        { title: "⭐ 评分最高", value: "SCORE_DESC" }
+                        { title: " 近期趋势", value: "TRENDING_DESC" },
+                        { title: " 历史人气", value: "POPULARITY_DESC" },
+                        { title: " 评分最高", value: "SCORE_DESC" }
                     ]
                 },
                 {
@@ -336,10 +336,10 @@ WidgetMetadata = {
                     value: "airing",
                     belongTo: { paramName: "source", value: ["mal"] },
                     enumOptions: [
-                        { title: "🔥 当前热播", value: "airing" },
-                        { title: "🏆 历史总榜", value: "all" },
-                        { title: "🎥 最佳剧场版", value: "movie" },
-                        { title: "🔜 即将上映", value: "upcoming" }
+                        { title: " 当前热播", value: "airing" },
+                        { title: " 历史总榜", value: "all" },
+                        { title: " 最佳剧场版", value: "movie" },
+                        { title: " 即将上映", value: "upcoming" }
                     ]
                 },
                 { name: "page", title: "页码", type: "page" }
