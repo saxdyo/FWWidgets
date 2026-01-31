@@ -1,8 +1,8 @@
 WidgetMetadata = {
     id: "ultimate_media_hub_mega",
-    title: "全球影视追剧聚合",
-    author: "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖 & sax",
-    description: "整合版：全球追剧日历+热榜聚合+平台分流+动漫榜单+Trakt追剧",
+    title: "MOVIE&TV",
+    author: "sax",
+    description: "TMDB&TRAKT",
     version: "3.0.0",
     requiredVersion: "0.0.1",
     site: "https://www.themoviedb.org",
