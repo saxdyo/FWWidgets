@@ -176,7 +176,7 @@ WidgetMetadata = {
         // 模块 5: 平台分流片库
         // ===========================================
         {
-            title: " 平台分流片库",
+            title: "平台分流片库",
             functionName: "loadPlatformMatrix",
             type: "list",
             cacheDuration: 3600,
