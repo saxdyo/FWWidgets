@@ -192,7 +192,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        { name: "language", title: "语言", type: "language", value: "en-US" },
         {
           name: "use_preprocessed_data",
           title: "数据来源类型",
@@ -308,7 +308,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "en-US" }
       ]
     },
     
@@ -397,7 +397,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "en-US" }
       ]
     },
     // TMDB影视榜单
@@ -533,7 +533,7 @@ var WidgetMetadata = {
           ]
         },
         { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        { name: "language", title: "语言", type: "language", value: "en-US" }
       ]
     },
 
@@ -958,9 +958,9 @@ var WidgetMetadata = {
           title: "🌐 搜索语言",
           type: "enumeration",
           description: "选择搜索语言（搜索模式使用）",
-          value: "zh-CN",
+          value: "en-US",
           enumOptions: [
-            { title: "中文", value: "zh-CN" },
+            { title: "中文", value: "en-US" },
             { title: "English", value: "en-US" },
             { title: "其他语言", value: "en" }
           ]
@@ -1353,7 +1353,7 @@ function addToBlockList(tmdbId, mediaType = "movie", title = "", additionalInfo 
 
 // 配置常量
 var CONFIG = {
-  API_KEY: "", // TMDB API密钥
+  API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
   CACHE_DURATION: 60 * 60 * 1000, // 60分钟缓存（优化：延长缓存时间）
   NETWORK_TIMEOUT: 10000, // 10秒超时
   MAX_ITEMS: 20, // 最大返回项目数
@@ -1380,7 +1380,7 @@ var CONFIG = {
   IMAGE_CDN_ENABLED: true, // 启用图片CDN
   IMAGE_QUALITY: "w500", // 图片质量: w300, w500, w780, original
   IMAGE_CDN_FALLBACK: true, // 图片CDN失败时回退到原始URL
-  
+  IMAGE_PREFERRED_LANGUAGE: "en-US", // 优先使用英语图片
 };
 
 // 缓存管理 - 使用LRU机制
@@ -1768,16 +1768,66 @@ function shouldAutoRefresh(key, age, cacheType = 'DEFAULT') {
   return false;
 }
 
+// 获取带有图片详情的TMDB项目
+async function getTmdbItemWithImages(tmdbId, mediaType = "movie", language = "en-US") {
+  try {
+    const cacheKey = `tmdb_${mediaType}_${tmdbId}_images`;
+    const cached = getCachedData(cacheKey, 'DETAILS');
+    if (cached) return cached;
 
+    // 获取基本信息
+    const details = await Widget.tmdb.get(`/${mediaType}/${tmdbId}`, {
+      params: { language }
+    });
+    
+    // 获取图片信息（英语图片）
+    const images = await Widget.tmdb.get(`/${mediaType}/${tmdbId}/images`, {
+      params: { language: 'en-US' }
+    });
+    
+    const result = {
+      ...details,
+      images: images
+    };
+    
+    setCachedData(cacheKey, result, 'DETAILS');
+    return result;
+  } catch (error) {
+    console.error(`获取TMDB详情失败 (${mediaType}/${tmdbId}):`, error);
+    return null;
+  }
+}
 
-// 智能海报处理函数
+// 智能海报处理函数（优先获取英语海报）
 function getOptimalPosterUrl(item, mediaType = "movie") {
   // 主海报源
   let posterUrl = "";
   
-  // 1. 尝试TMDB poster_path
+  // 1. 尝试TMDB poster_path，优先使用英语海报
   if (item.poster_path) {
-    posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`);
+    // 优先使用en-US语言的海报，如果不可用则回退到原始
+    const enPosterPath = item.poster_path;
+    
+    // 如果item有images字段，尝试获取英语海报
+    if (item.images && item.images.posters) {
+      const enPoster = item.images.posters.find(p => 
+        p.iso_639_1 === "en" || p.iso_639_1 === "en-US"
+      );
+      if (enPoster && enPoster.file_path) {
+        posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${enPoster.file_path}`);
+      } else {
+        // 如果没有英语海报，使用第一个海报
+        const firstPoster = item.images.posters[0];
+        if (firstPoster && firstPoster.file_path) {
+          posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${firstPoster.file_path}`);
+        } else {
+          posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`);
+        }
+      }
+    } else {
+      // 如果没有images数据，直接使用poster_path
+      posterUrl = ImageCDN.optimizeImageUrl(`https://image.tmdb.org/t/p/${CONFIG.IMAGE_QUALITY}${item.poster_path}`);
+    }
   }
   // 2. 尝试豆瓣cover
   else if (item.cover && item.cover.url) {
@@ -1825,7 +1875,7 @@ function createWidgetItem(item) {
     releaseDate = item.release_date || "";
   }
 
-  // 智能海报处理
+  // 智能海报处理 - 优先获取英语海报
   const posterUrl = getOptimalPosterUrl(item, item.media_type || "movie");
 
   return {
@@ -1860,6 +1910,24 @@ function createWidgetItemWithoutCDN(item) {
     releaseDate = item.release_date || "";
   }
 
+  // 优先获取英语海报
+  let posterUrl = "";
+  if (item.poster_path) {
+    // 如果有images数据，尝试获取英语海报
+    if (item.images && item.images.posters) {
+      const enPoster = item.images.posters.find(p => 
+        p.iso_639_1 === "en" || p.iso_639_1 === "en-US"
+      );
+      if (enPoster && enPoster.file_path) {
+        posterUrl = `https://image.tmdb.org/t/p/w500${enPoster.file_path}`;
+      } else {
+        posterUrl = item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "";
+      }
+    } else {
+      posterUrl = item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "";
+    }
+  }
+
   return {
     id: item.id.toString(),
     type: "tmdb",
@@ -1868,8 +1936,8 @@ function createWidgetItemWithoutCDN(item) {
     rating: item.vote_average || 0,
     description: item.overview || "",
     releaseDate: releaseDate,
-    posterPath: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
-    coverUrl: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : "",
+    posterPath: posterUrl,
+    coverUrl: posterUrl,
     backdropPath: item.backdrop_path ? `https://image.tmdb.org/t/p/w1280${item.backdrop_path}` : "",
     mediaType: item.media_type || "movie",
     popularity: item.popularity || 0,
@@ -1972,7 +2040,7 @@ async function fetchTmdbDiscoverData(api, params) {
 
 // 1. TMDB热门内容加载
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "zh-CN", use_preprocessed_data = "true" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "today", page = 1, language = "en-US", use_preprocessed_data = "true" } = params;
   
   // 添加性能监控（不影响功能）
   const endMonitor = performanceMonitor.start('TMDB热门模块');
@@ -2016,7 +2084,7 @@ async function loadTmdbTrending(params = {}) {
 
 // 使用正常TMDB API加载热门内容
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
+  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "en-US" } = params;
   
   try {
     const cacheKey = `trending_api_${content_type}_${media_type}_${sort_by}_${page}`;
@@ -2064,20 +2132,46 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     }
 
     let results = await Promise.all(response.results.map(async (item) => {
-      // 为热门内容模块创建不使用CDN优化的widgetItem
-      const widgetItem = createWidgetItemWithoutCDN(item);
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
-      
-      // 使用正常背景图
-      if (item.backdrop_path) {
-        const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
+      try {
+        // 获取带有图片详情的项目
+        const itemWithImages = await getTmdbItemWithImages(
+          item.id, 
+          item.media_type || "movie", 
+          params.language || "en-US"
+        );
         
-        // 直接使用正常背景图
-        widgetItem.title_backdrop = backdropUrl;
-        widgetItem.backdropPath = backdropUrl;
+        // 合并数据
+        const mergedItem = {
+          ...item,
+          images: itemWithImages?.images || null
+        };
+        
+        // 为热门内容模块创建不使用CDN优化的widgetItem
+        const widgetItem = createWidgetItemWithoutCDN(mergedItem);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
+        
+        // 使用正常背景图
+        if (item.backdrop_path) {
+          const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
+          widgetItem.title_backdrop = backdropUrl;
+          widgetItem.backdropPath = backdropUrl;
+        }
+        
+        return widgetItem;
+      } catch (error) {
+        // 如果获取图片失败，使用原始数据
+        console.error(`获取项目 ${item.id} 图片失败:`, error);
+        const widgetItem = createWidgetItemWithoutCDN(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, item.media_type || "movie");
+        
+        if (item.backdrop_path) {
+          const backdropUrl = `https://image.tmdb.org/t/p/w1280${item.backdrop_path}`;
+          widgetItem.title_backdrop = backdropUrl;
+          widgetItem.backdropPath = backdropUrl;
+        }
+        
+        return widgetItem;
       }
-      
-      return widgetItem;
     }));
 
     // 应用评分过滤
@@ -2218,12 +2312,6 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
 
 // 移除冗余包装函数，直接使用主函数
 
-
-
-// 新增的模块辅助函数（已在上方定义）
-
-
-
 // 豆瓣国产剧集专用函数
 async function loadDoubanChineseTVList(params = {}) {
   const { page = 1 } = params;
@@ -2306,7 +2394,7 @@ async function loadTMDBChineseTVFallback(params = {}) {
   try {
     const response = await Widget.tmdb.get("/discover/tv", {
       params: {
-        language: "zh-CN",
+        language: "en-US",
         page: page,
         region: "CN",
         with_origin_country: "CN",
@@ -2348,10 +2436,6 @@ async function loadTMDBChineseTVFallback(params = {}) {
     return [];
   }
 }
-
-
-
-
 
 // 智能缓存清理和刷新
 function cleanupCache() {
@@ -2551,7 +2635,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
         const api = "discover/tv";
         const beijingDate = getBeijingDate();
         const discoverParams = {
-            language: params.language || 'zh-CN',
+            language: params.language || 'en-US',
             page: params.page || 1,
             sort_by: params.sort_by || "first_air_date.desc"
         };
@@ -2595,7 +2679,7 @@ async function tmdbDiscoverByNetwork(params = {}) {
 
 // 2. TMDB出品公司
 async function loadTmdbByCompany(params = {}) {
-  const { language = "zh-CN", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
+  const { language = "en-US", page = 1, with_companies, type = "movie", with_genres, sort_by = "popularity.desc" } = params;
   
   try {
     const cacheKey = `company_${with_companies}_${type}_${with_genres}_${sort_by}_${page}`;
@@ -2706,7 +2790,7 @@ async function loadTmdbByCompany(params = {}) {
 // 3. TMDB影视榜单
 async function loadTmdbMediaRanking(params = {}) {
   const { 
-    language = "zh-CN", 
+    language = "en-US", 
     page = 1, 
     media_type = "tv",
     with_origin_country,
@@ -2877,7 +2961,7 @@ async function loadTmdbByTheme(params = {}) {
     
     // 构建查询参数
     const queryParams = {
-      language: "zh-CN",
+      language: "en-US",
       page: page,
       vote_count_gte: media_type === "movie" ? 50 : 20
     };
@@ -3002,7 +3086,7 @@ async function loadThemeFallback(params = {}) {
     
     // 使用更简单的查询参数
     const queryParams = {
-      language: "zh-CN",
+      language: "en-US",
       page: page,
       sort_by: "popularity.desc",
       vote_count_gte: 10
@@ -3214,8 +3298,6 @@ function generateThemeFallbackData(theme) {
 }
 
 // 6. 🎨 TMDB背景图数据包
-
-// 6. 🎨 TMDB背景图数据包
 async function loadTmdbBackdropData(params = {}) {
   const { 
     data_source = "combined", 
@@ -3263,7 +3345,7 @@ async function loadTmdbBackdropData(params = {}) {
       
       // 根据数据源类型决定API端点
       let endpoint = "/trending/all/day";
-      let queryParams = { language: "zh-CN", page: 1 };
+      let queryParams = { language: "en-US", page: 1 };
       
       switch (data_source) {
         case "movies":
@@ -3457,17 +3539,6 @@ function generateFallbackData() {
   ];
 }
 
-// ==================== 新增模块加载函数 ====================
-
-
-
-
-
-
-
-
-
-
 // 基础获取TMDB数据方法
 async function searchTmdbData(key, mediaType) {
     const tmdbResults = await Widget.tmdb.get(`/search/${mediaType}`, {
@@ -3571,11 +3642,6 @@ async function fetchImdbItems(scItems) {
 
   return uniqueItems;
 }
-
-
-
-
-
 
 // 观影偏好
 async function getPreferenceRecommendations(params = {}) {
@@ -3683,7 +3749,7 @@ function createStandardItem(overrides = {}) {
 
 // TMDB搜索屏蔽功能
 async function searchAndBlock(params = {}) {
-  const { action = "search_and_block", query = "", language = "zh-CN", tmdb_id = "", media_type = "movie" } = params;
+  const { action = "search_and_block", query = "", language = "en-US", tmdb_id = "", media_type = "movie" } = params;
   
   try {
     debugLog.log("🔍 搜索屏蔽模块调用:", params);
@@ -3920,7 +3986,7 @@ async function manageBlockedItems(params = {}) {
 }
 
 // 辅助函数：搜索TMDB
-async function searchTMDB(query, mediaType, language = "zh-CN") {
+async function searchTMDB(query, mediaType, language = "en-US") {
   try {
     const apiKey = CONFIG.API_KEY;
     const url = `https://api.themoviedb.org/3/search/${mediaType}?api_key=${apiKey}&query=${encodeURIComponent(query)}&language=${language}`;
@@ -3970,4 +4036,3 @@ function parseImportData(data) {
   
   return items;
 }
-
