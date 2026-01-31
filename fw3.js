@@ -134,7 +134,7 @@ var WidgetMetadata = {
       cacheDuration: 1800,
       params: [
         {
-          name: "sort_by",
+          name: "type",
           title: "榜单分区",
           type: "enumeration",
           value: "1",
@@ -157,7 +157,7 @@ var WidgetMetadata = {
       cacheDuration: 3600,
       params: [
         {
-          name: "sort_by",
+          name: "weekday",
           title: "选择日期",
           type: "enumeration",
           value: "today",
@@ -186,7 +186,7 @@ var WidgetMetadata = {
       cacheDuration: 3600,
       params: [
         {
-          name: "sort_by",
+          name: "sort",
           title: "榜单类型",
           type: "enumeration",
           value: "trending",
@@ -210,7 +210,7 @@ var WidgetMetadata = {
       cacheDuration: 7200,
       params: [
         {
-          name: "sort_by",
+          name: "sort",
           title: "排序方式",
           type: "enumeration",
           value: "TRENDING_DESC",
@@ -234,7 +234,7 @@ var WidgetMetadata = {
       cacheDuration: 7200,
       params: [
         {
-          name: "sort_by",
+          name: "filter",
           title: "榜单类型",
           type: "enumeration",
           value: "airing",
