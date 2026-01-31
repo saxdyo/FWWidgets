@@ -1,15 +1,10 @@
-/**
- * Anime Tracker Combo v2.1.0
- * 整合版：Trakt 追剧 + 五大动漫榜单
- * 优化点：增加标题排序、搜索请求缓存、性能增强
- */
-
-const WidgetMetadata = {
-    id: "anime_tracker_combo_v2",
-    title: "trakt&amine (Pro)",
+WidgetMetadata = {
+    id: "anime_tracker_combo",
+    title: "trakt&amine",
     author: "sax",
-    description: "整合版：Trakt 追剧 + 五大动漫榜单（支持标题排序与搜索缓存）",
-    version: "2.1.0",
+    description: "整合版：Trakt 追剧 + 五大动漫榜单（B站/Bangumi/TMDB/AniList/MAL）",
+    version: "2.0.0",
+    requiredVersion: "0.0.1",
     site: "https://github.com/sax",
 
     globalParams: [
