@@ -12,7 +12,7 @@ WidgetMetadata = {
             name: "traktClientId",
             title: "Trakt Client ID (选填)",
             type: "input",
-            description: "Trakt 功能专用，不填则使用公共 ID",
+            description: "Trakt 功能专用，不填则使用默认 ID",
             value: ""
         },
         {
@@ -352,12 +352,8 @@ WidgetMetadata = {
 // 0. 通用工具函数
 // =========================================================================
 
-// Trakt ID 配置
-const TRAKT_PUBLIC_IDS = {
-    "calendar": "95b59922670c84040db3632c7aac6f33704f6ffe5cbf3113a056e37cb45cb482",
-    "trending": "003666572e92c4331002a28114387693994e43f5454659f81640a232f08a5996",
-    "profile": "f47aba7aa7ccfebfb782c9b8497f95e4b2fe4a5de73e80d5bc033bde93233fc5"
-};
+// 统一使用一个 Trakt ID
+const DEFAULT_TRAKT_ID = "f47aba7aa7ccfebfb782c9b8497f95e4b2fe4a5de73e80d5bc033bde93233fc5";
 
 // 统一 Genre Map
 const GENRE_MAP = {
@@ -582,8 +578,8 @@ async function loadTvCalendar(params = {}) {
 async function loadVarietyCalendar(params = {}) {
     const { region = "cn", mode = "today" } = params;
     
-    // 使用用户提供的或默认的 Trakt ID
-    const traktClientId = Widget.params?.traktClientId || TRAKT_PUBLIC_IDS.calendar;
+    // 统一使用一个 Trakt ID
+    const traktClientId = Widget.params?.traktClientId || DEFAULT_TRAKT_ID;
 
     if (mode === "trending") return await fetchTmdbVariety(region, null);
 
@@ -740,7 +736,8 @@ async function loadBangumiCalendar(params = {}) {
 
 async function loadTrendHub(params = {}) {
     const { source, traktType = "all", page = 1 } = params;
-    const traktClientId = Widget.params?.traktClientId || TRAKT_PUBLIC_IDS.trending;
+    // 统一使用一个 Trakt ID
+    const traktClientId = Widget.params?.traktClientId || DEFAULT_TRAKT_ID;
 
     // Trakt 榜单
     if (source.startsWith("trakt_")) {
@@ -923,7 +920,8 @@ async function fetchTmdbDiscover(mediaType, params) {
 
 async function loadTraktProfile(params = {}) {
     const { traktUser, section, updateSort = "future_first", type = "all", page = 1 } = params;
-    const traktClientId = TRAKT_PUBLIC_IDS.profile;
+    // 统一使用一个 Trakt ID
+    const traktClientId = DEFAULT_TRAKT_ID;
 
     if (!traktUser) {
         return [{
