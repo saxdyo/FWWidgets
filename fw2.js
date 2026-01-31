@@ -143,16 +143,6 @@ var WidgetMetadata = {
             { title: "🇨🇳 B站国创 (国漫)", value: "4" }
           ]
         },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          value: "1",
-          enumOptions: [
-            { title: "📺 B站番剧 (日漫)", value: "1" },
-            { title: "🇨🇳 B站国创 (国漫)", value: "4" }
-          ]
-        },
         { name: "page", title: "页码", type: "page" }
       ]
     },
@@ -169,22 +159,6 @@ var WidgetMetadata = {
         {
           name: "weekday",
           title: "选择日期",
-          type: "enumeration",
-          value: "today",
-          enumOptions: [
-            { title: " 今日更新", value: "today" },
-            { title: "周一 (月)", value: "1" },
-            { title: "周二 (火)", value: "2" },
-            { title: "周三 (水)", value: "3" },
-            { title: "周四 (木)", value: "4" },
-            { title: "周五 (金)", value: "5" },
-            { title: "周六 (土)", value: "6" },
-            { title: "周日 (日)", value: "7" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
           type: "enumeration",
           value: "today",
           enumOptions: [
@@ -222,17 +196,6 @@ var WidgetMetadata = {
             { title: " 高分神作 (Top Rated)", value: "top" }
           ]
         },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          value: "trending",
-          enumOptions: [
-            { title: " 实时流行 (Trending)", value: "trending" },
-            { title: " 最新首播 (New)", value: "new" },
-            { title: " 高分神作 (Top Rated)", value: "top" }}
-          ]
-        },
         { name: "page", title: "页码", type: "page" }
       ]
     },
@@ -249,17 +212,6 @@ var WidgetMetadata = {
         {
           name: "sort",
           title: "排序方式",
-          type: "enumeration",
-          value: "TRENDING_DESC",
-          enumOptions: [
-            { title: " 近期趋势 (Trending)", value: "TRENDING_DESC" },
-            { title: " 历史人气 (Popularity)", value: "POPULARITY_DESC" },
-            { title: " 评分最高 (Score)", value: "SCORE_DESC" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "客户端排序",
           type: "enumeration",
           value: "TRENDING_DESC",
           enumOptions: [
@@ -291,18 +243,6 @@ var WidgetMetadata = {
             { title: " 历史总榜 Top", value: "all" },
             { title: " 最佳剧场版", value: "movie" },
             { title: " 即将上映", value: "upcoming" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          value: "airing",
-          enumOptions: [
-            { title: " 当前热播 Top", value: "airing" },
-            { title: " 历史总榜 Top", value: "all" },
-            { title: " 最佳剧场版", value: "movie" },
-            { title: " 即将上映", value: "upcoming" }}
           ]
         },
         { name: "page", title: "页码", type: "page" }
