@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31 17:15:16",
+  "last_updated": "2026-01-31 18:10:49",
   "today_global": [
     {
       "id": 1168190,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
       "id": 91239,
       "title": "布里杰顿家族",
       "type": "tv",
@@ -88,6 +77,17 @@
       "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
       "poster_url": "https://image.tmdb.org/t/p/original/19sVgGYbmRxjiSKv42uyA45zgTo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
+    },
+    {
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 840464,
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
-      "id": 1271895,
-      "title": "96分钟：列车爆炸案",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•爱情",
-      "rating": 7.7,
-      "release_date": "2025-09-05",
-      "overview": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dOfjxTxOPkx9iN9R3sPNBN3pgIn.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -132,6 +121,17 @@
       "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
       "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+    },
+    {
+      "id": 1271895,
+      "title": "96分钟：列车爆炸案",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•爱情",
+      "rating": 7.7,
+      "release_date": "2025-09-05",
+      "overview": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dOfjxTxOPkx9iN9R3sPNBN3pgIn.jpg"
     },
     {
       "id": 1116201,
@@ -189,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2gpkWSDjU8c28Wgt4AXHWhLY97b.jpg"
     },
     {
+      "id": 282158,
+      "title": "择天记",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2026-01-31",
+      "overview": "西宁少年陈长生身患奇症活不过二十岁，为寻改命之法，前往神都参加大朝试，却因与真凤徐有容的一纸婚约，遭受打压，被流放进废弃的国教学院。陈长生凭借三千道藏，开启修行逆袭之旅，青藤宴废天海牙儿，未央宫胜神国七律，更是与伙伴唐三十六、落落、轩辕破奋战大朝试，夺得首榜首名，却得知改命之法难如登天。陷入迷茫的陈长生，在天书陵见证一代传奇荀梅陨落，激励他继续前行，在周园与魔族的战斗中，遇见乔装而来的徐有容，二人一路生死相依，联手挫败魔族阴谋，彼此相爱，却因周园崩塌分离。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kcgqqnmSMExwITZ7gn3gw62c9l5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zBPBVmpXOr7HugMASwl9nzStBL8.jpg"
+    },
+    {
       "id": 1306368,
       "title": "全信没收",
       "type": "movie",
@@ -209,31 +220,9 @@
       "overview": "上世纪九十年代，青海高原上的拉曲县高度依赖农牧业，其周边的无人区博拉木拉富含矿产和野生动物资源，大量的盗猎盗采分子为牟取暴利滥采滥杀。拉曲县副县长多杰在县长林培生的支持下成立了巡山队，起初是为脱贫在无人区探矿，眼见藏羚羊被屠杀的惨状后，多杰将一切都倾注在环保上。而巡山队里的青年女警白菊成了多杰命定的变数，她是援藏医生张勤勤收养的遗孤，是白家敢闯敢拼的小女儿。枪法过人的白菊与巡山队队员们成了莫逆之交，与报社记者邵云飞相爱，众志成城以建立自然保护区，却在功成前夕经历了领袖多杰的失踪和巡山队的解散。十多年过去，博拉木拉重获宁静，煤矿盗采问题却让开发和环保的天平再次失衡，白菊与昔日爱人、旧友和手足家人重聚首，在新时代的环保路上一并追查着多杰失踪的真相，最终还英雄以清名，继续守护着青藏高原的绿水蓝天。",
       "poster_url": "https://image.tmdb.org/t/p/original/ppFUg9nXeJ4FWj0HcuiIFLiJdAg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ddgXqCBhU3opPoKoWAuHzNfOU8o.jpg"
-    },
-    {
-      "id": 1167307,
-      "title": "大卫",
-      "type": "movie",
-      "genreTitle": "动画•家庭•剧情",
-      "rating": 7.9,
-      "release_date": "2025-12-14",
-      "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.4,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
-    },
     {
       "id": 1084242,
       "title": "疯狂动物城2",
@@ -244,6 +233,17 @@
       "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "poster_url": "https://image.tmdb.org/t/p/original/fqUJHyzHtchLlpsMpfht7GyCTnK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.4,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 1234731,
@@ -323,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
-      "id": 1306368,
-      "title": "全信没收",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.1,
-      "release_date": "2026-01-13",
-      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
-      "poster_url": "https://image.tmdb.org/t/p/original/s3yLyVISgyrDalMyBE7LbGrsjk5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
-    },
-    {
       "id": 91239,
       "title": "布里杰顿家族",
       "type": "tv",
@@ -345,26 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
     },
     {
-      "id": 224372,
-      "title": "七王国的骑士",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.1,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+      "id": 1306368,
+      "title": "全信没收",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-01-13",
+      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
+      "poster_url": "https://image.tmdb.org/t/p/original/s3yLyVISgyrDalMyBE7LbGrsjk5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
     },
     {
       "id": 1291608,
@@ -378,6 +356,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
     },
     {
+      "id": 224372,
+      "title": "七王国的骑士",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
+    },
+    {
       "id": 66732,
       "title": "怪奇物语",
       "type": "tv",
@@ -389,8 +378,19 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+    },
+    {
       "id": 1575337,
-      "title": "超时空辉夜姬!",
+      "title": "超时空辉夜姬！",
       "type": "movie",
       "genreTitle": "动画•奇幻•音乐",
       "rating": 8.2,
@@ -411,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
     },
     {
+      "id": 1236153,
+      "title": "极限审判",
+      "type": "movie",
+      "genreTitle": "科幻•动作•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-01-19",
+      "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
+    },
+    {
       "id": 273160,
       "title": "美丽毒素",
       "type": "tv",
@@ -422,26 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oWUsAwIzGm6GTK6USR4QXEgAmcc.jpg"
     },
     {
-      "id": 1443762,
-      "title": "伪术奇才",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•剧情",
-      "rating": 6.5,
-      "release_date": "2025-10-19",
-      "overview": "1970年代，托尼来到罗马，他身无长物，只有一身绘画才华，以及成为伟大艺术家的梦想。对生活、命运甚至历史的渴望，最终让他成为史上最伟大的伪造大师，更是牵动意大利最难解谜团的核心人物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4uyZ8nTdzVrWqKunELNba3lXcc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hbGZ0dBaLFxCuk1mamsyEq5eRKP.jpg"
-    },
-    {
-      "id": 1236153,
-      "title": "极限审判",
-      "type": "movie",
-      "genreTitle": "科幻•动作•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-01-19",
-      "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.3,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vQrCtWkkoPSuRuVtsYCAFZUP1dw.jpg"
     }
   ],
   "popular_movies": [
