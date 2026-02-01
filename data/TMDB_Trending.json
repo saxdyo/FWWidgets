@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-01 23:12:35",
+  "last_updated": "2026-02-02 00:13:09",
   "today_global": [
     {
       "id": 1168190,
@@ -28,7 +28,7 @@
       "title": "新狂蟒之灾",
       "type": "movie",
       "genreTitle": "冒险•喜剧•恐怖",
-      "rating": 5.9,
+      "rating": 6.0,
       "release_date": "2025-12-24",
       "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
@@ -39,7 +39,7 @@
       "title": "奇迹人",
       "type": "tv",
       "genreTitle": "喜剧•剧情",
-      "rating": 6.9,
+      "rating": 7.0,
       "release_date": "2026-01-27",
       "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/iCWuZ0GSpMvQfoC3Hdw9ENd2sbJ.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9F16ZBuJKiuxa8wy1JmYvZ1SCU4.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.5,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -88,6 +77,17 @@
       "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
       "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+    },
+    {
+      "id": 840464,
+      "title": "末日逃生2：迁移",
+      "type": "movie",
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.5,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
       "id": 209867,
@@ -134,17 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
     },
     {
-      "id": 278882,
-      "title": "年少有为",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
-      "rating": 9.0,
-      "release_date": "2026-01-31",
-      "overview": "大厂打工人裴谦惨遭辞退之际，意外获得神秘大佬的邀请，创办了一家必须以亏损为目标的公司，于是他故意集齐各种不靠谱的虾兵蟹将，绞尽脑汁地给员工加薪放假发福利，又投资了一个个奇葩项目，不料竟一次次意外反转，屡战屡赚。裴谦有苦难言，却成为了员工心中的良心老板，业界公认的商业奇才，不得不带领公司继续逆风翻盘，终成当地第一集团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1QoCg1gtI9Y4VsLZ4kBAWmmSLmB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wJLwEGOWic71e3pvtjr0VCuc1UQ.jpg"
-    },
-    {
       "id": 1116201,
       "title": "铁肺",
       "type": "movie",
@@ -156,37 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
-      "id": 1575337,
-      "title": "超时空辉夜姬！",
+      "id": 1622706,
+      "title": "Royal Rumble 2026",
       "type": "movie",
-      "genreTitle": "动画•奇幻•音乐",
-      "rating": 8.1,
-      "release_date": "2026-01-22",
-      "overview": "“月读”是希望与梦想交会的虚拟空间，而舞台幕布将缓缓升起，见证几位少女在此谱写短暂却珍贵的相遇篇章。17岁的东京都高中生酒寄彩叶，过着在打工与学业间奔波的忙碌生活。她唯一的纾压方式，就是沉浸在人气网络主播月见八千代的频道中，享受片刻的抽离。彩叶是月读的常客，在这里她能自由挥洒创意、体验不同的人生。某天回家的路上，彩叶偶然发现一根闪耀着奇异光芒电线杆冒出一位神秘的宝宝，无法视而不见的彩叶只好将她抱回家。随后宝宝以惊人的速度，迅速成长为一位与彩叶同龄的少女——辉夜。在辉夜的恳求下，彩叶决定在月读上帮她开设直播。彩叶负责音乐制作和作词，辉夜则专注于直播和演唱，两人合作无间，彼此的关系也更加亲密。然而，一股危险势力正伺机而动，企图将辉夜带回月球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yOyXGXjdQe1v27Bvx8m008HeSd2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
-    },
-    {
-      "id": 1271895,
-      "title": "96分钟：列车爆炸案",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•爱情",
-      "rating": 7.0,
-      "release_date": "2025-09-05",
-      "overview": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dOfjxTxOPkx9iN9R3sPNBN3pgIn.jpg"
-    },
-    {
-      "id": 1291608,
-      "title": "征服者",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.8,
-      "release_date": "2025-12-05",
-      "overview": "2000年代初，一名卧底特务潜入喀拉蚩的黑社会，打进权力核心，只为从内部瓦解暴力网络。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 6.0,
+      "release_date": "2026-01-31",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9NOLejYqlbiAUFs6gvEads79OK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mrMzVsFRh7zD6UWboDOT6oX9Url.jpg"
     },
     {
       "id": 66732,
@@ -200,6 +167,50 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
     },
     {
+      "id": 1271895,
+      "title": "96分钟：列车爆炸案",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•爱情",
+      "rating": 6.8,
+      "release_date": "2025-09-05",
+      "overview": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dOfjxTxOPkx9iN9R3sPNBN3pgIn.jpg"
+    },
+    {
+      "id": 278882,
+      "title": "年少有为",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "release_date": "2026-01-31",
+      "overview": "大厂打工人裴谦惨遭辞退之际，意外获得神秘大佬的邀请，创办了一家必须以亏损为目标的公司，于是他故意集齐各种不靠谱的虾兵蟹将，绞尽脑汁地给员工加薪放假发福利，又投资了一个个奇葩项目，不料竟一次次意外反转，屡战屡赚。裴谦有苦难言，却成为了员工心中的良心老板，业界公认的商业奇才，不得不带领公司继续逆风翻盘，终成当地第一集团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1QoCg1gtI9Y4VsLZ4kBAWmmSLmB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wJLwEGOWic71e3pvtjr0VCuc1UQ.jpg"
+    },
+    {
+      "id": 1291608,
+      "title": "征服者",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.8,
+      "release_date": "2025-12-05",
+      "overview": "2000年代初，一名卧底特务潜入喀拉蚩的黑社会，打进权力核心，只为从内部瓦解暴力网络。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r9vcgqssXKLYEnxDRUZFd4tv0i7.jpg"
+    },
+    {
+      "id": 1575337,
+      "title": "超时空辉夜姬！",
+      "type": "movie",
+      "genreTitle": "动画•奇幻•音乐",
+      "rating": 8.1,
+      "release_date": "2026-01-22",
+      "overview": "在梦想与希望汇聚的虚拟空间<月读>，少女们相遇，以及离别的舞台，就此拉开帷幕——  在近未来的时代，酒寄彩叶是就读于东京重点高中的17岁女高中生，她同时兼顾打工与学业，每天忙得不可开交。月见八千代是互联网虚拟空间<月读>的管理员兼超人气主播，彩叶平日透过观看八千代的直播放松身心。在这个任何人都能创造自己的分身，自由进行创作活动的<月读>里，彩叶一边支持着自己的偶像八千代，一边靠对战游戏零零散散赚点零用钱。  某天放学回家的路上，彩叶发现了一根发出七彩光芒的RGB电线杆，在那里面竟然有一个可爱的婴儿。她放心不下把婴儿带回家，没想到对方转眼间迅速长大，长成了与彩叶年纪相仿的少女。  「你……该不会是辉夜姬吧？」  长大后的辉夜姬十分任性。在辉夜的请求（任性）下，彩叶开始帮她在月读开展主播活动。彩叶作为制作人创作音乐，辉夜作为主播负责演唱，两人也在合作中一点点拉近了距离。然而她们并不知道，一道不祥的阴影已经逼近了她们眼前，要将辉夜带回月亮——  这是一个，还从未有人见过的「辉夜姬」的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yOyXGXjdQe1v27Bvx8m008HeSd2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
+    },
+    {
       "id": 250307,
       "title": "匹兹堡医护前线",
       "type": "tv",
@@ -209,17 +220,6 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 224372,
-      "title": "七王国的骑士",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.1,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     }
   ],
   "week_global_all": [
@@ -373,20 +373,9 @@
       "genreTitle": "动画•奇幻•音乐",
       "rating": 8.1,
       "release_date": "2026-01-22",
-      "overview": "“月读”是希望与梦想交会的虚拟空间，而舞台幕布将缓缓升起，见证几位少女在此谱写短暂却珍贵的相遇篇章。17岁的东京都高中生酒寄彩叶，过着在打工与学业间奔波的忙碌生活。她唯一的纾压方式，就是沉浸在人气网络主播月见八千代的频道中，享受片刻的抽离。彩叶是月读的常客，在这里她能自由挥洒创意、体验不同的人生。某天回家的路上，彩叶偶然发现一根闪耀着奇异光芒电线杆冒出一位神秘的宝宝，无法视而不见的彩叶只好将她抱回家。随后宝宝以惊人的速度，迅速成长为一位与彩叶同龄的少女——辉夜。在辉夜的恳求下，彩叶决定在月读上帮她开设直播。彩叶负责音乐制作和作词，辉夜则专注于直播和演唱，两人合作无间，彼此的关系也更加亲密。然而，一股危险势力正伺机而动，企图将辉夜带回月球。",
+      "overview": "在梦想与希望汇聚的虚拟空间<月读>，少女们相遇，以及离别的舞台，就此拉开帷幕——  在近未来的时代，酒寄彩叶是就读于东京重点高中的17岁女高中生，她同时兼顾打工与学业，每天忙得不可开交。月见八千代是互联网虚拟空间<月读>的管理员兼超人气主播，彩叶平日透过观看八千代的直播放松身心。在这个任何人都能创造自己的分身，自由进行创作活动的<月读>里，彩叶一边支持着自己的偶像八千代，一边靠对战游戏零零散散赚点零用钱。  某天放学回家的路上，彩叶发现了一根发出七彩光芒的RGB电线杆，在那里面竟然有一个可爱的婴儿。她放心不下把婴儿带回家，没想到对方转眼间迅速长大，长成了与彩叶年纪相仿的少女。  「你……该不会是辉夜姬吧？」  长大后的辉夜姬十分任性。在辉夜的请求（任性）下，彩叶开始帮她在月读开展主播活动。彩叶作为制作人创作音乐，辉夜作为主播负责演唱，两人也在合作中一点点拉近了距离。然而她们并不知道，一道不祥的阴影已经逼近了她们眼前，要将辉夜带回月亮——  这是一个，还从未有人见过的「辉夜姬」的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/yOyXGXjdQe1v27Bvx8m008HeSd2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
-    },
-    {
-      "id": 224372,
-      "title": "七王国的骑士",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.1,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
       "id": 858024,
@@ -411,17 +400,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
-      "id": 1116201,
-      "title": "铁肺",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•悬疑",
-      "rating": 7.6,
-      "release_date": "2026-01-30",
-      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
-    },
-    {
       "id": 1167307,
       "title": "大卫",
       "type": "movie",
@@ -433,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
     },
     {
+      "id": 224372,
+      "title": "七王国的骑士",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nTopFwOgU2peqjCGqHTWKfXzkt3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
+    },
+    {
       "id": 250307,
       "title": "匹兹堡医护前线",
       "type": "tv",
@@ -442,6 +431,17 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+    },
+    {
+      "id": 1116201,
+      "title": "铁肺",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•悬疑",
+      "rating": 7.6,
+      "release_date": "2026-01-30",
+      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     }
   ],
   "popular_movies": [
