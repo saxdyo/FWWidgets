@@ -26,35 +26,6 @@ WidgetMetadata = {
 
     modules: [
         // ===========================================
-        // 模块 1: 动漫周更
-        // ===========================================
-        {
-            title: " 动漫周更",
-            functionName: "loadBangumiCalendar",
-            type: "list",
-            cacheDuration: 3600,
-            params: [
-                {
-                    name: "weekday",
-                    title: "选择日期",
-                    type: "enumeration",
-                    value: "today",
-                    enumOptions: [
-                        { title: " 今天", value: "today" },
-                        { title: "周一 (月)", value: "1" },
-                        { title: "周二 (火)", value: "2" },
-                        { title: "周三 (水)", value: "3" },
-                        { title: "周四 (木)", value: "4" },
-                        { title: "周五 (金)", value: "5" },
-                        { title: "周六 (土)", value: "6" },
-                        { title: "周日 (日)", value: "7" }
-                    ]
-                },
-                { name: "page", title: "页码", type: "page" }
-            ]
-        },
-
-        // ===========================================
         // 模块 2: 全球热榜聚合
         // ===========================================
         {
@@ -472,79 +443,6 @@ async function loadTvCalendar(params = {}) {
     }
 }
 
-
-// =========================================================================
-// 4. 动漫周更模块
-// =========================================================================
-
-async function loadBangumiCalendar(params = {}) {
-    const { weekday = "today", page = 1 } = params;
-    const pageSize = 20;
-
-    let targetDayId = parseInt(weekday);
-    if (weekday === "today") {
-        const today = new Date();
-        const jsDay = today.getDay();
-        targetDayId = jsDay === 0 ? 7 : jsDay;
-    }
-    const dayName = getWeekdayName(targetDayId);
-
-    try {
-        const res = await Widget.http.get("https://api.bgm.tv/calendar");
-        const data = res.data || [];
-        const dayData = data.find(d => d.weekday && d.weekday.id === targetDayId);
-
-        if (!dayData || !dayData.items || dayData.items.length === 0) {
-            return page === 1 ? [{ id: "empty", type: "text", title: "暂无更新" }] : [];
-        }
-
-        const allItems = dayData.items;
-        const start = (page - 1) * pageSize;
-        const end = start + pageSize;
-        if (start >= allItems.length) return [];
-        const pageItems = allItems.slice(start, end);
-
-        const promises = pageItems.map(async (item) => {
-            const cnTitle = item.name_cn || item.name;
-            const tmdbItem = await searchTmdbBestMatch(cnTitle, item.name, "tv");
-
-            if (!tmdbItem) {
-                return buildItem({
-                    id: `bgm_${item.id}`,
-                    type: "tv",
-                    title: cnTitle,
-                    year: "",
-                    poster: item.images?.large || item.images?.common,
-                    rating: item.rating?.score?.toFixed(1) || "0.0",
-                    genreText: "动画",
-                    subTitle: `${dayName} • ${item.name}`,
-                    desc: item.summary,
-                    isAnime: true
-                });
-            }
-
-            return buildItem({
-                id: tmdbItem.id,
-                tmdbId: tmdbItem.id,
-                type: "tv",
-                title: tmdbItem.name || cnTitle,
-                year: (tmdbItem.first_air_date || "").substring(0, 4),
-                poster: tmdbItem.poster_path,
-                backdrop: tmdbItem.backdrop_path,
-                rating: tmdbItem.vote_average?.toFixed(1),
-                genreText: getGenreText(tmdbItem.genre_ids, true),
-                subTitle: `${dayName} • ${item.air_date || "更新"}`,
-                desc: tmdbItem.overview || item.summary,
-                isAnime: true
-            });
-        });
-
-        const results = await Promise.all(promises);
-        return results;
-    } catch (e) {
-        return [{ id: "err", type: "text", title: "加载失败", description: e.message }];
-    }
-}
 
 // =========================================================================
 // 5. 全球热榜聚合模块
