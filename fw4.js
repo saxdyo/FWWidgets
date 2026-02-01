@@ -1,8 +1,8 @@
 var WidgetMetadata = {
   id: "ultimate_media_hub_mega",
-  title: "TMDB影视榜单 V2 & 全媒体中心",
-  description: "优化的TMDB影视榜单 + Trakt追剧日历 + 全球热榜聚合",
-  author: "saxdyo & sax",
+  title: "TMDB",
+  description: "TMDB + Trakt",
+  author: "sax",
   site: "https://github.com/saxdyo/FWWidgets",
   version: "3.0.0",
   requiredVersion: "0.0.1",
