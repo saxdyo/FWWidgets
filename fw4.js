@@ -26,82 +26,7 @@ WidgetMetadata = {
 
     modules: [
         // ===========================================
-        // 模块 1: 全球追剧日历 (原全球追剧时刻表)
-        // ===========================================
-        {
-            title: " 全球追剧日历",
-            functionName: "loadTvCalendar",
-            type: "list",
-            cacheDuration: 3600,
-            params: [
-                {
-                    name: "mode",
-                    title: "时间范围",
-                    type: "enumeration",
-                    value: "update_today",
-                    enumOptions: [
-                        { title: "今日更新", value: "update_today" },
-                        { title: "明日首播", value: "premiere_tomorrow" },
-                        { title: "7天内首播", value: "premiere_week" },
-                        { title: "30天内首播", value: "premiere_month" }
-                    ]
-                },
-                {
-                    name: "region",
-                    title: "地区偏好",
-                    type: "enumeration",
-                    value: "Global",
-                    enumOptions: [
-                        { title: "全球聚合", value: "Global" },
-                        { title: "美国 (US)", value: "US" },
-                        { title: "日本 (JP)", value: "JP" },
-                        { title: "韩国 (KR)", value: "KR" },
-                        { title: "中国 (CN)", value: "CN" },
-                        { title: "英国 (GB)", value: "GB" }
-                    ]
-                },
-                { name: "page", title: "页码", type: "page" }
-            ]
-        },
-
-        // ===========================================
-        // 模块 2: 综艺时刻
-        // ===========================================
-        {
-            title: " 综艺时刻",
-            functionName: "loadVarietyCalendar",
-            type: "list",
-            cacheDuration: 3600,
-            params: [
-                {
-                    name: "region",
-                    title: "综艺地区",
-                    type: "enumeration",
-                    value: "cn",
-                    enumOptions: [
-                        { title: " 国产综艺", value: "cn" },
-                        { title: " 韩国综艺", value: "kr" },
-                        { title: " 欧美综艺", value: "us" },
-                        { title: " 日本综艺", value: "jp" },
-                        { title: " 全球热门", value: "global" }
-                    ]
-                },
-                {
-                    name: "mode",
-                    title: "时间范围",
-                    type: "enumeration",
-                    value: "today",
-                    enumOptions: [
-                        { title: "今日更新", value: "today" },
-                        { title: "明日预告", value: "tomorrow" },
-                        { title: "近期热播", value: "trending" }
-                    ]
-                }
-            ]
-        },
-
-        // ===========================================
-        // 模块 3: 动漫周更
+        // 模块 1: 动漫周更
         // ===========================================
         {
             title: " 动漫周更",
@@ -130,7 +55,7 @@ WidgetMetadata = {
         },
 
         // ===========================================
-        // 模块 4: 全球热榜聚合
+        // 模块 2: 全球热榜聚合
         // ===========================================
         {
             title: " 全球热榜聚合",
@@ -173,7 +98,7 @@ WidgetMetadata = {
         },
 
         // ===========================================
-        // 模块 5: 平台分流片库
+        // 模块 3: 平台分流片库
         // ===========================================
         {
             title: "平台分流片库",
@@ -226,7 +151,7 @@ WidgetMetadata = {
         },
 
         // ===========================================
-        // 模块 6: Trakt 追剧日历
+        // 模块 4: Trakt 追剧日历
         // ===========================================
         {
             title: " Trakt 追剧日历",
@@ -275,31 +200,7 @@ WidgetMetadata = {
         },
 
         // ===========================================
-        // 模块 7: TMDB 动漫榜单
-        // ===========================================
-        {
-            title: " TMDB 动漫榜单",
-            functionName: "loadTmdbAnimeRanking",
-            type: "list",
-            cacheDuration: 3600,
-            params: [
-                {
-                    name: "sort",
-                    title: "榜单类型",
-                    type: "enumeration",
-                    value: "trending",
-                    enumOptions: [
-                        { title: " 实时流行", value: "trending" },
-                        { title: " 最新首播", value: "new" },
-                        { title: " 高分神作", value: "top" }
-                    ]
-                },
-                { name: "page", title: "页码", type: "page" }
-            ]
-        },
-
-        // ===========================================
-        // 模块 8: 动漫权威榜单
+        // 模块 5: 动漫权威榜单
         // ===========================================
         {
             title: " 动漫权威榜单",
@@ -571,91 +472,6 @@ async function loadTvCalendar(params = {}) {
     }
 }
 
-// =========================================================================
-// 3. 综艺时刻模块
-// =========================================================================
-
-async function loadVarietyCalendar(params = {}) {
-    const { region = "cn", mode = "today" } = params;
-    
-    // 统一使用一个 Trakt ID
-    const traktClientId = Widget.params?.traktClientId || DEFAULT_TRAKT_ID;
-
-    if (mode === "trending") return await fetchTmdbVariety(region, null);
-
-    const dateStr = getSafeDate(mode);
-    const countryParam = region === "global" ? "" : region;
-    const traktUrl = `https://api.trakt.tv/calendars/all/shows/${dateStr}/1?genres=reality,game-show,talk-show${countryParam ? `&countries=${countryParam}` : ''}`;
-
-    try {
-        const res = await Widget.http.get(traktUrl, {
-            headers: {
-                "Content-Type": "application/json",
-                "trakt-api-version": "2",
-                "trakt-api-key": traktClientId
-            }
-        });
-        const data = res.data || [];
-
-        if (Array.isArray(data) && data.length > 0) {
-            const promises = data.slice(0, 20).map(async (item) => {
-                if (!item.show?.ids?.tmdb) return null;
-                return await fetchTmdbDetail(item.show.ids.tmdb, "tv", 
-                    `S${item.episode?.season || 0}E${item.episode?.number || 0} · ${item.episode?.title || "更新"}`);
-            });
-            return (await Promise.all(promises)).filter(Boolean);
-        }
-    } catch (e) {
-        console.error("Trakt 综艺请求失败:", e.message);
-    }
-
-    return await fetchTmdbVariety(region, dateStr);
-}
-
-async function fetchTmdbVariety(region, dateStr) {
-    const queryParams = {
-        language: "zh-CN",
-        sort_by: dateStr ? "popularity.desc" : "first_air_date.desc",
-        page: 1,
-        with_genres: "10764|10767",
-        include_null_first_air_dates: false,
-        timezone: "Asia/Shanghai"
-    };
-    
-    if (region !== "global") queryParams.with_origin_country = region.toUpperCase();
-    if (dateStr) {
-        queryParams["air_date.gte"] = dateStr;
-        queryParams["air_date.lte"] = dateStr;
-    }
-
-    try {
-        const res = await Widget.tmdb.get("/discover/tv", { params: queryParams });
-        const data = res || {};
-        if (!data.results) return [];
-
-        return data.results.slice(0, 20).map(item => buildItem({
-            id: item.id,
-            tmdbId: item.id,
-            type: "tv",
-            title: item.name,
-            year: (item.first_air_date || "").substring(0, 4),
-            poster: item.poster_path,
-            backdrop: item.backdrop_path,
-            rating: item.vote_average?.toFixed(1),
-            genreText: getGenreText(item.genre_ids),
-            subTitle: dateStr ? `📅 更新: ${dateStr}` : "近期热播",
-            desc: item.overview
-        }));
-    } catch (e) {
-        return [{ id: "err", type: "text", title: "TMDB 连接失败" }];
-    }
-}
-
-function getSafeDate(mode) {
-    const d = new Date();
-    if (mode === "tomorrow") d.setDate(d.getDate() + 1);
-    return d.toISOString().split('T')[0];
-}
 
 // =========================================================================
 // 4. 动漫周更模块
@@ -1099,62 +915,6 @@ function getItemTime(item, section) {
     return item.created_at || "1970-01-01";
 }
 
-// =========================================================================
-// 8. TMDB 动漫榜单模块
-// =========================================================================
-
-async function loadTmdbAnimeRanking(params = {}) {
-    const { sort = "trending", page = 1 } = params;
-    
-    let queryParams = {
-        language: "zh-CN",
-        page: page,
-        with_genres: "16",
-        with_original_language: "ja",
-        include_adult: false
-    };
-    
-    if (sort === "trending") {
-        queryParams.sort_by = "popularity.desc";
-        const d = new Date();
-        d.setMonth(d.getMonth() - 6);
-        queryParams["first_air_date.gte"] = d.toISOString().split('T')[0];
-    } else if (sort === "new") {
-        queryParams.sort_by = "first_air_date.desc";
-        queryParams["vote_count.gte"] = 5;
-        const today = new Date().toISOString().split('T')[0];
-        queryParams["first_air_date.lte"] = today;
-    } else if (sort === "top") {
-        queryParams.sort_by = "vote_average.desc";
-        queryParams["vote_count.gte"] = 300;
-    }
-
-    try {
-        const res = await Widget.tmdb.get("/discover/tv", { params: queryParams });
-        const data = res || {};
-        if (!data.results) return [];
-
-        return data.results.map(item => {
-            return buildItem({
-                id: item.id,
-                tmdbId: item.id,
-                type: "tv",
-                title: item.name || "",
-                year: (item.first_air_date || "").substring(0, 4),
-                poster: item.poster_path,
-                backdrop: item.backdrop_path,
-                rating: item.vote_average,
-                genreText: getGenreText(item.genre_ids, true),
-                subTitle: `TMDB Hot ${Math.round(item.popularity)}`,
-                desc: item.overview || "",
-                isAnime: true
-            });
-        });
-    } catch (e) {
-        console.error("TMDB 动漫榜单错误:", e);
-        return [{ id: "err", type: "text", title: "TMDB 连接失败" }];
-    }
-}
 
 // =========================================================================
 // 9. 动漫权威榜单模块
