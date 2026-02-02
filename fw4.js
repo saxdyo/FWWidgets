@@ -533,103 +533,6 @@ var WidgetMetadata = {
       ]
     },
 
-    // 豆瓣风格片单（基于TMDB数据）
-    {
-      title: "豆瓣风格片单",
-      description: "模拟豆瓣片单，使用TMDB数据源",
-      requiresWebView: false,
-      functionName: "loadDoubanStyleList",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "list_type",
-          title: "片单类型",
-          type: "enumeration",
-          description: "选择片单类型",
-          value: "hot_movies",
-          enumOptions: [
-            { title: "热门电影", value: "hot_movies" },
-            { title: "高分电影", value: "top_movies" },
-            { title: "热门剧集", value: "hot_tv" },
-            { title: "高分剧集", value: "top_tv" },
-            { title: "国产热门剧集", value: "chinese_hot_tv" },
-            { title: "最新电影", value: "latest_movies" },
-            { title: "最新剧集", value: "latest_tv" },
-            { title: "动作大片", value: "action_movies" },
-            { title: "爱情片", value: "romance_movies" },
-            { title: "喜剧片", value: "comedy_movies" },
-            { title: "科幻片", value: "scifi_movies" },
-            { title: "动画片", value: "animation" },
-            { title: "纪录片", value: "documentary" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    // IMDb影视榜单模块（使用TMDB API）
-    {
-      title: "IMDb 影视榜单",
-      description: "IMDb热门影视内容",
-      requiresWebView: false,
-      functionName: "loadImdbMovieListModule",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "region",
-          title: "地区选择",
-          type: "enumeration",
-          description: "选择影视内容地区",
-          value: "all",
-          enumOptions: [
-            { title: "全部地区", value: "all" },
-            { title: "中国大陆", value: "country:cn" },
-            { title: "美国", value: "country:us" },
-            { title: "英国", value: "country:gb" },
-            { title: "日本", value: "country:jp" },
-            { title: "韩国", value: "country:kr" },
-            { title: "欧美", value: "region:us-eu" },
-            { title: "香港", value: "country:hk" },
-            { title: "台湾", value: "country:tw" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "popularity.desc",
-          enumOptions: [
-            { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "上映时间↓", value: "release_date.desc" },
-            { title: "上映时间↑", value: "release_date.asc" },
-            { title: "年份↓", value: "year.desc" },
-            { title: "年份↑", value: "year.asc" },
-            { title: "标题A-Z", value: "title.asc" },
-            { title: "标题Z-A", value: "title.desc" },
-            { title: "时长↓", value: "duration.desc" },
-            { title: "时长↑", value: "duration.asc" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" },
-        {
-          name: "media_type",
-          title: "媒体类型",
-          type: "enumeration",
-          description: "选择影视内容类型",
-          value: "all",
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "电影", value: "movie" },
-            { title: "剧集", value: "tv" },
-            { title: "动画", value: "anime" }
-          ]
-        }
-      ]
-    },
     
     // ==================== 新增全媒体中心模块 ====================
     
@@ -675,57 +578,6 @@ var WidgetMetadata = {
       ]
     },
 
-    // 模块 2: 平台分流片库
-    {
-      title: "平台分流片库",
-      description: "按播出平台和内容分类浏览",
-      requiresWebView: false,
-      functionName: "loadPlatformMatrix",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "platformId",
-          title: "播出平台",
-          type: "enumeration",
-          value: "2007",
-          enumOptions: [
-            { title: "腾讯视频", value: "2007" },
-            { title: "爱奇艺", value: "1330" },
-            { title: "优酷", value: "1419" },
-            { title: "芒果TV", value: "1631" },
-            { title: "Bilibili", value: "1605" },
-            { title: "Netflix", value: "213" },
-            { title: "Disney+", value: "2739" },
-            { title: "HBO", value: "49" },
-            { title: "Apple TV+", value: "2552" }
-          ]
-        },
-        {
-          name: "category",
-          title: "内容分类",
-          type: "enumeration",
-          value: "tv_drama",
-          enumOptions: [
-            { title: "电视剧", value: "tv_drama" },
-            { title: "综艺", value: "tv_variety" },
-            { title: "动漫", value: "tv_anime" },
-            { title: "电影", value: "movie" }
-          ]
-        },
-        {
-          name: "sort",
-          title: "排序",
-          type: "enumeration",
-          value: "popularity.desc",
-          enumOptions: [
-            { title: "热度最高", value: "popularity.desc" },
-            { title: "最新首播", value: "first_air_date.desc" },
-            { title: "评分最高", value: "vote_average.desc" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
 
     // 模块 3: Trakt 追剧日历
     {
@@ -3349,32 +3201,6 @@ async function fetchTmdbFallback(type) {
     }
 }
 
-// ==================== IMDb影视榜单模块 ====================
-
-// IMDb影视榜单模块加载 (改为使用TMDB API)
-async function loadImdbMovieListModule(params = {}) {
-  const { 
-    region = "all", 
-    sort_by = "popularity.desc", 
-    page = "1",
-    media_type = "all"
-  } = params;
-  
-  try {
-    const cacheKey = `tmdb_movie_list_${region}_${sort_by}_${page}_${media_type}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    console.log(`🎬 加载影视榜单数据 (地区: ${region}, 排序: ${sort_by}, 媒体类型: ${media_type}, 页码: ${page})`);
-
-    let endpoint = "/discover/movie";
-    const queryParams = {
-      language: "zh-CN",
-      page: parseInt(page),
-      sort_by: sort_by,
-      vote_count_gte: 50
-    };
-
     // 根据媒体类型选择端点
     if (media_type === "tv") {
       endpoint = "/discover/tv";
@@ -3383,53 +3209,4 @@ async function loadImdbMovieListModule(params = {}) {
       queryParams.with_genres = "16"; // 动画类型
     }
 
-    // 处理地区参数
-    if (region && region !== "all") {
-      const regionMap = {
-        "country:cn": "CN",
-        "country:us": "US", 
-        "country:gb": "GB",
-        "country:jp": "JP",
-        "country:kr": "KR",
-        "country:hk": "HK",
-        "country:tw": "TW",
-        "region:us-eu": "US,GB,FR,DE,ES,IT"
-      };
-      
-      const mappedRegion = regionMap[region] || region;
-      if (endpoint === "/discover/movie") {
-        queryParams.with_origin_country = mappedRegion;
-      } else {
-        queryParams.with_origin_country = mappedRegion;
-      }
-    }
-
-    const response = await Widget.tmdb.get(endpoint, {
-      params: queryParams
-    });
-
-    if (!response || !response.results) {
-      console.error("❌ TMDB API响应无效");
-      return [];
-    }
-
-    const widgetItems = await Promise.all(response.results.map(async item => {
-      // 为项目显式设置media_type，因为discover端点不返回此字段
-      const itemMediaType = endpoint.includes("tv") ? "tv" : "movie";
-      item.media_type = itemMediaType;
-      const widgetItem = await createWidgetItem(item);
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, itemMediaType);
-      return widgetItem;
-    }));
-
-    const results = widgetItems.slice(0, CONFIG.MAX_ITEMS);
-    
-    setCachedData(cacheKey, results);
-    console.log(`✅ 影视榜单加载成功: ${results.length}项`);
-    return results;
-    
-  } catch (error) {
-    console.error("影视榜单加载失败:", error);
-    return [];
-  }
-}
+  
