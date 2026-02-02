@@ -534,9 +534,9 @@ var WidgetMetadata = {
     },
 
     
-    // ==================== 新增全媒体中心模块 ====================
+    // ==================== 新增全媒体中心模块 (优化版) ====================
     
-    // 模块 1: 全球热榜聚合
+    // 模块 1: 全球热榜聚合 (已优化排序)
     {
       title: "全球热榜聚合",
       description: "聚合Trakt、豆瓣、B站、Bangumi等权威榜单",
@@ -552,7 +552,6 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "Trakt - 实时热播", value: "trakt_trending" },
             { title: "Trakt - 最受欢迎", value: "trakt_popular" },
-            { title: "Trakt - 最受期待", value: "trakt_anticipated" },
             { title: "豆瓣 - 热门国产剧", value: "db_tv_cn" },
             { title: "豆瓣 - 热门综艺", value: "db_variety" },
             { title: "豆瓣 - 热门电影", value: "db_movie" },
@@ -567,19 +566,36 @@ var WidgetMetadata = {
           title: "Trakt 类型",
           type: "enumeration",
           value: "all",
-          belongTo: { paramName: "source", value: ["trakt_trending", "trakt_popular", "trakt_anticipated"] },
+          belongTo: { paramName: "source", value: ["trakt_trending", "trakt_popular"] },
           enumOptions: [
             { title: "全部 (剧集+电影)", value: "all" },
             { title: "剧集", value: "shows" },
             { title: "电影", value: "movies" }
           ]
         },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          value: "default",
+          description: "豆瓣使用API排序，其他源为本地排序",
+          enumOptions: [
+            // 通用/本地排序
+            { title: "默认榜单顺序", value: "default" },
+            { title: "按评分排序 (本地)", value: "rating_desc" },
+            { title: "按年份排序 (本地)", value: "year_desc" },
+            // 豆瓣专用API排序
+            { title: "豆瓣-综合推荐", value: "recommend" },
+            { title: "豆瓣-近期热度", value: "hot" },
+            { title: "豆瓣-最新上映", value: "time" },
+            { title: "豆瓣-评分最高", value: "rank" }
+          ]
+        },
         { name: "page", title: "页码", type: "page" }
       ]
     },
 
-
-    // 模块 3: Trakt 追剧日历
+    // ... 模块 3: Trakt 追剧日历 (保持不变) ...
     {
       title: "Trakt 追剧日历",
       description: "个人追剧日历、待看列表、收藏记录",
@@ -627,7 +643,7 @@ var WidgetMetadata = {
       ]
     },
 
-    // 模块 4: 动漫权威榜单
+    // 模块 4: 动漫权威榜单 (优化版)
     {
       title: "动漫权威榜单",
       description: "AniList、MAL等动漫权威榜单",
@@ -647,34 +663,26 @@ var WidgetMetadata = {
         },
         {
           name: "sort",
-          title: "排序方式",
+          title: "排序/类型",
           type: "enumeration",
-          value: "TRENDING_DESC",
-          belongTo: { paramName: "source", value: ["anilist"] },
+          value: "default",
           enumOptions: [
-            { title: "近期趋势", value: "TRENDING_DESC" },
-            { title: "历史人气", value: "POPULARITY_DESC" },
-            { title: "评分最高", value: "SCORE_DESC" }
-          ]
-        },
-        {
-          name: "filter",
-          title: "榜单类型",
-          type: "enumeration",
-          value: "airing",
-          belongTo: { paramName: "source", value: ["mal"] },
-          enumOptions: [
-            { title: "当前热播", value: "airing" },
-            { title: "历史总榜", value: "all" },
-            { title: "最佳剧场版", value: "movie" },
-            { title: "即将上映", value: "upcoming" }
+            // AniList Sorts
+            { title: "AniList-近期趋势", value: "TRENDING_DESC" },
+            { title: "AniList-历史人气", value: "POPULARITY_DESC" },
+            { title: "AniList-评分最高", value: "SCORE_DESC" },
+            { title: "AniList-最多收藏", value: "FAVOURITES_DESC" },
+            // MAL Filters
+            { title: "MAL-当前热播", value: "airing" },
+            { title: "MAL-历史总榜", value: "all" },
+            { title: "MAL-即将上映", value: "upcoming" },
+            { title: "MAL-最佳剧场版", value: "movie" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
       ]
     }
   ]
-};
 
 // ==================== 配置常量 ====================
 
