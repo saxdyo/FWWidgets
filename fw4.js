@@ -94,7 +94,7 @@ var WidgetMetadata = {
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
-          value: "popularity",
+          value: "release_date",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
             { title: "评分排序", value: "rating" },
@@ -578,7 +578,6 @@ var WidgetMetadata = {
         { name: "page", title: "页码", type: "page" }
       ]
     },
-
 
     // 模块 3: Trakt 追剧日历
     {
@@ -2541,13 +2540,13 @@ function generateThemeFallbackData(theme) {
 
 // 1. 全球热榜聚合
 async function loadTrendHub(params = {}) {
-    const { source, traktType = "all", page = 1 } = params;
+    const { sort_by = "trakt_trending", traktType = "all", page = 1 } = params;
     // 统一使用一个 Trakt ID
     const traktClientId = Widget.params?.traktClientId || DEFAULT_TRAKT_ID;
 
     // Trakt 榜单
-    if (source.startsWith("trakt_")) {
-        const listType = source.replace("trakt_", "");
+    if (sort_by.startsWith("trakt_")) {
+        const listType = sort_by.replace("trakt_", "");
         
         if (traktType === "all") {
             const [movies, shows] = await Promise.all([
@@ -2610,24 +2609,24 @@ async function loadTrendHub(params = {}) {
     }
 
     // 豆瓣榜单
-    if (source.startsWith("db_")) {
+    if (sort_by.startsWith("db_")) {
         let tag = "热门", type = "tv";
-        if (source === "db_tv_cn") { tag = "国产剧"; type = "tv"; }
-        else if (source === "db_variety") { tag = "综艺"; type = "tv"; }
-        else if (source === "db_movie") { tag = "热门"; type = "movie"; }
-        else if (source === "db_tv_us") { tag = "美剧"; type = "tv"; }
+        if (sort_by === "db_tv_cn") { tag = "国产剧"; type = "tv"; }
+        else if (sort_by === "db_variety") { tag = "综艺"; type = "tv"; }
+        else if (sort_by === "db_movie") { tag = "热门"; type = "movie"; }
+        else if (sort_by === "db_tv_us") { tag = "美剧"; type = "tv"; }
         
         return await fetchDoubanAndMap(tag, type, page);
     }
 
     // B站榜单
-    if (source.startsWith("bili_")) {
-        const type = source === "bili_cn" ? 4 : 1;
+    if (sort_by.startsWith("bili_")) {
+        const type = sort_by === "bili_cn" ? 4 : 1;
         return await fetchBilibiliRank(type, page);
     }
 
     // Bangumi 每日放送
-    if (source === "bgm_daily") {
+    if (sort_by === "bgm_daily") {
         if (page > 1) return [];
         return await fetchBangumiDaily();
     }
@@ -2835,17 +2834,45 @@ function getItemTime(item, section) {
 
 // 4. 动漫权威榜单
 async function loadAnimeRanking(params = {}) {
-    const { source, sort = "TRENDING_DESC", filter = "airing", page = 1 } = params;
+    const { sort_by = "anilist_trending", page = 1 } = params;
 
-    if (source === "anilist") {
-        return await loadAniListRanking(sort, page);
-    } else if (source === "mal") {
-        return await loadMalRanking(filter, page);
+    // AniList 榜单
+    if (sort_by.startsWith("anilist_")) {
+        const listType = sort_by.replace("anilist_", "");
+        
+        // 映射到AniList的排序参数
+        const sortMap = {
+            "trending": "TRENDING_DESC",
+            "popular": "POPULARITY_DESC",
+            "score": "SCORE_DESC",
+            "updated": "UPDATED_AT_DESC",
+            "upcoming": "START_DATE_DESC"
+        };
+        
+        const sortParam = sortMap[listType] || "TRENDING_DESC";
+        return await loadAniListRanking(sortParam, page);
+    }
+    
+    // MAL 榜单
+    else if (sort_by.startsWith("mal_")) {
+        const listType = sort_by.replace("mal_", "");
+        
+        // 映射到MAL的筛选参数
+        const filterMap = {
+            "airing": "airing",
+            "all": "all",
+            "movie": "movie",
+            "upcoming": "upcoming"
+        };
+        
+        const filterParam = filterMap[listType] || "airing";
+        return await loadMalRanking(filterParam, page);
     }
 
     return [{ id: "err", type: "text", title: "未知榜单源" }];
 }
 
+// 更新AniList查询函数
 async function loadAniListRanking(sort, page) {
     const perPage = 20;
     const query = `
@@ -3118,13 +3145,3 @@ async function fetchTmdbFallback(type) {
         return [{ id: "err", type: "text", title: "TMDB 备用源失败" }];
     }
 }
-
-    // 根据媒体类型选择端点
-    if (media_type === "tv") {
-      endpoint = "/discover/tv";
-    } else if (media_type === "anime") {
-      endpoint = "/discover/tv";
-      queryParams.with_genres = "16"; // 动画类型
-    }
-
-  
