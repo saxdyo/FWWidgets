@@ -94,7 +94,7 @@ var WidgetMetadata = {
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
-          value: "release_date",
+          value: "popularity",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
             { title: "评分排序", value: "rating" },
@@ -578,6 +578,7 @@ var WidgetMetadata = {
       ]
     },
 
+
     // 模块 3: Trakt 追剧日历
     {
       title: "Trakt 追剧日历",
@@ -635,21 +636,38 @@ var WidgetMetadata = {
       cacheDuration: 7200,
       params: [
         {
-          name: "sort_by",
-          title: "榜单源选择",
+          name: "source",
+          title: "榜单源",
           type: "enumeration",
-          description: "选择动漫榜单数据源",
-          value: "anilist_trending",
+          value: "anilist",
           enumOptions: [
-            { title: "AniList - 近期趋势榜", value: "anilist_trending" },
-            { title: "AniList - 历史人气榜", value: "anilist_popular" },
-            { title: "AniList - 评分最高榜", value: "anilist_score" },
-            { title: "AniList - 最新添加榜", value: "anilist_updated" },
-            { title: "AniList - 即将上映榜", value: "anilist_upcoming" },
-            { title: "MAL - 当前热播榜", value: "mal_airing" },
-            { title: "MAL - 历史总榜", value: "mal_all" },
-            { title: "MAL - 最佳剧场版", value: "mal_movie" },
-            { title: "MAL - 即将上映榜", value: "mal_upcoming" }
+            { title: "AniList 流行榜", value: "anilist" },
+            { title: "MAL 权威榜单", value: "mal" }
+          ]
+        },
+        {
+          name: "sort",
+          title: "排序方式",
+          type: "enumeration",
+          value: "TRENDING_DESC",
+          belongTo: { paramName: "source", value: ["anilist"] },
+          enumOptions: [
+            { title: "近期趋势", value: "TRENDING_DESC" },
+            { title: "历史人气", value: "POPULARITY_DESC" },
+            { title: "评分最高", value: "SCORE_DESC" }
+          ]
+        },
+        {
+          name: "filter",
+          title: "榜单类型",
+          type: "enumeration",
+          value: "airing",
+          belongTo: { paramName: "source", value: ["mal"] },
+          enumOptions: [
+            { title: "当前热播", value: "airing" },
+            { title: "历史总榜", value: "all" },
+            { title: "最佳剧场版", value: "movie" },
+            { title: "即将上映", value: "upcoming" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -2608,24 +2626,24 @@ async function loadTrendHub(params = {}) {
     }
 
     // 豆瓣榜单
-    if (sort_by.startsWith("db_")) {
+    if (source.startsWith("db_")) {
         let tag = "热门", type = "tv";
-        if (sort_by === "db_tv_cn") { tag = "国产剧"; type = "tv"; }
-        else if (sort_by === "db_variety") { tag = "综艺"; type = "tv"; }
-        else if (sort_by === "db_movie") { tag = "热门"; type = "movie"; }
-        else if (sort_by === "db_tv_us") { tag = "美剧"; type = "tv"; }
+        if (source === "db_tv_cn") { tag = "国产剧"; type = "tv"; }
+        else if (source === "db_variety") { tag = "综艺"; type = "tv"; }
+        else if (source === "db_movie") { tag = "热门"; type = "movie"; }
+        else if (source === "db_tv_us") { tag = "美剧"; type = "tv"; }
         
         return await fetchDoubanAndMap(tag, type, page);
     }
 
     // B站榜单
-    if (sort_by.startsWith("bili_")) {
-        const type = sort_by === "bili_cn" ? 4 : 1;
+    if (source.startsWith("bili_")) {
+        const type = source === "bili_cn" ? 4 : 1;
         return await fetchBilibiliRank(type, page);
     }
 
     // Bangumi 每日放送
-    if (sort_by === "bgm_daily") {
+    if (source === "bgm_daily") {
         if (page > 1) return [];
         return await fetchBangumiDaily();
     }
@@ -2833,45 +2851,17 @@ function getItemTime(item, section) {
 
 // 4. 动漫权威榜单
 async function loadAnimeRanking(params = {}) {
-    const { sort_by = "anilist_trending", page = 1 } = params;
+    const { source, sort = "TRENDING_DESC", filter = "airing", page = 1 } = params;
 
-    // AniList 榜单
-    if (sort_by.startsWith("anilist_")) {
-        const listType = sort_by.replace("anilist_", "");
-        
-        // 映射到AniList的排序参数
-        const sortMap = {
-            "trending": "TRENDING_DESC",
-            "popular": "POPULARITY_DESC",
-            "score": "SCORE_DESC",
-            "updated": "UPDATED_AT_DESC",
-            "upcoming": "START_DATE_DESC"
-        };
-        
-        const sortParam = sortMap[listType] || "TRENDING_DESC";
-        return await loadAniListRanking(sortParam, page);
-    }
-    
-    // MAL 榜单
-    else if (sort_by.startsWith("mal_")) {
-        const listType = sort_by.replace("mal_", "");
-        
-        // 映射到MAL的筛选参数
-        const filterMap = {
-            "airing": "airing",
-            "all": "all",
-            "movie": "movie",
-            "upcoming": "upcoming"
-        };
-        
-        const filterParam = filterMap[listType] || "airing";
-        return await loadMalRanking(filterParam, page);
+    if (source === "anilist") {
+        return await loadAniListRanking(sort, page);
+    } else if (source === "mal") {
+        return await loadMalRanking(filter, page);
     }
 
     return [{ id: "err", type: "text", title: "未知榜单源" }];
 }
 
-// 更新AniList查询函数
 async function loadAniListRanking(sort, page) {
     const perPage = 20;
     const query = `
@@ -3144,3 +3134,13 @@ async function fetchTmdbFallback(type) {
         return [{ id: "err", type: "text", title: "TMDB 备用源失败" }];
     }
 }
+
+    // 根据媒体类型选择端点
+    if (media_type === "tv") {
+      endpoint = "/discover/tv";
+    } else if (media_type === "anime") {
+      endpoint = "/discover/tv";
+      queryParams.with_genres = "16"; // 动画类型
+    }
+
+  
