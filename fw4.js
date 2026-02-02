@@ -314,10 +314,10 @@ var WidgetMetadata = {
       ]
     },
     
-       // TMDB影视榜单 - 重构版
+     // TMDB影视榜单 - 最终精简版
     {
       title: "TMDB 影视榜单",
-      description: "热门电影和电视剧集榜单（支持地区和类型筛选）",
+      description: "热门电影和剧集（自动过滤综艺、动漫、纪录片）",
       requiresWebView: false,
       functionName: "loadTmdbMediaRanking",
       cacheDuration: 3600,
@@ -357,63 +357,6 @@ var WidgetMetadata = {
             { title: "日本", value: "JP" },
             { title: "韩国", value: "KR" },
             { title: "欧洲", value: "GB,FR,DE,ES,IT" }
-          ]
-        },
-        {
-          name: "with_genres",
-          title: "内容类型",
-          type: "enumeration",
-          description: "选择内容类型",
-          value: "",
-          enumOptions: [
-            { title: "全部类型", value: "" },
-            { title: "剧情", value: "18" },
-            { title: "喜剧", value: "35" },
-            { title: "犯罪", value: "80" },
-            { title: "动作", value: "28" },
-            { title: "冒险", value: "12" },
-            { title: "动画", value: "16" },
-            { title: "科幻", value: "878" },
-            { title: "奇幻", value: "14" },
-            { title: "悬疑", value: "9648" },
-            { title: "惊悚", value: "53" },
-            { title: "爱情", value: "10749" },
-            { title: "家庭", value: "10751" },
-            { title: "恐怖", value: "27" }
-          ]
-        },
-        {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" },
-            { title: "9.0分以上", value: "9.0" }
-          ]
-        },
-        {
-          name: "year",
-          title: "年份筛选",
-          type: "enumeration",
-          description: "按播出/上映年份筛选内容",
-          value: "",
-          enumOptions: [
-            { title: "全部年份", value: "" },
-            { title: "2024年", value: "2024" },
-            { title: "2023年", value: "2023" },
-            { title: "2022年", value: "2022" },
-            { title: "2021年", value: "2021" },
-            { title: "2020年", value: "2020" },
-            { title: "2019年", value: "2019" },
-            { title: "2018年", value: "2018" },
-            { title: "2017年", value: "2017" },
-            { title: "2016年", value: "2016" },
-            { title: "2015年", value: "2015" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -2098,25 +2041,104 @@ async function loadTmdbByCompany(params = {}) {
   }
 }
 
-// 3. TMDB影视榜单 - 修复版（增强健壮性）
+// 3. TMDB影视榜单 - 最终精简版（仅保留地区筛选，自动过滤综艺/动漫）
 async function loadTmdbMediaRanking(params = {}) {
   const { 
     language = "zh-CN", 
     page = 1, 
     media_type = "tv",
-    with_origin_country,
-    with_genres,
-    sort_by = "popularity.desc",
-    vote_average_gte = "0",
-    year = ""
+    with_origin_country = "",
+    sort_by = "popularity"
   } = params;
   
   try {
-    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
+    // 简化缓存key
+    const cacheKey = `ranking_v4_${media_type}_${sort_by}_${with_origin_country}_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      console.log(`📦 使用缓存: ${cacheKey}`);
+      return cached;
+    }
 
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
+    
+    const queryParams = { 
+      language, 
+      page: parseInt(page) || 1,
+      include_adult: false
+    };
+    
+    // 排序逻辑
+    if (sort_by === "updated") {
+      if (media_type === "movie") {
+        queryParams.sort_by = "release_date.desc";
+        queryParams["release_date.lte"] = getBeijingDate();
+      } else {
+        queryParams.sort_by = "last_air_date.desc";
+        queryParams["last_air_date.lte"] = getBeijingDate();
+      }
+      queryParams.vote_count_gte = media_type === "movie" ? 50 : 20;
+    } else {
+      queryParams.sort_by = "popularity.desc";
+      queryParams.vote_count_gte = media_type === "movie" ? 200 : 100;
+    }
+    
+    // 添加地区筛选
+    if (with_origin_country) {
+      queryParams.with_origin_country = with_origin_country;
+    }
+    
+    // 自动排除综艺、动漫等
+    if (media_type === "tv") {
+      queryParams.without_genres = "16,10764,10767,10762,10763";
+    } else {
+      queryParams.without_genres = "16,99";
+    }
+
+    console.log(`🏆 TMDB榜单 [${media_type} | ${sort_by} | ${with_origin_country || "全球"}]`);
+    
+    const res = await Widget.tmdb.get(endpoint, { params: queryParams });
+    
+    if (!res || !res.results || !Array.isArray(res.results)) {
+      return [];
+    }
+    
+    const results = res.results
+      .filter(item => {
+        const hasPoster = item.poster_path && item.poster_path.length > 0;
+        const hasTitle = (item.title || item.name || "").trim().length > 0;
+        // 二次过滤确保无动漫/综艺
+        const genreIds = item.genre_ids || [];
+        const blockedGenres = [16, 10764, 10767, 10762, 10763, 99];
+        const isBlocked = genreIds.some(id => blockedGenres.includes(id));
+        
+        return hasPoster && hasTitle && !isBlocked;
+      })
+      .map(item => {
+        item.media_type = media_type;
+        const widgetItem = createWidgetItem(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids || [], media_type);
+        
+        if (sort_by === "popularity") {
+          widgetItem.sortLabel = `🔥 ${Math.round(item.popularity || 0)}`;
+        } else {
+          const date = media_type === "movie" ? item.release_date : item.last_air_date;
+          widgetItem.sortLabel = date ? `📅 ${date}` : "";
+        }
+        
+        return widgetItem;
+      })
+      .slice(0, CONFIG.MAX_ITEMS);
+    
+    console.log(`✅ 获取成功: ${results.length}条`);
+    setCachedData(cacheKey, results);
+    return results;
+
+  } catch (error) {
+    console.error(`❌ TMDB榜单失败:`, error.message);
+    return [];
+  }
+}
     
     // 构建查询参数
     const queryParams = { 
