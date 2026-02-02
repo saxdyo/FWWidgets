@@ -545,9 +545,10 @@ var WidgetMetadata = {
       cacheDuration: 3600,
       params: [
         {
-          name: "source",
-          title: "选择榜单",
+          name: "sort_by",
+          title: "数据源榜单",
           type: "enumeration",
+          description: "选择要显示的权威榜单",
           value: "trakt_trending",
           enumOptions: [
             { title: "Trakt - 实时热播", value: "trakt_trending" },
@@ -564,10 +565,10 @@ var WidgetMetadata = {
         },
         {
           name: "traktType",
-          title: "Trakt 类型",
+          title: "Trakt 内容类型",
           type: "enumeration",
           value: "all",
-          belongTo: { paramName: "source", value: ["trakt_trending", "trakt_popular", "trakt_anticipated"] },
+          belongTo: { paramName: "sort_by", value: ["trakt_trending", "trakt_popular", "trakt_anticipated"] },
           enumOptions: [
             { title: "全部 (剧集+电影)", value: "all" },
             { title: "剧集", value: "shows" },
@@ -577,7 +578,6 @@ var WidgetMetadata = {
         { name: "page", title: "页码", type: "page" }
       ]
     },
-
 
     // 模块 3: Trakt 追剧日历
     {
@@ -636,38 +636,21 @@ var WidgetMetadata = {
       cacheDuration: 7200,
       params: [
         {
-          name: "source",
-          title: "榜单源",
+          name: "sort_by",
+          title: "榜单源选择",
           type: "enumeration",
-          value: "anilist",
+          description: "选择动漫榜单数据源",
+          value: "anilist_trending",
           enumOptions: [
-            { title: "AniList 流行榜", value: "anilist" },
-            { title: "MAL 权威榜单", value: "mal" }
-          ]
-        },
-        {
-          name: "sort",
-          title: "排序方式",
-          type: "enumeration",
-          value: "TRENDING_DESC",
-          belongTo: { paramName: "source", value: ["anilist"] },
-          enumOptions: [
-            { title: "近期趋势", value: "TRENDING_DESC" },
-            { title: "历史人气", value: "POPULARITY_DESC" },
-            { title: "评分最高", value: "SCORE_DESC" }
-          ]
-        },
-        {
-          name: "filter",
-          title: "榜单类型",
-          type: "enumeration",
-          value: "airing",
-          belongTo: { paramName: "source", value: ["mal"] },
-          enumOptions: [
-            { title: "当前热播", value: "airing" },
-            { title: "历史总榜", value: "all" },
-            { title: "最佳剧场版", value: "movie" },
-            { title: "即将上映", value: "upcoming" }
+            { title: "AniList - 近期趋势榜", value: "anilist_trending" },
+            { title: "AniList - 历史人气榜", value: "anilist_popular" },
+            { title: "AniList - 评分最高榜", value: "anilist_score" },
+            { title: "AniList - 最新添加榜", value: "anilist_updated" },
+            { title: "AniList - 即将上映榜", value: "anilist_upcoming" },
+            { title: "MAL - 当前热播榜", value: "mal_airing" },
+            { title: "MAL - 历史总榜", value: "mal_all" },
+            { title: "MAL - 最佳剧场版", value: "mal_movie" },
+            { title: "MAL - 即将上映榜", value: "mal_upcoming" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
@@ -1504,74 +1487,79 @@ async function tmdbPopularMovies(params = {}) {
 async function loadDoubanChineseTVList(params = {}) {
   const { page = 1 } = params;
   
+  console.log(`🎭 直接调用豆瓣国产剧API: 页码 ${page}`);
+  
   try {
-    const cacheKey = `douban_chinese_tv_${page}`;
+    const cacheKey = `douban_chinese_tv_direct_${page}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    console.log(`🎭 开始加载豆瓣国产剧集数据: 页码 ${page}`);
+    if (cached) {
+      console.log("📦 使用缓存数据");
+      return cached;
+    }
     
-    const start = (page - 1) * 18; // 豆瓣每页18条数据
-    const doubanAPI = `https://m.douban.com/rexxar/api/v2/subject_collection/tv_domestic/items`;
+    const doubanAPI = "https://m.douban.com/rexxar/api/v2/subject_collection/tv_domestic/items";
     
-    console.log(`🌐 请求豆瓣API: ${doubanAPI}`);
+    console.log(`🌐 直接请求豆瓣国产剧API: ${doubanAPI}`);
     
     const response = await Widget.http.get(doubanAPI, {
       params: {
-        os: "other",
+        os: "ios",
         for_mobile: 1,
-        start: start,
-        count: 18,
-        loc_id: 0
-      }
+        start: (page - 1) * 20,
+        count: 20,
+        loc_id: 0,
+        _: Date.now()
+      },
+      headers: {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+        "Referer": "https://m.douban.com/tv/chinese",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "zh-CN,zh;q=0.9",
+        "Origin": "https://m.douban.com",
+        "Connection": "keep-alive"
+      },
+      timeout: 15000
     });
-
-    if (!response || !response.subject_collection_items) {
-      console.error("❌ 豆瓣API响应异常");
-      console.error("❌ 响应对象:", response);
+    
+    if (!response || !response.data || !response.data.subject_collection_items) {
+      console.error("❌ 豆瓣国产剧API响应异常");
       return [];
     }
-
-    console.log(`📊 豆瓣API返回 ${response.subject_collection_items.length} 条数据`);
-
-    // 转换豆瓣数据为标准格式
-    const results = response.subject_collection_items.map(item => {
+    
+    console.log(`📊 直接API返回 ${response.data.subject_collection_items.length} 条数据`);
+    
+    const results = response.data.subject_collection_items.map(item => {
       const title = item.title;
       const year = item.year || "";
       const genres = item.genres || [];
       const genreText = genres.slice(0, 2).join("•");
-      const description = genreText + (year ? ` (${year})` : "");
+      const rating = item.rating?.value || 0;
+      const description = `${genreText}${year ? ` (${year})` : ''}${rating > 0 ? ` ⭐${rating.toFixed(1)}` : ''}`;
 
       return {
         id: String(item.id),
-        type: "douban_real", // 标记为真实豆瓣数据
+        type: "douban_real_direct",
         title: title,
         description: description,
-        rating: item.rating && item.rating.value ? Number(item.rating.value.toFixed(1)) : 0,
-        releaseDate: year + "-01-01", // 豆瓣只提供年份
-        posterPath: item.cover && item.cover.url ? item.cover.url : "",
-        backdropPath: item.pic && item.pic.normal ? item.pic.normal : "",
+        rating: rating,
+        releaseDate: year + "-01-01",
+        posterPath: item.cover?.url || item.pic?.normal || "",
+        backdropPath: item.pic?.large || item.cover?.url || "",
         genreTitle: genreText,
         mediaType: "tv",
         year: year,
-        // 豆瓣特有字段
         doubanId: item.id,
         doubanURL: item.uri || item.url
       };
     }).filter(item => item.title && item.title.trim().length > 0);
-
-    console.log(`✅ 豆瓣国产剧集加载成功: ${results.length}项`);
+    
+    console.log(`✅ 直接豆瓣国产剧API成功: ${results.length}项`);
     setCachedData(cacheKey, results);
     return results;
-
-  } catch (error) {
-    console.error("❌ 豆瓣国产剧集加载失败:", error);
-    console.error("❌ 错误详情:", error.message);
-    console.error("❌ 错误堆栈:", error.stack);
     
-    // 如果豆瓣API失败，回退到TMDB
-    console.log("🔄 回退到TMDB API获取中国剧集");
-    return await loadTMDBChineseTVFallback(params);
+  } catch (error) {
+    console.error("❌ 直接豆瓣国产剧API失败:", error.message);
+    return [];
   }
 }
 
@@ -2557,13 +2545,13 @@ function generateThemeFallbackData(theme) {
 
 // 1. 全球热榜聚合
 async function loadTrendHub(params = {}) {
-    const { source, traktType = "all", page = 1 } = params;
+    const { sort_by = "trakt_trending", traktType = "all", page = 1 } = params;
     // 统一使用一个 Trakt ID
     const traktClientId = Widget.params?.traktClientId || DEFAULT_TRAKT_ID;
 
     // Trakt 榜单
-    if (source.startsWith("trakt_")) {
-        const listType = source.replace("trakt_", "");
+    if (sort_by.startsWith("trakt_")) {
+        const listType = sort_by.replace("trakt_", "");
         
         if (traktType === "all") {
             const [movies, shows] = await Promise.all([
@@ -2626,29 +2614,237 @@ async function loadTrendHub(params = {}) {
     }
 
     // 豆瓣榜单
-    if (source.startsWith("db_")) {
+    if (sort_by.startsWith("db_")) {
         let tag = "热门", type = "tv";
-        if (source === "db_tv_cn") { tag = "国产剧"; type = "tv"; }
-        else if (source === "db_variety") { tag = "综艺"; type = "tv"; }
-        else if (source === "db_movie") { tag = "热门"; type = "movie"; }
-        else if (source === "db_tv_us") { tag = "美剧"; type = "tv"; }
+        if (sort_by === "db_tv_cn") { tag = "国产剧"; type = "tv"; }
+        else if (sort_by === "db_variety") { tag = "综艺"; type = "tv"; }
+        else if (sort_by === "db_movie") { tag = "热门"; type = "movie"; }
+        else if (sort_by === "db_tv_us") { tag = "美剧"; type = "tv"; }
         
         return await fetchDoubanAndMap(tag, type, page);
     }
 
     // B站榜单
-    if (source.startsWith("bili_")) {
-        const type = source === "bili_cn" ? 4 : 1;
+    if (sort_by.startsWith("bili_")) {
+        const type = sort_by === "bili_cn" ? 4 : 1;
         return await fetchBilibiliRank(type, page);
     }
 
     // Bangumi 每日放送
-    if (source === "bgm_daily") {
+    if (sort_by === "bgm_daily") {
         if (page > 1) return [];
         return await fetchBangumiDaily();
     }
 
     return [{ id: "err", type: "text", title: "未知数据源" }];
+}
+
+// 更新fetchDoubanAndMap函数以修复豆瓣连接问题
+async function fetchDoubanAndMap(tag, type, page) {
+    const start = (page - 1) * 20;
+    
+    try {
+        console.log(`🎭 开始获取豆瓣榜单: ${tag}, 类型: ${type}, 页码: ${page}`);
+        
+        // 豆瓣API URL
+        const doubanAPI = `https://m.douban.com/rexxar/api/v2/subject_collection/`;
+        
+        // 豆瓣主题集合映射
+        const doubanCollectionMap = {
+            "热门电影": "movie_weekly_best",  // 热门电影
+            "国产剧": "tv_domestic",         // 国产剧
+            "综艺": "tv_variety_show",       // 综艺
+            "美剧": "tv_american"            // 美剧
+        };
+        
+        const collectionName = doubanCollectionMap[tag] || "movie_weekly_best";
+        
+        const url = `${doubanAPI}${collectionName}/items`;
+        
+        console.log(`🌐 豆瓣API请求: ${url}`);
+        
+        const response = await Widget.http.get(url, {
+            params: {
+                os: "ios",
+                for_mobile: 1,
+                start: start,
+                count: 20,
+                loc_id: 0,
+                _: Date.now()  // 添加时间戳避免缓存
+            },
+            headers: {
+                "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+                "Referer": "https://m.douban.com/",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "zh-CN,zh;q=0.9",
+                "Origin": "https://m.douban.com",
+                "Connection": "keep-alive"
+            },
+            timeout: 10000
+        });
+
+        console.log(`📊 豆瓣API响应状态: ${response.statusCode || "未知"}`);
+        
+        if (!response || !response.data) {
+            console.error("❌ 豆瓣API响应为空");
+            return page === 1 ? [{ id: "empty", type: "text", title: "暂无数据", description: "豆瓣API无响应" }] : [];
+        }
+
+        const data = response.data;
+        const list = data.subject_collection_items || [];
+        
+        if (list.length === 0) {
+            console.log("📊 豆瓣榜单数据为空");
+            return page === 1 ? [{ id: "empty", type: "text", title: "暂无数据", description: "当前榜单暂无内容" }] : [];
+        }
+
+        console.log(`📊 豆瓣API返回 ${list.length} 条数据`);
+
+        const promises = list.map(async (item, i) => {
+            const rank = start + i + 1;
+            
+            // 提取基本信息
+            const title = item.title || item.name || "未知标题";
+            const year = item.year || item.release_year || "";
+            const rating = item.rating?.value || 0;
+            const genres = item.genres || [];
+            const genreText = genres.slice(0, 2).join("•");
+            
+            let finalItem = {
+                id: `db_${item.id || i}`,
+                type: "douban_real",
+                mediaType: type,
+                title: `${rank}. ${title}`,
+                description: `${genreText}${year ? ` (${year})` : ''}${rating > 0 ? ` ⭐${rating.toFixed(1)}` : ''}`,
+                rating: rating,
+                releaseDate: year ? `${year}-01-01` : "",
+                posterPath: item.cover?.url || item.pic?.normal || "",
+                backdropPath: item.pic?.large || item.cover?.url || "",
+                genreTitle: genreText,
+                year: year,
+                doubanId: item.id,
+                doubanURL: item.url || item.uri
+            };
+            
+            // 尝试匹配TMDB
+            try {
+                const tmdb = await searchTmdb(title, type);
+                if (tmdb) {
+                    finalItem.id = String(tmdb.id);
+                    finalItem.tmdbId = tmdb.id;
+                    finalItem.posterPath = tmdb.poster_path ? `https://image.tmdb.org/t/p/w500${tmdb.poster_path}` : finalItem.posterPath;
+                    finalItem.backdropPath = tmdb.backdrop_path ? `https://image.tmdb.org/t/p/w780${tmdb.backdrop_path}` : finalItem.backdropPath;
+                    
+                    const tmdbYear = (tmdb.first_air_date || tmdb.release_date || "").substring(0, 4);
+                    const tmdbGenreText = getGenreText(tmdb.genre_ids, type === "movie" ? "movie" : "tv");
+                    finalItem.genreTitle = tmdbGenreText || genreText;
+                    finalItem.year = tmdbYear || year;
+                    finalItem.description = `${tmdbGenreText || genreText}${tmdbYear || year ? ` (${tmdbYear || year})` : ''} ⭐${rating > 0 ? rating.toFixed(1) : (tmdb.vote_average?.toFixed(1) || "0.0")}`;
+                    finalItem.rating = rating || tmdb.vote_average || 0;
+                }
+            } catch (tmdbError) {
+                console.warn(`TMDB匹配失败: ${title}`, tmdbError.message);
+            }
+            
+            return finalItem;
+        });
+        
+        const results = await Promise.all(promises);
+        console.log(`✅ 豆瓣榜单处理完成: ${results.length} 条数据`);
+        return results;
+        
+    } catch (e) {
+        console.error("❌ 豆瓣榜单连接失败:", e.message);
+        console.error("错误堆栈:", e.stack);
+        
+        // 回退方案：使用TMDB数据
+        console.log("🔄 豆瓣API失败，回退到TMDB数据");
+        return await fetchDoubanTMDBFallback(tag, type, page);
+    }
+}
+
+// 豆瓣API失败时的TMDB回退函数
+async function fetchDoubanTMDBFallback(tag, type, page) {
+    console.log(`🔄 使用TMDB回退数据: ${tag}, ${type}`);
+    
+    try {
+        // 映射豆瓣标签到TMDB参数
+        const tagToParams = {
+            "热门电影": { endpoint: "/movie/popular", genre: "", region: "CN" },
+            "国产剧": { endpoint: "/discover/tv", genre: "", region: "CN", with_original_language: "zh" },
+            "综艺": { endpoint: "/discover/tv", genre: "10764", region: "CN" }, // 真人秀类型
+            "美剧": { endpoint: "/discover/tv", genre: "", region: "US" }
+        };
+        
+        const params = tagToParams[tag] || tagToParams["热门电影"];
+        
+        // 构建查询参数
+        const queryParams = {
+            language: "zh-CN",
+            page: page,
+            sort_by: "popularity.desc"
+        };
+        
+        if (params.region) {
+            queryParams.with_origin_country = params.region;
+        }
+        
+        if (params.genre) {
+            queryParams.with_genres = params.genre;
+        }
+        
+        if (params.with_original_language) {
+            queryParams.with_original_language = params.with_original_language;
+        }
+        
+        console.log(`🌐 TMDB回退请求: ${params.endpoint}`, queryParams);
+        
+        const response = await Widget.tmdb.get(params.endpoint, {
+            params: queryParams
+        });
+        
+        if (!response || !response.results || response.results.length === 0) {
+            return [{ id: "fallback_empty", type: "text", title: "TMDB数据为空", description: "无法获取替代数据" }];
+        }
+        
+        const results = response.results.map((item, index) => {
+            const rank = (page - 1) * 20 + index + 1;
+            const title = item.title || item.name || "未知标题";
+            const releaseDate = item.release_date || item.first_air_date || "";
+            const year = releaseDate ? releaseDate.substring(0, 4) : "";
+            const genreIds = item.genre_ids || [];
+            const genreText = getGenreTitle(genreIds, type === "movie" ? "movie" : "tv");
+            const rating = item.vote_average || 0;
+            
+            return {
+                id: String(item.id),
+                type: "tmdb_fallback",
+                mediaType: type,
+                title: `${rank}. ${title}`,
+                description: `${genreText}${year ? ` (${year})` : ''} ⭐${rating.toFixed(1)}`,
+                rating: rating,
+                releaseDate: releaseDate,
+                posterPath: item.poster_path,
+                backdropPath: item.backdrop_path,
+                genreTitle: genreText,
+                year: year,
+                tmdbId: item.id,
+                source: `TMDB替代 (${tag})`
+            };
+        });
+        
+        console.log(`✅ TMDB回退成功: ${results.length} 条数据`);
+        return results;
+        
+    } catch (fallbackError) {
+        console.error("❌ TMDB回退也失败:", fallbackError.message);
+        return [{ 
+            id: "fallback_error", 
+            type: "text", 
+            title: "数据获取失败", 
+            description: `豆瓣和TMDB都无法获取${tag}数据，请检查网络连接或稍后重试` 
+        }];
+    }
 }
 
 async function fetchTraktData(type, list, clientId, page) {
@@ -2851,17 +3047,45 @@ function getItemTime(item, section) {
 
 // 4. 动漫权威榜单
 async function loadAnimeRanking(params = {}) {
-    const { source, sort = "TRENDING_DESC", filter = "airing", page = 1 } = params;
+    const { sort_by = "anilist_trending", page = 1 } = params;
 
-    if (source === "anilist") {
-        return await loadAniListRanking(sort, page);
-    } else if (source === "mal") {
-        return await loadMalRanking(filter, page);
+    // AniList 榜单
+    if (sort_by.startsWith("anilist_")) {
+        const listType = sort_by.replace("anilist_", "");
+        
+        // 映射到AniList的排序参数
+        const sortMap = {
+            "trending": "TRENDING_DESC",
+            "popular": "POPULARITY_DESC",
+            "score": "SCORE_DESC",
+            "updated": "UPDATED_AT_DESC",
+            "upcoming": "START_DATE_DESC"
+        };
+        
+        const sortParam = sortMap[listType] || "TRENDING_DESC";
+        return await loadAniListRanking(sortParam, page);
+    }
+    
+    // MAL 榜单
+    else if (sort_by.startsWith("mal_")) {
+        const listType = sort_by.replace("mal_", "");
+        
+        // 映射到MAL的筛选参数
+        const filterMap = {
+            "airing": "airing",
+            "all": "all",
+            "movie": "movie",
+            "upcoming": "upcoming"
+        };
+        
+        const filterParam = filterMap[listType] || "airing";
+        return await loadMalRanking(filterParam, page);
     }
 
     return [{ id: "err", type: "text", title: "未知榜单源" }];
 }
 
+// 更新AniList查询函数
 async function loadAniListRanking(sort, page) {
     const perPage = 20;
     const query = `
@@ -2970,53 +3194,6 @@ async function loadMalRanking(filter, page) {
 }
 
 // ==================== 第三方数据源辅助函数 ====================
-
-async function fetchDoubanAndMap(tag, type, page) {
-    const start = (page - 1) * 20;
-    
-    try {
-        const res = await Widget.http.get(`https://movie.douban.com/j/search_subjects?type=${type}&tag=${encodeURIComponent(tag)}&sort=recommend&page_limit=20&page_start=${start}`, {
-            headers: { "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15" }
-        });
-        
-        const list = (res.data || {}).subjects || [];
-        if (list.length === 0) {
-            return page === 1 ? [{ id: "empty", type: "text", title: "暂无数据" }] : [];
-        }
-
-        const promises = list.map(async (item, i) => {
-            const rank = start + i + 1;
-            let finalItem = {
-                id: `db_${item.id}`,
-                type: "tmdb",
-                mediaType: type,
-                title: `${rank}. ${item.title}`,
-                subTitle: `豆瓣 ${item.rate}`,
-                posterPath: item.cover
-            };
-            
-            const tmdb = await searchTmdb(item.title, type);
-            if (tmdb) {
-                finalItem.id = String(tmdb.id);
-                finalItem.tmdbId = tmdb.id;
-                finalItem.posterPath = tmdb.poster_path ? `https://image.tmdb.org/t/p/w500${tmdb.poster_path}` : item.cover;
-                finalItem.backdropPath = tmdb.backdrop_path ? `https://image.tmdb.org/t/p/w780${tmdb.backdrop_path}` : "";
-                
-                const year = (tmdb.first_air_date || tmdb.release_date || "").substring(0, 4);
-                const genreText = getGenreText(tmdb.genre_ids);
-                finalItem.genreTitle = [year, genreText].filter(Boolean).join(" • ");
-                finalItem.description = tmdb.overview;
-                finalItem.rating = tmdb.vote_average?.toFixed(1);
-            }
-            
-            return finalItem;
-        });
-        
-        return await Promise.all(promises);
-    } catch (e) {
-        return [{ id: "err", type: "text", title: "豆瓣连接失败" }];
-    }
-}
 
 async function fetchBilibiliRank(type, page) {
     try {
@@ -3134,13 +3311,3 @@ async function fetchTmdbFallback(type) {
         return [{ id: "err", type: "text", title: "TMDB 备用源失败" }];
     }
 }
-
-    // 根据媒体类型选择端点
-    if (media_type === "tv") {
-      endpoint = "/discover/tv";
-    } else if (media_type === "anime") {
-      endpoint = "/discover/tv";
-      queryParams.with_genres = "16"; // 动画类型
-    }
-
-  
