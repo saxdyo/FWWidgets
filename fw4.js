@@ -314,10 +314,10 @@ var WidgetMetadata = {
       ]
     },
     
-    // TMDB影视榜单
+       // TMDB影视榜单 - 重构版
     {
       title: "TMDB 影视榜单",
-      description: "热门电影和电视剧集榜单",
+      description: "热门电影和电视剧集榜单（支持地区和类型筛选）",
       requiresWebView: false,
       functionName: "loadTmdbMediaRanking",
       cacheDuration: 3600,
@@ -326,11 +326,22 @@ var WidgetMetadata = {
           name: "media_type",
           title: "媒体类型",
           type: "enumeration",
-          description: "选择媒体类型",
+          description: "选择要浏览的媒体类型",
           value: "tv",
           enumOptions: [
             { title: "剧集", value: "tv" },
             { title: "电影", value: "movie" }
+          ]
+        },
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择内容排序方式",
+          value: "popularity",
+          enumOptions: [
+            { title: "🔥 热门度", value: "popularity" },
+            { title: "📅 最近更新", value: "updated" }
           ]
         },
         {
@@ -372,25 +383,6 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "popularity.desc",
-          enumOptions: [
-            { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "最新上映↓", value: "release_date.desc" },
-            { title: "最早上映↑", value: "release_date.asc" },
-            { title: "最新播出↓", value: "first_air_date.desc" },
-            { title: "最早播出↑", value: "first_air_date.asc" },
-            { title: "最新更新↓", value: "last_air_date.desc" },
-            { title: "最早更新↑", value: "last_air_date.asc" }
-          ]
-        },
-        {
           name: "vote_average_gte",
           title: "最低评分",
           type: "enumeration",
@@ -421,19 +413,14 @@ var WidgetMetadata = {
             { title: "2018年", value: "2018" },
             { title: "2017年", value: "2017" },
             { title: "2016年", value: "2016" },
-            { title: "2015年", value: "2015" },
-            { title: "2014年", value: "2014" },
-            { title: "2013年", value: "2013" },
-            { title: "2012年", value: "2012" },
-            { title: "2011年", value: "2011" },
-            { title: "2010年", value: "2010" }
+            { title: "2015年", value: "2015" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
         { name: "language", title: "语言", type: "language", value: "zh-CN" }
       ]
     },
-
+    
     // TMDB主题分类
     {
       title: "TMDB主题分类",
