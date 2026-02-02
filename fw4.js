@@ -534,8 +534,9 @@ var WidgetMetadata = {
     },
 
     
+    // ==================== 新增全媒体中心模块 ====================
     
-    // 模块 1: 全球热榜聚合 (已优化排序)
+   // 模块 1: 全球热榜聚合 (已优化排序)
     {
       title: "全球热榜聚合",
       description: "聚合Trakt、豆瓣、B站、Bangumi等权威榜单",
@@ -594,7 +595,8 @@ var WidgetMetadata = {
       ]
     },
 
-    // ... 模块 3: Trakt 追剧日历 (保持不变) ...
+
+    // 模块 3: Trakt 追剧日历
     {
       title: "Trakt 追剧日历",
       description: "个人追剧日历、待看列表、收藏记录",
@@ -642,7 +644,7 @@ var WidgetMetadata = {
       ]
     },
 
-    // 模块 4: 动漫权威榜单 (优化版)
+    // 模块 4: 动漫权威榜单
     {
       title: "动漫权威榜单",
       description: "AniList、MAL等动漫权威榜单",
@@ -662,25 +664,34 @@ var WidgetMetadata = {
         },
         {
           name: "sort",
-          title: "排序/类型",
+          title: "排序方式",
           type: "enumeration",
-          value: "default",
+          value: "TRENDING_DESC",
+          belongTo: { paramName: "source", value: ["anilist"] },
           enumOptions: [
-            // AniList Sorts
-            { title: "AniList-近期趋势", value: "TRENDING_DESC" },
-            { title: "AniList-历史人气", value: "POPULARITY_DESC" },
-            { title: "AniList-评分最高", value: "SCORE_DESC" },
-            { title: "AniList-最多收藏", value: "FAVOURITES_DESC" },
-            // MAL Filters
-            { title: "MAL-当前热播", value: "airing" },
-            { title: "MAL-历史总榜", value: "all" },
-            { title: "MAL-即将上映", value: "upcoming" },
-            { title: "MAL-最佳剧场版", value: "movie" }
+            { title: "近期趋势", value: "TRENDING_DESC" },
+            { title: "历史人气", value: "POPULARITY_DESC" },
+            { title: "评分最高", value: "SCORE_DESC" }
+          ]
+        },
+        {
+          name: "filter",
+          title: "榜单类型",
+          type: "enumeration",
+          value: "airing",
+          belongTo: { paramName: "source", value: ["mal"] },
+          enumOptions: [
+            { title: "当前热播", value: "airing" },
+            { title: "历史总榜", value: "all" },
+            { title: "最佳剧场版", value: "movie" },
+            { title: "即将上映", value: "upcoming" }
           ]
         },
         { name: "page", title: "页码", type: "page" }
       ]
-  
+    }
+  ]
+};
 
 // ==================== 配置常量 ====================
 
