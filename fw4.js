@@ -545,10 +545,9 @@ var WidgetMetadata = {
       cacheDuration: 3600,
       params: [
         {
-          name: "sort_by",
-          title: "数据源榜单",
+          name: "source",
+          title: "选择榜单",
           type: "enumeration",
-          description: "选择要显示的权威榜单",
           value: "trakt_trending",
           enumOptions: [
             { title: "Trakt - 实时热播", value: "trakt_trending" },
@@ -565,10 +564,10 @@ var WidgetMetadata = {
         },
         {
           name: "traktType",
-          title: "Trakt 内容类型",
+          title: "Trakt 类型",
           type: "enumeration",
           value: "all",
-          belongTo: { paramName: "sort_by", value: ["trakt_trending", "trakt_popular", "trakt_anticipated"] },
+          belongTo: { paramName: "source", value: ["trakt_trending", "trakt_popular", "trakt_anticipated"] },
           enumOptions: [
             { title: "全部 (剧集+电影)", value: "all" },
             { title: "剧集", value: "shows" },
@@ -2540,13 +2539,13 @@ function generateThemeFallbackData(theme) {
 
 // 1. 全球热榜聚合
 async function loadTrendHub(params = {}) {
-    const { sort_by = "trakt_trending", traktType = "all", page = 1 } = params;
+    const { source, traktType = "all", page = 1 } = params;
     // 统一使用一个 Trakt ID
     const traktClientId = Widget.params?.traktClientId || DEFAULT_TRAKT_ID;
 
     // Trakt 榜单
-    if (sort_by.startsWith("trakt_")) {
-        const listType = sort_by.replace("trakt_", "");
+    if (source.startsWith("trakt_")) {
+        const listType = source.replace("trakt_", "");
         
         if (traktType === "all") {
             const [movies, shows] = await Promise.all([
