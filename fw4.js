@@ -2045,7 +2045,7 @@ async function loadTmdbByCompany(params = {}) {
   }
 }
 
-// 3. TMDB影视榜单 - 过滤动漫、真人秀和纪录片，屏蔽无海报数据，排除未上映内容
+// 3. TMDB影视榜单 - 过滤动漫、纪录片、真人秀、脱口秀，屏蔽无海报数据，排除未上映内容
 async function loadTmdbMediaRanking(params = {}) {
   const { 
     language = "zh-CN", 
@@ -2062,8 +2062,8 @@ async function loadTmdbMediaRanking(params = {}) {
 
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
     
-    // 过滤类型ID：16=动画，99=纪录片，10764=真人秀
-    const excludeGenres = "16,99,10764";
+    // 过滤类型ID：16=动画，99=纪录片，10764=真人秀，10767=脱口秀
+    const excludeGenres = "16,99,10764,10767";
     
     // 获取当前日期，用于筛选已上映内容
     const today = getBeijingDate(); // 使用已有的获取北京日期函数
@@ -2073,7 +2073,7 @@ async function loadTmdbMediaRanking(params = {}) {
       page, 
       sort_by,
       include_adult: false,
-      // 排除动漫、纪录片和真人秀
+      // 排除动漫、纪录片、真人秀、脱口秀
       without_genres: excludeGenres,
       // 确保有足够投票数才参与排名
       vote_count_gte: media_type === "movie" ? 200 : 100
@@ -2102,7 +2102,7 @@ async function loadTmdbMediaRanking(params = {}) {
     }
     queryParams.sort_by = finalSortBy;
 
-    console.log(`🏆 TMDB影视榜单查询（过滤动漫、纪录片、真人秀、未上映内容）:`, { 
+    console.log(`🏆 TMDB影视榜单查询（过滤动漫、纪录片、真人秀、脱口秀、未上映内容）:`, { 
       endpoint, 
       media_type, 
       sort_by: finalSortBy,
@@ -2116,7 +2116,7 @@ async function loadTmdbMediaRanking(params = {}) {
       throw new Error("榜单数据返回异常");
     }
     
-    // 多重过滤：确保不包含动漫、纪录片或真人秀，有有效的海报数据，且已上映
+    // 多重过滤：确保不包含动漫、纪录片、真人秀、脱口秀，有有效的海报数据，且已上映
     const filteredResults = res.results.filter(item => {
       // 1. 检查上映状态（客户端二次验证）
       const releaseDate = media_type === "movie" ? item.release_date : item.first_air_date;
@@ -2125,15 +2125,16 @@ async function loadTmdbMediaRanking(params = {}) {
         return false;
       }
       
-      // 2. 检查是否包含动漫、纪录片或真人秀
+      // 2. 检查是否包含动漫、纪录片、真人秀、脱口秀
       if (item.genre_ids && Array.isArray(item.genre_ids)) {
         const hasAnime = item.genre_ids.includes(16);
         const hasDocumentary = item.genre_ids.includes(99);
         const hasRealityShow = item.genre_ids.includes(10764);
+        const hasTalkShow = item.genre_ids.includes(10767);
         const hasAnimation = item.genre_ids.includes(16); // 动画
         const hasKids = item.genre_ids.includes(10762);   // 儿童节目
         
-        if (hasAnime || hasDocumentary || hasRealityShow || hasAnimation || hasKids) {
+        if (hasAnime || hasDocumentary || hasRealityShow || hasTalkShow || hasAnimation || hasKids) {
           console.log(`🚫 过滤: ${item.title || item.name} (类型: ${item.genre_ids.join(',')})`);
           return false;
         }
@@ -2263,11 +2264,13 @@ async function loadTmdbMediaRanking(params = {}) {
           return false;
         }
         
-        // 2. 过滤动漫、纪录片、真人秀
+        // 2. 过滤动漫、纪录片、真人秀、脱口秀
         if (item.genre_ids && Array.isArray(item.genre_ids)) {
-          if (item.genre_ids.includes(16) || 
-              item.genre_ids.includes(99) || 
-              item.genre_ids.includes(10764)) {
+          // 需要过滤的类型ID
+          const excludedGenres = [16, 99, 10764, 10767]; // 动漫、纪录片、真人秀、脱口秀
+          const hasExcludedGenre = item.genre_ids.some(genreId => excludedGenres.includes(genreId));
+          
+          if (hasExcludedGenre) {
             return false;
           }
         }
