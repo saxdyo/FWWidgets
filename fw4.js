@@ -2045,7 +2045,7 @@ async function loadTmdbByCompany(params = {}) {
   }
 }
 
-// 3. TMDB影视榜单 - 过滤真人秀和动漫
+// 3. TMDB影视榜单 - 过滤动漫、真人秀和纪录片，屏蔽无海报数据，排除未上映内容
 async function loadTmdbMediaRanking(params = {}) {
   const { 
     language = "zh-CN", 
@@ -2062,15 +2062,18 @@ async function loadTmdbMediaRanking(params = {}) {
 
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
     
-    // 过滤类型ID：16=动画，10764=真人秀
-    const excludeGenres = "16,10764";
+    // 过滤类型ID：16=动画，99=纪录片，10764=真人秀
+    const excludeGenres = "16,99,10764";
+    
+    // 获取当前日期，用于筛选已上映内容
+    const today = getBeijingDate(); // 使用已有的获取北京日期函数
     
     const queryParams = { 
       language, 
       page, 
       sort_by,
       include_adult: false,
-      // 排除动漫和真人秀
+      // 排除动漫、纪录片和真人秀
       without_genres: excludeGenres,
       // 确保有足够投票数才参与排名
       vote_count_gte: media_type === "movie" ? 200 : 100
@@ -2079,6 +2082,15 @@ async function loadTmdbMediaRanking(params = {}) {
     // 添加制作地区（可选）
     if (with_origin_country) {
       queryParams.with_origin_country = with_origin_country;
+    }
+    
+    // 添加上映日期筛选：只显示已上映内容
+    if (media_type === "movie") {
+      queryParams['release_date.lte'] = today; // 上映日期小于等于今天
+      queryParams['release_date.gte'] = "1900-01-01"; // 有上映日期
+    } else {
+      queryParams['first_air_date.lte'] = today; // 首播日期小于等于今天
+      queryParams['first_air_date.gte'] = "1900-01-01"; // 有首播日期
     }
     
     // 修正排序参数
@@ -2090,11 +2102,12 @@ async function loadTmdbMediaRanking(params = {}) {
     }
     queryParams.sort_by = finalSortBy;
 
-    console.log(`🏆 TMDB影视榜单查询（过滤动漫和真人秀）:`, { 
+    console.log(`🏆 TMDB影视榜单查询（过滤动漫、纪录片、真人秀、未上映内容）:`, { 
       endpoint, 
       media_type, 
       sort_by: finalSortBy,
-      excluded_genres: excludeGenres 
+      excluded_genres: excludeGenres,
+      date_filter: media_type === "movie" ? `release_date <= ${today}` : `first_air_date <= ${today}`
     });
     
     const res = await Widget.tmdb.get(endpoint, { params: queryParams });
@@ -2103,27 +2116,73 @@ async function loadTmdbMediaRanking(params = {}) {
       throw new Error("榜单数据返回异常");
     }
     
-    // 二次过滤：确保不包含动漫或真人秀
+    // 多重过滤：确保不包含动漫、纪录片或真人秀，有有效的海报数据，且已上映
     const filteredResults = res.results.filter(item => {
-      if (!item.genre_ids || !Array.isArray(item.genre_ids)) return true;
+      // 1. 检查上映状态（客户端二次验证）
+      const releaseDate = media_type === "movie" ? item.release_date : item.first_air_date;
+      if (!releaseDate || releaseDate.trim() === "" || releaseDate > today) {
+        console.log(`🚫 过滤: ${item.title || item.name} (未上映: ${releaseDate || "无日期"})`);
+        return false;
+      }
       
-      // 检查是否包含动漫(16)或真人秀(10764)
-      const hasAnime = item.genre_ids.includes(16);
-      const hasRealityShow = item.genre_ids.includes(10764);
+      // 2. 检查是否包含动漫、纪录片或真人秀
+      if (item.genre_ids && Array.isArray(item.genre_ids)) {
+        const hasAnime = item.genre_ids.includes(16);
+        const hasDocumentary = item.genre_ids.includes(99);
+        const hasRealityShow = item.genre_ids.includes(10764);
+        const hasAnimation = item.genre_ids.includes(16); // 动画
+        const hasKids = item.genre_ids.includes(10762);   // 儿童节目
+        
+        if (hasAnime || hasDocumentary || hasRealityShow || hasAnimation || hasKids) {
+          console.log(`🚫 过滤: ${item.title || item.name} (类型: ${item.genre_ids.join(',')})`);
+          return false;
+        }
+      }
       
-      // 同时检查其他可能的动漫相关类型
-      const hasAnimation = item.genre_ids.includes(16); // 动画
-      const hasKids = item.genre_ids.includes(10762);   // 儿童节目
+      // 3. 检查是否有有效的海报数据
+      const hasValidPoster = item.poster_path && 
+                            item.poster_path.trim() !== "" && 
+                            !item.poster_path.includes("null") &&
+                            item.poster_path !== "https://image.tmdb.org/t/p/w500null";
       
-      return !(hasAnime || hasRealityShow || hasAnimation || hasKids);
+      if (!hasValidPoster) {
+        console.log(`🚫 过滤: ${item.title || item.name} (无有效海报)`);
+        return false;
+      }
+      
+      // 4. 检查是否有有效的标题
+      const hasValidTitle = (item.title || item.name) && 
+                           (item.title || item.name).trim() !== "";
+      
+      if (!hasValidTitle) {
+        console.log(`🚫 过滤: 条目ID ${item.id} (无有效标题)`);
+        return false;
+      }
+      
+      return true;
     });
     
     console.log(`📊 原始结果: ${res.results.length}条, 过滤后: ${filteredResults.length}条`);
+    
+    if (filteredResults.length === 0) {
+      console.log("⚠️ 过滤后无有效数据，返回空数组");
+      return [];
+    }
     
     const results = filteredResults.map(item => {
       item.media_type = media_type;
       const widgetItem = createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
+      
+      // 添加上映日期信息
+      const releaseDate = media_type === "movie" ? item.release_date : item.first_air_date;
+      if (releaseDate) {
+        const date = new Date(releaseDate);
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        widgetItem.releaseInfo = `${year}-${month}-${day} 上映`;
+      }
       
       // 添加排序状态显示
       if (sort_by.includes("popularity")) {
@@ -2136,38 +2195,112 @@ async function loadTmdbMediaRanking(params = {}) {
         }
       }
       
+      // 验证海报URL是否有效
+      if (widgetItem.posterPath && 
+          (widgetItem.posterPath.includes("null") || 
+           widgetItem.posterPath.trim() === "")) {
+        // 尝试使用背景图作为备选
+        if (item.backdrop_path) {
+          widgetItem.posterPath = `https://image.tmdb.org/t/p/w500${item.backdrop_path}`;
+          console.log(`🔄 使用背景图作为海报: ${item.title || item.name}`);
+        } else {
+          // 生成占位符海报
+          const title = item.title || item.name || "未知";
+          widgetItem.posterPath = generatePlaceholderPoster(title, media_type);
+          console.log(`🔄 生成占位符海报: ${title}`);
+        }
+      }
+      
       // 标记为已过滤版本
       widgetItem.filtered = true;
       
       return widgetItem;
     }).slice(0, CONFIG.MAX_ITEMS);
     
-    console.log(`✅ 影视榜单获取成功（已过滤动漫和真人秀）: ${results.length}条`);
+    console.log(`✅ 影视榜单获取成功（已过滤无效数据）: ${results.length}条`);
     setCachedData(cacheKey, results);
     return results;
 
   } catch (error) {
     console.error("❌ TMDB影视榜单加载失败:", error.message);
     
-    // 错误时尝试不使用过滤重新获取
+    // 错误时尝试简化查询重新获取，但保留客户端过滤
     try {
-      console.log("🔄 尝试不使用过滤重新获取...");
-      const fallbackParams = { ...params };
-      delete fallbackParams.without_genres;
-      const fallbackRes = await Widget.tmdb.get(
-        endpoint, 
-        { params: queryParams }
-      );
+      console.log("🔄 尝试简化查询重新获取...");
+      const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
+      const today = getBeijingDate();
+      
+      const queryParams = { 
+        language, 
+        page, 
+        sort_by,
+        include_adult: false,
+        vote_count_gte: media_type === "movie" ? 200 : 100
+      };
+      
+      if (with_origin_country) {
+        queryParams.with_origin_country = with_origin_country;
+      }
+      
+      // 添加日期筛选
+      if (media_type === "movie") {
+        queryParams['release_date.lte'] = today;
+      } else {
+        queryParams['first_air_date.lte'] = today;
+      }
+      
+      const fallbackRes = await Widget.tmdb.get(endpoint, { params: queryParams });
+      
+      if (!fallbackRes || !fallbackRes.results) {
+        return [];
+      }
       
       // 客户端过滤
-      const clientFiltered = (fallbackRes.results || []).filter(item => {
-        if (!item.genre_ids) return true;
-        return !(item.genre_ids.includes(16) || item.genre_ids.includes(10764));
+      const clientFiltered = fallbackRes.results.filter(item => {
+        // 1. 检查上映状态
+        const releaseDate = media_type === "movie" ? item.release_date : item.first_air_date;
+        if (!releaseDate || releaseDate.trim() === "" || releaseDate > today) {
+          return false;
+        }
+        
+        // 2. 过滤动漫、纪录片、真人秀
+        if (item.genre_ids && Array.isArray(item.genre_ids)) {
+          if (item.genre_ids.includes(16) || 
+              item.genre_ids.includes(99) || 
+              item.genre_ids.includes(10764)) {
+            return false;
+          }
+        }
+        
+        // 3. 必须有有效的海报
+        const hasValidPoster = item.poster_path && 
+                              item.poster_path.trim() !== "" && 
+                              !item.poster_path.includes("null");
+        
+        // 4. 必须有有效的标题
+        const hasValidTitle = (item.title || item.name) && 
+                             (item.title || item.name).trim() !== "";
+        
+        return hasValidPoster && hasValidTitle;
       }).map(item => {
         item.media_type = media_type;
         const widgetItem = createWidgetItem(item);
         widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
         widgetItem.filtered = true;
+        
+        // 添加上映信息
+        const releaseDate = media_type === "movie" ? item.release_date : item.first_air_date;
+        if (releaseDate) {
+          const date = new Date(releaseDate);
+          widgetItem.releaseInfo = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} 上映`;
+        }
+        
+        // 确保海报URL有效
+        if (!widgetItem.posterPath || widgetItem.posterPath.includes("null")) {
+          const title = item.title || item.name || "未知";
+          widgetItem.posterPath = generatePlaceholderPoster(title, media_type);
+        }
+        
         return widgetItem;
       }).slice(0, CONFIG.MAX_ITEMS);
       
