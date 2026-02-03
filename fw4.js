@@ -77,6 +77,19 @@ var WidgetMetadata = {
           ]
         },
         {
+          name: "vote_average_gte",
+          title: "最低评分",
+          type: "enumeration",
+          description: "设置最低评分要求",
+          value: "0",
+          enumOptions: [
+            { title: "无要求", value: "0" },
+            { title: "6.0分以上", value: "6.0" },
+            { title: "7.0分以上", value: "7.0" },
+            { title: "8.0分以上", value: "8.0" }
+          ]
+        },
+        {
           name: "sort_by",
           title: "排序方式",
           type: "enumeration",
@@ -84,7 +97,10 @@ var WidgetMetadata = {
           value: "popularity",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
+            { title: "评分排序", value: "rating" },
             { title: "最新发布", value: "release_date" },
+            { title: "投票数", value: "vote_count" },
+            { title: "原始顺序", value: "original" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -327,272 +343,12 @@ var WidgetMetadata = {
             { title: "全部地区", value: "" },
             { title: "美国", value: "US" },
             { title: "中国", value: "CN" },
+            { title: "香港", value: "HK" },
+            { title: "台湾", value: "TW" },
             { title: "日本", value: "JP" },
             { title: "韩国", value: "KR" },
             { title: "欧洲", value: "GB,FR,DE,ES,IT" }
-          ]
-        },
-            {
-        name: "sort_by",
-        title: "排序方式",
-        type: "enumeration",
-        description: "选择排序方式",
-        value: "popularity.desc",
-        enumOptions: [
-          { title: "热门度↓", value: "popularity.desc" },
-          { title: "热门度↑", value: "popularity.asc" },
-          { title: "最新更新↓", value: "release_date.desc" },
-          { title: "最新更新↑", value: "release_date.asc" },
-          { title: "最新播出↓", value: "first_air_date.desc" },
-          { title: "最新播出↑", value: "first_air_date.asc" }
-        ]
-      },
-          { name: "page", title: "页码", type: "page" },
-          { name: "language", title: "语言", type: "language", value: "zh-CN" }
-        ]
-      },
-
-    // TMDB主题分类
-    {
-      title: "TMDB主题分类",
-      description: "按主题分类浏览影视内容",
-      requiresWebView: false,
-      functionName: "loadTmdbByTheme",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "theme",
-          title: "主题分类",
-          type: "enumeration",
-          description: "选择影视主题分类",
-          value: "action",
-          enumOptions: [
-            { title: "动作冒险", value: "action" },
-            { title: "科幻奇幻", value: "sci_fi" },
-            { title: "悬疑惊悚", value: "thriller" },
-            { title: "爱情浪漫", value: "romance" },
-            { title: "喜剧搞笑", value: "comedy" },
-            { title: "恐怖惊悚", value: "horror" },
-            { title: "战争历史", value: "war_history" },
-            { title: "家庭儿童", value: "family" },
-            { title: "音乐歌舞", value: "music" },
-            { title: "纪录片", value: "documentary" },
-            { title: "西部片", value: "western" },
-            { title: "犯罪剧情", value: "crime" }
-          ]
-        },
-        {
-          name: "media_type",
-          title: "媒体类型",
-          type: "enumeration",
-          description: "选择媒体类型",
-          value: "all",
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "电影", value: "movie" },
-            { title: "电视剧", value: "tv" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "popularity_desc",
-          enumOptions: [
-            { title: "热度降序", value: "popularity_desc" },
-            { title: "热度升序", value: "popularity_asc" },
-            { title: "评分降序", value: "vote_average_desc" },
-            { title: "评分升序", value: "vote_average_asc" },
-            { title: "上映时间降序", value: "release_date_desc" },
-            { title: "上映时间升序", value: "release_date_asc" }
-          ]
-        },
-        {
-          name: "min_rating",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" },
-            { title: "9.0分以上", value: "9.0" }
-          ]
-        },
-        {
-          name: "year",
-          title: "年份筛选",
-          type: "enumeration",
-          description: "按年份筛选内容",
-          value: "",
-          enumOptions: [
-            { title: "全部年份", value: "" },
-            { title: "2024年", value: "2024" },
-            { title: "2023年", value: "2023" },
-            { title: "2022年", value: "2022" },
-            { title: "2021年", value: "2021" },
-            { title: "2020年", value: "2020" },
-            { title: "2019年", value: "2019" },
-            { title: "2018年", value: "2018" },
-            { title: "2017年", value: "2017" },
-            { title: "2016年", value: "2016" },
-            { title: "2015年", value: "2015" },
-            { title: "2014年", value: "2014" },
-            { title: "2013年", value: "2013" },
-            { title: "2012年", value: "2012" },
-            { title: "2011年", value: "2011" },
-            { title: "2010年", value: "2010" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    
-    // ==================== 新增全媒体中心模块 ====================
-    
-    // 模块 1: 全球热榜聚合
-    {
-      title: "全球热榜聚合",
-      description: "聚合Trakt、豆瓣、B站、Bangumi等权威榜单",
-      requiresWebView: false,
-      functionName: "loadTrendHub",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "sort_by",
-          title: "数据源榜单",
-          type: "enumeration",
-          description: "选择要显示的权威榜单",
-          value: "trakt_trending",
-          enumOptions: [
-            { title: "Trakt - 实时热播", value: "trakt_trending" },
-            { title: "Trakt - 最受欢迎", value: "trakt_popular" },
-            { title: "Trakt - 最受期待", value: "trakt_anticipated" },
-            { title: "豆瓣 - 热门国产剧", value: "db_tv_cn" },
-            { title: "豆瓣 - 热门综艺", value: "db_variety" },
-            { title: "豆瓣 - 热门电影", value: "db_movie" },
-            { title: "豆瓣 - 热门美剧", value: "db_tv_us" },
-            { title: "B站 - 番剧热播", value: "bili_bgm" },
-            { title: "B站 - 国创热播", value: "bili_cn" },
-            { title: "Bangumi - 每日放送", value: "bgm_daily" }
-          ]
-        },
-        {
-          name: "traktType",
-          title: "Trakt 内容类型",
-          type: "enumeration",
-          value: "all",
-          belongTo: { paramName: "sort_by", value: ["trakt_trending", "trakt_popular", "trakt_anticipated"] },
-          enumOptions: [
-            { title: "全部 (剧集+电影)", value: "all" },
-            { title: "剧集", value: "shows" },
-            { title: "电影", value: "movies" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    // 模块 3: Trakt 追剧日历
-    {
-      title: "Trakt 追剧日历",
-      description: "个人追剧日历、待看列表、收藏记录",
-      requiresWebView: false,
-      functionName: "loadTraktProfile",
-      cacheDuration: 300,
-      params: [
-        {
-          name: "section",
-          title: "浏览区域",
-          type: "enumeration",
-          value: "updates",
-          enumOptions: [
-            { title: "追剧日历", value: "updates" },
-            { title: "待看列表", value: "watchlist" },
-            { title: "收藏列表", value: "collection" },
-            { title: "观看历史", value: "history" }
-          ]
-        },
-        {
-          name: "type",
-          title: "内容筛选",
-          type: "enumeration",
-          value: "all",
-          belongTo: { paramName: "section", value: ["watchlist", "collection", "history"] },
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "剧集", value: "shows" },
-            { title: "电影", value: "movies" }
-          ]
-        },
-        {
-          name: "updateSort",
-          title: "追剧模式",
-          type: "enumeration",
-          value: "future_first",
-          belongTo: { paramName: "section", value: ["updates"] },
-          enumOptions: [
-            { title: "从今天往后", value: "future_first" },
-            { title: "按更新倒序", value: "air_date_desc" },
-            { title: "按观看倒序", value: "watched_at" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    // 模块 4: 动漫权威榜单
-    {
-      title: "动漫权威榜单",
-      description: "AniList、MAL等动漫权威榜单",
-      requiresWebView: false,
-      functionName: "loadAnimeRanking",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "sort_by",
-          title: "榜单源选择",
-          type: "enumeration",
-          description: "选择动漫榜单数据源",
-          value: "anilist_trending",
-          enumOptions: [
-            { title: "AniList - 近期趋势榜", value: "anilist_trending" },
-            { title: "AniList - 历史人气榜", value: "anilist_popular" },
-            { title: "AniList - 评分最高榜", value: "anilist_score" },
-            { title: "AniList - 最新添加榜", value: "anilist_updated" },
-            { title: "AniList - 即将上映榜", value: "anilist_upcoming" },
-            { title: "MAL - 当前热播榜", value: "mal_airing" },
-            { title: "MAL - 历史总榜", value: "mal_all" },
-            { title: "MAL - 最佳剧场版", value: "mal_movie" },
-            { title: "MAL - 即将上映榜", value: "mal_upcoming" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    }
-  ]
-};
-
-// ==================== 配置常量 ====================
-
-// 配置常量
-var CONFIG = {
-  API_KEY: "f3ae69ddca232b56265600eb919d46ab", // TMDB API密钥
-  CACHE_DURATION: 30 * 60 * 1000, // 30分钟缓存
-  NETWORK_TIMEOUT: 10000, // 10秒超时
-  MAX_ITEMS: 20, // 最大返回项目数
-  
-  // CDN优化配置
-  ENABLE_CDN_OPTIMIZATION: true, // 启用CDN优化
-  CDN_PROVIDERS: [ // CDN提供商列表，按优先级排序
-    "jsdelivr",
-    "githubraw", 
-    "gitcdn"
-  ],
+          ],
   CDN_RETRY_COUNT: 2, // CDN重试次数
   CDN_TIMEOUT: 8000, // CDN超时时间
   
@@ -2307,7 +2063,17 @@ async function loadTmdbMediaRanking(params = {}) {
     }
   }
 }
+// 2. 检查是否有内容类型（genre_ids），没有则不加载
+if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
+  console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
+  return false;
+}
 
+// 2. 检查是否有内容类型（genre_ids），没有则不加载
+if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
+  console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
+  return false;
+}
 
 
 // 4. TMDB主题分类 - 修复版（增强错误处理和回退机制）
