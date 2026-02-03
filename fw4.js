@@ -46,8 +46,6 @@ var WidgetMetadata = {
           enumOptions: [
             { title: "今日热门", value: "today" },
             { title: "本周热门", value: "week" },
-            { title: "热门电影", value: "popular" },
-            { title: "高分内容", value: "top_rated" }
           ]
         },
         {
