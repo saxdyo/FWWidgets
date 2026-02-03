@@ -2323,17 +2323,7 @@ async function loadTmdbMediaRanking(params = {}) {
     }
   }
 }
-// 2. 检查是否有内容类型（genre_ids），没有则不加载
-if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
-  console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
-  return false;
-}
 
-// 2. 检查是否有内容类型（genre_ids），没有则不加载
-if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
-  console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
-  return false;
-}
 
 
 // 4. TMDB主题分类 - 修复版（增强错误处理和回退机制）
