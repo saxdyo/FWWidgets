@@ -314,59 +314,60 @@ var WidgetMetadata = {
       ]
     },
     
-// TMDB影视榜单
- {
-       title: "TMDB 影视榜单",
-       description: "热门电影和电视剧集榜单",
-       requiresWebView: false,
-       functionName: "loadTmdbMediaRanking",
-       cacheDuration: 3600,
-       params: [
+    // TMDB影视榜单
     {
-       name: "media_type",
-       title: "媒体类型",
-       type: "enumeration",
-       description: "选择媒体类型",
-       value: "tv",
-       enumOptions: [
-        { title: "剧集", value: "tv" },
-        { title: "电影", value: "movie" }
-      ]
-    },
-    {
-       name: "with_origin_country",
-       title: "制作地区",
-       type: "enumeration",
-       description: "按制作地区筛选内容",
-       value: "",
-       enumOptions: [
-        { title: "全部地区", value: "" },
-        { title: "美国", value: "US" },
-        { title: "中国", value: "CN" },
-        { title: "日本", value: "JP" },
-        { title: "韩国", value: "KR" },
-        { title: "欧洲", value: "GB,FR,DE,ES,IT" }
-      ]
-    },
-    {
+      title: "TMDB 影视榜单",
+      description: "热门电影和电视剧集榜单",
+      requiresWebView: false,
+      functionName: "loadTmdbMediaRanking",
+      cacheDuration: 3600,
+      params: [
+        {
+          name: "media_type",
+          title: "媒体类型",
+          type: "enumeration",
+          description: "选择媒体类型",
+          value: "tv",
+          enumOptions: [
+            { title: "剧集", value: "tv" },
+            { title: "电影", value: "movie" }
+          ]
+        },
+        {
+          name: "with_origin_country",
+          title: "制作地区",
+          type: "enumeration",
+          description: "按制作地区筛选内容",
+          value: "",
+          enumOptions: [
+            { title: "全部地区", value: "" },
+            { title: "美国", value: "US" },
+            { title: "中国", value: "CN" },
+            { title: "日本", value: "JP" },
+            { title: "韩国", value: "KR" },
+            { title: "欧洲", value: "GB,FR,DE,ES,IT" }
+          ]
+        },
+            {
         name: "sort_by",
         title: "排序方式",
         type: "enumeration",
         description: "选择排序方式",
         value: "popularity.desc",
         enumOptions: [
-        { title: "热门度↓", value: "popularity.desc" },
-        { title: "热门度↑", value: "popularity.asc" },
-        { title: "最新更新↓", value: "release_date.desc" },
-        { title: "最新更新↑", value: "release_date.asc" },
-        { title: "最新播出↓", value: "first_air_date.desc" },
-        { title: "最新播出↑", value: "first_air_date.asc" }
-      ]
-    },
-    { name: "page", title: "页码", type: "page" },
-    { name: "language", title: "语言", type: "language", value: "zh-CN" }
-  ]
-}
+          { title: "热门度↓", value: "popularity.desc" },
+          { title: "热门度↑", value: "popularity.asc" },
+          { title: "最新更新↓", value: "release_date.desc" },
+          { title: "最新更新↑", value: "release_date.asc" },
+          { title: "最新播出↓", value: "first_air_date.desc" },
+          { title: "最新播出↑", value: "first_air_date.asc" }
+        ]
+      },
+          { name: "page", title: "页码", type: "page" },
+          { name: "language", title: "语言", type: "language", value: "zh-CN" }
+        ]
+      },
+
     // TMDB主题分类
     {
       title: "TMDB主题分类",
