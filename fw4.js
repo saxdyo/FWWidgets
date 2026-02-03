@@ -77,19 +77,6 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" }
-          ]
-        },
-        {
           name: "sort_by",
           title: "排序方式",
           type: "enumeration",
@@ -97,10 +84,7 @@ var WidgetMetadata = {
           value: "popularity",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
-            { title: "评分排序", value: "rating" },
             { title: "最新发布", value: "release_date" },
-            { title: "投票数", value: "vote_count" },
-            { title: "原始顺序", value: "original" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
