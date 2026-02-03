@@ -314,126 +314,59 @@ var WidgetMetadata = {
       ]
     },
     
-    // TMDB影视榜单
+// TMDB影视榜单
+ {
+       title: "TMDB 影视榜单",
+       description: "热门电影和电视剧集榜单",
+       requiresWebView: false,
+       functionName: "loadTmdbMediaRanking",
+       cacheDuration: 3600,
+       params: [
     {
-      title: "TMDB 影视榜单",
-      description: "热门电影和电视剧集榜单",
-      requiresWebView: false,
-      functionName: "loadTmdbMediaRanking",
-      cacheDuration: 3600,
-      params: [
-        {
-          name: "media_type",
-          title: "媒体类型",
-          type: "enumeration",
-          description: "选择媒体类型",
-          value: "tv",
-          enumOptions: [
-            { title: "剧集", value: "tv" },
-            { title: "电影", value: "movie" }
-          ]
-        },
-        {
-          name: "with_origin_country",
-          title: "制作地区",
-          type: "enumeration",
-          description: "按制作地区筛选内容",
-          value: "",
-          enumOptions: [
-            { title: "全部地区", value: "" },
-            { title: "美国", value: "US" },
-            { title: "中国", value: "CN" },
-            { title: "日本", value: "JP" },
-            { title: "韩国", value: "KR" },
-            { title: "欧洲", value: "GB,FR,DE,ES,IT" }
-          ]
-        },
-        {
-          name: "with_genres",
-          title: "内容类型",
-          type: "enumeration",
-          description: "选择内容类型",
-          value: "",
-          enumOptions: [
-            { title: "全部类型", value: "" },
-            { title: "剧情", value: "18" },
-            { title: "喜剧", value: "35" },
-            { title: "犯罪", value: "80" },
-            { title: "动作", value: "28" },
-            { title: "冒险", value: "12" },
-            { title: "动画", value: "16" },
-            { title: "科幻", value: "878" },
-            { title: "奇幻", value: "14" },
-            { title: "悬疑", value: "9648" },
-            { title: "惊悚", value: "53" },
-            { title: "爱情", value: "10749" },
-            { title: "家庭", value: "10751" },
-            { title: "恐怖", value: "27" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "popularity.desc",
-          enumOptions: [
-            { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
-            { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
-            { title: "最新上映↓", value: "release_date.desc" },
-            { title: "最早上映↑", value: "release_date.asc" },
-            { title: "最新播出↓", value: "first_air_date.desc" },
-            { title: "最早播出↑", value: "first_air_date.asc" },
-            { title: "最新更新↓", value: "last_air_date.desc" },
-            { title: "最早更新↑", value: "last_air_date.asc" }
-          ]
-        },
-        {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" },
-            { title: "9.0分以上", value: "9.0" }
-          ]
-        },
-        {
-          name: "year",
-          title: "年份筛选",
-          type: "enumeration",
-          description: "按播出/上映年份筛选内容",
-          value: "",
-          enumOptions: [
-            { title: "全部年份", value: "" },
-            { title: "2024年", value: "2024" },
-            { title: "2023年", value: "2023" },
-            { title: "2022年", value: "2022" },
-            { title: "2021年", value: "2021" },
-            { title: "2020年", value: "2020" },
-            { title: "2019年", value: "2019" },
-            { title: "2018年", value: "2018" },
-            { title: "2017年", value: "2017" },
-            { title: "2016年", value: "2016" },
-            { title: "2015年", value: "2015" },
-            { title: "2014年", value: "2014" },
-            { title: "2013年", value: "2013" },
-            { title: "2012年", value: "2012" },
-            { title: "2011年", value: "2011" },
-            { title: "2010年", value: "2010" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" },
-        { name: "language", title: "语言", type: "language", value: "zh-CN" }
+       name: "media_type",
+       title: "媒体类型",
+       type: "enumeration",
+       description: "选择媒体类型",
+       value: "tv",
+       enumOptions: [
+        { title: "剧集", value: "tv" },
+        { title: "电影", value: "movie" }
       ]
     },
-
+    {
+       name: "with_origin_country",
+       title: "制作地区",
+       type: "enumeration",
+       description: "按制作地区筛选内容",
+       value: "",
+       enumOptions: [
+        { title: "全部地区", value: "" },
+        { title: "美国", value: "US" },
+        { title: "中国", value: "CN" },
+        { title: "日本", value: "JP" },
+        { title: "韩国", value: "KR" },
+        { title: "欧洲", value: "GB,FR,DE,ES,IT" }
+      ]
+    },
+    {
+        name: "sort_by",
+        title: "排序方式",
+        type: "enumeration",
+        description: "选择排序方式",
+        value: "popularity.desc",
+        enumOptions: [
+        { title: "热门度↓", value: "popularity.desc" },
+        { title: "热门度↑", value: "popularity.asc" },
+        { title: "最新更新↓", value: "release_date.desc" },
+        { title: "最新更新↑", value: "release_date.asc" },
+        { title: "最新播出↓", value: "first_air_date.desc" },
+        { title: "最新播出↑", value: "first_air_date.asc" }
+      ]
+    },
+    { name: "page", title: "页码", type: "page" },
+    { name: "language", title: "语言", type: "language", value: "zh-CN" }
+  ]
+}
     // TMDB主题分类
     {
       title: "TMDB主题分类",
