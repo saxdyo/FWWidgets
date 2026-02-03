@@ -2111,63 +2111,40 @@ async function loadTmdbByCompany(params = {}) {
   }
 }
 
-// 3. TMDB影视榜单 - 修复版（增强健壮性）
+// 3. TMDB影视榜单 - 过滤真人秀和动漫
 async function loadTmdbMediaRanking(params = {}) {
   const { 
     language = "zh-CN", 
     page = 1, 
     media_type = "tv",
     with_origin_country,
-    with_genres,
-    sort_by = "popularity.desc",
-    vote_average_gte = "0",
-    year = ""
+    sort_by = "popularity.desc"
   } = params;
   
   try {
-    const cacheKey = `ranking_${media_type}_${with_origin_country}_${with_genres}_${sort_by}_${vote_average_gte}_${year}_${page}`;
+    const cacheKey = `ranking_${media_type}_${with_origin_country}_${sort_by}_${page}`;
     const cached = getCachedData(cacheKey);
     if (cached) return cached;
 
     const endpoint = media_type === "movie" ? "/discover/movie" : "/discover/tv";
     
-    // 构建查询参数
+    // 过滤类型ID：16=动画，10764=真人秀
+    const excludeGenres = "16,10764";
+    
     const queryParams = { 
       language, 
       page, 
       sort_by,
       include_adult: false,
+      // 排除动漫和真人秀
+      without_genres: excludeGenres,
       // 确保有足够投票数才参与排名
       vote_count_gte: media_type === "movie" ? 200 : 100
     };
     
-    // 添加制作地区
+    // 添加制作地区（可选）
     if (with_origin_country) {
       queryParams.with_origin_country = with_origin_country;
-    }
-    
-    // 添加内容类型
-    if (with_genres) {
-      queryParams.with_genres = with_genres;
-    }
-    
-    // 添加最低评分要求
-    if (vote_average_gte && vote_average_gte !== "0") {
-      queryParams.vote_average_gte = vote_average_gte;
-    }
-    
-    // 添加年份筛选
-    if (year) {
-      const startDate = `${year}-01-01`;
-      const endDate = `${year}-12-31`;
-      
-      if (media_type === "movie") {
-        queryParams.release_date_gte = startDate;
-        queryParams.release_date_lte = endDate;
-      } else {
-        queryParams.first_air_date_gte = startDate;
-        queryParams.first_air_date_lte = endDate;
-      }
     }
     
     // 修正排序参数
@@ -2179,7 +2156,12 @@ async function loadTmdbMediaRanking(params = {}) {
     }
     queryParams.sort_by = finalSortBy;
 
-    console.log(`🏆 TMDB影视榜单查询:`, { endpoint, media_type, sort_by: finalSortBy });
+    console.log(`🏆 TMDB影视榜单查询（过滤动漫和真人秀）:`, { 
+      endpoint, 
+      media_type, 
+      sort_by: finalSortBy,
+      excluded_genres: excludeGenres 
+    });
     
     const res = await Widget.tmdb.get(endpoint, { params: queryParams });
     
@@ -2187,20 +2169,80 @@ async function loadTmdbMediaRanking(params = {}) {
       throw new Error("榜单数据返回异常");
     }
     
-    const results = res.results.map(item => {
+    // 二次过滤：确保不包含动漫或真人秀
+    const filteredResults = res.results.filter(item => {
+      if (!item.genre_ids || !Array.isArray(item.genre_ids)) return true;
+      
+      // 检查是否包含动漫(16)或真人秀(10764)
+      const hasAnime = item.genre_ids.includes(16);
+      const hasRealityShow = item.genre_ids.includes(10764);
+      
+      // 同时检查其他可能的动漫相关类型
+      const hasAnimation = item.genre_ids.includes(16); // 动画
+      const hasKids = item.genre_ids.includes(10762);   // 儿童节目
+      
+      return !(hasAnime || hasRealityShow || hasAnimation || hasKids);
+    });
+    
+    console.log(`📊 原始结果: ${res.results.length}条, 过滤后: ${filteredResults.length}条`);
+    
+    const results = filteredResults.map(item => {
       item.media_type = media_type;
       const widgetItem = createWidgetItem(item);
       widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
+      
+      // 添加排序状态显示
+      if (sort_by.includes("popularity")) {
+        widgetItem.sortInfo = `热度: ${item.popularity?.toFixed(0) || 0}`;
+      } else if (sort_by.includes("first_air_date") || sort_by.includes("release_date")) {
+        const dateField = media_type === "movie" ? item.release_date : item.first_air_date;
+        if (dateField) {
+          const date = new Date(dateField);
+          widgetItem.sortInfo = `更新: ${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+        }
+      }
+      
+      // 标记为已过滤版本
+      widgetItem.filtered = true;
+      
       return widgetItem;
     }).slice(0, CONFIG.MAX_ITEMS);
     
-    console.log(`✅ 影视榜单获取成功: ${results.length}条`);
+    console.log(`✅ 影视榜单获取成功（已过滤动漫和真人秀）: ${results.length}条`);
     setCachedData(cacheKey, results);
     return results;
 
   } catch (error) {
     console.error("❌ TMDB影视榜单加载失败:", error.message);
-    return [];
+    
+    // 错误时尝试不使用过滤重新获取
+    try {
+      console.log("🔄 尝试不使用过滤重新获取...");
+      const fallbackParams = { ...params };
+      delete fallbackParams.without_genres;
+      const fallbackRes = await Widget.tmdb.get(
+        endpoint, 
+        { params: queryParams }
+      );
+      
+      // 客户端过滤
+      const clientFiltered = (fallbackRes.results || []).filter(item => {
+        if (!item.genre_ids) return true;
+        return !(item.genre_ids.includes(16) || item.genre_ids.includes(10764));
+      }).map(item => {
+        item.media_type = media_type;
+        const widgetItem = createWidgetItem(item);
+        widgetItem.genreTitle = getGenreTitle(item.genre_ids, media_type);
+        widgetItem.filtered = true;
+        return widgetItem;
+      }).slice(0, CONFIG.MAX_ITEMS);
+      
+      console.log(`✅ 回退获取成功（客户端过滤）: ${clientFiltered.length}条`);
+      return clientFiltered;
+    } catch (fallbackError) {
+      console.error("❌ 回退也失败:", fallbackError.message);
+      return [];
+    }
   }
 }
 
