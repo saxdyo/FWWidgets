@@ -1151,49 +1151,75 @@ async function fetchTmdbData(api, params) {
 
 // ==================== 主要功能函数（已修复） ====================
 
-// 1. TMDB热门内容加载 - 修复版
+// 1. TMDB热门内容加载 - 完全修复版
 async function loadTmdbTrending(params = {}) {
-  const { content_type = "today", media_type = "all", use_preprocessed_data = "true" } = params;
+  // 从 Widget.params 获取参数（如果存在），否则使用传入的 params
+  const actualParams = Widget.params ? { ...Widget.params, ...params } : params;
+  
+  const content_type = actualParams.content_type || "today";
+  const media_type = actualParams.media_type || "all";
+  const use_preprocessed_data = actualParams.use_preprocessed_data || "true";
+  
+  console.log(`🎬 loadTmdbTrending: content_type=${content_type}, media_type=${media_type}, use_preprocessed_data=${use_preprocessed_data}`);
   
   // 对于top_rated，预处理数据不支持，强制使用API
   if (content_type === "top_rated") {
-    console.log("🏆 高分内容强制使用API模式");
-    return loadTmdbTrendingWithAPI(params);
+    console.log(`🏆 高分内容强制使用API模式，media_type=${media_type}`);
+    // 明确传递所有参数，确保 media_type 正确
+    return loadTmdbTrendingWithAPI({
+      ...actualParams,
+      content_type: "top_rated",
+      media_type: media_type
+    });
   }
   
   // 对于popular且media_type为tv，预处理数据可能不支持，优先使用API
   if (content_type === "popular" && media_type === "tv") {
     console.log("📺 热门剧集使用API模式");
-    return loadTmdbTrendingWithAPI(params);
+    return loadTmdbTrendingWithAPI(actualParams);
   }
   
   // 根据数据来源类型选择加载方式
   if (use_preprocessed_data === "api") {
-    return loadTmdbTrendingWithAPI(params);
+    return loadTmdbTrendingWithAPI(actualParams);
   }
   
   // 默认使用预处理数据，如果失败则回退到API
   try {
-    const result = await loadTmdbTrendingFromPreprocessed(params);
+    const result = await loadTmdbTrendingFromPreprocessed(actualParams);
     if (result && result.length > 0) {
       return result;
     }
     console.log("🔄 预处理数据为空，回退到API");
-    return loadTmdbTrendingWithAPI(params);
+    return loadTmdbTrendingWithAPI(actualParams);
   } catch (error) {
     console.log("🔄 预处理数据加载失败，回退到API:", error.message);
-    return loadTmdbTrendingWithAPI(params);
+    return loadTmdbTrendingWithAPI(actualParams);
   }
 }
 
-// 使用正常TMDB API加载热门内容 - 修复版
+// 使用正常TMDB API加载热门内容 - 完全修复版
 async function loadTmdbTrendingWithAPI(params = {}) {
-  const { content_type = "today", media_type = "all", with_origin_country = "", vote_average_gte = "0", sort_by = "popularity", page = 1, language = "zh-CN" } = params;
+  // 从 Widget.params 获取参数（如果存在），确保获取最新的参数值
+  const actualParams = Widget.params ? { ...Widget.params, ...params } : params;
   
+  const content_type = actualParams.content_type || "today";
+  const media_type = actualParams.media_type || "all";
+  const with_origin_country = actualParams.with_origin_country || "";
+  const vote_average_gte = actualParams.vote_average_gte || "0";
+  const sort_by = actualParams.sort_by || "popularity";
+  const page = actualParams.page || 1;
+  const language = actualParams.language || "zh-CN";
+  
+  console.log(`🌐 loadTmdbTrendingWithAPI: content_type=${content_type}, media_type=${media_type}`);
+
   try {
     const cacheKey = `trending_api_${content_type}_${media_type}_${page}_${language}`;
     const cached = getCachedData(cacheKey);
-    if (cached) return cached;
+    if (cached) {
+      console.log(`📦 使用缓存: ${cacheKey}`);
+      return cached;
+    }
 
     let response;
     let queryParams = {
@@ -1204,8 +1230,6 @@ async function loadTmdbTrendingWithAPI(params = {}) {
     if (with_origin_country) {
       queryParams.region = with_origin_country;
     }
-
-    console.log(`🌐 TMDB API请求: content_type=${content_type}, media_type=${media_type}, page=${page}`);
 
     // 处理需要同时获取movie和tv的情况（popular和top_rated + all）
     if ((content_type === "popular" || content_type === "top_rated") && media_type === "all") {
@@ -1248,13 +1272,24 @@ async function loadTmdbTrendingWithAPI(params = {}) {
           endpoint = media_type === "tv" ? "/tv/popular" : "/movie/popular";
           break;
         case "top_rated":
-          endpoint = media_type === "tv" ? "/tv/top_rated" : "/movie/top_rated";
+          // 修复：严格检查 media_type，确保正确选择端点
+          if (media_type === "tv") {
+            endpoint = "/tv/top_rated";
+            console.log(`✅ 使用剧集高分端点: ${endpoint}`);
+          } else if (media_type === "movie") {
+            endpoint = "/movie/top_rated";
+            console.log(`✅ 使用电影高分端点: ${endpoint}`);
+          } else {
+            // media_type 为 all 或其他值时，默认使用 movie（但前面应该已经处理了 all 的情况）
+            console.warn(`⚠️ top_rated 时 media_type 为 "${media_type}"，默认使用 /movie/top_rated`);
+            endpoint = "/movie/top_rated";
+          }
           break;
         default:
           endpoint = "/trending/all/day";
       }
 
-      console.log(`🌐 请求端点: ${endpoint}`);
+      console.log(`🌐 请求端点: ${endpoint} (content_type: ${content_type}, media_type: ${media_type})`);
       response = await Widget.tmdb.get(endpoint, { params: queryParams });
     }
 
@@ -1323,6 +1358,7 @@ async function loadTmdbTrendingFromPreprocessed(params = {}) {
   try {
     // 对于不支持的类型，直接返回空数组触发回退
     if (content_type === "top_rated" || (content_type === "popular" && media_type === "tv")) {
+      console.log(`🔄 内容类型 ${content_type} + ${media_type} 不支持预处理数据，触发API回退`);
       return [];
     }
 
