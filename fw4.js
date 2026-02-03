@@ -2125,33 +2125,37 @@ async function loadTmdbMediaRanking(params = {}) {
         return false;
       }
       
-      // 2. 检查是否包含动漫、纪录片、真人秀、脱口秀
-      if (item.genre_ids && Array.isArray(item.genre_ids)) {
-        const hasAnime = item.genre_ids.includes(16);
-        const hasDocumentary = item.genre_ids.includes(99);
-        const hasRealityShow = item.genre_ids.includes(10764);
-        const hasTalkShow = item.genre_ids.includes(10767);
-        const hasAnimation = item.genre_ids.includes(16); // 动画
-        const hasKids = item.genre_ids.includes(10762);   // 儿童节目
-        
-        if (hasAnime || hasDocumentary || hasRealityShow || hasTalkShow || hasAnimation || hasKids) {
-          console.log(`🚫 过滤: ${item.title || item.name} (类型: ${item.genre_ids.join(',')})`);
-          return false;
-        }
+      // 2. 检查是否有内容类型（genre_ids），没有则不加载
+      if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
+        console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
+        return false;
       }
       
-      // 3. 检查是否有有效的海报数据
+      // 3. 检查是否包含动漫、纪录片、真人秀、脱口秀
+      const hasAnime = item.genre_ids.includes(16);
+      const hasDocumentary = item.genre_ids.includes(99);
+      const hasRealityShow = item.genre_ids.includes(10764);
+      const hasTalkShow = item.genre_ids.includes(10767);
+      const hasAnimation = item.genre_ids.includes(16); // 动画
+      const hasKids = item.genre_ids.includes(10762);   // 儿童节目
+      
+      if (hasAnime || hasDocumentary || hasRealityShow || hasTalkShow || hasAnimation || hasKids) {
+        console.log(`🚫 过滤: ${item.title || item.name} (类型: ${item.genre_ids.join(',')})`);
+        return false;
+      }
+      
+      // 4. 检查是否有有效的海报数据
       const hasValidPoster = item.poster_path && 
                             item.poster_path.trim() !== "" && 
                             !item.poster_path.includes("null") &&
-                            item.poster_path !== "https://image.tmdb.org/t/p/w500null";
+                            item.poster_path !== "https://image.tmdb.org/t/p/w500null ";
       
       if (!hasValidPoster) {
         console.log(`🚫 过滤: ${item.title || item.name} (无有效海报)`);
         return false;
       }
       
-      // 4. 检查是否有有效的标题
+      // 5. 检查是否有有效的标题
       const hasValidTitle = (item.title || item.name) && 
                            (item.title || item.name).trim() !== "";
       
@@ -2202,7 +2206,7 @@ async function loadTmdbMediaRanking(params = {}) {
            widgetItem.posterPath.trim() === "")) {
         // 尝试使用背景图作为备选
         if (item.backdrop_path) {
-          widgetItem.posterPath = `https://image.tmdb.org/t/p/w500${item.backdrop_path}`;
+          widgetItem.posterPath = `https://image.tmdb.org/t/p/w500 ${item.backdrop_path}`;
           console.log(`🔄 使用背景图作为海报: ${item.title || item.name}`);
         } else {
           // 生成占位符海报
@@ -2264,23 +2268,27 @@ async function loadTmdbMediaRanking(params = {}) {
           return false;
         }
         
-        // 2. 过滤动漫、纪录片、真人秀、脱口秀
-        if (item.genre_ids && Array.isArray(item.genre_ids)) {
-          // 需要过滤的类型ID
-          const excludedGenres = [16, 99, 10764, 10767]; // 动漫、纪录片、真人秀、脱口秀
-          const hasExcludedGenre = item.genre_ids.some(genreId => excludedGenres.includes(genreId));
-          
-          if (hasExcludedGenre) {
-            return false;
-          }
+        // 2. 检查是否有内容类型（genre_ids），没有则不加载
+        if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
+          console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
+          return false;
         }
         
-        // 3. 必须有有效的海报
+        // 3. 过滤动漫、纪录片、真人秀、脱口秀
+        // 需要过滤的类型ID
+        const excludedGenres = [16, 99, 10764, 10767]; // 动漫、纪录片、真人秀、脱口秀
+        const hasExcludedGenre = item.genre_ids.some(genreId => excludedGenres.includes(genreId));
+        
+        if (hasExcludedGenre) {
+          return false;
+        }
+        
+        // 4. 必须有有效的海报
         const hasValidPoster = item.poster_path && 
                               item.poster_path.trim() !== "" && 
                               !item.poster_path.includes("null");
         
-        // 4. 必须有有效的标题
+        // 5. 必须有有效的标题
         const hasValidTitle = (item.title || item.name) && 
                              (item.title || item.name).trim() !== "";
         
@@ -2314,6 +2322,18 @@ async function loadTmdbMediaRanking(params = {}) {
       return [];
     }
   }
+}
+
+// 2. 检查是否有内容类型（genre_ids），没有则不加载
+if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
+  console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
+  return false;
+}
+
+// 2. 检查是否有内容类型（genre_ids），没有则不加载
+if (!item.genre_ids || !Array.isArray(item.genre_ids) || item.genre_ids.length === 0) {
+  console.log(`🚫 过滤: ${item.title || item.name} (无内容类型信息)`);
+  return false;
 }
 
 // 4. TMDB主题分类 - 修复版（增强错误处理和回退机制）
