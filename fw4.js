@@ -79,30 +79,15 @@ var WidgetMetadata = {
           ]
         },
         {
-          name: "vote_average_gte",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分要求",
-          value: "0",
-          enumOptions: [
-            { title: "无要求", value: "0" },
-            { title: "6.0分以上", value: "6.0" },
-            { title: "7.0分以上", value: "7.0" },
-            { title: "8.0分以上", value: "8.0" }
-          ]
-        },
-        {
           name: "sort_by",
           title: "排序方式",
           type: "enumeration",
           description: "选择排序方式",
-          value: "popularity",
+          value: "release_date",
           enumOptions: [
             { title: "热度排序", value: "popularity" },
             { title: "评分排序", value: "rating" },
             { title: "最新发布", value: "release_date" },
-            { title: "投票数", value: "vote_count" },
-            { title: "原始顺序", value: "original" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -211,9 +196,6 @@ var WidgetMetadata = {
           value: "first_air_date.desc",
           enumOptions: [
             { title: "上映时间↓", value: "first_air_date.desc" },
-            { title: "上映时间↑", value: "first_air_date.asc" },
-            { title: "人气最高", value: "popularity.desc" },
-            { title: "评分最高", value: "vote_average.desc" },
             { title: "最多投票", value: "vote_count.desc" }
           ]
         },
@@ -302,13 +284,8 @@ var WidgetMetadata = {
           value: "popularity.desc",
           enumOptions: [
             { title: "热门度↓", value: "popularity.desc" },
-            { title: "热门度↑", value: "popularity.asc" },
             { title: "评分↓", value: "vote_average.desc" },
-            { title: "评分↑", value: "vote_average.asc" },
             { title: "上映日期↓", value: "release_date.desc" },
-            { title: "上映日期↑", value: "release_date.asc" },
-            { title: "首播日期↓", value: "first_air_date.desc" },
-            { title: "首播日期↑", value: "first_air_date.asc" }
           ]
         },
         { name: "page", title: "页码", type: "page" },
@@ -357,12 +334,10 @@ var WidgetMetadata = {
         title: "排序方式",
         type: "enumeration",
         description: "选择排序方式",
-        value: "popularity.desc",
+        value: "first_air_date.desc",
         enumOptions: [
           { title: "热门度↓", value: "popularity.desc" },
           { title: "热门度↑", value: "popularity.asc" },
-          { title: "最新更新↓", value: "release_date.desc" },
-          { title: "最新更新↑", value: "release_date.asc" },
           { title: "最新播出↓", value: "first_air_date.desc" },
           { title: "最新播出↑", value: "first_air_date.asc" }
         ]
@@ -421,11 +396,7 @@ var WidgetMetadata = {
           value: "popularity_desc",
           enumOptions: [
             { title: "热度降序", value: "popularity_desc" },
-            { title: "热度升序", value: "popularity_asc" },
-            { title: "评分降序", value: "vote_average_desc" },
-            { title: "评分升序", value: "vote_average_asc" },
             { title: "上映时间降序", value: "release_date_desc" },
-            { title: "上映时间升序", value: "release_date_asc" }
           ]
         },
         {
