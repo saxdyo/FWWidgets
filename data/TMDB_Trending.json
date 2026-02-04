@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04 21:53:11",
+  "last_updated": "2026-02-04 22:33:10",
   "today_global": [
     {
       "id": 1368166,
@@ -79,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
-      "id": 1180417,
-      "title": "荷兰人",
+      "id": 1433842,
+      "title": "爱情坐标",
       "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 3.9,
-      "release_date": "2026-01-02",
-      "overview": "《荷兰人》的故事发生在纽约地铁上，讲述了一位衣着光鲜的黑人男子与一位迷人的白人女子相遇，两人在一场充满性暗示的猫捉老鼠游戏中斗智斗勇，最终以暴力收场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/v7CCosgX9LcSpt7bXmqw5OzTFTV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUktSJyiZIs4qPpMopjz2NMY0s9.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 10.0,
+      "release_date": "2026-02-04",
+      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
     },
     {
       "id": 1084242,
@@ -101,15 +101,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
-      "id": 1433842,
-      "title": "爱情坐标",
+      "id": 1180417,
+      "title": "荷兰人",
       "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 7.5,
+      "genreTitle": "剧情•惊悚",
+      "rating": 3.9,
+      "release_date": "2026-01-02",
+      "overview": "《荷兰人》的故事发生在纽约地铁上，讲述了一位衣着光鲜的黑人男子与一位迷人的白人女子相遇，两人在一场充满性暗示的猫捉老鼠游戏中斗智斗勇，最终以暴力收场。",
+      "poster_url": "https://image.tmdb.org/t/p/original/v7CCosgX9LcSpt7bXmqw5OzTFTV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bUktSJyiZIs4qPpMopjz2NMY0s9.jpg"
+    },
+    {
+      "id": 310024,
+      "title": "死亡之花",
+      "type": "tv",
+      "genreTitle": "犯罪",
+      "rating": 6.0,
       "release_date": "2026-02-04",
-      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
+      "overview": "医学院辍学生李宇谦涉嫌绑架杀害多人，却宣称掌握“治癒所有疾病”的技术。如今这项只存在他脑中的奇蹟，成为要挟世界的筹码：“赦免我，否则带着秘密进坟墓”。同时绝望律师为救患有脑瘤的女儿，必须保护凶手。而正义检察官却为223条冤魂，誓死送他上刑场。二人的博弈一触即发。李宇谦究竟是冷血杀手，还是人类的救星？",
+      "poster_url": "https://image.tmdb.org/t/p/original/gJdZsSTTFlmONonSdef9WxtLAa7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j5xBCYaE4J9Pt9NucbaVvhmYDpL.jpg"
     },
     {
       "id": 1198994,
@@ -145,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
-      "id": 310024,
-      "title": "死亡之花",
-      "type": "tv",
-      "genreTitle": "犯罪",
-      "rating": 6.0,
-      "release_date": "2026-02-04",
-      "overview": "医学院辍学生李宇谦涉嫌绑架杀害多人，却宣称掌握“治癒所有疾病”的技术。如今这项只存在他脑中的奇蹟，成为要挟世界的筹码：“赦免我，否则带着秘密进坟墓”。同时绝望律师为救患有脑瘤的女儿，必须保护凶手。而正义检察官却为223条冤魂，誓死送他上刑场。二人的博弈一触即发。李宇谦究竟是冷血杀手，还是人类的救星？",
-      "poster_url": "https://image.tmdb.org/t/p/original/gJdZsSTTFlmONonSdef9WxtLAa7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j5xBCYaE4J9Pt9NucbaVvhmYDpL.jpg"
-    },
-    {
       "id": 198178,
       "title": "奇迹人",
       "type": "tv",
@@ -165,17 +165,6 @@
       "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
-    },
-    {
-      "id": 1116201,
-      "title": "铁肺",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻",
-      "rating": 7.7,
-      "release_date": "2026-01-29",
-      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
       "id": 224372,
@@ -189,6 +178,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
+      "id": 1290821,
+      "title": "庇护之地",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.6,
+      "release_date": "2026-01-28",
+      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "poster_url": "https://image.tmdb.org/t/p/original/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yawBnV7LYZgFKSEeauXTSABr4qq.jpg"
+    },
+    {
       "id": 1220564,
       "title": "密探",
       "type": "movie",
@@ -200,40 +200,29 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4on1ZZu7TZNnthwD84FOa9m57WR.jpg"
     },
     {
-      "id": 1290821,
-      "title": "庇护之地",
+      "id": 1116201,
+      "title": "铁肺",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
+      "genreTitle": "恐怖•科幻",
       "rating": 7.7,
-      "release_date": "2026-01-28",
-      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "poster_url": "https://image.tmdb.org/t/p/original/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yawBnV7LYZgFKSEeauXTSABr4qq.jpg"
+      "release_date": "2026-01-29",
+      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
+      "id": 1316092,
+      "title": "呼啸山庄",
       "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.3,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
+      "genreTitle": "剧情•爱情",
+      "rating": 0.0,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3iK4OUoMztIg7basATxRGLXEulR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.7,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
-    },
     {
       "id": 106379,
       "title": "辐射",
@@ -257,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.7,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
     },
     {
-      "id": 198178,
-      "title": "奇迹人",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-01-27",
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
-    },
-    {
       "id": 858024,
       "title": "哈姆奈特",
       "type": "movie",
@@ -301,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.5,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+      "id": 198178,
+      "title": "奇迹人",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.1,
+      "release_date": "2026-01-27",
+      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
     },
     {
       "id": 1198994,
@@ -321,6 +310,17 @@
       "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
       "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+    },
+    {
+      "id": 840464,
+      "title": "末日逃生2：迁移",
+      "type": "movie",
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.5,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
       "id": 91239,
@@ -345,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
-    },
-    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -367,11 +356,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 1466115,
+      "title": "今夜，就算这份爱恋从世界上消失",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.5,
+      "release_date": "2025-12-24",
+      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
+    },
+    {
       "id": 1290821,
       "title": "庇护之地",
       "type": "movie",
       "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.7,
+      "rating": 7.6,
       "release_date": "2026-01-28",
       "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
       "poster_url": "https://image.tmdb.org/t/p/original/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
@@ -389,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
     },
     {
+      "id": 1433842,
+      "title": "爱情坐标",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 10.0,
+      "release_date": "2026-02-04",
+      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
+    },
+    {
       "id": 83533,
       "title": "阿凡达：火与烬",
       "type": "movie",
@@ -398,28 +420,6 @@
       "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
-      "id": 1167307,
-      "title": "大卫",
-      "type": "movie",
-      "genreTitle": "动画•家庭•剧情",
-      "rating": 8.1,
-      "release_date": "2025-12-14",
-      "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gAzHfw7NWv9B4pdW8pB9BtsoEfI.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•动作",
-      "rating": 7.4,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 209867,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
+      "id": 61859,
+      "title": "夜班经理",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 7.7,
+      "release_date": "2016-02-21",
+      "overview": "乔纳森曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉，安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aIqIIQWKC6d7UVHtX53bigu4jVF.jpg"
     }
   ],
   "popular_movies": [
