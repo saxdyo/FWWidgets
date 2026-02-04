@@ -461,6 +461,7 @@ var WidgetMetadata = {
             { title: "Trakt - 实时热播", value: "trakt_trending" },
             { title: "Trakt - 最受欢迎", value: "trakt_popular" },
             { title: "Trakt - 最受期待", value: "trakt_anticipated" },
+            { title: "豆瓣 - 电影Top250", value: "db_top250" },
             { title: "豆瓣 - 热门国产剧", value: "db_tv_cn" },
             { title: "豆瓣 - 热门综艺", value: "db_variety" },
             { title: "豆瓣 - 热门电影", value: "db_movie" },
@@ -2652,6 +2653,7 @@ async function loadTrendHub(params = {}) {
             else if (sort_by === "db_variety") { tag = "综艺"; type = "tv"; }
             else if (sort_by === "db_movie") { tag = "热门"; type = "movie"; }
             else if (sort_by === "db_tv_us") { tag = "美剧"; type = "tv"; }
+            else if (sort_by === "db_top250") { tag = "电影Top250"; type = "movie"; } // 新增TOP250
             
             return await fetchDoubanAndMap(tag, type, page);
         }
@@ -2687,6 +2689,7 @@ async function fetchDoubanAndMap(tag, type, page) {
         
         const doubanCollectionMap = {
             "热门电影": "movie_weekly_best",
+            "电影Top250": "movie_top250", // 新增豆瓣TOP250
             "国产剧": "tv_domestic",
             "综艺": "tv_variety_show",
             "美剧": "tv_american"
@@ -2865,6 +2868,7 @@ async function fetchDoubanTMDBFallback(tag, type, page) {
     try {
         const tagToParams = {
             "热门电影": { endpoint: "/movie/popular", genre: "", region: "CN" },
+            "电影Top250": { endpoint: "/movie/top_rated", genre: "", region: "CN", vote_count_gte: 1000 }, // 新增TOP250回退
             "国产剧": { endpoint: "/discover/tv", genre: "", region: "CN", with_original_language: "zh" },
             "综艺": { endpoint: "/discover/tv", genre: "10764", region: "CN" },
             "美剧": { endpoint: "/discover/tv", genre: "", region: "US" }
@@ -2884,6 +2888,10 @@ async function fetchDoubanTMDBFallback(tag, type, page) {
         
         if (params.genre) {
             queryParams.with_genres = params.genre;
+        }
+        
+        if (params.vote_count_gte) {
+            queryParams.vote_count_gte = params.vote_count_gte;
         }
         
         if (params.with_original_language) {
