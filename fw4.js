@@ -1,6 +1,5 @@
-// ==================== 在 modules 数组中添加新模块（已整合到正确位置） ====================
-
-// 注意：以下是完整的 WidgetMetadata 对象，已包含新模块
+[file name]: fw4.js
+[file content begin]
 var WidgetMetadata = {
   id: "ultimate_media_hub_mega",
   title: "TMDB",
@@ -489,6 +488,54 @@ var WidgetMetadata = {
       ]
     },
 
+    // 新增模块: 豆瓣TOP250电影
+    {
+      title: "豆瓣TOP250电影",
+      description: "豆瓣电影TOP250经典榜单",
+      requiresWebView: false,
+      functionName: "loadDoubanTop250Movies",
+      cacheDuration: 7200, // 2小时缓存，榜单变化不大
+      params: [
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "rank",
+          enumOptions: [
+            { title: "按排名排序", value: "rank" },
+            { title: "按评分排序", value: "rating" },
+            { title: "按年份排序", value: "year" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
+    },
+
+    // 新增模块: 豆瓣TOP250剧集
+    {
+      title: "豆瓣TOP250剧集",
+      description: "豆瓣剧集TOP250经典榜单",
+      requiresWebView: false,
+      functionName: "loadDoubanTop250TVs",
+      cacheDuration: 7200, // 2小时缓存，榜单变化不大
+      params: [
+        {
+          name: "sort_by",
+          title: "排序方式",
+          type: "enumeration",
+          description: "选择排序方式",
+          value: "rank",
+          enumOptions: [
+            { title: "按排名排序", value: "rank" },
+            { title: "按评分排序", value: "rating" },
+            { title: "按年份排序", value: "year" }
+          ]
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
+    },
+
     // 模块 3: Trakt 追剧日历
     {
       title: "Trakt 追剧日历",
@@ -565,203 +612,9 @@ var WidgetMetadata = {
         },
         { name: "page", title: "页码", type: "page" }
       ]
-    },
-
-    // ==================== IMDB & 豆瓣 Top 250 榜单模块 ====================
-    
-    // IMDB Top 250 电影
-    {
-      title: "IMDB Top 250 电影",
-      description: "IMDB评分最高的250部电影",
-      requiresWebView: false,
-      functionName: "loadImdbTopMovies",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "view_mode",
-          title: "查看模式",
-          type: "enumeration",
-          value: "ranked",
-          enumOptions: [
-            { title: "完整排名", value: "ranked" },
-            { title: "按年份筛选", value: "year" }
-          ]
-        },
-        {
-          name: "year_filter",
-          title: "年份筛选",
-          type: "enumeration",
-          value: "",
-          belongTo: { paramName: "view_mode", value: ["year"] },
-          enumOptions: [
-            { title: "全部年份", value: "" },
-            { title: "2020-2024", value: "2020-2024" },
-            { title: "2010-2019", value: "2010-2019" },
-            { title: "2000-2009", value: "2000-2009" },
-            { title: "1990-1999", value: "1990-1999" },
-            { title: "1980-1989", value: "1980-1989" },
-            { title: "经典老片(<1980)", value: "classic" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    // IMDB Top 250 剧集
-    {
-      title: "IMDB Top 250 剧集",
-      description: "IMDB评分最高的250部电视剧集",
-      requiresWebView: false,
-      functionName: "loadImdbTopTV",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "view_mode",
-          title: "查看模式",
-          type: "enumeration",
-          value: "ranked",
-          enumOptions: [
-            { title: "完整排名", value: "ranked" },
-            { title: "按年份筛选", value: "year" }
-          ]
-        },
-        {
-          name: "year_filter",
-          title: "年份筛选",
-          type: "enumeration",
-          value: "",
-          belongTo: { paramName: "view_mode", value: ["year"] },
-          enumOptions: [
-            { title: "全部年份", value: "" },
-            { title: "2020-2024", value: "2020-2024" },
-            { title: "2010-2019", value: "2010-2019" },
-            { title: "2000-2009", value: "2000-2009" },
-            { title: "1990-1999", value: "1990-1999" },
-            { title: "经典老片(<1990)", value: "classic" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    // 豆瓣 Top 250 电影
-    {
-      title: "豆瓣 Top 250 电影",
-      description: "豆瓣评分最高的250部电影",
-      requiresWebView: false,
-      functionName: "loadDoubanTopMovies",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "view_mode",
-          title: "查看模式",
-          type: "enumeration",
-          value: "ranked",
-          enumOptions: [
-            { title: "完整排名", value: "ranked" },
-            { title: "按地区筛选", value: "region" },
-            { title: "按类型筛选", value: "genre" }
-          ]
-        },
-        {
-          name: "region_filter",
-          title: "地区筛选",
-          type: "enumeration",
-          value: "",
-          belongTo: { paramName: "view_mode", value: ["region"] },
-          enumOptions: [
-            { title: "全部地区", value: "" },
-            { title: "中国大陆", value: "CN" },
-            { title: "中国香港", value: "HK" },
-            { title: "中国台湾", value: "TW" },
-            { title: "美国", value: "US" },
-            { title: "日本", value: "JP" },
-            { title: "韩国", value: "KR" },
-            { title: "欧洲", value: "EU" },
-            { title: "其他地区", value: "OTHER" }
-          ]
-        },
-        {
-          name: "genre_filter",
-          title: "类型筛选",
-          type: "enumeration",
-          value: "",
-          belongTo: { paramName: "view_mode", value: ["genre"] },
-          enumOptions: [
-            { title: "全部类型", value: "" },
-            { title: "剧情", value: "剧情" },
-            { title: "喜剧", value: "喜剧" },
-            { title: "动作", value: "动作" },
-            { title: "爱情", value: "爱情" },
-            { title: "科幻", value: "科幻" },
-            { title: "悬疑", value: "悬疑" },
-            { title: "犯罪", value: "犯罪" },
-            { title: "恐怖", value: "恐怖" },
-            { title: "动画", value: "动画" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
-
-    // 豆瓣 Top 250 剧集
-    {
-      title: "豆瓣 Top 250 剧集",
-      description: "豆瓣评分最高的250部电视剧集",
-      requiresWebView: false,
-      functionName: "loadDoubanTopTV",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "view_mode",
-          title: "查看模式",
-          type: "enumeration",
-          value: "ranked",
-          enumOptions: [
-            { title: "完整排名", value: "ranked" },
-            { title: "按地区筛选", value: "region" },
-            { title: "按类型筛选", value: "genre" }
-          ]
-        },
-        {
-          name: "region_filter",
-          title: "地区筛选",
-          type: "enumeration",
-          value: "",
-          belongTo: { paramName: "view_mode", value: ["region"] },
-          enumOptions: [
-            { title: "全部地区", value: "" },
-            { title: "中国大陆", value: "CN" },
-            { title: "中国香港", value: "HK" },
-            { title: "中国台湾", value: "TW" },
-            { title: "美国", value: "US" },
-            { title: "日本", value: "JP" },
-            { title: "韩国", value: "KR" },
-            { title: "英国", value: "GB" },
-            { title: "其他地区", value: "OTHER" }
-          ]
-        },
-        {
-          name: "genre_filter",
-          title: "类型筛选",
-          type: "enumeration",
-          value: "",
-          belongTo: { paramName: "view_mode", value: ["genre"] },
-          enumOptions: [
-            { title: "全部类型", value: "" },
-            { title: "剧情", value: "剧情" },
-            { title: "喜剧", value: "喜剧" },
-            { title: "动作", value: "动作" },
-            { title: "爱情", value: "爱情" },
-            { title: "科幻", value: "科幻" },
-            { title: "悬疑", value: "悬疑" },
-            { title: "犯罪", value: "犯罪" },
-            { title: "动画", value: "动画" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    },
+    }
+  ]
+};
 
 // ==================== 配置常量 ====================
 
@@ -3492,6 +3345,535 @@ async function loadMalRanking(filter, page) {
     }
 }
 
+// ==================== 豆瓣TOP250新增功能函数 ====================
+
+// 5. 豆瓣TOP250电影 - 新增函数
+async function loadDoubanTop250Movies(params = {}) {
+    const { sort_by = "rank", page = 1 } = params;
+    
+    console.log(`🎬 加载豆瓣TOP250电影: 排序方式=${sort_by}, 页码=${page}`);
+    
+    try {
+        const cacheKey = `douban_top250_movies_${sort_by}_${page}`;
+        const cached = getCachedData(cacheKey);
+        if (cached) {
+            console.log("📦 使用缓存数据");
+            return cached;
+        }
+        
+        // 豆瓣TOP250电影API
+        const doubanAPI = "https://m.douban.com/rexxar/api/v2/movie/top250";
+        
+        console.log(`🌐 请求豆瓣TOP250电影API: ${doubanAPI}`);
+        
+        const response = await Widget.http.get(doubanAPI, {
+            params: {
+                os: "ios",
+                for_mobile: 1,
+                start: (page - 1) * 20,
+                count: 20,
+                loc_id: 0,
+                _: Date.now()
+            },
+            headers: {
+                "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+                "Referer": "https://m.douban.com/movie/top250",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "zh-CN,zh;q=0.9",
+                "Origin": "https://m.douban.com",
+                "Connection": "keep-alive"
+            },
+            timeout: 15000
+        });
+        
+        if (!response || !response.data || !response.data.subject_collection_items) {
+            console.error("❌ 豆瓣TOP250电影API响应异常");
+            return await loadDoubanTop250MoviesFallback(params);
+        }
+        
+        console.log(`📊 豆瓣TOP250电影API返回 ${response.data.subject_collection_items.length} 条数据`);
+        
+        const rawItems = response.data.subject_collection_items;
+        
+        // 处理数据并添加TMDB匹配
+        const results = await Promise.all(rawItems.map(async (item, index) => {
+            const rank = (page - 1) * 20 + index + 1;
+            const title = item.title || "未知标题";
+            
+            // 获取日期信息
+            let releaseDate = "";
+            let year = "";
+            
+            if (item.pubdate && Array.isArray(item.pubdate) && item.pubdate.length > 0) {
+                const dateMatch = item.pubdate[0].match(/(\d{4}-\d{2}-\d{2})/);
+                if (dateMatch) {
+                    releaseDate = dateMatch[1];
+                    year = releaseDate.substring(0, 4);
+                } else {
+                    const yearMatch = item.pubdate[0].match(/(\d{4})/);
+                    if (yearMatch) {
+                        year = yearMatch[1];
+                        releaseDate = `${year}-01-01`;
+                    }
+                }
+            } else if (item.year) {
+                year = String(item.year);
+                releaseDate = `${year}-01-01`;
+            }
+            
+            const rating = item.rating?.value || 0;
+            const genres = item.genres || [];
+            const genreText = genres.slice(0, 2).join("•");
+            
+            // 格式化描述
+            let dateDisplay = year;
+            if (releaseDate && releaseDate !== `${year}-01-01`) {
+                const dateObj = new Date(releaseDate);
+                const month = dateObj.getMonth() + 1;
+                const day = dateObj.getDate();
+                dateDisplay = `${year}.${month}.${day}`;
+            }
+            
+            let description = `No.${rank} ${genreText}${dateDisplay ? ` (${dateDisplay})` : ''} ⭐${rating.toFixed(1)}`;
+            
+            // 创建基本项目
+            let finalItem = {
+                id: `douban_movie_${item.id || rank}`,
+                type: "douban_top250",
+                mediaType: "movie",
+                title: `${rank}. ${title}`,
+                description: description,
+                rating: rating,
+                releaseDate: releaseDate,
+                posterPath: item.cover?.url || item.pic?.normal || "",
+                backdropPath: item.pic?.large || item.cover?.url || "",
+                genreTitle: genreText,
+                year: year,
+                doubanId: item.id,
+                doubanURL: item.url || item.uri,
+                rank: rank
+            };
+            
+            // 尝试匹配TMDB
+            try {
+                const tmdb = await searchTmdb(title, "movie");
+                if (tmdb) {
+                    // 如果TMDB有更准确的日期，优先使用TMDB的日期
+                    const tmdbDate = tmdb.release_date || "";
+                    const tmdbYear = tmdbDate ? tmdbDate.substring(0, 4) : "";
+                    
+                    if (tmdbDate && (!year || tmdbYear === year || !releaseDate)) {
+                        releaseDate = tmdbDate;
+                        year = tmdbYear;
+                    }
+                    
+                    finalItem.id = String(tmdb.id);
+                    finalItem.tmdbId = tmdb.id;
+                    finalItem.posterPath = tmdb.poster_path ? `https://image.tmdb.org/t/p/w500${tmdb.poster_path}` : finalItem.posterPath;
+                    finalItem.backdropPath = tmdb.backdrop_path ? `https://image.tmdb.org/t/p/w780${tmdb.backdrop_path}` : finalItem.backdropPath;
+                    
+                    const tmdbGenreText = getGenreText(tmdb.genre_ids, "movie");
+                    finalItem.genreTitle = tmdbGenreText || genreText;
+                    finalItem.year = year || tmdbYear;
+                    finalItem.releaseDate = releaseDate || tmdbDate;
+                    
+                    // 更新描述中的日期显示
+                    let finalDateDisplay = year;
+                    if (releaseDate && releaseDate !== `${year}-01-01`) {
+                        const dateObj = new Date(releaseDate);
+                        const month = dateObj.getMonth() + 1;
+                        const day = dateObj.getDate();
+                        finalDateDisplay = `${year}.${month}.${day}`;
+                    }
+                    
+                    finalItem.description = `No.${rank} ${tmdbGenreText || genreText}${finalDateDisplay ? ` (${finalDateDisplay})` : ''} ⭐${rating > 0 ? rating.toFixed(1) : (tmdb.vote_average?.toFixed(1) || "0.0")}`;
+                    finalItem.rating = rating || tmdb.vote_average || 0;
+                }
+            } catch (tmdbError) {
+                console.warn(`TMDB匹配失败: ${title}`, tmdbError.message);
+            }
+            
+            return finalItem;
+        }));
+        
+        // 根据排序方式排序
+        let sortedResults = [...results];
+        if (sort_by === "rating") {
+            sortedResults.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        } else if (sort_by === "year") {
+            sortedResults.sort((a, b) => {
+                const yearA = parseInt(a.year) || 0;
+                const yearB = parseInt(b.year) || 0;
+                return yearB - yearA;
+            });
+        }
+        // 默认按排名排序
+        
+        console.log(`✅ 豆瓣TOP250电影加载成功: ${sortedResults.length}项`);
+        setCachedData(cacheKey, sortedResults);
+        return sortedResults;
+        
+    } catch (error) {
+        console.error("❌ 豆瓣TOP250电影加载失败:", error.message);
+        return await loadDoubanTop250MoviesFallback(params);
+    }
+}
+
+// 豆瓣TOP250电影回退函数
+async function loadDoubanTop250MoviesFallback(params = {}) {
+    const { sort_by = "rank", page = 1 } = params;
+    
+    console.log("🔄 豆瓣TOP250电影API失败，使用TMDB高分电影作为回退");
+    
+    try {
+        const cacheKey = `douban_top250_movies_fallback_${sort_by}_${page}`;
+        const cached = getCachedData(cacheKey);
+        if (cached) return cached;
+        
+        const response = await Widget.tmdb.get("/movie/top_rated", {
+            params: {
+                language: "zh-CN",
+                page: page,
+                region: "US",
+                vote_count_gte: 1000
+            }
+        });
+        
+        if (!response || !response.results || response.results.length === 0) {
+            return [{ 
+                id: "fallback_error", 
+                type: "text", 
+                title: "数据获取失败", 
+                description: "豆瓣TOP250电影和TMDB回退数据都无法获取，请稍后重试" 
+            }];
+        }
+        
+        const results = response.results.map((item, index) => {
+            const rank = (page - 1) * 20 + index + 1;
+            const title = item.title || "未知标题";
+            const releaseDate = item.release_date || "";
+            const year = releaseDate ? releaseDate.substring(0, 4) : "";
+            const genreIds = item.genre_ids || [];
+            const genreText = getGenreText(genreIds, "movie");
+            const rating = item.vote_average || 0;
+            
+            let dateDisplay = year;
+            if (releaseDate && releaseDate !== `${year}-01-01`) {
+                const dateObj = new Date(releaseDate);
+                const month = dateObj.getMonth() + 1;
+                const day = dateObj.getDate();
+                dateDisplay = `${year}.${month}.${day}`;
+            }
+            
+            return {
+                id: String(item.id),
+                type: "tmdb_fallback",
+                mediaType: "movie",
+                title: `${rank}. ${title}`,
+                description: `No.${rank} ${genreText}${dateDisplay ? ` (${dateDisplay})` : ''} ⭐${rating.toFixed(1)}`,
+                rating: rating,
+                releaseDate: releaseDate,
+                posterPath: item.poster_path,
+                backdropPath: item.backdrop_path,
+                genreTitle: genreText,
+                year: year,
+                tmdbId: item.id,
+                source: "TMDB高分电影",
+                rank: rank
+            };
+        });
+        
+        // 根据排序方式排序
+        let sortedResults = [...results];
+        if (sort_by === "rating") {
+            sortedResults.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        } else if (sort_by === "year") {
+            sortedResults.sort((a, b) => {
+                const yearA = parseInt(a.year) || 0;
+                const yearB = parseInt(b.year) || 0;
+                return yearB - yearA;
+            });
+        }
+        // 默认按排名排序
+        
+        console.log(`✅ TMDB回退数据成功: ${sortedResults.length}项`);
+        setCachedData(cacheKey, sortedResults);
+        return sortedResults;
+        
+    } catch (fallbackError) {
+        console.error("❌ TMDB回退也失败:", fallbackError.message);
+        return [{ 
+            id: "final_fallback_error", 
+            type: "text", 
+            title: "数据获取失败", 
+            description: "所有数据源都无法获取，请检查网络连接" 
+        }];
+    }
+}
+
+// 6. 豆瓣TOP250剧集 - 新增函数
+async function loadDoubanTop250TVs(params = {}) {
+    const { sort_by = "rank", page = 1 } = params;
+    
+    console.log(`📺 加载豆瓣TOP250剧集: 排序方式=${sort_by}, 页码=${page}`);
+    
+    try {
+        const cacheKey = `douban_top250_tvs_${sort_by}_${page}`;
+        const cached = getCachedData(cacheKey);
+        if (cached) {
+            console.log("📦 使用缓存数据");
+            return cached;
+        }
+        
+        // 豆瓣TOP250剧集API
+        const doubanAPI = "https://m.douban.com/rexxar/api/v2/tv/top250";
+        
+        console.log(`🌐 请求豆瓣TOP250剧集API: ${doubanAPI}`);
+        
+        const response = await Widget.http.get(doubanAPI, {
+            params: {
+                os: "ios",
+                for_mobile: 1,
+                start: (page - 1) * 20,
+                count: 20,
+                loc_id: 0,
+                _: Date.now()
+            },
+            headers: {
+                "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+                "Referer": "https://m.douban.com/tv/top250",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "zh-CN,zh;q=0.9",
+                "Origin": "https://m.douban.com",
+                "Connection": "keep-alive"
+            },
+            timeout: 15000
+        });
+        
+        if (!response || !response.data || !response.data.subject_collection_items) {
+            console.error("❌ 豆瓣TOP250剧集API响应异常");
+            return await loadDoubanTop250TVsFallback(params);
+        }
+        
+        console.log(`📊 豆瓣TOP250剧集API返回 ${response.data.subject_collection_items.length} 条数据`);
+        
+        const rawItems = response.data.subject_collection_items;
+        
+        // 处理数据并添加TMDB匹配
+        const results = await Promise.all(rawItems.map(async (item, index) => {
+            const rank = (page - 1) * 20 + index + 1;
+            const title = item.title || "未知标题";
+            
+            // 获取日期信息
+            let releaseDate = "";
+            let year = "";
+            
+            if (item.pubdate && Array.isArray(item.pubdate) && item.pubdate.length > 0) {
+                const dateMatch = item.pubdate[0].match(/(\d{4}-\d{2}-\d{2})/);
+                if (dateMatch) {
+                    releaseDate = dateMatch[1];
+                    year = releaseDate.substring(0, 4);
+                } else {
+                    const yearMatch = item.pubdate[0].match(/(\d{4})/);
+                    if (yearMatch) {
+                        year = yearMatch[1];
+                        releaseDate = `${year}-01-01`;
+                    }
+                }
+            } else if (item.year) {
+                year = String(item.year);
+                releaseDate = `${year}-01-01`;
+            }
+            
+            const rating = item.rating?.value || 0;
+            const genres = item.genres || [];
+            const genreText = genres.slice(0, 2).join("•");
+            
+            // 格式化描述
+            let dateDisplay = year;
+            if (releaseDate && releaseDate !== `${year}-01-01`) {
+                const dateObj = new Date(releaseDate);
+                const month = dateObj.getMonth() + 1;
+                const day = dateObj.getDate();
+                dateDisplay = `${year}.${month}.${day}`;
+            }
+            
+            let description = `No.${rank} ${genreText}${dateDisplay ? ` (${dateDisplay})` : ''} ⭐${rating.toFixed(1)}`;
+            
+            // 创建基本项目
+            let finalItem = {
+                id: `douban_tv_${item.id || rank}`,
+                type: "douban_top250",
+                mediaType: "tv",
+                title: `${rank}. ${title}`,
+                description: description,
+                rating: rating,
+                releaseDate: releaseDate,
+                posterPath: item.cover?.url || item.pic?.normal || "",
+                backdropPath: item.pic?.large || item.cover?.url || "",
+                genreTitle: genreText,
+                year: year,
+                doubanId: item.id,
+                doubanURL: item.url || item.uri,
+                rank: rank
+            };
+            
+            // 尝试匹配TMDB
+            try {
+                const tmdb = await searchTmdb(title, "tv");
+                if (tmdb) {
+                    // 如果TMDB有更准确的日期，优先使用TMDB的日期
+                    const tmdbDate = tmdb.first_air_date || "";
+                    const tmdbYear = tmdbDate ? tmdbDate.substring(0, 4) : "";
+                    
+                    if (tmdbDate && (!year || tmdbYear === year || !releaseDate)) {
+                        releaseDate = tmdbDate;
+                        year = tmdbYear;
+                    }
+                    
+                    finalItem.id = String(tmdb.id);
+                    finalItem.tmdbId = tmdb.id;
+                    finalItem.posterPath = tmdb.poster_path ? `https://image.tmdb.org/t/p/w500${tmdb.poster_path}` : finalItem.posterPath;
+                    finalItem.backdropPath = tmdb.backdrop_path ? `https://image.tmdb.org/t/p/w780${tmdb.backdrop_path}` : finalItem.backdropPath;
+                    
+                    const tmdbGenreText = getGenreText(tmdb.genre_ids, "tv");
+                    finalItem.genreTitle = tmdbGenreText || genreText;
+                    finalItem.year = year || tmdbYear;
+                    finalItem.releaseDate = releaseDate || tmdbDate;
+                    
+                    // 更新描述中的日期显示
+                    let finalDateDisplay = year;
+                    if (releaseDate && releaseDate !== `${year}-01-01`) {
+                        const dateObj = new Date(releaseDate);
+                        const month = dateObj.getMonth() + 1;
+                        const day = dateObj.getDate();
+                        finalDateDisplay = `${year}.${month}.${day}`;
+                    }
+                    
+                    finalItem.description = `No.${rank} ${tmdbGenreText || genreText}${finalDateDisplay ? ` (${finalDateDisplay})` : ''} ⭐${rating > 0 ? rating.toFixed(1) : (tmdb.vote_average?.toFixed(1) || "0.0")}`;
+                    finalItem.rating = rating || tmdb.vote_average || 0;
+                }
+            } catch (tmdbError) {
+                console.warn(`TMDB匹配失败: ${title}`, tmdbError.message);
+            }
+            
+            return finalItem;
+        }));
+        
+        // 根据排序方式排序
+        let sortedResults = [...results];
+        if (sort_by === "rating") {
+            sortedResults.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        } else if (sort_by === "year") {
+            sortedResults.sort((a, b) => {
+                const yearA = parseInt(a.year) || 0;
+                const yearB = parseInt(b.year) || 0;
+                return yearB - yearA;
+            });
+        }
+        // 默认按排名排序
+        
+        console.log(`✅ 豆瓣TOP250剧集加载成功: ${sortedResults.length}项`);
+        setCachedData(cacheKey, sortedResults);
+        return sortedResults;
+        
+    } catch (error) {
+        console.error("❌ 豆瓣TOP250剧集加载失败:", error.message);
+        return await loadDoubanTop250TVsFallback(params);
+    }
+}
+
+// 豆瓣TOP250剧集回退函数
+async function loadDoubanTop250TVsFallback(params = {}) {
+    const { sort_by = "rank", page = 1 } = params;
+    
+    console.log("🔄 豆瓣TOP250剧集API失败，使用TMDB高分剧集作为回退");
+    
+    try {
+        const cacheKey = `douban_top250_tvs_fallback_${sort_by}_${page}`;
+        const cached = getCachedData(cacheKey);
+        if (cached) return cached;
+        
+        const response = await Widget.tmdb.get("/tv/top_rated", {
+            params: {
+                language: "zh-CN",
+                page: page,
+                vote_count_gte: 500
+            }
+        });
+        
+        if (!response || !response.results || response.results.length === 0) {
+            return [{ 
+                id: "fallback_error", 
+                type: "text", 
+                title: "数据获取失败", 
+                description: "豆瓣TOP250剧集和TMDB回退数据都无法获取，请稍后重试" 
+            }];
+        }
+        
+        const results = response.results.map((item, index) => {
+            const rank = (page - 1) * 20 + index + 1;
+            const title = item.name || "未知标题";
+            const releaseDate = item.first_air_date || "";
+            const year = releaseDate ? releaseDate.substring(0, 4) : "";
+            const genreIds = item.genre_ids || [];
+            const genreText = getGenreText(genreIds, "tv");
+            const rating = item.vote_average || 0;
+            
+            let dateDisplay = year;
+            if (releaseDate && releaseDate !== `${year}-01-01`) {
+                const dateObj = new Date(releaseDate);
+                const month = dateObj.getMonth() + 1;
+                const day = dateObj.getDate();
+                dateDisplay = `${year}.${month}.${day}`;
+            }
+            
+            return {
+                id: String(item.id),
+                type: "tmdb_fallback",
+                mediaType: "tv",
+                title: `${rank}. ${title}`,
+                description: `No.${rank} ${genreText}${dateDisplay ? ` (${dateDisplay})` : ''} ⭐${rating.toFixed(1)}`,
+                rating: rating,
+                releaseDate: releaseDate,
+                posterPath: item.poster_path,
+                backdropPath: item.backdrop_path,
+                genreTitle: genreText,
+                year: year,
+                tmdbId: item.id,
+                source: "TMDB高分剧集",
+                rank: rank
+            };
+        });
+        
+        // 根据排序方式排序
+        let sortedResults = [...results];
+        if (sort_by === "rating") {
+            sortedResults.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        } else if (sort_by === "year") {
+            sortedResults.sort((a, b) => {
+                const yearA = parseInt(a.year) || 0;
+                const yearB = parseInt(b.year) || 0;
+                return yearB - yearA;
+            });
+        }
+        // 默认按排名排序
+        
+        console.log(`✅ TMDB回退数据成功: ${sortedResults.length}项`);
+        setCachedData(cacheKey, sortedResults);
+        return sortedResults;
+        
+    } catch (fallbackError) {
+        console.error("❌ TMDB回退也失败:", fallbackError.message);
+        return [{ 
+            id: "final_fallback_error", 
+            type: "text", 
+            title: "数据获取失败", 
+            description: "所有数据源都无法获取，请检查网络连接" 
+        }];
+    }
+}
+
 // ==================== 第三方数据源辅助函数 ====================
 
 async function fetchBilibiliRank(type, page) {
@@ -3610,1064 +3992,4 @@ async function fetchTmdbFallback(type) {
         return [{ id: "err", type: "text", title: "TMDB 备用源失败" }];
     }
 }
-
-// ==================== 新增IMDB与豆瓣高分榜单功能函数 ====================
-
-// IMDB与豆瓣高分榜单主函数
-async function loadHighRatedMovies(params = {}) {
-  const { 
-    source = "imdb_top250", 
-    media_type = "all",
-    min_rating = "0",
-    sort_by = "rank",
-    page = 1 
-  } = params;
-
-  try {
-    const cacheKey = `highrated_${source}_${media_type}_${min_rating}_${sort_by}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) return cached;
-
-    let results = [];
-
-    // 根据数据源选择对应的加载函数
-    if (source.startsWith("imdb_")) {
-      results = await loadImdbHighRated(source, page, min_rating);
-    } else if (source.startsWith("douban_")) {
-      results = await loadDoubanHighRated(source, page, min_rating, media_type);
-    }
-
-    // 应用排序
-    results = sortHighRatedResults(results, sort_by);
-
-    // 限制返回数量
-    results = results.slice(0, CONFIG.MAX_ITEMS);
-
-    console.log(`✅ 高分榜单加载成功: ${source}, 共${results.length}项`);
-    setCachedData(cacheKey, results);
-    return results;
-
-  } catch (error) {
-    console.error("❌ 高分榜单加载失败:", error.message);
-    return [{ 
-      id: "error", 
-      type: "text", 
-      title: "数据获取失败", 
-      description: "请检查网络连接或稍后重试" 
-    }];
-  }
-}
-
-// 加载IMDB高分榜单
-async function loadImdbHighRated(source, page, minRating) {
-  // IMDB数据通常需要从第三方API或预处理数据获取
-  // 这里使用TMDB的高级筛选来模拟IMDB高分榜单
-  
-  const queryParams = {
-    language: "zh-CN",
-    page: page,
-    include_adult: false,
-    sort_by: "vote_average.desc",
-    "vote_count.gte": 1000, // 确保有足够多的投票
-    without_genres: "99,10764" // 排除纪录片和真人秀
-  };
-
-  // 根据类型设置不同的投票数门槛和参数
-  if (source === "imdb_top250") {
-    // IMDB Top 250通常需要更高的投票门槛
-    queryParams["vote_count.gte"] = 5000;
-    queryParams["vote_average.gte"] = 8.0;
-  } else if (source === "imdb_popular") {
-    // 热门电影放宽要求，但按热度排序
-    queryParams.sort_by = "popularity.desc";
-    queryParams["vote_count.gte"] = 1000;
-    queryParams["vote_average.gte"] = 7.0;
-  }
-
-  // 应用用户设置的最低评分
-  if (minRating !== "0") {
-    queryParams["vote_average.gte"] = parseFloat(minRating);
-  }
-
-  try {
-    const response = await Widget.tmdb.get("/discover/movie", {
-      params: queryParams
-    });
-
-    if (!response || !response.results) {
-      throw new Error("IMDB数据获取失败");
-    }
-
-    // 获取详细数据并添加排名
-    const results = await Promise.all(
-      response.results.map(async (item, index) => {
-        const rank = (page - 1) * 20 + index + 1;
-        const widgetItem = createWidgetItem(item);
-        widgetItem.mediaType = "movie";
-        widgetItem.genreTitle = getGenreTitle(item.genre_ids, "movie");
-        
-        // 添加IMDB特有的标识
-        widgetItem.source = "IMDB";
-        widgetItem.rank = rank;
-        widgetItem.title = `${rank}. ${widgetItem.title}`;
-        
-        // 获取更详细的评分信息
-        try {
-          const details = await Widget.tmdb.get(`/movie/${item.id}`, {
-            params: { language: "zh-CN", append_to_response: "external_ids" }
-          });
-          
-          if (details.imdb_id) {
-            widgetItem.imdbId = details.imdb_id;
-            widgetItem.subTitle = `IMDB ID: ${details.imdb_id}`;
-          }
-          
-          // 使用vote_count显示评分人数
-          widgetItem.description = `⭐ ${widgetItem.rating.toFixed(1)}/10 (${details.vote_count?.toLocaleString() || 0}人评分)\n${widgetItem.description}`;
-        } catch (e) {
-          widgetItem.description = `⭐ ${widgetItem.rating.toFixed(1)}/10\n${widgetItem.description}`;
-        }
-
-        return widgetItem;
-      })
-    );
-
-    return results.filter(item => item.posterPath);
-
-  } catch (error) {
-    console.error("IMDB数据获取失败:", error);
-    // 使用预处理数据作为回退
-    return await loadImdbFallbackData(page);
-  }
-}
-
-// IMDB数据回退
-async function loadImdbFallbackData(page) {
-  console.log("🔄 使用IMDB回退数据");
-  
-  // 一些经典的IMDB高分电影作为回退
-  const fallbackMovies = [
-    { id: 278, title: "肖申克的救赎", rating: 9.3, year: 1994, imdbId: "tt0111161" },
-    { id: 238, title: "教父", rating: 9.2, year: 1972, imdbId: "tt0068646" },
-    { id: 155, title: "蝙蝠侠：黑暗骑士", rating: 9.0, year: 2008, imdbId: "tt0468569" },
-    { id: 240, title: "教父2", rating: 9.0, year: 1974, imdbId: "tt0071562" },
-    { id: 389, title: "十二怒汉", rating: 9.0, year: 1957, imdbId: "tt0050083" },
-    { id: 424, title: "辛德勒的名单", rating: 9.0, year: 1993, imdbId: "tt0108052" },
-    { id: 122, title: "指环王：王者无敌", rating: 9.0, year: 2003, imdbId: "tt0167260" },
-    { id: 680, title: "低俗小说", rating: 8.9, year: 1994, imdbId: "tt0110912" },
-    { id: 13, title: "阿甘正传", rating: 8.8, year: 1994, imdbId: "tt0109830" },
-    { id: 429, title: "指环王：护戒使者", rating: 8.8, year: 2001, imdbId: "tt0120737" }
-  ];
-
-  const start = (page - 1) * 20;
-  const pageMovies = fallbackMovies.slice(start, start + 20);
-
-  return await Promise.all(pageMovies.map(async (movie, index) => {
-    try {
-      const tmdbDetails = await Widget.tmdb.get(`/movie/${movie.id}`, {
-        params: { language: "zh-CN" }
-      });
-      
-      const widgetItem = createWidgetItem(tmdbDetails);
-      widgetItem.source = "IMDB";
-      widgetItem.rank = start + index + 1;
-      widgetItem.title = `${start + index + 1}. ${widgetItem.title}`;
-      widgetItem.imdbId = movie.imdbId;
-      widgetItem.subTitle = `IMDB ID: ${movie.imdbId}`;
-      widgetItem.rating = movie.rating;
-      widgetItem.description = `⭐ ${movie.rating}/10 (经典高分)\n${widgetItem.description}`;
-      
-      return widgetItem;
-    } catch (e) {
-      return null;
-    }
-  })).filter(Boolean);
-}
-
-// 加载豆瓣高分榜单
-async function loadDoubanHighRated(source, page, minRating, mediaType) {
-  // 豆瓣片单映射
-  const collectionMap = {
-    "douban_top250": "movie_top250",
-    "douban_chinese_best": "movie_weekly_best",
-    "douban_western_best": "movie_weekly_western",
-    "douban_japanese_best": "movie_weekly_japanese",
-    "douban_korean_tv": "tv_korean",
-    "douban_japanese_tv": "tv_japanese",
-    "douban_american_tv": "tv_american",
-    "douban_uk_tv": "tv_uk",
-    "douban_variety": "tv_variety_show"
-  };
-
-  const collection = collectionMap[source];
-  if (!collection) {
-    throw new Error("未知的豆瓣榜单类型");
-  }
-
-  try {
-    const start = (page - 1) * 20;
-    
-    // 使用豆瓣移动版API获取数据
-    const response = await Widget.http.get(
-      `https://m.douban.com/rexxar/api/v2/subject_collection/${collection}/items`,
-      {
-        params: {
-          os: "ios",
-          for_mobile: 1,
-          start: start,
-          count: 20,
-          loc_id: 0,
-          _: Date.now()
-        },
-        headers: {
-          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15",
-          "Referer": "https://m.douban.com/",
-          "Accept": "application/json"
-        },
-        timeout: 15000
-      }
-    );
-
-    if (!response || !response.data || !response.data.subject_collection_items) {
-      throw new Error("豆瓣API响应异常");
-    }
-
-    const items = response.data.subject_collection_items;
-
-    // 处理和转换数据
-    const promises = items.map(async (item, index) => {
-      const rank = start + index + 1;
-      const title = item.title;
-      
-      // 提取年份和日期
-      let year = "";
-      let releaseDate = "";
-      
-      if (item.pubdate && Array.isArray(item.pubdate) && item.pubdate.length > 0) {
-        const dateMatch = item.pubdate[0].match(/(\d{4})/);
-        if (dateMatch) year = dateMatch[1];
-      } else if (item.year) {
-        year = String(item.year);
-      }
-      
-      // 评分检查
-      const rating = item.rating?.value || 0;
-      if (minRating !== "0" && rating < parseFloat(minRating)) {
-        return null;
-      }
-
-      const genres = item.genres || [];
-      const genreText = genres.slice(0, 2).join("•");
-      
-      // 构建基础Item
-      let finalItem = {
-        id: `db_${item.id}`,
-        type: "douban_highrated",
-        mediaType: item.type || "movie",
-        title: `${rank}. ${title}`,
-        description: `${genreText}${year ? ` (${year})` : ''}${rating > 0 ? ` ⭐${rating.toFixed(1)}` : ''}`,
-        rating: rating,
-        releaseDate: releaseDate,
-        posterPath: item.cover?.url || item.pic?.normal || "",
-        backdropPath: item.pic?.large || item.cover?.url || "",
-        genreTitle: genreText,
-        year: year,
-        doubanId: item.id,
-        source: "豆瓣",
-        rank: rank
-      };
-
-      // 尝试匹配TMDB获取更准确的数据
-      try {
-        const searchType = item.type === "tv" ? "tv" : "movie";
-        const tmdbItem = await searchTmdb(title, searchType);
-        
-        if (tmdbItem) {
-          finalItem.id = String(tmdbItem.id);
-          finalItem.tmdbId = tmdbItem.id;
-          finalItem.posterPath = tmdbItem.poster_path 
-            ? `https://image.tmdb.org/t/p/w500${tmdbItem.poster_path}` 
-            : finalItem.posterPath;
-          finalItem.backdropPath = tmdbItem.backdrop_path
-            ? `https://image.tmdb.org/t/p/w780${tmdbItem.backdrop_path}`
-            : finalItem.backdropPath;
-          
-          const tmdbGenreText = getGenreTitle(tmdbItem.genre_ids, searchType);
-          finalItem.genreTitle = tmdbGenreText || genreText;
-          
-          // 使用更准确的日期
-          const tmdbDate = tmdbItem.first_air_date || tmdbItem.release_date || "";
-          if (tmdbDate) {
-            finalItem.year = tmdbDate.substring(0, 4);
-            finalItem.releaseDate = tmdbDate;
-          }
-          
-          // 更新描述
-          finalItem.description = `${finalItem.genreTitle}${finalItem.year ? ` (${finalItem.year})` : ''} ⭐${rating > 0 ? rating.toFixed(1) : (tmdbItem.vote_average?.toFixed(1) || "0.0")}`;
-        }
-      } catch (tmdbError) {
-        console.warn(`TMDB匹配失败: ${title}`, tmdbError.message);
-      }
-
-      return finalItem;
-    });
-
-    let results = await Promise.all(promises);
-    results = results.filter(Boolean);
-
-    // 媒体类型过滤（仅对豆瓣Top 250有效）
-    if (source === "douban_top250" && mediaType !== "all") {
-      results = results.filter(item => item.mediaType === mediaType);
-    }
-
-    return results;
-
-  } catch (error) {
-    console.error("豆瓣榜单获取失败:", error);
-    // 使用TMDB回退
-    return await loadDoubanFallback(source, page, minRating);
-  }
-}
-
-// 豆瓣数据回退（使用TMDB筛选）
-async function loadDoubanFallback(source, page, minRating) {
-  console.log(`🔄 豆瓣回退: ${source}`);
-  
-  // 根据不同的豆瓣榜单设置不同的TMDB参数
-  const fallbackConfigs = {
-    "douban_top250": { 
-      endpoint: "/discover/movie", 
-      params: { sort_by: "vote_average.desc", "vote_count.gte": 1000 },
-      name: "豆瓣Top250风格"
-    },
-    "douban_chinese_best": { 
-      endpoint: "/discover/movie", 
-      params: { with_original_language: "zh", region: "CN", sort_by: "vote_average.desc" },
-      name: "华语高分"
-    },
-    "douban_western_best": { 
-      endpoint: "/discover/movie", 
-      params: { with_origin_country: "US,GB,FR,DE,IT,ES", sort_by: "vote_average.desc" },
-      name: "欧美高分"
-    },
-    "douban_japanese_best": { 
-      endpoint: "/discover/movie", 
-      params: { with_origin_country: "JP", sort_by: "vote_average.desc" },
-      name: "日本高分"
-    },
-    "douban_korean_tv": { 
-      endpoint: "/discover/tv", 
-      params: { with_origin_country: "KR", sort_by: "vote_average.desc" },
-      name: "高分韩剧"
-    },
-    "douban_japanese_tv": { 
-      endpoint: "/discover/tv", 
-      params: { with_origin_country: "JP", sort_by: "vote_average.desc" },
-      name: "高分日剧"
-    },
-    "douban_american_tv": { 
-      endpoint: "/discover/tv", 
-      params: { with_origin_country: "US", sort_by: "vote_average.desc" },
-      name: "高分美剧"
-    },
-    "douban_uk_tv": { 
-      endpoint: "/discover/tv", 
-      params: { with_origin_country: "GB", sort_by: "vote_average.desc" },
-      name: "高分英剧"
-    },
-    "douban_variety": { 
-      endpoint: "/discover/tv", 
-      params: { with_genres: "10764", sort_by: "popularity.desc" },
-      name: "热门综艺"
-    }
-  };
-
-  const config = fallbackConfigs[source];
-  if (!config) return [];
-
-  try {
-    const queryParams = {
-      language: "zh-CN",
-      page: page,
-      include_adult: false,
-      ...config.params
-    };
-
-    if (minRating !== "0") {
-      queryParams["vote_average.gte"] = parseFloat(minRating);
-    }
-
-    const response = await Widget.tmdb.get(config.endpoint, { params: queryParams });
-    
-    if (!response || !response.results) return [];
-
-    const results = response.results.map((item, index) => {
-      const rank = (page - 1) * 20 + index + 1;
-      const isMovie = config.endpoint.includes("movie");
-      const mediaType = isMovie ? "movie" : "tv";
-      
-      const widgetItem = createWidgetItem(item);
-      widgetItem.mediaType = mediaType;
-      widgetItem.genreTitle = getGenreTitle(item.genre_ids, mediaType);
-      widgetItem.source = `豆瓣(${config.name})`;
-      widgetItem.rank = rank;
-      widgetItem.title = `${rank}. ${widgetItem.title}`;
-      widgetItem.description = `⭐ ${widgetItem.rating.toFixed(1)}/10 (TMDB)\n${widgetItem.description}`;
-      
-      return widgetItem;
-    }).filter(item => item.posterPath);
-
-    return results;
-
-  } catch (error) {
-    console.error("回退也失败:", error);
-    return [];
-  }
-}
-
-// 高分榜单排序函数
-function sortHighRatedResults(results, sortBy) {
-  switch (sortBy) {
-    case "rating_desc":
-      return results.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    case "year_desc":
-      return results.sort((a, b) => {
-        const yearA = parseInt(a.year) || 0;
-        const yearB = parseInt(b.year) || 0;
-        return yearB - yearA;
-      });
-    case "year_asc":
-      return results.sort((a, b) => {
-        const yearA = parseInt(a.year) || 0;
-        const yearB = parseInt(b.year) || 0;
-        return yearA - yearB;
-      });
-    case "rank":
-    default:
-      // 保持原有排名顺序（已经通过title前缀设置）
-      return results;
-  }
-}
-
-// ==================== IMDB Top 250 功能函数 ====================
-
-// 加载IMDB Top 250 电影
-async function loadImdbTopMovies(params = {}) {
-  const { view_mode = "ranked", year_filter = "", page = 1 } = params;
-  
-  try {
-    const cacheKey = `imdb_top_movies_${year_filter}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log(`📦 使用缓存: ${cacheKey}`);
-      return cached;
-    }
-
-    const perPage = 20;
-    const start = (page - 1) * perPage;
-    
-    const queryParams = {
-      language: "zh-CN",
-      page: page,
-      sort_by: "vote_average.desc",
-      "vote_count.gte": 10000,
-      "vote_average.gte": 8.0,
-      include_adult: false
-    };
-
-    if (year_filter && view_mode === "year") {
-      if (year_filter === "2020-2024") {
-        queryParams["release_date.gte"] = "2020-01-01";
-        queryParams["release_date.lte"] = "2024-12-31";
-      } else if (year_filter === "2010-2019") {
-        queryParams["release_date.gte"] = "2010-01-01";
-        queryParams["release_date.lte"] = "2019-12-31";
-      } else if (year_filter === "2000-2009") {
-        queryParams["release_date.gte"] = "2000-01-01";
-        queryParams["release_date.lte"] = "2009-12-31";
-      } else if (year_filter === "1990-1999") {
-        queryParams["release_date.gte"] = "1990-01-01";
-        queryParams["release_date.lte"] = "1999-12-31";
-      } else if (year_filter === "1980-1989") {
-        queryParams["release_date.gte"] = "1980-01-01";
-        queryParams["release_date.lte"] = "1989-12-31";
-      } else if (year_filter === "classic") {
-        queryParams["release_date.lte"] = "1979-12-31";
-      }
-    }
-
-    console.log(`🎬 加载IMDB Top 250 电影, 页码: ${page}, 年份: ${year_filter || "全部"}`);
-    
-    const response = await Widget.tmdb.get("/discover/movie", { params: queryParams });
-    
-    if (!response || !response.results) {
-      throw new Error("API返回数据异常");
-    }
-
-    let results = response.results
-      .filter(item => item.poster_path && (item.title || item.name))
-      .sort((a, b) => {
-        const scoreA = (a.vote_average || 0) * Math.log10((a.vote_count || 1) + 1);
-        const scoreB = (b.vote_average || 0) * Math.log10((b.vote_count || 1) + 1);
-        return scoreB - scoreA;
-      });
-
-    const widgetItems = results.map((item, index) => {
-      const globalRank = start + index + 1;
-      const releaseDate = item.release_date || "";
-      const year = releaseDate ? releaseDate.substring(0, 4) : "";
-      const genreIds = item.genre_ids || [];
-      const genreText = getGenreTitle(genreIds, "movie");
-      
-      const widgetItem = createWidgetItem(item);
-      widgetItem.title = `${globalRank}. ${item.title || item.name}`;
-      widgetItem.genreTitle = `⭐${item.vote_average?.toFixed(1) || "0.0"} | ${year} | ${genreText}`;
-      widgetItem.rating = item.vote_average || 0;
-      widgetItem.mediaType = "movie";
-      widgetItem.description = `IMDB排名 #${globalRank}\n${item.overview || ""}`;
-      widgetItem.rank = globalRank;
-      widgetItem.voteCount = item.vote_count || 0;
-      
-      return widgetItem;
-    });
-
-    setCachedData(cacheKey, widgetItems);
-    console.log(`✅ IMDB Top 250 电影加载成功: ${widgetItems.length} 项`);
-    return widgetItems;
-
-  } catch (error) {
-    console.error("❌ IMDB Top 250 电影加载失败:", error.message);
-    return await loadImdbFallback("movie", page, year_filter);
-  }
-}
-
-// 加载IMDB Top 250 剧集
-async function loadImdbTopTV(params = {}) {
-  const { view_mode = "ranked", year_filter = "", page = 1 } = params;
-  
-  try {
-    const cacheKey = `imdb_top_tv_${year_filter}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log(`📦 使用缓存: ${cacheKey}`);
-      return cached;
-    }
-
-    const perPage = 20;
-    const start = (page - 1) * perPage;
-    
-    const queryParams = {
-      language: "zh-CN",
-      page: page,
-      sort_by: "vote_average.desc",
-      "vote_count.gte": 5000,
-      "vote_average.gte": 8.0,
-      include_adult: false
-    };
-
-    if (year_filter && view_mode === "year") {
-      if (year_filter === "2020-2024") {
-        queryParams["first_air_date.gte"] = "2020-01-01";
-        queryParams["first_air_date.lte"] = "2024-12-31";
-      } else if (year_filter === "2010-2019") {
-        queryParams["first_air_date.gte"] = "2010-01-01";
-        queryParams["first_air_date.lte"] = "2019-12-31";
-      } else if (year_filter === "2000-2009") {
-        queryParams["first_air_date.gte"] = "2000-01-01";
-        queryParams["first_air_date.lte"] = "2009-12-31";
-      } else if (year_filter === "1990-1999") {
-        queryParams["first_air_date.gte"] = "1990-01-01";
-        queryParams["first_air_date.lte"] = "1999-12-31";
-      } else if (year_filter === "classic") {
-        queryParams["first_air_date.lte"] = "1989-12-31";
-      }
-    }
-
-    console.log(`📺 加载IMDB Top 250 剧集, 页码: ${page}, 年份: ${year_filter || "全部"}`);
-    
-    const response = await Widget.tmdb.get("/discover/tv", { params: queryParams });
-    
-    if (!response || !response.results) {
-      throw new Error("API返回数据异常");
-    }
-
-    let results = response.results
-      .filter(item => item.poster_path && (item.title || item.name))
-      .sort((a, b) => {
-        const scoreA = (a.vote_average || 0) * Math.log10((a.vote_count || 1) + 1);
-        const scoreB = (b.vote_average || 0) * Math.log10((b.vote_count || 1) + 1);
-        return scoreB - scoreA;
-      });
-
-    const widgetItems = results.map((item, index) => {
-      const globalRank = start + index + 1;
-      const releaseDate = item.first_air_date || "";
-      const year = releaseDate ? releaseDate.substring(0, 4) : "";
-      const genreIds = item.genre_ids || [];
-      const genreText = getGenreTitle(genreIds, "tv");
-      
-      const widgetItem = createWidgetItem(item);
-      widgetItem.title = `${globalRank}. ${item.name || item.title}`;
-      widgetItem.genreTitle = `⭐${item.vote_average?.toFixed(1) || "0.0"} | ${year} | ${genreText}`;
-      widgetItem.rating = item.vote_average || 0;
-      widgetItem.mediaType = "tv";
-      widgetItem.description = `IMDB排名 #${globalRank}\n${item.overview || ""}`;
-      widgetItem.rank = globalRank;
-      widgetItem.voteCount = item.vote_count || 0;
-      
-      return widgetItem;
-    });
-
-    setCachedData(cacheKey, widgetItems);
-    console.log(`✅ IMDB Top 250 剧集加载成功: ${widgetItems.length} 项`);
-    return widgetItems;
-
-  } catch (error) {
-    console.error("❌ IMDB Top 250 剧集加载失败:", error.message);
-    return await loadImdbFallback("tv", page, year_filter);
-  }
-}
-
-// IMDB 备用数据获取
-async function loadImdbFallback(type, page, yearFilter) {
-  console.log(`🔄 使用TMDB备用数据获取IMDB榜单: ${type}, 页码: ${page}`);
-  
-  try {
-    const endpoint = type === "movie" ? "/movie/top_rated" : "/tv/top_rated";
-    
-    const response = await Widget.tmdb.get(endpoint, {
-      params: {
-        language: "zh-CN",
-        page: page
-      }
-    });
-
-    if (!response || !response.results) {
-      return [];
-    }
-
-    const perPage = 20;
-    const start = (page - 1) * perPage;
-    
-    let results = response.results;
-    
-    if (yearFilter) {
-      results = results.filter(item => {
-        const dateField = type === "movie" ? item.release_date : item.first_air_date;
-        if (!dateField) return false;
-        const year = parseInt(dateField.substring(0, 4));
-        
-        if (yearFilter === "2020-2024") return year >= 2020 && year <= 2024;
-        if (yearFilter === "2010-2019") return year >= 2010 && year <= 2019;
-        if (yearFilter === "2000-2009") return year >= 2000 && year <= 2009;
-        if (yearFilter === "1990-1999") return year >= 1990 && year <= 1999;
-        if (yearFilter === "1980-1989") return year >= 1980 && year <= 1989;
-        if (yearFilter === "classic") return year < (type === "movie" ? 1980 : 1990);
-        return true;
-      });
-    }
-
-    const widgetItems = results.map((item, index) => {
-      const globalRank = start + index + 1;
-      const dateField = type === "movie" ? item.release_date : item.first_air_date;
-      const year = dateField ? dateField.substring(0, 4) : "";
-      const genreText = getGenreTitle(item.genre_ids || [], type);
-      
-      const widgetItem = createWidgetItem(item);
-      widgetItem.title = `${globalRank}. ${item.title || item.name}`;
-      widgetItem.genreTitle = `⭐${item.vote_average?.toFixed(1) || "0.0"} | ${year} | ${genreText}`;
-      widgetItem.mediaType = type;
-      widgetItem.description = `排名 #${globalRank} (备用数据)\n${item.overview || ""}`;
-      widgetItem.rank = globalRank;
-      
-      return widgetItem;
-    });
-
-    return widgetItems;
-  } catch (error) {
-    console.error("❌ IMDB备用数据也失败:", error.message);
-    return [];
-  }
-}
-
-// ==================== 豆瓣 Top 250 功能函数 ====================
-
-// 加载豆瓣 Top 250 电影
-async function loadDoubanTopMovies(params = {}) {
-  const { view_mode = "ranked", region_filter = "", genre_filter = "", page = 1 } = params;
-  
-  try {
-    const cacheKey = `douban_top_movies_${region_filter}_${genre_filter}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log(`📦 使用缓存: ${cacheKey}`);
-      return cached;
-    }
-
-    const perPage = 20;
-    const start = (page - 1) * perPage;
-    
-    console.log(`🎬 加载豆瓣 Top 250 电影, 页码: ${page}`);
-    
-    let doubanResults = [];
-    
-    try {
-      const doubanAPI = "https://m.douban.com/rexxar/api/v2/subject_collection/movie_top250/items";
-      const response = await Widget.http.get(doubanAPI, {
-        params: {
-          os: "ios",
-          for_mobile: 1,
-          start: start,
-          count: perPage,
-          loc_id: 0,
-          _: Date.now()
-        },
-        headers: {
-          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
-          "Referer": "https://m.douban.com/movie/top250",
-          "Accept": "application/json, text/plain, */*",
-          "Accept-Language": "zh-CN,zh;q=0.9"
-        },
-        timeout: 10000
-      });
-      
-      if (response && response.data && response.data.subject_collection_items) {
-        doubanResults = response.data.subject_collection_items;
-        console.log(`📊 豆瓣API返回 ${doubanResults.length} 条数据`);
-      }
-    } catch (e) {
-      console.warn("豆瓣API直接获取失败，使用TMDB回退:", e.message);
-    }
-
-    if (doubanResults.length === 0) {
-      return await loadDoubanTopFallback("movie", page, region_filter, genre_filter);
-    }
-
-    const widgetItems = await Promise.all(doubanResults.map(async (item, index) => {
-      const globalRank = start + index + 1;
-      const title = item.title || "未知标题";
-      
-      let releaseDate = "";
-      let year = "";
-      if (item.pubdate && Array.isArray(item.pubdate) && item.pubdate.length > 0) {
-        const dateMatch = item.pubdate[0].match(/(\d{4}-\d{2}-\d{2})/);
-        if (dateMatch) {
-          releaseDate = dateMatch[1];
-          year = releaseDate.substring(0, 4);
-        } else {
-          const yearMatch = item.pubdate[0].match(/(\d{4})/);
-          if (yearMatch) {
-            year = yearMatch[1];
-            releaseDate = `${year}-01-01`;
-          }
-        }
-      } else if (item.year) {
-        year = String(item.year);
-        releaseDate = `${year}-01-01`;
-      }
-      
-      const rating = item.rating?.value || 0;
-      const genres = item.genres || [];
-      const genreText = genres.slice(0, 3).join("•");
-      
-      const countries = item.countries || [];
-      if (region_filter && view_mode === "region") {
-        const hasRegion = checkRegionMatch(countries, region_filter);
-        if (!hasRegion) return null;
-      }
-      
-      if (genre_filter && view_mode === "genre") {
-        if (!genres.includes(genre_filter)) return null;
-      }
-      
-      let tmdbItem = null;
-      try {
-        tmdbItem = await searchTmdb(title, "movie");
-      } catch (e) {
-        console.warn(`TMDB匹配失败: ${title}`);
-      }
-      
-      const posterUrl = tmdbItem?.poster_path ? 
-        `https://image.tmdb.org/t/p/w500${tmdbItem.poster_path}` : 
-        (item.cover?.url || item.pic?.normal || "");
-      
-      const finalGenreText = tmdbItem ? 
-        getGenreText(tmdbItem.genre_ids, "movie") : genreText;
-      
-      return {
-        id: String(tmdbItem?.id || item.id || `db_${globalRank}`),
-        tmdbId: tmdbItem?.id || 0,
-        type: "tmdb",
-        mediaType: "movie",
-        title: `${globalRank}. ${title}`,
-        genreTitle: `⭐${rating.toFixed(1)} | ${year} | ${finalGenreText}`,
-        subTitle: `豆瓣 Top ${globalRank}`,
-        posterPath: posterUrl,
-        backdropPath: tmdbItem?.backdrop_path ? 
-          `https://image.tmdb.org/t/p/w780${tmdbItem.backdrop_path}` : 
-          (item.pic?.large || ""),
-        description: `豆瓣评分: ${rating}\n评价人数: ${item.rating?.count || "未知"}\n${item.overview || item.card_subtitle || ""}`,
-        rating: rating,
-        releaseDate: releaseDate,
-        year: year,
-        rank: globalRank,
-        doubanId: item.id
-      };
-    }));
-
-    const filteredItems = widgetItems.filter(Boolean);
-    
-    if (filteredItems.length === 0 && (region_filter || genre_filter)) {
-      console.log("筛选后无数据，使用TMDB回退");
-      return await loadDoubanTopFallback("movie", page, region_filter, genre_filter);
-    }
-
-    setCachedData(cacheKey, filteredItems);
-    console.log(`✅ 豆瓣 Top 250 电影加载成功: ${filteredItems.length} 项`);
-    return filteredItems;
-
-  } catch (error) {
-    console.error("❌ 豆瓣 Top 250 电影加载失败:", error.message);
-    return await loadDoubanTopFallback("movie", page, region_filter, genre_filter);
-  }
-}
-
-// 加载豆瓣 Top 250 剧集
-async function loadDoubanTopTV(params = {}) {
-  const { view_mode = "ranked", region_filter = "", genre_filter = "", page = 1 } = params;
-  
-  try {
-    const cacheKey = `douban_top_tv_${region_filter}_${genre_filter}_${page}`;
-    const cached = getCachedData(cacheKey);
-    if (cached) {
-      console.log(`📦 使用缓存: ${cacheKey}`);
-      return cached;
-    }
-
-    const perPage = 20;
-    const start = (page - 1) * perPage;
-    
-    console.log(`📺 加载豆瓣 Top 250 剧集, 页码: ${page}`);
-    
-    let doubanResults = [];
-    
-    try {
-      const doubanAPI = "https://m.douban.com/rexxar/api/v2/subject_collection/tv_top250/items";
-      const response = await Widget.http.get(doubanAPI, {
-        params: {
-          os: "ios",
-          for_mobile: 1,
-          start: start,
-          count: perPage,
-          loc_id: 0,
-          _: Date.now()
-        },
-        headers: {
-          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
-          "Referer": "https://m.douban.com/tv/top250",
-          "Accept": "application/json, text/plain, */*",
-          "Accept-Language": "zh-CN,zh;q=0.9"
-        },
-        timeout: 10000
-      });
-      
-      if (response && response.data && response.data.subject_collection_items) {
-        doubanResults = response.data.subject_collection_items;
-        console.log(`📊 豆瓣API返回 ${doubanResults.length} 条数据`);
-      }
-    } catch (e) {
-      console.warn("豆瓣剧集API直接获取失败，使用TMDB回退:", e.message);
-    }
-
-    if (doubanResults.length === 0) {
-      return await loadDoubanTopFallback("tv", page, region_filter, genre_filter);
-    }
-
-    const widgetItems = await Promise.all(doubanResults.map(async (item, index) => {
-      const globalRank = start + index + 1;
-      const title = item.title || "未知标题";
-      
-      let releaseDate = "";
-      let year = "";
-      if (item.pubdate && Array.isArray(item.pubdate) && item.pubdate.length > 0) {
-        const dateMatch = item.pubdate[0].match(/(\d{4}-\d{2}-\d{2})/);
-        if (dateMatch) {
-          releaseDate = dateMatch[1];
-          year = releaseDate.substring(0, 4);
-        } else {
-          const yearMatch = item.pubdate[0].match(/(\d{4})/);
-          if (yearMatch) {
-            year = yearMatch[1];
-            releaseDate = `${year}-01-01`;
-          }
-        }
-      } else if (item.year) {
-        year = String(item.year);
-        releaseDate = `${year}-01-01`;
-      }
-      
-      const rating = item.rating?.value || 0;
-      const genres = item.genres || [];
-      const genreText = genres.slice(0, 3).join("•");
-      
-      const countries = item.countries || [];
-      if (region_filter && view_mode === "region") {
-        const hasRegion = checkRegionMatch(countries, region_filter);
-        if (!hasRegion) return null;
-      }
-      
-      if (genre_filter && view_mode === "genre") {
-        if (!genres.includes(genre_filter)) return null;
-      }
-      
-      let tmdbItem = null;
-      try {
-        tmdbItem = await searchTmdb(title, "tv");
-      } catch (e) {
-        console.warn(`TMDB匹配失败: ${title}`);
-      }
-      
-      const posterUrl = tmdbItem?.poster_path ? 
-        `https://image.tmdb.org/t/p/w500${tmdbItem.poster_path}` : 
-        (item.cover?.url || item.pic?.normal || "");
-      
-      const finalGenreText = tmdbItem ? 
-        getGenreText(tmdbItem.genre_ids, "tv") : genreText;
-      
-      return {
-        id: String(tmdbItem?.id || item.id || `db_tv_${globalRank}`),
-        tmdbId: tmdbItem?.id || 0,
-        type: "tmdb",
-        mediaType: "tv",
-        title: `${globalRank}. ${title}`,
-        genreTitle: `⭐${rating.toFixed(1)} | ${year} | ${finalGenreText}`,
-        subTitle: `豆瓣 Top ${globalRank}`,
-        posterPath: posterUrl,
-        backdropPath: tmdbItem?.backdrop_path ? 
-          `https://image.tmdb.org/t/p/w780${tmdbItem.backdrop_path}` : 
-          (item.pic?.large || ""),
-        description: `豆瓣评分: ${rating}\n评价人数: ${item.rating?.count || "未知"}\n${item.overview || item.card_subtitle || ""}`,
-        rating: rating,
-        releaseDate: releaseDate,
-        year: year,
-        rank: globalRank,
-        doubanId: item.id
-      };
-    }));
-
-    const filteredItems = widgetItems.filter(Boolean);
-    
-    if (filteredItems.length === 0 && (region_filter || genre_filter)) {
-      console.log("筛选后无数据，使用TMDB回退");
-      return await loadDoubanTopFallback("tv", page, region_filter, genre_filter);
-    }
-
-    setCachedData(cacheKey, filteredItems);
-    console.log(`✅ 豆瓣 Top 250 剧集加载成功: ${filteredItems.length} 项`);
-    return filteredItems;
-
-  } catch (error) {
-    console.error("❌ 豆瓣 Top 250 剧集加载失败:", error.message);
-    return await loadDoubanTopFallback("tv", page, region_filter, genre_filter);
-  }
-}
-
-// 豆瓣 Top 250 备用方案
-async function loadDoubanTopFallback(type, page, regionFilter, genreFilter) {
-  console.log(`🔄 使用TMDB备用数据获取豆瓣Top 250: ${type}, 页码: ${page}`);
-  
-  try {
-    const perPage = 20;
-    const start = (page - 1) * perPage;
-    
-    const queryParams = {
-      language: "zh-CN",
-      page: page,
-      sort_by: "vote_average.desc",
-      "vote_count.gte": 5000,
-      "vote_average.gte": 8.5,
-      include_adult: false
-    };
-
-    if (regionFilter) {
-      const regionMap = {
-        "CN": "CN",
-        "HK": "HK",
-        "TW": "TW",
-        "US": "US",
-        "JP": "JP",
-        "KR": "KR",
-        "GB": "GB",
-        "EU": "GB,FR,DE,ES,IT"
-      };
-      if (regionMap[regionFilter]) {
-        queryParams.with_origin_country = regionMap[regionFilter];
-      }
-    }
-
-    const endpoint = type === "movie" ? "/discover/movie" : "/discover/tv";
-    const response = await Widget.tmdb.get(endpoint, { params: queryParams });
-
-    if (!response || !response.results) {
-      return [];
-    }
-
-    const widgetItems = response.results.map((item, index) => {
-      const globalRank = start + index + 1;
-      const dateField = type === "movie" ? item.release_date : item.first_air_date;
-      const year = dateField ? dateField.substring(0, 4) : "";
-      const genreText = getGenreTitle(item.genre_ids || [], type);
-      
-      const widgetItem = createWidgetItem(item);
-      widgetItem.title = `${globalRank}. ${item.title || item.name}`;
-      widgetItem.genreTitle = `⭐${item.vote_average?.toFixed(1) || "0.0"} | ${year} | ${genreText}`;
-      widgetItem.mediaType = type;
-      widgetItem.description = `豆瓣 Top ${globalRank} (TMDB备用数据)\n${item.overview || ""}`;
-      widgetItem.rank = globalRank;
-      
-      return widgetItem;
-    });
-
-    return widgetItems;
-  } catch (error) {
-    console.error("❌ 豆瓣备用数据也失败:", error.message);
-    return [];
-  }
-}
-
-// 地区匹配检查函数
-function checkRegionMatch(countries, regionFilter) {
-  if (!countries || !Array.isArray(countries) || countries.length === 0) {
-    return regionFilter === "OTHER";
-  }
-  
-  const country = countries[0] || "";
-  
-  switch (regionFilter) {
-    case "CN":
-      return country.includes("中国") && !country.includes("香港") && !country.includes("台湾");
-    case "HK":
-      return country.includes("香港") || country.includes("Hong Kong");
-    case "TW":
-      return country.includes("台湾") || country.includes("Taiwan");
-    case "US":
-      return country.includes("美国") || country.includes("USA") || country.includes("United States");
-    case "JP":
-      return country.includes("日本") || country.includes("Japan");
-    case "KR":
-      return country.includes("韩国") || country.includes("South Korea") || country.includes("Korea");
-    case "GB":
-      return country.includes("英国") || country.includes("UK") || country.includes("United Kingdom");
-    case "EU":
-      return country.includes("英国") || country.includes("法国") || country.includes("德国") || 
-             country.includes("意大利") || country.includes("西班牙") || country.includes("UK") ||
-             country.includes("France") || country.includes("Germany") || country.includes("Italy") ||
-             country.includes("Spain");
-    case "OTHER":
-      return !country.includes("中国") && !country.includes("美国") && !country.includes("日本") &&
-             !country.includes("韩国") && !country.includes("英国") && !country.includes("法国") &&
-             !country.includes("德国") && !country.includes("香港") && !country.includes("台湾");
-    default:
-      return true;
-  }
-}
+[file content end]
