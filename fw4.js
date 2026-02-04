@@ -464,6 +464,7 @@ var WidgetMetadata = {
             { title: "Trakt - 实时热播", value: "trakt_trending" },
             { title: "Trakt - 最受欢迎", value: "trakt_popular" },
             { title: "Trakt - 最受期待", value: "trakt_anticipated" },
+            { title: "豆瓣 - Top 250 电影", value: "douban_top250" },
             { title: "豆瓣 - 热门国产剧", value: "db_tv_cn" },
             { title: "豆瓣 - 热门综艺", value: "db_variety" },
             { title: "豆瓣 - 热门电影", value: "db_movie" },
@@ -567,58 +568,6 @@ var WidgetMetadata = {
       ]
     },
 
-    // ==================== 新增IMDB与豆瓣高分榜单模块 ====================
-    {
-      title: "IMDB与豆瓣高分榜单",
-      description: "IMDB Top 250、豆瓣高分电影与剧集榜单聚合",
-      requiresWebView: false,
-      functionName: "loadHighRatedMovies",
-      cacheDuration: 7200,
-      params: [
-        {
-          name: "source",
-          title: "数据来源",
-          type: "enumeration",
-          description: "选择要显示的高分榜单来源",
-          value: "imdb_top250",
-          enumOptions: [
-            { title: "豆瓣 - Top 250 电影", value: "douban_top250" },
-          ]
-        },
-        {
-          name: "media_type",
-          title: "内容类型",
-          type: "enumeration",
-          description: "筛选电影或剧集（仅部分榜单支持）",
-          value: "all",
-          belongTo: {
-            paramName: "source",
-            value: ["douban_top250"]
-          },
-          enumOptions: [
-            { title: "全部", value: "all" },
-            { title: "电影", value: "movie" },
-            { title: "剧集", value: "tv" }
-          ]
-        },
-        {
-          name: "sort_by",
-          title: "排序方式",
-          type: "enumeration",
-          description: "选择排序方式",
-          value: "rank",
-          enumOptions: [
-            { title: "榜单排名", value: "rank" },
-            { title: "评分从高到低", value: "rating_desc" },
-            { title: "年份从新到旧", value: "year_desc" },
-            { title: "年份从旧到新", value: "year_asc" }
-          ]
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
-    }
-  ]
-};
 
 // ==================== 配置常量 ====================
 
