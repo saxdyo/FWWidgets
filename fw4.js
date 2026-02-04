@@ -569,8 +569,8 @@ var WidgetMetadata = {
 
     // ==================== 新增IMDB与豆瓣高分榜单模块 ====================
     {
-      title: "豆瓣高分榜单",
-      description: "豆瓣高分榜单",
+      title: "IMDB与豆瓣高分榜单",
+      description: "IMDB Top 250、豆瓣高分电影与剧集榜单聚合",
       requiresWebView: false,
       functionName: "loadHighRatedMovies",
       cacheDuration: 7200,
