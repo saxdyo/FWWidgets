@@ -582,7 +582,7 @@ var WidgetMetadata = {
           description: "选择要显示的高分榜单来源",
           value: "imdb_top250",
           enumOptions: [
-            { title: "豆瓣 - Top 250 电影", value: "douban_top250" },}
+            { title: "豆瓣 - Top 250 电影", value: "douban_top250" },
           ]
         },
         {
@@ -599,6 +599,19 @@ var WidgetMetadata = {
             { title: "全部", value: "all" },
             { title: "电影", value: "movie" },
             { title: "剧集", value: "tv" }
+          ]
+        },
+        {
+          name: "min_rating",
+          title: "最低评分",
+          type: "enumeration",
+          description: "设置最低评分筛选",
+          value: "0",
+          enumOptions: [
+            { title: "无限制", value: "0" },
+            { title: "8.0分以上", value: "8.0" },
+            { title: "8.5分以上", value: "8.5" },
+            { title: "9.0分以上", value: "9.0" }
           ]
         },
         {
