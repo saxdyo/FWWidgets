@@ -582,7 +582,17 @@ var WidgetMetadata = {
           description: "选择要显示的高分榜单来源",
           value: "imdb_top250",
           enumOptions: [
+            { title: "IMDB - Top 250 电影", value: "imdb_top250" },
+            { title: "IMDB - 热门电影", value: "imdb_popular" },
             { title: "豆瓣 - Top 250 电影", value: "douban_top250" },
+            { title: "豆瓣 - 高分华语电影", value: "douban_chinese_best" },
+            { title: "豆瓣 - 高分欧美电影", value: "douban_western_best" },
+            { title: "豆瓣 - 高分日本电影", value: "douban_japanese_best" },
+            { title: "豆瓣 - 高分韩剧", value: "douban_korean_tv" },
+            { title: "豆瓣 - 高分日剧", value: "douban_japanese_tv" },
+            { title: "豆瓣 - 高分美剧", value: "douban_american_tv" },
+            { title: "豆瓣 - 高分英剧", value: "douban_uk_tv" },
+            { title: "豆瓣 - 高分综艺", value: "douban_variety" }
           ]
         },
         {
