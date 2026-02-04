@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05 04:19:00",
+  "last_updated": "2026-02-05 05:21:52",
   "today_global": [
     {
       "id": 1368166,
@@ -28,22 +28,11 @@
       "title": "哈姆奈特",
       "type": "movie",
       "genreTitle": "剧情•爱情•历史",
-      "rating": 7.8,
+      "rating": 7.7,
       "release_date": "2025-11-26",
       "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
       "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
-    },
-    {
-      "id": 1466115,
-      "title": "今夜，就算这份爱恋从世界上消失",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 8.0,
-      "release_date": "2025-12-24",
-      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
     },
     {
       "id": 1433842,
@@ -55,6 +44,17 @@
       "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
       "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
+    },
+    {
+      "id": 1466115,
+      "title": "今夜，就算这份爱恋从世界上消失",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 8.0,
+      "release_date": "2025-12-24",
+      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
     },
     {
       "id": 1084242,
@@ -105,7 +105,7 @@
       "title": "荷兰人",
       "type": "movie",
       "genreTitle": "剧情•惊悚",
-      "rating": 3.9,
+      "rating": 4.0,
       "release_date": "2026-01-02",
       "overview": "《荷兰人》的故事发生在纽约地铁上，讲述了一位衣着光鲜的黑人男子与一位迷人的白人女子相遇，两人在一场充满性暗示的猫捉老鼠游戏中斗智斗勇，最终以暴力收场。",
       "poster_url": "https://image.tmdb.org/t/p/original/v7CCosgX9LcSpt7bXmqw5OzTFTV.jpg",
@@ -123,6 +123,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
     },
     {
+      "id": 840464,
+      "title": "末日逃生：迁移",
+      "type": "movie",
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.5,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+    },
+    {
       "id": 198178,
       "title": "奇迹人",
       "type": "tv",
@@ -132,17 +154,6 @@
       "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
-    },
-    {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 1116201,
@@ -156,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.5,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
-    },
-    {
       "id": 310024,
       "title": "死亡之花",
       "type": "tv",
@@ -176,17 +176,6 @@
       "overview": "医学院辍学生李宇谦涉嫌绑架杀害多人，却宣称掌握“治癒所有疾病”的技术。如今这项只存在他脑中的奇蹟，成为要挟世界的筹码：“赦免我，否则带着秘密进坟墓”。同时绝望律师为救患有脑瘤的女儿，必须保护凶手。而正义检察官却为223条冤魂，誓死送他上刑场。二人的博弈一触即发。李宇谦究竟是冷血杀手，还是人类的救星？",
       "poster_url": "https://image.tmdb.org/t/p/original/gJdZsSTTFlmONonSdef9WxtLAa7.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5T4ij5RgI7y5UHNgI2scH8BU5J9.jpg"
-    },
-    {
-      "id": 198102,
-      "title": "历劫惊途",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.6,
-      "release_date": "2023-06-28",
-      "overview": "在挟持者夺取控制权后，谈判专家山姆·尼尔森面临人生中最惊险的挑战，所有乘客亦深陷其中。为了扭转局势，他将施展所有谈判手段，而情况亦越来越严峻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/h8Y9FDPIk1aHDpTbPoLLu7jnxid.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cnFw8up7YcJdmxTsBpJ5TVy09FT.jpg"
     },
     {
       "id": 1316092,
@@ -209,6 +198,17 @@
       "overview": "1977年，在被军事独裁统治折磨的巴西，四十多岁的马塞洛（瓦格纳·马拉 饰）逃离了他混乱的过去，来到累西腓，希望在这里建立新的生活并与家人重修旧好。然而，他并未料到死亡威胁如影随形，笼罩在他的头顶。",
       "poster_url": "https://image.tmdb.org/t/p/original/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4on1ZZu7TZNnthwD84FOa9m57WR.jpg"
+    },
+    {
+      "id": 198102,
+      "title": "历劫惊途",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.6,
+      "release_date": "2023-06-28",
+      "overview": "在挟持者夺取控制权后，谈判专家山姆·尼尔森面临人生中最惊险的挑战，所有乘客亦深陷其中。为了扭转局势，他将施展所有谈判手段，而情况亦越来越严峻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/h8Y9FDPIk1aHDpTbPoLLu7jnxid.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cnFw8up7YcJdmxTsBpJ5TVy09FT.jpg"
     },
     {
       "id": 1317288,
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
-    },
-    {
       "id": 1368166,
       "title": "家弑服务",
       "type": "movie",
@@ -257,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -266,6 +266,17 @@
       "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "poster_url": "https://image.tmdb.org/t/p/original/lFdyMUKjxoKb8vdjQXQHLvPYDXm.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 858024,
+      "title": "哈姆奈特",
+      "type": "movie",
+      "genreTitle": "剧情•爱情•历史",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
       "id": 1234731,
@@ -290,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
     },
     {
-      "id": 858024,
-      "title": "哈姆奈特",
-      "type": "movie",
-      "genreTitle": "剧情•爱情•历史",
-      "rating": 7.8,
-      "release_date": "2025-11-26",
-      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
-    },
-    {
       "id": 840464,
       "title": "末日逃生：迁移",
       "type": "movie",
@@ -316,7 +316,7 @@
       "title": "请求救援",
       "type": "movie",
       "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-01-22",
       "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
       "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
@@ -332,28 +332,6 @@
       "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
       "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
-    },
-    {
-      "id": 91239,
-      "title": "布里杰顿家族",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2020-12-25",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
-    },
-    {
-      "id": 1575337,
-      "title": "超时空辉夜姬！",
-      "type": "movie",
-      "genreTitle": "动画•奇幻•音乐",
-      "rating": 8.1,
-      "release_date": "2026-01-22",
-      "overview": "在梦想与希望汇聚的虚拟空间<月读>，少女们相遇，以及离别的舞台，就此拉开帷幕——  在近未来的时代，酒寄彩叶是就读于东京重点高中的17岁女高中生，她同时兼顾打工与学业，每天忙得不可开交。月见八千代是互联网虚拟空间<月读>的管理员兼超人气主播，彩叶平日透过观看八千代的直播放松身心。在这个任何人都能创造自己的分身，自由进行创作活动的<月读>里，彩叶一边支持着自己的偶像八千代，一边靠对战游戏零零散散赚点零用钱。  某天放学回家的路上，彩叶发现了一根发出七彩光芒的RGB电线杆，在那里面竟然有一个可爱的婴儿。她放心不下把婴儿带回家，没想到对方转眼间迅速长大，长成了与彩叶年纪相仿的少女。  「你……该不会是辉夜姬吧？」  长大后的辉夜姬十分任性。在辉夜的请求（任性）下，彩叶开始帮她在月读开展主播活动。彩叶作为制作人创作音乐，辉夜作为主播负责演唱，两人也在合作中一点点拉近了距离。然而她们并不知道，一道不祥的阴影已经逼近了她们眼前，要将辉夜带回月亮——  这是一个，还从未有人见过的「辉夜姬」的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9tkMo2GNrtuzggwNF4MzixXw3B1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
     },
     {
       "id": 1433842,
@@ -378,6 +356,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
     },
     {
+      "id": 91239,
+      "title": "布里杰顿家族",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.1,
+      "release_date": "2020-12-25",
+      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
+    },
+    {
+      "id": 1575337,
+      "title": "超时空辉夜姬！",
+      "type": "movie",
+      "genreTitle": "动画•奇幻•音乐",
+      "rating": 8.1,
+      "release_date": "2026-01-22",
+      "overview": "在梦想与希望汇聚的虚拟空间<月读>，少女们相遇，以及离别的舞台，就此拉开帷幕——  在近未来的时代，酒寄彩叶是就读于东京重点高中的17岁女高中生，她同时兼顾打工与学业，每天忙得不可开交。月见八千代是互联网虚拟空间<月读>的管理员兼超人气主播，彩叶平日透过观看八千代的直播放松身心。在这个任何人都能创造自己的分身，自由进行创作活动的<月读>里，彩叶一边支持着自己的偶像八千代，一边靠对战游戏零零散散赚点零用钱。  某天放学回家的路上，彩叶发现了一根发出七彩光芒的RGB电线杆，在那里面竟然有一个可爱的婴儿。她放心不下把婴儿带回家，没想到对方转眼间迅速长大，长成了与彩叶年纪相仿的少女。  「你……该不会是辉夜姬吧？」  长大后的辉夜姬十分任性。在辉夜的请求（任性）下，彩叶开始帮她在月读开展主播活动。彩叶作为制作人创作音乐，辉夜作为主播负责演唱，两人也在合作中一点点拉近了距离。然而她们并不知道，一道不祥的阴影已经逼近了她们眼前，要将辉夜带回月亮——  这是一个，还从未有人见过的「辉夜姬」的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9tkMo2GNrtuzggwNF4MzixXw3B1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tL9IWUQ14XTQf7FWIkH9ArabJJo.jpg"
+    },
+    {
+      "id": 61859,
+      "title": "夜班经理",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 7.7,
+      "release_date": "2016-02-21",
+      "overview": "乔纳森曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉，安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aIqIIQWKC6d7UVHtX53bigu4jVF.jpg"
+    },
+    {
       "id": 1317288,
       "title": "至尊马蒂",
       "type": "movie",
@@ -400,17 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 61859,
-      "title": "夜班经理",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 7.7,
-      "release_date": "2016-02-21",
-      "overview": "乔纳森曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉，安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aIqIIQWKC6d7UVHtX53bigu4jVF.jpg"
-    },
-    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -422,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
-      "id": 198102,
-      "title": "历劫惊途",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.6,
-      "release_date": "2023-06-28",
-      "overview": "在挟持者夺取控制权后，谈判专家山姆·尼尔森面临人生中最惊险的挑战，所有乘客亦深陷其中。为了扭转局势，他将施展所有谈判手段，而情况亦越来越严峻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/h8Y9FDPIk1aHDpTbPoLLu7jnxid.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cnFw8up7YcJdmxTsBpJ5TVy09FT.jpg"
-    },
-    {
       "id": 136311,
       "title": "Shrinking",
       "type": "tv",
@@ -442,6 +431,17 @@
       "overview": "吉米在担当爸爸、朋友和心理治疗师的同时，还要痛苦地哀悼亡妻。他决定尝试一种新的方式来对待所遇到的每一个人：毫不留情地直话直说。他能通过助人来助己吗？这能让他的人生恢复光明吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/rmKIFxoBNHQBtsux2Pjob6AP3rl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/k8aCatZeJTdwl26utChphKwqVrS.jpg"
+    },
+    {
+      "id": 198102,
+      "title": "历劫惊途",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.6,
+      "release_date": "2023-06-28",
+      "overview": "在挟持者夺取控制权后，谈判专家山姆·尼尔森面临人生中最惊险的挑战，所有乘客亦深陷其中。为了扭转局势，他将施展所有谈判手段，而情况亦越来越严峻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/h8Y9FDPIk1aHDpTbPoLLu7jnxid.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cnFw8up7YcJdmxTsBpJ5TVy09FT.jpg"
     }
   ],
   "popular_movies": [
