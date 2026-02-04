@@ -569,8 +569,8 @@ var WidgetMetadata = {
 
     // ==================== 新增IMDB与豆瓣高分榜单模块 ====================
     {
-      title: "IMDB与豆瓣高分榜单",
-      description: "IMDB Top 250、豆瓣高分电影与剧集榜单聚合",
+      title: "豆瓣高分榜单",
+      description: "豆瓣高分榜单",
       requiresWebView: false,
       functionName: "loadHighRatedMovies",
       cacheDuration: 7200,
@@ -599,19 +599,6 @@ var WidgetMetadata = {
             { title: "全部", value: "all" },
             { title: "电影", value: "movie" },
             { title: "剧集", value: "tv" }
-          ]
-        },
-        {
-          name: "min_rating",
-          title: "最低评分",
-          type: "enumeration",
-          description: "设置最低评分筛选",
-          value: "0",
-          enumOptions: [
-            { title: "无限制", value: "0" },
-            { title: "8.0分以上", value: "8.0" },
-            { title: "8.5分以上", value: "8.5" },
-            { title: "9.0分以上", value: "9.0" }
           ]
         },
         {
