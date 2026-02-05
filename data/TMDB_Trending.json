@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-06 00:30:08",
+  "last_updated": "2026-02-06 01:37:02",
   "today_global": [
     {
       "id": 1368166,
@@ -13,17 +13,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HFf4Ga3wJp2RcV96qreBHO4C46.jpg"
     },
     {
-      "id": 1433842,
-      "title": "关系的目标",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 3.8,
-      "release_date": "2026-02-04",
-      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
-    },
-    {
       "id": 106379,
       "title": "辐射",
       "type": "tv",
@@ -33,6 +22,17 @@
       "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
       "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
+    },
+    {
+      "id": 1433842,
+      "title": "关系的目标",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 3.8,
+      "release_date": "2026-02-04",
+      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
     },
     {
       "id": 858024,
@@ -79,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zJzgzhh2t5F5HTvvKrMWwoZXJGB.jpg"
     },
     {
+      "id": 269160,
+      "title": "抢钱女王团",
+      "type": "tv",
+      "genreTitle": "喜剧•动作冒险•剧情",
+      "rating": 8.0,
+      "release_date": "2026-02-05",
+      "overview": "五名女子携手合作，乔装男性抢劫银行，只为脱离一个棘手困境。在肾上腺素一阵狂飙、36280 欧元到手后，这些业余大盗却被迫从头开始。政客、警方和黑帮旋即紧追在后，但他们难以想象的是，这个佣兵团背后其实是一群平凡女子……就这样，“抢钱女王团”诞生了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/j61N3pNeywGhPj2jl1uYoRrikG4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/djAGltv1bVw625yYku4CyA42gq0.jpg"
+    },
+    {
       "id": 1466115,
       "title": "即使，这份恋情今晚会从世上消失",
       "type": "movie",
@@ -88,17 +99,6 @@
       "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
-    },
-    {
-      "id": 269160,
-      "title": "抢钱女王团",
-      "type": "tv",
-      "genreTitle": "喜剧•动作冒险",
-      "rating": 8.0,
-      "release_date": "2026-02-05",
-      "overview": "五名女子携手合作，乔装男性抢劫银行，只为脱离一个棘手困境。在肾上腺素一阵狂飙、36280 欧元到手后，这些业余大盗却被迫从头开始。政客、警方和黑帮旋即紧追在后，但他们难以想象的是，这个佣兵团背后其实是一群平凡女子……就这样，“抢钱女王团”诞生了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/j61N3pNeywGhPj2jl1uYoRrikG4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/djAGltv1bVw625yYku4CyA42gq0.jpg"
     },
     {
       "id": 1198984,
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i1orxgPvDhXCwpfzbtZNszQPu0.jpg"
     },
     {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.7,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -134,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
-      "id": 297424,
-      "title": "给你宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 8.7,
-      "release_date": "2026-02-04",
-      "overview": "讲述一对男女之间跌宕起伏的育儿同居恋曲。他们原本是姻亲，却突然发现自己要共同抚养20个月大的侄子「宇宙」。既不像陌生人那样疏远、也未必能真正成为家人的他们，在孩子闯入生活后，逐渐学会成长与靠近，故事温暖又疗愈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/s7NUr6S9UaqCAEPTISNaqnJ4ZBP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eUcFENeB4ggjTsHVPt8IiLIQeXS.jpg"
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.7,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 1198994,
@@ -156,6 +145,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 198178,
+      "title": "奇迹人",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2026-01-27",
+      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
+    },
+    {
       "id": 278127,
       "title": "唐宫奇案之青雾风鸣",
       "type": "tv",
@@ -165,6 +176,17 @@
       "overview": "上元佳节，宁远公主在夜宴上离奇身亡，内谒局李佩仪和太史局太史丞萧怀瑾奉命调查。李佩仪武力顶尖又善洞悉人心，面冷心善一心索骥真相，查案对她来说不只是探究真相，更是与凶手的智斗和较量。在和思维缜密萧怀瑾的默契配合下，抽丝剥茧，通过跋扈的权贵之女和身负秘密的金吾卫羽林郎将，最终探明真相找出真凶。随后一系列错综复杂的发生在大唐内廷中的宫闱秘史、诡异奇案接踵而至：“壁上花”、“血色天资”、“吉时秘闻”、“七星错”等一桩桩牵扯出后宫各类女子命运的案件中，李萧二人探索大唐奇景，感受人间奇情，并在破案过程中，逐渐查清了十五年前李家灭门案背后的真相，最终揭露出幕后黑手的阴谋。李佩仪不仅为父亲洗脱冤屈，还在追寻真相的过程中，收获了并肩作伴的伙伴，得到了救赎！",
       "poster_url": "https://image.tmdb.org/t/p/original/qvY538wQj2U4NMy4aMV5mbbP2aF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/Hnp9zNnep9iK8qg8qMpwvrbVIX.jpg"
+    },
+    {
+      "id": 297424,
+      "title": "给你宇宙",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 8.7,
+      "release_date": "2026-02-04",
+      "overview": "讲述一对男女之间跌宕起伏的育儿同居恋曲。他们原本是姻亲，却突然发现自己要共同抚养20个月大的侄子「宇宙」。既不像陌生人那样疏远、也未必能真正成为家人的他们，在孩子闯入生活后，逐渐学会成长与靠近，故事温暖又疗愈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/s7NUr6S9UaqCAEPTISNaqnJ4ZBP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eUcFENeB4ggjTsHVPt8IiLIQeXS.jpg"
     },
     {
       "id": 310024,
@@ -178,37 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5T4ij5RgI7y5UHNgI2scH8BU5J9.jpg"
     },
     {
-      "id": 1620991,
-      "title": "露西·莱比的调查",
-      "type": "movie",
-      "genreTitle": "纪录•犯罪",
-      "rating": 7.2,
-      "release_date": "2026-02-04",
-      "overview": "本片通过未曾公开的影像与内部人员的首次讲述，揭示了露西·莱比案——这位被判定蓄意伤害婴儿致死的新生儿护士——令人毛骨悚然且充满争议的骇人内幕。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhNThwc72GqihJhXaP29Af5hJ2A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qhSfXdkrIzwYsyQ3Z9ehFmO3zjy.jpg"
-    },
-    {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.5,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
-    },
-    {
-      "id": 198178,
-      "title": "奇迹人",
+      "id": 224372,
+      "title": "七王国的骑士",
       "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2026-01-27",
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/seQEW2jIAWK4gfCcUL83NFiLjk7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
       "id": 1234731,
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.7,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
-    },
-    {
       "id": 858024,
       "title": "哈姆奈特",
       "type": "movie",
@@ -266,6 +255,17 @@
       "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
       "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
+    },
+    {
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.7,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 198178,
@@ -323,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zJzgzhh2t5F5HTvvKrMWwoZXJGB.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.5,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
       "id": 274776,
@@ -356,37 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
-    },
-    {
-      "id": 1116201,
-      "title": "铁肺",
+      "id": 840464,
+      "title": "末日逃生2：迁移",
       "type": "movie",
-      "genreTitle": "恐怖•科幻",
-      "rating": 7.6,
-      "release_date": "2026-01-29",
-      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
-    },
-    {
-      "id": 269160,
-      "title": "抢钱女王团",
-      "type": "tv",
-      "genreTitle": "喜剧•动作冒险",
-      "rating": 8.0,
-      "release_date": "2026-02-05",
-      "overview": "五名女子携手合作，乔装男性抢劫银行，只为脱离一个棘手困境。在肾上腺素一阵狂飙、36280 欧元到手后，这些业余大盗却被迫从头开始。政客、警方和黑帮旋即紧追在后，但他们难以想象的是，这个佣兵团背后其实是一群平凡女子……就这样，“抢钱女王团”诞生了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/j61N3pNeywGhPj2jl1uYoRrikG4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/djAGltv1bVw625yYku4CyA42gq0.jpg"
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.5,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
       "id": 224372,
@@ -400,6 +378,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
+      "id": 269160,
+      "title": "抢钱女王团",
+      "type": "tv",
+      "genreTitle": "喜剧•动作冒险•剧情",
+      "rating": 8.0,
+      "release_date": "2026-02-05",
+      "overview": "五名女子携手合作，乔装男性抢劫银行，只为脱离一个棘手困境。在肾上腺素一阵狂飙、36280 欧元到手后，这些业余大盗却被迫从头开始。政客、警方和黑帮旋即紧追在后，但他们难以想象的是，这个佣兵团背后其实是一群平凡女子……就这样，“抢钱女王团”诞生了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/j61N3pNeywGhPj2jl1uYoRrikG4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/djAGltv1bVw625yYku4CyA42gq0.jpg"
+    },
+    {
+      "id": 1116201,
+      "title": "铁肺",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻",
+      "rating": 7.6,
+      "release_date": "2026-01-29",
+      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
+    },
+    {
+      "id": 223530,
+      "title": "星际迷航：星际舰队学院",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 4.9,
+      "release_date": "2026-01-15",
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
+    },
+    {
       "id": 91239,
       "title": "布里杰顿家族",
       "type": "tv",
@@ -409,17 +420,6 @@
       "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
       "poster_url": "https://image.tmdb.org/t/p/original/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
-    },
-    {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 1317288,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
-      "id": 1466115,
-      "title": "即使，这份恋情今晚会从世上消失",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.3,
-      "release_date": "2025-12-24",
-      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
+      "id": 79744,
+      "title": "菜鸟老警",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
     }
   ],
   "popular_movies": [
