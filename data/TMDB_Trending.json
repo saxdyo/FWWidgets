@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07 23:12:34",
+  "last_updated": "2026-02-08 00:13:21",
   "today_global": [
     {
       "id": 1368166,
@@ -60,34 +60,12 @@
       "id": 1618945,
       "title": "婚前脱单快乐",
       "type": "movie",
-      "genreTitle": "喜剧•爱情",
+      "genreTitle": "爱情•喜剧",
       "rating": 4.2,
       "release_date": "2026-02-06",
       "overview": "桑多在爱情方面一直很不走运，但当她最好的朋友带着未婚妻旅行归来时，她不得不面对一种新的情感——嫉妒。",
       "poster_url": "https://image.tmdb.org/t/p/original/9wBzRaeWfELNOPmcvOVTmB3kDEl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3GUzKLbhZheVKyn6fjN1abzPRmd.jpg"
-    },
-    {
-      "id": 1373198,
-      "title": "恐怖买家",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 4.5,
-      "release_date": "2026-02-06",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/rF6txsM6cgF9vg6Ra5sNbkvUwrw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jQMy2FKeEX2E0aZK4mtHQOOTpQr.jpg"
-    },
-    {
-      "id": 1340110,
-      "title": "重返重生",
-      "type": "movie",
-      "genreTitle": "科幻•动作•剧情",
-      "rating": 0.0,
-      "release_date": "2026-02-20",
-      "overview": "　　一位名叫艾琳·凯利的母亲穿越到不同的平行宇宙，找到杀害她女儿的凶手，并一次又一次地把凶手干掉。当她被复仇的火焰吞噬时，她的人性也将变得岌岌可危。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9u7sUTYPPTxGCXbkcw8FTq50PnO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yn8R5l7ukplNsf2n0wtYzVJnlii.jpg"
     },
     {
       "id": 1548113,
@@ -112,6 +90,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
+      "id": 1373198,
+      "title": "恐怖买家",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 4.5,
+      "release_date": "2026-02-06",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/rF6txsM6cgF9vg6Ra5sNbkvUwrw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jQMy2FKeEX2E0aZK4mtHQOOTpQr.jpg"
+    },
+    {
+      "id": 1340110,
+      "title": "重返重生",
+      "type": "movie",
+      "genreTitle": "科幻•动作•剧情",
+      "rating": 0.0,
+      "release_date": "2026-02-20",
+      "overview": "　　一位名叫艾琳·凯利的母亲穿越到不同的平行宇宙，找到杀害她女儿的凶手，并一次又一次地把凶手干掉。当她被复仇的火焰吞噬时，她的人性也将变得岌岌可危。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9u7sUTYPPTxGCXbkcw8FTq50PnO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yn8R5l7ukplNsf2n0wtYzVJnlii.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -121,6 +121,17 @@
       "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "poster_url": "https://image.tmdb.org/t/p/original/6LBiFV0eoBjeKksQ5fwmYk3xbXD.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+    },
+    {
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.4,
+      "release_date": "2025-12-05",
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bOwhF7hEz6bjEsCdHZZ0ravX56d.jpg"
     },
     {
       "id": 274776,
@@ -134,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
     },
     {
-      "id": 240459,
-      "title": "斯巴达克斯：亚述家族",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 6.4,
-      "release_date": "2025-12-05",
-      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bOwhF7hEz6bjEsCdHZZ0ravX56d.jpg"
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 1596291,
@@ -176,17 +187,6 @@
       "overview": "洛杉矶精英辩护律师米奇·哈勒开着他标志性的林肯车，在刑事司法系统穿梭游走：他会不惜一切代价打赢官司。",
       "poster_url": "https://image.tmdb.org/t/p/original/tCMJFL5KcGlfd3c3ytnBrZ3cpmf.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zJzgzhh2t5F5HTvvKrMWwoZXJGB.jpg"
-    },
-    {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 1433842,
@@ -279,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+    },
+    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -312,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
       "id": 1198994,
       "title": "请求救援",
       "type": "movie",
@@ -334,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
-    },
-    {
       "id": 240459,
       "title": "斯巴达克斯：亚述家族",
       "type": "tv",
@@ -354,6 +343,17 @@
       "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bOwhF7hEz6bjEsCdHZZ0ravX56d.jpg"
+    },
+    {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
       "id": 840464,
@@ -411,15 +411,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
-      "id": 91239,
-      "title": "布里杰顿家族",
+      "id": 280632,
+      "title": "成何体统",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2020-12-25",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6ukndhy7Cq5pjdKWCBF0XU9XHzJ.jpg"
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-02-06",
+      "overview": "王翠花本是个平平无奇的社畜，每天在上司和甲方的刁难下挣扎度日，有一天，她意外穿进了穿书文里，成为了注定被迫害而死的炮灰反派庾晚音，出人意料的是，她发现炮灰反派暴君夏侯澹也是穿越而来的，而且穿来之前还是个霸道总裁。 为了生存下来，两人决定联盟，庾晚音站在唯一知晓故事发展的上帝视角，以霸道总裁身份穿来的暴君夏侯澹擅长演戏和应酬，两人联手和原本设定下占尽天时、地利、人和的“天选之女”谢永儿、“天选之子”夏侯泊，双方究竟谁能杀出重围，生存下来呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg"
+    },
+    {
+      "id": 1220564,
+      "title": "密探",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•惊悚",
+      "rating": 7.6,
+      "release_date": "2025-07-23",
+      "overview": "1977年，在被军事独裁统治折磨的巴西，四十多岁的马塞洛（瓦格纳·马拉 饰）逃离了他混乱的过去，来到累西腓，希望在这里建立新的生活并与家人重修旧好。然而，他并未料到死亡威胁如影随形，笼罩在他的头顶。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4on1ZZu7TZNnthwD84FOa9m57WR.jpg"
     },
     {
       "id": 250307,
@@ -431,17 +442,6 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/cbKWOqYrEhBWiAa1jAK2Vu7GMED.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 280632,
-      "title": "成何体统",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-02-06",
-      "overview": "王翠花本是个平平无奇的社畜，每天在上司和甲方的刁难下挣扎度日，有一天，她意外穿进了穿书文里，成为了注定被迫害而死的炮灰反派庾晚音，出人意料的是，她发现炮灰反派暴君夏侯澹也是穿越而来的，而且穿来之前还是个霸道总裁。 为了生存下来，两人决定联盟，庾晚音站在唯一知晓故事发展的上帝视角，以霸道总裁身份穿来的暴君夏侯澹擅长演戏和应酬，两人联手和原本设定下占尽天时、地利、人和的“天选之女”谢永儿、“天选之子”夏侯泊，双方究竟谁能杀出重围，生存下来呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg"
     }
   ],
   "popular_movies": [
