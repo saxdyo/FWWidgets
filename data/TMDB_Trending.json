@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09 07:17:33",
+  "last_updated": "2026-02-09 08:59:27",
   "today_global": [
     {
       "id": 1368166,
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+    },
+    {
       "id": 858024,
       "title": "哈姆奈特",
       "type": "movie",
@@ -44,17 +55,6 @@
       "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
       "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
-    },
-    {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 240459,
@@ -79,26 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
-      "id": 680493,
-      "title": "重返寂静岭",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.2,
-      "release_date": "2026-01-21",
-      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
-    },
-    {
-      "id": 1548113,
-      "title": "布偶秀50周年特别节目",
-      "type": "movie",
-      "genreTitle": "喜剧•家庭•音乐",
-      "rating": 7.1,
-      "release_date": "2026-02-03",
-      "overview": "科米蛙、猪小姐以及其他迷人的伙伴们，重返最初的布偶剧院舞台，带来全新的音乐、搞笑短剧，以及一连串的后台大乱斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mgsqZ0WussW8H4sxkxdeKKA5nbq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2QZe9XyiNGMCeGNwVI3u4DhTzRf.jpg"
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 1242898,
@@ -112,37 +101,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bxAm2pC3kuYrAP89K2fnQCpRzzI.jpg"
     },
     {
-      "id": 1429605,
-      "title": "去你的情人节",
+      "id": 1548113,
+      "title": "布偶秀50周年特别节目",
       "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.4,
-      "release_date": "2026-02-13",
-      "overview": "　　吉娜痛恨自己在情人节这天过生日，于是飞往希腊，想要搅黄男友的求婚计划。在度假者约翰尼和他的妹妹米琪的帮助下，她设法拖延这场求婚——同时也开始反思自己的这段感情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8zPExowfpfZOTpS1W4J7G27lH4H.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hqYraiuzrgW1QskCuj21nzanUJr.jpg"
+      "genreTitle": "喜剧•家庭•音乐",
+      "rating": 7.1,
+      "release_date": "2026-02-03",
+      "overview": "科米蛙、猪小姐以及其他迷人的伙伴们，重返最初的布偶剧院舞台，带来全新的音乐、搞笑短剧，以及一连串的后台大乱斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mgsqZ0WussW8H4sxkxdeKKA5nbq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2QZe9XyiNGMCeGNwVI3u4DhTzRf.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
+      "id": 680493,
+      "title": "重返寂静岭",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
-    {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.2,
+      "release_date": "2026-01-21",
+      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
     },
     {
       "id": 270600,
@@ -156,15 +134,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nQ7YiDF65DAerK5hUCyA1gToYvn.jpg"
     },
     {
-      "id": 198178,
-      "title": "奇迹人",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-01-27",
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
+      "id": 1429605,
+      "title": "去你的情人节",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.4,
+      "release_date": "2026-02-13",
+      "overview": "　　吉娜痛恨自己在情人节这天过生日，于是飞往希腊，想要搅黄男友的求婚计划。在度假者约翰尼和他的妹妹米琪的帮助下，她设法拖延这场求婚——同时也开始反思自己的这段感情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8zPExowfpfZOTpS1W4J7G27lH4H.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hqYraiuzrgW1QskCuj21nzanUJr.jpg"
+    },
+    {
+      "id": 1198984,
+      "title": "我们埋葬死者",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.3,
+      "release_date": "2026-01-01",
+      "overview": "当丈夫在一场灾难性军事实验的余波中失踪后，艾娃加入了一支 “遗体回收小队”，希望能找到活着的他。但她的搜寻却迎来了令人毛骨悚然的转折 —— 她正在安葬的遗体，竟开始显现出生命迹象。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d6FwKyt8xR9SF93iYzOawN2HTaD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i1orxgPvDhXCwpfzbtZNszQPu0.jpg"
+    },
+    {
+      "id": 1168190,
+      "title": "特工迷阵",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-01-28",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
     },
     {
       "id": 1234731,
@@ -178,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
     },
     {
-      "id": 1373198,
-      "title": "恐怖买家",
+      "id": 1246049,
+      "title": "德古拉",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 4.7,
-      "release_date": "2026-02-06",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/rF6txsM6cgF9vg6Ra5sNbkvUwrw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jQMy2FKeEX2E0aZK4mtHQOOTpQr.jpg"
+      "genreTitle": "恐怖•奇幻•爱情",
+      "rating": 7.2,
+      "release_date": "2025-07-30",
+      "overview": "故事讲述 15 世纪的弗拉基米尔王子，在爱妻离世后诅咒上帝，最终化作吸血鬼；此后在 19 世纪的伦敦，他遇见了与妻子容貌一模一样的分身，却因执意追寻她而自取毁灭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4JdmWvjoZbn0UxM2y8C43286Ypz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dFIZEBL5aMgCKEvvNqx7pdainLb.jpg"
     },
     {
       "id": 1340110,
@@ -200,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yn8R5l7ukplNsf2n0wtYzVJnlii.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeyTG1FuC3HPHaRZjPOHJfedN9w.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
-    },
-    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -220,6 +209,17 @@
       "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
       "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 1373198,
+      "title": "恐怖买家",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 4.7,
+      "release_date": "2026-02-06",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/rF6txsM6cgF9vg6Ra5sNbkvUwrw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jQMy2FKeEX2E0aZK4mtHQOOTpQr.jpg"
     }
   ],
   "week_global_all": [
@@ -257,6 +257,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+    },
+    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -290,37 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
-      "id": 1198994,
-      "title": "请求救援",
+      "id": 1198984,
+      "title": "我们埋葬死者",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
-    {
-      "id": 198178,
-      "title": "奇迹人",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-01-27",
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.3,
+      "release_date": "2026-01-01",
+      "overview": "当丈夫在一场灾难性军事实验的余波中失踪后，艾娃加入了一支 “遗体回收小队”，希望能找到活着的他。但她的搜寻却迎来了令人毛骨悚然的转折 —— 她正在安葬的遗体，竟开始显现出生命迹象。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d6FwKyt8xR9SF93iYzOawN2HTaD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i1orxgPvDhXCwpfzbtZNszQPu0.jpg"
     },
     {
       "id": 1234731,
@@ -334,15 +323,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+    },
+    {
+      "id": 1290821,
+      "title": "庇护之地",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeyTG1FuC3HPHaRZjPOHJfedN9w.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.7,
+      "release_date": "2026-01-28",
+      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "poster_url": "https://image.tmdb.org/t/p/original/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yawBnV7LYZgFKSEeauXTSABr4qq.jpg"
+    },
+    {
+      "id": 198178,
+      "title": "奇迹人",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.1,
+      "release_date": "2026-01-27",
+      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
     },
     {
       "id": 95479,
@@ -356,37 +367,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 680493,
-      "title": "重返寂静岭",
+      "id": 1433842,
+      "title": "爱情坐标",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.2,
-      "release_date": "2026-01-21",
-      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 5.5,
+      "release_date": "2026-02-04",
+      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
     },
     {
-      "id": 274776,
-      "title": "密屋陌路",
+      "id": 223530,
+      "title": "星际迷航：星际舰队学院",
       "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 7.7,
-      "release_date": "2026-02-05",
-      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
-    },
-    {
-      "id": 1116201,
-      "title": "铁肺",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•悬疑",
-      "rating": 7.4,
-      "release_date": "2026-01-29",
-      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 4.9,
+      "release_date": "2026-01-15",
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CiG4DwMzXMF0F83st0g2A4lnV4.jpg"
     },
     {
       "id": 240459,
@@ -400,48 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bOwhF7hEz6bjEsCdHZZ0ravX56d.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 0.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ytmQOsyYNypGDJCkTJ2TPP3Jc0u.jpg"
+      "id": 274776,
+      "title": "密屋陌路",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-02-05",
+      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
     },
     {
-      "id": 1306368,
-      "title": "全信没收",
+      "id": 1246049,
+      "title": "德古拉",
       "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-01-13",
-      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
-      "poster_url": "https://image.tmdb.org/t/p/original/s3yLyVISgyrDalMyBE7LbGrsjk5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zbSi7PD03wuhYJKMflSqCz40ZOv.jpg"
+      "genreTitle": "恐怖•奇幻•爱情",
+      "rating": 7.2,
+      "release_date": "2025-07-30",
+      "overview": "故事讲述 15 世纪的弗拉基米尔王子，在爱妻离世后诅咒上帝，最终化作吸血鬼；此后在 19 世纪的伦敦，他遇见了与妻子容貌一模一样的分身，却因执意追寻她而自取毁灭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4JdmWvjoZbn0UxM2y8C43286Ypz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dFIZEBL5aMgCKEvvNqx7pdainLb.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
+      "id": 1116201,
+      "title": "铁肺",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.8,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bxAm2pC3kuYrAP89K2fnQCpRzzI.jpg"
+      "genreTitle": "恐怖•科幻•悬疑",
+      "rating": 7.4,
+      "release_date": "2026-01-29",
+      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
-      "id": 1198984,
-      "title": "我们埋葬死者",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.2,
-      "release_date": "2026-01-01",
-      "overview": "当丈夫在一场灾难性军事实验的余波中失踪后，艾娃加入了一支 “遗体回收小队”，希望能找到活着的他。但她的搜寻却迎来了令人毛骨悚然的转折 —— 她正在安葬的遗体，竟开始显现出生命迹象。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d6FwKyt8xR9SF93iYzOawN2HTaD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i1orxgPvDhXCwpfzbtZNszQPu0.jpg"
+      "id": 273160,
+      "title": "美丽毒素",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 6.1,
+      "release_date": "2026-01-21",
+      "overview": "国际超模接连以骇人听闻的诡异方式惨死，两名FBI探员奉命前往巴黎、威尼斯、罗马和纽约，誓言揭开离奇死亡背后的真相，却意外发现一桩威胁到全人类未来的阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gh5XBBjNTIfjfeDLuzPRDW7RFUS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oWUsAwIzGm6GTK6USR4QXEgAmcc.jpg"
     }
   ],
   "popular_movies": [
