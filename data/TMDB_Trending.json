@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10 19:39:37",
+  "last_updated": "2026-02-10 20:39:51",
   "today_global": [
     {
       "id": 1317288,
@@ -17,11 +17,22 @@
       "title": "猩疯血雨",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-01-01",
       "overview": "　　暑期返回夏威夷的露西与父亲亚当、妹妹艾琳及宠物黑猩猩本团聚。趁父亲因工作离家，露西与好友凯特、汉娜及凯特的哥哥尼克策划了一场泳池派对。派对期间，本被一只患有狂犬病的动物咬伤，温顺的黑猩猩逐渐变得凶残。众人被迫困在泳池内，且在无法求援的绝境中，必须协作智斗发狂的本以保全性命。",
       "poster_url": "https://image.tmdb.org/t/p/original/77lTJPRJXAA4fZoGAqgowjdZUMi.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sD9PnjKDqM9V5YLUPqub7ial5vR.jpg"
+    },
+    {
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "剧情•爱情",
+      "rating": 7.9,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3iK4OUoMztIg7basATxRGLXEulR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
       "id": 1368166,
@@ -35,26 +46,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
     },
     {
-      "id": 1316092,
-      "title": "呼啸山庄",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 7.6,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3iK4OUoMztIg7basATxRGLXEulR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
-    },
-    {
-      "id": 680493,
-      "title": "重返寂静岭",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.2,
-      "release_date": "2026-01-21",
-      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
+      "id": 106379,
+      "title": "辐射",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2024-04-10",
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
       "id": 858024,
@@ -68,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
+      "id": 680493,
+      "title": "重返寂静岭",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 5.2,
+      "release_date": "2026-01-21",
+      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
+    },
+    {
       "id": 270572,
       "title": "蝇王",
       "type": "tv",
@@ -79,37 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/liGU5vmxT1FisyfAh1v6octAFDz.jpg"
     },
     {
-      "id": 106379,
-      "title": "辐射",
+      "id": 270600,
+      "title": "地狱来的芳邻",
       "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "release_date": "2024-04-10",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "poster_url": "https://image.tmdb.org/t/p/original/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
-    },
-    {
-      "id": 224372,
-      "title": "七王国的骑士",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.1,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/px2bHM5OOeJUQjVxPutn0dwmFEj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
-      "id": 1146344,
-      "title": "猎局反转",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.0,
-      "release_date": "2026-01-13",
-      "overview": "这部电影讲述了一对走投无路的夫妇，他们接连实施了一系列高端入室盗窃，只为偿还欠黑帮的债务。当他们试图抢劫最新的目标时，却发现自己陷入了一场致命的猫鼠游戏中，局势发生逆转，猎人变成了猎物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tDPW2j6L6r6YfsChYLfLRQ6Vjwh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8ytV7zZIJGaCj92okpjH48gSiYv.jpg"
+      "genreTitle": "喜剧•悬疑",
+      "rating": 4.2,
+      "release_date": "2026-02-08",
+      "overview": "改编自 1989 年同名恐怖喜剧电影，故事发生在现代郊区。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qBcV8CPn2kBFUsELeUXsgw5ZBxV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4mOMH91L4mEzwfkXHAiJwtj7WSH.jpg"
     },
     {
       "id": 1159559,
@@ -134,48 +123,81 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
-      "id": 270600,
-      "title": "地狱来的芳邻",
+      "id": 224372,
+      "title": "七王国的骑士",
       "type": "tv",
-      "genreTitle": "喜剧•悬疑",
-      "rating": 4.2,
-      "release_date": "2026-02-08",
-      "overview": "改编自 1989 年同名恐怖喜剧电影，故事发生在现代郊区。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qBcV8CPn2kBFUsELeUXsgw5ZBxV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4mOMH91L4mEzwfkXHAiJwtj7WSH.jpg"
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/px2bHM5OOeJUQjVxPutn0dwmFEj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
+      "id": 79744,
+      "title": "菜鸟老警",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
+    },
+    {
+      "id": 274776,
+      "title": "密屋陌路",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-02-05",
+      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
+    },
+    {
+      "id": 1548113,
+      "title": "布偶秀50周年特别节目",
       "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
-      "poster_url": "https://image.tmdb.org/t/p/original/6LBiFV0eoBjeKksQ5fwmYk3xbXD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
+      "genreTitle": "喜剧•家庭•音乐",
+      "rating": 7.0,
+      "release_date": "2026-02-03",
+      "overview": "科米蛙、猪小姐以及其他迷人的伙伴们，重返最初的布偶剧院舞台，带来全新的音乐、搞笑短剧，以及一连串的后台大乱斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mgsqZ0WussW8H4sxkxdeKKA5nbq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2QZe9XyiNGMCeGNwVI3u4DhTzRf.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+      "id": 1146344,
+      "title": "猎局反转",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.0,
+      "release_date": "2026-01-13",
+      "overview": "这部电影讲述了一对走投无路的夫妇，他们接连实施了一系列高端入室盗窃，只为偿还欠黑帮的债务。当他们试图抢劫最新的目标时，却发现自己陷入了一场致命的猫鼠游戏中，局势发生逆转，猎人变成了猎物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tDPW2j6L6r6YfsChYLfLRQ6Vjwh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8ytV7zZIJGaCj92okpjH48gSiYv.jpg"
     },
     {
-      "id": 279446,
-      "title": "太平年",
+      "id": 1234731,
+      "title": "新狂蟒之灾",
+      "type": "movie",
+      "genreTitle": "冒险•喜剧•恐怖",
+      "rating": 5.8,
+      "release_date": "2025-12-24",
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
+    },
+    {
+      "id": 312053,
+      "title": "Aynı Yağmur Altında",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.9,
-      "release_date": "2026-01-23",
-      "overview": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
-      "poster_url": "https://image.tmdb.org/t/p/original/76gwCVQG1MoItK25o48opYP7TmG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hjvePE4NWOO2eFXNZIwRfZN6N6L.jpg"
+      "genreTitle": "家庭•剧情",
+      "rating": 0.0,
+      "release_date": "2026-02-09",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/pym4NaXmFEaAfPa1ZQei6pAJGhS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1y3HRmxuAkly3pl4qDoJB60hh7U.jpg"
     },
     {
       "id": 1043197,
@@ -189,62 +211,18 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rB6MzWxyzu7uwf4JgYZ2UBAuihB.jpg"
     },
     {
-      "id": 1168190,
-      "title": "特工迷阵",
+      "id": 1198994,
+      "title": "请求救援",
       "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
-    },
-    {
-      "id": 280632,
-      "title": "成何体统",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-02-06",
-      "overview": "王翠花本是个平平无奇的社畜，每天在上司和甲方的刁难下挣扎度日，有一天，她意外穿进了穿书文里，成为了注定被迫害而死的炮灰反派庾晚音，出人意料的是，她发现炮灰反派暴君夏侯澹也是穿越而来的，而且穿来之前还是个霸道总裁。 为了生存下来，两人决定联盟，庾晚音站在唯一知晓故事发展的上帝视角，以霸道总裁身份穿来的暴君夏侯澹擅长演戏和应酬，两人联手和原本设定下占尽天时、地利、人和的“天选之女”谢永儿、“天选之子”夏侯泊，双方究竟谁能杀出重围，生存下来呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg"
-    },
-    {
-      "id": 1340110,
-      "title": "重返重生",
-      "type": "movie",
-      "genreTitle": "科幻•动作•剧情",
-      "rating": 0.0,
-      "release_date": "2026-02-20",
-      "overview": "　　一位名叫艾琳·凯利的母亲穿越到不同的平行宇宙，找到杀害她女儿的凶手，并一次又一次地把凶手干掉。当她被复仇的火焰吞噬时，她的人性也将变得岌岌可危。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9u7sUTYPPTxGCXbkcw8FTq50PnO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yn8R5l7ukplNsf2n0wtYzVJnlii.jpg"
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1315303,
-      "title": "猩疯血雨",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.2,
-      "release_date": "2026-01-01",
-      "overview": "　　暑期返回夏威夷的露西与父亲亚当、妹妹艾琳及宠物黑猩猩本团聚。趁父亲因工作离家，露西与好友凯特、汉娜及凯特的哥哥尼克策划了一场泳池派对。派对期间，本被一只患有狂犬病的动物咬伤，温顺的黑猩猩逐渐变得凶残。众人被迫困在泳池内，且在无法求援的绝境中，必须协作智斗发狂的本以保全性命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/77lTJPRJXAA4fZoGAqgowjdZUMi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sD9PnjKDqM9V5YLUPqub7ial5vR.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.7,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eeyTG1FuC3HPHaRZjPOHJfedN9w.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
-    },
     {
       "id": 1368166,
       "title": "家弑服务",
@@ -255,17 +233,6 @@
       "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/6OKlboUOWgPfzpz9WCCM10dvBDy.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
-    },
-    {
-      "id": 858024,
-      "title": "哈姆奈特",
-      "type": "movie",
-      "genreTitle": "剧情•爱情•历史",
-      "rating": 7.8,
-      "release_date": "2025-11-26",
-      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
       "id": 106379,
@@ -279,26 +246,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
-      "id": 1316092,
-      "title": "呼啸山庄",
+      "id": 858024,
+      "title": "哈姆奈特",
       "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 7.6,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3iK4OUoMztIg7basATxRGLXEulR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+      "genreTitle": "剧情•爱情•历史",
+      "rating": 7.8,
+      "release_date": "2025-11-26",
+      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
-      "id": 680493,
-      "title": "重返寂静岭",
+      "id": 1234731,
+      "title": "新狂蟒之灾",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 5.2,
-      "release_date": "2026-01-21",
-      "overview": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
+      "genreTitle": "冒险•喜剧•恐怖",
+      "rating": 5.8,
+      "release_date": "2025-12-24",
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
+    },
+    {
+      "id": 274776,
+      "title": "密屋陌路",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-02-05",
+      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
+    },
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.7,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eeyTG1FuC3HPHaRZjPOHJfedN9w.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
       "id": 1084242,
@@ -323,6 +312,61 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "剧情•爱情",
+      "rating": 7.9,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3iK4OUoMztIg7basATxRGLXEulR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+    },
+    {
+      "id": 79744,
+      "title": "菜鸟老警",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
+    },
+    {
+      "id": 1548113,
+      "title": "布偶秀50周年特别节目",
+      "type": "movie",
+      "genreTitle": "喜剧•家庭•音乐",
+      "rating": 7.0,
+      "release_date": "2026-02-03",
+      "overview": "科米蛙、猪小姐以及其他迷人的伙伴们，重返最初的布偶剧院舞台，带来全新的音乐、搞笑短剧，以及一连串的后台大乱斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mgsqZ0WussW8H4sxkxdeKKA5nbq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2QZe9XyiNGMCeGNwVI3u4DhTzRf.jpg"
+    },
+    {
+      "id": 1433842,
+      "title": "爱情坐标",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 5.5,
+      "release_date": "2026-02-04",
+      "overview": "电视制片人莉亚·考德威尔立志成为纽约最热门晨间节目的首位女掌门人，而她的前夫也加入了竞争。莉亚一直专注于自己的事业，直到与前夫的化学反应开始动摇她的信念。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bQTRPlMKJvcnTjGV63puGqIA6cD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9NKyIODbX3cQuHztqSzuFhGWMws.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+    },
+    {
       "id": 1168190,
       "title": "特工迷阵",
       "type": "movie",
@@ -345,37 +389,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 1234731,
-      "title": "新狂蟒之灾",
+      "id": 1466115,
+      "title": "即使，这份恋情今晚会从世上消失",
       "type": "movie",
-      "genreTitle": "冒险•喜剧•恐怖",
-      "rating": 5.8,
+      "genreTitle": "爱情•剧情",
+      "rating": 8.2,
       "release_date": "2025-12-24",
-      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jWOKrRYVszGbnSmW9r539CHuJ18.jpg"
+      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4jyBccWa8H5wqD7gbCmPAq3YlSu.jpg"
     },
     {
-      "id": 1116201,
-      "title": "铁肺",
+      "id": 1373198,
+      "title": "恐怖买家",
       "type": "movie",
-      "genreTitle": "恐怖•科幻•悬疑",
-      "rating": 7.4,
-      "release_date": "2026-01-30",
-      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
-    },
-    {
-      "id": 274776,
-      "title": "密屋陌路",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 7.7,
-      "release_date": "2026-02-05",
-      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 4.6,
+      "release_date": "2026-02-06",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/rF6txsM6cgF9vg6Ra5sNbkvUwrw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jQMy2FKeEX2E0aZK4mtHQOOTpQr.jpg"
     },
     {
       "id": 95479,
@@ -389,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
-    {
       "id": 240459,
       "title": "斯巴达克斯：亚述家族",
       "type": "tv",
@@ -411,37 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bOwhF7hEz6bjEsCdHZZ0ravX56d.jpg"
     },
     {
-      "id": 280632,
-      "title": "成何体统",
+      "id": 198178,
+      "title": "奇迹人",
       "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-02-06",
-      "overview": "王翠花本是个平平无奇的社畜，每天在上司和甲方的刁难下挣扎度日，有一天，她意外穿进了穿书文里，成为了注定被迫害而死的炮灰反派庾晚音，出人意料的是，她发现炮灰反派暴君夏侯澹也是穿越而来的，而且穿来之前还是个霸道总裁。 为了生存下来，两人决定联盟，庾晚音站在唯一知晓故事发展的上帝视角，以霸道总裁身份穿来的暴君夏侯澹擅长演戏和应酬，两人联手和原本设定下占尽天时、地利、人和的“天选之女”谢永儿、“天选之子”夏侯泊，双方究竟谁能杀出重围，生存下来呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg"
-    },
-    {
-      "id": 66732,
-      "title": "怪奇物语",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 8.6,
-      "release_date": "2016-07-15",
-      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i7nVLBdbZjLpV9h42ehgrk0bfgp.jpg"
-    },
-    {
-      "id": 1297842,
-      "title": "奇迹梦之队",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 7.0,
-      "release_date": "2026-02-11",
-      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.1,
+      "release_date": "2026-01-27",
+      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eeIBoUMpUnmBiC2wsj4xvJxA5VC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6NrxGChil7RQAtRRad98C2GVNR2.jpg"
     }
   ],
   "popular_movies": [
