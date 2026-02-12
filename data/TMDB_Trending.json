@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12 16:30:26",
+  "last_updated": "2026-02-12 17:34:30",
   "today_global": [
     {
       "id": 1426964,
@@ -24,15 +24,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/epV8l6VQJfQDCu8G5BtZggNakVX.jpg"
     },
     {
-      "id": 213306,
-      "title": "神探追缉令",
+      "id": 270444,
+      "title": "铅毒之子",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2024-11-14",
-      "overview": "改编自《纽约时报》畅销书作家詹姆斯·帕特森的头号英雄原型，《神探追缉令》是一部犯罪惊悚剧集，讲述了优秀的法医心理学家和华盛顿特区大都会警局警探亚历克斯·克罗斯调查办案的故事。克罗斯与他最好的朋友兼搭档侦探约翰·桑普森一起，深入探究美国最阴险狡诈的连环杀人犯的心理，同时还要竭力保护家人免受犯罪世界的威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ki38zfVGkTKVnID9ASfgenFUE8N.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oIt7hJlpbXETlbmDYoZJu5XkYGI.jpg"
+      "genreTitle": "剧情",
+      "rating": 10.0,
+      "release_date": "2026-02-11",
+      "overview": "故事讲述了年轻的医生约兰塔·瓦多夫斯卡-克鲁尔（Jolanta Wadowska-Król，由波兰著名女星 Joanna Kulig 饰演）发现当地大量儿童患有严重的“铅中毒”（由于附近的冶炼厂排污导致）。为了救孩子，她不得不独自挑战当时强大的社会制度和试图掩盖真相的官僚体制。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ous8IYSqDHNd8gOJDDQBL3kNqqW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ra12F3J3uVe112FEqBGmQapW2Bu.jpg"
     },
     {
       "id": 1317288,
@@ -46,15 +46,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
-      "id": 270444,
-      "title": "铅毒之子",
+      "id": 213306,
+      "title": "神探追缉令",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 10.0,
-      "release_date": "2026-02-11",
-      "overview": "故事讲述了年轻的医生约兰塔·瓦多夫斯卡-克鲁尔（Jolanta Wadowska-Król，由波兰著名女星 Joanna Kulig 饰演）发现当地大量儿童患有严重的“铅中毒”（由于附近的冶炼厂排污导致）。为了救孩子，她不得不独自挑战当时强大的社会制度和试图掩盖真相的官僚体制。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ous8IYSqDHNd8gOJDDQBL3kNqqW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ra12F3J3uVe112FEqBGmQapW2Bu.jpg"
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2024-11-14",
+      "overview": "改编自《纽约时报》畅销书作家詹姆斯·帕特森的头号英雄原型，《神探追缉令》是一部犯罪惊悚剧集，讲述了优秀的法医心理学家和华盛顿特区大都会警局警探亚历克斯·克罗斯调查办案的故事。克罗斯与他最好的朋友兼搭档侦探约翰·桑普森一起，深入探究美国最阴险狡诈的连环杀人犯的心理，同时还要竭力保护家人免受犯罪世界的威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ki38zfVGkTKVnID9ASfgenFUE8N.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oIt7hJlpbXETlbmDYoZJu5XkYGI.jpg"
     },
     {
       "id": 1316092,
@@ -101,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3p9qtUVGjmdEera4c3O7n67Q1Bj.jpg"
     },
     {
+      "id": 1171145,
+      "title": "洛杉矶劫案",
+      "type": "movie",
+      "genreTitle": "犯罪•惊悚",
+      "rating": 9.7,
+      "release_date": "2026-02-11",
+      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/WzjHfquVW0bKeWn0XSvwrf4Ac5.jpg"
+    },
+    {
       "id": 202208,
       "title": "小扒手道奇",
       "type": "tv",
@@ -112,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h1oz7u1S5EqxLUyghI3OtslykDf.jpg"
     },
     {
-      "id": 1171145,
-      "title": "洛杉矶劫案",
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
       "type": "movie",
-      "genreTitle": "犯罪•惊悚",
-      "rating": 9.7,
-      "release_date": "2026-02-11",
-      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/WzjHfquVW0bKeWn0XSvwrf4Ac5.jpg"
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.7,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bxAm2pC3kuYrAP89K2fnQCpRzzI.jpg"
     },
     {
       "id": 858024,
@@ -134,37 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
+      "id": 1297842,
+      "title": "奇迹梦之队",
       "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.8,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bxAm2pC3kuYrAP89K2fnQCpRzzI.jpg"
-    },
-    {
-      "id": 1570282,
-      "title": "我是春菜爱",
-      "type": "movie",
-      "genreTitle": "剧情•音乐",
-      "rating": 6.0,
-      "release_date": "2026-02-10",
-      "overview": "改编自日本传奇跨性别艺人春菜爱的真实经历，讲述其波澜壮阔的前半生。少年贤示自幼饱受性别认同的困扰，即便面对社会偏见与孤立，他仍坚守梦想，渴望成为像松田圣子般闪耀的偶像。在夜总会找到归属感后，贤示因缘际会遇见能改变命运的医生和田耕治，两人生命交会间的温暖与理解，成为彼此追寻真实自我的力量。最终在舞台上，他不再是谁的影子，而是完整的自己：春菜爱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dqMgB4z8oxUDACfCuRcwUlKauoh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/158huo45QRowqPvw0aN6mXOsKZi.jpg"
-    },
-    {
-      "id": 283370,
-      "title": "极速山谷",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 7.5,
-      "release_date": "2026-02-10",
-      "overview": "阿图罗、埃琳娜和布鲁几乎失去了一切，但有一件事依然让他们充满热情：对汽车和肾上腺素的热爱。埃琳娜是迪奥尼西家族的年轻成员，这个家族拥有一支著名的赛车队。如今，家族企业落入了她哥哥的手中，她必须重新夺回家族企业的控制权。为此，她聘请了布​​鲁——一个年轻气盛、对速度有着致命迷恋的年轻人——以及阿图罗——一个曾经辉煌但如今已失势的著名车手——来训练她。他们每个人都有理由比其他人跑得更快。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5hXrKfQmzglWMIkFUA2K0MeSjNl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zyMMXRpCZoMLYIret8seCZyIlr6.jpg"
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 7.2,
+      "release_date": "2026-02-11",
+      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
       "id": 1084242,
@@ -178,15 +167,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
-      "id": 1297842,
-      "title": "奇迹梦之队",
+      "id": 1570282,
+      "title": "我是春菜爱",
       "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 7.2,
-      "release_date": "2026-02-11",
-      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+      "genreTitle": "剧情•音乐",
+      "rating": 6.0,
+      "release_date": "2026-02-10",
+      "overview": "改编自日本传奇跨性别艺人春菜爱的真实经历，讲述其波澜壮阔的前半生。少年贤示自幼饱受性别认同的困扰，即便面对社会偏见与孤立，他仍坚守梦想，渴望成为像松田圣子般闪耀的偶像。在夜总会找到归属感后，贤示因缘际会遇见能改变命运的医生和田耕治，两人生命交会间的温暖与理解，成为彼此追寻真实自我的力量。最终在舞台上，他不再是谁的影子，而是完整的自己：春菜爱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dqMgB4z8oxUDACfCuRcwUlKauoh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/158huo45QRowqPvw0aN6mXOsKZi.jpg"
+    },
+    {
+      "id": 1159559,
+      "title": "惊声尖叫7",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 0.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ytmQOsyYNypGDJCkTJ2TPP3Jc0u.jpg"
     },
     {
       "id": 680493,
@@ -200,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
     },
     {
-      "id": 1323625,
-      "title": "夜间巡逻",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 3.4,
-      "release_date": "2026-01-16",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/rNqLzACU9ez2ehDalTFDPjZiC4G.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jPwUCOYbzKmksMYBBAn0cIN7Zzv.jpg"
+      "id": 283370,
+      "title": "极速山谷",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 7.5,
+      "release_date": "2026-02-10",
+      "overview": "阿图罗、埃琳娜和布鲁几乎失去了一切，但有一件事依然让他们充满热情：对汽车和肾上腺素的热爱。埃琳娜是迪奥尼西家族的年轻成员，这个家族拥有一支著名的赛车队。如今，家族企业落入了她哥哥的手中，她必须重新夺回家族企业的控制权。为此，她聘请了布​​鲁——一个年轻气盛、对速度有着致命迷恋的年轻人——以及阿图罗——一个曾经辉煌但如今已失势的著名车手——来训练她。他们每个人都有理由比其他人跑得更快。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5hXrKfQmzglWMIkFUA2K0MeSjNl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zyMMXRpCZoMLYIret8seCZyIlr6.jpg"
     },
     {
       "id": 198102,
@@ -223,6 +223,17 @@
     }
   ],
   "week_global_all": [
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.7,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
+    },
     {
       "id": 1315303,
       "title": "猩疯血雨",
@@ -244,17 +255,6 @@
       "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/6OKlboUOWgPfzpz9WCCM10dvBDy.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.7,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
       "id": 106379,
@@ -301,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vE77NYLU8ZfsPLLYljaPeBJSKxm.jpg"
     },
     {
+      "id": 1242898,
+      "title": "铁血战士：杀戮之地",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.7,
+      "release_date": "2025-11-05",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bxAm2pC3kuYrAP89K2fnQCpRzzI.jpg"
+    },
+    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -310,17 +321,6 @@
       "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
       "poster_url": "https://image.tmdb.org/t/p/original/px2bHM5OOeJUQjVxPutn0dwmFEj.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
-      "id": 274776,
-      "title": "密屋陌路",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 7.7,
-      "release_date": "2026-02-05",
-      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
     },
     {
       "id": 1548113,
@@ -334,15 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2QZe9XyiNGMCeGNwVI3u4DhTzRf.jpg"
     },
     {
-      "id": 1242898,
-      "title": "铁血战士：杀戮之地",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.8,
-      "release_date": "2025-11-05",
-      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bxAm2pC3kuYrAP89K2fnQCpRzzI.jpg"
+      "id": 274776,
+      "title": "密屋陌路",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-02-05",
+      "overview": "曾是间谍的西蒙与梅蕾特隐居在柏林市中心，经营着一间安全屋。原以为早已消弭的威胁再度现形，两人必须躲开杀手、俄罗斯探员、德国联邦情报局、前任情人，以及一大堆曾被他们辜负的人，同时还得努力维系婚姻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mI9Ly1Ai0TOvHbzbWQc7nbAkWpZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7XPwuIODXGmS1WQ5AZZ1nJp4MYJ.jpg"
     },
     {
       "id": 95479,
@@ -356,15 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+      "id": 1426964,
+      "title": "惊城之乱",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 1.0,
+      "release_date": "2026-02-10",
+      "overview": "这部电影是 Netflix 热门巴西犯罪影集**《黑狱悲歌》**（Brotherhood / Irmandade）的衍生长篇电影。故事背景设定在圣保罗。当犯罪组织首领的女儿被腐败警察绑架后，该组织发起了大规模的报复行动，使整座城市陷入暴力与混乱的边缘。影集版的主角克里斯蒂娜（由 Naruna Costa 饰演）在片中必须在法律边缘挣扎，试图在局势失控前救出侄女。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rBUQeEBFOZQskflRcEPCu9KkGeG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg"
     },
     {
       "id": 240459,
@@ -378,26 +378,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bOwhF7hEz6bjEsCdHZZ0ravX56d.jpg"
     },
     {
-      "id": 280632,
-      "title": "成何体统",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-02-06",
-      "overview": "王翠花本是个平平无奇的社畜，每天在上司和甲方的刁难下挣扎度日，有一天，她意外穿进了穿书文里，成为了注定被迫害而死的炮灰反派庾晚音，出人意料的是，她发现炮灰反派暴君夏侯澹也是穿越而来的，而且穿来之前还是个霸道总裁。 为了生存下来，两人决定联盟，庾晚音站在唯一知晓故事发展的上帝视角，以霸道总裁身份穿来的暴君夏侯澹擅长演戏和应酬，两人联手和原本设定下占尽天时、地利、人和的“天选之女”谢永儿、“天选之子”夏侯泊，双方究竟谁能杀出重围，生存下来呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg"
+      "id": 1297842,
+      "title": "奇迹梦之队",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 7.2,
+      "release_date": "2026-02-11",
+      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
+      "id": 1159559,
+      "title": "惊声尖叫7",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 0.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ytmQOsyYNypGDJCkTJ2TPP3Jc0u.jpg"
     },
     {
       "id": 680493,
@@ -411,37 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qTV8eVFJDeCNx3N1FQ39GbmsnMq.jpg"
     },
     {
-      "id": 1426964,
-      "title": "惊城之乱",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 1.0,
-      "release_date": "2026-02-10",
-      "overview": "这部电影是 Netflix 热门巴西犯罪影集**《黑狱悲歌》**（Brotherhood / Irmandade）的衍生长篇电影。故事背景设定在圣保罗。当犯罪组织首领的女儿被腐败警察绑架后，该组织发起了大规模的报复行动，使整座城市陷入暴力与混乱的边缘。影集版的主角克里斯蒂娜（由 Naruna Costa 饰演）在片中必须在法律边缘挣扎，试图在局势失控前救出侄女。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rBUQeEBFOZQskflRcEPCu9KkGeG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg"
+      "id": 280632,
+      "title": "成何体统",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 8.0,
+      "release_date": "2026-02-06",
+      "overview": "王翠花本是个平平无奇的社畜，每天在上司和甲方的刁难下挣扎度日，有一天，她意外穿进了穿书文里，成为了注定被迫害而死的炮灰反派庾晚音，出人意料的是，她发现炮灰反派暴君夏侯澹也是穿越而来的，而且穿来之前还是个霸道总裁。 为了生存下来，两人决定联盟，庾晚音站在唯一知晓故事发展的上帝视角，以霸道总裁身份穿来的暴君夏侯澹擅长演戏和应酬，两人联手和原本设定下占尽天时、地利、人和的“天选之女”谢永儿、“天选之子”夏侯泊，双方究竟谁能杀出重围，生存下来呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/sgVBl9UD2s8GZDBia65WFkIViso.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nz6Pg1RKfTrcw6ddPXCvqZM2M5p.jpg"
     },
     {
-      "id": 1168190,
-      "title": "特工迷阵",
+      "id": 1171145,
+      "title": "洛杉矶劫案",
       "type": "movie",
-      "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-01-28",
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8k7IjXWuG9ULOHGVxvByPAT4Gi.jpg"
+      "genreTitle": "犯罪•惊悚",
+      "rating": 9.7,
+      "release_date": "2026-02-11",
+      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/WzjHfquVW0bKeWn0XSvwrf4Ac5.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 0.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ytmQOsyYNypGDJCkTJ2TPP3Jc0u.jpg"
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     }
   ],
   "popular_movies": [
@@ -472,7 +472,7 @@
       "title": "特工迷阵",
       "type": "movie",
       "genreTitle": "动作•喜剧•犯罪",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-01-28",
       "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aq2k7ZzKSYBZDGhFsTrCXOOvqEY.jpg",
@@ -549,7 +549,7 @@
       "title": "铁血战士：杀戮之地",
       "type": "movie",
       "genreTitle": "动作•科幻•冒险",
-      "rating": 7.8,
+      "rating": 7.7,
       "release_date": "2025-11-07",
       "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
       "poster_url": "https://image.tmdb.org/t/p/original/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
