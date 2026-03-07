@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07 16:14:36",
+  "last_updated": "2026-03-07 17:16:32",
   "today_global": [
     {
       "id": 1265609,
@@ -17,7 +17,7 @@
       "title": "绿液惊魂",
       "type": "movie",
       "genreTitle": "喜剧•恐怖•科幻",
-      "rating": 6.4,
+      "rating": 6.5,
       "release_date": "2026-01-29",
       "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
       "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
     },
     {
-      "id": 285739,
-      "title": "高等教欲",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.8,
-      "release_date": "2026-03-05",
-      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fqWXGP79tEMAyLKW0wkJLbKSP61.jpg"
-    },
-    {
       "id": 1159559,
       "title": "惊声尖叫7",
       "type": "movie",
@@ -132,6 +121,17 @@
       "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
       "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
+    },
+    {
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
     },
     {
       "id": 209867,
@@ -145,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
+      "id": 285739,
+      "title": "高等教欲",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.8,
+      "release_date": "2026-03-05",
+      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fqWXGP79tEMAyLKW0wkJLbKSP61.jpg"
     },
     {
       "id": 250307,
@@ -204,22 +204,22 @@
       "title": "悬崖绝壁",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-02-17",
       "overview": "当偏远孤岛上的平静生活被复仇归来的前船长打破，这位技艺高超的前海盗被迫直面血腥过往，动用一切手段，在无情的围攻中拯救家人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5ZVaW8ae72eaeYbnM4lBaewwdma.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ii27sr6Swm1LTBltMnKr1nAjwSr.jpg"
     },
     {
-      "id": 1290821,
-      "title": "庇护之地",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-01-28",
-      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "poster_url": "https://image.tmdb.org/t/p/original/buWK1jAS0lrpzGQuqDWl3GHVJdt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg"
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     }
   ],
   "week_global_all": [
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 6.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
-    },
-    {
       "id": 1159831,
       "title": "暗黑新娘！",
       "type": "movie",
@@ -279,11 +268,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpkHzHjUeaV4C9KnmBnOr3v7Fqu.jpg"
     },
     {
+      "id": 1159559,
+      "title": "惊声尖叫7",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
+    },
+    {
       "id": 799882,
       "title": "悬崖绝壁",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-02-17",
       "overview": "当偏远孤岛上的平静生活被复仇归来的前船长打破，这位技艺高超的前海盗被迫直面血腥过往，动用一切手段，在无情的围攻中拯救家人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5ZVaW8ae72eaeYbnM4lBaewwdma.jpg",
@@ -312,6 +312,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
     },
     {
+      "id": 696393,
+      "title": "绿液惊魂",
+      "type": "movie",
+      "genreTitle": "喜剧•恐怖•科幻",
+      "rating": 6.5,
+      "release_date": "2026-01-29",
+      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
+      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
+    },
+    {
       "id": 224372,
       "title": "七王国的骑士",
       "type": "tv",
@@ -321,17 +332,6 @@
       "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
       "poster_url": "https://image.tmdb.org/t/p/original/iCSojpvw1i8gLa3f18bonavB4aJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
-    },
-    {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 290856,
@@ -345,15 +345,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
     },
     {
-      "id": 696393,
-      "title": "绿液惊魂",
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+    },
+    {
+      "id": 1032892,
+      "title": "眨眼之间",
       "type": "movie",
-      "genreTitle": "喜剧•恐怖•科幻",
-      "rating": 6.4,
-      "release_date": "2026-01-29",
-      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
-      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
+      "genreTitle": "剧情•科幻",
+      "rating": 4.6,
+      "release_date": "2026-01-26",
+      "overview": "三段跨越数千年的故事线交织交汇，映照出希望、联结与生命轮回的主题。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vB10Ms4HnHKvz9xNgNUD0GmNGNS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eLxQzTCF96meQ20KYHFBjBlu7ak.jpg"
     },
     {
       "id": 1290821,
@@ -367,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg"
     },
     {
-      "id": 1032892,
-      "title": "眨眼之间",
-      "type": "movie",
-      "genreTitle": "剧情•科幻",
-      "rating": 4.6,
-      "release_date": "2026-01-26",
-      "overview": "三段跨越数千年的故事线交织交汇，映照出希望、联结与生命轮回的主题。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vB10Ms4HnHKvz9xNgNUD0GmNGNS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eLxQzTCF96meQ20KYHFBjBlu7ak.jpg"
+      "id": 295778,
+      "title": "实习医生风云",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 8.0,
+      "release_date": "2026-02-25",
+      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cIXsk3TP3MjRYAo0FpEqvGrPiGM.jpg"
     },
     {
       "id": 858024,
@@ -400,17 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gZRVtEWGdBSa1Sx9yH2OXXX6pyp.jpg"
     },
     {
-      "id": 295778,
-      "title": "实习医生风云",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.0,
-      "release_date": "2026-02-25",
-      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cIXsk3TP3MjRYAo0FpEqvGrPiGM.jpg"
-    },
-    {
       "id": 1193501,
       "title": "索命哨",
       "type": "movie",
@@ -422,26 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aup7ORewztRcPiJbFKRlJpHwlVv.jpg"
     },
     {
-      "id": 91239,
-      "title": "布里杰顿家族",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2020-12-25",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5ciaZYP4vucslEYMjhgzxj0fQ45.jpg"
+      "id": 1368166,
+      "title": "家弑服务",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑•惊悚",
+      "rating": 7.3,
+      "release_date": "2025-12-18",
+      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
     },
     {
-      "id": 1236153,
-      "title": "极限审判",
-      "type": "movie",
-      "genreTitle": "科幻•动作•惊悚",
-      "rating": 7.1,
-      "release_date": "2026-01-20",
-      "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fq2AqiarysK2Swl7SUQxVMyofh2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pdJEfQdmo6PUg7jMARncDhX33f5.jpg"
+      "id": 250307,
+      "title": "匹兹堡医护前线",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     }
   ],
   "popular_movies": [
@@ -453,7 +453,7 @@
       "rating": 6.8,
       "release_date": "2026-01-30",
       "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "poster_url": "https://image.tmdb.org/t/p/original/7Dmc7bnUpiHsGbwLvyO0iu4gD82.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/buWK1jAS0lrpzGQuqDWl3GHVJdt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg"
     },
     {
@@ -472,7 +472,7 @@
       "title": "悬崖绝壁",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-02-17",
       "overview": "当偏远孤岛上的平静生活被复仇归来的前船长打破，这位技艺高超的前海盗被迫直面血腥过往，动用一切手段，在无情的围攻中拯救家人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5ZVaW8ae72eaeYbnM4lBaewwdma.jpg",
@@ -490,11 +490,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tvpxvv1JYtmEwrOC2S6DCNLw3k7.jpg"
     },
     {
+      "id": 1265609,
+      "title": "侵略机器",
+      "type": "movie",
+      "genreTitle": "动作•科幻•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-02-12",
+      "overview": "在陆军游骑兵训练的最后一项艰苦任务中，一名战斗工兵必须带领他的部队对抗来自异界的巨型杀戮机器。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7SAGbtLv6VsS2yW7kY2IOsKrCfa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nSK1cQXskN6UPNXZfGFhlnbaadt.jpg"
+    },
+    {
       "id": 1159559,
       "title": "惊声尖叫7",
       "type": "movie",
       "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 5.9,
+      "rating": 6.0,
       "release_date": "2026-02-25",
       "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
       "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
@@ -598,17 +609,6 @@
       "overview": "在不久的将来，巴黎被划分为三个区域，这些区域将不同社会阶层分隔开来，而且没有人能够逃脱ALMA——一个彻底改变了执法方式的预测性人工智能。当ALMA的创造者被暗杀后，顶级特工萨莉亚和厌倦工作的警察泽姆被迫联手侦破这起谋杀案，而这起案件可能会揭露他们所效力的这个系统的黑暗秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/n7k4FHG7vSd8KeDNBjleOwOGjpr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zcJt8P2QXeuGkti2wfCj7FCt2rP.jpg"
-    },
-    {
-      "id": 1419406,
-      "title": "捕风追影",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 7.2,
-      "release_date": "2025-08-16",
-      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕……",
-      "poster_url": "https://image.tmdb.org/t/p/original/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5htusrnQhBC4k0kpJYcuVMKz3o5.jpg"
     }
   ]
 }
