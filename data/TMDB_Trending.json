@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10 05:19:26",
+  "last_updated": "2026-03-10 06:15:09",
   "today_global": [
     {
       "id": 1265609,
@@ -22,6 +22,17 @@
       "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
       "poster_url": "https://image.tmdb.org/t/p/original/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
     },
     {
       "id": 696393,
@@ -90,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pnyN0ICk4bfoWfNi8WzIjb1hmYc.jpg"
     },
     {
+      "id": 313298,
+      "title": "恐龙时代：你不知道的故事",
+      "type": "tv",
+      "genreTitle": "纪录",
+      "rating": 7.4,
+      "release_date": "2026-03-06",
+      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+    },
+    {
       "id": 1159831,
       "title": "暗黑新娘！",
       "type": "movie",
@@ -101,26 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpkHzHjUeaV4C9KnmBnOr3v7Fqu.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
+      "id": 1159559,
+      "title": "惊声尖叫7",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
-    },
-    {
-      "id": 313298,
-      "title": "恐龙时代：你不知道的故事",
-      "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 7.4,
-      "release_date": "2026-03-06",
-      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
     },
     {
       "id": 201834,
@@ -145,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
+      "id": 858024,
+      "title": "哈姆奈特",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 6.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
+      "genreTitle": "剧情•爱情•历史",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yt9m5CiU2MZkQoNl1kqLPODNR4t.jpg"
     },
     {
       "id": 245927,
@@ -167,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HTS17KHoY2PtD0Jv2yPwhortaR.jpg"
     },
     {
-      "id": 858024,
-      "title": "哈姆奈特",
-      "type": "movie",
-      "genreTitle": "剧情•爱情•历史",
-      "rating": 7.7,
-      "release_date": "2025-11-26",
-      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yt9m5CiU2MZkQoNl1kqLPODNR4t.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -189,15 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
+      "id": 1010755,
+      "title": "陌生人：第三章",
       "type": "movie",
-      "genreTitle": "科幻•冒险•悬疑",
-      "rating": 0.0,
-      "release_date": "2026-03-13",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/RQqSXCtSxP1tUH9plhW06gNdHy.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.9,
+      "release_date": "2026-02-05",
+      "overview": "在系列终章中，幸存者们将面对蒙面陌生人的新威胁。随着秘密浮出水面，现实与危险的界限逐渐模糊，他们的生存之战也愈发凶险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4WPZSae0qJhiTI1jilVMCzlIEVL.jpg"
+    },
+    {
+      "id": 1193501,
+      "title": "索命哨",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.0,
+      "release_date": "2026-01-20",
+      "overview": "　　一群问题少年意外发现一枚阿兹特克死亡哨，吹响后竟招来索命恶灵，死亡接踵而至。众人被迫追查神器起源，拼死终结这场由自己开启的恐怖浩劫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dTVauJYgoPBPBJKQOGEsMO9VUOY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aup7ORewztRcPiJbFKRlJpHwlVv.jpg"
     },
     {
       "id": 281016,
@@ -209,17 +220,6 @@
       "overview": "徐未来被工作压得喘不过气，谈恋爱？根本没空去想。一项虚拟约会服务却意外唤醒她的恋爱细胞，也许这就是真爱的开始。",
       "poster_url": "https://image.tmdb.org/t/p/original/eKXpgaizikUIRuHs84THxoLvpCK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iBzN3o7zNmnv0V0hQAALaFm9SVE.jpg"
-    },
-    {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     }
   ],
   "week_global_all": [
@@ -246,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vkZAH5GKpvi4PPfljQs3DFkdilg.jpg"
     },
     {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
+    },
+    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -268,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
     },
     {
+      "id": 254953,
+      "title": "公鸡",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 8.1,
+      "release_date": "2026-03-08",
+      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
+    },
+    {
       "id": 1159831,
       "title": "暗黑新娘！",
       "type": "movie",
@@ -288,17 +310,6 @@
       "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
       "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 254953,
-      "title": "公鸡",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.1,
-      "release_date": "2026-03-08",
-      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
     },
     {
       "id": 1159559,
@@ -334,26 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
+      "id": 1193501,
+      "title": "索命哨",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
-    },
-    {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.0,
+      "release_date": "2026-01-20",
+      "overview": "　　一群问题少年意外发现一枚阿兹特克死亡哨，吹响后竟招来索命恶灵，死亡接踵而至。众人被迫追查神器起源，拼死终结这场由自己开启的恐怖浩劫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dTVauJYgoPBPBJKQOGEsMO9VUOY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aup7ORewztRcPiJbFKRlJpHwlVv.jpg"
     },
     {
       "id": 858024,
@@ -367,26 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yt9m5CiU2MZkQoNl1kqLPODNR4t.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
-      "poster_url": "https://image.tmdb.org/t/p/original/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
-    },
-    {
-      "id": 1193501,
-      "title": "索命哨",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 6.0,
-      "release_date": "2026-01-20",
-      "overview": "　　一群问题少年意外发现一枚阿兹特克死亡哨，吹响后竟招来索命恶灵，死亡接踵而至。众人被迫追查神器起源，拼死终结这场由自己开启的恐怖浩劫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dTVauJYgoPBPBJKQOGEsMO9VUOY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aup7ORewztRcPiJbFKRlJpHwlVv.jpg"
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
     },
     {
       "id": 111110,
@@ -400,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
     },
     {
-      "id": 285739,
-      "title": "高等教欲",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.6,
-      "release_date": "2026-03-05",
-      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ow0wy3WNnnFEEcBLqg1qPNv4FIP.jpg"
-    },
-    {
       "id": 313298,
       "title": "恐龙时代：你不知道的故事",
       "type": "tv",
@@ -422,15 +400,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
+      "poster_url": "https://image.tmdb.org/t/p/original/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
+    },
+    {
+      "id": 285739,
+      "title": "高等教欲",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+      "genreTitle": "剧情",
+      "rating": 7.6,
+      "release_date": "2026-03-05",
+      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ow0wy3WNnnFEEcBLqg1qPNv4FIP.jpg"
+    },
+    {
+      "id": 1290821,
+      "title": "庇护之地",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-01-28",
+      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "poster_url": "https://image.tmdb.org/t/p/original/8ZrDrwXyqsntlSS564yGNhBe75f.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg"
     },
     {
       "id": 224372,
