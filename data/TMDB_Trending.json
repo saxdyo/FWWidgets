@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09 11:30:40",
+  "last_updated": "2026-03-09 13:14:00",
   "today_global": [
     {
       "id": 1265609,
@@ -35,26 +35,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 313298,
-      "title": "恐龙时代：你不知道的故事",
+      "id": 254953,
+      "title": "雄鸡生活",
       "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 7.6,
-      "release_date": "2026-03-06",
-      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+      "genreTitle": "喜剧",
+      "rating": 10.0,
+      "release_date": "2026-03-08",
+      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
     },
     {
       "id": 1159831,
       "title": "暗黑新娘！",
       "type": "movie",
       "genreTitle": "科幻•恐怖•喜剧",
-      "rating": 6.5,
+      "rating": 6.4,
       "release_date": "2026-03-04",
       "overview": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
       "poster_url": "https://image.tmdb.org/t/p/original/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpkHzHjUeaV4C9KnmBnOr3v7Fqu.jpg"
+    },
+    {
+      "id": 313298,
+      "title": "恐龙时代：你不知道的故事",
+      "type": "tv",
+      "genreTitle": "纪录",
+      "rating": 7.4,
+      "release_date": "2026-03-06",
+      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
     },
     {
       "id": 310935,
@@ -101,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iBzN3o7zNmnv0V0hQAALaFm9SVE.jpg"
     },
     {
-      "id": 254953,
-      "title": "雄鸡生活",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 10.0,
-      "release_date": "2026-03-08",
-      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
-    },
-    {
       "id": 201834,
       "title": "泰迪熊",
       "type": "tv",
@@ -145,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2025-11-26",
-      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
-      "poster_url": "https://image.tmdb.org/t/p/original/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
+      "id": 279388,
+      "title": "逐玉",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 5.0,
+      "release_date": "2026-03-06",
+      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
     },
     {
       "id": 858024,
@@ -178,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/djU90jd2VEwJN4YvZJpO8Y6eRS1.jpg"
     },
     {
-      "id": 90937,
-      "title": "动物狂想曲",
-      "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.4,
-      "release_date": "2019-10-10",
-      "overview": "在全宿舍制的切里顿学园里，羊驼提姆被什么人吃了。在肉食兽和草食兽共存的世界中，这是最大的禁忌，也是无法超越的种族的墙壁……这是大灰狼雷格西（17岁）和各种各样的动物交织在一起，激烈的、悲伤的青春群像剧！！",
-      "poster_url": "https://image.tmdb.org/t/p/original/nBwPf1uxRy7JQ1yftEv1wMnpBLK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iKUeDhdA0aORd9LOxpxtIawO7dX.jpg"
-    },
-    {
       "id": 1317288,
       "title": "至尊马蒂",
       "type": "movie",
@@ -200,26 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
-      "id": 1010755,
-      "title": "陌生人：第三章",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.9,
-      "release_date": "2026-02-05",
-      "overview": "在系列终章中，幸存者们将面对蒙面陌生人的新威胁。随着秘密浮出水面，现实与危险的界限逐渐模糊，他们的生存之战也愈发凶险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4WPZSae0qJhiTI1jilVMCzlIEVL.jpg"
+      "id": 90937,
+      "title": "动物狂想曲",
+      "type": "tv",
+      "genreTitle": "动画•剧情•悬疑",
+      "rating": 8.4,
+      "release_date": "2019-10-10",
+      "overview": "在全宿舍制的切里顿学园里，羊驼提姆被什么人吃了。在肉食兽和草食兽共存的世界中，这是最大的禁忌，也是无法超越的种族的墙壁……这是大灰狼雷格西（17岁）和各种各样的动物交织在一起，激烈的、悲伤的青春群像剧！！",
+      "poster_url": "https://image.tmdb.org/t/p/original/nBwPf1uxRy7JQ1yftEv1wMnpBLK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iKUeDhdA0aORd9LOxpxtIawO7dX.jpg"
     },
     {
-      "id": 1368166,
-      "title": "家弑服务",
+      "id": 1084242,
+      "title": "疯狂动物城2",
       "type": "movie",
-      "genreTitle": "剧情•悬疑•惊悚",
-      "rating": 7.3,
-      "release_date": "2025-12-18",
-      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
+      "poster_url": "https://image.tmdb.org/t/p/original/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
+    },
+    {
+      "id": 285739,
+      "title": "高等教欲",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.7,
+      "release_date": "2026-03-05",
+      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ow0wy3WNnnFEEcBLqg1qPNv4FIP.jpg"
     }
   ],
   "week_global_all": [
@@ -261,7 +261,7 @@
       "title": "暗黑新娘！",
       "type": "movie",
       "genreTitle": "科幻•恐怖•喜剧",
-      "rating": 6.5,
+      "rating": 6.4,
       "release_date": "2026-03-04",
       "overview": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
       "poster_url": "https://image.tmdb.org/t/p/original/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
@@ -290,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
+      "id": 254953,
+      "title": "雄鸡生活",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+      "genreTitle": "喜剧",
+      "rating": 5.5,
+      "release_date": "2026-03-08",
+      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
     },
     {
       "id": 201834,
@@ -323,26 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iBzN3o7zNmnv0V0hQAALaFm9SVE.jpg"
     },
     {
-      "id": 290856,
-      "title": "法警小队",
+      "id": 95479,
+      "title": "咒术回战",
       "type": "tv",
-      "genreTitle": "剧情•西部",
-      "rating": 8.1,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 254953,
-      "title": "雄鸡生活",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 10.0,
-      "release_date": "2026-03-08",
-      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mhZAT8ktiNi7YwuL50kmumsau69.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
       "id": 209867,
@@ -356,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 313298,
-      "title": "恐龙时代：你不知道的故事",
+      "id": 290856,
+      "title": "法警小队",
       "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 7.6,
-      "release_date": "2026-03-06",
-      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+      "genreTitle": "剧情•西部",
+      "rating": 8.1,
+      "release_date": "2026-03-01",
+      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
     },
     {
       "id": 858024,
@@ -378,6 +367,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
+      "id": 313298,
+      "title": "恐龙时代：你不知道的故事",
+      "type": "tv",
+      "genreTitle": "纪录",
+      "rating": 7.4,
+      "release_date": "2026-03-06",
+      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+    },
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.5,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
+    },
+    {
       "id": 799882,
       "title": "悬崖绝壁",
       "type": "movie",
@@ -387,6 +398,17 @@
       "overview": "当偏远孤岛上的平静生活被复仇归来的前船长打破，这位技艺高超的前海盗被迫直面血腥过往，动用一切手段，在无情的围攻中拯救家人。",
       "poster_url": "https://image.tmdb.org/t/p/original/5ZVaW8ae72eaeYbnM4lBaewwdma.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ii27sr6Swm1LTBltMnKr1nAjwSr.jpg"
+    },
+    {
+      "id": 224372,
+      "title": "七王国的骑士",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.4,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iCSojpvw1i8gLa3f18bonavB4aJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     },
     {
       "id": 1193501,
@@ -411,37 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ow0wy3WNnnFEEcBLqg1qPNv4FIP.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.5,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
-    },
-    {
-      "id": 1368166,
-      "title": "家弑服务",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑•惊悚",
-      "rating": 7.3,
-      "release_date": "2025-12-18",
-      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
-    },
-    {
-      "id": 224372,
-      "title": "七王国的骑士",
+      "id": 279388,
+      "title": "逐玉",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.4,
-      "release_date": "2026-01-18",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iCSojpvw1i8gLa3f18bonavB4aJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
+      "genreTitle": "剧情",
+      "rating": 5.0,
+      "release_date": "2026-03-06",
+      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
     }
   ],
   "popular_movies": [
