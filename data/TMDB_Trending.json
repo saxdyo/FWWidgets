@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11 14:34:42",
+  "last_updated": "2026-03-11 15:34:19",
   "today_global": [
     {
       "id": 111110,
@@ -57,28 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fTG8itSb1a4O2BgUMjXdwO64qTz.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
-    },
-    {
-      "id": 696393,
-      "title": "绿液惊魂",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•喜剧",
-      "rating": 6.5,
-      "release_date": "2026-01-22",
-      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
-      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
-    },
-    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -88,17 +66,6 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.5,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
       "id": 687163,
@@ -156,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpkHzHjUeaV4C9KnmBnOr3v7Fqu.jpg"
     },
     {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
+    },
+    {
       "id": 254953,
       "title": "公鸡",
       "type": "tv",
@@ -165,28 +143,6 @@
       "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
       "poster_url": "https://image.tmdb.org/t/p/original/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/t4ZoVsFgIT67vfbmMKPjWjdIDMj.jpg"
-    },
-    {
-      "id": 290856,
-      "title": "法警小队",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 79744,
-      "title": "菜鸟老警",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.5,
-      "release_date": "2018-10-16",
-      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
     },
     {
       "id": 255661,
@@ -200,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vkZAH5GKpvi4PPfljQs3DFkdilg.jpg"
     },
     {
-      "id": 313298,
-      "title": "恐龙时代：你不知道的故事",
-      "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 7.6,
-      "release_date": "2026-03-06",
-      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+      "id": 696393,
+      "title": "绿液惊魂",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•喜剧",
+      "rating": 6.5,
+      "release_date": "2026-01-22",
+      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
+      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
     },
     {
       "id": 37854,
@@ -220,6 +176,50 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 79744,
+      "title": "菜鸟老警",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
+    },
+    {
+      "id": 313298,
+      "title": "恐龙时代：你不知道的故事",
+      "type": "tv",
+      "genreTitle": "纪录",
+      "rating": 7.6,
+      "release_date": "2026-03-06",
+      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
+    },
+    {
+      "id": 201834,
+      "title": "泰迪熊",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 7.9,
+      "release_date": "2024-01-11",
+      "overview": "泰迪熊声名大噪的时期已经过去，现在他和好基友、16岁的约翰·贝内特住在一起，后者来自波士顿的工薪家庭，和父母以及堂姐住一起。泰迪熊对约翰的影响可能不是最好的，但愿意冒着生命危险去帮助他的朋友和家人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7I1qtZbsU4Tuklef5SHjmFjrHEP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9hQoUrdMp11LxMPz78tyuhFDUYw.jpg"
+    },
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.5,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     }
   ],
   "week_global_all": [
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
     },
     {
-      "id": 696393,
-      "title": "绿液惊魂",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•喜剧",
-      "rating": 6.5,
-      "release_date": "2026-01-22",
-      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
-      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
-    },
-    {
       "id": 255661,
       "title": "青年夏洛克",
       "type": "tv",
@@ -266,17 +255,6 @@
       "overview": "这部玩世不恭、动作场面精彩的推理影集由盖瑞奇执导，讲述夏洛克福尔摩斯的传奇起源，描绘这位著名侦探最早期的冒险故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/beWoUmSdD8BHGmtodOoxVYQO6lG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vkZAH5GKpvi4PPfljQs3DFkdilg.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 7.5,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
       "id": 1327819,
@@ -301,26 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpkHzHjUeaV4C9KnmBnOr3v7Fqu.jpg"
     },
     {
-      "id": 290856,
-      "title": "法警小队",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
+      "id": 696393,
+      "title": "绿液惊魂",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
+      "genreTitle": "恐怖•科幻•喜剧",
+      "rating": 6.5,
+      "release_date": "2026-01-22",
+      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
+      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dJKARKq2fLSpjNtvGTSkCQtzq7Y.jpg"
     },
     {
       "id": 1159559,
@@ -334,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
     },
     {
-      "id": 285739,
-      "title": "高等教欲",
+      "id": 201834,
+      "title": "泰迪熊",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.5,
-      "release_date": "2026-03-05",
-      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ow0wy3WNnnFEEcBLqg1qPNv4FIP.jpg"
+      "genreTitle": "喜剧",
+      "rating": 7.9,
+      "release_date": "2024-01-11",
+      "overview": "泰迪熊声名大噪的时期已经过去，现在他和好基友、16岁的约翰·贝内特住在一起，后者来自波士顿的工薪家庭，和父母以及堂姐住一起。泰迪熊对约翰的影响可能不是最好的，但愿意冒着生命危险去帮助他的朋友和家人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7I1qtZbsU4Tuklef5SHjmFjrHEP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9hQoUrdMp11LxMPz78tyuhFDUYw.jpg"
     },
     {
       "id": 313298,
@@ -356,39 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hrwlbfZDPv151tOtG7J1kTC7BWG.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
       "id": 281016,
       "title": "订阅男友",
       "type": "tv",
@@ -400,26 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iBzN3o7zNmnv0V0hQAALaFm9SVE.jpg"
     },
     {
-      "id": 201834,
-      "title": "泰迪熊",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 7.9,
-      "release_date": "2024-01-11",
-      "overview": "泰迪熊声名大噪的时期已经过去，现在他和好基友、16岁的约翰·贝内特住在一起，后者来自波士顿的工薪家庭，和父母以及堂姐住一起。泰迪熊对约翰的影响可能不是最好的，但愿意冒着生命危险去帮助他的朋友和家人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7I1qtZbsU4Tuklef5SHjmFjrHEP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9hQoUrdMp11LxMPz78tyuhFDUYw.jpg"
-    },
-    {
-      "id": 1290821,
-      "title": "庇护之地",
+      "id": 1317288,
+      "title": "至尊马蒂",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-01-28",
-      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "poster_url": "https://image.tmdb.org/t/p/original/8ZrDrwXyqsntlSS564yGNhBe75f.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg"
+      "genreTitle": "剧情",
+      "rating": 7.5,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
       "id": 858024,
@@ -433,6 +356,61 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
     },
     {
+      "id": 290856,
+      "title": "法警小队",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.1,
+      "release_date": "2026-03-01",
+      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
+    },
+    {
+      "id": 279388,
+      "title": "逐玉",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 6.8,
+      "release_date": "2026-03-06",
+      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
+    },
+    {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
+      "poster_url": "https://image.tmdb.org/t/p/original/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
+    },
+    {
+      "id": 285739,
+      "title": "高等教欲",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.5,
+      "release_date": "2026-03-05",
+      "overview": "满怀热情但行事鲁莽的教授生活开始混乱失序，她发现自己对极具吸引力的新同事产生了危险迷恋。界线逐渐模糊，秘密即将引爆，她愿意赌上一切，让最见不得人的幻想成真。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nZ8K9w03BqrFvdsGkKsmKtCWMoR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ow0wy3WNnnFEEcBLqg1qPNv4FIP.jpg"
+    },
+    {
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
+    },
+    {
       "id": 254953,
       "title": "公鸡",
       "type": "tv",
@@ -442,6 +420,28 @@
       "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
       "poster_url": "https://image.tmdb.org/t/p/original/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/t4ZoVsFgIT67vfbmMKPjWjdIDMj.jpg"
+    },
+    {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 224372,
+      "title": "七王国的骑士",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.5,
+      "release_date": "2026-01-18",
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iCSojpvw1i8gLa3f18bonavB4aJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ckZ0ytHQnMtH5AKuVHWMNNPh6FW.jpg"
     }
   ],
   "popular_movies": [
