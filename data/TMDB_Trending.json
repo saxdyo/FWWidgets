@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11 23:34:44",
+  "last_updated": "2026-03-12 00:36:12",
   "today_global": [
     {
       "id": 111110,
@@ -17,7 +17,7 @@
       "title": "首席女法医",
       "type": "tv",
       "genreTitle": "犯罪•悬疑•剧情",
-      "rating": 7.2,
+      "rating": 7.6,
       "release_date": "2026-03-11",
       "overview": "斯卡佩塔从1990年代担任首席法医，到如今返回故乡重拾旧职并调查一起骇人听闻的谋杀案的历程。斯卡佩塔在追求正义的过程中，必须处理错综复杂的人际关系，包括与妹妹多萝西·法里内利之间的紧张关系，还要面对由来已久的职业和个人恩怨，以及那些可能摧毁她所有努力的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/igwheip41z1CG3m4vMPu6Ip6rZV.jpg",
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cddQjroJpbEWJ2pWffa1W34UcyT.jpg"
     },
     {
-      "id": 1401281,
-      "title": "安·李的遗嘱",
-      "type": "movie",
-      "genreTitle": "历史•剧情•音乐",
-      "rating": 7.2,
-      "release_date": "2025-12-25",
-      "overview": "这部电影设定在18世纪的英格兰，灵感来源于真实事件，是一部关于宗教领袖安·李（Ann Lee）的“史诗寓言”，安·李是谢克教运动的创始人，且被她的追随者宣称为“女性基督”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hBGg3IGRM7LM6ydMmDrl8mEx33Y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jZNR5onRZijwyGr5iWbs3J9QcYr.jpg"
-    },
-    {
       "id": 1084242,
       "title": "疯狂动物城2",
       "type": "movie",
@@ -68,15 +57,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
     },
     {
-      "id": 1327819,
-      "title": "河狸变身计划",
+      "id": 1401281,
+      "title": "安·李的遗嘱",
       "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.7,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+      "genreTitle": "历史•剧情•音乐",
+      "rating": 7.2,
+      "release_date": "2025-12-25",
+      "overview": "这部电影设定在18世纪的英格兰，灵感来源于真实事件，是一部关于宗教领袖安·李（Ann Lee）的“史诗寓言”，安·李是谢克教运动的创始人，且被她的追随者宣称为“女性基督”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hBGg3IGRM7LM6ydMmDrl8mEx33Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jZNR5onRZijwyGr5iWbs3J9QcYr.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•悬疑",
+      "rating": 9.4,
+      "release_date": "2026-03-13",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/RQqSXCtSxP1tUH9plhW06gNdHy.jpg"
     },
     {
       "id": 1291335,
@@ -90,26 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fTG8itSb1a4O2BgUMjXdwO64qTz.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
+      "id": 1327819,
+      "title": "河狸变身计划",
       "type": "movie",
-      "genreTitle": "科幻•冒险•悬疑",
-      "rating": 9.2,
-      "release_date": "2026-03-13",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/RQqSXCtSxP1tUH9plhW06gNdHy.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
+      "genreTitle": "动画•家庭•科幻",
+      "rating": 7.7,
+      "release_date": "2026-03-04",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 1171145,
@@ -123,11 +112,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/WzjHfquVW0bKeWn0XSvwrf4Ac5.jpg"
     },
     {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
+    },
+    {
       "id": 279388,
       "title": "逐玉",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 6.8,
+      "rating": 7.1,
       "release_date": "2026-03-06",
       "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
       "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
@@ -156,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 858024,
       "title": "哈姆奈特",
       "type": "movie",
@@ -176,6 +165,17 @@
       "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
       "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 254953,
@@ -189,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/t4ZoVsFgIT67vfbmMKPjWjdIDMj.jpg"
     },
     {
-      "id": 79744,
-      "title": "菜鸟老警",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.5,
-      "release_date": "2018-10-16",
-      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
-    },
-    {
       "id": 1633264,
       "title": "路易斯·泰鲁：解构男性圈",
       "type": "movie",
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qbwyBE6l35ccE5BQpfQ61taFcs1.jpg"
     },
     {
-      "id": 696393,
-      "title": "绿液惊魂",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•喜剧",
-      "rating": 6.5,
-      "release_date": "2026-01-22",
-      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
-      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/c3SYkItGccj0xIYGSwANpSRYyqM.jpg"
+      "id": 255661,
+      "title": "青年夏洛克",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.3,
+      "release_date": "2026-03-04",
+      "overview": "这部玩世不恭、动作场面精彩的推理影集由盖瑞奇执导，讲述夏洛克福尔摩斯的传奇起源，描绘这位著名侦探最早期的冒险故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/beWoUmSdD8BHGmtodOoxVYQO6lG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vkZAH5GKpvi4PPfljQs3DFkdilg.jpg"
+    },
+    {
+      "id": 79744,
+      "title": "菜鸟老警",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
     }
   ],
   "week_global_all": [
@@ -250,7 +250,7 @@
       "title": "首席女法医",
       "type": "tv",
       "genreTitle": "犯罪•悬疑•剧情",
-      "rating": 7.2,
+      "rating": 7.6,
       "release_date": "2026-03-11",
       "overview": "斯卡佩塔从1990年代担任首席法医，到如今返回故乡重拾旧职并调查一起骇人听闻的谋杀案的历程。斯卡佩塔在追求正义的过程中，必须处理错综复杂的人际关系，包括与妹妹多萝西·法里内利之间的紧张关系，还要面对由来已久的职业和个人恩怨，以及那些可能摧毁她所有努力的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/igwheip41z1CG3m4vMPu6Ip6rZV.jpg",
@@ -301,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpkHzHjUeaV4C9KnmBnOr3v7Fqu.jpg"
     },
     {
-      "id": 696393,
-      "title": "绿液惊魂",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•喜剧",
-      "rating": 6.5,
-      "release_date": "2026-01-22",
-      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
-      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/c3SYkItGccj0xIYGSwANpSRYyqM.jpg"
-    },
-    {
       "id": 1317288,
       "title": "至尊马蒂",
       "type": "movie",
@@ -321,6 +310,39 @@
       "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•悬疑",
+      "rating": 9.4,
+      "release_date": "2026-03-13",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/RQqSXCtSxP1tUH9plhW06gNdHy.jpg"
+    },
+    {
+      "id": 696393,
+      "title": "绿液惊魂",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•喜剧",
+      "rating": 6.4,
+      "release_date": "2026-01-22",
+      "overview": "　　两个值守夜班的“倒霉蛋”意外发现了疯狂繁殖的外星寄生真菌，无福消受这顿重口加班餐的二人发出求救信号。退休特工罗伯特被迫再就业，重新上岗拯救即将被真菌腐蚀的世界。他们一边躲避着因寄生而绿液四溅的宿主们，一边和翻涌的肠胃做斗争，在一阵阵爆浆声中大开“惊喜盲盒”。这组画风迥异的“临时战友”能否阻挡这场末日浩劫？谁又能活着走出这个惊魂之夜……",
+      "poster_url": "https://image.tmdb.org/t/p/original/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/c3SYkItGccj0xIYGSwANpSRYyqM.jpg"
+    },
+    {
+      "id": 1119449,
+      "title": "团战之夜",
+      "type": "movie",
+      "genreTitle": "动作•科幻•冒险",
+      "rating": 7.3,
+      "release_date": "2026-02-13",
+      "overview": "　　故事围绕着一个“来自未来的人”展开，他来到洛杉矶的一家小餐馆，在那里他必须招募一群心怀不满的顾客，与他一起完成一个为期一晚、跨越六个街区的任务，以拯救世界免受流氓人工智能的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cddQjroJpbEWJ2pWffa1W34UcyT.jpg"
     },
     {
       "id": 1226863,
@@ -334,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mVCd5I7PanL0bjHjHptLLJbzTHN.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•悬疑",
-      "rating": 9.2,
-      "release_date": "2026-03-13",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/RQqSXCtSxP1tUH9plhW06gNdHy.jpg"
-    },
-    {
       "id": 1159559,
       "title": "惊声尖叫7",
       "type": "movie",
@@ -356,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/84NvVmpk5UDF3c2abkkO7qWAOhi.jpg"
     },
     {
-      "id": 279388,
-      "title": "逐玉",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 6.8,
-      "release_date": "2026-03-06",
-      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
-    },
-    {
       "id": 254953,
       "title": "公鸡",
       "type": "tv",
@@ -376,6 +376,28 @@
       "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
       "poster_url": "https://image.tmdb.org/t/p/original/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/t4ZoVsFgIT67vfbmMKPjWjdIDMj.jpg"
+    },
+    {
+      "id": 858024,
+      "title": "哈姆奈特",
+      "type": "movie",
+      "genreTitle": "剧情•爱情•历史",
+      "rating": 7.7,
+      "release_date": "2025-11-26",
+      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
+    },
+    {
+      "id": 279388,
+      "title": "逐玉",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.1,
+      "release_date": "2026-03-06",
+      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
     },
     {
       "id": 313298,
@@ -400,39 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9hQoUrdMp11LxMPz78tyuhFDUYw.jpg"
     },
     {
-      "id": 858024,
-      "title": "哈姆奈特",
-      "type": "movie",
-      "genreTitle": "剧情•爱情•历史",
-      "rating": 7.7,
-      "release_date": "2025-11-26",
-      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wFBzZYlOZTorw0I4PRfXkjqttKE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/g4oYzlJZMdqtVOCYSkhNjg92rKf.jpg"
-    },
-    {
-      "id": 1119449,
-      "title": "团战之夜",
-      "type": "movie",
-      "genreTitle": "动作•科幻•冒险",
-      "rating": 7.3,
-      "release_date": "2026-02-13",
-      "overview": "　　故事围绕着一个“来自未来的人”展开，他来到洛杉矶的一家小餐馆，在那里他必须招募一群心怀不满的顾客，与他一起完成一个为期一晚、跨越六个街区的任务，以拯救世界免受流氓人工智能的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cddQjroJpbEWJ2pWffa1W34UcyT.jpg"
-    },
-    {
-      "id": 281016,
-      "title": "订阅男友",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy•剧情",
-      "rating": 8.5,
-      "release_date": "2026-03-06",
-      "overview": "徐未来被工作压得喘不过气，谈恋爱？根本没空去想。一项虚拟约会服务却意外唤醒她的恋爱细胞，也许这就是真爱的开始。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eKXpgaizikUIRuHs84THxoLvpCK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iBzN3o7zNmnv0V0hQAALaFm9SVE.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -442,6 +431,17 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     }
   ],
   "popular_movies": [
