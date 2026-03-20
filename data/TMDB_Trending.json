@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20 16:25:58",
+  "last_updated": "2026-03-20 17:27:37",
   "today_global": [
     {
       "id": 45790,
@@ -13,26 +13,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•悬疑",
-      "rating": 8.4,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wLWvHcQz7N13DvSOTV7bHgwGXpT.jpg"
-    },
-    {
       "id": 875828,
       "title": "浴血黑帮：不朽传奇",
       "type": "movie",
       "genreTitle": "犯罪•剧情•战争",
-      "rating": 8.8,
+      "rating": 8.9,
       "release_date": "2026-03-05",
       "overview": "1940年的伯明翰，在第二次世界大战的混乱中，汤米·谢尔比（基里安·墨菲 饰）从自我放逐中回归，直面着迄今为止最具破坏性的清算。家族和国家的未来岌岌可危，汤米必须面对自己心中的恶魔，并选择是直面它还是将其毁灭。",
       "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s00bi9cGGkrMEdJfDGDWeRL0Fi1.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•悬疑",
+      "rating": 8.3,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wLWvHcQz7N13DvSOTV7bHgwGXpT.jpg"
     },
     {
       "id": 1159559,
@@ -55,17 +55,6 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
-      "id": 111110,
-      "title": "ONE PIECE",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "release_date": "2023-08-31",
-      "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
     },
     {
       "id": 95479,
@@ -79,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
+      "id": 111110,
+      "title": "ONE PIECE",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2023-08-31",
+      "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
+    },
+    {
       "id": 292474,
       "title": "放射危机",
       "type": "tv",
@@ -88,17 +88,6 @@
       "overview": "在这部灵感来自真实事件的剧集中，物理学家和医生争分夺秒，试图控制大规模放射性灾难，拯救数千人的生命。",
       "poster_url": "https://image.tmdb.org/t/p/original/m7bGOf2EQKgfM6T0tbR7tTm58Gm.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rUj5iswKGUGdScRF8NMse0EvicK.jpg"
-    },
-    {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.7,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 1582770,
@@ -112,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lJzjeBNdx1jFgLIOXEbJsKvtCnn.jpg"
     },
     {
-      "id": 295778,
-      "title": "实习医生风云",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.0,
-      "release_date": "2026-02-25",
-      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bWvh457POTUPS7SH0DHmHTLnYIF.jpg"
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "动画•家庭•科幻",
+      "rating": 7.7,
+      "release_date": "2026-03-04",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 246246,
@@ -134,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kKep27Lh3Gi78cy0xHGTVsoGsQp.jpg"
     },
     {
-      "id": 1266127,
-      "title": "准备好了没2：我来了",
+      "id": 1314786,
+      "title": "Zeta",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.4,
-      "release_date": "2026-03-19",
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wBbnfw50L08BY7VbsqSmOZT5p1J.jpg"
+      "genreTitle": "剧情•惊悚",
+      "rating": 0.0,
+      "release_date": "2026-03-20",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/aSsHQEMnHyMoJJxXEsKS4v8wsbu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nsuqPeZcXiGTu7ezxuJpy7M6NEk.jpg"
     },
     {
       "id": 225780,
@@ -156,15 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nbTTLP4JWzQ1ZpHmAgf7UgUDZUv.jpg"
     },
     {
-      "id": 108181,
-      "title": "不完美女人",
+      "id": 295778,
+      "title": "实习医生风云",
       "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 5.1,
-      "release_date": "2026-03-17",
-      "overview": "一宗谋杀案摧毁了三位好友的人生之后，随着调查揭露出惊人真相，她们数十年的情谊亦面临考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fhBKciCGxjWe3aEikM39yYwt1fN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kov1ZFaeYx2OvzwofggGcmVd534.jpg"
+      "genreTitle": "喜剧",
+      "rating": 8.0,
+      "release_date": "2026-02-25",
+      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bWvh457POTUPS7SH0DHmHTLnYIF.jpg"
+    },
+    {
+      "id": 1266127,
+      "title": "准备好了没2：我来了",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-03-19",
+      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wBbnfw50L08BY7VbsqSmOZT5p1J.jpg"
     },
     {
       "id": 1265609,
@@ -178,6 +178,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nSK1cQXskN6UPNXZfGFhlnbaadt.jpg"
     },
     {
+      "id": 1084242,
+      "title": "疯狂动物城2",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2025-11-26",
+      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
+      "poster_url": "https://image.tmdb.org/t/p/original/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg"
+    },
+    {
+      "id": 108181,
+      "title": "不完美女人",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 5.1,
+      "release_date": "2026-03-17",
+      "overview": "一宗谋杀案摧毁了三位好友的人生之后，随着调查揭露出惊人真相，她们数十年的情谊亦面临考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fhBKciCGxjWe3aEikM39yYwt1fN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kov1ZFaeYx2OvzwofggGcmVd534.jpg"
+    },
+    {
+      "id": 212588,
+      "title": "黑色正义",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 7.1,
+      "release_date": "2024-03-01",
+      "overview": "为了替亡父报仇，这名年轻女子被卷入“狂姐”编织的巨网，而此人是维系巴黎地下犯罪组织和平的人物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nBe6i4UE7qMTwi7HLtniTWwY4Kv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f2mXMBskmvzNnUghAbNyM7GPZTw.jpg"
+    },
+    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -187,48 +220,26 @@
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/ucQ0QBXXQPSxeUmWfh4YQenIuB9.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 279388,
-      "title": "逐玉",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.9,
-      "release_date": "2026-03-06",
-      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-      "poster_url": "https://image.tmdb.org/t/p/original/maDtgvjlqLXXNWlzp1uOrfZSPj9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 7.5,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 875828,
+      "title": "浴血黑帮：不朽传奇",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•战争",
+      "rating": 8.9,
+      "release_date": "2026-03-05",
+      "overview": "1940年的伯明翰，在第二次世界大战的混乱中，汤米·谢尔比（基里安·墨菲 饰）从自我放逐中回归，直面着迄今为止最具破坏性的清算。家族和国家的未来岌岌可危，汤米必须面对自己心中的恶魔，并选择是直面它还是将其毁灭。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s00bi9cGGkrMEdJfDGDWeRL0Fi1.jpg"
+    },
     {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
       "genreTitle": "科幻•冒险•悬疑",
-      "rating": 8.4,
+      "rating": 8.3,
       "release_date": "2026-03-15",
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
@@ -244,17 +255,6 @@
       "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
       "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
-    },
-    {
-      "id": 875828,
-      "title": "浴血黑帮：不朽传奇",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•战争",
-      "rating": 8.8,
-      "release_date": "2026-03-05",
-      "overview": "1940年的伯明翰，在第二次世界大战的混乱中，汤米·谢尔比（基里安·墨菲 饰）从自我放逐中回归，直面着迄今为止最具破坏性的清算。家族和国家的未来岌岌可危，汤米必须面对自己心中的恶魔，并选择是直面它还是将其毁灭。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s00bi9cGGkrMEdJfDGDWeRL0Fi1.jpg"
     },
     {
       "id": 1159559,
@@ -299,17 +299,6 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•喜剧",
-      "rating": 7.4,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 1084242,
@@ -334,6 +323,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•喜剧",
+      "rating": 7.4,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
+    },
+    {
+      "id": 45790,
+      "title": "JOJO的奇妙冒险",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2012-10-06",
+      "overview": "乔斯达家族的数代人都有一个相同的绰号“JOJO”，他们在不同的时代与各种拥有超自然力量的反派战斗不休。",
+      "poster_url": "https://image.tmdb.org/t/p/original/v3tg5I7DkyXjSVgV0MINbNaeR12.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
+    },
+    {
+      "id": 1317288,
+      "title": "至尊马蒂",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 7.5,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
+    },
+    {
       "id": 858024,
       "title": "哈姆奈特",
       "type": "movie",
@@ -356,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 7.5,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
+      "id": 279388,
+      "title": "逐玉",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.9,
+      "release_date": "2026-03-06",
+      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+      "poster_url": "https://image.tmdb.org/t/p/original/maDtgvjlqLXXNWlzp1uOrfZSPj9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
     },
     {
       "id": 1233413,
@@ -389,28 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uvA3ctIGgEUutKP85HOhQoB3RC0.jpg"
     },
     {
-      "id": 45790,
-      "title": "JOJO的奇妙冒险",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2012-10-06",
-      "overview": "乔斯达家族的数代人都有一个相同的绰号“JOJO”，他们在不同的时代与各种拥有超自然力量的反派战斗不休。",
-      "poster_url": "https://image.tmdb.org/t/p/original/v3tg5I7DkyXjSVgV0MINbNaeR12.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
-    },
-    {
-      "id": 279388,
-      "title": "逐玉",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.9,
-      "release_date": "2026-03-06",
-      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-      "poster_url": "https://image.tmdb.org/t/p/original/maDtgvjlqLXXNWlzp1uOrfZSPj9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
-    },
-    {
       "id": 1316092,
       "title": "呼啸山庄",
       "type": "movie",
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zHmYII2Kanw39W6Qu8s9s1cCdcx.jpg"
     },
     {
-      "id": 1119449,
-      "title": "团战之夜",
+      "id": 1582770,
+      "title": "征服者2",
       "type": "movie",
-      "genreTitle": "科幻•动作•喜剧",
-      "rating": 6.9,
-      "release_date": "2026-02-13",
-      "overview": "　　故事围绕着一个“来自未来的人”展开，他来到洛杉矶的一家小餐馆，在那里他必须招募一群心怀不满的顾客，与他一起完成一个为期一晚、跨越六个街区的任务，以拯救世界免受流氓人工智能的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h19dIr3hcthIQumyF8SgTsz9g3E.jpg"
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.8,
+      "release_date": "2026-03-18",
+      "overview": "　　当敌对帮派、腐败官员和冷酷的伊克巴尔少校步步紧逼，哈姆扎为国家而战的使命逐渐沦陷为一场血腥的个人复仇。在利亚里的街头，爱国者与恶魔的界限逐渐模糊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lJzjeBNdx1jFgLIOXEbJsKvtCnn.jpg"
     }
   ],
   "popular_movies": [
