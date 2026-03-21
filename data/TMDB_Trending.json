@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21 12:58:51",
+  "last_updated": "2026-03-21 13:37:32",
   "today_global": [
     {
       "id": 875828,
@@ -46,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
     },
     {
+      "id": 312697,
+      "title": "陪审义务呈现：公司团建",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 5.5,
+      "release_date": "2026-03-20",
+      "overview": "　　本剧是一部纪录片风格的喜剧，通过新入职临时工Anthony的视角，记录了一家家族经营型辣椒酱公司举办的场外活动。Anthony浑然不知，这场活动实际是一出精心策划的戏，他身边的每位同事都在扮演角色，无论是在会议室里还是在闲暇时刻，每个瞬间都经过了周密安排。随着公司创始人准备卸任，这场团建活动逐渐演变成大企业野心和小企业价值观的激烈碰撞，公司控制权悬而未决。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8aAHDb3XoTElMmGoTbuKggEVNgB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lPoQLz5cahHWWspxQJJXw80XoYB.jpg"
+    },
+    {
       "id": 999136,
       "title": "非请勿进",
       "type": "movie",
@@ -57,28 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rGF6QYJZpCDKFBSMSdLWwPva7sw.jpg"
     },
     {
-      "id": 45790,
-      "title": "JOJO的奇妙冒险",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2012-10-06",
-      "overview": "乔斯达家族的数代人都有一个相同的绰号“JOJO”，他们在不同的时代与各种拥有超自然力量的反派战斗不休。",
-      "poster_url": "https://image.tmdb.org/t/p/original/v3tg5I7DkyXjSVgV0MINbNaeR12.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
-    },
-    {
-      "id": 312697,
-      "title": "陪审义务呈现：公司团建",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 10.0,
-      "release_date": "2026-03-20",
-      "overview": "　　本剧是一部纪录片风格的喜剧，通过新入职临时工Anthony的视角，记录了一家家族经营型辣椒酱公司举办的场外活动。Anthony浑然不知，这场活动实际是一出精心策划的戏，他身边的每位同事都在扮演角色，无论是在会议室里还是在闲暇时刻，每个瞬间都经过了周密安排。随着公司创始人准备卸任，这场团建活动逐渐演变成大企业野心和小企业价值观的激烈碰撞，公司控制权悬而未决。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8aAHDb3XoTElMmGoTbuKggEVNgB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lPoQLz5cahHWWspxQJJXw80XoYB.jpg"
-    },
-    {
       "id": 209867,
       "title": "葬送的芙莉莲",
       "type": "tv",
@@ -88,6 +77,17 @@
       "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
       "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+    },
+    {
+      "id": 45790,
+      "title": "JOJO的奇妙冒险",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2012-10-06",
+      "overview": "乔斯达家族的数代人都有一个相同的绰号“JOJO”，他们在不同的时代与各种拥有超自然力量的反派战斗不休。",
+      "poster_url": "https://image.tmdb.org/t/p/original/v3tg5I7DkyXjSVgV0MINbNaeR12.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
     },
     {
       "id": 111110,
@@ -123,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 225780,
-      "title": "小镇警花",
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
       "type": "tv",
-      "genreTitle": "喜剧•犯罪",
-      "rating": 6.3,
-      "release_date": "2023-06-01",
-      "overview": "该片以塔斯马尼亚州的一个虚构小镇 Deadloch 为背景，做事严谨的当地高级警长Dulcie Collins正应妻子要求放慢工作节奏 ，以平衡生活。这时，一具男尸被冲上沙滩，Dulcie又被推回侦探工作中。高级调查员Eddie Redcliffe，从达尔文空降支援这起案件，但她粗鲁不羁的破案行事风格引起了Dulcie的不满。随着死亡人数的不断增多，她们必须化解分歧和矛盾，联手侦破这起目标为顺直白男的连环杀人案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cVKeISd04YNsiv5mpoRt2BfQoJm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nbTTLP4JWzQ1ZpHmAgf7UgUDZUv.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
     },
     {
       "id": 840464,
@@ -145,15 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
+      "id": 95479,
+      "title": "咒术回战",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 225780,
+      "title": "戴洛克小镇",
+      "type": "tv",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 6.3,
+      "release_date": "2023-06-01",
+      "overview": "该片以塔斯马尼亚州的一个虚构小镇 Deadloch 为背景，做事严谨的当地高级警长Dulcie Collins正应妻子要求放慢工作节奏 ，以平衡生活。这时，一具男尸被冲上沙滩，Dulcie又被推回侦探工作中。高级调查员Eddie Redcliffe，从达尔文空降支援这起案件，但她粗鲁不羁的破案行事风格引起了Dulcie的不满。随着死亡人数的不断增多，她们必须化解分歧和矛盾，联手侦破这起目标为顺直白男的连环杀人案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cVKeISd04YNsiv5mpoRt2BfQoJm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nbTTLP4JWzQ1ZpHmAgf7UgUDZUv.jpg"
     },
     {
       "id": 250307,
@@ -165,17 +176,6 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
       "id": 37854,
@@ -204,7 +204,7 @@
       "title": "准备好了没2：我来了",
       "type": "movie",
       "genreTitle": "恐怖•喜剧",
-      "rating": 7.7,
+      "rating": 7.5,
       "release_date": "2026-03-19",
       "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
       "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
@@ -235,6 +235,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wLWvHcQz7N13DvSOTV7bHgwGXpT.jpg"
     },
     {
+      "id": 875828,
+      "title": "浴血黑帮：不朽传奇",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.3,
+      "release_date": "2026-03-05",
+      "overview": "　　1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
+    },
+    {
       "id": 111110,
       "title": "ONE PIECE",
       "type": "tv",
@@ -255,17 +266,6 @@
       "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
       "poster_url": "https://image.tmdb.org/t/p/original/lk8xhLpI7VgMIWPdHhBtB5JHHgA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
-    },
-    {
-      "id": 875828,
-      "title": "浴血黑帮：不朽传奇",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.3,
-      "release_date": "2026-03-05",
-      "overview": "　　1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
     },
     {
       "id": 1327819,
@@ -312,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 1314786,
       "title": "谍杀风暴",
       "type": "movie",
@@ -332,6 +321,17 @@
       "overview": "四名前西班牙特工在全球不同地点同时遇刺。西班牙国家情报中心发现，数十年前他们都在哥伦比亚参与了秘密的谢纳加行动。西班牙国家情报中心最出色的特工泽塔必须追查并保护唯一的幸存者，这将是他迄今为止最危险的全球任务。哥伦比亚顶级特工阿尔法将与泽塔并肩行动，而她似乎比他更了解谢纳加行动背后的秘密。",
       "poster_url": "https://image.tmdb.org/t/p/original/1R8ZQjZqTZM7YUVnEo5Oes0fygp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8qBVLReJWkhqArYlWiphru6Zcgf.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 279388,
@@ -378,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
-      "id": 1054867,
-      "title": "一战再战",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•喜剧",
-      "rating": 7.4,
-      "release_date": "2025-09-23",
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
-    },
-    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -398,6 +387,17 @@
       "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
       "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 1054867,
+      "title": "一战再战",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•喜剧",
+      "rating": 7.4,
+      "release_date": "2025-09-23",
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l7qWNAt9TEJAW9UiZzMcpyXMmVn.jpg"
     },
     {
       "id": 225891,
@@ -422,6 +422,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h3Ey9Fv0NeQDV5qzjDcpAObMRxx.jpg"
     },
     {
+      "id": 1266127,
+      "title": "准备好了没2：我来了",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧",
+      "rating": 7.5,
+      "release_date": "2026-03-19",
+      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wBbnfw50L08BY7VbsqSmOZT5p1J.jpg"
+    },
+    {
       "id": 250307,
       "title": "匹兹堡医护前线",
       "type": "tv",
@@ -431,17 +442,6 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 1266127,
-      "title": "准备好了没2：我来了",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 7.7,
-      "release_date": "2026-03-19",
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wBbnfw50L08BY7VbsqSmOZT5p1J.jpg"
     }
   ],
   "popular_movies": [
