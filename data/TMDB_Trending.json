@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-03-23 00:14:04",
+  "last_updated": "2026-03-23 01:14:55",
   "today_global": [
-    {
-      "id": 875828,
-      "title": "浴血黑帮：不朽传奇",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.3,
-      "release_date": "2026-03-05",
-      "overview": "　　1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
-    },
     {
       "id": 687163,
       "title": "挽救计划",
@@ -22,6 +11,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wLWvHcQz7N13DvSOTV7bHgwGXpT.jpg"
+    },
+    {
+      "id": 875828,
+      "title": "浴血黑帮：不朽传奇",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.3,
+      "release_date": "2026-03-05",
+      "overview": "　　1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
     },
     {
       "id": 1314786,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 5.9,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lk8xhLpI7VgMIWPdHhBtB5JHHgA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
-    },
-    {
       "id": 45790,
       "title": "JOJO的奇妙冒险",
       "type": "tv",
@@ -79,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
     },
     {
-      "id": 225891,
-      "title": "麦迪逊河谷",
-      "type": "tv",
-      "genreTitle": "剧情•西部",
-      "rating": 9.0,
-      "release_date": "2026-03-14",
-      "overview": "该剧是《黄石》宇宙的第一部现代背景衍生剧，故事聚焦一个纽约家庭在蒙大拿州中部麦迪逊河谷地的生活，将对悲伤和人际关系进行真诚的研究和审视。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nZVRyqVbDqfLSOrLcsGGTUHccZ8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uvA3ctIGgEUutKP85HOhQoB3RC0.jpg"
+      "id": 1159559,
+      "title": "惊声尖叫7",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 5.9,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lk8xhLpI7VgMIWPdHhBtB5JHHgA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
     },
     {
       "id": 1327819,
@@ -99,6 +88,17 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
+      "id": 225891,
+      "title": "麦迪逊河谷",
+      "type": "tv",
+      "genreTitle": "剧情•西部",
+      "rating": 9.0,
+      "release_date": "2026-03-14",
+      "overview": "该剧是《黄石》宇宙的第一部现代背景衍生剧，故事聚焦一个纽约家庭在蒙大拿州中部麦迪逊河谷地的生活，将对悲伤和人际关系进行真诚的研究和审视。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nZVRyqVbDqfLSOrLcsGGTUHccZ8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zrzKtlSXrHLDWZhGj68K9oMdlfC.jpg"
     },
     {
       "id": 840464,
@@ -123,17 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nSK1cQXskN6UPNXZfGFhlnbaadt.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -143,6 +132,17 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 1084242,
@@ -200,22 +200,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 312697,
-      "title": "陪审义务呈现：公司团建",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 3.2,
-      "release_date": "2026-03-20",
-      "overview": "　　本剧是一部纪录片风格的喜剧，通过新入职临时工Anthony的视角，记录了一家家族经营型辣椒酱公司举办的场外活动。Anthony浑然不知，这场活动实际是一出精心策划的戏，他身边的每位同事都在扮演角色，无论是在会议室里还是在闲暇时刻，每个瞬间都经过了周密安排。随着公司创始人准备卸任，这场团建活动逐渐演变成大企业野心和小企业价值观的激烈碰撞，公司控制权悬而未决。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8aAHDb3XoTElMmGoTbuKggEVNgB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lPoQLz5cahHWWspxQJJXw80XoYB.jpg"
+      "id": 1582770,
+      "title": "征服者2",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-03-18",
+      "overview": "　　当敌对帮派、腐败官员和冷酷的伊克巴尔少校步步紧逼，哈姆扎为国家而战的使命逐渐沦陷为一场血腥的个人复仇。在利亚里的街头，爱国者与恶魔的界限逐渐模糊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lJzjeBNdx1jFgLIOXEbJsKvtCnn.jpg"
     },
     {
       "id": 1266127,
       "title": "准备好了没2：我来了",
       "type": "movie",
       "genreTitle": "恐怖•喜剧",
-      "rating": 7.4,
+      "rating": 7.3,
       "release_date": "2026-03-19",
       "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
       "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
@@ -268,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
     },
     {
-      "id": 279388,
-      "title": "逐玉",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.1,
-      "release_date": "2026-03-06",
-      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
-      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
-    },
-    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -301,6 +290,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
     },
     {
+      "id": 279388,
+      "title": "逐玉",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.1,
+      "release_date": "2026-03-06",
+      "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
+      "poster_url": "https://image.tmdb.org/t/p/original/cYV1cn51qeu7aLqMUrSsmPe1QNo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/49kMp7NgnInwdthYUe0VJ0DGFh6.jpg"
+    },
+    {
+      "id": 225891,
+      "title": "麦迪逊河谷",
+      "type": "tv",
+      "genreTitle": "剧情•西部",
+      "rating": 9.0,
+      "release_date": "2026-03-14",
+      "overview": "该剧是《黄石》宇宙的第一部现代背景衍生剧，故事聚焦一个纽约家庭在蒙大拿州中部麦迪逊河谷地的生活，将对悲伤和人际关系进行真诚的研究和审视。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nZVRyqVbDqfLSOrLcsGGTUHccZ8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zrzKtlSXrHLDWZhGj68K9oMdlfC.jpg"
+    },
+    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -310,6 +321,17 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 1265609,
+      "title": "侵略机器",
+      "type": "movie",
+      "genreTitle": "动作•科幻•惊悚",
+      "rating": 7.3,
+      "release_date": "2026-02-12",
+      "overview": "在陆军游骑兵训练的最后一项艰苦任务中，一名战斗工兵必须带领他的部队对抗来自异界的巨型杀戮机器。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kgnfgmVMXpJaNvst7B1CJRremOV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nSK1cQXskN6UPNXZfGFhlnbaadt.jpg"
     },
     {
       "id": 1314786,
@@ -334,26 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1265609,
-      "title": "侵略机器",
+      "id": 840464,
+      "title": "末日逃生2：迁移",
       "type": "movie",
-      "genreTitle": "动作•科幻•惊悚",
-      "rating": 7.3,
-      "release_date": "2026-02-12",
-      "overview": "在陆军游骑兵训练的最后一项艰苦任务中，一名战斗工兵必须带领他的部队对抗来自异界的巨型杀戮机器。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kgnfgmVMXpJaNvst7B1CJRremOV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nSK1cQXskN6UPNXZfGFhlnbaadt.jpg"
-    },
-    {
-      "id": 225891,
-      "title": "麦迪逊河谷",
-      "type": "tv",
-      "genreTitle": "剧情•西部",
-      "rating": 9.0,
-      "release_date": "2026-03-14",
-      "overview": "该剧是《黄石》宇宙的第一部现代背景衍生剧，故事聚焦一个纽约家庭在蒙大拿州中部麦迪逊河谷地的生活，将对悲伤和人际关系进行真诚的研究和审视。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nZVRyqVbDqfLSOrLcsGGTUHccZ8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uvA3ctIGgEUutKP85HOhQoB3RC0.jpg"
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.4,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
       "id": 1084242,
@@ -382,7 +393,7 @@
       "title": "准备好了没2：我来了",
       "type": "movie",
       "genreTitle": "恐怖•喜剧",
-      "rating": 7.4,
+      "rating": 7.3,
       "release_date": "2026-03-19",
       "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
       "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
@@ -411,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
+      "id": 1317288,
+      "title": "至尊马蒂",
       "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.4,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+      "genreTitle": "剧情•惊悚",
+      "rating": 7.5,
+      "release_date": "2025-12-19",
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     },
     {
       "id": 83533,
@@ -431,17 +442,6 @@
       "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "poster_url": "https://image.tmdb.org/t/p/original/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
-      "id": 1317288,
-      "title": "至尊马蒂",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 7.5,
-      "release_date": "2025-12-19",
-      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h87uv8QhO327K6B0taWEeeaop3r.jpg"
     }
   ],
   "popular_movies": [
