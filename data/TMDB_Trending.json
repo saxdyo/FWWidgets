@@ -1,38 +1,38 @@
 {
-  "last_updated": "2026-03-27 05:19:30",
+  "last_updated": "2026-03-27 06:14:09",
   "today_global": [
     {
       "id": 1084187,
       "title": "索命舞娘",
       "type": "movie",
       "genreTitle": "动作•惊悚•恐怖",
-      "rating": 6.7,
+      "rating": 6.9,
       "release_date": "2026-03-13",
       "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
       "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
     },
     {
-      "id": 259265,
-      "title": "命中婚劫",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 5.8,
-      "release_date": "2026-03-26",
-      "overview": "新娘预感到婚礼上会发生可怕的事。越接近婚礼殿堂，她的这种感觉就越强烈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/92GrUAwk3WxjaUMBRX4hKfNqa4x.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1mBt0KKBb6CgCY1klfNWeVq5xkW.jpg"
-    },
-    {
       "id": 249597,
       "title": "哈利警探",
       "type": "tv",
       "genreTitle": "悬疑•犯罪",
-      "rating": 8.0,
+      "rating": 7.7,
       "release_date": "2026-03-26",
       "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
       "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
+    },
+    {
+      "id": 259265,
+      "title": "命中婚劫",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 5.6,
+      "release_date": "2026-03-26",
+      "overview": "新娘预感到婚礼上会发生可怕的事。越接近婚礼殿堂，她的这种感觉就越强烈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/92GrUAwk3WxjaUMBRX4hKfNqa4x.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1mBt0KKBb6CgCY1klfNWeVq5xkW.jpg"
     },
     {
       "id": 1297842,
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -66,6 +55,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 1198994,
@@ -83,7 +83,7 @@
       "title": "实习医生风云",
       "type": "tv",
       "genreTitle": "喜剧",
-      "rating": 8.0,
+      "rating": 7.9,
       "release_date": "2026-02-25",
       "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
       "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
@@ -112,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
+      "id": 875828,
+      "title": "浴血黑帮：不朽传奇",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.4,
+      "release_date": "2026-03-05",
+      "overview": "1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
+    },
+    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -123,15 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 875828,
-      "title": "浴血黑帮：不朽传奇",
+      "id": 1630433,
+      "title": "赤红生死线",
       "type": "movie",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.4,
-      "release_date": "2026-03-05",
-      "overview": "1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
+      "genreTitle": "惊悚•犯罪•剧情",
+      "rating": 8.0,
+      "release_date": "2026-03-22",
+      "overview": "三名女子沦为冷血电话诈骗的受害者。为了讨回公道，她们决定对抗夺走她们金钱与尊严的犯罪网络。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7kdU9uGHoQpiHfXaiPWDLMQHhcU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/o4xzHWNxFdK0jWQEvmQe98MQ3Z8.jpg"
     },
     {
       "id": 95557,
@@ -154,17 +165,6 @@
       "overview": "　　本是豪门继承人的贝克特·雷德费洛被家族抛弃，为了确保成为巨额遗产的唯一继承人，他不择手段干掉了七个亲戚。",
       "poster_url": "https://image.tmdb.org/t/p/original/A1oi9OK09vvVjSrq7UAKFrp7mvA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n2u71qKzc5t3LRwdKbDeJv4JSYj.jpg"
-    },
-    {
-      "id": 1630433,
-      "title": "赤红生死线",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•剧情",
-      "rating": 8.0,
-      "release_date": "2026-03-22",
-      "overview": "三名女子沦为冷血电话诈骗的受害者。为了讨回公道，她们决定对抗夺走她们金钱与尊严的犯罪网络。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7kdU9uGHoQpiHfXaiPWDLMQHhcU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/o4xzHWNxFdK0jWQEvmQe98MQ3Z8.jpg"
     },
     {
       "id": 37854,
@@ -189,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qnTdOizsXBzYu3uIbfhHSfE29TE.jpg"
     },
     {
+      "id": 840464,
+      "title": "末日逃生2：迁移",
+      "type": "movie",
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.4,
+      "release_date": "2026-01-07",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_url": "https://image.tmdb.org/t/p/original/hudyFhRgKXJmD6NTs2I84n8J2WB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+    },
+    {
       "id": 203737,
       "title": "【我推的孩子】",
       "type": "tv",
@@ -209,17 +220,6 @@
       "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
       "poster_url": "https://image.tmdb.org/t/p/original/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
-    },
-    {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.4,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/hudyFhRgKXJmD6NTs2I84n8J2WB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     }
   ],
   "week_global_all": [
@@ -233,6 +233,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 1297842,
@@ -257,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
-    {
       "id": 202555,
       "title": "夜魔侠：重生",
       "type": "tv",
@@ -283,7 +283,7 @@
       "title": "索命舞娘",
       "type": "movie",
       "genreTitle": "动作•惊悚•恐怖",
-      "rating": 6.7,
+      "rating": 6.9,
       "release_date": "2026-03-13",
       "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
       "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
@@ -305,11 +305,22 @@
       "title": "命中婚劫",
       "type": "tv",
       "genreTitle": "剧情•悬疑",
-      "rating": 5.8,
+      "rating": 5.6,
       "release_date": "2026-03-26",
       "overview": "新娘预感到婚礼上会发生可怕的事。越接近婚礼殿堂，她的这种感觉就越强烈。",
       "poster_url": "https://image.tmdb.org/t/p/original/92GrUAwk3WxjaUMBRX4hKfNqa4x.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1mBt0KKBb6CgCY1klfNWeVq5xkW.jpg"
+    },
+    {
+      "id": 295778,
+      "title": "实习医生风云",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 7.9,
+      "release_date": "2026-02-25",
+      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bWvh457POTUPS7SH0DHmHTLnYIF.jpg"
     },
     {
       "id": 95479,
@@ -323,15 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 295778,
-      "title": "实习医生风云",
+      "id": 249597,
+      "title": "哈利警探",
       "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.0,
-      "release_date": "2026-02-25",
-      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bWvh457POTUPS7SH0DHmHTLnYIF.jpg"
+      "genreTitle": "悬疑•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-03-26",
+      "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
     },
     {
       "id": 1159559,
@@ -345,15 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
       "id": 111110,
@@ -378,48 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1314786,
-      "title": "谍杀风暴",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-03-20",
-      "overview": "四名前西班牙特工在全球不同地点同时遇刺。西班牙国家情报中心发现，数十年前他们都在哥伦比亚参与了秘密的谢纳加行动。西班牙国家情报中心最出色的特工泽塔必须追查并保护唯一的幸存者，这将是他迄今为止最危险的全球任务。哥伦比亚顶级特工阿尔法将与泽塔并肩行动，而她似乎比他更了解谢纳加行动背后的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1R8ZQjZqTZM7YUVnEo5Oes0fygp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8qBVLReJWkhqArYlWiphru6Zcgf.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
-    },
-    {
-      "id": 249597,
-      "title": "哈利警探",
+      "id": 95557,
+      "title": "无敌少侠",
       "type": "tv",
-      "genreTitle": "悬疑•犯罪",
-      "rating": 8.0,
-      "release_date": "2026-03-26",
-      "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
-    },
-    {
-      "id": 45790,
-      "title": "JOJO的奇妙冒险",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "genreTitle": "动画•剧情",
       "rating": 8.6,
-      "release_date": "2012-10-06",
-      "overview": "乔斯达家族的数代人都有一个相同的绰号“JOJO”，他们在不同的时代与各种拥有超自然力量的反派战斗不休。",
-      "poster_url": "https://image.tmdb.org/t/p/original/v3tg5I7DkyXjSVgV0MINbNaeR12.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 840464,
@@ -433,15 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
-      "id": 467905,
-      "title": "如何大赚一笔",
+      "id": 1314786,
+      "title": "谍杀风暴",
       "type": "movie",
-      "genreTitle": "喜剧•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-02-19",
-      "overview": "　　本是豪门继承人的贝克特·雷德费洛被家族抛弃，为了确保成为巨额遗产的唯一继承人，他不择手段干掉了七个亲戚。",
-      "poster_url": "https://image.tmdb.org/t/p/original/A1oi9OK09vvVjSrq7UAKFrp7mvA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n2u71qKzc5t3LRwdKbDeJv4JSYj.jpg"
+      "genreTitle": "剧情•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-03-20",
+      "overview": "四名前西班牙特工在全球不同地点同时遇刺。西班牙国家情报中心发现，数十年前他们都在哥伦比亚参与了秘密的谢纳加行动。西班牙国家情报中心最出色的特工泽塔必须追查并保护唯一的幸存者，这将是他迄今为止最危险的全球任务。哥伦比亚顶级特工阿尔法将与泽塔并肩行动，而她似乎比他更了解谢纳加行动背后的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1R8ZQjZqTZM7YUVnEo5Oes0fygp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8qBVLReJWkhqArYlWiphru6Zcgf.jpg"
+    },
+    {
+      "id": 45790,
+      "title": "JOJO的奇妙冒险",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2012-10-06",
+      "overview": "乔斯达家族的数代人都有一个相同的绰号“JOJO”，他们在不同的时代与各种拥有超自然力量的反派战斗不休。",
+      "poster_url": "https://image.tmdb.org/t/p/original/v3tg5I7DkyXjSVgV0MINbNaeR12.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iZwAxspYlszZBBBGHu05EvUZNem.jpg"
+    },
+    {
+      "id": 1266127,
+      "title": "准备好了没2：我来了",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧",
+      "rating": 7.6,
+      "release_date": "2026-03-19",
+      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wBbnfw50L08BY7VbsqSmOZT5p1J.jpg"
     }
   ],
   "popular_movies": [
