@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30 03:22:50",
+  "last_updated": "2026-03-30 04:16:47",
   "today_global": [
     {
       "id": 83533,
@@ -13,17 +13,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1115544,
-      "title": "我当你兄弟",
-      "type": "movie",
-      "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.6,
-      "release_date": "2026-03-14",
-      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
-      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -33,6 +22,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 1115544,
+      "title": "我当你兄弟",
+      "type": "movie",
+      "genreTitle": "喜剧•科幻•犯罪",
+      "rating": 6.5,
+      "release_date": "2026-03-14",
+      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
+      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
     },
     {
       "id": 1316092,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
-    {
       "id": 1297842,
       "title": "奇迹梦之队",
       "type": "movie",
@@ -79,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
-      "id": 1523145,
-      "title": "你会心碎",
+      "id": 1198994,
+      "title": "请求救援",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.6,
-      "release_date": "2026-03-26",
-      "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 95479,
@@ -112,11 +101,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
+      "id": 1523145,
+      "title": "你会心碎",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.6,
+      "release_date": "2026-03-26",
+      "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
+    },
+    {
       "id": 1084187,
       "title": "索命舞娘",
       "type": "movie",
       "genreTitle": "动作•惊悚•恐怖",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2026-03-13",
       "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
       "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
@@ -134,17 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -154,6 +143,17 @@
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 37854,
@@ -189,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rDTLhM1leJm5zsgEwVeEjcZL6iE.jpg"
     },
     {
-      "id": 1630433,
-      "title": "赤红生死线",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•剧情",
-      "rating": 7.5,
-      "release_date": "2026-03-22",
-      "overview": "三名女子沦为冷血电话诈骗的受害者。为了讨回公道，她们决定对抗夺走她们金钱与尊严的犯罪网络。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7kdU9uGHoQpiHfXaiPWDLMQHhcU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/o4xzHWNxFdK0jWQEvmQe98MQ3Z8.jpg"
-    },
-    {
       "id": 259265,
       "title": "命中婚劫",
       "type": "tv",
@@ -220,20 +209,20 @@
       "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
       "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
+    },
+    {
+      "id": 288659,
+      "title": "春夏秋冬代行者 春之舞",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 7.5,
+      "release_date": "2026-03-29",
+      "overview": "　　“春天——安全，就在这里。”\n\n　　这个世界上的季节原本只有冬天，但是冬天耐不住孤独对生命的消磨，创造了春天。不久，根据大地的愿望，夏天和秋天也随之诞生，四季都完成轮回，且这个季节的轮回的责任由人子承担，履行职责者被称为“四季的代行者”——\n\n　　现在一位少女代行者怀抱着一种使命感，正要站起来。她的名字叫做“雏菊”，四季之神赐予的季节是“春”。随着雏菊克服了种种苦难，自从十年前消失的这个国家的春天，紧跟着作为现人神的她的回归而回归了。\n\n　　她带着自己随从的少女一起走出去，想要与那些把自己拐走并让她受尽屈辱的人战斗。\n\n　　就在她的内心深处，就像神话一样，也存在着对冬天的爱慕之情。\n\n　　晓佳奈赠送的，具有季节显现作用的现人神们的故事，由此开幕。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2cirNjbZoRkaFzJf8O99Ps6H6UZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hOzDdq7FpZ7DcMMk0N88dzT5s2u.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
     {
       "id": 687163,
       "title": "挽救计划",
@@ -244,6 +233,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 1297842,
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
-      "id": 1084187,
-      "title": "索命舞娘",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•恐怖",
-      "rating": 6.8,
-      "release_date": "2026-03-13",
-      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
-    },
-    {
       "id": 83533,
       "title": "阿凡达：火与烬",
       "type": "movie",
@@ -277,6 +266,28 @@
       "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
+    },
+    {
+      "id": 1084187,
+      "title": "索命舞娘",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•恐怖",
+      "rating": 6.9,
+      "release_date": "2026-03-13",
+      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
+    },
+    {
+      "id": 1115544,
+      "title": "我当你兄弟",
+      "type": "movie",
+      "genreTitle": "喜剧•科幻•犯罪",
+      "rating": 6.5,
+      "release_date": "2026-03-14",
+      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
+      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
     },
     {
       "id": 202555,
@@ -290,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 1115544,
-      "title": "我当你兄弟",
-      "type": "movie",
-      "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.6,
-      "release_date": "2026-03-14",
-      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
-      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -312,6 +312,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.4,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+    },
+    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -321,17 +332,6 @@
       "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
       "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
-    },
-    {
-      "id": 249597,
-      "title": "哈利警探",
-      "type": "tv",
-      "genreTitle": "悬疑•犯罪",
-      "rating": 7.8,
-      "release_date": "2026-03-26",
-      "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
     },
     {
       "id": 209867,
@@ -356,15 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
-      "id": 875828,
-      "title": "浴血黑帮：不朽传奇",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.3,
-      "release_date": "2026-03-05",
-      "overview": "1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
+      "id": 249597,
+      "title": "哈利警探",
+      "type": "tv",
+      "genreTitle": "悬疑•犯罪",
+      "rating": 7.8,
+      "release_date": "2026-03-26",
+      "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
     },
     {
       "id": 467905,
@@ -378,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n2u71qKzc5t3LRwdKbDeJv4JSYj.jpg"
     },
     {
-      "id": 1316092,
-      "title": "呼啸山庄",
+      "id": 875828,
+      "title": "浴血黑帮：不朽传奇",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.4,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.3,
+      "release_date": "2026-03-05",
+      "overview": "1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/af8sU7ts4uwSBCkm6o1ZMidIV2R.jpg"
     },
     {
       "id": 259265,
@@ -411,17 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 111110,
-      "title": "ONE PIECE",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "release_date": "2023-08-31",
-      "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
-    },
-    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -431,6 +420,17 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 111110,
+      "title": "ONE PIECE",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2023-08-31",
+      "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
     },
     {
       "id": 295778,
