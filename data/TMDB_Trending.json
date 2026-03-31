@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01 00:43:45",
+  "last_updated": "2026-04-01 01:43:56",
   "today_global": [
     {
       "id": 83533,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -44,6 +33,17 @@
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 1316092,
@@ -57,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
+      "id": 255522,
+      "title": "周二谋杀定律",
+      "type": "tv",
+      "genreTitle": "喜剧•悬疑",
+      "rating": 0.0,
+      "release_date": "2026-03-31",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/FJW2bc3qiwaNx3wglfgKOYPav5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rxasq78hhqABkQQ2JvSYahXEoXu.jpg"
+    },
+    {
       "id": 1325734,
       "title": "爱情抓马",
       "type": "movie",
@@ -66,17 +77,6 @@
       "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
       "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
-    },
-    {
-      "id": 255522,
-      "title": "Si es martes, es asesinato",
-      "type": "tv",
-      "genreTitle": "喜剧•悬疑",
-      "rating": 0.0,
-      "release_date": "2026-03-31",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/FJW2bc3qiwaNx3wglfgKOYPav5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rxasq78hhqABkQQ2JvSYahXEoXu.jpg"
     },
     {
       "id": 245927,
@@ -127,22 +127,11 @@
       "title": "我当你兄弟",
       "type": "movie",
       "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-03-14",
       "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
       "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 1297842,
@@ -154,6 +143,17 @@
       "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
       "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+    },
+    {
+      "id": 1198994,
+      "title": "请求救援",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 1523145,
@@ -189,26 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
     },
     {
-      "id": 117465,
-      "title": "地狱乐",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2023-04-01",
-      "overview": "故事以江户时代后期为舞台，最强死刑犯忍者「画眉丸」为了能再次与最爱的妻子见面，与处刑人「山田浅右卫门佐切」一同前往被称为极乐净土的小岛，找寻「不老不死的仙药」以换取无罪释放，并在岛上与神秘的怪物以及其他死刑犯互相残杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mo1TFF6dkan6tKxWhINgEYk4sCl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7ZG6Ktb87qi3PycAfZxltlLxzPW.jpg"
-    },
-    {
-      "id": 1266127,
-      "title": "准备好了没2：我来了",
+      "id": 1083381,
+      "title": "后室",
       "type": "movie",
-      "genreTitle": "恐怖•喜剧•动作",
-      "rating": 7.5,
-      "release_date": "2026-03-19",
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uoCW9jSsNK5BhaVZKY9zU1uDfp4.jpg"
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 0.0,
+      "release_date": "2026-05-27",
+      "overview": "　　一位心理治疗师的病人在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。 该片改编自凯恩·帕森斯在YouTube上创作的一系列爆红的“后室”题材恐怖短片。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sw5wCm2APRXlFd4GkxqgAv8mAUG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tRNtJKTFFP1a5otc4jsjw7cs12P.jpg"
     },
     {
       "id": 202555,
@@ -220,6 +209,17 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 117465,
+      "title": "地狱乐",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2023-04-01",
+      "overview": "故事以江户时代后期为舞台，最强死刑犯忍者「画眉丸」为了能再次与最爱的妻子见面，与处刑人「山田浅右卫门佐切」一同前往被称为极乐净土的小岛，找寻「不老不死的仙药」以换取无罪释放，并在岛上与神秘的怪物以及其他死刑犯互相残杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mo1TFF6dkan6tKxWhINgEYk4sCl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7ZG6Ktb87qi3PycAfZxltlLxzPW.jpg"
     }
   ],
   "week_global_all": [
@@ -305,22 +305,11 @@
       "title": "我当你兄弟",
       "type": "movie",
       "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-03-14",
       "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
       "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
-      "id": 1084187,
-      "title": "索命舞娘",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-03-13",
-      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
     },
     {
       "id": 1316092,
@@ -332,6 +321,17 @@
       "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+    },
+    {
+      "id": 1084187,
+      "title": "索命舞娘",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-03-13",
+      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
     },
     {
       "id": 95479,
@@ -367,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
       "id": 245927,
       "title": "极乐凶间",
       "type": "tv",
@@ -389,6 +378,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5HTS17KHoY2PtD0Jv2yPwhortaR.jpg"
     },
     {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
       "id": 249597,
       "title": "哈利警探",
       "type": "tv",
@@ -398,6 +398,17 @@
       "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
       "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
+    },
+    {
+      "id": 255522,
+      "title": "周二谋杀定律",
+      "type": "tv",
+      "genreTitle": "喜剧•悬疑",
+      "rating": 0.0,
+      "release_date": "2026-03-31",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/FJW2bc3qiwaNx3wglfgKOYPav5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rxasq78hhqABkQQ2JvSYahXEoXu.jpg"
     },
     {
       "id": 37854,
@@ -422,26 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
     },
     {
-      "id": 259265,
-      "title": "命中婚劫",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 6.9,
-      "release_date": "2026-03-26",
-      "overview": "新娘预感到婚礼上会发生可怕的事。越接近婚礼殿堂，她的这种感觉就越强烈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zK33Kgb9goCpWYk0HEvY8UIKBa3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1mBt0KKBb6CgCY1klfNWeVq5xkW.jpg"
-    },
-    {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+      "id": 467905,
+      "title": "如何大赚一笔",
+      "type": "movie",
+      "genreTitle": "喜剧•惊悚",
+      "rating": 7.2,
+      "release_date": "2026-02-19",
+      "overview": "　　本是豪门继承人的贝克特·雷德费洛被家族抛弃，为了确保成为巨额遗产的唯一继承人，他不择手段干掉了七个亲戚。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ePqVAEjKVgBh1fWaMUyfVTLHj5J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n2u71qKzc5t3LRwdKbDeJv4JSYj.jpg"
     }
   ],
   "popular_movies": [
