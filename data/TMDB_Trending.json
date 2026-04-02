@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02 15:55:27",
+  "last_updated": "2026-04-02 16:41:53",
   "today_global": [
     {
       "id": 1171145,
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 1159559,
       "title": "惊声尖叫7",
       "type": "movie",
@@ -66,6 +55,17 @@
       "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
       "poster_url": "https://image.tmdb.org/t/p/original/1enQDc50cQ5ChHKUwpLMLTzfC2d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 72517,
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f4cuDOnd8cprtJ2IrTP6eRSbg5E.jpg"
     },
     {
-      "id": 94404,
-      "title": "异兽魔都",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•喜剧",
-      "rating": 8.3,
-      "release_date": "2020-01-13",
-      "overview": "丧失记忆的开曼在好友二阶堂的帮助下试图杀掉诅咒他的魔法师，以解除蜥蜴头魔法。与此同时，洞穴面临威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/crvf49wBo1NNcGtmpGwVHgL25m0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bsVSyPPAcYgrKdmGROmgOm0z5FG.jpg"
-    },
-    {
       "id": 202555,
       "title": "夜魔侠：重生",
       "type": "tv",
@@ -99,6 +88,17 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 94404,
+      "title": "异兽魔都",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•喜剧",
+      "rating": 8.3,
+      "release_date": "2020-01-13",
+      "overview": "丧失记忆的开曼在好友二阶堂的帮助下试图杀掉诅咒他的魔法师，以解除蜥蜴头魔法。与此同时，洞穴面临威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/crvf49wBo1NNcGtmpGwVHgL25m0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bsVSyPPAcYgrKdmGROmgOm0z5FG.jpg"
     },
     {
       "id": 1635276,
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
+      "id": 313721,
+      "title": "亲爱的杀手保姆们",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 0.0,
+      "release_date": "2026-04-01",
+      "overview": "这是一部扣人心弦的成长剧集，通过哥伦比亚最臭名昭著的毒枭巴勃罗·埃斯科瓦尔·加维里亚之子胡安皮的童年视角展开叙述。随着成长，胡安皮的世界开始崩塌——父亲不断扩张的犯罪帝国与无处不在的危险重塑了他的世界，而那些充当他“保姆”的杀手正是危险的具象化。本剧集云集顶级卡司阵容，约翰·莱吉扎莫饰演巴勃罗·埃斯科瓦尔·加维里亚。故事深入探讨忠诚、恐惧与纯真丧失的主题，揭示了在历史上最臭名昭著的犯罪家族中度过的童年，其背后所付出的沉重人性代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rNjB5TBYUBOxXR2GjR02uukSwBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b3Wty551udJzuyATchMp7XmrzX2.jpg"
+    },
+    {
       "id": 278275,
       "title": "月鳞绮纪",
       "type": "tv",
@@ -163,7 +174,7 @@
       "rating": 9.0,
       "release_date": "2026-04-01",
       "overview": "露芜衣是神秘组织无相月最小的九尾狐，性格活泼，狡黠。在寻找大妖小唯的任务中，她潜入了洛安韦府，然而她发现自称为小唯而来的不止她，还有以妖身画皮为法师，身负血海深仇的武拾光，与她同来的姐姐，擅长玩弄人心，同为九尾狐的雾妄言，以及看似天真，却身份存疑的侍鳞宗的法师的寄灵。 在找寻真相的过程中，众人既有试探也有合作。他们都是为了小唯身上的龙神之力而来，但他们背后的目的却各不相同，有人想要守护，有人为了杀戮。 在一次次对于龙神之力的争夺中，他们成为了朋友，恋人，但也发现了彼此之间横亘着无法消弭的阻碍。 为了消灭造成这阻碍的源头，万妖之首九婴，为了守护人间的和平，四人不得不在爱情，友情甚至是生命面前，做出艰难的抉择和割舍，一次次努力地改变命运的流向。 画皮之下，是人性的善恶交锋，是命运的无常捉弄，更是对真爱与救赎的永恒追问。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dsSbhCKYBy1ENEKAo2ks6XzNInY.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/aRzRB34l28DuDodLh4levKudnB2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sckmV6s9B6fMzbxcXilUtNFR87w.jpg"
     },
     {
@@ -176,17 +187,6 @@
       "overview": "哈莉娜因为经济困难被迫取消了婚礼，于是她的亲友们决心制定一个疯狂的计划来吸引游客，增加收入。",
       "poster_url": "https://image.tmdb.org/t/p/original/G6fYDAxwvV81ozkXGCUBx5JVgd.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8PK61ixYoSX3kXWyCMH4ats79k4.jpg"
-    },
-    {
-      "id": 313721,
-      "title": "亲爱的杀手保姆们",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 0.0,
-      "release_date": "2026-04-01",
-      "overview": "这是一部扣人心弦的成长剧集，通过哥伦比亚最臭名昭著的毒枭巴勃罗·埃斯科瓦尔·加维里亚之子胡安皮的童年视角展开叙述。随着成长，胡安皮的世界开始崩塌——父亲不断扩张的犯罪帝国与无处不在的危险重塑了他的世界，而那些充当他“保姆”的杀手正是危险的具象化。本剧集云集顶级卡司阵容，约翰·莱吉扎莫饰演巴勃罗·埃斯科瓦尔·加维里亚。故事深入探讨忠诚、恐惧与纯真丧失的主题，揭示了在历史上最臭名昭著的犯罪家族中度过的童年，其背后所付出的沉重人性代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rNjB5TBYUBOxXR2GjR02uukSwBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b3Wty551udJzuyATchMp7XmrzX2.jpg"
     },
     {
       "id": 1327819,
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.9,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
-    },
-    {
       "id": 1171145,
       "title": "洛杉矶劫案",
       "type": "movie",
@@ -266,6 +255,17 @@
       "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fjKspxpYDRwxWKHI0PUSAWaAeRf.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.9,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
       "id": 202555,
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 1115544,
-      "title": "我当你兄弟",
-      "type": "movie",
-      "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-03-14",
-      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
-      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
       "id": 1159559,
       "title": "惊声尖叫7",
       "type": "movie",
@@ -301,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 1297842,
-      "title": "奇迹梦之队",
+      "id": 1115544,
+      "title": "我当你兄弟",
       "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 7.7,
-      "release_date": "2026-02-11",
-      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+      "genreTitle": "喜剧•科幻•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-03-14",
+      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
+      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
     },
     {
       "id": 1198994,
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 1084187,
-      "title": "索命舞娘",
+      "id": 1297842,
+      "title": "奇迹梦之队",
       "type": "movie",
-      "genreTitle": "动作•惊悚•音乐",
-      "rating": 6.8,
-      "release_date": "2026-03-13",
-      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 7.7,
+      "release_date": "2026-02-11",
+      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
       "id": 1316092,
@@ -356,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
       "id": 95479,
       "title": "咒术回战",
       "type": "tv",
@@ -376,6 +354,39 @@
       "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
       "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 1084187,
+      "title": "索命舞娘",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•音乐",
+      "rating": 6.8,
+      "release_date": "2026-03-13",
+      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
+    },
+    {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.4,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
+    },
+    {
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 37854,
@@ -409,17 +420,6 @@
       "overview": "奥斯陆发生了一连串带有仪式色彩的凶杀案。一位名探必须理清错综复杂的线索，揭露腐败并克服心魔，才能将凶手绳之以法。",
       "poster_url": "https://image.tmdb.org/t/p/original/xG68ZN6vTaCj7BTb3PT9HdwE7Ri.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
-    },
-    {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.4,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
       "id": 259265,
@@ -479,17 +479,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
     },
     {
-      "id": 1084187,
-      "title": "索命舞娘",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•音乐",
-      "rating": 6.8,
-      "release_date": "2026-03-13",
-      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
-    },
-    {
       "id": 1290821,
       "title": "庇护之地",
       "type": "movie",
@@ -510,6 +499,28 @@
       "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
       "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+    },
+    {
+      "id": 1171145,
+      "title": "洛杉矶劫案",
+      "type": "movie",
+      "genreTitle": "犯罪•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-03-07",
+      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fjKspxpYDRwxWKHI0PUSAWaAeRf.jpg"
+    },
+    {
+      "id": 1084187,
+      "title": "索命舞娘",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•音乐",
+      "rating": 6.8,
+      "release_date": "2026-03-13",
+      "overview": "五个芭蕾舞者去参加比赛，却遭遇公车坠毁，被困在一家偏远旅馆中，遭遇杀身之祸，必须用自己的舞技逃脱危机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hOWBt0j7ccH09hglIcQKeTbj85E.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
     },
     {
       "id": 687163,
@@ -534,17 +545,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
-    },
-    {
       "id": 840464,
       "title": "末日逃生2：迁移",
       "type": "movie",
@@ -567,22 +567,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nSK1cQXskN6UPNXZfGFhlnbaadt.jpg"
     },
     {
-      "id": 1171145,
-      "title": "洛杉矶劫案",
+      "id": 1198994,
+      "title": "请求救援",
       "type": "movie",
-      "genreTitle": "犯罪•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-03-07",
-      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fjKspxpYDRwxWKHI0PUSAWaAeRf.jpg"
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-01-22",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "poster_url": "https://image.tmdb.org/t/p/original/f8c4HHITyez7RiA7pCLxI5cZQQU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
       "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.0,
+      "rating": 6.9,
       "release_date": "2026-04-03",
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
