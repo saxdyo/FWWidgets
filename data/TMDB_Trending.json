@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02 07:24:58",
+  "last_updated": "2026-04-02 09:02:34",
   "today_global": [
     {
       "id": 1171145,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
-    },
-    {
       "id": 1268127,
       "title": "谍报暗线",
       "type": "movie",
@@ -44,6 +33,17 @@
       "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
       "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
       "id": 1159559,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
       "id": 202555,
       "title": "夜魔侠：重生",
       "type": "tv",
@@ -77,6 +66,17 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 687163,
@@ -90,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.4,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
-    },
-    {
       "id": 1635276,
       "title": "汪星人训练营",
       "type": "movie",
@@ -110,17 +99,6 @@
       "overview": "五个狗主人带着他们淘气的狗狗向山中的传奇老师寻求帮助 — 但需要接受训练的并不是他们毛茸茸的朋友。",
       "poster_url": "https://image.tmdb.org/t/p/original/ewbV2skLI1hCF1fF1bdZl0xWwS9.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7weSO3kEzMpMgdmte4AasS0tbeV.jpg"
-    },
-    {
-      "id": 1316092,
-      "title": "呼啸山庄",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.5,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
       "id": 94404,
@@ -134,6 +112,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bsVSyPPAcYgrKdmGROmgOm0z5FG.jpg"
     },
     {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.4,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
+    },
+    {
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.4,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+    },
+    {
       "id": 72517,
       "title": "欢迎来到实力至上主义的教室",
       "type": "tv",
@@ -143,6 +143,17 @@
       "overview": "这个社会是否平等呢。真正的“实力”是什么——。东京都高度育成高等学校。那是宣扬彻底的实力至上主义，以升学率·就业率100%而引以为豪的升学学校。升入那里，被分配到1年D班的绫小路清隆，却发现学校与实力至上主义的招牌相反，学生每个月会得到相当于10万日元、与现金同等价值的分数，在授课和生活态度方面也贯彻放任主义。在梦幻般的高中生活当中，不断地挥金如土、过着自甘堕落日子的同班同学们。但，不久他就得知了学校系统的真面目，并被打入绝望的深渊……！来自吊车尾聚集的D班的少年少女们所发现的，是世界的矛盾，还是正当的实力社会？",
       "poster_url": "https://image.tmdb.org/t/p/original/dplBfCP7UwqA0gjvxB1vR77OwiV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/f4cuDOnd8cprtJ2IrTP6eRSbg5E.jpg"
+    },
+    {
+      "id": 662707,
+      "title": "星光",
+      "type": "movie",
+      "genreTitle": "冒险•动作",
+      "rating": 8.7,
+      "release_date": "2026-02-27",
+      "overview": "一个年轻的孤儿通过幻想逃离现实，然后进入一个童话世界",
+      "poster_url": "https://image.tmdb.org/t/p/original/m1Zl07DNYeSyNcz9hf8hDsS2oB5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x0yuwBAKdDcjMxnv0vxG06sNw4K.jpg"
     },
     {
       "id": 1487320,
@@ -167,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8PK61ixYoSX3kXWyCMH4ats79k4.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 313721,
       "title": "Dear Killer Nannies: Criado por sicarios",
       "type": "tv",
@@ -189,15 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/b3Wty551udJzuyATchMp7XmrzX2.jpg"
     },
     {
-      "id": 1327819,
-      "title": "河狸变身计划",
+      "id": 278275,
+      "title": "月鳞绮纪",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "release_date": "2026-04-01",
+      "overview": "露芜衣是神秘组织无相月最小的九尾狐，性格活泼，狡黠。在寻找大妖小唯的任务中，她潜入了洛安韦府，然而她发现自称为小唯而来的不止她，还有以妖身画皮为法师，身负血海深仇的武拾光，与她同来的姐姐，擅长玩弄人心，同为九尾狐的雾妄言，以及看似天真，却身份存疑的侍鳞宗的法师的寄灵。 在找寻真相的过程中，众人既有试探也有合作。他们都是为了小唯身上的龙神之力而来，但他们背后的目的却各不相同，有人想要守护，有人为了杀戮。 在一次次对于龙神之力的争夺中，他们成为了朋友，恋人，但也发现了彼此之间横亘着无法消弭的阻碍。 为了消灭造成这阻碍的源头，万妖之首九婴，为了守护人间的和平，四人不得不在爱情，友情甚至是生命面前，做出艰难的抉择和割舍，一次次努力地改变命运的流向。 画皮之下，是人性的善恶交锋，是命运的无常捉弄，更是对真爱与救赎的永恒追问。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dsSbhCKYBy1ENEKAo2ks6XzNInY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7KeZUYwHgIAjcMNw0zsoCqZG0Jn.jpg"
+    },
+    {
+      "id": 1523145,
+      "title": "你会心碎",
       "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.6,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+      "genreTitle": "爱情•剧情",
+      "rating": 6.6,
+      "release_date": "2026-03-26",
+      "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
     },
     {
       "id": 1297842,
@@ -209,17 +220,6 @@
       "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
       "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
-    },
-    {
-      "id": 662707,
-      "title": "星光",
-      "type": "movie",
-      "genreTitle": "冒险•动作",
-      "rating": 8.7,
-      "release_date": "2026-02-27",
-      "overview": "一个年轻的孤儿通过幻想逃离现实，然后进入一个童话世界",
-      "poster_url": "https://image.tmdb.org/t/p/original/m1Zl07DNYeSyNcz9hf8hDsS2oB5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x0yuwBAKdDcjMxnv0vxG06sNw4K.jpg"
     }
   ],
   "week_global_all": [
@@ -235,15 +235,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1171145,
-      "title": "洛杉矶劫案",
+      "id": 687163,
+      "title": "挽救计划",
       "type": "movie",
-      "genreTitle": "犯罪•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-02-11",
-      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fjKspxpYDRwxWKHI0PUSAWaAeRf.jpg"
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 1226863,
@@ -257,15 +257,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
+      "id": 1115544,
+      "title": "我当你兄弟",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+      "genreTitle": "喜剧•科幻•犯罪",
+      "rating": 6.7,
+      "release_date": "2026-03-14",
+      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
+      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
     },
     {
       "id": 1159559,
@@ -279,48 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
-      "id": 1297842,
-      "title": "奇迹梦之队",
+      "id": 1171145,
+      "title": "洛杉矶劫案",
       "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 7.7,
+      "genreTitle": "犯罪•惊悚",
+      "rating": 7.0,
       "release_date": "2026-02-11",
-      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
-    },
-    {
-      "id": 1316092,
-      "title": "呼啸山庄",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.5,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fjKspxpYDRwxWKHI0PUSAWaAeRf.jpg"
     },
     {
       "id": 1198994,
@@ -334,48 +301,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
     },
     {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.4,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
-    },
-    {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.6,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
-      "id": 1115544,
-      "title": "我当你兄弟",
-      "type": "movie",
-      "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.7,
-      "release_date": "2026-03-14",
-      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
-      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
+      "id": 202555,
+      "title": "夜魔侠：重生",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 1297842,
+      "title": "奇迹梦之队",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 7.7,
+      "release_date": "2026-02-11",
+      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
       "id": 1084187,
@@ -389,15 +334,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vJi5bUeE6QHXbE834R5iGGLlyXX.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+      "id": 467905,
+      "title": "如何大赚一笔",
+      "type": "movie",
+      "genreTitle": "喜剧•惊悚",
+      "rating": 7.2,
+      "release_date": "2026-02-19",
+      "overview": "　　本是豪门继承人的贝克特·雷德费洛被家族抛弃，为了确保成为巨额遗产的唯一继承人，他不择手段干掉了七个亲戚。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ePqVAEjKVgBh1fWaMUyfVTLHj5J.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n2u71qKzc5t3LRwdKbDeJv4JSYj.jpg"
+    },
+    {
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "动画•家庭•科幻",
+      "rating": 7.6,
+      "release_date": "2026-03-04",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 95479,
@@ -411,15 +367,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 94404,
-      "title": "异兽魔都",
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.4,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+    },
+    {
+      "id": 209867,
+      "title": "葬送的芙莉莲",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•喜剧",
-      "rating": 8.3,
-      "release_date": "2020-01-13",
-      "overview": "丧失记忆的开曼在好友二阶堂的帮助下试图杀掉诅咒他的魔法师，以解除蜥蜴头魔法。与此同时，洞穴面临威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/crvf49wBo1NNcGtmpGwVHgL25m0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bsVSyPPAcYgrKdmGROmgOm0z5FG.jpg"
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 249597,
@@ -433,15 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e9HhOb3o22t89lnpN511GzZE0Fp.jpg"
     },
     {
-      "id": 1268127,
-      "title": "谍报暗线",
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 1523145,
+      "title": "你会心碎",
       "type": "movie",
-      "genreTitle": "惊悚•动作•剧情",
-      "rating": 7.5,
-      "release_date": "2026-02-11",
-      "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
+      "genreTitle": "爱情•剧情",
+      "rating": 6.6,
+      "release_date": "2026-03-26",
+      "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
+    },
+    {
+      "id": 259265,
+      "title": "命中婚劫",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 6.7,
+      "release_date": "2026-03-26",
+      "overview": "新娘预感到婚礼上会发生可怕的事。越接近婚礼殿堂，她的这种感觉就越强烈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zK33Kgb9goCpWYk0HEvY8UIKBa3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1mBt0KKBb6CgCY1klfNWeVq5xkW.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "popular_movies": [
