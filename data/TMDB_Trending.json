@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-04-03 22:33:19",
+  "last_updated": "2026-04-03 23:30:09",
   "today_global": [
-    {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.3,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
     {
       "id": 1171145,
       "title": "洛杉矶劫案",
@@ -22,6 +11,17 @@
       "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9mjftAsTUT6RroArHq7Lwn0lt8N.jpg"
+    },
+    {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.3,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hYGXf2kkykFhBny0vHHmbx5G27o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
       "id": 127529,
@@ -46,15 +46,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qLs1r8wSE0tn7dH1Fyz0BlQyuLR.jpg"
     },
     {
-      "id": 213703,
-      "title": "乩身",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.8,
-      "release_date": "2026-04-02",
-      "overview": "乩身韩杰被迫为三太子卖命，必须处理人间的各种灵异事件，为他儿时犯下的过错赎罪。在这过程中，他认识了乐观的女大生叶子，以及有阴阳眼的刑警张泯。三人不畏生死，携手面对心狠手辣的神秘反派陈七杀，同时揭开扰乱阴阳两界的吴天机究竟有何盘算。这段经历也让韩杰找回了人生意义，体悟天赋的真谛。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f4JUcEI7k1tEzcA7HAVbQEblOo8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oi0plAYxxae5k53h2YaULxKRC1t.jpg"
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 1493859,
+      "title": "披萨电影",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•科幻",
+      "rating": 5.0,
+      "release_date": "2026-03-13",
+      "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Ft1lbz9AgR2BTRu3IygkZHP523.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hChSc7x0ygDQDKn5rnoQCsnZ4KD.jpg"
     },
     {
       "id": 1325734,
@@ -68,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 195670,
       "title": "爱你的基蒂",
       "type": "tv",
@@ -90,26 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/74VztzQ8EaRATvo1kk04jIEPW1w.jpg"
     },
     {
-      "id": 86031,
-      "title": "石纪元",
+      "id": 213703,
+      "title": "乩身",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•喜剧",
-      "rating": 8.5,
-      "release_date": "2019-07-05",
-      "overview": "全人类被神奇的现象一瞬间石化后过了几千年——拥有超人般头脑、天生的科学少年·千空苏醒了。在文明遭到毁灭的石头世界（STONE WORLD）里，千空决定要用科学的力量复原整个世界。而与此同时苏醒过来的有，以有着过人体力的儿时玩伴·大木大树为首的伙伴们，从零开始创造文明——从石器时代到现代文明，一定要赶上这科学史的200万年差距！前所未闻的创世冒险谭，就此开幕！",
-      "poster_url": "https://image.tmdb.org/t/p/original/7GFo7yLsXmnIH6xOB3blY8KyAMd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/px8w8DstjI8AOaWYqLc6BQngUvL.jpg"
-    },
-    {
-      "id": 1493859,
-      "title": "披萨电影",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•科幻",
-      "rating": 0.0,
-      "release_date": "2026-03-13",
-      "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/s3BQYWeYPxGJwGaSYftGyE1SaKV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hChSc7x0ygDQDKn5rnoQCsnZ4KD.jpg"
+      "genreTitle": "剧情•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2026-04-02",
+      "overview": "乩身韩杰被迫为三太子卖命，必须处理人间的各种灵异事件，为他儿时犯下的过错赎罪。在这过程中，他认识了乐观的女大生叶子，以及有阴阳眼的刑警张泯。三人不畏生死，携手面对心狠手辣的神秘反派陈七杀，同时揭开扰乱阴阳两界的吴天机究竟有何盘算。这段经历也让韩杰找回了人生意义，体悟天赋的真谛。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f4JUcEI7k1tEzcA7HAVbQEblOo8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oi0plAYxxae5k53h2YaULxKRC1t.jpg"
     },
     {
       "id": 1159559,
@@ -123,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
+      "id": 283428,
+      "title": "冰之城墙",
+      "type": "tv",
+      "genreTitle": "动画•剧情•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-02",
+      "overview": "　　冰川小雪不擅长与人接触，与他人之间竖起了一堵城墙。尽管在高中里不与人扯上关系独自度过，却和不知为何不停逼近的雨宫凑相遇了——？孤高的女子小雪，学校里的人气之人美姬，毫无距离感男子凑，有着悠哉温柔氛围的阳太。有些问题的四人的，令人着急的青春混线故事！",
+      "poster_url": "https://image.tmdb.org/t/p/original/cfY8HWNHbbeoGsBPFzc1pBB2UiW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8Oh5v6xltWdVgt9Vt465qbLXatM.jpg"
+    },
+    {
       "id": 1268127,
       "title": "谍报暗线",
       "type": "movie",
@@ -132,6 +132,17 @@
       "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
       "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
+    },
+    {
+      "id": 86031,
+      "title": "石纪元",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•喜剧",
+      "rating": 8.5,
+      "release_date": "2019-07-05",
+      "overview": "全人类被神奇的现象一瞬间石化后过了几千年——拥有超人般头脑、天生的科学少年·千空苏醒了。在文明遭到毁灭的石头世界（STONE WORLD）里，千空决定要用科学的力量复原整个世界。而与此同时苏醒过来的有，以有着过人体力的儿时玩伴·大木大树为首的伙伴们，从零开始创造文明——从石器时代到现代文明，一定要赶上这科学史的200万年差距！前所未闻的创世冒险谭，就此开幕！",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GFo7yLsXmnIH6xOB3blY8KyAMd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/px8w8DstjI8AOaWYqLc6BQngUvL.jpg"
     },
     {
       "id": 241609,
@@ -145,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m8Qz1ySSIGIdQQD7TZlbRweaMJ1.jpg"
     },
     {
-      "id": 283428,
-      "title": "冰之城墙",
-      "type": "tv",
-      "genreTitle": "动画•剧情•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-02",
-      "overview": "　　冰川小雪不擅长与人接触，与他人之间竖起了一堵城墙。尽管在高中里不与人扯上关系独自度过，却和不知为何不停逼近的雨宫凑相遇了——？孤高的女子小雪，学校里的人气之人美姬，毫无距离感男子凑，有着悠哉温柔氛围的阳太。有些问题的四人的，令人着急的青春混线故事！",
-      "poster_url": "https://image.tmdb.org/t/p/original/cfY8HWNHbbeoGsBPFzc1pBB2UiW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8Oh5v6xltWdVgt9Vt465qbLXatM.jpg"
-    },
-    {
       "id": 250307,
       "title": "匹兹堡医护前线",
       "type": "tv",
@@ -165,6 +165,17 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+    },
+    {
+      "id": 1620551,
+      "title": "心之高歌",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 0.0,
+      "release_date": "2026-04-03",
+      "overview": "作为聋人家庭唯一能听见声音的成员，含羞的少女发现自己拥有唱歌天赋，她不得不在履行责任和寻找自己的道路之间做出抉择。",
+      "poster_url": "https://image.tmdb.org/t/p/original/orKCPlIHG1PulYZfG79aEKMKK29.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Ary1sG0AHn4V1DFrwV7g72Fomq0.jpg"
     },
     {
       "id": 95479,
@@ -189,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 303405,
-      "title": "九条的大罪",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 6.0,
-      "release_date": "2026-04-02",
-      "overview": "该剧改编自同名漫画，讲述九条间人（柳乐优弥 饰）是一名专门接手“半灰势力”、黑社会、前科犯等棘手委托案件的律师，被世人称为“恶德律师”。但他以法律为武器，即便面对道德上无法原谅的恶人，也坚持为其辩护。九条所坚持的“正义”究竟是什么？",
-      "poster_url": "https://image.tmdb.org/t/p/original/a4wmKvDSlSc0DgPUnrlkmP0tu6u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ot9Zqs2X9e3nrDM4MbWfp34iMAx.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 202555,
@@ -209,17 +220,6 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 1620551,
-      "title": "心之高歌",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-04-03",
-      "overview": "作为聋人家庭唯一能听见声音的成员，含羞的少女发现自己拥有唱歌天赋，她不得不在履行责任和寻找自己的道路之间做出抉择。",
-      "poster_url": "https://image.tmdb.org/t/p/original/orKCPlIHG1PulYZfG79aEKMKK29.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Ary1sG0AHn4V1DFrwV7g72Fomq0.jpg"
     }
   ],
   "week_global_all": [
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.4,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
-    },
-    {
       "id": 127529,
       "title": "猎犬",
       "type": "tv",
@@ -301,59 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
-    },
-    {
-      "id": 1327819,
-      "title": "河狸变身计划",
+      "id": 1325734,
+      "title": "爱情抓马",
       "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.6,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
-      "id": 1115544,
-      "title": "我当你兄弟",
-      "type": "movie",
-      "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-03-14",
-      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
-      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
-    },
-    {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 1316092,
-      "title": "呼啸山庄",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.5,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.4,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
       "id": 209867,
@@ -367,6 +312,61 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.5,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
+    },
+    {
+      "id": 1115544,
+      "title": "我当你兄弟",
+      "type": "movie",
+      "genreTitle": "喜剧•科幻•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-03-14",
+      "overview": "两个黑帮大佬和他心爱的女人，度过人生中最玩命的一夜求生战。一部“时光机”的出现，令这一夜瞬间变成时空错乱的闹剧……",
+      "poster_url": "https://image.tmdb.org/t/p/original/tGfRTox6Z8VDLeMSogqxvAsqE7C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8umpt0LLi17vHUtrorHS6lhk97a.jpg"
+    },
+    {
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "动画•家庭•科幻",
+      "rating": 7.6,
+      "release_date": "2026-03-04",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
+      "id": 1493859,
+      "title": "披萨电影",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•科幻",
+      "rating": 5.0,
+      "release_date": "2026-03-13",
+      "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Ft1lbz9AgR2BTRu3IygkZHP523.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hChSc7x0ygDQDKn5rnoQCsnZ4KD.jpg"
+    },
+    {
       "id": 1297842,
       "title": "奇迹梦之队",
       "type": "movie",
@@ -376,6 +376,17 @@
       "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
       "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 1268127,
@@ -411,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 1493859,
-      "title": "披萨电影",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•科幻",
-      "rating": 0.0,
-      "release_date": "2026-03-13",
-      "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/s3BQYWeYPxGJwGaSYftGyE1SaKV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hChSc7x0ygDQDKn5rnoQCsnZ4KD.jpg"
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 250307,
@@ -431,17 +442,6 @@
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "popular_movies": [
