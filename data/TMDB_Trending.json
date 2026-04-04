@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04 15:38:59",
+  "last_updated": "2026-04-04 16:25:40",
   "today_global": [
     {
       "id": 127529,
@@ -50,11 +50,11 @@
       "title": "披萨电影",
       "type": "movie",
       "genreTitle": "喜剧•冒险•科幻",
-      "rating": 6.7,
+      "rating": 7.0,
       "release_date": "2026-03-13",
       "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
       "poster_url": "https://image.tmdb.org/t/p/original/hAPbYLZhbQpluzpeMWticacrUBl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uSMsiIzB8ISwV4ICXmIBhps77cD.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
     },
     {
       "id": 1620551,
@@ -68,26 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/Ary1sG0AHn4V1DFrwV7g72Fomq0.jpg"
     },
     {
-      "id": 82684,
-      "title": "关于我转生变成史莱姆这档事",
+      "id": 241609,
+      "title": "掩耳盗邻",
       "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2018-10-02",
-      "overview": "三上悟过着不起眼的人生，在随机杀人魔肆虐下结束了三十七年生涯，看似如此。当他苏醒时，不仅眼睛看不见，就连耳朵也听不到。面对一连串突发状况，他意识到自己投胎转世成“史莱姆”。尽管变成最弱魔物让他颇有怨言，三上悟还是决定要快乐地过史莱姆生活，没想到却碰上天灾级魔物“暴风龙维尔德拉”，命运就此出现巨大转折。维尔德拉将他命名为“利姆鲁”，正要展开史莱姆式的异世界新生活时，却被卷入哥布林对牙狼族的纷争之中，最后还莫名其妙当上魔物大王。能夺取对手能力的“捕食者”以及精通世界真理的“大贤者”，有这两项特殊技能当武器，最强的史莱姆传说正式展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/t0dG685BBauz3X687FEjlt8FnMK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5rcEQ5AG617uTUpO2oPWPCx68Fk.jpg"
-    },
-    {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.4,
+      "release_date": "2025-04-10",
+      "overview": "一名金融巨擘突然痛失婚姻与事业，他开始抢劫富有的邻居来维生。在自己的社交圈中行窃，让他感到莫名的兴奋，但他也逐渐陷入一张错综复杂的致命之网中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nmyustHpxi7QvhZiLwVfSdRLh7r.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uUnpmiLCdlwubCC8AXOBtTYH7Mm.jpg"
     },
     {
       "id": 1159559,
@@ -101,22 +90,44 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
-      "id": 241609,
-      "title": "掩耳盗邻",
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 82684,
+      "title": "关于我转生变成史莱姆这档事",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.4,
-      "release_date": "2025-04-10",
-      "overview": "一名金融巨擘突然痛失婚姻与事业，他开始抢劫富有的邻居来维生。在自己的社交圈中行窃，让他感到莫名的兴奋，但他也逐渐陷入一张错综复杂的致命之网中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nmyustHpxi7QvhZiLwVfSdRLh7r.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uUnpmiLCdlwubCC8AXOBtTYH7Mm.jpg"
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2018-10-02",
+      "overview": "三上悟过着不起眼的人生，在随机杀人魔肆虐下结束了三十七年生涯，看似如此。当他苏醒时，不仅眼睛看不见，就连耳朵也听不到。面对一连串突发状况，他意识到自己投胎转世成“史莱姆”。尽管变成最弱魔物让他颇有怨言，三上悟还是决定要快乐地过史莱姆生活，没想到却碰上天灾级魔物“暴风龙维尔德拉”，命运就此出现巨大转折。维尔德拉将他命名为“利姆鲁”，正要展开史莱姆式的异世界新生活时，却被卷入哥布林对牙狼族的纷争之中，最后还莫名其妙当上魔物大王。能夺取对手能力的“捕食者”以及精通世界真理的“大贤者”，有这两项特殊技能当武器，最强的史莱姆传说正式展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t0dG685BBauz3X687FEjlt8FnMK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5rcEQ5AG617uTUpO2oPWPCx68Fk.jpg"
+    },
+    {
+      "id": 154743,
+      "title": "邻家的天使同学",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 7.7,
+      "release_date": "2023-01-07",
+      "overview": "高一学生藤宫周在升学后开始了他的独居生活。他所在的公寓隔壁，住着他们学校第一的美少女——椎名真昼。他们二人平时几乎没有交集。而一次大雨中，周把伞借给了浑身湿透的真昼。自此，二人便开始了奇妙的交流。周的懒散独居生活让真昼实在看不下去。她便开始为他做饭，打扫卫生，照顾他的起居。互为邻居的二人渐渐地开始对彼此有所了解。这是一个与可爱邻居之间的甜蜜又让人心急的恋爱故事——",
+      "poster_url": "https://image.tmdb.org/t/p/original/vNslQo6TikLZLXnHDda3PHJ3CG8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ngh4pCFeDiSz5ULnxUSru20Bfxk.jpg"
     },
     {
       "id": 1325734,
       "title": "爱情抓马",
       "type": "movie",
       "genreTitle": "爱情•喜剧",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2026-03-26",
       "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
       "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
@@ -134,48 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 154743,
-      "title": "邻家的天使同学",
+      "id": 95479,
+      "title": "咒术回战",
       "type": "tv",
-      "genreTitle": "动画•喜剧",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+    },
+    {
+      "id": 87917,
+      "title": "For All Mankind",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
       "rating": 7.7,
-      "release_date": "2023-01-07",
-      "overview": "高一学生藤宫周在升学后开始了他的独居生活。他所在的公寓隔壁，住着他们学校第一的美少女——椎名真昼。他们二人平时几乎没有交集。而一次大雨中，周把伞借给了浑身湿透的真昼。自此，二人便开始了奇妙的交流。周的懒散独居生活让真昼实在看不下去。她便开始为他做饭，打扫卫生，照顾他的起居。互为邻居的二人渐渐地开始对彼此有所了解。这是一个与可爱邻居之间的甜蜜又让人心急的恋爱故事——",
-      "poster_url": "https://image.tmdb.org/t/p/original/vNslQo6TikLZLXnHDda3PHJ3CG8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ngh4pCFeDiSz5ULnxUSru20Bfxk.jpg"
-    },
-    {
-      "id": 1268127,
-      "title": "谍报暗线",
-      "type": "movie",
-      "genreTitle": "惊悚•动作•剧情",
-      "rating": 7.2,
-      "release_date": "2026-02-11",
-      "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+      "release_date": "2019-11-01",
+      "overview": "假如全球太空竞赛一直没有结束，世界会是怎样的光景？这部扣人心弦的架空历史剧由罗纳德D.摩尔（《古战场传奇》、《太空堡垒卡拉狄加》）打造，呈现了美国航空航天局的宇航员所面对的高风险和他们的家庭生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eZpq7owpTlR3Gj9zWNdcGNJtgzX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ytpHp1nhaEBNBZblzQLyyWRmNGf.jpg"
     },
     {
       "id": 227042,
@@ -189,26 +178,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aqyeIdqUzVBwd22mXHI7I6tk1EM.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
+      "id": 213703,
+      "title": "乩身",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+      "genreTitle": "剧情•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.4,
+      "release_date": "2026-04-02",
+      "overview": "乩身韩杰被迫为三太子卖命，必须处理人间的各种灵异事件，为他儿时犯下的过错赎罪。在这过程中，他认识了乐观的女大生叶子，以及有阴阳眼的刑警张泯。三人不畏生死，携手面对心狠手辣的神秘反派陈七杀，同时揭开扰乱阴阳两界的吴天机究竟有何盘算。这段经历也让韩杰找回了人生意义，体悟天赋的真谛。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f4JUcEI7k1tEzcA7HAVbQEblOo8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oi0plAYxxae5k53h2YaULxKRC1t.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
+      "id": 250307,
+      "title": "匹兹堡医护前线",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 195670,
@@ -220,6 +209,17 @@
       "overview": "少女红娘基蒂听从内心，来到首尔一所精英高中。在那里，她认识到生活、爱情和家庭比她想象得更加复杂。",
       "poster_url": "https://image.tmdb.org/t/p/original/z8QwhurSNdnpntLSA0YtLSLj1ul.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/74VztzQ8EaRATvo1kk04jIEPW1w.jpg"
+    },
+    {
+      "id": 1268127,
+      "title": "谍报暗线",
+      "type": "movie",
+      "genreTitle": "惊悚•动作•剧情",
+      "rating": 7.2,
+      "release_date": "2026-02-11",
+      "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
     }
   ],
   "week_global_all": [
@@ -334,6 +334,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.7,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
+    },
+    {
       "id": 1316092,
       "title": "呼啸山庄",
       "type": "movie",
@@ -343,17 +354,6 @@
       "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
-    },
-    {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.8,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
       "id": 1297842,
@@ -367,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     },
     {
+      "id": 127529,
+      "title": "猎犬",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.3,
+      "release_date": "2023-06-09",
+      "overview": "两名年轻的拳击手与心地善良的放贷人联手对抗趁人之危的冷酷高利贷者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f3EBwYRGPRv3peMdKjwbPaPB8m9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
+    },
+    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -376,6 +387,17 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 37854,
@@ -389,15 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
+      "id": 87917,
+      "title": "For All Mankind",
       "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
+      "rating": 7.7,
+      "release_date": "2019-11-01",
+      "overview": "假如全球太空竞赛一直没有结束，世界会是怎样的光景？这部扣人心弦的架空历史剧由罗纳德D.摩尔（《古战场传奇》、《太空堡垒卡拉狄加》）打造，呈现了美国航空航天局的宇航员所面对的高风险和他们的家庭生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eZpq7owpTlR3Gj9zWNdcGNJtgzX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ytpHp1nhaEBNBZblzQLyyWRmNGf.jpg"
     },
     {
       "id": 1268127,
@@ -420,28 +442,6 @@
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
-    },
-    {
-      "id": 127529,
-      "title": "猎犬",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.3,
-      "release_date": "2023-06-09",
-      "overview": "两名年轻的拳击手与心地善良的放贷人联手对抗趁人之危的冷酷高利贷者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f3EBwYRGPRv3peMdKjwbPaPB8m9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
-    },
-    {
-      "id": 87917,
-      "title": "For All Mankind",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
-      "rating": 7.7,
-      "release_date": "2019-11-01",
-      "overview": "假如全球太空竞赛一直没有结束，世界会是怎样的光景？这部扣人心弦的架空历史剧由罗纳德D.摩尔（《古战场传奇》、《太空堡垒卡拉狄加》）打造，呈现了美国航空航天局的宇航员所面对的高风险和他们的家庭生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eZpq7owpTlR3Gj9zWNdcGNJtgzX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ytpHp1nhaEBNBZblzQLyyWRmNGf.jpg"
     }
   ],
   "popular_movies": [
