@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05 22:24:03",
+  "last_updated": "2026-04-05 23:19:45",
   "today_global": [
     {
       "id": 83533,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 127529,
-      "title": "猎犬",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.3,
-      "release_date": "2023-06-09",
-      "overview": "两名年轻的拳击手与心地善良的放贷人联手对抗趁人之危的冷酷高利贷者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f3EBwYRGPRv3peMdKjwbPaPB8m9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -88,6 +77,17 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
+      "id": 127529,
+      "title": "猎犬",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.3,
+      "release_date": "2023-06-09",
+      "overview": "两名年轻的拳击手与心地善良的放贷人联手对抗趁人之危的冷酷高利贷者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f3EBwYRGPRv3peMdKjwbPaPB8m9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
     },
     {
       "id": 209867,
@@ -101,15 +101,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.8,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
+    },
+    {
       "id": 1493859,
       "title": "披萨电影",
       "type": "movie",
       "genreTitle": "喜剧•冒险•科幻",
-      "rating": 6.8,
+      "rating": 7.0,
       "release_date": "2026-03-13",
       "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
       "poster_url": "https://image.tmdb.org/t/p/original/hAPbYLZhbQpluzpeMWticacrUBl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
+    },
+    {
+      "id": 1159559,
+      "title": "惊声尖叫7",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1enQDc50cQ5ChHKUwpLMLTzfC2d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
     },
     {
       "id": 295999,
@@ -123,26 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyWOoMzMNmnpttuQlEjn5axZMSc.jpg"
     },
     {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.8,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
-    },
-    {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 6.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1enQDc50cQ5ChHKUwpLMLTzfC2d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
+      "id": 305329,
+      "title": "主播女孩重度依赖",
+      "type": "tv",
+      "genreTitle": "动画",
+      "rating": 0.0,
+      "release_date": "2026-04-05",
+      "overview": "描写了一位想要成为最强的主播同时迫切想要得到他人认可的女孩，与辅佐她的“阿P”共同生活的故事。令全世界着迷的“互联网天使”的动画即将拉开帷幕。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gsNEVTYrUgRlBDhynYtQy9u7YYR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dot1NI6F5IrLck8xWIOn74ieaDH.jpg"
     },
     {
       "id": 82684,
@@ -167,28 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wwTjrRb0HG9sd87EDAn6ZbvxQGX.jpg"
     },
     {
-      "id": 305329,
-      "title": "主播女孩重度依赖",
-      "type": "tv",
-      "genreTitle": "动画",
-      "rating": 0.0,
-      "release_date": "2026-04-05",
-      "overview": "描写了一位想要成为最强的主播同时迫切想要得到他人认可的女孩，与辅佐她的“阿P”共同生活的故事。令全世界着迷的“互联网天使”的动画即将拉开帷幕。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gsNEVTYrUgRlBDhynYtQy9u7YYR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dot1NI6F5IrLck8xWIOn74ieaDH.jpg"
-    },
-    {
-      "id": 285818,
-      "title": "迦楠大人的白给是恶魔级",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-04-05",
-      "overview": "　　【超可爱恶魔和天然积极人类的初恋喜剧♪】\n\n　　以人类的灵魂为粮食，潜伏在人界里的高中的女恶魔·迦楠。某日锁定了一名男高中生，出于某种原因，意外结下恋人的契约！？\n\n　　千年之间从未谈过恋爱的迦楠，迎来各种未知的情感…！酸酸甜甜的青春闹剧之风！纯情恶魔的超可爱恋爱喜剧开演！",
-      "poster_url": "https://image.tmdb.org/t/p/original/tL3Hhpqe6KuRw8WKsqtA63U4VQh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ivvNPySFYbMOplZrfjWDjLLxt2h.jpg"
-    },
-    {
       "id": 1316092,
       "title": "呼啸山庄",
       "type": "movie",
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 1523145,
-      "title": "你会心碎",
+      "id": 285818,
+      "title": "迦楠大人的白给是恶魔级",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-04-05",
+      "overview": "　　【超可爱恶魔和天然积极人类的初恋喜剧♪】\n\n　　以人类的灵魂为粮食，潜伏在人界里的高中的女恶魔·迦楠。某日锁定了一名男高中生，出于某种原因，意外结下恋人的契约！？\n\n　　千年之间从未谈过恋爱的迦楠，迎来各种未知的情感…！酸酸甜甜的青春闹剧之风！纯情恶魔的超可爱恋爱喜剧开演！",
+      "poster_url": "https://image.tmdb.org/t/p/original/tL3Hhpqe6KuRw8WKsqtA63U4VQh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ivvNPySFYbMOplZrfjWDjLLxt2h.jpg"
+    },
+    {
+      "id": 1620551,
+      "title": "心之高歌",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.1,
-      "release_date": "2026-03-26",
-      "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
+      "genreTitle": "音乐•剧情•喜剧",
+      "rating": 5.9,
+      "release_date": "2026-04-03",
+      "overview": "作为聋人家庭唯一能听见声音的成员，含羞的少女发现自己拥有唱歌天赋，她不得不在履行责任和寻找自己的道路之间做出抉择。",
+      "poster_url": "https://image.tmdb.org/t/p/original/orKCPlIHG1PulYZfG79aEKMKK29.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gApgb1BcxxZTaFd2nudgytaRUmw.jpg"
     }
   ],
   "week_global_all": [
@@ -301,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
-      "id": 1316092,
-      "title": "呼啸山庄",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.5,
-      "release_date": "2026-02-11",
-      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -323,26 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wwTjrRb0HG9sd87EDAn6ZbvxQGX.jpg"
-    },
-    {
-      "id": 127529,
-      "title": "猎犬",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.3,
-      "release_date": "2023-06-09",
-      "overview": "两名年轻的拳击手与心地善良的放贷人联手对抗趁人之危的冷酷高利贷者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f3EBwYRGPRv3peMdKjwbPaPB8m9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
+      "id": 1316092,
+      "title": "呼啸山庄",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.5,
+      "release_date": "2026-02-11",
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
       "id": 202555,
@@ -356,6 +334,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
+      "id": 127529,
+      "title": "猎犬",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.3,
+      "release_date": "2023-06-09",
+      "overview": "两名年轻的拳击手与心地善良的放贷人联手对抗趁人之危的冷酷高利贷者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f3EBwYRGPRv3peMdKjwbPaPB8m9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
+    },
+    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -365,6 +354,17 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
+      "id": 95479,
+      "title": "咒术回战",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wwTjrRb0HG9sd87EDAn6ZbvxQGX.jpg"
     },
     {
       "id": 1268127,
@@ -378,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
       "id": 1297842,
       "title": "奇迹梦之队",
       "type": "movie",
@@ -398,6 +387,17 @@
       "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
       "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+    },
+    {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 1523145,
@@ -411,22 +411,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-01-22",
-      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
-      "poster_url": "https://image.tmdb.org/t/p/original/rfI8LZB2BrBbIiO0lY4pIqXaA2H.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7iFveqxjbGWvcl0WF6PmEokr2su.jpg"
+      "id": 260463,
+      "title": "黄泉的使者",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 10.0,
+      "release_date": "2026-04-04",
+      "overview": "少年尤尔出生在一个清净的深山村庄里。 从小到大都一直没有离开这个村庄。 而他的双胞胎妹妹阿萨，则是一直被关在村子深处的牢狱里工作，而且不知道为什么，只有一部分的村民能够见到阿萨。  某一天，这个村庄突然遭到神秘人士的入侵，村民一一遭到杀害，带头的其中一个女性，居然自称为阿萨，而且称呼尤尔为兄长，甚至还说牢里的阿萨是假的，前来攻击村庄的目的，就是要把尤尔带走。  在情急之下，尤尔唤醒了大家一直视为村庄守护神的左右大人应战，而左右大人却称呼尤尔为「主人」...",
+      "poster_url": "https://image.tmdb.org/t/p/original/7DwXtgv3ngMM3BDLlK2nHiwLyHp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nUZECCEQUCtu1WKW1Gll9Ba8V2J.jpg"
     },
     {
       "id": 1493859,
       "title": "披萨电影",
       "type": "movie",
       "genreTitle": "喜剧•冒险•科幻",
-      "rating": 6.8,
+      "rating": 7.0,
       "release_date": "2026-03-13",
       "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
       "poster_url": "https://image.tmdb.org/t/p/original/hAPbYLZhbQpluzpeMWticacrUBl.jpg",
