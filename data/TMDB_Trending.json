@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07 18:43:48",
+  "last_updated": "2026-04-07 19:41:44",
   "today_global": [
     {
       "id": 1159831,
@@ -79,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
+    },
+    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -110,17 +121,6 @@
       "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
       "poster_url": "https://image.tmdb.org/t/p/original/hAPbYLZhbQpluzpeMWticacrUBl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
-    },
-    {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
       "id": 127529,
@@ -167,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dxZCvw6UaYjugoeaPmDs6c6DXMG.jpg"
     },
     {
-      "id": 95479,
-      "title": "咒术回战",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2020-10-03",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
-    },
-    {
       "id": 209867,
       "title": "葬送的芙莉莲",
       "type": "tv",
@@ -189,37 +178,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
-      "id": 312474,
-      "title": "日本三国",
+      "id": 95479,
+      "title": "咒术回战",
       "type": "tv",
-      "genreTitle": "动画•剧情•War & Politics",
-      "rating": 0.0,
-      "release_date": "2026-04-05",
-      "overview": "　　在文明崩溃后的近未来，一位青年为了再次统一再度化为战国时代的日本而挺身而出。其名为三角青辉。在后世被评价为奇才军师的他的传说，现在开始！！",
-      "poster_url": "https://image.tmdb.org/t/p/original/lGyQoPUOqeTKhtu2HfBnmiojIQe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3DU0NOOcghnjSApPzP14yjMeCwW.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2020-10-03",
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "poster_url": "https://image.tmdb.org/t/p/original/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
-      "id": 1327819,
-      "title": "河狸变身计划",
+      "id": 1641319,
+      "title": "Sniper: No Nation",
       "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.6,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+      "genreTitle": "动作•惊悚",
+      "rating": 0.0,
+      "release_date": "2026-04-07",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/y54ZFjeM3BEb40mBDAF8Jxv7mwG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8SJVDewYCG8ol9pe5mbK0qCeyS.jpg"
     },
     {
-      "id": 290856,
-      "title": "法警小队",
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 288551,
+      "title": "木头风纪委员和迷你裙JK的故事",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.2,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
+      "genreTitle": "动画•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-06",
+      "overview": "　　严格过头的风纪委员樱大门的职务是，在校门口检查学生着装。最让他介意的，是那个染发和穿超短裙的问题少女小日向。然而，认为樱大门很啰嗦的她，却发现他是个“学渣”的惊人事实...",
+      "poster_url": "https://image.tmdb.org/t/p/original/uBHcmbmC3TccLO6hdrttOpjy4bN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A2TKAe8XxEVBd71aQ9f00sErc62.jpg"
     }
   ],
   "week_global_all": [
@@ -323,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
     },
     {
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.4,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A5kLEslYD3IJrSnnEZL0TfQAQlJ.jpg"
+    },
+    {
       "id": 1493859,
       "title": "披萨电影",
       "type": "movie",
@@ -334,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
     },
     {
-      "id": 76479,
-      "title": "黑袍纠察队",
+      "id": 209867,
+      "title": "葬送的芙莉莲",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.4,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A5kLEslYD3IJrSnnEZL0TfQAQlJ.jpg"
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 1159559,
@@ -378,6 +389,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
+      "id": 196950,
+      "title": "尖帽子的魔法工房",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "release_date": "2026-04-06",
+      "overview": "　　生活在一个偏远村庄的少女可可一直渴望成为一名魔法师，但是这个世界只有出生就是魔法师的人才能成为魔法师。在一次偶然事故中，可可不小心看到了魔法师奇夫利施展魔法的过程，发现了魔法的真相。于是可可便临摹起了自己还是孩童时一位自称魔法师的神秘男子卖给她的一本绘本，不料却用出了强大而危险的禁忌魔法，将自己的母亲与房子都变成了石头。发现了自己不小心将魔法真相泄露而返回寻找可可的奇夫利看到禁忌魔法所造成的惨状，决心将她收为自己的徒弟，解开「绘本」之谜，帮助她将自己的母亲恢复原状。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1qGSBnrANHLX8C7KqGuPDCylns2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8yTIQ18sa4mcLx4diyjsalDOVkb.jpg"
+    },
+    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -387,17 +409,6 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
     },
     {
       "id": 1316092,
@@ -411,28 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yQFR8wxYfQwP5Rpr1gk6YlnkNJY.jpg"
     },
     {
-      "id": 1268127,
-      "title": "谍报暗线",
-      "type": "movie",
-      "genreTitle": "惊悚•动作•剧情",
-      "rating": 7.1,
-      "release_date": "2026-02-11",
-      "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
-    },
-    {
-      "id": 196950,
-      "title": "尖帽子的魔法工房",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 9.0,
-      "release_date": "2026-04-06",
-      "overview": "　　生活在一个偏远村庄的少女可可一直渴望成为一名魔法师，但是这个世界只有出生就是魔法师的人才能成为魔法师。在一次偶然事故中，可可不小心看到了魔法师奇夫利施展魔法的过程，发现了魔法的真相。于是可可便临摹起了自己还是孩童时一位自称魔法师的神秘男子卖给她的一本绘本，不料却用出了强大而危险的禁忌魔法，将自己的母亲与房子都变成了石头。发现了自己不小心将魔法真相泄露而返回寻找可可的奇夫利看到禁忌魔法所造成的惨状，决心将她收为自己的徒弟，解开「绘本」之谜，帮助她将自己的母亲恢复原状。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1qGSBnrANHLX8C7KqGuPDCylns2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8yTIQ18sa4mcLx4diyjsalDOVkb.jpg"
-    },
-    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -442,6 +431,17 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 1268127,
+      "title": "谍报暗线",
+      "type": "movie",
+      "genreTitle": "惊悚•动作•剧情",
+      "rating": 7.1,
+      "release_date": "2026-02-11",
+      "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
     }
   ],
   "popular_movies": [
