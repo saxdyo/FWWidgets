@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09 02:57:06",
+  "last_updated": "2026-04-09 03:53:47",
   "today_global": [
     {
       "id": 76479,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 1159831,
-      "title": "暗黑新娘！",
-      "type": "movie",
-      "genreTitle": "科幻•恐怖•奇幻",
-      "rating": 6.3,
-      "release_date": "2026-03-04",
-      "overview": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hidlVpZU1mDGsg6ptRplCEcU78k.jpg"
-    },
-    {
       "id": 287527,
       "title": "证词",
       "type": "tv",
@@ -44,6 +33,17 @@
       "overview": "《证词》是《使女的故事》续章，一部以基列国为背景，扣人心弦的成长故事。故事聚焦在两位少女身上：恪守本分、虔诚至极的艾格妮丝，以及从外地加入基列国的黛西。她们进入莉迪亚嬷嬷为培养未来妻子而成立的婚前预备学院，在这座金碧辉煌的殿堂，嬷嬷们透过残忍的手段以及以神圣为理由，灌输服从的观念。艾格妮丝与黛西两人之间的情谊将成为一股催化剂，彻底颠覆她们的过去、现在与未来。",
       "poster_url": "https://image.tmdb.org/t/p/original/fqj1hW5Ca6PQ5EoCSLe8gfzmwkV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vyq8fQ6tm9DJCckJWqwPYZ8GThZ.jpg"
+    },
+    {
+      "id": 1159831,
+      "title": "暗黑新娘！",
+      "type": "movie",
+      "genreTitle": "科幻•恐怖•奇幻",
+      "rating": 6.3,
+      "release_date": "2026-03-04",
+      "overview": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hidlVpZU1mDGsg6ptRplCEcU78k.jpg"
     },
     {
       "id": 65942,
@@ -57,37 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
     },
     {
-      "id": 1641319,
-      "title": "狙击精英：孤魂野鬼",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-04-07",
-      "overview": "精英狙击手布兰登·贝克特与他的小队在哥斯达黎加执行一项秘密任务时，遭遇阴谋陷害，任务失败演变为国际丑闻。为了掩盖真相，美国政府直接撇清关系，将这群最锋利的战士定性为“恐怖分子”。前一秒还为国效力的英雄，后一秒就成了被自己国家通缉的逃兵。没有合法的身份，没有空中支援，甚至没有合法的射击通道，布兰登陷入了前所未有的孤立无援。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y54ZFjeM3BEb40mBDAF8Jxv7mwG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/q8SJVDewYCG8ol9pe5mbK0qCeyS.jpg"
-    },
-    {
-      "id": 95557,
-      "title": "无敌少侠",
+      "id": 202555,
+      "title": "夜魔侠：重生",
       "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 6.9,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 1325734,
@@ -101,15 +79,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
+      "id": 95557,
+      "title": "无敌少侠",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 1641319,
+      "title": "狙击精英：孤魂野鬼",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-04-07",
+      "overview": "精英狙击手布兰登·贝克特与他的小队在哥斯达黎加执行一项秘密任务时，遭遇阴谋陷害，任务失败演变为国际丑闻。为了掩盖真相，美国政府直接撇清关系，将这群最锋利的战士定性为“恐怖分子”。前一秒还为国效力的英雄，后一秒就成了被自己国家通缉的逃兵。没有合法的身份，没有空中支援，甚至没有合法的射击通道，布兰登陷入了前所未有的孤立无援。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y54ZFjeM3BEb40mBDAF8Jxv7mwG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/q8SJVDewYCG8ol9pe5mbK0qCeyS.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "动画•冒险•奇幻",
+      "rating": 6.9,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 687163,
@@ -178,37 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1li8V64SjeTeMgOBC5V6WDQeWVa.jpg"
     },
     {
-      "id": 290019,
-      "title": "和班上第二可爱的女孩子成为了朋友",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-04-07",
-      "overview": "　　连个熟人都没有的我·前原真树，交到的第一个朋友是朝凪海。\n\n　　被男生们说成是“班上第二可爱的”，对天真烂漫的No.1美少女天海照顾有加的朝凪——\n\n　　只在星期五放学后偷偷来我家玩。\n\n　　和电影、游戏、漫画趣味相投的她一起度过了快乐的时光。\n\n　　天真无邪、爱撒娇的素颜，从平时稳重可靠的人的样子来看是无法想象的。\n\n　　“快坐到我旁边，我们一起看漫画。” “这是我的床……” “现在是我的床，你过来吗?”\n\n　　距离不近吗，朝凪小姐?\n\n　　阴暗男子和第二女主角，真人大小的“朋友”爱情喜剧!",
-      "poster_url": "https://image.tmdb.org/t/p/original/ka6MnzUKX9aVuCuyPGpfUZCgb7G.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l68c9MqtfdYWX6cHFhu9vUBIb6d.jpg"
-    },
-    {
-      "id": 301944,
-      "title": "婚姻剧毒",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-04-07",
-      "overview": "　　干着持续了数百年的杀手行当“用毒人”的青年·下吕。对于干着暗中的工作，不擅长应对女性的他来说结婚并不是必须要做的东西。然而，为了不让“用毒人”的血脉断绝，老家通知他的妹妹要强制让她生下继承人。就在这时，下吕遇见了身为曾为其工作目标的骗婚师·城崎……？！“——这样的提案（求婚），还是第一次”让骗婚师当顾问的杀手结婚活动开始了！目标是最棒的结婚……世界第一困难的结婚活动战斗动作剧！！",
-      "poster_url": "https://image.tmdb.org/t/p/original/vSMNi73O92Ga4jZKb9cDkhwhxuW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/75tlG8N0UWyOVvikqDTDIFQIkav.jpg"
-    },
-    {
-      "id": 1493859,
-      "title": "披萨电影",
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
       "type": "movie",
-      "genreTitle": "喜剧•冒险",
-      "rating": 6.6,
-      "release_date": "2026-03-13",
-      "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hAPbYLZhbQpluzpeMWticacrUBl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
       "id": 85552,
@@ -220,20 +198,31 @@
       "overview": "有个青少年在夜总会外被谋杀，而悲剧发生一年后其他青少年同伴试图通过毒品、性爱和暴力来逃避现实，以应对无法确定的未来。",
       "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 290019,
+      "title": "和班上第二可爱的女孩子成为了朋友",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•剧情",
+      "rating": 0.0,
+      "release_date": "2026-04-07",
+      "overview": "　　连个熟人都没有的我·前原真树，交到的第一个朋友是朝凪海。\n\n　　被男生们说成是“班上第二可爱的”，对天真烂漫的No.1美少女天海照顾有加的朝凪——\n\n　　只在星期五放学后偷偷来我家玩。\n\n　　和电影、游戏、漫画趣味相投的她一起度过了快乐的时光。\n\n　　天真无邪、爱撒娇的素颜，从平时稳重可靠的人的样子来看是无法想象的。\n\n　　“快坐到我旁边，我们一起看漫画。” “这是我的床……” “现在是我的床，你过来吗?”\n\n　　距离不近吗，朝凪小姐?\n\n　　阴暗男子和第二女主角，真人大小的“朋友”爱情喜剧!",
+      "poster_url": "https://image.tmdb.org/t/p/original/ka6MnzUKX9aVuCuyPGpfUZCgb7G.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l68c9MqtfdYWX6cHFhu9vUBIb6d.jpg"
+    },
+    {
+      "id": 1493859,
+      "title": "披萨电影",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险",
+      "rating": 6.6,
+      "release_date": "2026-03-13",
+      "overview": "一个害羞的大学生和他鲁莽的室友开始了一个简单的任务去拿披萨，但在服用了一剂奇怪的令人心智的实验药物后，他们陷入了一个混乱的夜晚，荒谬的遭遇、疯狂的幻觉和意外的启示，这些启示可能会永远改变他们的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hAPbYLZhbQpluzpeMWticacrUBl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 289219,
-      "title": "星球大战：摩尔-暗影之王",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.0,
-      "release_date": "2026-04-06",
-      "overview": "在克隆人战争之后，摩尔计划在一个未受帝国染指的星球上重建他的犯罪集团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gX3hqZWIFREhvIPAICySe7p9c9t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
-    },
     {
       "id": 76479,
       "title": "黑袍纠察队",
@@ -279,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 1325734,
       "title": "爱情抓马",
       "type": "movie",
@@ -299,6 +277,17 @@
       "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
       "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 37854,
@@ -323,15 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hidlVpZU1mDGsg6ptRplCEcU78k.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 6.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1enQDc50cQ5ChHKUwpLMLTzfC2d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 95557,
@@ -345,15 +334,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/zTAJk1ERMticlZeXaKTq6UozgxC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
+    },
+    {
+      "id": 1159559,
+      "title": "惊声尖叫7",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-02-25",
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1enQDc50cQ5ChHKUwpLMLTzfC2d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
+    },
+    {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情•历史",
+      "rating": 0.0,
+      "release_date": "2026-04-22",
+      "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
       "id": 127529,
@@ -378,37 +389,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wynVCS7b2KsKABJBf6tbcP940k6.jpg"
     },
     {
-      "id": 241609,
-      "title": "掩耳盗邻",
+      "id": 289219,
+      "title": "星球大战：摩尔-暗影之王",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.5,
-      "release_date": "2025-04-10",
-      "overview": "一名金融巨擘突然痛失婚姻与事业，他开始抢劫富有的邻居来维生。在自己的社交圈中行窃，让他感到莫名的兴奋，但他也逐渐陷入一张错综复杂的致命之网中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8FVadEcXx3O3sWY4iVmkoTRCd1H.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uUnpmiLCdlwubCC8AXOBtTYH7Mm.jpg"
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 7.0,
+      "release_date": "2026-04-06",
+      "overview": "在克隆人战争之后，摩尔计划在一个未受帝国染指的星球上重建他的犯罪集团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gX3hqZWIFREhvIPAICySe7p9c9t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
     },
     {
-      "id": 209867,
-      "title": "葬送的芙莉莲",
+      "id": 287527,
+      "title": "证词",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•剧情",
-      "rating": 8.8,
-      "release_date": "2023-09-29",
-      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
-    },
-    {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情•历史",
-      "rating": 0.0,
-      "release_date": "2026-04-22",
-      "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 6.2,
+      "release_date": "2026-04-08",
+      "overview": "《证词》是《使女的故事》续章，一部以基列国为背景，扣人心弦的成长故事。故事聚焦在两位少女身上：恪守本分、虔诚至极的艾格妮丝，以及从外地加入基列国的黛西。她们进入莉迪亚嬷嬷为培养未来妻子而成立的婚前预备学院，在这座金碧辉煌的殿堂，嬷嬷们透过残忍的手段以及以神圣为理由，灌输服从的观念。艾格妮丝与黛西两人之间的情谊将成为一股催化剂，彻底颠覆她们的过去、现在与未来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fqj1hW5Ca6PQ5EoCSLe8gfzmwkV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vyq8fQ6tm9DJCckJWqwPYZ8GThZ.jpg"
     },
     {
       "id": 95479,
@@ -422,6 +422,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
     },
     {
+      "id": 209867,
+      "title": "葬送的芙莉莲",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.8,
+      "release_date": "2023-09-29",
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3nm4GqbzM0Fzj9uHE5zJ5ciWvw8.jpg"
+    },
+    {
       "id": 1268127,
       "title": "谍报暗线",
       "type": "movie",
@@ -431,17 +442,6 @@
       "overview": "故事始于一起边境罪案调查，在俄罗斯符拉迪沃斯托克一家朝鲜餐厅工作的一名员工间谍身份意外暴露，多方势力被卷入，围绕着她展开激烈争夺，迅速升级为朝韩情报机构之间的高危对决。",
       "poster_url": "https://image.tmdb.org/t/p/original/sMTkyKQL0lThBPtR7J77GjyghMf.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vlNLQQJ4uYnJnzuSgNqKBleooCe.jpg"
-    },
-    {
-      "id": 213703,
-      "title": "乩身",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.6,
-      "release_date": "2026-04-02",
-      "overview": "乩身韩杰被迫为三太子卖命，必须处理人间的各种灵异事件，为他儿时犯下的过错赎罪。在这过程中，他认识了乐观的女大生叶子，以及有阴阳眼的刑警张泯。三人不畏生死，携手面对心狠手辣的神秘反派陈七杀，同时揭开扰乱阴阳两界的吴天机究竟有何盘算。这段经历也让韩杰找回了人生意义，体悟天赋的真谛。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f4JUcEI7k1tEzcA7HAVbQEblOo8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oi0plAYxxae5k53h2YaULxKRC1t.jpg"
     }
   ],
   "popular_movies": [
