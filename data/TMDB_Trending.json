@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14 19:45:46",
+  "last_updated": "2026-04-14 20:52:13",
   "today_global": [
     {
       "id": 85552,
@@ -24,6 +24,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 1367642,
+      "title": "他的回忆",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.1,
+      "release_date": "2026-03-11",
+      "overview": "　　影片讲述肯娜·罗文因事故导致男友身亡后服刑七年，出狱返回小镇试图与素未谋面的四岁女儿团聚，却遭到女儿监护人祖父母的阻拦。在与前NFL球员兼酒吧老板莱杰·沃德的接触中，两人建立起禁忌感情纽带，但恋情的发展使危机逐步升级。肯娜必须在直面过往错误的过程中，寻求重建生活的可能性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9J1fJsd39irl5lzqnDs2HM3Z4sz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bkQ0iP4TpAsG3CS4xaWDE0GhNp8.jpg"
+    },
+    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -44,39 +55,6 @@
       "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
       "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jSxeFrFCajefwka3TTRY4k8XVEX.jpg"
-    },
-    {
-      "id": 1367642,
-      "title": "他的回忆",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.1,
-      "release_date": "2026-03-11",
-      "overview": "　　影片讲述肯娜·罗文因事故导致男友身亡后服刑七年，出狱返回小镇试图与素未谋面的四岁女儿团聚，却遭到女儿监护人祖父母的阻拦。在与前NFL球员兼酒吧老板莱杰·沃德的接触中，两人建立起禁忌感情纽带，但恋情的发展使危机逐步升级。肯娜必须在直面过往错误的过程中，寻求重建生活的可能性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9J1fJsd39irl5lzqnDs2HM3Z4sz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bkQ0iP4TpAsG3CS4xaWDE0GhNp8.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
-    },
-    {
-      "id": 980431,
-      "title": "Avatar: Aang, The Last Airbender",
-      "type": "movie",
-      "genreTitle": "动作•冒险•动画",
-      "rating": 0.0,
-      "release_date": "2026-10-08",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/AbUa37L0mRs4RtMLvSD6cWZcPJP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9te2BRQjaNeXxvQKD0c3v63UJ8Q.jpg"
     },
     {
       "id": 1290417,
@@ -101,26 +79,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+      "id": 980431,
+      "title": "Avatar: Aang, The Last Airbender",
+      "type": "movie",
+      "genreTitle": "动作•冒险•动画",
+      "rating": 0.0,
+      "release_date": "2026-10-08",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/AbUa37L0mRs4RtMLvSD6cWZcPJP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9te2BRQjaNeXxvQKD0c3v63UJ8Q.jpg"
     },
     {
-      "id": 1049471,
-      "title": "星途恶果",
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
       "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 5.3,
-      "release_date": "2026-04-06",
-      "overview": "讲述自六岁起便成为好莱坞招牌明星的瑞夫霍克遇上了难关。他遭到勒索，一段神秘视频即将曝光，势必会毁掉他的形象，断送他的演艺生涯。为了摆脱困境，里夫不得不深入挖掘自己内心深处的阴影。在挚友凯尔和赞德以及危机律师艾拉的帮助下，里夫踏上了一段自我救赎的旅程，试图弥补自己曾经伤害过的人，并找出勒索者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vLhMnfWbOtrZj6S8bSfJsGstyn2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s0jCW58Zf4tHIpLchQzhHBSPjeu.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
       "id": 289219,
@@ -134,6 +112,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
     },
     {
+      "id": 1049471,
+      "title": "星途恶果",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 5.3,
+      "release_date": "2026-04-06",
+      "overview": "讲述自六岁起便成为好莱坞招牌明星的瑞夫霍克遇上了难关。他遭到勒索，一段神秘视频即将曝光，势必会毁掉他的形象，断送他的演艺生涯。为了摆脱困境，里夫不得不深入挖掘自己内心深处的阴影。在挚友凯尔和赞德以及危机律师艾拉的帮助下，里夫踏上了一段自我救赎的旅程，试图弥补自己曾经伤害过的人，并找出勒索者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vLhMnfWbOtrZj6S8bSfJsGstyn2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s0jCW58Zf4tHIpLchQzhHBSPjeu.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
       "id": 279471,
       "title": "马尔科姆的一家：生活依旧不公",
       "type": "tv",
@@ -145,6 +145,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sZHs5coztxJrOLZwNNWqoWI5Mna.jpg"
     },
     {
+      "id": 128995,
+      "title": "柔美的细胞小将",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.8,
+      "release_date": "2021-09-17",
+      "overview": "柔美是一个住在首尔的普通女孩，在公司担任会计。她的生活十分单调，毫无波澜。然而，具雄却闯入了柔美平静的世界，将她的体内的“细胞小镇”彻底扰乱。身为游戏开发者的“书呆子”具雄，是个看似对任何事情都很冷淡、十分内向，实际上却意外纯情的美男子。柔美被具雄的单纯和幽默深深吸引，两人的“爱情细胞”向彼此敞开了心扉，一段甜蜜的爱情故事就此上演。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tvdmK8cVVuYS6QGMNoFDXUOIncO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2yxDyOLMX5LDjYxeBjLW8XQ8GZp.jpg"
+    },
+    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -154,17 +165,6 @@
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.4,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
       "id": 1304313,
@@ -189,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eEt1JlNsUxQaPBU4fV2iuAtLzqB.jpg"
     },
     {
-      "id": 79744,
-      "title": "菜鸟老警",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.5,
-      "release_date": "2018-10-16",
-      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.4,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
       "id": 206828,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xZgxs2XQmoiSUf4aF6Skrdfzv3U.jpg"
     },
     {
-      "id": 128995,
-      "title": "柔美的细胞小将",
+      "id": 79744,
+      "title": "菜鸟老警",
       "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.8,
-      "release_date": "2021-09-17",
-      "overview": "柔美是一个住在首尔的普通女孩，在公司担任会计。她的生活十分单调，毫无波澜。然而，具雄却闯入了柔美平静的世界，将她的体内的“细胞小镇”彻底扰乱。身为游戏开发者的“书呆子”具雄，是个看似对任何事情都很冷淡、十分内向，实际上却意外纯情的美男子。柔美被具雄的单纯和幽默深深吸引，两人的“爱情细胞”向彼此敞开了心扉，一段甜蜜的爱情故事就此上演。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tvdmK8cVVuYS6QGMNoFDXUOIncO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2yxDyOLMX5LDjYxeBjLW8XQ8GZp.jpg"
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
     }
   ],
   "week_global_all": [
@@ -235,28 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2ZMxjpyRvqfNYOXedrfeYn2Bsui.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 1290417,
       "title": "狂鲨风暴",
       "type": "movie",
@@ -266,6 +244,17 @@
       "overview": "在一场毁灭性的飓风中，一个沿海小镇正奋力对抗大自然的愤怒以及鲨鱼的袭击。在倾盆大雨、飞散的残骸和伸手不见五指的黑暗中，他们团结一心，勇敢面对致命的掠食者，努力在风暴中生存下来。",
       "poster_url": "https://image.tmdb.org/t/p/original/cUeGkCrUxGzFjVZGMBUxIACC6Tk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7gtDEa1av2XhKNGkt2gEUn33h0l.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 1226863,
@@ -279,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2ZMxjpyRvqfNYOXedrfeYn2Bsui.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 1049471,
       "title": "星途恶果",
       "type": "movie",
@@ -288,17 +288,6 @@
       "overview": "讲述自六岁起便成为好莱坞招牌明星的瑞夫霍克遇上了难关。他遭到勒索，一段神秘视频即将曝光，势必会毁掉他的形象，断送他的演艺生涯。为了摆脱困境，里夫不得不深入挖掘自己内心深处的阴影。在挚友凯尔和赞德以及危机律师艾拉的帮助下，里夫踏上了一段自我救赎的旅程，试图弥补自己曾经伤害过的人，并找出勒索者。",
       "poster_url": "https://image.tmdb.org/t/p/original/vLhMnfWbOtrZj6S8bSfJsGstyn2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s0jCW58Zf4tHIpLchQzhHBSPjeu.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 279471,
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sZHs5coztxJrOLZwNNWqoWI5Mna.jpg"
     },
     {
-      "id": 1266127,
-      "title": "准备好了没2：我来了",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 7.2,
-      "release_date": "2026-03-19",
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jSxeFrFCajefwka3TTRY4k8XVEX.jpg"
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 83533,
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1159831,
+      "title": "暗黑新娘！",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+      "genreTitle": "科幻•恐怖•奇幻",
+      "rating": 6.2,
+      "release_date": "2026-03-04",
+      "overview": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hidlVpZU1mDGsg6ptRplCEcU78k.jpg"
     },
     {
       "id": 1325734,
@@ -378,15 +367,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 1159831,
-      "title": "暗黑新娘！",
+      "id": 1266127,
+      "title": "准备好了没2：我来了",
       "type": "movie",
-      "genreTitle": "科幻•恐怖•奇幻",
-      "rating": 6.2,
-      "release_date": "2026-03-04",
-      "overview": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hidlVpZU1mDGsg6ptRplCEcU78k.jpg"
+      "genreTitle": "恐怖•喜剧",
+      "rating": 7.2,
+      "release_date": "2026-03-19",
+      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jSxeFrFCajefwka3TTRY4k8XVEX.jpg"
+    },
+    {
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
     },
     {
       "id": 95557,
@@ -411,37 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 1367642,
-      "title": "他的回忆",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.1,
-      "release_date": "2026-03-11",
-      "overview": "　　影片讲述肯娜·罗文因事故导致男友身亡后服刑七年，出狱返回小镇试图与素未谋面的四岁女儿团聚，却遭到女儿监护人祖父母的阻拦。在与前NFL球员兼酒吧老板莱杰·沃德的接触中，两人建立起禁忌感情纽带，但恋情的发展使危机逐步升级。肯娜必须在直面过往错误的过程中，寻求重建生活的可能性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9J1fJsd39irl5lzqnDs2HM3Z4sz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bkQ0iP4TpAsG3CS4xaWDE0GhNp8.jpg"
-    },
-    {
-      "id": 65942,
-      "title": "Re：从零开始的异世界生活",
+      "id": 111110,
+      "title": "ONE PIECE",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.8,
-      "release_date": "2016-04-04",
-      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
-      "poster_url": "https://image.tmdb.org/t/p/original/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2023-08-31",
+      "overview": "Netflix 的真人版《航海王》改编自日本史上销量最高的漫画系列，该系列由尾田荣一郎创作，单行本已超过 100 卷，全球销量超过 5 亿册。这部史诗般的海上冒险故事讲述了蒙奇·D·路飞寻找传说中的宝藏“大秘宝”，并最终成为航海王的冒险之旅。这部深受喜爱的作品拥有庞大的全球粉丝群体，涵盖各个年龄段。Netflix 真人版剧集于 2023 年首播，迅速风靡全球，连续八周位列全球排行榜 Top 10，在超过 75 个国家/地区荣登榜首，并创造了历史，成为首部在日本首播即获得 Netflix 收视冠军的英语剧集。该节目的观看次数已超过 1 亿，是 Netflix 下载次数最多的节目之一。《航海王》获得了 11 项儿童与家庭艾美奖提名，其中包括杰出青少年系列奖。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nSHBJp1ulPxdp7vtUTrhoXjZjfb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oX0gEofa5PNVYPj5lKkRAsyEYYu.jpg"
     },
     {
-      "id": 1304313,
-      "title": "木乃伊",
+      "id": 278573,
+      "title": "21世纪大君夫人",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 9.7,
+      "release_date": "2026-04-10",
+      "overview": "欢迎来到21世纪的韩国，一个传统与现代交织的君主立宪制国家。在光鲜亮丽的外表下，隐藏着壁垒分明的社会阶级制度。成熙周，一位才华洋溢的财阀继承人兼首席执行官，似乎拥有一切，但出身平民的她却始终得不到应有的尊重。在诞日宴上与理安大君相遇后，她决心掌握自己的命运。她拥有一切，唯独缺少身份；而他空有尊贵的身份，实际上却一无所有。两人缔结了世纪婚约。他们能否打破社会壁垒，开创属于自己的命运？",
+      "poster_url": "https://image.tmdb.org/t/p/original/etY1kHe8NTFFNHdL6FmJcNuvCLW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nDhIHIwN2mVt7rYjAdMKJS1unX6.jpg"
+    },
+    {
+      "id": 1171145,
+      "title": "洛杉矶劫案",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 8.6,
-      "release_date": "2026-04-07",
-      "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
+      "genreTitle": "犯罪•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-02-11",
+      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kKF4gEiBDArhONlCcunHVgBp3bA.jpg"
     }
   ],
   "popular_movies": [
