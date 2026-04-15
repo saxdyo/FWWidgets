@@ -1,27 +1,16 @@
 {
-  "last_updated": "2026-04-16 04:37:19",
+  "last_updated": "2026-04-16 05:39:14",
   "today_global": [
     {
       "id": 1084577,
       "title": "抖擞",
       "type": "movie",
       "genreTitle": "动作•喜剧",
-      "rating": 6.6,
+      "rating": 6.5,
       "release_date": "2026-04-15",
       "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/bW5USzie3abCz9RO0gMwakrSxWG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
-    },
-    {
-      "id": 980431,
-      "title": "安昂传奇：最后的气宗",
-      "type": "movie",
-      "genreTitle": "动作•冒险•动画",
-      "rating": 0.0,
-      "release_date": "2026-10-09",
-      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gPiyTLo5GGwtJl0L8TlaJF9r0KE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9te2BRQjaNeXxvQKD0c3v63UJ8Q.jpg"
     },
     {
       "id": 76479,
@@ -33,6 +22,17 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 980431,
+      "title": "安昂传奇：最后的气宗",
+      "type": "movie",
+      "genreTitle": "动作•冒险•动画",
+      "rating": 0.0,
+      "release_date": "2026-10-09",
+      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gPiyTLo5GGwtJl0L8TlaJF9r0KE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9te2BRQjaNeXxvQKD0c3v63UJ8Q.jpg"
     },
     {
       "id": 245318,
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
       "id": 1480387,
       "title": "暗流低语",
       "type": "movie",
@@ -99,6 +88,17 @@
       "overview": "伊薇（尼娜·凯莉 Nina Kiri 饰）肩负着照顾临终母亲的重任，她渴望逃离支离破碎的现实带来的孤独感。如今，她住在一间堆满感伤纪念品和回忆的房子里，理智和生活秩序都维系在她制作的超自然播客节目《底音》上。虽然她通常对搭档贾斯汀发给她的那些令人毛骨悚然的音频文件持怀疑态度，但最新收到的音频却让她感到不同寻常。一对年轻备孕夫妇的十段从未公开录音逐一揭晓，每一段都比上一段更加不祥。随着伊薇将这些录音与她目前的遭遇进行对比，隐藏的信息逐渐显现，将她推向疯狂的边缘……",
       "poster_url": "https://image.tmdb.org/t/p/original/fuUdMZ7I0Dla9O8yS7Cu1Csder6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2k7LFf5zgWxK7YDN1UP6rVV6Ixs.jpg"
+    },
+    {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 1304313,
@@ -167,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7gtDEa1av2XhKNGkt2gEUn33h0l.jpg"
     },
     {
-      "id": 227371,
-      "title": "人设骗局",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.2,
-      "release_date": "2023-05-31",
-      "overview": "卡蜜拉通过约会软件结识了她的白马王子。在经历一场诗情画意的恋爱后，她打算给对方一个惊喜，结果却被困在一个虚假的天堂之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pd2nnXUQWbgwfuV9qNeEyG7Huqz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dzjvBPFFAuxfNuf8DGrKNiYglhi.jpg"
-    },
-    {
       "id": 1367642,
       "title": "他的回忆",
       "type": "movie",
@@ -187,6 +176,17 @@
       "overview": "　　影片讲述肯娜·罗文因事故导致男友身亡后服刑七年，出狱返回小镇试图与素未谋面的四岁女儿团聚，却遭到女儿监护人祖父母的阻拦。在与前NFL球员兼酒吧老板莱杰·沃德的接触中，两人建立起禁忌感情纽带，但恋情的发展使危机逐步升级。肯娜必须在直面过往错误的过程中，寻求重建生活的可能性。",
       "poster_url": "https://image.tmdb.org/t/p/original/9J1fJsd39irl5lzqnDs2HM3Z4sz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bkQ0iP4TpAsG3CS4xaWDE0GhNp8.jpg"
+    },
+    {
+      "id": 227371,
+      "title": "人设骗局",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.2,
+      "release_date": "2023-05-31",
+      "overview": "卡蜜拉通过约会软件结识了她的白马王子。在经历一场诗情画意的恋爱后，她打算给对方一个惊喜，结果却被困在一个虚假的天堂之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pd2nnXUQWbgwfuV9qNeEyG7Huqz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dzjvBPFFAuxfNuf8DGrKNiYglhi.jpg"
     },
     {
       "id": 1325734,
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 1049471,
-      "title": "星途恶果",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 5.2,
-      "release_date": "2026-04-06",
-      "overview": "讲述自六岁起便成为好莱坞招牌明星的瑞夫霍克遇上了难关。他遭到勒索，一段神秘视频即将曝光，势必会毁掉他的形象，断送他的演艺生涯。为了摆脱困境，里夫不得不深入挖掘自己内心深处的阴影。在挚友凯尔和赞德以及危机律师艾拉的帮助下，里夫踏上了一段自我救赎的旅程，试图弥补自己曾经伤害过的人，并找出勒索者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vLhMnfWbOtrZj6S8bSfJsGstyn2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s0jCW58Zf4tHIpLchQzhHBSPjeu.jpg"
-    },
-    {
       "id": 202555,
       "title": "夜魔侠：重生",
       "type": "tv",
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+      "id": 1049471,
+      "title": "星途恶果",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 5.2,
+      "release_date": "2026-04-06",
+      "overview": "讲述自六岁起便成为好莱坞招牌明星的瑞夫霍克遇上了难关。他遭到勒索，一段神秘视频即将曝光，势必会毁掉他的形象，断送他的演艺生涯。为了摆脱困境，里夫不得不深入挖掘自己内心深处的阴影。在挚友凯尔和赞德以及危机律师艾拉的帮助下，里夫踏上了一段自我救赎的旅程，试图弥补自己曾经伤害过的人，并找出勒索者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vLhMnfWbOtrZj6S8bSfJsGstyn2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s0jCW58Zf4tHIpLchQzhHBSPjeu.jpg"
     },
     {
       "id": 95557,
@@ -334,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
+      "id": 1084577,
+      "title": "抖擞",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 6.5,
+      "release_date": "2026-04-15",
+      "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bW5USzie3abCz9RO0gMwakrSxWG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
+    },
+    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -343,6 +343,17 @@
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 1266127,
@@ -365,17 +376,6 @@
       "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
       "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
-    },
-    {
-      "id": 1084577,
-      "title": "抖擞",
-      "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 6.6,
-      "release_date": "2026-04-15",
-      "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bW5USzie3abCz9RO0gMwakrSxWG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
     },
     {
       "id": 65942,
