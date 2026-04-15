@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-15 20:51:47",
+  "last_updated": "2026-04-15 22:22:51",
   "today_global": [
+    {
+      "id": 1084577,
+      "title": "抖擞",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 6.0,
+      "release_date": "2026-04-15",
+      "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bW5USzie3abCz9RO0gMwakrSxWG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
+    },
     {
       "id": 980431,
       "title": "安昂传奇：最后的气宗",
@@ -24,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2ZMxjpyRvqfNYOXedrfeYn2Bsui.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 245318,
       "title": "玛戈没钱了",
       "type": "tv",
@@ -46,15 +46,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iSEzzLau8V8U2Owwv1V6OZUkSAW.jpg"
     },
     {
-      "id": 1084577,
-      "title": "抖擞",
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2ZMxjpyRvqfNYOXedrfeYn2Bsui.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 1480387,
+      "title": "暗流低语",
       "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 6.0,
-      "release_date": "2026-04-15",
-      "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bW5USzie3abCz9RO0gMwakrSxWG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.5,
+      "release_date": "2026-03-12",
+      "overview": "伊薇（尼娜·凯莉 Nina Kiri 饰）肩负着照顾临终母亲的重任，她渴望逃离支离破碎的现实带来的孤独感。如今，她住在一间堆满感伤纪念品和回忆的房子里，理智和生活秩序都维系在她制作的超自然播客节目《底音》上。虽然她通常对搭档贾斯汀发给她的那些令人毛骨悚然的音频文件持怀疑态度，但最新收到的音频却让她感到不同寻常。一对年轻备孕夫妇的十段从未公开录音逐一揭晓，每一段都比上一段更加不祥。随着伊薇将这些录音与她目前的遭遇进行对比，隐藏的信息逐渐显现，将她推向疯狂的边缘……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fuUdMZ7I0Dla9O8yS7Cu1Csder6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2k7LFf5zgWxK7YDN1UP6rVV6Ixs.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 687163,
@@ -79,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jSxeFrFCajefwka3TTRY4k8XVEX.jpg"
     },
     {
-      "id": 1480387,
-      "title": "暗流低语",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 6.5,
-      "release_date": "2026-03-12",
-      "overview": "伊薇（尼娜·凯莉 Nina Kiri 饰）肩负着照顾临终母亲的重任，她渴望逃离支离破碎的现实带来的孤独感。如今，她住在一间堆满感伤纪念品和回忆的房子里，理智和生活秩序都维系在她制作的超自然播客节目《底音》上。虽然她通常对搭档贾斯汀发给她的那些令人毛骨悚然的音频文件持怀疑态度，但最新收到的音频却让她感到不同寻常。一对年轻备孕夫妇的十段从未公开录音逐一揭晓，每一段都比上一段更加不祥。随着伊薇将这些录音与她目前的遭遇进行对比，隐藏的信息逐渐显现，将她推向疯狂的边缘……",
-      "poster_url": "https://image.tmdb.org/t/p/original/1wREWUEHzjDWSreNFbFLDO7YEaM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2k7LFf5zgWxK7YDN1UP6rVV6Ixs.jpg"
-    },
-    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -101,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -121,17 +121,6 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 936075,
@@ -149,22 +138,22 @@
       "title": "木乃伊",
       "type": "movie",
       "genreTitle": "恐怖•悬疑",
-      "rating": 9.0,
+      "rating": 8.9,
       "release_date": "2026-04-07",
       "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
       "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
     },
     {
-      "id": 1290417,
-      "title": "狂鲨风暴",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.0,
-      "release_date": "2026-04-10",
-      "overview": "在一场毁灭性的飓风中，一个沿海小镇正奋力对抗大自然的愤怒以及鲨鱼的袭击。在倾盆大雨、飞散的残骸和伸手不见五指的黑暗中，他们团结一心，勇敢面对致命的掠食者，努力在风暴中生存下来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cUeGkCrUxGzFjVZGMBUxIACC6Tk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7gtDEa1av2XhKNGkt2gEUn33h0l.jpg"
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 1367642,
@@ -178,15 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bkQ0iP4TpAsG3CS4xaWDE0GhNp8.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1290417,
+      "title": "狂鲨风暴",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.0,
+      "release_date": "2026-04-10",
+      "overview": "在一场毁灭性的飓风中，一个沿海小镇正奋力对抗大自然的愤怒以及鲨鱼的袭击。在倾盆大雨、飞散的残骸和伸手不见五指的黑暗中，他们团结一心，勇敢面对致命的掠食者，努力在风暴中生存下来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cUeGkCrUxGzFjVZGMBUxIACC6Tk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7gtDEa1av2XhKNGkt2gEUn33h0l.jpg"
     },
     {
       "id": 279471,
@@ -200,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sZHs5coztxJrOLZwNNWqoWI5Mna.jpg"
     },
     {
-      "id": 1444249,
-      "title": "The Highest Stakes",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 0.0,
-      "release_date": "2026-04-14",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/e1pPTcmaQdYPUZjAEMNPxwKCatd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5LtmMcuhoQZmKJ7X0VgCWSwhxxP.jpg"
-    },
-    {
       "id": 227371,
       "title": "人设骗局",
       "type": "tv",
@@ -218,8 +196,30 @@
       "rating": 7.2,
       "release_date": "2023-05-31",
       "overview": "卡蜜拉通过约会软件结识了她的白马王子。在经历一场诗情画意的恋爱后，她打算给对方一个惊喜，结果却被困在一个虚假的天堂之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qbFNNX1WeOxEcP6ZA0vC4aHYvW7.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/pd2nnXUQWbgwfuV9qNeEyG7Huqz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dzjvBPFFAuxfNuf8DGrKNiYglhi.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+    },
+    {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.4,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 85552,
       "title": "亢奋",
       "type": "tv",
@@ -255,6 +244,17 @@
       "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
       "poster_url": "https://image.tmdb.org/t/p/original/2ZMxjpyRvqfNYOXedrfeYn2Bsui.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 1290417,
@@ -277,6 +277,17 @@
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
+      "id": 1084577,
+      "title": "抖擞",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 6.0,
+      "release_date": "2026-04-15",
+      "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bW5USzie3abCz9RO0gMwakrSxWG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
     },
     {
       "id": 279471,
@@ -312,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 1266127,
-      "title": "准备好了没2：我来了",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-03-19",
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jSxeFrFCajefwka3TTRY4k8XVEX.jpg"
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 83533,
@@ -334,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -356,15 +356,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
+      "id": 95557,
+      "title": "无敌少侠",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 1266127,
+      "title": "准备好了没2：我来了",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-03-19",
+      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jSxeFrFCajefwka3TTRY4k8XVEX.jpg"
     },
     {
       "id": 1325734,
@@ -378,15 +389,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
     },
     {
-      "id": 1171145,
-      "title": "洛杉矶劫案",
+      "id": 287527,
+      "title": "证词",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 6.5,
+      "release_date": "2026-04-08",
+      "overview": "《证词》是《使女的故事》续章，一部以基列国为背景，扣人心弦的成长故事，聚焦在两位少女身上：恪守本分、虔诚至极的艾格妮丝，以及从外地加入基列国的黛西。她们进入莉迪亚嬷嬷为培养未来妻子而成立的婚前预备学院，在这座金碧辉煌的殿堂，嬷嬷们透过残忍的手段以及以神圣为理由，灌输服从的观念。艾格妮丝与黛西两人之间的情谊将成为一股催化剂，彻底颠覆她们的过去、现在与未来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fqj1hW5Ca6PQ5EoCSLe8gfzmwkV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vyq8fQ6tm9DJCckJWqwPYZ8GThZ.jpg"
+    },
+    {
+      "id": 245318,
+      "title": "玛戈没钱了",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 9.0,
+      "release_date": "2026-04-14",
+      "overview": "身为前波霸餐厅女侍应与前职业摔角手的女儿，刚辍学的大学生玛戈有志成为作家。面对新生婴儿、不断累积的帐单，以及越来越有限的还款途径，玛歌必须找到向前进的方法。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nwtbhZyDnYYd9rGzPHngvmbwuuu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iSEzzLau8V8U2Owwv1V6OZUkSAW.jpg"
+    },
+    {
+      "id": 1304313,
+      "title": "木乃伊",
       "type": "movie",
-      "genreTitle": "犯罪•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-02-11",
-      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kKF4gEiBDArhONlCcunHVgBp3bA.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 8.9,
+      "release_date": "2026-04-07",
+      "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
     },
     {
       "id": 1159831,
@@ -400,48 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hidlVpZU1mDGsg6ptRplCEcU78k.jpg"
     },
     {
-      "id": 1159559,
-      "title": "惊声尖叫7",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 6.0,
-      "release_date": "2026-02-25",
-      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1enQDc50cQ5ChHKUwpLMLTzfC2d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xZKPHE8AjHixyYF3wifmTXabYCC.jpg"
-    },
-    {
-      "id": 1641319,
-      "title": "狙击精英：孤魂野鬼",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.0,
-      "release_date": "2026-04-07",
-      "overview": "精英狙击手布兰登·贝克特与他的小队在哥斯达黎加执行一项秘密任务时，遭遇阴谋陷害，任务失败演变为国际丑闻。为了掩盖真相，美国政府直接撇清关系，将这群最锋利的战士定性为“恐怖分子”。前一秒还为国效力的英雄，后一秒就成了被自己国家通缉的逃兵。没有合法的身份，没有空中支援，甚至没有合法的射击通道，布兰登陷入了前所未有的孤立无援。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y54ZFjeM3BEb40mBDAF8Jxv7mwG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4Wot2DQKdDUpZsjtvtVApBz5Hv1.jpg"
-    },
-    {
-      "id": 289219,
-      "title": "星球大战：摩尔-暗影之王",
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
       "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.3,
-      "release_date": "2026-04-06",
-      "overview": "在克隆人战争之后，摩尔计划在一个未受帝国染指的星球上重建他的犯罪集团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wSScSZ6No09Z2SBJIHpBZ7rgi1m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
-    },
-    {
-      "id": 295778,
-      "title": "实习医生风云",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.2,
-      "release_date": "2026-02-25",
-      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bWvh457POTUPS7SH0DHmHTLnYIF.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
     }
   ],
   "popular_movies": [
