@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19 03:31:50",
+  "last_updated": "2026-04-19 04:21:13",
   "today_global": [
     {
       "id": 1613798,
@@ -57,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9te2BRQjaNeXxvQKD0c3v63UJ8Q.jpg"
     },
     {
-      "id": 1304313,
-      "title": "木乃伊",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 6.9,
-      "release_date": "2026-04-15",
-      "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
-    },
-    {
       "id": 1084577,
       "title": "抖擞",
       "type": "movie",
@@ -79,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -99,6 +77,17 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 1304313,
+      "title": "木乃伊",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.9,
+      "release_date": "2026-04-15",
+      "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
     },
     {
       "id": 1226863,
@@ -121,6 +110,17 @@
       "overview": "这部剧围绕失控的冲突如何层层升级并吞噬人性展开，通过不同阶层与情境的对抗，展现人在愤怒、欲望与生存焦虑驱动下不断越界，最终走向失控与异化的过程。",
       "poster_url": "https://image.tmdb.org/t/p/original/6gmd3iRTOQK2LZp5x5vHEcZJ1ER.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mDIiZegRHBM90ao2Beyx5J1q2er.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 250307,
@@ -156,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
+      "id": 124364,
+      "title": "梦魇绝镇",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6LbCm0rv4W2zAqTmYRLkDiPSW2z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 1290417,
@@ -200,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 314784,
-      "title": "浪漫的绝对值",
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.5,
-      "release_date": "2026-04-17",
-      "overview": "意珠（金香起 饰）白天是安静的高中学生，晚上则是大胆的BL小说家，遇到了激发她灵感的四位英俊的老师：冷若冰霜的佑修（车学沇 饰）、活泼开朗的多主（金宰铉 饰）、粗犷不羁的基典（孙挺赫 饰）和温柔体贴的同周（金东圭 饰）。她将他们写进了自己的新小说中，结果小说一夜爆红！但是她的秘密却被从一开始就和她不对盘的佑修发现了。为了保守秘密，她接受了他的条件，但她能安全地完成这部小说吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/5uAyAxqbcZDsoQQGq6Yekaj7QE6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bziMUgmBQAMPLjKKMcoSWgHk44D.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
       "id": 1198994,
@@ -360,22 +360,22 @@
       "title": "星途恶果",
       "type": "movie",
       "genreTitle": "喜剧•剧情",
-      "rating": 5.4,
+      "rating": 5.3,
       "release_date": "2026-04-06",
       "overview": "讲述自六岁起便成为好莱坞招牌明星的瑞夫霍克遇上了难关。他遭到勒索，一段神秘视频即将曝光，势必会毁掉他的形象，断送他的演艺生涯。为了摆脱困境，里夫不得不深入挖掘自己内心深处的阴影。在挚友凯尔和赞德以及危机律师艾拉的帮助下，里夫踏上了一段自我救赎的旅程，试图弥补自己曾经伤害过的人，并找出勒索者。",
       "poster_url": "https://image.tmdb.org/t/p/original/vLhMnfWbOtrZj6S8bSfJsGstyn2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s0jCW58Zf4tHIpLchQzhHBSPjeu.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 154385,
+      "title": "怒呛人生",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.8,
+      "release_date": "2023-04-06",
+      "overview": "这部剧围绕失控的冲突如何层层升级并吞噬人性展开，通过不同阶层与情境的对抗，展现人在愤怒、欲望与生存焦虑驱动下不断越界，最终走向失控与异化的过程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6gmd3iRTOQK2LZp5x5vHEcZJ1ER.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mDIiZegRHBM90ao2Beyx5J1q2er.jpg"
     },
     {
       "id": 95557,
@@ -400,15 +400,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 154385,
-      "title": "怒呛人生",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.8,
-      "release_date": "2023-04-06",
-      "overview": "这部剧围绕失控的冲突如何层层升级并吞噬人性展开，通过不同阶层与情境的对抗，展现人在愤怒、欲望与生存焦虑驱动下不断越界，最终走向失控与异化的过程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6gmd3iRTOQK2LZp5x5vHEcZJ1ER.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mDIiZegRHBM90ao2Beyx5J1q2er.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 1325734,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 1367642,
-      "title": "他的回忆",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.1,
-      "release_date": "2026-03-11",
-      "overview": "　　影片讲述肯娜·罗文因事故导致男友身亡后服刑七年，出狱返回小镇试图与素未谋面的四岁女儿团聚，却遭到女儿监护人祖父母的阻拦。在与前NFL球员兼酒吧老板莱杰·沃德的接触中，两人建立起禁忌感情纽带，但恋情的发展使危机逐步升级。肯娜必须在直面过往错误的过程中，寻求重建生活的可能性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9J1fJsd39irl5lzqnDs2HM3Z4sz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bkQ0iP4TpAsG3CS4xaWDE0GhNp8.jpg"
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6LbCm0rv4W2zAqTmYRLkDiPSW2z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     }
   ],
   "popular_movies": [
@@ -461,7 +461,7 @@
       "title": "你会心碎",
       "type": "movie",
       "genreTitle": "爱情•剧情",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-03-26",
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
@@ -490,17 +490,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "动画•家庭•科幻",
-      "rating": 7.6,
-      "release_date": "2026-03-20",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
       "id": 980431,
       "title": "安昂传奇：最后的气宗",
       "type": "movie",
@@ -510,17 +499,6 @@
       "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
       "poster_url": "https://image.tmdb.org/t/p/original/gPiyTLo5GGwtJl0L8TlaJF9r0KE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9te2BRQjaNeXxvQKD0c3v63UJ8Q.jpg"
-    },
-    {
-      "id": 502356,
-      "title": "超级马力欧兄弟大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 7.6,
-      "release_date": "2023-04-05",
-      "overview": "马力欧（克里斯·帕拉特 Chris Pratt 配音）和路易吉（查理·戴 Charlie Day 饰）是生活在布鲁克林的两名水管工，他们刚刚成立了自己的小公司，但很显然，他们的家人并不完全支持兄弟两人的这份事业。某日，在工作中，马力欧和路易吉被水管吸入到了一个光怪陆离的世界之中，两人在旅途中被迫分开，马力欧来到了由碧姬公主（安雅·泰勒-乔伊 Anya Taylor-Joy 配音）统治的蘑菇王国，而路易吉则不幸的被传送到了由酷霸王（杰克·布莱克 Jack Black 配音）统治的库巴王国。此时，酷霸王正准备大举进攻蘑菇国，掳走公主并和她结婚，在这个节骨眼上，马力欧的出现带给了碧姬公主希望，她带着马力欧来到了丛林王国，请求那里的国王和王子（塞斯·罗根 Seth Aaron Rogen 饰）的支援。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kvxefG51enXTQQwlyn09qorJb4s.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m8j22XFJWUtXMVUX6eDKBNFeJRv.jpg"
     },
     {
       "id": 1290417,
@@ -534,11 +512,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7gtDEa1av2XhKNGkt2gEUn33h0l.jpg"
     },
     {
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "动画•家庭•科幻",
+      "rating": 7.6,
+      "release_date": "2026-03-20",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
       "id": 1470130,
       "title": "太平间助手",
       "type": "movie",
       "genreTitle": "恐怖•悬疑",
-      "rating": 5.5,
+      "rating": 5.4,
       "release_date": "2026-02-13",
       "overview": "　　本片根据同名畅销PC游戏改编。殡葬科学专业毕业生丽贝卡·欧文斯在河田殡仪馆找到了一份夜班工作，起初看似平常的工作很快变得阴森可怖，她不得不面对骇人的超自然力量。 　　",
       "poster_url": "https://image.tmdb.org/t/p/original/72AoFPC5TY4DfJwXXS9rPwPeReD.jpg",
@@ -549,11 +538,22 @@
       "title": "抖擞",
       "type": "movie",
       "genreTitle": "喜剧•动作•冒险",
-      "rating": 5.4,
+      "rating": 5.6,
       "release_date": "2026-04-15",
       "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/gNC03cK3qk9r2KtMksycAq3I4E8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
+    },
+    {
+      "id": 502356,
+      "title": "超级马力欧兄弟大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 7.6,
+      "release_date": "2023-04-05",
+      "overview": "马力欧（克里斯·帕拉特 Chris Pratt 配音）和路易吉（查理·戴 Charlie Day 饰）是生活在布鲁克林的两名水管工，他们刚刚成立了自己的小公司，但很显然，他们的家人并不完全支持兄弟两人的这份事业。某日，在工作中，马力欧和路易吉被水管吸入到了一个光怪陆离的世界之中，两人在旅途中被迫分开，马力欧来到了由碧姬公主（安雅·泰勒-乔伊 Anya Taylor-Joy 配音）统治的蘑菇王国，而路易吉则不幸的被传送到了由酷霸王（杰克·布莱克 Jack Black 配音）统治的库巴王国。此时，酷霸王正准备大举进攻蘑菇国，掳走公主并和她结婚，在这个节骨眼上，马力欧的出现带给了碧姬公主希望，她带着马力欧来到了丛林王国，请求那里的国王和王子（塞斯·罗根 Seth Aaron Rogen 饰）的支援。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kvxefG51enXTQQwlyn09qorJb4s.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m8j22XFJWUtXMVUX6eDKBNFeJRv.jpg"
     },
     {
       "id": 1290821,
@@ -567,17 +567,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yawBnV7LYZgFKSEeauXTSABr4qq.jpg"
     },
     {
-      "id": 1641319,
-      "title": "狙击精英：孤魂野鬼",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.2,
-      "release_date": "2026-04-07",
-      "overview": "精英狙击手布兰登·贝克特与他的小队在哥斯达黎加执行一项秘密任务时，遭遇阴谋陷害，任务失败演变为国际丑闻。为了掩盖真相，美国政府直接撇清关系，将这群最锋利的战士定性为“恐怖分子”。前一秒还为国效力的英雄，后一秒就成了被自己国家通缉的逃兵。没有合法的身份，没有空中支援，甚至没有合法的射击通道，布兰登陷入了前所未有的孤立无援。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y54ZFjeM3BEb40mBDAF8Jxv7mwG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4Wot2DQKdDUpZsjtvtVApBz5Hv1.jpg"
-    },
-    {
       "id": 840464,
       "title": "末日逃生2：迁移",
       "type": "movie",
@@ -587,6 +576,17 @@
       "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
       "poster_url": "https://image.tmdb.org/t/p/original/hudyFhRgKXJmD6NTs2I84n8J2WB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+    },
+    {
+      "id": 1641319,
+      "title": "狙击精英：孤魂野鬼",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.2,
+      "release_date": "2026-04-07",
+      "overview": "精英狙击手布兰登·贝克特与他的小队在哥斯达黎加执行一项秘密任务时，遭遇阴谋陷害，任务失败演变为国际丑闻。为了掩盖真相，美国政府直接撇清关系，将这群最锋利的战士定性为“恐怖分子”。前一秒还为国效力的英雄，后一秒就成了被自己国家通缉的逃兵。没有合法的身份，没有空中支援，甚至没有合法的射击通道，布兰登陷入了前所未有的孤立无援。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y54ZFjeM3BEb40mBDAF8Jxv7mwG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4Wot2DQKdDUpZsjtvtVApBz5Hv1.jpg"
     },
     {
       "id": 1171145,
@@ -600,15 +600,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kKF4gEiBDArhONlCcunHVgBp3bA.jpg"
     },
     {
-      "id": 1297842,
-      "title": "奇迹梦之队",
+      "id": 20222,
+      "title": "大辣宣言",
       "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 7.9,
-      "release_date": "2026-03-14",
-      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
+      "genreTitle": "喜剧•爱情",
+      "rating": 6.5,
+      "release_date": "2003-03-27",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/9hpzzyMiVSHvoX9HHa3yG6d1Jb9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bYkgJUGlkDrKzCrN6Jrd1qVx9aB.jpg"
     }
   ]
 }
