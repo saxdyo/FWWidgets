@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24 06:30:56",
+  "last_updated": "2026-04-24 07:33:19",
   "today_global": [
     {
       "id": 224263,
@@ -17,7 +17,7 @@
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
       "genreTitle": "音乐•剧情",
-      "rating": 7.3,
+      "rating": 7.2,
       "release_date": "2026-04-22",
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uCaWHs9S8asizVJsVNoKwePkVPP.jpg"
     },
     {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 7.5,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -99,6 +88,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.5,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
       "id": 1400940,
@@ -167,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
     },
     {
-      "id": 204490,
-      "title": "Criminal Record",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 6.6,
-      "release_date": "2024-01-10",
-      "overview": "伦敦警探赫加蒂与伦克竭力打击犯罪，但作风截然不同。二人无奈被迫联手，在瞬息万变的世界中伸张正义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/biImemyrTQHRgr1oHVaUlonfKU3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ilOyeOv6egBv5qygaIG77X3lpTs.jpg"
-    },
-    {
       "id": 980431,
       "title": "安昂传奇：最后的气宗",
       "type": "movie",
@@ -187,6 +176,17 @@
       "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
       "poster_url": "https://image.tmdb.org/t/p/original/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
+    },
+    {
+      "id": 204490,
+      "title": "Criminal Record",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 6.6,
+      "release_date": "2024-01-10",
+      "overview": "伦敦警探赫加蒂与伦克竭力打击犯罪，但作风截然不同。二人无奈被迫联手，在瞬息万变的世界中伸张正义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/biImemyrTQHRgr1oHVaUlonfKU3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ilOyeOv6egBv5qygaIG77X3lpTs.jpg"
     },
     {
       "id": 37854,
@@ -239,7 +239,7 @@
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
       "genreTitle": "音乐•剧情",
-      "rating": 7.3,
+      "rating": 7.2,
       "release_date": "2026-04-22",
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
@@ -268,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -288,6 +277,17 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 224263,
@@ -312,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
-      "id": 980431,
-      "title": "安昂传奇：最后的气宗",
-      "type": "movie",
-      "genreTitle": "动画•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-10-09",
-      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
-    },
-    {
       "id": 1304313,
       "title": "木乃伊",
       "type": "movie",
@@ -332,6 +321,17 @@
       "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
       "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
+    },
+    {
+      "id": 980431,
+      "title": "安昂传奇：最后的气宗",
+      "type": "movie",
+      "genreTitle": "动画•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-10-09",
+      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
     },
     {
       "id": 1226863,
@@ -389,6 +389,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
+      "id": 244623,
+      "title": "男篮女主",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 7.2,
+      "release_date": "2025-02-27",
+      "overview": "丑闻导致兄长下台后，艾拉·戈登临危受命，接任洛杉矶浪潮队的总裁。这支职业篮球队不只有着深厚历史，更是家族苦心经营的事业。艾拉企图心满满，却经常被人轻视，这次她要向不看好她的兄弟、董事会和广大体育界证明她绝对能胜任这份工作。",
+      "poster_url": "https://image.tmdb.org/t/p/original/18Q9IoolPOwU0o9AwUHxVSBrTMA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uCaWHs9S8asizVJsVNoKwePkVPP.jpg"
+    },
+    {
       "id": 1613798,
       "title": "复仇双雄",
       "type": "movie",
@@ -420,17 +431,6 @@
       "overview": "两个营销鬼才推出了一款名为Balls Up的新型安全套：能把丁丁和蛋都包起来，被认为很适配世界杯，于是该产品成为了2025年巴西世界杯官方合作伙伴。两人去了世界杯决赛，却不慎搅黄了巴西队的进球，成为全国公敌，因此踏上了更疯狂的逃亡之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/gNC03cK3qk9r2KtMksycAq3I4E8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nclbvcEE802CA4bcByRvU6TvyBF.jpg"
-    },
-    {
-      "id": 244623,
-      "title": "男篮女主",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 7.2,
-      "release_date": "2025-02-27",
-      "overview": "丑闻导致兄长下台后，艾拉·戈登临危受命，接任洛杉矶浪潮队的总裁。这支职业篮球队不只有着深厚历史，更是家族苦心经营的事业。艾拉企图心满满，却经常被人轻视，这次她要向不看好她的兄弟、董事会和广大体育界证明她绝对能胜任这份工作。",
-      "poster_url": "https://image.tmdb.org/t/p/original/18Q9IoolPOwU0o9AwUHxVSBrTMA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uCaWHs9S8asizVJsVNoKwePkVPP.jpg"
     },
     {
       "id": 1325734,
