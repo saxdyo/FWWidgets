@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-25 04:32:28",
+  "last_updated": "2026-04-25 05:35:41",
   "today_global": [
     {
       "id": 1318447,
       "title": "巅峰猎杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.4,
+      "rating": 6.3,
       "release_date": "2026-04-24",
       "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s3sJ6kI3PuaNF3eiaH29HdIWND6.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
       "id": 936075,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
-    },
-    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -90,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
       "id": 85552,
@@ -123,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
       "id": 840464,
       "title": "末日逃生2：迁移",
       "type": "movie",
@@ -145,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
-      "id": 244623,
-      "title": "男篮女主",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 7.3,
-      "release_date": "2025-02-27",
-      "overview": "丑闻导致兄长下台后，艾拉·戈登临危受命，接任洛杉矶浪潮队的总裁。这支职业篮球队不只有着深厚历史，更是家族苦心经营的事业。艾拉企图心满满，却经常被人轻视，这次她要向不看好她的兄弟、董事会和广大体育界证明她绝对能胜任这份工作。",
-      "poster_url": "https://image.tmdb.org/t/p/original/18Q9IoolPOwU0o9AwUHxVSBrTMA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uCaWHs9S8asizVJsVNoKwePkVPP.jpg"
-    },
-    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -165,6 +154,17 @@
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
+      "id": 244623,
+      "title": "男篮女主",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 7.3,
+      "release_date": "2025-02-27",
+      "overview": "丑闻导致兄长下台后，艾拉·戈登临危受命，接任洛杉矶浪潮队的总裁。这支职业篮球队不只有着深厚历史，更是家族苦心经营的事业。艾拉企图心满满，却经常被人轻视，这次她要向不看好她的兄弟、董事会和广大体育界证明她绝对能胜任这份工作。",
+      "poster_url": "https://image.tmdb.org/t/p/original/18Q9IoolPOwU0o9AwUHxVSBrTMA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uCaWHs9S8asizVJsVNoKwePkVPP.jpg"
     },
     {
       "id": 37854,
@@ -189,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
     },
     {
+      "id": 1304313,
+      "title": "木乃伊",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.9,
+      "release_date": "2026-04-15",
+      "overview": "　　影片讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无——八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AvTLGC3IqPqMv53C7selgh0SmyX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
+    },
+    {
       "id": 287978,
       "title": "任务：卧底老师",
       "type": "tv",
@@ -209,17 +220,6 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     }
   ],
   "week_global_all": [
@@ -228,11 +228,11 @@
       "title": "巅峰猎杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.4,
+      "rating": 6.3,
       "release_date": "2026-04-24",
       "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s3sJ6kI3PuaNF3eiaH29HdIWND6.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
       "id": 936075,
@@ -345,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
       "id": 1304313,
       "title": "木乃伊",
       "type": "movie",
@@ -367,15 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tspFmtxgKDMhvsykZny1FwAL6Ze.jpg"
     },
     {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "剧情",
+      "genreTitle": "动作冒险•喜剧•动画",
       "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 840464,
@@ -389,26 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
+      "id": 250307,
+      "title": "匹兹堡医护前线",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 154385,
-      "title": "怒呛人生",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.8,
-      "release_date": "2023-04-06",
-      "overview": "这部剧围绕失控的冲突如何层层升级并吞噬人性展开，通过不同阶层与情境的对抗，展现人在愤怒、欲望与生存焦虑驱动下不断越界，最终走向失控与异化的过程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6gmd3iRTOQK2LZp5x5vHEcZJ1ER.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iv8b1AxxEpAtZSQFNOB9oBSzrA1.jpg"
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2025-01-09",
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 285838,
@@ -433,15 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.4,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 257994,
+      "title": "半个男人",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 9.3,
+      "release_date": "2026-04-28",
+      "overview": "讲述一对疏远的非血缘兄弟在40年间的复杂关系，两人在青少年时期结下了深厚的羁绊，并在此后的30年岁月中，历经聚散，共同应对人生的起伏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d1u986pi3ByZ4NhfBQphgPiPlgs.jpg"
+    },
+    {
+      "id": 154385,
+      "title": "怒呛人生",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.8,
+      "release_date": "2023-04-06",
+      "overview": "这部剧围绕失控的冲突如何层层升级并吞噬人性展开，通过不同阶层与情境的对抗，展现人在愤怒、欲望与生存焦虑驱动下不断越界，最终走向失控与异化的过程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6gmd3iRTOQK2LZp5x5vHEcZJ1ER.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iv8b1AxxEpAtZSQFNOB9oBSzrA1.jpg"
     }
   ],
   "popular_movies": [
