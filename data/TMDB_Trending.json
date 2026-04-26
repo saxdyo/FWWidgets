@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26 17:40:25",
+  "last_updated": "2026-04-26 18:33:12",
   "today_global": [
     {
       "id": 1318447,
@@ -90,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 297640,
-      "title": "秘恋稽核中",
+      "id": 95557,
+      "title": "无敌少侠",
       "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-04-25",
-      "overview": "在金碧辉煌的海雾集团里，流传着一个恐怖传说：只要被稽核室长朱仁雅盯上，你就死定了。她平时笑脸迎人，却能精准抓出办公室不伦与报假账等证据，让你瞬间失业。人生顺遂的王牌精英卢基准意外被朱仁雅贬到垃圾三组，负责最卑微的风纪工作，其实就是捉奸、揭丑等八卦杂事，他满心怨怼，誓言要挖出这女魔头不可告人的隐密私生活来复仇。在一场场惊险的贴身稽核中，卢基准发现朱仁雅竟暗藏着更深层不为人知的秘密。这对欢喜冤家也在稽核他人的同时，产生了属于彼此的秘恋关系。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rzRMdY8yMblScHCXb4XGUDI52bD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1NeKiC0YSrNNGHazvzOGEjflJe.jpg"
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 37854,
@@ -112,15 +112,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
+      "id": 224263,
+      "title": "Stranger Things: Tales from '85",
       "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
+      "rating": 6.8,
+      "release_date": "2026-04-23",
+      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
+    },
+    {
+      "id": 297640,
+      "title": "秘恋稽核中",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 0.0,
+      "release_date": "2026-04-25",
+      "overview": "在金碧辉煌的海雾集团里，流传着一个恐怖传说：只要被稽核室长朱仁雅盯上，你就死定了。她平时笑脸迎人，却能精准抓出办公室不伦与报假账等证据，让你瞬间失业。人生顺遂的王牌精英卢基准意外被朱仁雅贬到垃圾三组，负责最卑微的风纪工作，其实就是捉奸、揭丑等八卦杂事，他满心怨怼，誓言要挖出这女魔头不可告人的隐密私生活来复仇。在一场场惊险的贴身稽核中，卢基准发现朱仁雅竟暗藏着更深层不为人知的秘密。这对欢喜冤家也在稽核他人的同时，产生了属于彼此的秘恋关系。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rzRMdY8yMblScHCXb4XGUDI52bD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1NeKiC0YSrNNGHazvzOGEjflJe.jpg"
+    },
+    {
+      "id": 1383731,
+      "title": "保护者",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-02-20",
+      "overview": "退役军人尼基与女儿克洛伊平静生活，却在废弃工厂醒来后发现女儿遭绑架，她必须重返黑暗世界，对抗人贩子、警察与军方，在72小时黄金救援期内救回女儿。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eYmecATgFdm6KtcrMlIVM4JTR2O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d4QVKUpXiGFCU4nFzKXKFdzXG7P.jpg"
     },
     {
       "id": 202555,
@@ -132,17 +154,6 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 224263,
-      "title": "Stranger Things: Tales from '85",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
-      "rating": 6.6,
-      "release_date": "2026-04-23",
-      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
     },
     {
       "id": 257994,
@@ -178,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 1383731,
-      "title": "保护者",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-02-20",
-      "overview": "退役军人尼基与女儿克洛伊平静生活，却在废弃工厂醒来后发现女儿遭绑架，她必须重返黑暗世界，对抗人贩子、警察与军方，在72小时黄金救援期内救回女儿。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eYmecATgFdm6KtcrMlIVM4JTR2O.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d4QVKUpXiGFCU4nFzKXKFdzXG7P.jpg"
-    },
-    {
       "id": 840464,
       "title": "末日逃生2：迁移",
       "type": "movie",
@@ -200,26 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
     },
     {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.8,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
-      "id": 272715,
-      "title": "佳偶天成",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2026-04-25",
-      "overview": "身负\"五不全\"诅咒降生的战鬼陆千乔，需要通过换皮、换肉、换血、换骨、换心，才能成为\"健全\"的普通人。陆千乔在换肉时为给自己留存一线生机，和想借与死囚成婚化解\"克夫\"厄运的修仙者辛湄结为夫妻。二人命运绑定，携手闯关京城、崇灵谷、西域等地，最终破除战鬼族及开天会的阴谋，解除 战鬼族人身上的诅咒，辛湄也在此过程中突破道心戒律，守护人间。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4Y5CISj5oU7gmc6PSEI7HFl2JY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cqY2x35hzUfJq1TcviRE0amPT02.jpg"
+      "id": 1297842,
+      "title": "奇迹梦之队",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 7.9,
+      "release_date": "2026-02-11",
+      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     }
   ],
   "week_global_all": [
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
       "id": 285838,
       "title": "Girigo：夺命许愿",
       "type": "tv",
@@ -310,6 +299,17 @@
       "overview": "一款神秘的应用程序承诺能实现愿望，却紧接着启动死亡倒计时。一群青少年因此卷入其中，他们必须打破这条致命连锁才能活下去。",
       "poster_url": "https://image.tmdb.org/t/p/original/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
+    },
+    {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 37854,
@@ -323,28 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 224263,
-      "title": "Stranger Things: Tales from '85",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
-      "rating": 6.6,
-      "release_date": "2026-04-23",
-      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
-    },
-    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
@@ -354,6 +332,28 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 224263,
+      "title": "Stranger Things: Tales from '85",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
+      "rating": 6.8,
+      "release_date": "2026-04-23",
+      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 1226863,
@@ -404,33 +404,11 @@
       "title": "非选之人",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 8.2,
+      "rating": 8.1,
       "release_date": "2026-04-21",
       "overview": "来自封闭教派的年轻母亲与一名神秘陌生人相遇，并发展出一段危险关系，她内心的欲望与黑暗秘密也随之苏醒。",
       "poster_url": "https://image.tmdb.org/t/p/original/yFo8YMBiZXjxOsu2j3MVhSPdvRB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mdpe8iybbCZjdgXGpkzEVrVbnYp.jpg"
-    },
-    {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
     },
     {
       "id": 154385,
@@ -442,6 +420,28 @@
       "overview": "这部剧围绕失控的冲突如何层层升级并吞噬人性展开，通过不同阶层与情境的对抗，展现人在愤怒、欲望与生存焦虑驱动下不断越界，最终走向失控与异化的过程。",
       "poster_url": "https://image.tmdb.org/t/p/original/6gmd3iRTOQK2LZp5x5vHEcZJ1ER.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iv8b1AxxEpAtZSQFNOB9oBSzrA1.jpg"
+    },
+    {
+      "id": 1383731,
+      "title": "保护者",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-02-20",
+      "overview": "退役军人尼基与女儿克洛伊平静生活，却在废弃工厂醒来后发现女儿遭绑架，她必须重返黑暗世界，对抗人贩子、警察与军方，在72小时黄金救援期内救回女儿。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eYmecATgFdm6KtcrMlIVM4JTR2O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d4QVKUpXiGFCU4nFzKXKFdzXG7P.jpg"
+    },
+    {
+      "id": 79744,
+      "title": "菜鸟老警",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.5,
+      "release_date": "2018-10-16",
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
     }
   ],
   "popular_movies": [
