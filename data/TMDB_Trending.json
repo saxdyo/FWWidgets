@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27 09:18:29",
+  "last_updated": "2026-04-27 12:55:18",
   "today_global": [
     {
       "id": 1318447,
@@ -13,11 +13,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
       "genreTitle": "音乐•剧情",
-      "rating": 7.6,
+      "rating": 7.5,
       "release_date": "2026-04-22",
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
@@ -33,17 +44,6 @@
       "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
       "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 76479,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -88,6 +77,17 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 1226863,
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
       "id": 254498,
       "title": "黑夜告白",
       "type": "tv",
@@ -121,6 +110,17 @@
       "overview": "1997年，一桩电梯失踪案，将刑警何远航（潘粤明 饰）、冉方旭（王鹤棣 饰）卷入迷雾。经历波折，两人也曾陷入迷茫与怀疑，最终揭开真相。岁月流转，治愈人生迷惘，坚守正义，以乐观坚韧化解磨难。",
       "poster_url": "https://image.tmdb.org/t/p/original/qUhPr2XpczJpnQnXIqJjYaCxOli.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fPQljDQuMsFO4BkcGb4s0459Lbr.jpg"
+    },
+    {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
       "id": 1314481,
@@ -134,6 +134,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
+    },
+    {
       "id": 259537,
       "title": "剑来",
       "type": "tv",
@@ -143,28 +154,6 @@
       "overview": "大千世界，无奇不有。 骊珠洞天中本该有大气运的贫寒少年，因为本命瓷碎裂的缘故，使得机缘临身却难以捉住。基于此，众多大佬纷纷以少年为焦点进行布局，使得少年身边的朋友获得大机缘，而少年却置身风口浪尖之上…",
       "poster_url": "https://image.tmdb.org/t/p/original/44LJUcedKZ7fsFeWeOvtLIJzEU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9QSsaSclI1RJ2p5msiBfMxtsi2u.jpg"
-    },
-    {
-      "id": 224263,
-      "title": "Stranger Things: Tales from '85",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
-      "rating": 6.8,
-      "release_date": "2026-04-23",
-      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
-    },
-    {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 980431,
@@ -178,6 +167,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
     },
     {
+      "id": 224263,
+      "title": "Stranger Things: Tales from '85",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
+      "rating": 7.0,
+      "release_date": "2026-04-23",
+      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
+    },
+    {
       "id": 297640,
       "title": "秘恋稽核中",
       "type": "tv",
@@ -189,15 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1NeKiC0YSrNNGHazvzOGEjflJe.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.4,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/hudyFhRgKXJmD6NTs2I84n8J2WB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 257994,
+      "title": "半个男人",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 9.6,
+      "release_date": "2026-04-23",
+      "overview": "讲述一对非血缘兄弟之间的复杂关系。两人在青少年时期结下了深厚的羁绊，并在此后的30年岁月中，历经聚散，共同应对人生的起伏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5Yl86ZnGyVY3uEGHHKslpixA53X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d1u986pi3ByZ4NhfBQphgPiPlgs.jpg"
     },
     {
       "id": 83533,
@@ -209,17 +220,6 @@
       "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
-      "id": 1304313,
-      "title": "木乃伊",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 6.8,
-      "release_date": "2026-04-15",
-      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ol3DHO1k1JPPjhwzsqc2hYGkpA0.jpg"
     }
   ],
   "week_global_all": [
@@ -235,26 +235,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
       "genreTitle": "音乐•剧情",
-      "rating": 7.6,
+      "rating": 7.5,
       "release_date": "2026-04-22",
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.4,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
       "id": 124364,
@@ -268,26 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
+      "id": 76479,
+      "title": "黑袍纠察队",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
-      "id": 95557,
-      "title": "无敌少侠",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2021-03-25",
-      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.4,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
       "id": 687163,
@@ -301,6 +290,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 95557,
+      "title": "无敌少侠",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2021-03-25",
+      "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
+    },
+    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -310,6 +310,17 @@
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
+      "id": 285838,
+      "title": "Girigo：夺命许愿",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.6,
+      "release_date": "2026-04-24",
+      "overview": "一款神秘的应用程序承诺能实现愿望，却紧接着启动死亡倒计时。一群青少年因此卷入其中，他们必须打破这条致命连锁才能活下去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
     },
     {
       "id": 1314481,
@@ -338,44 +349,11 @@
       "title": "Stranger Things: Tales from '85",
       "type": "tv",
       "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
-      "rating": 6.9,
+      "rating": 7.0,
       "release_date": "2026-04-23",
       "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
       "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
-    },
-    {
-      "id": 285838,
-      "title": "Girigo：夺命许愿",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.6,
-      "release_date": "2026-04-24",
-      "overview": "一款神秘的应用程序承诺能实现愿望，却紧接着启动死亡倒计时。一群青少年因此卷入其中，他们必须打破这条致命连锁才能活下去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
-    },
-    {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 1304313,
-      "title": "木乃伊",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 6.8,
-      "release_date": "2026-04-15",
-      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ol3DHO1k1JPPjhwzsqc2hYGkpA0.jpg"
     },
     {
       "id": 980431,
@@ -389,39 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
     },
     {
-      "id": 262848,
-      "title": "非选之人",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.2,
-      "release_date": "2026-04-21",
-      "overview": "来自封闭教派的年轻母亲与一名神秘陌生人相遇，并发展出一段危险关系，她内心的欲望与黑暗秘密也随之苏醒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yFo8YMBiZXjxOsu2j3MVhSPdvRB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mdpe8iybbCZjdgXGpkzEVrVbnYp.jpg"
-    },
-    {
-      "id": 1266127,
-      "title": "准备好了没2：我来了",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-03-19",
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vig5tqWx6yQ8nGtB9lrYSuW1dwd.jpg"
-    },
-    {
-      "id": 250307,
-      "title": "匹兹堡医护前线",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.7,
-      "release_date": "2025-01-09",
-      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xmAe1PBRMd504TCucdnIvh9qEkL.jpg"
-    },
-    {
       "id": 202411,
       "title": "Monarch: Legacy of Monsters",
       "type": "tv",
@@ -433,29 +378,73 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
+      "id": 1304313,
+      "title": "木乃伊",
       "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.4,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/hudyFhRgKXJmD6NTs2I84n8J2WB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.8,
+      "release_date": "2026-04-15",
+      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ol3DHO1k1JPPjhwzsqc2hYGkpA0.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 257994,
+      "title": "半个男人",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 9.6,
+      "release_date": "2026-04-23",
+      "overview": "讲述一对非血缘兄弟之间的复杂关系。两人在青少年时期结下了深厚的羁绊，并在此后的30年岁月中，历经聚散，共同应对人生的起伏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5Yl86ZnGyVY3uEGHHKslpixA53X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d1u986pi3ByZ4NhfBQphgPiPlgs.jpg"
+    },
+    {
+      "id": 1383731,
+      "title": "保护者",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-02-20",
+      "overview": "退役军人尼基与女儿克洛伊平静生活，却在废弃工厂醒来后发现女儿遭绑架，她必须重返黑暗世界，对抗人贩子、警察与军方，在72小时黄金救援期内救回女儿。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eYmecATgFdm6KtcrMlIVM4JTR2O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d4QVKUpXiGFCU4nFzKXKFdzXG7P.jpg"
+    },
+    {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
+    },
+    {
+      "id": 262848,
+      "title": "非选之人",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.2,
+      "release_date": "2026-04-21",
+      "overview": "来自封闭教派的年轻母亲与一名神秘陌生人相遇，并发展出一段危险关系，她内心的欲望与黑暗秘密也随之苏醒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yFo8YMBiZXjxOsu2j3MVhSPdvRB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mdpe8iybbCZjdgXGpkzEVrVbnYp.jpg"
     }
   ],
   "popular_movies": [
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.8,
-      "release_date": "2026-04-03",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
-    },
     {
       "id": 1318447,
       "title": "巅峰猎杀",
@@ -466,6 +455,17 @@
       "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.8,
+      "release_date": "2026-04-03",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 1523145,
@@ -501,17 +501,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gYRqPBok2mhUbsFPeB8Cj9yppBD.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
-      "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.4,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
-    },
-    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -521,6 +510,17 @@
       "overview": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.4,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
       "id": 1613798,
@@ -589,17 +589,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/53DEyMVLwNVtRiOKBgCyxWKndGK.jpg"
     },
     {
-      "id": 1297842,
-      "title": "奇迹梦之队",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•家庭",
-      "rating": 7.9,
-      "release_date": "2026-03-14",
-      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
-    },
-    {
       "id": 1171145,
       "title": "洛杉矶劫案",
       "type": "movie",
@@ -609,6 +598,17 @@
       "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kKF4gEiBDArhONlCcunHVgBp3bA.jpg"
+    },
+    {
+      "id": 1297842,
+      "title": "奇迹梦之队",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•家庭",
+      "rating": 7.9,
+      "release_date": "2026-03-14",
+      "overview": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "poster_url": "https://image.tmdb.org/t/p/original/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg"
     }
   ]
 }
