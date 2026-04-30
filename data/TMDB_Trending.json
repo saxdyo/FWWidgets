@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01 06:38:05",
+  "last_updated": "2026-05-01 07:38:50",
   "today_global": [
     {
       "id": 1314481,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.7,
-      "release_date": "2026-03-04",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
       "id": 1292695,
       "title": "杀的就是你",
       "type": "movie",
@@ -57,15 +46,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3xW8qixnMObSPokyhzeYfvHRtRK.jpg"
     },
     {
-      "id": 223386,
-      "title": "怒火救援",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 5.8,
-      "release_date": "2026-04-30",
-      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 7.7,
+      "release_date": "2026-03-04",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 1318447,
@@ -79,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -101,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 223386,
+      "title": "怒火救援",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 5.5,
+      "release_date": "2026-04-30",
+      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
+    },
+    {
       "id": 270476,
       "title": "寡妇湾",
       "type": "tv",
@@ -110,6 +99,17 @@
       "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
       "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 1462229,
@@ -156,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yBQ8Xi2Wi02oPM7baJrZ0dGDhtc.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 0.0,
+      "release_date": "2026-05-06",
+      "overview": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 1290821,
@@ -178,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yawBnV7LYZgFKSEeauXTSABr4qq.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 0.0,
-      "release_date": "2026-05-06",
-      "overview": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 1226863,
@@ -268,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
@@ -288,6 +277,17 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 1292695,
@@ -323,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.7,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
       "id": 202555,
       "title": "夜魔侠：重生",
       "type": "tv",
@@ -332,6 +343,17 @@
       "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 0.0,
+      "release_date": "2026-05-06",
+      "overview": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 95557,
@@ -345,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -365,17 +376,6 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
-      "id": 285838,
-      "title": "夺命许愿",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.9,
-      "release_date": "2026-04-24",
-      "overview": "一款神秘的应用程序承诺能实现愿望，却紧接着启动死亡倒计时。一群青少年因此卷入其中，他们必须打破这条致命连锁才能活下去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
     },
     {
       "id": 270476,
@@ -389,15 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 0.0,
-      "release_date": "2026-05-06",
-      "overview": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+      "id": 285838,
+      "title": "夺命许愿",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.9,
+      "release_date": "2026-04-24",
+      "overview": "一款神秘的应用程序承诺能实现愿望，却紧接着启动死亡倒计时。一群青少年因此卷入其中，他们必须打破这条致命连锁才能活下去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
     },
     {
       "id": 1290821,
@@ -422,15 +422,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
     },
     {
-      "id": 79744,
-      "title": "菜鸟老警",
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.5,
-      "release_date": "2018-10-16",
-      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
       "id": 1304313,
