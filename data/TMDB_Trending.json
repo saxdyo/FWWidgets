@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-01 23:42:37",
+  "last_updated": "2026-05-02 00:40:41",
   "today_global": [
     {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
       "genreTitle": "冒险•动画•喜剧",
-      "rating": 9.0,
+      "rating": 9.5,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 7.5,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
       "id": 202411,
       "title": "Monarch: Legacy of Monsters",
       "type": "tv",
@@ -68,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 7.5,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -77,17 +77,6 @@
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
-      "id": 1462229,
-      "title": "飞驰人生3",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 7.3,
-      "release_date": "2026-02-17",
-      "overview": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h6tGwt2luW8keksY677qCxyFxTZ.jpg"
     },
     {
       "id": 1292695,
@@ -110,17 +99,6 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
-      "id": 1651233,
-      "title": "当家好女婿",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-04-18",
-      "overview": "度过一段艰难岁月后，何塞·桑切斯成为令人畏惧的政治操盘手。但这一次，光靠令人印象深刻的胡子和伶牙俐齿还远远不够。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vWfDBdHCHCDBvkrDQkSu1ULqxgu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hGgXH6s3klnWW3x2cbQYlrSVg0U.jpg"
     },
     {
       "id": 76479,
@@ -138,11 +116,33 @@
       "title": "我亲爱的小姐",
       "type": "movie",
       "genreTitle": "剧情•爱情",
-      "rating": 3.5,
+      "rating": 4.0,
       "release_date": "2026-04-17",
       "overview": "一名来自传统家庭的年轻女子发现自己是间性人，由此踏上自我发现和性别认同之旅，在意想不到的地方找到了爱。",
       "poster_url": "https://image.tmdb.org/t/p/original/2AEANCI7WI9K9pQXQHt2e0yK6Up.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/u0FLlb0vKQLvKmiGE6nyhHODFWH.jpg"
+    },
+    {
+      "id": 1651233,
+      "title": "当家好女婿",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-04-18",
+      "overview": "度过一段艰难岁月后，何塞·桑切斯成为令人畏惧的政治操盘手。但这一次，光靠令人印象深刻的胡子和伶牙俐齿还远远不够。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vWfDBdHCHCDBvkrDQkSu1ULqxgu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hGgXH6s3klnWW3x2cbQYlrSVg0U.jpg"
+    },
+    {
+      "id": 1462229,
+      "title": "飞驰人生3",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.3,
+      "release_date": "2026-02-17",
+      "overview": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h6tGwt2luW8keksY677qCxyFxTZ.jpg"
     },
     {
       "id": 124364,
@@ -178,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
-    },
-    {
       "id": 285838,
       "title": "夺命许愿",
       "type": "tv",
@@ -198,6 +187,17 @@
       "overview": "一款神秘的应用程序承诺能实现愿望，却紧接着启动死亡倒计时。一群青少年因此卷入其中，他们必须打破这条致命连锁才能活下去。",
       "poster_url": "https://image.tmdb.org/t/p/original/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.7,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 202555,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+      "id": 829487,
+      "title": "我叫艾妮塔",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情•爱情",
+      "rating": 7.4,
+      "release_date": "2026-04-28",
+      "overview": "失业不久的艾妮塔渴望重新开始，于是接受了一份在普罗旺斯的家庭教师工作，结果却变成了一场放纵的逃离和意外的觉醒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15VGVcLcrljJHUYSYU3Wj1I38Gh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yBQ8Xi2Wi02oPM7baJrZ0dGDhtc.jpg"
     }
   ],
   "week_global_all": [
@@ -235,6 +235,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 9.5,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
@@ -244,17 +255,6 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
-    },
-    {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 9.0,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
       "id": 936075,
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
+      "id": 124364,
+      "title": "梦魇绝镇",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 1327819,
@@ -332,6 +321,17 @@
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 202411,
@@ -367,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
       "id": 270476,
       "title": "寡妇湾",
       "type": "tv",
@@ -400,6 +389,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
       "id": 95557,
       "title": "无敌少侠",
       "type": "tv",
@@ -409,17 +409,6 @@
       "overview": "17岁时，马克格雷森从父亲那里继承来的超能力终于苏醒。他加入了父亲，成为地球上最伟大的英雄之一。这对他而言是美梦成真，但后来发生了一件震撼性事件，改变了一切。",
       "poster_url": "https://image.tmdb.org/t/p/original/qKGKemIogTDTfZoGZEt79V7HUGX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
-    },
-    {
-      "id": 1462229,
-      "title": "飞驰人生3",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 7.3,
-      "release_date": "2026-02-17",
-      "overview": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h6tGwt2luW8keksY677qCxyFxTZ.jpg"
     },
     {
       "id": 224263,
@@ -442,6 +431,17 @@
       "overview": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
       "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+    },
+    {
+      "id": 223386,
+      "title": "怒火救援",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 5.2,
+      "release_date": "2026-04-30",
+      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
     }
   ],
   "popular_movies": [
