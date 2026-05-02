@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-03 06:26:17",
+  "last_updated": "2026-05-03 07:30:46",
   "today_global": [
     {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
       "genreTitle": "动画•冒险•喜剧",
-      "rating": 8.5,
+      "rating": 8.4,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
-      "id": 223386,
-      "title": "怒火救援",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 5.8,
-      "release_date": "2026-04-30",
-      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
-    },
-    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -66,6 +55,17 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 223386,
+      "title": "怒火救援",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 5.8,
+      "release_date": "2026-04-30",
+      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
     },
     {
       "id": 1292695,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zyqAhNJqwiop5yUOJ8SHV27labY.jpg"
     },
     {
-      "id": 270476,
-      "title": "寡妇湾",
+      "id": 278573,
+      "title": "21世纪大君夫人",
       "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 8.4,
+      "release_date": "2026-04-10",
+      "overview": "欢迎来到21世纪的韩国，一个传统与现代交织的君主立宪制国家。在光鲜亮丽的外表下，隐藏着壁垒分明的社会阶级制度。成熙周，一位才华洋溢的财阀继承人兼首席执行官，似乎拥有一切，但出身平民的她却始终得不到应有的尊重。在诞日宴上与理安大君相遇后，她决心掌握自己的命运。她拥有一切，唯独缺少身份；而他空有尊贵的身份，实际上却一无所有。两人缔结了世纪婚约。他们能否打破社会壁垒，开创属于自己的命运？",
+      "poster_url": "https://image.tmdb.org/t/p/original/etY1kHe8NTFFNHdL6FmJcNuvCLW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nDhIHIwN2mVt7rYjAdMKJS1unX6.jpg"
     }
   ],
   "week_global_all": [
@@ -301,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "动画•冒险•喜剧",
+      "rating": 8.4,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
       "id": 85552,
       "title": "亢奋",
       "type": "tv",
@@ -310,17 +321,6 @@
       "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
       "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "动画•冒险•喜剧",
-      "rating": 8.5,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
       "id": 687163,
@@ -356,28 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 270476,
-      "title": "寡妇湾",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
-    },
-    {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.0,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
       "id": 285838,
       "title": "夺命许愿",
       "type": "tv",
@@ -389,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
     },
     {
-      "id": 223386,
-      "title": "怒火救援",
+      "id": 270476,
+      "title": "寡妇湾",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 5.8,
-      "release_date": "2026-04-30",
-      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
       "id": 202411,
@@ -409,6 +387,17 @@
       "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 95557,
@@ -433,15 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
-      "id": 1430077,
-      "title": "幽旅巫咒",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.2,
-      "release_date": "2026-04-29",
-      "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
-      "poster_url": "https://image.tmdb.org/t/p/original/93xtN8BmdVNkLfHnVD2xhmypnl7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e9UvRjJAqn2hLXDfMHU1LFMEKGv.jpg"
+      "id": 223386,
+      "title": "怒火救援",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 5.8,
+      "release_date": "2026-04-30",
+      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
+    },
+    {
+      "id": 65930,
+      "title": "我的英雄学院",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.6,
+      "release_date": "2016-04-03",
+      "overview": "大部分的人类，在这个时代里都拥有名为“个性”的力量，但有力量之人却不一定都属于正义的一方。只要邪恶出现的地方，必定会有英雄挺身而出拯救众人。一名天生没有力量的少年——绿谷出久从小就憧憬一位顶尖英雄，而他的梦想就是成为伟大的英雄，可是，没有力量的他能实现自己的梦想吗？虽然困难重重，少年却依旧不放弃，朝著自己的目标勇往前进！",
+      "poster_url": "https://image.tmdb.org/t/p/original/AnECHXeDNcpyaYbN6Fy8FkHnDK5.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prFONzxES6YtVcn5WGJsS04A4kB.jpg"
     }
   ],
   "popular_movies": [
