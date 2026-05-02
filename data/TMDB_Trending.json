@@ -1,27 +1,16 @@
 {
-  "last_updated": "2026-05-02 09:20:24",
+  "last_updated": "2026-05-02 12:47:59",
   "today_global": [
     {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 8.9,
+      "genreTitle": "动画•冒险•喜剧",
+      "rating": 9.1,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 6.6,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
       "id": 1318447,
@@ -35,15 +24,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 6.6,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 1651233,
+      "title": "当家好女婿",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 5.5,
+      "release_date": "2026-04-18",
+      "overview": "度过一段艰难岁月后，何塞·桑切斯成为令人畏惧的政治操盘手。但这一次，光靠令人印象深刻的胡子和伶牙俐齿还远远不够。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vWfDBdHCHCDBvkrDQkSu1ULqxgu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hGgXH6s3klnWW3x2cbQYlrSVg0U.jpg"
     },
     {
       "id": 223386,
@@ -57,26 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
     },
     {
-      "id": 1651233,
-      "title": "当家好女婿",
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 10.0,
-      "release_date": "2026-04-18",
-      "overview": "度过一段艰难岁月后，何塞·桑切斯成为令人畏惧的政治操盘手。但这一次，光靠令人印象深刻的胡子和伶牙俐齿还远远不够。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vWfDBdHCHCDBvkrDQkSu1ULqxgu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hGgXH6s3klnWW3x2cbQYlrSVg0U.jpg"
-    },
-    {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.4,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+      "genreTitle": "音乐•剧情",
+      "rating": 7.5,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
       "id": 1327819,
@@ -90,26 +79,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 7.5,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+      "id": 202411,
+      "title": "Monarch: Legacy of Monsters",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 7.7,
+      "release_date": "2023-11-16",
+      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
     },
     {
-      "id": 1239198,
-      "title": "我亲爱的小姐",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 4.8,
-      "release_date": "2026-04-17",
-      "overview": "一名来自传统家庭的年轻女子发现自己是间性人，由此踏上自我发现和性别认同之旅，在意想不到的地方找到了爱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2AEANCI7WI9K9pQXQHt2e0yK6Up.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/u0FLlb0vKQLvKmiGE6nyhHODFWH.jpg"
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.4,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
       "id": 1292695,
@@ -123,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3xW8qixnMObSPokyhzeYfvHRtRK.jpg"
     },
     {
+      "id": 1239198,
+      "title": "我亲爱的小姐",
+      "type": "movie",
+      "genreTitle": "剧情•爱情",
+      "rating": 4.8,
+      "release_date": "2026-04-17",
+      "overview": "一名来自传统家庭的年轻女子发现自己是间性人，由此踏上自我发现和性别认同之旅，在意想不到的地方找到了爱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2AEANCI7WI9K9pQXQHt2e0yK6Up.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/u0FLlb0vKQLvKmiGE6nyhHODFWH.jpg"
+    },
+    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -132,17 +132,6 @@
       "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
       "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 85552,
@@ -156,15 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
-      "id": 83295,
-      "title": "贼探",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•动作冒险",
-      "rating": 7.3,
-      "release_date": "2018-10-19",
-      "overview": "1990年代的里约热内卢对伊凡德罗这个充满建立一个犯罪帝国野心的企业家来说是完美的地点。但伊凡德罗的计划遇上了一个劲敌：一个有自我毁灭倾向的联邦警察莫雷洛。莫雷洛将伊凡德罗视为一个够资格的对手。狩猎行动开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hzWdyUczQ52UXbp6ENYtlsH9FWq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wJ3bwrPB2yMGkFYllZl4bPxGxYz.jpg"
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 37854,
@@ -189,6 +178,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
+      "id": 1462229,
+      "title": "飞驰人生3",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-02-17",
+      "overview": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/h6tGwt2luW8keksY677qCxyFxTZ.jpg"
+    },
+    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -200,25 +200,25 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 1430077,
-      "title": "幽旅巫咒",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.4,
-      "release_date": "2026-04-29",
-      "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
-      "poster_url": "https://image.tmdb.org/t/p/original/93xtN8BmdVNkLfHnVD2xhmypnl7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mPKLyaBPSvY6LTRja8PfsagY7O7.jpg"
+      "id": 83295,
+      "title": "贼探",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•动作冒险",
+      "rating": 7.2,
+      "release_date": "2018-10-19",
+      "overview": "1990年代的里约热内卢对伊凡德罗这个充满建立一个犯罪帝国野心的企业家来说是完美的地点。但伊凡德罗的计划遇上了一个劲敌：一个有自我毁灭倾向的联邦警察莫雷洛。莫雷洛将伊凡德罗视为一个够资格的对手。狩猎行动开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hzWdyUczQ52UXbp6ENYtlsH9FWq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wJ3bwrPB2yMGkFYllZl4bPxGxYz.jpg"
     },
     {
       "id": 949536,
-      "title": "Kill Code",
+      "title": "Hard Matter",
       "type": "movie",
       "genreTitle": "动作•惊悚•科幻",
-      "rating": 10.0,
+      "rating": 6.0,
       "release_date": "2026-04-16",
       "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/fP5RClZ67OAfXJcopwNZ7zYfx4A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zyqAhNJqwiop5yUOJ8SHV27labY.jpg"
     }
   ],
@@ -257,39 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3xW8qixnMObSPokyhzeYfvHRtRK.jpg"
     },
     {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.4,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 6.6,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
-    },
-    {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
       "id": 85552,
       "title": "亢奋",
       "type": "tv",
@@ -299,6 +266,17 @@
       "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
       "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.4,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f3okM5FrqlvBB4dOLSO1rRC32qJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
       "id": 1327819,
@@ -312,15 +290,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
       "rating": 8.2,
-      "release_date": "2026-03-15",
-      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 6.6,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "动画•冒险•喜剧",
+      "rating": 9.1,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
       "id": 37854,
@@ -334,15 +334,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
+      "id": 687163,
+      "title": "挽救计划",
       "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+      "genreTitle": "科幻•冒险",
+      "rating": 8.2,
+      "release_date": "2026-03-15",
+      "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 270476,
+      "title": "寡妇湾",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
       "id": 285838,
@@ -356,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3M7sSZlmlCrqJWb3uikjmU1HEcl.jpg"
     },
     {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.7,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
       "id": 202411,
       "title": "Monarch: Legacy of Monsters",
       "type": "tv",
@@ -365,17 +387,6 @@
       "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
-    },
-    {
-      "id": 270476,
-      "title": "寡妇湾",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 7.1,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
       "id": 202555,
@@ -400,26 +411,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jXCATTozWlamH1DpaDSJh21riDR.jpg"
     },
     {
-      "id": 1368166,
-      "title": "家弑服务",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 7.2,
-      "release_date": "2025-12-18",
-      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/taZZfNmMHBXfCk4tcxeBCqlAUfb.jpg"
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚•科幻",
-      "rating": 6.4,
-      "release_date": "2026-01-07",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_url": "https://image.tmdb.org/t/p/original/hudyFhRgKXJmD6NTs2I84n8J2WB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Z4NjgS8hj9fyRdr8nvTqbHDo97.jpg"
+      "id": 224263,
+      "title": "Stranger Things: Tales from '85",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
+      "rating": 7.2,
+      "release_date": "2026-04-23",
+      "overview": "1985 年冬，霍金斯。欢迎回到这座充满秘密的小镇 — 在这里，备受喜爱的主角团将面临新的谜团以及全新的怪奇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yFXcUqN3nQCxWklI35DwffOMNZz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7PoEyK2EFMDRvJg15Ld9Qbtbhe4.jpg"
     },
     {
       "id": 931285,
@@ -431,17 +442,6 @@
       "overview": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
       "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 8.9,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     }
   ],
   "popular_movies": [
@@ -560,7 +560,7 @@
       "title": "复仇双雄",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-02-26",
       "overview": "照片的核心是卡洛斯和米格尔，他们是墨西哥特种部队最好的朋友和精锐士兵。当卡洛斯目睹妻子被残忍杀害时，他们的生活发生了转折。卡洛斯被悲伤和对正义的渴望所吞噬，米格尔陪伴在他身边，卡洛斯带着改变人生的彩票和坚定不移的决心，开始了一场危险的复仇之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/depsxgtgZQ0anU3YhUcjfOjp8ph.jpg",
@@ -582,7 +582,7 @@
       "title": "穿普拉达的女王2",
       "type": "movie",
       "genreTitle": "喜剧•剧情",
-      "rating": 6.5,
+      "rating": 6.6,
       "release_date": "2026-04-30",
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
