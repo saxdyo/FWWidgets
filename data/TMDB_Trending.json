@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06 06:41:27",
+  "last_updated": "2026-05-06 07:36:30",
   "today_global": [
     {
       "id": 1325734,
@@ -46,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 8.2,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -57,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
-      "genreTitle": "动画•家庭•奇幻",
-      "rating": 8.1,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+      "genreTitle": "音乐•剧情",
+      "rating": 7.5,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
       "id": 1327819,
@@ -90,22 +101,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 7.5,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
       "genreTitle": "喜剧•剧情",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2026-04-29",
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
@@ -145,28 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
-      "id": 1318447,
-      "title": "巅峰猎杀",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-04-24",
-      "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p8777bPIlyFYcjqP2hU8htoz1RG.jpg"
-    },
-    {
       "id": 1212763,
       "title": "鬼玩人6：燃烧",
       "type": "movie",
@@ -176,6 +154,17 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/syGSQh7bqPHCFRhwHewHdR5EqjD.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 687163,
@@ -189,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 223386,
-      "title": "怒火救援",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 6.2,
-      "release_date": "2026-04-30",
-      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
+      "id": 1318447,
+      "title": "巅峰猎杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-04-24",
+      "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p8777bPIlyFYcjqP2hU8htoz1RG.jpg"
     },
     {
       "id": 79744,
@@ -211,18 +200,40 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
     },
     {
-      "id": 1292695,
-      "title": "杀的就是你",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•恐怖",
-      "rating": 6.7,
-      "release_date": "2026-03-25",
-      "overview": "艾莎·里夫斯（莎姬·贝兹 饰）接受了一份神秘的家政工作，地点位于纽约市一座奢华却阴森的高层建筑“维吉尔大厦”。她很快发现，这座大楼竟是崇拜撒旦的邪教殿堂，而居住其中的富豪精英们计划将她作为祭品，以换取自己的永生。\r 维吉尔的居民们并不知道，艾莎此行实为营救疏远的妹妹玛丽亚（米哈拉·赫罗德 饰）而来，她身怀绝技、装备精良。当艾莎意识到玛丽亚已深陷这栋大楼的黑暗秘密时，两人必须周旋于致命的住户之间，在狂热崇拜恶魔的租户与员工的疯狂袭击中求生，并为生存而战。誓要一举终结维吉尔大厦的血腥统治。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xIKj45UHX7y8JxsYzt6Z9i74UH2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3xW8qixnMObSPokyhzeYfvHRtRK.jpg"
+      "id": 136315,
+      "title": "熊家餐馆",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.2,
+      "release_date": "2022-06-23",
+      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3utKZ1Wp7FD9NE8Dysu0NATa9cC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2026-03-26",
+      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
+    },
     {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
@@ -233,6 +244,28 @@
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 8.2,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.7,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 76479,
@@ -246,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2026-03-26",
-      "overview": "艾玛（赞达亚 饰）和查理（罗伯特·帕丁森 饰）是一对即将完婚的情侣，然而婚礼前夕忽然发生了让人意想不到的抓马故事，两人的感情面临前所未有的考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUNGNCNYpAGJ3wBoolBFEdinIS0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
-    },
-    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
@@ -266,17 +288,6 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
-    },
-    {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•奇幻",
-      "rating": 8.1,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
       "id": 1327819,
@@ -301,28 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 931285,
       "title": "真人快打2",
       "type": "movie",
@@ -345,11 +334,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vig5tqWx6yQ8nGtB9lrYSuW1dwd.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 289219,
+      "title": "星球大战：摩尔-暗影之王",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2026-04-06",
+      "overview": "在克隆人战争之后，摩尔计划在一个未受帝国染指的星球上重建他的犯罪集团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wSScSZ6No09Z2SBJIHpBZ7rgi1m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
+    },
+    {
       "id": 1318447,
       "title": "巅峰猎杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.5,
+      "rating": 6.4,
       "release_date": "2026-04-24",
       "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
@@ -365,17 +376,6 @@
       "overview": "艾莎·里夫斯（莎姬·贝兹 饰）接受了一份神秘的家政工作，地点位于纽约市一座奢华却阴森的高层建筑“维吉尔大厦”。她很快发现，这座大楼竟是崇拜撒旦的邪教殿堂，而居住其中的富豪精英们计划将她作为祭品，以换取自己的永生。\r 维吉尔的居民们并不知道，艾莎此行实为营救疏远的妹妹玛丽亚（米哈拉·赫罗德 饰）而来，她身怀绝技、装备精良。当艾莎意识到玛丽亚已深陷这栋大楼的黑暗秘密时，两人必须周旋于致命的住户之间，在狂热崇拜恶魔的租户与员工的疯狂袭击中求生，并为生存而战。誓要一举终结维吉尔大厦的血腥统治。",
       "poster_url": "https://image.tmdb.org/t/p/original/xIKj45UHX7y8JxsYzt6Z9i74UH2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3xW8qixnMObSPokyhzeYfvHRtRK.jpg"
-    },
-    {
-      "id": 289219,
-      "title": "星球大战：摩尔-暗影之王",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "release_date": "2026-04-06",
-      "overview": "在克隆人战争之后，摩尔计划在一个未受帝国染指的星球上重建他的犯罪集团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wSScSZ6No09Z2SBJIHpBZ7rgi1m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yrytbyin2BR1sTlTAMaz1ITkcvz.jpg"
     },
     {
       "id": 687163,
@@ -400,6 +400,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
+      "id": 1212763,
+      "title": "鬼玩人6：燃烧",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 0.0,
+      "release_date": "2026-07-08",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/syGSQh7bqPHCFRhwHewHdR5EqjD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
+    },
+    {
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.0,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+    },
+    {
       "id": 270476,
       "title": "寡妇湾",
       "type": "tv",
@@ -411,37 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
-      "id": 223386,
-      "title": "怒火救援",
+      "id": 136315,
+      "title": "熊家餐馆",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 6.2,
-      "release_date": "2026-04-30",
-      "overview": "被过去所困扰，又被敌人追捕，一名特种部队老兵在里约热内卢致命的街头奋力拯救一名少女的生命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jv0Br9jh6bBHxpdhWCGi1srQ7Lt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1dSWQn6VqxoY9TH05zK2NWU41tT.jpg"
-    },
-    {
-      "id": 202411,
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 7.7,
-      "release_date": "2023-11-16",
-      "overview": "在经历了哥斯拉对旧金山的袭击并幸存下来之后，凯特再次被一个惊人的秘密震撼。在巨大的威胁面前，她踏上环球冒险之旅，以了解关于她的家庭和神秘帝王组织的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n9f19s803QWUMq4C18Gyj60vUeE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n5FGEUmId87nZAdFiOFmCKXynmT.jpg"
-    },
-    {
-      "id": 1212763,
-      "title": "鬼玩人6：燃烧",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 0.0,
-      "release_date": "2026-07-08",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/syGSQh7bqPHCFRhwHewHdR5EqjD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.2,
+      "release_date": "2022-06-23",
+      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3utKZ1Wp7FD9NE8Dysu0NATa9cC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
     }
   ],
   "popular_movies": [
@@ -471,7 +471,7 @@
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
-      "genreTitle": "动画•家庭•奇幻",
+      "genreTitle": "冒险•动画•喜剧",
       "rating": 8.2,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
