@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-13 09:46:32",
+  "last_updated": "2026-05-13 13:36:55",
   "today_global": [
+    {
+      "id": 1439930,
+      "title": "惩罚者：最后一击",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•剧情",
+      "rating": 7.6,
+      "release_date": "2026-05-12",
+      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7vsemtofCEnasYJM1Ts85q8LNbZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g8VAr5hS2NCxVuE7fqGJDHAjcay.jpg"
+    },
     {
       "id": 687163,
       "title": "挽救计划",
@@ -24,28 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2pmWrjN12nwe1YHgGgv52n0ouvX.jpg"
     },
     {
-      "id": 1439930,
-      "title": "惩罚者：最后一击",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 9.0,
-      "release_date": "2026-05-12",
-      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7vsemtofCEnasYJM1Ts85q8LNbZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/g8VAr5hS2NCxVuE7fqGJDHAjcay.jpg"
-    },
-    {
-      "id": 855435,
-      "title": "死亡真面目",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.5,
-      "release_date": "2026-04-10",
-      "overview": "　　某在线视频分享平台的内容审核员，在网站内容深处偶然发现一个隐藏的虐杀视频链。这些令人毛骨悚然的视频，究竟是虚构的猎奇之作，还是真实存在的可怕现实？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dT90JCi2Z8RsPjY83PpBFOSb2Re.jpg"
-    },
-    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -57,26 +46,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
+      "id": 855435,
+      "title": "死亡真面目",
       "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.1,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "genreTitle": "恐怖",
+      "rating": 6.1,
+      "release_date": "2026-04-10",
+      "overview": "　　某在线视频分享平台的内容审核员，在网站内容深处偶然发现一个隐藏的虐杀视频链。这些令人毛骨悚然的视频，究竟是虚构的猎奇之作，还是真实存在的可怕现实？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dT90JCi2Z8RsPjY83PpBFOSb2Re.jpg"
     },
     {
       "id": 936075,
@@ -90,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
+      "id": 1330021,
+      "title": "尤为明亮的生物",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.4,
+      "release_date": "2026-05-07",
+      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iTwuKthP4o3yjdnQXQyFgsLb407.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
+    },
+    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -101,11 +90,44 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.1,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+    },
+    {
+      "id": 1400357,
+      "title": "The Christophers",
+      "type": "movie",
+      "genreTitle": "犯罪•喜剧",
+      "rating": 6.8,
+      "release_date": "2026-04-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/s6oUrGMNl8hVh7fn0O8oF2rHwrM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/shSgwQTRsZcvRidZJOQrn1z4RtC.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
       "genreTitle": "动画•家庭•冒险",
-      "rating": 8.9,
+      "rating": 9.0,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
@@ -123,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
-      "id": 1330021,
-      "title": "幸运有八只触手",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.4,
-      "release_date": "2026-05-07",
-      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
-    },
-    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -145,33 +156,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 1400357,
-      "title": "The Christophers",
+      "id": 1455079,
+      "title": "你我在托斯卡纳",
       "type": "movie",
-      "genreTitle": "犯罪•喜剧",
-      "rating": 6.8,
-      "release_date": "2026-04-10",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/hyuGMkjtZ77wxAx2mkSdE5vSv1D.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/shSgwQTRsZcvRidZJOQrn1z4RtC.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 4.9,
+      "release_date": "2026-04-09",
+      "overview": "　　一位女子误入一栋无人看管的意大利别墅，并假扮成主人的未婚妻暂住于此。在那里，她迎来了一场意想不到的浪漫邂逅，而这段关系可能会彻底改变她的人生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yhoXo7kcTuddKuSb7HnnLmf8h29.jpg"
     },
     {
-      "id": 295509,
-      "title": "菜鸟伙房兵",
+      "id": 202555,
+      "title": "夜魔侠：重生",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•喜剧•剧情",
-      "rating": 10.0,
-      "release_date": "2026-05-11",
-      "overview": "姜成宰原本只是军中不起眼的菜鸟伙房兵，却意外在厨房中找到属于自己的战场，他以菜刀代替枪支、以围裙代替弹药带，在看似日常的炊事任务中，一步步成长为令人意想不到的传奇人物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wRj5X08xSghICjKrLuQaHqD9lg0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/epPHvLRcvIMwQV5ZDH5SjAsm7Ve.jpg"
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 256695,
       "title": "日常工作：遗失剧集",
       "type": "tv",
       "genreTitle": "动画•喜剧•动作冒险",
-      "rating": 9.5,
+      "rating": 9.8,
       "release_date": "2026-05-11",
       "overview": "鸟哥和阿天这对好朋友在当地的一个公园生活与工作。不知何故，他们平凡的工作总是演变成超现实的混乱局面，这让他们的老板和同事们非常恼火。",
       "poster_url": "https://image.tmdb.org/t/p/original/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
@@ -185,8 +196,19 @@
       "rating": 0.0,
       "release_date": "2026-05-11",
       "overview": "在这部纪录片中，通过经典片段、新的采访以及此前从未公开的全明星家庭电影，马丁·肖特回顾了其充满快乐的一生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vWgqvwe2MlDYXaXQ81XdgcJspMS.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/8zMOfOnnFacqHkLwGpaU04EgjQU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oVa2cWdCYsqeqjJZdPpk9fkCMz1.jpg"
+    },
+    {
+      "id": 295509,
+      "title": "菜鸟伙房兵",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•喜剧•剧情",
+      "rating": 10.0,
+      "release_date": "2026-05-11",
+      "overview": "姜成宰原本只是军中不起眼的菜鸟伙房兵，却意外在厨房中找到属于自己的战场，他以菜刀代替枪支、以围裙代替弹药带，在看似日常的炊事任务中，一步步成长为令人意想不到的传奇人物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wRj5X08xSghICjKrLuQaHqD9lg0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/epPHvLRcvIMwQV5ZDH5SjAsm7Ve.jpg"
     },
     {
       "id": 1339713,
@@ -198,31 +220,20 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
-    },
-    {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2026-03-26",
-      "overview": "来自波士顿的情侣艾玛·哈伍德（赞达亚·科尔曼 饰）和查理·汤普森（罗伯特·帕丁森 饰）既美丽又迷人，有着高雅而知性的气质，而且彼此深爱着对方。虽然他们恋爱的初期有些尴尬，比如查理在追求艾玛时犯了不少错，但这些都不过是浪漫故事中的有趣插曲罢了。他们即将步入婚姻的殿堂。但还有些最后的准备工作要做，比如确定婚礼菜单、撰写婚誓等等。可要想获得幸福的婚姻并不容易。他们的矛盾源于一场看似轻松愉快的派对游戏。艾玛和查理喝醉了，他们还想再喝一杯酒。他们的挚友瑞秋（阿拉娜·哈伊姆 饰）和她的丈夫迈克（马莫多·阿西 饰）也参与了这次聚会。瑞秋怂恿大家说出自己做过的最糟糕的事，这样就能让大家的心灵得到净化，为艾玛和查理的下一步行动铺平道路。迈克犯下的最糟糕的错误是缺乏绅士风度；瑞秋则回忆起了自己童年时犯下的小恶行；查理的经历则是一段比较无伤大雅的网络闹剧；而艾玛所揭露的内容却让众人震惊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aDI4QMrTxNpo4l94mlJmGwslS67.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
-    },
-    {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 1439930,
+      "title": "惩罚者：最后一击",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•剧情",
+      "rating": 7.6,
+      "release_date": "2026-05-12",
+      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7vsemtofCEnasYJM1Ts85q8LNbZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g8VAr5hS2NCxVuE7fqGJDHAjcay.jpg"
+    },
     {
       "id": 687163,
       "title": "挽救计划",
@@ -258,21 +269,43 @@
     },
     {
       "id": 1330021,
-      "title": "幸运有八只触手",
+      "title": "尤为明亮的生物",
       "type": "movie",
       "genreTitle": "剧情•悬疑",
       "rating": 8.4,
       "release_date": "2026-05-07",
       "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/iTwuKthP4o3yjdnQXQyFgsLb407.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
+    },
+    {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 7.6,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
       "genreTitle": "动画•家庭•冒险",
-      "rating": 8.9,
+      "rating": 9.0,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
@@ -290,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 1325734,
-      "title": "爱情抓马",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2026-03-26",
-      "overview": "来自波士顿的情侣艾玛·哈伍德（赞达亚·科尔曼 饰）和查理·汤普森（罗伯特·帕丁森 饰）既美丽又迷人，有着高雅而知性的气质，而且彼此深爱着对方。虽然他们恋爱的初期有些尴尬，比如查理在追求艾玛时犯了不少错，但这些都不过是浪漫故事中的有趣插曲罢了。他们即将步入婚姻的殿堂。但还有些最后的准备工作要做，比如确定婚礼菜单、撰写婚誓等等。可要想获得幸福的婚姻并不容易。他们的矛盾源于一场看似轻松愉快的派对游戏。艾玛和查理喝醉了，他们还想再喝一杯酒。他们的挚友瑞秋（阿拉娜·哈伊姆 饰）和她的丈夫迈克（马莫多·阿西 饰）也参与了这次聚会。瑞秋怂恿大家说出自己做过的最糟糕的事，这样就能让大家的心灵得到净化，为艾玛和查理的下一步行动铺平道路。迈克犯下的最糟糕的错误是缺乏绅士风度；瑞秋则回忆起了自己童年时犯下的小恶行；查理的经历则是一段比较无伤大雅的网络闹剧；而艾玛所揭露的内容却让众人震惊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aDI4QMrTxNpo4l94mlJmGwslS67.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
+      "id": 202555,
+      "title": "夜魔侠：重生",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2025-03-04",
+      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
     },
     {
       "id": 1314481,
@@ -312,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 7.6,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
       "id": 85552,
       "title": "亢奋",
       "type": "tv",
@@ -332,6 +354,28 @@
       "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
       "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 1325734,
+      "title": "爱情抓马",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 7.0,
+      "release_date": "2026-03-26",
+      "overview": "来自波士顿的情侣艾玛·哈伍德（赞达亚·科尔曼 饰）和查理·汤普森（罗伯特·帕丁森 饰）既美丽又迷人，有着高雅而知性的气质，而且彼此深爱着对方。虽然他们恋爱的初期有些尴尬，比如查理在追求艾玛时犯了不少错，但这些都不过是浪漫故事中的有趣插曲罢了。他们即将步入婚姻的殿堂。但还有些最后的准备工作要做，比如确定婚礼菜单、撰写婚誓等等。可要想获得幸福的婚姻并不容易。他们的矛盾源于一场看似轻松愉快的派对游戏。艾玛和查理喝醉了，他们还想再喝一杯酒。他们的挚友瑞秋（阿拉娜·哈伊姆 饰）和她的丈夫迈克（马莫多·阿西 饰）也参与了这次聚会。瑞秋怂恿大家说出自己做过的最糟糕的事，这样就能让大家的心灵得到净化，为艾玛和查理的下一步行动铺平道路。迈克犯下的最糟糕的错误是缺乏绅士风度；瑞秋则回忆起了自己童年时犯下的小恶行；查理的经历则是一段比较无伤大雅的网络闹剧；而艾玛所揭露的内容却让众人震惊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aDI4QMrTxNpo4l94mlJmGwslS67.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9vWy0CjuVpe0R4Dxa5xdF4vYPE8.jpg"
+    },
+    {
+      "id": 235930,
+      "title": "Devil May Cry",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-04-03",
+      "overview": "邪恶势力蠢蠢欲动，意图打开人类与恶魔世界之间的传送门。无父无母的恶魔猎人但丁接受委托维生，置身一切混乱中的他，浑然不觉自己将一肩扛起两个世界的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6lQMu3OQ1tcB0pDuLCOpb7QFwe2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2pmWrjN12nwe1YHgGgv52n0ouvX.jpg"
     },
     {
       "id": 1266127,
@@ -345,50 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vig5tqWx6yQ8nGtB9lrYSuW1dwd.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fXuoxOGNKePqacr6iKz8xVy8PRb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 202555,
-      "title": "夜魔侠：重生",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
-    },
-    {
-      "id": 1439930,
-      "title": "惩罚者：最后一击",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 9.0,
-      "release_date": "2026-05-12",
-      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7vsemtofCEnasYJM1Ts85q8LNbZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/g8VAr5hS2NCxVuE7fqGJDHAjcay.jpg"
-    },
-    {
-      "id": 114922,
-      "title": "堡垒",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 6.9,
-      "release_date": "2023-04-27",
-      "overview": "八年前，一个名为堡垒的独立全球间谍机构，被新兴的犯罪集团曼提柯尔所摧毁。精英特工梅森·凯恩（理查德·麦登 饰）和纳迪亚·辛格 （朴雅卡·乔普拉 饰）死里逃生，而他们的记忆也被抹去。八年后，梅森的前同事伯纳德·奥立克（斯坦利·图齐 饰）请求他帮忙阻止曼提柯尔建立新的世界秩序。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bfpVJ8DmmipeKPoILZmY7dLs7x2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aUKSTSymaRJ2W4WepBBJWBH57OH.jpg"
-    },
-    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -400,26 +400,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 79744,
-      "title": "菜鸟老警",
+      "id": 114922,
+      "title": "堡垒",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.5,
-      "release_date": "2018-10-16",
-      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3DChAVaTEBsW5l2hllwPsXlJlTI.jpg"
+      "genreTitle": "剧情•犯罪•动作冒险",
+      "rating": 6.8,
+      "release_date": "2023-04-27",
+      "overview": "八年前，一个名为堡垒的独立全球间谍机构，被新兴的犯罪集团曼提柯尔所摧毁。精英特工梅森·凯恩（理查德·麦登 饰）和纳迪亚·辛格 （朴雅卡·乔普拉 饰）死里逃生，而他们的记忆也被抹去。八年后，梅森的前同事伯纳德·奥立克（斯坦利·图齐 饰）请求他帮忙阻止曼提柯尔建立新的世界秩序。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bfpVJ8DmmipeKPoILZmY7dLs7x2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aUKSTSymaRJ2W4WepBBJWBH57OH.jpg"
     },
     {
-      "id": 1318447,
-      "title": "巅峰猎杀",
+      "id": 1301421,
+      "title": "绵羊侦探团",
       "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-04-24",
-      "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p8777bPIlyFYcjqP2hU8htoz1RG.jpg"
+      "genreTitle": "喜剧•家庭•悬疑",
+      "rating": 7.7,
+      "release_date": "2026-04-30",
+      "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ofZ8E3mq32fyzlc79uIrKX4OKPI.jpg"
     },
     {
       "id": 37854,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 1630423,
-      "title": "我的挚爱杀手",
-      "type": "movie",
-      "genreTitle": "动作•剧情•爱情",
-      "rating": 8.6,
-      "release_date": "2026-05-06",
-      "overview": "年轻女子因拥有罕见血型而遭人追捕，自小被杀手家族扶养长大。当复仇心切的敌人为了她的血再度现身，她决心与挚爱并肩作战，为自由奋战到底。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jvgyRU33iMJPo9mx7bVV94h3BBv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg"
+      "id": 272432,
+      "title": "低智商犯罪",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 8.8,
+      "release_date": "2026-05-04",
+      "overview": "脱离一线刑侦几年的警察张一昂，因为省厅收到的匿名举报信，被派往三江口调查案件。张一昂到三江口不久就遇到刑警队长被害，张一昂在洗清自我嫌疑时意外逮捕了连环杀人案的凶手，迅速建立声望。张一昂将侦查方向锁定到当地富商周荣团伙，可蠢贼们层出不穷，蠢贼之间勾心斗角的蝴蝶效应，反而助张一昂带领的警察们屡建奇功。 “缘分”让张一昂跟所有蠢贼们齐聚一堂，凭借智慧和勇气笑到最后，也查明同僚遇害的起因，最终让真凶落入法网。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ySVFNbEAOWJgo5TVYk6MeIfTU34.jpg"
     }
   ],
   "popular_movies": [
@@ -450,7 +450,7 @@
       "title": "奇幻变身大冒险",
       "type": "movie",
       "genreTitle": "动画•家庭•冒险",
-      "rating": 8.9,
+      "rating": 9.0,
       "release_date": "2026-05-01",
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
@@ -516,7 +516,7 @@
       "title": "你会心碎",
       "type": "movie",
       "genreTitle": "爱情•剧情",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-03-26",
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
@@ -527,7 +527,7 @@
       "title": "真人快打2",
       "type": "movie",
       "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-05-08",
       "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
@@ -538,7 +538,7 @@
       "title": "我的挚爱杀手",
       "type": "movie",
       "genreTitle": "动作•剧情•爱情",
-      "rating": 8.5,
+      "rating": 8.6,
       "release_date": "2026-05-06",
       "overview": "年轻女子因拥有罕见血型而遭人追捕，自小被杀手家族扶养长大。当复仇心切的敌人为了她的血再度现身，她决心与挚爱并肩作战，为自由奋战到底。",
       "poster_url": "https://image.tmdb.org/t/p/original/jvgyRU33iMJPo9mx7bVV94h3BBv.jpg",
@@ -560,7 +560,7 @@
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
       "genreTitle": "音乐•剧情",
-      "rating": 7.5,
+      "rating": 7.6,
       "release_date": "2026-04-24",
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
@@ -578,17 +578,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "动画•冒险•喜剧",
-      "rating": 7.9,
-      "release_date": "2026-03-20",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
-    },
-    {
       "id": 10867,
       "title": "西西里的美丽传说",
       "type": "movie",
@@ -598,6 +587,17 @@
       "overview": "二战时期西西里岛上宁静的小镇，美艳动人的妇人玛莲娜，撩着波浪长发，穿着时髦的短裙丝袜，踏着诱惑的高跟鞋，烟视媚行，征服了镇上所有男人，也包括年仅13岁的维利图，他悄悄地成为她的小跟班，如影随形地跟踪、窥视她的生活。她摇曳的倩影、她聆听的和音乐、她贴身的衣物…都成为这个被荷尔蒙淹没的少年，最真实、最美好的情欲幻想…",
       "poster_url": "https://image.tmdb.org/t/p/original/dzDomGKtXBSpsXbwfI5Ujn2rQvm.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/XNnNvSCKtnL3yUGyDTBuQ3UhlM.jpg"
+    },
+    {
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "动画•冒险•喜剧",
+      "rating": 7.9,
+      "release_date": "2026-03-20",
+      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 1669050,
