@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16 17:16:34",
+  "last_updated": "2026-05-16 18:50:24",
   "today_global": [
     {
       "id": 308014,
@@ -11,17 +11,6 @@
       "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
       "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hnNmdMC7jp07Vekp9ZoGA5TQOy7.jpg"
-    },
-    {
-      "id": 1439930,
-      "title": "惩罚者：最后一击",
-      "type": "movie",
-      "genreTitle": "动作•剧情•犯罪",
-      "rating": 8.6,
-      "release_date": "2026-05-12",
-      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4kmoi9DsxUuYhLzoG8YdiYE2mHT.jpg"
     },
     {
       "id": 259837,
@@ -46,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg"
     },
     {
+      "id": 1439930,
+      "title": "惩罚者：最后一击",
+      "type": "movie",
+      "genreTitle": "动作•剧情•犯罪",
+      "rating": 8.6,
+      "release_date": "2026-05-13",
+      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4kmoi9DsxUuYhLzoG8YdiYE2mHT.jpg"
+    },
+    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -57,28 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.9,
-      "release_date": "2026-04-16",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
-    },
-    {
-      "id": 285807,
-      "title": "宿敌交锋",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 5.8,
-      "release_date": "2026-05-14",
-      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
-    },
-    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -88,6 +66,28 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 285807,
+      "title": "宿敌交锋",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-05-14",
+      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.9,
+      "release_date": "2026-04-16",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
       "id": 1684226,
@@ -116,22 +116,11 @@
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
       "genreTitle": "音乐•剧情",
-      "rating": 7.5,
+      "rating": 7.6,
       "release_date": "2026-04-22",
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 208921,
@@ -143,6 +132,17 @@
       "overview": "小说故事发生在虚构的上流社会拉特郡，德克兰·奥哈拉（艾丹·特纳饰）加入了残酷的科里尼姆电视台。他是一个魅力四射的正直明星，有一个光芒四射的花瓶妻子莫德（维多利亚·斯莫菲特饰）、一个英俊的儿子和两个迷人的十几岁的女儿（其中大女儿由贝拉·麦克莱恩饰演）。住在山谷对面的鲁伯特·坎贝尔-布莱克（阿历克斯·哈塞尔饰）是前奥运会选手、国会议员、臭名昭著的花花公子，曾离过婚，一如既往地放荡不羁，现在是保守党的体育部长。他的邻居即是他长期以来的竞争对手托尼·巴丁汉姆(大卫·田纳特饰)，科里尼姆电视台的总经理，他的妻子莫妮卡（克莱尔·拉什布鲁克饰）倒是对丈夫的工作毫无兴趣。托尼还有一个迷人的弟弟巴兹尔·巴斯·巴丁汉姆（卢克·帕斯夸尼诺饰），开了一家热门酒吧。德克兰在电视台工作不久就意识到托尼聘用他只是为了帮助电视台保留特许经营权。不仅如此，漂亮但专横的卡梅伦·库克（娜菲萨·威廉姆斯饰），这位才华横溢的美国电视高管，还被托尼带到科里尼姆，制作德克兰新的黄金时段脱口秀节目。德克兰和卡梅伦互相厌恶，引发了一场争论的风暴，鲁伯特以他一贯的方式投入其中。另一边，弗雷迪·琼斯（丹尼·戴尔饰）是一个白手起家的电子产品百万富翁。他得到了钱，却发现自己和妻子瓦莱丽(丽莎·麦格里斯饰)都是拉特希尔集团的局外人。正处于中年危机的副首相保罗·斯特拉顿（鲁弗斯·琼斯饰）的新婚妻子莎拉（艾米丽·阿塔克）野心勃勃，不害怕利用自己的外表达到顶峰。浪漫小说家莉齐·维克尔（凯瑟琳·帕金森饰）则一直被她爱打扮、以自我为中心的电视主持人丈夫詹姆斯·维克尔(奥利弗·克里斯饰)所忽视随着一个竞争对手的出现来为这部电影的专营权做宣传，名声的成熟和衰落，真爱的绽放和燃烧，婚姻的建立和破裂……在床上和会议室里，争夺科茨沃尔德王冠的比赛开始了。",
       "poster_url": "https://image.tmdb.org/t/p/original/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dUeaYaxDHu53He68soUg2lGfIpr.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 1140521,
@@ -178,28 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mzUZVrni3gkEunW8IYWf050D8SV.jpg"
     },
     {
-      "id": 1330021,
-      "title": "幸运有八只触手",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.5,
-      "release_date": "2026-05-07",
-      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
-    },
-    {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•冒险",
-      "rating": 9.0,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
-    },
-    {
       "id": 56570,
       "title": "古战场传奇",
       "type": "tv",
@@ -218,8 +196,30 @@
       "rating": 0.0,
       "release_date": "2026-05-15",
       "overview": "家人面临危险，险恶威胁逼近，这名警官必须决定他愿意为履行职责付出多大的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wyJG0JzeZTo37giko4UJVVFktld.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/9VQvX7a05FgDKAiSGg71MHTXsyF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mHm73HhpvGWfRkXNErcwc15Czrv.jpg"
+    },
+    {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "动画•家庭•冒险",
+      "rating": 9.0,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
+      "id": 1330021,
+      "title": "幸运有八只触手",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.5,
+      "release_date": "2026-05-07",
+      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
     }
   ],
   "week_global_all": [
@@ -229,7 +229,7 @@
       "type": "movie",
       "genreTitle": "动作•剧情•犯罪",
       "rating": 8.6,
-      "release_date": "2026-05-12",
+      "release_date": "2026-05-13",
       "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
       "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4kmoi9DsxUuYhLzoG8YdiYE2mHT.jpg"
@@ -279,50 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 7.5,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.9,
-      "release_date": "2026-04-16",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
-    },
-    {
-      "id": 1330021,
-      "title": "幸运有八只触手",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.5,
-      "release_date": "2026-05-07",
-      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
-    },
-    {
       "id": 299167,
       "title": "达顿牧场",
       "type": "tv",
@@ -334,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+      "genreTitle": "音乐•剧情",
+      "rating": 7.6,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
       "id": 259837,
@@ -356,15 +312,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.9,
+      "release_date": "2026-04-16",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.7,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
+      "id": 1330021,
+      "title": "幸运有八只触手",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.5,
+      "release_date": "2026-05-07",
+      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
     },
     {
       "id": 124364,
@@ -378,6 +367,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 285807,
+      "title": "宿敌交锋",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-05-14",
+      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
@@ -387,17 +398,6 @@
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
-    },
-    {
-      "id": 285807,
-      "title": "宿敌交锋",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 5.8,
-      "release_date": "2026-05-14",
-      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
     },
     {
       "id": 71915,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2pmWrjN12nwe1YHgGgv52n0ouvX.jpg"
     },
     {
-      "id": 202555,
-      "title": "夜魔侠：重生",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•犯罪",
-      "rating": 8.2,
-      "release_date": "2025-03-04",
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/agItcKNhp6ZPGOmch9COIJRSlUI.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     }
   ],
   "popular_movies": [
