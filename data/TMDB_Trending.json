@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18 04:39:22",
+  "last_updated": "2026-05-18 05:41:17",
   "today_global": [
     {
       "id": 1439930,
@@ -13,17 +13,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.6,
-      "release_date": "2026-03-15",
-      "overview": "中学科学老师瑞恩·格雷斯在一艘距离家园数光年外的飞船上醒来，完全不记得自己是谁，也不记得如何来到这里。随着记忆逐渐恢复，他开始揭开自己的使命：解开导致太阳逐渐熄灭的神秘物质的谜团。他必须借助自己的科学知识与非常规思路，拯救地球万物免于灭绝……但一段意想不到的友谊意味着他也许不必独自承担这一切。[亚马逊米高梅影业]",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 308014,
       "title": "柏林：抱银貂的女子",
       "type": "tv",
@@ -33,6 +22,17 @@
       "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
       "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.6,
+      "release_date": "2026-03-15",
+      "overview": "中学科学老师瑞恩·格雷斯在一艘距离家园数光年外的飞船上醒来，完全不记得自己是谁，也不记得如何来到这里。随着记忆逐渐恢复，他开始揭开自己的使命：解开导致太阳逐渐熄灭的神秘物质的谜团。他必须借助自己的科学知识与非常规思路，拯救地球万物免于灭绝……但一段意想不到的友谊意味着他也许不必独自承担这一切。[亚马逊米高梅影业]",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 124364,
@@ -46,10 +46,21 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.5,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•爱情",
+      "genreTitle": "恐怖•惊悚",
       "rating": 8.0,
       "release_date": "2026-04-16",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
@@ -66,17 +77,6 @@
       "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
       "poster_url": "https://image.tmdb.org/t/p/original/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
-    },
-    {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.5,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
       "id": 273240,
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -121,6 +110,17 @@
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 37854,
@@ -200,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cMUQutm4skIMltgehJllxvL8Alj.jpg"
     },
     {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•冒险",
-      "rating": 9.0,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
-    },
-    {
       "id": 1266127,
       "title": "准备好了没2：我来了",
       "type": "movie",
@@ -220,6 +209,17 @@
       "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
       "poster_url": "https://image.tmdb.org/t/p/original/vwpQhAyMhP7GpX5NIn0ak3cRZEr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vig5tqWx6yQ8nGtB9lrYSuW1dwd.jpg"
+    },
+    {
+      "id": 1318447,
+      "title": "巅峰猎杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.6,
+      "release_date": "2026-04-24",
+      "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     }
   ],
   "week_global_all": [
@@ -282,7 +282,7 @@
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•爱情",
+      "genreTitle": "恐怖•惊悚",
       "rating": 8.0,
       "release_date": "2026-04-16",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
@@ -334,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     },
     {
-      "id": 285807,
-      "title": "宿敌交锋",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 5.9,
-      "release_date": "2026-05-14",
-      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -354,6 +343,17 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
+      "id": 285807,
+      "title": "宿敌交锋",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 5.9,
+      "release_date": "2026-05-14",
+      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
     },
     {
       "id": 1226863,
@@ -389,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
-      "id": 71915,
-      "title": "好兆头",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2019-05-31",
-      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
-    },
-    {
       "id": 1330021,
       "title": "幸运有八只触手",
       "type": "movie",
@@ -411,15 +400,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
     },
     {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•冒险",
-      "rating": 9.0,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+      "id": 71915,
+      "title": "好兆头",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2019-05-31",
+      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
     },
     {
       "id": 1314481,
@@ -431,6 +420,17 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "动画•家庭•冒险",
+      "rating": 9.0,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
       "id": 235930,
