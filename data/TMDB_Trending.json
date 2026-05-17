@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17 23:46:00",
+  "last_updated": "2026-05-18 00:41:29",
   "today_global": [
     {
       "id": 687163,
@@ -17,7 +17,7 @@
       "title": "柏林：抱银貂的女子",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.5,
+      "rating": 7.7,
       "release_date": "2026-05-15",
       "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
       "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
@@ -32,7 +32,7 @@
       "release_date": "2026-05-12",
       "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
       "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4kmoi9DsxUuYhLzoG8YdiYE2mHT.jpg"
     },
     {
       "id": 299167,
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     },
     {
-      "id": 259837,
-      "title": "超能路人甲",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
-      "rating": 9.1,
-      "release_date": "2026-05-15",
-      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -68,15 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 273240,
-      "title": "校园之外",
+      "id": 259837,
+      "title": "超能路人甲",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.8,
-      "release_date": "2026-05-13",
-      "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d8wgbgWqNUwlwiIZfHafW6uu8MC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "rating": 9.1,
+      "release_date": "2026-05-15",
+      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
       "id": 1339713,
@@ -90,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
+      "id": 273240,
+      "title": "校园之外",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2026-05-13",
+      "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d8wgbgWqNUwlwiIZfHafW6uu8MC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+    },
+    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -99,17 +99,6 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
-    },
-    {
-      "id": 278573,
-      "title": "21世纪大君夫人",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.7,
-      "release_date": "2026-04-10",
-      "overview": "欢迎来到21世纪的韩国，一个传统与现代交织的君主立宪制国家。在光鲜亮丽的外表下，隐藏着壁垒分明的社会阶级制度。成熙周，一位才华洋溢的财阀继承人兼首席执行官，似乎拥有一切，但出身平民的她却始终得不到应有的尊重。在诞日宴上与理安大君相遇后，她决心掌握自己的命运。她拥有一切，唯独缺少身份；而他空有尊贵的身份，实际上却一无所有。两人缔结了世纪婚约。他们能否打破社会壁垒，开创属于自己的命运？",
-      "poster_url": "https://image.tmdb.org/t/p/original/etY1kHe8NTFFNHdL6FmJcNuvCLW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nDhIHIwN2mVt7rYjAdMKJS1unX6.jpg"
     },
     {
       "id": 936075,
@@ -123,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
+      "id": 278573,
+      "title": "21世纪大君夫人",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.7,
+      "release_date": "2026-04-10",
+      "overview": "欢迎来到21世纪的韩国，一个传统与现代交织的君主立宪制国家。在光鲜亮丽的外表下，隐藏着壁垒分明的社会阶级制度。成熙周，一位才华洋溢的财阀继承人兼首席执行官，似乎拥有一切，但出身平民的她却始终得不到应有的尊重。在诞日宴上与理安大君相遇后，她决心掌握自己的命运。她拥有一切，唯独缺少身份；而他空有尊贵的身份，实际上却一无所有。两人缔结了世纪婚约。他们能否打破社会壁垒，开创属于自己的命运？",
+      "poster_url": "https://image.tmdb.org/t/p/original/etY1kHe8NTFFNHdL6FmJcNuvCLW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nDhIHIwN2mVt7rYjAdMKJS1unX6.jpg"
+    },
+    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -132,6 +132,28 @@
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+    },
+    {
+      "id": 275966,
+      "title": "家业",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 9.0,
+      "release_date": "2026-05-17",
+      "overview": "明朝中期，一场贡墨案打破维持已久的徽州墨业格局，制墨百年世家李墨跌落神坛。李墨元气大伤，骆家墨业崛起，继李墨之后风光无两，最终因朝政牵连，也落得家败人亡。时光流转，李氏宗族八房幺女李祯为解决生计毅然走上制墨之路，凭借天资和努力成为徽州墨业黑马。骆家次子骆文谦为恢复家业筹谋布局，以一己之力搅动徽州墨业格局。他们二人与墨业新贵田墨家族斗智斗勇，李墨重回巅峰。海禁重开，面对海外墨业的挑战..",
+      "poster_url": "https://image.tmdb.org/t/p/original/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg"
     },
     {
       "id": 1327819,
@@ -156,28 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oiJlREKT2r2jrgozjYOpwhfjWao.jpg"
     },
     {
-      "id": 275966,
-      "title": "家业",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 9.0,
-      "release_date": "2026-05-17",
-      "overview": "明朝中期，一场贡墨案打破维持已久的徽州墨业格局，制墨百年世家李墨跌落神坛。李墨元气大伤，骆家墨业崛起，继李墨之后风光无两，最终因朝政牵连，也落得家败人亡。时光流转，李氏宗族八房幺女李祯为解决生计毅然走上制墨之路，凭借天资和努力成为徽州墨业黑马。骆家次子骆文谦为恢复家业筹谋布局，以一己之力搅动徽州墨业格局。他们二人与墨业新贵田墨家族斗智斗勇，李墨重回巅峰。海禁重开，面对海外墨业的挑战..",
-      "poster_url": "https://image.tmdb.org/t/p/original/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg"
-    },
-    {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
       "id": 1007757,
       "title": "奇幻变身大冒险",
       "type": "movie",
@@ -189,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
       "id": 1330021,
       "title": "幸运有八只触手",
       "type": "movie",
@@ -198,17 +209,6 @@
       "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
       "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
-    },
-    {
-      "id": 71915,
-      "title": "好兆头",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2019-05-31",
-      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
     },
     {
       "id": 65942,
@@ -232,7 +232,7 @@
       "release_date": "2026-05-12",
       "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
       "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4kmoi9DsxUuYhLzoG8YdiYE2mHT.jpg"
     },
     {
       "id": 687163,
@@ -257,22 +257,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 273240,
-      "title": "校园之外",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.8,
-      "release_date": "2026-05-13",
-      "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d8wgbgWqNUwlwiIZfHafW6uu8MC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
-    },
-    {
       "id": 308014,
       "title": "柏林：抱银貂的女子",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.5,
+      "rating": 7.7,
       "release_date": "2026-05-15",
       "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
       "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
@@ -290,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 273240,
+      "title": "校园之外",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.7,
+      "release_date": "2026-05-13",
+      "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d8wgbgWqNUwlwiIZfHafW6uu8MC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -301,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
-      "id": 259837,
-      "title": "超能路人甲",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
-      "rating": 9.1,
-      "release_date": "2026-05-15",
-      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
-    },
-    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -321,6 +310,17 @@
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 259837,
+      "title": "超能路人甲",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "rating": 9.1,
+      "release_date": "2026-05-15",
+      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
       "id": 931285,
@@ -367,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
     },
     {
-      "id": 71915,
-      "title": "好兆头",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2019-05-31",
-      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
       "id": 1007757,
@@ -387,6 +387,17 @@
       "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
+      "id": 71915,
+      "title": "好兆头",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2019-05-31",
+      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
     },
     {
       "id": 1314481,
@@ -411,37 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
+      "id": 235930,
+      "title": "Devil May Cry",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2025-04-03",
+      "overview": "邪恶势力蠢蠢欲动，意图打开人类与恶魔世界之间的传送门。无父无母的恶魔猎人但丁接受委托维生，置身一切混乱中的他，浑然不觉自己将一肩扛起两个世界的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6lQMu3OQ1tcB0pDuLCOpb7QFwe2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2pmWrjN12nwe1YHgGgv52n0ouvX.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
-      "id": 278573,
-      "title": "21世纪大君夫人",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.7,
-      "release_date": "2026-04-10",
-      "overview": "欢迎来到21世纪的韩国，一个传统与现代交织的君主立宪制国家。在光鲜亮丽的外表下，隐藏着壁垒分明的社会阶级制度。成熙周，一位才华洋溢的财阀继承人兼首席执行官，似乎拥有一切，但出身平民的她却始终得不到应有的尊重。在诞日宴上与理安大君相遇后，她决心掌握自己的命运。她拥有一切，唯独缺少身份；而他空有尊贵的身份，实际上却一无所有。两人缔结了世纪婚约。他们能否打破社会壁垒，开创属于自己的命运？",
-      "poster_url": "https://image.tmdb.org/t/p/original/etY1kHe8NTFFNHdL6FmJcNuvCLW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nDhIHIwN2mVt7rYjAdMKJS1unX6.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.9,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
     }
   ],
   "popular_movies": [
@@ -454,7 +454,7 @@
       "release_date": "2026-05-12",
       "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
       "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4kmoi9DsxUuYhLzoG8YdiYE2mHT.jpg"
     },
     {
       "id": 687163,
@@ -512,17 +512,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/91er8S2vFCZZz3Wp1YorZH9e256.jpg"
     },
     {
-      "id": 1669050,
-      "title": "逐爱之心 2",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 4.7,
-      "release_date": "2026-04-17",
-      "overview": "瑞亚是一位魅力四射的公交车售票员，吸引了所有性别的人，他和一位害羞的乘客之间产生了火花。当人们在拥挤的公共汽车上挤在一起时，欲望会增强，爱也会变得复杂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gkHNa8q3RNhgj2EMuoYWJUHsMa6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jAJYVbVR5fP0BeTQXRP1BXjW5bl.jpg"
-    },
-    {
       "id": 1523145,
       "title": "你会心碎",
       "type": "movie",
@@ -545,6 +534,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg"
     },
     {
+      "id": 1669050,
+      "title": "逐爱之心 2",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 4.7,
+      "release_date": "2026-04-17",
+      "overview": "瑞亚是一位魅力四射的公交车售票员，吸引了所有性别的人，他和一位害羞的乘客之间产生了火花。当人们在拥挤的公共汽车上挤在一起时，欲望会增强，爱也会变得复杂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gkHNa8q3RNhgj2EMuoYWJUHsMa6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jAJYVbVR5fP0BeTQXRP1BXjW5bl.jpg"
+    },
+    {
       "id": 931285,
       "title": "真人快打2",
       "type": "movie",
@@ -556,15 +556,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
-      "id": 83533,
-      "title": "阿凡达：火与烬",
+      "id": 1241752,
+      "title": "丽塔",
       "type": "movie",
-      "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.5,
-      "release_date": "2025-12-17",
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
+      "genreTitle": "剧情",
+      "rating": 6.0,
+      "release_date": "2024-03-22",
+      "overview": "当丈夫阿列尔（Ariel）在国外工作时，丽塔（Rita）发现自己独自一人非常寂寞。 他们都在其他人身上找到安慰和性满足。 阿列尔回来时，他们都表现得好像什么都没发生过。 但这样能防止他们的婚姻破裂吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/grIFQLXXwQmjvYYfXVXCgGTMUWw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/41V66ZSN5TBiRvK7pZCrBsZNQPD.jpg"
     },
     {
       "id": 1266127,
@@ -578,6 +578,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vig5tqWx6yQ8nGtB9lrYSuW1dwd.jpg"
     },
     {
+      "id": 83533,
+      "title": "阿凡达：火与烬",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.5,
+      "release_date": "2025-12-17",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
+    },
+    {
       "id": 1292415,
       "title": "怒兽出笼",
       "type": "movie",
@@ -587,17 +598,6 @@
       "overview": "前MMA传奇巴顿·詹姆斯早已告别八角笼，以渔夫身份过着拮据的生活，与妻子卢西亚娜、女儿麦迪相依为命。他的弟弟马龙在MMA赛场遭现任冠军泽维尔·格劳恶意重创，重伤入院，还欠下高利贷巨额债务。为救弟弟、守护即将迎来新生命的家庭，巴顿找到曾被他辜负的昔日教练萨米，重新踏上训练之路，准备重返 ONE 冠军赛的八角笼，与残暴的格劳展开对决。",
       "poster_url": "https://image.tmdb.org/t/p/original/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gCrZhQvWoLQv8sMTZbtczUHPqx1.jpg"
-    },
-    {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "动画•冒险•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-03-20",
-      "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 460465,
