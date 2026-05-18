@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-05-18 09:52:49",
+  "last_updated": "2026-05-18 13:59:03",
   "today_global": [
+    {
+      "id": 1304313,
+      "title": "木乃伊",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.7,
+      "release_date": "2026-04-15",
+      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ol3DHO1k1JPPjhwzsqc2hYGkpA0.jpg"
+    },
+    {
+      "id": 308014,
+      "title": "柏林：抱银貂的女子",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.9,
+      "release_date": "2026-05-15",
+      "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
+    },
     {
       "id": 1339713,
       "title": "痴迷",
@@ -13,26 +35,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
-      "id": 1439930,
-      "title": "惩罚者：最后一击",
-      "type": "movie",
-      "genreTitle": "动作•剧情•犯罪",
-      "rating": 8.6,
-      "release_date": "2026-05-12",
-      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dAZtfHHVREQUdnpmxqKC9WWtuSV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
-    },
-    {
-      "id": 308014,
-      "title": "柏林：抱银貂的女子",
+      "id": 85552,
+      "title": "亢奋",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.8,
-      "release_date": "2026-05-15",
-      "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 124364,
@@ -57,11 +68,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 1439930,
+      "title": "惩罚者：最后一击",
+      "type": "movie",
+      "genreTitle": "动作•剧情•犯罪",
+      "rating": 8.6,
+      "release_date": "2026-05-12",
+      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dAZtfHHVREQUdnpmxqKC9WWtuSV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
+    },
+    {
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.5,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
       "id": 299167,
       "title": "达顿牧场",
       "type": "tv",
       "genreTitle": "西部•剧情",
-      "rating": 9.0,
+      "rating": 9.1,
       "release_date": "2026-05-15",
       "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
       "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
@@ -79,22 +112,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.5,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
-    },
-    {
       "id": 259837,
       "title": "超能路人甲",
       "type": "tv",
       "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
-      "rating": 9.3,
+      "rating": 9.4,
       "release_date": "2026-05-15",
       "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
       "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
@@ -123,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -143,6 +154,17 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
+      "id": 275966,
+      "title": "家业",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 9.0,
+      "release_date": "2026-05-17",
+      "overview": "明朝中期，一场贡墨案打破维持已久的徽州墨业格局，制墨百年世家李墨跌落神坛。李墨元气大伤，骆家墨业崛起，继李墨之后风光无两，最终因朝政牵连，也落得家败人亡。时光流转，李氏宗族八房幺女李祯为解决生计毅然走上制墨之路，凭借天资和努力成为徽州墨业黑马。骆家次子骆文谦为恢复家业筹谋布局，以一己之力搅动徽州墨业格局。他们二人与墨业新贵田墨家族斗智斗勇，李墨重回巅峰。海禁重开，面对海外墨业的挑战..",
+      "poster_url": "https://image.tmdb.org/t/p/original/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg"
     },
     {
       "id": 278573,
@@ -167,50 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
-      "id": 1304313,
-      "title": "木乃伊",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 6.7,
-      "release_date": "2026-04-15",
-      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ol3DHO1k1JPPjhwzsqc2hYGkpA0.jpg"
-    },
-    {
-      "id": 56570,
-      "title": "古战场传奇",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2014-08-09",
-      "overview": "这部史诗剧改编自戴安娜·盖伯顿的畅销奇幻浪漫小说系列，讲述了两位时空交错的恋人之间发生的曲折故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9ltOIdbIZA3K9TelnvQkwootkXc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cMUQutm4skIMltgehJllxvL8Alj.jpg"
-    },
-    {
-      "id": 285807,
-      "title": "宿敌交锋",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 6.1,
-      "release_date": "2026-05-14",
-      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
-    },
-    {
-      "id": 275966,
-      "title": "家业",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 9.0,
-      "release_date": "2026-05-17",
-      "overview": "明朝中期，一场贡墨案打破维持已久的徽州墨业格局，制墨百年世家李墨跌落神坛。李墨元气大伤，骆家墨业崛起，继李墨之后风光无两，最终因朝政牵连，也落得家败人亡。时光流转，李氏宗族八房幺女李祯为解决生计毅然走上制墨之路，凭借天资和努力成为徽州墨业黑马。骆家次子骆文谦为恢复家业筹谋布局，以一己之力搅动徽州墨业格局。他们二人与墨业新贵田墨家族斗智斗勇，李墨重回巅峰。海禁重开，面对海外墨业的挑战..",
-      "poster_url": "https://image.tmdb.org/t/p/original/fIdqYhJhuIGLMbWlvfZdIQalf2p.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg"
-    },
-    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
@@ -220,6 +198,28 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+    },
+    {
+      "id": 1140521,
+      "title": "远方的魔法树",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•冒险",
+      "rating": 6.3,
+      "release_date": "2026-03-26",
+      "overview": "　　一个现代家庭搬至乡间，孩子们发现了一棵住着奇特种族的魔法树。他们由此穿梭至奇幻国度，在冒险中重拾亲情纽带。",
+      "poster_url": "https://image.tmdb.org/t/p/original/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oiJlREKT2r2jrgozjYOpwhfjWao.jpg"
+    },
+    {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "动画•家庭•冒险",
+      "rating": 9.0,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     }
   ],
   "week_global_all": [
@@ -246,6 +246,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 1304313,
+      "title": "木乃伊",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 6.7,
+      "release_date": "2026-04-15",
+      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ol3DHO1k1JPPjhwzsqc2hYGkpA0.jpg"
+    },
+    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -255,17 +277,6 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.1,
-      "release_date": "2026-04-16",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
       "id": 931285,
@@ -290,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.1,
+      "release_date": "2026-04-16",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
       "id": 124364,
@@ -316,22 +327,11 @@
       "title": "柏林：抱银貂的女子",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 7.8,
+      "rating": 7.9,
       "release_date": "2026-05-15",
       "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
       "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
-    },
-    {
-      "id": 299167,
-      "title": "达顿牧场",
-      "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.3,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     },
     {
       "id": 936075,
@@ -345,48 +345,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 1330021,
-      "title": "幸运有八只触手",
-      "type": "movie",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.5,
-      "release_date": "2026-05-07",
-      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
+      "id": 299167,
+      "title": "达顿牧场",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 9.1,
+      "release_date": "2026-05-15",
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     },
     {
       "id": 259837,
       "title": "超能路人甲",
       "type": "tv",
       "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
-      "rating": 9.3,
+      "rating": 9.4,
       "release_date": "2026-05-15",
       "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
       "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
-    },
-    {
-      "id": 1007757,
-      "title": "奇幻变身大冒险",
-      "type": "movie",
-      "genreTitle": "动画•家庭•冒险",
-      "rating": 9.0,
-      "release_date": "2026-05-01",
-      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
     },
     {
       "id": 37854,
@@ -400,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 71915,
-      "title": "好兆头",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2019-05-31",
-      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.7,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 1314481,
@@ -422,6 +400,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     },
     {
+      "id": 1007757,
+      "title": "奇幻变身大冒险",
+      "type": "movie",
+      "genreTitle": "动画•家庭•冒险",
+      "rating": 9.0,
+      "release_date": "2026-05-01",
+      "overview": "森林中的一个小生物和一只高贵的鸟突然互换了身体，他们不得不结伴而行，共同应对此生最疯狂的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3ApTlZdqwbBAmA7wkng44hUNtqe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/idSpi0uC5d1eulFxMrKI9iY2Qg8.jpg"
+    },
+    {
+      "id": 1330021,
+      "title": "幸运有八只触手",
+      "type": "movie",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.5,
+      "release_date": "2026-05-07",
+      "overview": "在这部感人的剧情片中，一名寡妇在小镇的水族馆上夜班时，与一只聪明的章鱼以及一个迷茫的年轻小伙子建立了深厚羁绊。改编自畅销书。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qJPkSzyZPvDn3BsILd7po25uLdV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s2uxbdg2ZUP4Mah0BCEs3BuNlbK.jpg"
+    },
+    {
       "id": 235930,
       "title": "Devil May Cry",
       "type": "tv",
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2pmWrjN12nwe1YHgGgv52n0ouvX.jpg"
     },
     {
-      "id": 285807,
-      "title": "宿敌交锋",
+      "id": 71915,
+      "title": "好兆头",
       "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 6.1,
-      "release_date": "2026-05-14",
-      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
+      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2019-05-31",
+      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
     }
   ],
   "popular_movies": [
@@ -453,7 +453,7 @@
       "rating": 8.6,
       "release_date": "2026-05-12",
       "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nq88iJA3pdKW4vou0V34Sdm0PWu.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/dAZtfHHVREQUdnpmxqKC9WWtuSV.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
     },
     {
