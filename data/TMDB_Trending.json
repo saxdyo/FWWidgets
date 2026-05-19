@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-19 22:23:36",
+  "last_updated": "2026-05-20 01:30:40",
   "today_global": [
     {
       "id": 1304313,
       "title": "木乃伊",
       "type": "movie",
       "genreTitle": "恐怖•悬疑",
-      "rating": 7.1,
+      "rating": 7.3,
       "release_date": "2026-04-15",
       "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
       "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
@@ -20,15 +20,37 @@
       "rating": 7.0,
       "release_date": "2026-04-16",
       "overview": "　　故事发生在一个名为“诺莫”的偏远小镇，这里看似风平浪静，实则暗流涌动。尤利西斯在上一任警长离奇意外身亡后，被委任为临时警长。当镇上的银行被一对来自外地的夫妇抢劫时，尤利西斯赶到现场，却发现这座小镇平静的表象下隐藏着更为险恶的深层秘密——从酒保到神父，镇上的每个人都是秘密的参与者。而一直试图逃避过去心魔的尤利西斯，此刻必须揭开这场犯罪阴谋的全部真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rsNdDcCKjCZm9RBMAxL3vMUokKU.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/j5cW7TM0onwp3fQiowXX5ZJLUHR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rozl8gcHSrDdiReTGDOF5ztR0D2.jpg"
+    },
+    {
+      "id": 1102883,
+      "title": "圣母玛利亚",
+      "type": "movie",
+      "genreTitle": "剧情•奇幻•音乐",
+      "rating": 5.5,
+      "release_date": "2026-04-16",
+      "overview": "传奇流行巨星圣母玛利亚为了以完美形象回归舞台，找上疏远多年的好友兼前造型师萨姆，却也掀开埋藏已久的伤疤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/foWF3bZCc7830Kx7Ms7OFN4fwN3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jUpnBd4jetSOVR3QMfMJoirc2kk.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
       "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-04-01",
       "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
@@ -46,26 +68,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
       "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+      "genreTitle": "冒险•科幻•动作",
+      "rating": 8.0,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
-      "id": 308014,
-      "title": "柏林：抱银貂的女子",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 8.0,
-      "release_date": "2026-05-15",
-      "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
+      "id": 1439930,
+      "title": "惩罚者：最后一击",
+      "type": "movie",
+      "genreTitle": "动作•剧情•犯罪",
+      "rating": 8.5,
+      "release_date": "2026-05-12",
+      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sjlVRbsB33Mzt26vKRxoGPV0YZC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
     },
     {
       "id": 687163,
@@ -79,39 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 1439930,
-      "title": "惩罚者：最后一击",
-      "type": "movie",
-      "genreTitle": "动作•剧情•犯罪",
-      "rating": 8.6,
-      "release_date": "2026-05-12",
-      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sjlVRbsB33Mzt26vKRxoGPV0YZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
-    },
-    {
-      "id": 1102883,
-      "title": "圣母玛利亚",
-      "type": "movie",
-      "genreTitle": "剧情•奇幻•音乐",
-      "rating": 5.4,
-      "release_date": "2026-04-16",
-      "overview": "传奇流行巨星圣母玛利亚为了以完美形象回归舞台，找上疏远多年的好友兼前造型师萨姆，却也掀开埋藏已久的伤疤。",
-      "poster_url": "https://image.tmdb.org/t/p/original/foWF3bZCc7830Kx7Ms7OFN4fwN3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jUpnBd4jetSOVR3QMfMJoirc2kk.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -121,17 +110,6 @@
       "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 8.1,
-      "release_date": "2026-04-16",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
       "id": 124364,
@@ -145,15 +123,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
+      "id": 1339713,
+      "title": "痴迷",
       "type": "movie",
-      "genreTitle": "冒险•科幻•动作",
+      "genreTitle": "恐怖",
+      "rating": 8.1,
+      "release_date": "2026-04-16",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
+    },
+    {
+      "id": 308014,
+      "title": "柏林：抱银貂的女子",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
       "rating": 8.0,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+      "release_date": "2026-05-15",
+      "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
       "id": 259837,
@@ -167,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
-      "id": 299167,
-      "title": "达顿牧场",
-      "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.4,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
-    },
-    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -187,6 +176,17 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
+      "id": 299167,
+      "title": "达顿牧场",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 9.4,
+      "release_date": "2026-05-15",
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     },
     {
       "id": 936075,
@@ -228,11 +228,22 @@
       "title": "惩罚者：最后一击",
       "type": "movie",
       "genreTitle": "动作•剧情•犯罪",
-      "rating": 8.6,
+      "rating": 8.5,
       "release_date": "2026-05-12",
       "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
       "poster_url": "https://image.tmdb.org/t/p/original/sjlVRbsB33Mzt26vKRxoGPV0YZC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
+    },
+    {
+      "id": 1304313,
+      "title": "木乃伊",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.3,
+      "release_date": "2026-04-15",
+      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
     },
     {
       "id": 687163,
@@ -246,15 +257,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 1304313,
-      "title": "木乃伊",
+      "id": 1242332,
+      "title": "替补悍警",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.1,
-      "release_date": "2026-04-15",
-      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-04-16",
+      "overview": "　　故事发生在一个名为“诺莫”的偏远小镇，这里看似风平浪静，实则暗流涌动。尤利西斯在上一任警长离奇意外身亡后，被委任为临时警长。当镇上的银行被一对来自外地的夫妇抢劫时，尤利西斯赶到现场，却发现这座小镇平静的表象下隐藏着更为险恶的深层秘密——从酒保到神父，镇上的每个人都是秘密的参与者。而一直试图逃避过去心魔的尤利西斯，此刻必须揭开这场犯罪阴谋的全部真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/j5cW7TM0onwp3fQiowXX5ZJLUHR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rozl8gcHSrDdiReTGDOF5ztR0D2.jpg"
     },
     {
       "id": 76479,
@@ -268,6 +279,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 6.8,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+    },
+    {
+      "id": 1102883,
+      "title": "圣母玛利亚",
+      "type": "movie",
+      "genreTitle": "剧情•奇幻•音乐",
+      "rating": 5.5,
+      "release_date": "2026-04-16",
+      "overview": "传奇流行巨星圣母玛利亚为了以完美形象回归舞台，找上疏远多年的好友兼前造型师萨姆，却也掀开埋藏已久的伤疤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/foWF3bZCc7830Kx7Ms7OFN4fwN3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jUpnBd4jetSOVR3QMfMJoirc2kk.jpg"
+    },
+    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -277,17 +321,6 @@
       "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 6.7,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 1339713,
@@ -312,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -332,94 +354,6 @@
       "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
       "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 299167,
-      "title": "达顿牧场",
-      "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.4,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 7.6,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
-      "id": 259837,
-      "title": "超能路人甲",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
-      "rating": 9.4,
-      "release_date": "2026-05-15",
-      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
-    },
-    {
-      "id": 1242332,
-      "title": "替补悍警",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-04-16",
-      "overview": "　　故事发生在一个名为“诺莫”的偏远小镇，这里看似风平浪静，实则暗流涌动。尤利西斯在上一任警长离奇意外身亡后，被委任为临时警长。当镇上的银行被一对来自外地的夫妇抢劫时，尤利西斯赶到现场，却发现这座小镇平静的表象下隐藏着更为险恶的深层秘密——从酒保到神父，镇上的每个人都是秘密的参与者。而一直试图逃避过去心魔的尤利西斯，此刻必须揭开这场犯罪阴谋的全部真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rsNdDcCKjCZm9RBMAxL3vMUokKU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rozl8gcHSrDdiReTGDOF5ztR0D2.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
-      "id": 1102883,
-      "title": "圣母玛利亚",
-      "type": "movie",
-      "genreTitle": "剧情•奇幻•音乐",
-      "rating": 5.4,
-      "release_date": "2026-04-16",
-      "overview": "传奇流行巨星圣母玛利亚为了以完美形象回归舞台，找上疏远多年的好友兼前造型师萨姆，却也掀开埋藏已久的伤疤。",
-      "poster_url": "https://image.tmdb.org/t/p/original/foWF3bZCc7830Kx7Ms7OFN4fwN3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jUpnBd4jetSOVR3QMfMJoirc2kk.jpg"
-    },
-    {
-      "id": 285807,
-      "title": "宿敌交锋",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 6.4,
-      "release_date": "2026-05-14",
-      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
     },
     {
       "id": 1228710,
@@ -433,15 +367,81 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
-      "id": 71915,
-      "title": "好兆头",
+      "id": 85552,
+      "title": "亢奋",
       "type": "tv",
-      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2019-05-31",
-      "overview": "分属天堂和地狱的阿兹拉斐尔和克罗里变得相当喜欢地球，所以世界末日变成了一个坏消息。善恶两方阵营的大军都在集结，天启四骑士也准备启程。一切都按照神圣计划进行…除了似乎有人把撒旦之子放错地方了。我们的英雄是否可以及时找到撒旦之子，阻止世界末日呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/kLTedMIluTUt6oiL0AUjjL1lEjE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kRHjPXG3TQzN2m6jZgVu7bl0zFh.jpg"
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 299167,
+      "title": "达顿牧场",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 9.4,
+      "release_date": "2026-05-15",
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
+    },
+    {
+      "id": 259837,
+      "title": "超能路人甲",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "rating": 9.4,
+      "release_date": "2026-05-15",
+      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
+    },
+    {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 7.6,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
+    },
+    {
+      "id": 285807,
+      "title": "宿敌交锋",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 6.5,
+      "release_date": "2026-05-14",
+      "overview": "洛杉矶警局一名坚韧不拔的警探执着地追捕犯下多起嚣张劫案的神偷 — 双方只有一人能够胜出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ztbX4emuGwNnyJjLBMHqrGBS48B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oTymBSuyeyocVOpE4bN8srAVknb.jpg"
+    },
+    {
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 6.7,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
     }
   ],
   "popular_movies": [
