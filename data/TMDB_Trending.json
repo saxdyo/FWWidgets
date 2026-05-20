@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-05-21 03:56:47",
+  "last_updated": "2026-05-21 05:41:42",
   "today_global": [
-    {
-      "id": 1380291,
-      "title": "杰克·莱恩：幽灵之战",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•剧情",
-      "rating": 7.2,
-      "release_date": "2026-05-20",
-      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
-    },
     {
       "id": 76479,
       "title": "黑袍纠察队",
@@ -22,6 +11,17 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 1380291,
+      "title": "杰克·莱恩：幽灵之战",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•剧情",
+      "rating": 7.1,
+      "release_date": "2026-05-20",
+      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
     },
     {
       "id": 1304313,
@@ -35,22 +35,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
     },
     {
-      "id": 292121,
-      "title": "稻草人",
-      "type": "tv",
-      "genreTitle": "犯罪•悬疑•剧情",
-      "rating": 9.3,
-      "release_date": "2026-04-20",
-      "overview": "1988年，江原道发生连环杀人案。女性们生活在被杀害的恐惧中，男性们则担忧被误认为凶手而躲藏。故事聚焦于一个家庭主妇和几位男性在案件中的伤痛经历，展现了严酷调查、诬陷和掩盖下无数破碎的人生。这不仅是关于杀人案的故事，更是记录了共同经历事件的人们，以及那些坚持追寻真相之人的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nynMeTqsNRZiLYwZSpnIUSZaXQY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUu5cGYuPeVj4lFYQc2RVeGTzNE.jpg"
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 8.1,
+      "release_date": "2026-04-16",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 7.2,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
     },
     {
       "id": 285404,
       "title": "极乐布局",
       "type": "tv",
       "genreTitle": "喜剧",
-      "rating": 7.7,
+      "rating": 8.2,
       "release_date": "2026-05-19",
       "overview": "刚离婚成为单身母亲的宝拉意外陷入牵涉勒索、谋杀和青少年足球的危险漩涡之中。",
       "poster_url": "https://image.tmdb.org/t/p/original/mLLfG5caoX2oA59saA14gQGq6Vy.jpg",
@@ -68,28 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tZP3bbE9AHCsA2SlhtK922p7YeT.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 7.2,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3YdgH4i0x1gdkY5AsHvnBVOwB4D.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 8.0,
-      "release_date": "2026-04-16",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -101,26 +90,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 299167,
-      "title": "达顿牧场",
+      "id": 292121,
+      "title": "稻草人",
       "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.4,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
+      "genreTitle": "犯罪•悬疑•剧情",
+      "rating": 9.3,
+      "release_date": "2026-04-20",
+      "overview": "1988年，江原道发生连环杀人案。女性们生活在被杀害的恐惧中，男性们则担忧被误认为凶手而躲藏。故事聚焦于一个家庭主妇和几位男性在案件中的伤痛经历，展现了严酷调查、诬陷和掩盖下无数破碎的人生。这不仅是关于杀人案的故事，更是记录了共同经历事件的人们，以及那些坚持追寻真相之人的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nynMeTqsNRZiLYwZSpnIUSZaXQY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bUu5cGYuPeVj4lFYQc2RVeGTzNE.jpg"
     },
     {
       "id": 1102883,
       "title": "圣母玛利亚",
       "type": "movie",
       "genreTitle": "奇幻•剧情•音乐",
-      "rating": 5.8,
+      "rating": 5.9,
       "release_date": "2026-04-16",
       "overview": "传奇流行巨星圣母玛利亚为了以完美形象回归舞台，找上疏远多年的好友兼前造型师萨姆，却也掀开埋藏已久的伤疤。",
       "poster_url": "https://image.tmdb.org/t/p/original/foWF3bZCc7830Kx7Ms7OFN4fwN3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jUpnBd4jetSOVR3QMfMJoirc2kk.jpg"
+    },
+    {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "冒险•科幻•动作",
+      "rating": 6.1,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 931285,
@@ -134,26 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
-      "id": 259837,
-      "title": "超能路人甲",
+      "id": 299167,
+      "title": "达顿牧场",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "genreTitle": "西部•剧情",
       "rating": 9.4,
       "release_date": "2026-05-15",
-      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
-    },
-    {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     },
     {
       "id": 687163,
@@ -167,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 308014,
       "title": "柏林：抱银貂的女子",
       "type": "tv",
@@ -178,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "冒险•科幻•动作",
-      "rating": 6.2,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+      "id": 259837,
+      "title": "超能路人甲",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "rating": 9.4,
+      "release_date": "2026-05-15",
+      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
     },
     {
       "id": 1439930,
@@ -204,22 +204,22 @@
       "title": "校园之外",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 8.9,
+      "rating": 9.0,
       "release_date": "2026-05-13",
       "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
-      "id": 206484,
-      "title": "诛仙",
+      "id": 270476,
+      "title": "寡妇湾",
       "type": "tv",
-      "genreTitle": "动画•动作冒险",
+      "genreTitle": "剧情•悬疑•喜剧",
       "rating": 8.3,
-      "release_date": "2022-08-02",
-      "overview": "一夜间惨变孤儿的张小凡被青云门收为弟子，经过五年刻苦修炼，他在师门七脉会武上大放异彩，后被派往空桑山打探魔教行迹，旅程中，他与师姐陆雪琪遭遇危难，并结识救护了魔教女子碧瑶，同时，新的危险也在前方等待着他。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kSC8drFvUBrcnHe6bz6zwvrnoeo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llTCjeqRVcOKmZa12u3zeRTQMUg.jpg"
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     }
   ],
   "week_global_all": [
@@ -235,6 +235,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
+      "id": 1304313,
+      "title": "木乃伊",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑",
+      "rating": 7.7,
+      "release_date": "2026-04-15",
+      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
+    },
+    {
       "id": 1439930,
       "title": "惩罚者：最后一击",
       "type": "movie",
@@ -250,22 +261,22 @@
       "title": "痴迷",
       "type": "movie",
       "genreTitle": "恐怖",
-      "rating": 8.0,
+      "rating": 8.1,
       "release_date": "2026-04-16",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
     },
     {
-      "id": 1304313,
-      "title": "木乃伊",
+      "id": 1380291,
+      "title": "杰克·莱恩：幽灵之战",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 7.7,
-      "release_date": "2026-04-15",
-      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
+      "genreTitle": "动作•惊悚•剧情",
+      "rating": 7.1,
+      "release_date": "2026-05-20",
+      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
     },
     {
       "id": 687163,
@@ -283,22 +294,11 @@
       "title": "校园之外",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 8.9,
+      "rating": 9.0,
       "release_date": "2026-05-13",
       "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
-    },
-    {
-      "id": 1380291,
-      "title": "杰克·莱恩：幽灵之战",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•剧情",
-      "rating": 7.2,
-      "release_date": "2026-05-20",
-      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
     },
     {
       "id": 308014,
@@ -334,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
-      "id": 299167,
-      "title": "达顿牧场",
-      "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.4,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -356,15 +345,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 259837,
-      "title": "超能路人甲",
+      "id": 299167,
+      "title": "达顿牧场",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "genreTitle": "西部•剧情",
       "rating": 9.4,
       "release_date": "2026-05-15",
-      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
+    },
+    {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "冒险•科幻•动作",
+      "rating": 6.1,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 85552,
@@ -378,6 +378,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
+      "id": 259837,
+      "title": "超能路人甲",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•Sci-Fi & Fantasy",
+      "rating": 9.4,
+      "release_date": "2026-05-15",
+      "overview": "世界末日论盛行的 1999 年世纪末，一群原本平凡的“路人甲”意外获得超能力，却没有走上典型英雄之路，反而以各自不按牌理出牌的方式组成临时英雄联盟，对抗威胁世界和平的反派势力，在混乱与笑料之中肩负起守护世界的任务。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8uhY6EYNJH4tkdfC1zY8ZoVk7eM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sd6ug5IR0LV6ypo7GdjRt5dQTOf.jpg"
+    },
+    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -387,17 +398,6 @@
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
-    },
-    {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "冒险•科幻•动作",
-      "rating": 6.2,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 285807,
@@ -422,26 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tZP3bbE9AHCsA2SlhtK922p7YeT.jpg"
     },
     {
-      "id": 292121,
-      "title": "稻草人",
-      "type": "tv",
-      "genreTitle": "犯罪•悬疑•剧情",
-      "rating": 9.3,
-      "release_date": "2026-04-20",
-      "overview": "1988年，江原道发生连环杀人案。女性们生活在被杀害的恐惧中，男性们则担忧被误认为凶手而躲藏。故事聚焦于一个家庭主妇和几位男性在案件中的伤痛经历，展现了严酷调查、诬陷和掩盖下无数破碎的人生。这不仅是关于杀人案的故事，更是记录了共同经历事件的人们，以及那些坚持追寻真相之人的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nynMeTqsNRZiLYwZSpnIUSZaXQY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bUu5cGYuPeVj4lFYQc2RVeGTzNE.jpg"
+      "id": 1102883,
+      "title": "圣母玛利亚",
+      "type": "movie",
+      "genreTitle": "奇幻•剧情•音乐",
+      "rating": 5.9,
+      "release_date": "2026-04-16",
+      "overview": "传奇流行巨星圣母玛利亚为了以完美形象回归舞台，找上疏远多年的好友兼前造型师萨姆，却也掀开埋藏已久的伤疤。",
+      "poster_url": "https://image.tmdb.org/t/p/original/foWF3bZCc7830Kx7Ms7OFN4fwN3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jUpnBd4jetSOVR3QMfMJoirc2kk.jpg"
     },
     {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 6.6,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1RsYJg3qmMQnoozejpSL2ZLS37p.jpg"
+      "id": 270476,
+      "title": "寡妇湾",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     }
   ],
   "popular_movies": [
@@ -512,17 +512,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mQUPF35yLatlBfKPF0ULJCrC2Xv.jpg"
     },
     {
-      "id": 1318447,
-      "title": "巅峰猎杀",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-04-24",
-      "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/95hgVmu95Dr4pZXQ9myFR4by2AO.jpg"
-    },
-    {
       "id": 1523145,
       "title": "你会心碎",
       "type": "movie",
@@ -534,6 +523,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
     },
     {
+      "id": 1318447,
+      "title": "巅峰猎杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-04-24",
+      "overview": "悲痛的女子独自前往澳大利亚荒野探险，挑战自己的极限，却意外卷入了一场变态的游戏 — 一名狡猾的杀手将她作为猎物展开猎杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9xwLzEre0R1pifr6FrLRumvGhco.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/95hgVmu95Dr4pZXQ9myFR4by2AO.jpg"
+    },
+    {
       "id": 1241752,
       "title": "丽塔",
       "type": "movie",
@@ -543,17 +543,6 @@
       "overview": "当丈夫阿列尔（Ariel）在国外工作时，丽塔（Rita）发现自己独自一人非常寂寞。 他们都在其他人身上找到安慰和性满足。 阿列尔回来时，他们都表现得好像什么都没发生过。 但这样能防止他们的婚姻破裂吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/grIFQLXXwQmjvYYfXVXCgGTMUWw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/41V66ZSN5TBiRvK7pZCrBsZNQPD.jpg"
-    },
-    {
-      "id": 1630423,
-      "title": "我的挚爱杀手",
-      "type": "movie",
-      "genreTitle": "动作•剧情•爱情",
-      "rating": 8.6,
-      "release_date": "2026-05-06",
-      "overview": "年轻女子因拥有罕见血型而遭人追捕，自小被杀手家族扶养长大。当复仇心切的敌人为了她的血再度现身，她决心与挚爱并肩作战，为自由奋战到底。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jvgyRU33iMJPo9mx7bVV94h3BBv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg"
     },
     {
       "id": 460465,
@@ -571,7 +560,7 @@
       "title": "痴迷",
       "type": "movie",
       "genreTitle": "恐怖",
-      "rating": 8.0,
+      "rating": 8.1,
       "release_date": "2026-04-16",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
@@ -600,15 +589,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7AfS3CzDcI5jO65ljzO58YLSXL.jpg"
     },
     {
-      "id": 1669050,
-      "title": "逐爱之心 2",
+      "id": 1630423,
+      "title": "我的挚爱杀手",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 4.7,
-      "release_date": "2026-04-17",
-      "overview": "瑞亚是一位魅力四射的公交车售票员，吸引了所有性别的人，他和一位害羞的乘客之间产生了火花。当人们在拥挤的公共汽车上挤在一起时，欲望会增强，爱也会变得复杂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gkHNa8q3RNhgj2EMuoYWJUHsMa6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jAJYVbVR5fP0BeTQXRP1BXjW5bl.jpg"
+      "genreTitle": "动作•剧情•爱情",
+      "rating": 8.6,
+      "release_date": "2026-05-06",
+      "overview": "年轻女子因拥有罕见血型而遭人追捕，自小被杀手家族扶养长大。当复仇心切的敌人为了她的血再度现身，她决心与挚爱并肩作战，为自由奋战到底。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jvgyRU33iMJPo9mx7bVV94h3BBv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg"
+    },
+    {
+      "id": 1426822,
+      "title": "致命游戏",
+      "type": "movie",
+      "genreTitle": "恐怖•动作",
+      "rating": 4.6,
+      "release_date": "2025-02-03",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/iCvucorbs3hFqWshDbLe0fHzB71.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hdLsZ3dCjKt5A6xDpoo3UFgcTSm.jpg"
     }
   ]
 }
