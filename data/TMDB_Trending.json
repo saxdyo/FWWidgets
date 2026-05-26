@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-27 03:10:31",
+  "last_updated": "2026-05-27 05:23:06",
   "today_global": [
+    {
+      "id": 1390300,
+      "title": "致命之旅",
+      "type": "movie",
+      "genreTitle": "喜剧•动作•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-04-24",
+      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
+    },
     {
       "id": 1339713,
       "title": "痴迷",
@@ -11,17 +22,6 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
-    },
-    {
-      "id": 1390300,
-      "title": "致命之旅",
-      "type": "movie",
-      "genreTitle": "喜剧•动作•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-04-24",
-      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
     },
     {
       "id": 76479,
@@ -35,6 +35,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 539745,
+      "title": "动物庄园",
+      "type": "movie",
+      "genreTitle": "动画•喜剧•剧情",
+      "rating": 4.6,
+      "release_date": "2026-04-30",
+      "overview": "讲述了一群动物反抗人类主人的统治、接管农场的故事。起义成功后，它们在狡猾的猪拿破仑统治下，面临着新的挑战。这种局面迫使它们鼓起勇气，反抗拿破仑的暴政。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iYfxiX7SDmSPuft2kj1bO9dwRpQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yKHS7H8gXObgMleNhnsGjJLHfjN.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -46,15 +68,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
+      "id": 220102,
+      "title": "暗影蜘蛛侠",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "genreTitle": "动作冒险•犯罪•悬疑",
+      "rating": 8.0,
+      "release_date": "2026-05-25",
+      "overview": "私家侦探本·莱利接下几桩看似单纯的案子，没想到黑帮分子、怪物，以及一位神秘的蛇蝎美人织起一张阴谋之网，让他必须面对过去，那个纽约唯一超级英雄的身份：蜘蛛侠。",
+      "poster_url": "https://image.tmdb.org/t/p/original/89h2TzFgCnQGNPfXEGRtfXjOOcS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员 5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-06-17",
+      "overview": "玩具们将会跟孩子们如今沉迷的电子产品展开激烈较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
       "id": 60625,
@@ -68,39 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
-      "id": 220102,
-      "title": "暗影蜘蛛侠",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•悬疑",
-      "rating": 8.0,
-      "release_date": "2026-05-25",
-      "overview": "　　故事设定在独立宇宙里，聚焦1930年代纽约城的一个上了年纪、倒霉透顶的私家侦探，作为这个城市里唯一的超级英雄，他被迫与过去的生活作斗争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/89h2TzFgCnQGNPfXEGRtfXjOOcS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
-    },
-    {
-      "id": 539745,
-      "title": "动物庄园",
-      "type": "movie",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 4.8,
-      "release_date": "2026-04-30",
-      "overview": "讲述了一群动物反抗人类主人的统治、接管农场的故事。起义成功后，它们在狡猾的猪拿破仑统治下，面临着新的挑战。这种局面迫使它们鼓起勇气，反抗拿破仑的暴政。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iYfxiX7SDmSPuft2kj1bO9dwRpQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yKHS7H8gXObgMleNhnsGjJLHfjN.jpg"
-    },
-    {
-      "id": 1380291,
-      "title": "杰克·莱恩：幽灵之战",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.2,
-      "release_date": "2026-05-20",
-      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
-    },
-    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -110,6 +110,61 @@
       "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 1242265,
+      "title": "导火线",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•剧情",
+      "rating": 6.4,
+      "release_date": "2026-03-23",
+      "overview": "伦敦市中心的建筑工地，一枚未引爆的二战炸弹意外出土。军方拆弹专家威尔与警方指挥官紧急启动全城疏散，整座街区陷入混乱。而这场“定时炸弹危机”，恰好成为一群劫匪策划已久的银行劫案完美掩护。拆弹倒计时与抢劫计划双线并行，危机与犯罪交织，一场以全城恐慌为背景的猫鼠游戏就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eW4uRAxqKfhYUuFuG9M1e6tj6b1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
+    },
+    {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.8,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+    },
+    {
+      "id": 290856,
+      "title": "法警小队",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪•动作冒险",
+      "rating": 7.9,
+      "release_date": "2026-03-01",
+      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 8.0,
+      "release_date": "2026-04-01",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Dnrnz7qThGqbq5Ibg07ihFxtaM.jpg"
     },
     {
       "id": 687163,
@@ -134,48 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jRCoJbsIFAEDhUIUIIWQiIu6Oeq.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
+      "id": 1380291,
+      "title": "杰克·莱恩：幽灵之战",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.7,
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
       "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 316992,
-      "title": "World War II with Tom Hanks",
-      "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 0.0,
-      "release_date": "2026-05-25",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/yOTuMOr3iACTrbm0w1OrCRSewEg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nqRvz1JigbanFHpEeyjes2iLUir.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员 5",
+      "id": 931285,
+      "title": "真人快打2",
       "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-06-17",
-      "overview": "玩具们将会跟孩子们如今沉迷的电子产品展开激烈较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 6.8,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
       "id": 224941,
@@ -187,39 +220,6 @@
       "overview": "在幅员广大、艳阳高照的新墨西哥沙漠地带，有一座名为“退休镇”的优美社区，吸引众人在此安享晚年。然而，对刚搬来的山姆·库珀来说，这片天堂更像是冰冷的牢笼。某天晚上，一场可怕的遭遇让他惊觉看似干净的小巷，其实藏着骇人听闻的真相。地方官员对山姆的警告视若无睹，认为他只是老了胡言乱语，但他意外招来了一群同样被视为异类的邻居，包括睿智犀利的前记者、追寻心灵救赎的探索者、愤世嫉俗的音乐经纪人，以及走投无路的天才医生。这群被人看扁的边缘人必须联手揭开退休镇深藏的黑暗秘密，不然时日也不多了！",
       "poster_url": "https://image.tmdb.org/t/p/original/lIdtLJEJhjZUt8nKDZUYNGL23Uf.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tAlbm6HPnpVDzYlhaj8HykdqH19.jpg"
-    },
-    {
-      "id": 290856,
-      "title": "法警小队",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 7.9,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 1242265,
-      "title": "导火线",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 6.4,
-      "release_date": "2026-03-23",
-      "overview": "伦敦市中心的建筑工地，一枚未引爆的二战炸弹意外出土。军方拆弹专家威尔与警方指挥官紧急启动全城疏散，整座街区陷入混乱。而这场“定时炸弹危机”，恰好成为一群劫匪策划已久的银行劫案完美掩护。拆弹倒计时与抢劫计划双线并行，危机与犯罪交织，一场以全城恐慌为背景的猫鼠游戏就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eW4uRAxqKfhYUuFuG9M1e6tj6b1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
-    },
-    {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 8.0,
-      "release_date": "2026-04-01",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Dnrnz7qThGqbq5Ibg07ihFxtaM.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 1380291,
-      "title": "杰克·莱恩：幽灵之战",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.2,
-      "release_date": "2026-05-20",
-      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
-    },
-    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -255,6 +244,17 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/Al1MMJLNIJRCqm8RiFBZvEtEuhp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/54LrH0mt84Y5t7CBXl46tag2kMG.jpg"
+    },
+    {
+      "id": 1380291,
+      "title": "杰克·莱恩：幽灵之战",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
+      "release_date": "2026-05-20",
+      "overview": "杰克·莱恩迫于无奈重返谍海，只因一次跨国秘密任务揭露了一项致命阴谋。时间紧迫，他联合中情局盟友迈克·诺文伯与詹姆斯·格里尔，以及敏锐的军情六处特工艾玛·马洛，共同对抗一支叛变的黑色行动小队，展开一场高风险，且关乎个人恩怨的战斗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xWMbqDZ3gWUM9E3qufbXjCMjbEO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xxt1yEJFUn1ae2NTOip1fUYHsYO.jpg"
     },
     {
       "id": 1304313,
@@ -279,50 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/Dnrnz7qThGqbq5Ibg07ihFxtaM.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 6.8,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
-    },
-    {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.7,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
-      "id": 224941,
-      "title": "怪奇退休镇",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑",
-      "rating": 7.3,
-      "release_date": "2026-05-21",
-      "overview": "在幅员广大、艳阳高照的新墨西哥沙漠地带，有一座名为“退休镇”的优美社区，吸引众人在此安享晚年。然而，对刚搬来的山姆·库珀来说，这片天堂更像是冰冷的牢笼。某天晚上，一场可怕的遭遇让他惊觉看似干净的小巷，其实藏着骇人听闻的真相。地方官员对山姆的警告视若无睹，认为他只是老了胡言乱语，但他意外招来了一群同样被视为异类的邻居，包括睿智犀利的前记者、追寻心灵救赎的探索者、愤世嫉俗的音乐经纪人，以及走投无路的天才医生。这群被人看扁的边缘人必须联手揭开退休镇深藏的黑暗秘密，不然时日也不多了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/lIdtLJEJhjZUt8nKDZUYNGL23Uf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tAlbm6HPnpVDzYlhaj8HykdqH19.jpg"
-    },
-    {
-      "id": 687163,
-      "title": "挽救计划",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.6,
-      "release_date": "2026-03-15",
-      "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
-    },
-    {
       "id": 85552,
       "title": "亢奋",
       "type": "tv",
@@ -345,6 +301,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.8,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+    },
+    {
+      "id": 224941,
+      "title": "怪奇退休镇",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑",
+      "rating": 7.3,
+      "release_date": "2026-05-21",
+      "overview": "在幅员广大、艳阳高照的新墨西哥沙漠地带，有一座名为“退休镇”的优美社区，吸引众人在此安享晚年。然而，对刚搬来的山姆·库珀来说，这片天堂更像是冰冷的牢笼。某天晚上，一场可怕的遭遇让他惊觉看似干净的小巷，其实藏着骇人听闻的真相。地方官员对山姆的警告视若无睹，认为他只是老了胡言乱语，但他意外招来了一群同样被视为异类的邻居，包括睿智犀利的前记者、追寻心灵救赎的探索者、愤世嫉俗的音乐经纪人，以及走投无路的天才医生。这群被人看扁的边缘人必须联手揭开退休镇深藏的黑暗秘密，不然时日也不多了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/lIdtLJEJhjZUt8nKDZUYNGL23Uf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tAlbm6HPnpVDzYlhaj8HykdqH19.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 6.8,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
+    },
+    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -354,6 +343,17 @@
       "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.6,
+      "release_date": "2026-03-15",
+      "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
       "id": 1368881,
@@ -367,26 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jRCoJbsIFAEDhUIUIIWQiIu6Oeq.jpg"
     },
     {
-      "id": 1242332,
-      "title": "替补悍警",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-04-16",
-      "overview": "　　故事发生在一个名为“诺莫”的偏远小镇，这里看似风平浪静，实则暗流涌动。尤利西斯在上一任警长离奇意外身亡后，被委任为临时警长。当镇上的银行被一对来自外地的夫妇抢劫时，尤利西斯赶到现场，却发现这座小镇平静的表象下隐藏着更为险恶的深层秘密——从酒保到神父，镇上的每个人都是秘密的参与者。而一直试图逃避过去心魔的尤利西斯，此刻必须揭开这场犯罪阴谋的全部真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3TRq2RPWJ2Km6kg8xcCNU2IItNm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tZP3bbE9AHCsA2SlhtK922p7YeT.jpg"
-    },
-    {
-      "id": 299167,
-      "title": "达顿牧场",
+      "id": 220102,
+      "title": "暗影蜘蛛侠",
       "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.4,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
+      "genreTitle": "动作冒险•犯罪•悬疑",
+      "rating": 8.0,
+      "release_date": "2026-05-25",
+      "overview": "私家侦探本·莱利接下几桩看似单纯的案子，没想到黑帮分子、怪物，以及一位神秘的蛇蝎美人织起一张阴谋之网，让他必须面对过去，那个纽约唯一超级英雄的身份：蜘蛛侠。",
+      "poster_url": "https://image.tmdb.org/t/p/original/89h2TzFgCnQGNPfXEGRtfXjOOcS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
     },
     {
       "id": 936075,
@@ -400,6 +389,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
+      "id": 1242332,
+      "title": "替补悍警",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-04-16",
+      "overview": "　　故事发生在一个名为“诺莫”的偏远小镇，这里看似风平浪静，实则暗流涌动。尤利西斯在上一任警长离奇意外身亡后，被委任为临时警长。当镇上的银行被一对来自外地的夫妇抢劫时，尤利西斯赶到现场，却发现这座小镇平静的表象下隐藏着更为险恶的深层秘密——从酒保到神父，镇上的每个人都是秘密的参与者。而一直试图逃避过去心魔的尤利西斯，此刻必须揭开这场犯罪阴谋的全部真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3TRq2RPWJ2Km6kg8xcCNU2IItNm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tZP3bbE9AHCsA2SlhtK922p7YeT.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -409,17 +409,6 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/sB1xn4wYVEpLr7HqVz5VPe2WPzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
-    },
-    {
-      "id": 1439930,
-      "title": "惩罚者：最后一击",
-      "type": "movie",
-      "genreTitle": "动作•剧情•犯罪",
-      "rating": 8.4,
-      "release_date": "2026-05-12",
-      "overview": "弗兰克·卡斯特想在复仇之外，追求更有意义的目标，但他却意外地被拉回战场。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sjlVRbsB33Mzt26vKRxoGPV0YZC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
     },
     {
       "id": 37854,
@@ -433,15 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
     },
     {
-      "id": 308014,
-      "title": "柏林：抱银貂的女子",
+      "id": 1084244,
+      "title": "玩具总动员 5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-06-17",
+      "overview": "玩具们将会跟孩子们如今沉迷的电子产品展开激烈较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 299167,
+      "title": "达顿牧场",
       "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 8.4,
+      "genreTitle": "西部•剧情",
+      "rating": 9.4,
       "release_date": "2026-05-15",
-      "overview": "又想干一票的柏林召集团伙前往塞维利亚，打算盗取达芬奇的杰作，并将野心勃勃的公爵从该计划的受益人变为受害者。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qMLS5MvvU1VW8i6am2MO2qyQXlV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z1ntg0eaRhctgv3RmG8xTvmZkSp.jpg"
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     }
   ],
   "popular_movies": [
@@ -450,7 +450,7 @@
       "title": "木乃伊",
       "type": "movie",
       "genreTitle": "恐怖•悬疑",
-      "rating": 8.0,
+      "rating": 8.1,
       "release_date": "2026-04-15",
       "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
       "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
@@ -479,17 +479,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mGJOBpD25vr6wkXd8FfJa9bf1Dz.jpg"
     },
     {
-      "id": 1226863,
-      "title": "超级马力欧银河大电影",
-      "type": "movie",
-      "genreTitle": "家庭•喜剧•冒险",
-      "rating": 8.0,
-      "release_date": "2026-04-03",
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Dnrnz7qThGqbq5Ibg07ihFxtaM.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -499,6 +488,17 @@
       "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+    },
+    {
+      "id": 1226863,
+      "title": "超级马力欧银河大电影",
+      "type": "movie",
+      "genreTitle": "家庭•喜剧•冒险",
+      "rating": 8.0,
+      "release_date": "2026-04-03",
+      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Dnrnz7qThGqbq5Ibg07ihFxtaM.jpg"
     },
     {
       "id": 1339713,
@@ -538,22 +538,11 @@
       "title": "你会心碎",
       "type": "movie",
       "genreTitle": "爱情•剧情",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2026-03-26",
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1x9e0qWonw634NhIsRdvnneeqvN.jpg"
-    },
-    {
-      "id": 350,
-      "title": "穿普拉达的女王",
-      "type": "movie",
-      "genreTitle": "剧情•喜剧",
-      "rating": 7.4,
-      "release_date": "2007-02-27",
-      "overview": "初涉社会的安德丽娅•桑切丝 来到了著名时尚杂志《RUNWAY》面试，以聪明得到了主编米兰达•普雷斯丽 的特许，让她担任自己的第二助理。开始的时候安德丽娅感到十分委屈，就算自己多努力工作也无法得到赞赏，经一位老前辈的指点便重新改造自己。工作越来越顺，甚至取代了第一助理在米兰达心中的地位，决定带着这个聪明的女孩前往法国。可安德丽的改变让她失去了男友及朋友的爱，令她非常矛盾。到达法国后，她得知了米兰达的地位不保了，没想到米兰达竟然牺牲自己多年的好搭档保住了自己的地位，此事令安德丽娅深感失望，有了抽身离去的想法，到底安德丽娅会何去何从？",
-      "poster_url": "https://image.tmdb.org/t/p/original/76C6tTFrjibiLhTHgvPhVAQQ9nk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mQUPF35yLatlBfKPF0ULJCrC2Xv.jpg"
     },
     {
       "id": 931285,
@@ -567,26 +556,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
-      "id": 460465,
-      "title": "真人快打",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2021-04-07",
-      "overview": "为钱而打架糊口度日的MMA拳手科尔·杨（刘易斯·陈饰），并不知道为什么异星帝王尚宗（黄经汉饰）会遣出他手下最好的战士绝对零度（乔·塔斯利姆饰）——一个超凡的冷冻术士，来为了他所不了解的遗产而追杀他。出于对家人安全的考虑，科尔在身上拥有同样龙形标记的特种部队少校贾克斯（麦卡德·布鲁克斯）的指引下，寻找索尼娅·布雷德（杰西卡·麦克娜美）。很快，他发现自己来到了雷电（浅野忠信饰）的神庙，雷电是一位远古之神，也是地球阳间的守护者，他为那些拥有印记的人提供庇护。在这里，科尔与经验丰富的战士刘康（林路迪饰）、空佬（麦克斯·黄），以及恶棍佣兵卡诺（约什·劳森饰）一同训练，准备与这群地球上最伟大的战士们一起抵抗异星敌人的入侵，为宇宙展开一场殊死搏斗。但科尔是否能被逼到足够的境地以解开他灵魂深处巨大力量的奥秘，以及时拯救他的家人、阻止异星的入侵呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vwbCzIXPQlpSWk3cQDDjcblWaAm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4EyEEBgMOrhg3TJfAgUGsY9Z2b2.jpg"
-    },
-    {
       "id": 1320660,
       "title": "पति पत्नी और वो दो",
       "type": "movie",
       "genreTitle": "喜剧",
-      "rating": 8.0,
+      "rating": 7.7,
       "release_date": "2026-05-15",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/5MweEeMzPbueb65BcJpdiy0ihwU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e0XFYBdVpms54vy8jcGw1I3mWRw.jpg"
+    },
+    {
+      "id": 350,
+      "title": "穿普拉达的女王",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.4,
+      "release_date": "2007-02-27",
+      "overview": "初涉社会的安德丽娅•桑切丝 来到了著名时尚杂志《RUNWAY》面试，以聪明得到了主编米兰达•普雷斯丽 的特许，让她担任自己的第二助理。开始的时候安德丽娅感到十分委屈，就算自己多努力工作也无法得到赞赏，经一位老前辈的指点便重新改造自己。工作越来越顺，甚至取代了第一助理在米兰达心中的地位，决定带着这个聪明的女孩前往法国。可安德丽的改变让她失去了男友及朋友的爱，令她非常矛盾。到达法国后，她得知了米兰达的地位不保了，没想到米兰达竟然牺牲自己多年的好搭档保住了自己的地位，此事令安德丽娅深感失望，有了抽身离去的想法，到底安德丽娅会何去何从？",
+      "poster_url": "https://image.tmdb.org/t/p/original/76C6tTFrjibiLhTHgvPhVAQQ9nk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mQUPF35yLatlBfKPF0ULJCrC2Xv.jpg"
     },
     {
       "id": 1228710,
@@ -598,6 +587,17 @@
       "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
       "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+    },
+    {
+      "id": 460465,
+      "title": "真人快打",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 7.0,
+      "release_date": "2021-04-07",
+      "overview": "为钱而打架糊口度日的MMA拳手科尔·杨（刘易斯·陈饰），并不知道为什么异星帝王尚宗（黄经汉饰）会遣出他手下最好的战士绝对零度（乔·塔斯利姆饰）——一个超凡的冷冻术士，来为了他所不了解的遗产而追杀他。出于对家人安全的考虑，科尔在身上拥有同样龙形标记的特种部队少校贾克斯（麦卡德·布鲁克斯）的指引下，寻找索尼娅·布雷德（杰西卡·麦克娜美）。很快，他发现自己来到了雷电（浅野忠信饰）的神庙，雷电是一位远古之神，也是地球阳间的守护者，他为那些拥有印记的人提供庇护。在这里，科尔与经验丰富的战士刘康（林路迪饰）、空佬（麦克斯·黄），以及恶棍佣兵卡诺（约什·劳森饰）一同训练，准备与这群地球上最伟大的战士们一起抵抗异星敌人的入侵，为宇宙展开一场殊死搏斗。但科尔是否能被逼到足够的境地以解开他灵魂深处巨大力量的奥秘，以及时拯救他的家人、阻止异星的入侵呢？",
+      "poster_url": "https://image.tmdb.org/t/p/original/vwbCzIXPQlpSWk3cQDDjcblWaAm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4EyEEBgMOrhg3TJfAgUGsY9Z2b2.jpg"
     },
     {
       "id": 1318447,
