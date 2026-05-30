@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30 16:10:50",
+  "last_updated": "2026-05-30 18:30:06",
   "today_global": [
     {
       "id": 220102,
@@ -17,7 +17,7 @@
       "title": "后室",
       "type": "movie",
       "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.6,
+      "rating": 6.5,
       "release_date": "2026-05-27",
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/sB1xn4wYVEpLr7HqVz5VPe2WPzO.jpg",
@@ -28,7 +28,7 @@
       "title": "星城",
       "type": "tv",
       "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
-      "rating": 6.6,
+      "rating": 5.7,
       "release_date": "2026-05-28",
       "overview": "踏进受《为全人类》启发的惊险新篇章，同一个架空历史，却从苏联的角度出发，讲述铁幕背后一众宇航员、工程师和情报人员铤而走险，在登月竞赛中取胜求存。",
       "poster_url": "https://image.tmdb.org/t/p/original/1tbUKieOUaqiafxDnEwchd9KfDo.jpg",
@@ -79,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 87917,
-      "title": "For All Mankind",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
-      "rating": 7.7,
-      "release_date": "2019-11-01",
-      "overview": "假如全球太空竞赛一直没有结束，世界会是怎样的光景？这部扣人心弦的架空历史剧由罗纳德D.摩尔（《古战场传奇》、《太空堡垒卡拉狄加》）打造，呈现了美国航空航天局的宇航员所面对的高风险和他们的家庭生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eZpq7owpTlR3Gj9zWNdcGNJtgzX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ytpHp1nhaEBNBZblzQLyyWRmNGf.jpg"
+      "id": 1116201,
+      "title": "铁肺",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.4,
+      "release_date": "2026-01-30",
+      "overview": "　　在“寂静被提”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cdqsEz8O9ZuctOW9SClFzwEUO1K.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
     },
     {
       "id": 292532,
@@ -97,7 +97,7 @@
       "rating": 0.0,
       "release_date": "2026-05-29",
       "overview": "足球巨星贝利、雅尔津霍和卡洛斯·阿尔贝托领衔巴西队向世界杯冠军发起冲击。他们的征程融合了球场上的辉煌与场外的挑战，展现了一个国家为赢得足球最高荣誉而奋斗的精神。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gGVvMitZmPRo14FrttGAX7OHZo0.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/AbacRmw60119iQEiDf0dfseVDuk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/z95mrTaae0yQRpqVLHXm3rkTU6a.jpg"
     },
     {
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
     },
     {
-      "id": 1304313,
-      "title": "木乃伊",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑",
-      "rating": 8.1,
-      "release_date": "2026-04-15",
-      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
-    },
-    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -134,15 +123,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
-      "id": 1390300,
-      "title": "致命之旅",
+      "id": 87917,
+      "title": "For All Mankind",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
+      "rating": 7.7,
+      "release_date": "2019-11-01",
+      "overview": "假如全球太空竞赛一直没有结束，世界会是怎样的光景？这部扣人心弦的架空历史剧由罗纳德D.摩尔（《古战场传奇》、《太空堡垒卡拉狄加》）打造，呈现了美国航空航天局的宇航员所面对的高风险和他们的家庭生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eZpq7owpTlR3Gj9zWNdcGNJtgzX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ytpHp1nhaEBNBZblzQLyyWRmNGf.jpg"
+    },
+    {
+      "id": 1304313,
+      "title": "木乃伊",
       "type": "movie",
-      "genreTitle": "动作•喜剧•惊悚",
-      "rating": 7.1,
-      "release_date": "2026-04-24",
-      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
+      "genreTitle": "恐怖•悬疑",
+      "rating": 8.1,
+      "release_date": "2026-04-15",
+      "overview": "讲述一位记者的年幼女儿在沙漠中神秘失踪并音讯全无。八年后，当她突然出现在家人面前时，这个早已破碎的家庭震惊不已；原本应该是重逢的喜悦，却逐渐演变成一场活生生的恶梦。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c6Lptq5cFZ57TqMhuBgEYlLCxXI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
     },
     {
       "id": 124364,
@@ -156,37 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 299167,
-      "title": "达顿牧场",
-      "type": "tv",
-      "genreTitle": "西部•剧情",
-      "rating": 9.3,
-      "release_date": "2026-05-15",
-      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
+      "id": 1390300,
+      "title": "致命之旅",
       "type": "movie",
-      "genreTitle": "喜剧•恐怖",
-      "rating": 0.0,
-      "release_date": "2026-06-03",
-      "overview": "　　在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oRXf8V8B3i80u3ZHmIOpRsKae0k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
-    },
-    {
-      "id": 1116201,
-      "title": "铁肺",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.4,
-      "release_date": "2026-01-30",
-      "overview": "　　在“寂静被提”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cdqsEz8O9ZuctOW9SClFzwEUO1K.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
+      "genreTitle": "动作•喜剧•惊悚",
+      "rating": 7.1,
+      "release_date": "2026-04-24",
+      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
     },
     {
       "id": 1228710,
@@ -198,6 +176,39 @@
       "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
       "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+    },
+    {
+      "id": 257994,
+      "title": "半个男人",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.4,
+      "release_date": "2026-04-28",
+      "overview": "讲述一对非血缘兄弟之间的复杂关系。两人在青少年时期结下了深厚的羁绊，并在此后的30年岁月中，历经聚散，共同应对人生的起伏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5Yl86ZnGyVY3uEGHHKslpixA53X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d1u986pi3ByZ4NhfBQphgPiPlgs.jpg"
+    },
+    {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧•恐怖",
+      "rating": 10.0,
+      "release_date": "2026-06-03",
+      "overview": "　　在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oRXf8V8B3i80u3ZHmIOpRsKae0k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+    },
+    {
+      "id": 299167,
+      "title": "达顿牧场",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 9.3,
+      "release_date": "2026-05-15",
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
     }
   ],
   "week_global_all": [
@@ -246,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
     },
     {
-      "id": 1368881,
-      "title": "女士优先",
-      "type": "movie",
-      "genreTitle": "喜剧•奇幻",
-      "rating": 5.9,
-      "release_date": "2026-05-21",
-      "overview": "达米安看似拥有一切：金钱、权力，和源源不断的艳遇。但就在即将升任顶尖广告公司的首席执行官之际，人生突然遭逢剧变。他苏醒过来，发现竟置身于自己最害怕的恶梦：一个由女性主宰的平行世界。曾经他在董事会议室里呼风唤雨，如今却人微言轻，还和变得强悍大胆的同事艾莉克斯起了冲突。随着游戏规则改变，艾莉克斯大权在握，这两人激烈争斗，共同演绎出这部想象权力结构翻转的趣味讽刺喜剧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pxDXrDjNHeliyrUJGliXCzpcrv9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jRCoJbsIFAEDhUIUIIWQiIu6Oeq.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -290,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
-      "id": 85552,
-      "title": "亢奋",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.3,
-      "release_date": "2019-06-16",
-      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+      "id": 1368881,
+      "title": "女士优先",
+      "type": "movie",
+      "genreTitle": "喜剧•奇幻",
+      "rating": 5.9,
+      "release_date": "2026-05-21",
+      "overview": "达米安看似拥有一切：金钱、权力，和源源不断的艳遇。但就在即将升任顶尖广告公司的首席执行官之际，人生突然遭逢剧变。他苏醒过来，发现竟置身于自己最害怕的恶梦：一个由女性主宰的平行世界。曾经他在董事会议室里呼风唤雨，如今却人微言轻，还和变得强悍大胆的同事艾莉克斯起了冲突。随着游戏规则改变，艾莉克斯大权在握，这两人激烈争斗，共同演绎出这部想象权力结构翻转的趣味讽刺喜剧。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pxDXrDjNHeliyrUJGliXCzpcrv9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jRCoJbsIFAEDhUIUIIWQiIu6Oeq.jpg"
     },
     {
       "id": 1228710,
@@ -312,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
-      "id": 224941,
-      "title": "怪奇退休镇",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑",
-      "rating": 7.1,
-      "release_date": "2026-05-21",
-      "overview": "在幅员广大、艳阳高照的新墨西哥沙漠地带，有一座名为“退休镇”的优美社区，吸引众人在此安享晚年。然而，对刚搬来的山姆·库珀来说，这片天堂更像是冰冷的牢笼。某天晚上，一场可怕的遭遇让他惊觉看似干净的小巷，其实藏着骇人听闻的真相。地方官员对山姆的警告视若无睹，认为他只是老了胡言乱语，但他意外招来了一群同样被视为异类的邻居，包括睿智犀利的前记者、追寻心灵救赎的探索者、愤世嫉俗的音乐经纪人，以及走投无路的天才医生。这群被人看扁的边缘人必须联手揭开退休镇深藏的黑暗秘密，不然时日也不多了！",
-      "poster_url": "https://image.tmdb.org/t/p/original/lIdtLJEJhjZUt8nKDZUYNGL23Uf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tAlbm6HPnpVDzYlhaj8HykdqH19.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -332,6 +321,17 @@
       "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
       "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 224941,
+      "title": "怪奇退休镇",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑",
+      "rating": 7.1,
+      "release_date": "2026-05-21",
+      "overview": "在幅员广大、艳阳高照的新墨西哥沙漠地带，有一座名为“退休镇”的优美社区，吸引众人在此安享晚年。然而，对刚搬来的山姆·库珀来说，这片天堂更像是冰冷的牢笼。某天晚上，一场可怕的遭遇让他惊觉看似干净的小巷，其实藏着骇人听闻的真相。地方官员对山姆的警告视若无睹，认为他只是老了胡言乱语，但他意外招来了一群同样被视为异类的邻居，包括睿智犀利的前记者、追寻心灵救赎的探索者、愤世嫉俗的音乐经纪人，以及走投无路的天才医生。这群被人看扁的边缘人必须联手揭开退休镇深藏的黑暗秘密，不然时日也不多了！",
+      "poster_url": "https://image.tmdb.org/t/p/original/lIdtLJEJhjZUt8nKDZUYNGL23Uf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tAlbm6HPnpVDzYlhaj8HykdqH19.jpg"
     },
     {
       "id": 1304313,
@@ -345,6 +345,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1ViB1Fqj7tXOSWyq8K4bQA8RgWB.jpg"
     },
     {
+      "id": 252107,
+      "title": "星城",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
+      "rating": 5.7,
+      "release_date": "2026-05-28",
+      "overview": "踏进受《为全人类》启发的惊险新篇章，同一个架空历史，却从苏联的角度出发，讲述铁幕背后一众宇航员、工程师和情报人员铤而走险，在登月竞赛中取胜求存。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1tbUKieOUaqiafxDnEwchd9KfDo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fRyyCKzp0HTEzthtASul7eRjayb.jpg"
+    },
+    {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 1226863,
       "title": "超级马力欧银河大电影",
       "type": "movie",
@@ -354,6 +376,17 @@
       "overview": "重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "poster_url": "https://image.tmdb.org/t/p/original/7tLVCMnGg0Q3rWlkoBjdKA0S57R.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/Dnrnz7qThGqbq5Ibg07ihFxtaM.jpg"
+    },
+    {
+      "id": 1242265,
+      "title": "导火线",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•剧情",
+      "rating": 6.4,
+      "release_date": "2026-03-23",
+      "overview": "伦敦市中心的建筑工地，一枚未引爆的二战炸弹意外出土。军方拆弹专家威尔与警方指挥官紧急启动全城疏散，整座街区陷入混乱。而这场“定时炸弹危机”，恰好成为一群劫匪策划已久的银行劫案完美掩护。拆弹倒计时与抢劫计划双线并行，危机与犯罪交织，一场以全城恐慌为背景的猫鼠游戏就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eW4uRAxqKfhYUuFuG9M1e6tj6b1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
     },
     {
       "id": 931285,
@@ -367,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     },
     {
+      "id": 1390300,
+      "title": "致命之旅",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•惊悚",
+      "rating": 7.1,
+      "release_date": "2026-04-24",
+      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
+    },
+    {
       "id": 37854,
       "title": "航海王",
       "type": "tv",
@@ -376,39 +420,6 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wZoIvSRpus6RM3IXKYsx7Owzknn.jpg"
-    },
-    {
-      "id": 1390300,
-      "title": "致命之旅",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•惊悚",
-      "rating": 7.2,
-      "release_date": "2026-04-24",
-      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
-    },
-    {
-      "id": 1242265,
-      "title": "导火线",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 6.5,
-      "release_date": "2026-03-23",
-      "overview": "伦敦市中心的建筑工地，一枚未引爆的二战炸弹意外出土。军方拆弹专家威尔与警方指挥官紧急启动全城疏散，整座街区陷入混乱。而这场“定时炸弹危机”，恰好成为一群劫匪策划已久的银行劫案完美掩护。拆弹倒计时与抢劫计划双线并行，危机与犯罪交织，一场以全城恐慌为背景的猫鼠游戏就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eW4uRAxqKfhYUuFuG9M1e6tj6b1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
-    },
-    {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 9.0,
-      "release_date": "2026-06-03",
-      "overview": "导演McG最近正在商谈，有望为索尼执导根据80年代同名动画和玩具改编的真人版电影《希曼》（Masters of the Universe）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
       "id": 60625,
@@ -534,6 +545,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e0XFYBdVpms54vy8jcGw1I3mWRw.jpg"
     },
     {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 6.6,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sB1xn4wYVEpLr7HqVz5VPe2WPzO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
+    },
+    {
       "id": 931285,
       "title": "真人快打2",
       "type": "movie",
@@ -576,17 +598,6 @@
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/9LPkXJustudEBgPZEm9tgDx5KtC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kkRpcauZoBFKnH0Qsy7J5qtwBF5.jpg"
-    },
-    {
-      "id": 460465,
-      "title": "真人快打",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 7.0,
-      "release_date": "2021-04-07",
-      "overview": "为钱而打架糊口度日的MMA拳手科尔·杨（刘易斯·陈饰），并不知道为什么异星帝王尚宗（黄经汉饰）会遣出他手下最好的战士绝对零度（乔·塔斯利姆饰）——一个超凡的冷冻术士，来为了他所不了解的遗产而追杀他。出于对家人安全的考虑，科尔在身上拥有同样龙形标记的特种部队少校贾克斯（麦卡德·布鲁克斯）的指引下，寻找索尼娅·布雷德（杰西卡·麦克娜美）。很快，他发现自己来到了雷电（浅野忠信饰）的神庙，雷电是一位远古之神，也是地球阳间的守护者，他为那些拥有印记的人提供庇护。在这里，科尔与经验丰富的战士刘康（林路迪饰）、空佬（麦克斯·黄），以及恶棍佣兵卡诺（约什·劳森饰）一同训练，准备与这群地球上最伟大的战士们一起抵抗异星敌人的入侵，为宇宙展开一场殊死搏斗。但科尔是否能被逼到足够的境地以解开他灵魂深处巨大力量的奥秘，以及时拯救他的家人、阻止异星的入侵呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/vwbCzIXPQlpSWk3cQDDjcblWaAm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4EyEEBgMOrhg3TJfAgUGsY9Z2b2.jpg"
     }
   ]
 }
