@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-06-04 13:28:44",
+  "last_updated": "2026-06-04 17:36:25",
   "today_global": [
-    {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.8,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
-    },
     {
       "id": 1122573,
       "title": "金谍行动",
@@ -24,37 +13,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
     },
     {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 6.7,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖",
+      "genreTitle": "恐怖•惊悚",
       "rating": 7.9,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
-    {
-      "id": 1430077,
-      "title": "幽旅巫咒",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.1,
-      "release_date": "2026-04-29",
-      "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bj5gdqsB34GSpvLglN4lslV9EjQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4CarGYFfras93VBH8GwDWwhxcQc.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧•恐怖",
-      "rating": 5.5,
-      "release_date": "2026-06-03",
-      "overview": "　　在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/88IaC41OrqKrH3SWYLajQUaDpO2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
       "id": 220102,
@@ -68,15 +46,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
     },
     {
-      "id": 135934,
-      "title": "机械之声的传奇",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.2,
-      "release_date": "2022-01-27",
-      "overview": "他们是吵闹粗鄙的乌合之众，他们是不合群的雇佣兵。比起保卫王国，机械之声对轻松赚钱和廉价啤酒更感兴趣。但当王国受到邪恶力量威胁时，这个喧闹的团队意识到只有他们能够恢复正义。原本平凡的发薪日，如今却成了艾克斯山德里亚新英雄背后的起源故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5OGIH7tokNhuLyZQa9tjSMaRdC4.jpg"
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 5.5,
+      "release_date": "2026-06-03",
+      "overview": "　　在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/88IaC41OrqKrH3SWYLajQUaDpO2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+    },
+    {
+      "id": 1430077,
+      "title": "幽旅巫咒",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.1,
+      "release_date": "2026-04-29",
+      "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bj5gdqsB34GSpvLglN4lslV9EjQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CarGYFfras93VBH8GwDWwhxcQc.jpg"
     },
     {
       "id": 1327819,
@@ -90,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.6,
-      "release_date": "2026-06-03",
-      "overview": "导演McG最近正在商谈，有望为索尼执导根据80年代同名动画和玩具改编的真人版电影《希曼》（Masters of the Universe）。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+      "id": 135934,
+      "title": "机械之声的传奇",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.2,
+      "release_date": "2022-01-27",
+      "overview": "他们是吵闹粗鄙的乌合之众，他们是不合群的雇佣兵。比起保卫王国，机械之声对轻松赚钱和廉价啤酒更感兴趣。但当王国受到邪恶力量威胁时，这个喧闹的团队意识到只有他们能够恢复正义。原本平凡的发薪日，如今却成了艾克斯山德里亚新英雄背后的起源故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5OGIH7tokNhuLyZQa9tjSMaRdC4.jpg"
     },
     {
       "id": 323111,
@@ -112,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hUzTtf5be9kXnVVh6TgcP1ibw3B.jpg"
     },
     {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.6,
+      "release_date": "2026-06-03",
+      "overview": "导演McG最近正在商谈，有望为索尼执导根据80年代同名动画和玩具改编的真人版电影《希曼》（Masters of the Universe）。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
       "id": 85552,
       "title": "亢奋",
       "type": "tv",
@@ -121,50 +121,6 @@
       "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
       "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
-    },
-    {
-      "id": 1242265,
-      "title": "导火线",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 6.4,
-      "release_date": "2026-03-23",
-      "overview": "伦敦市中心的建筑工地，一枚未引爆的二战炸弹意外出土。军方拆弹专家威尔与警方指挥官紧急启动全城疏散，整座街区陷入混乱。而这场“定时炸弹危机”，恰好成为一群劫匪策划已久的银行劫案完美掩护。拆弹倒计时与抢劫计划双线并行，危机与犯罪交织，一场以全城恐慌为背景的猫鼠游戏就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eW4uRAxqKfhYUuFuG9M1e6tj6b1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
-    },
-    {
-      "id": 289147,
-      "title": "灵魂摆渡·十年",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
-      "rating": 9.3,
-      "release_date": "2026-06-02",
-      "overview": "幻海市，夏冬青与娅共同经营着昼夜转换的444号便利店，并与酷似失踪赵吏的“守夜人”结成新搭档，守护人界与灵界的平衡。三人组在平凡日子里化解了多起异事，然而，一场意外打破了平静……红月当空之际，众人诛灭其阴谋回归现实。幻海市恢复宁静，444号便利店继续营业，但新的异闻已在青石板路上悄然滋生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1EHwuOLdQ396YOlpmBoFEeOit3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l0FjtWuP0rOgYySGbpqUMVi4R9g.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "悬疑•科幻•惊悚",
-      "rating": 8.0,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
-    },
-    {
-      "id": 90521,
-      "title": "爱情岛",
-      "type": "tv",
-      "genreTitle": "真人秀",
-      "rating": 7.0,
-      "release_date": "2019-07-09",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/6tpNCQbuPddzGRIGzsX6Smocf4n.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pKXMr8qaIIxVDJzErSSOE4UYnBz.jpg"
     },
     {
       "id": 117648,
@@ -178,26 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/w7rFOKuncDizmjb37hZcj2dyyrc.jpg"
     },
     {
-      "id": 1380316,
-      "title": "上帝是吗？",
+      "id": 1275779,
+      "title": "揭秘日",
       "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 5.9,
-      "release_date": "2026-05-14",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/rCYQGHdoz7qwYsb6wXETJfUfDLX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sZ61Fo6Di1DvXXhrSjyF6Xunr9C.jpg"
-    },
-    {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.5,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+      "genreTitle": "悬疑•科幻•惊悚",
+      "rating": 8.0,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     },
     {
       "id": 270476,
@@ -211,15 +156,70 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
-      "id": 284725,
-      "title": "曼哈顿打拼日记",
+      "id": 289147,
+      "title": "灵魂摆渡·十年",
       "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 4.7,
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 9.3,
       "release_date": "2026-06-02",
-      "overview": "聚焦于五个职场新鲜人，他们在纽约曼哈顿奋力追求事业成功，而个人幸福则往往只能排在职业规划之后。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gUoVQS9LkY3YuxtJv7iayo8Gr1a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sUNGzn3NKNZ9LQzTuilEiQt1lN8.jpg"
+      "overview": "幻海市，夏冬青与娅共同经营着昼夜转换的444号便利店，并与酷似失踪赵吏的“守夜人”结成新搭档，守护人界与灵界的平衡。三人组在平凡日子里化解了多起异事，然而，一场意外打破了平静……红月当空之际，众人诛灭其阴谋回归现实。幻海市恢复宁静，444号便利店继续营业，但新的异闻已在青石板路上悄然滋生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1EHwuOLdQ396YOlpmBoFEeOit3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l0FjtWuP0rOgYySGbpqUMVi4R9g.jpg"
+    },
+    {
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.5,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 1380316,
+      "title": "上帝是吗？",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 6.1,
+      "release_date": "2026-05-14",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/rCYQGHdoz7qwYsb6wXETJfUfDLX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sZ61Fo6Di1DvXXhrSjyF6Xunr9C.jpg"
+    },
+    {
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.9,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
+    },
+    {
+      "id": 273240,
+      "title": "校园之外",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 9.0,
+      "release_date": "2026-05-13",
+      "overview": "为了赢得心上人的心，汉娜·威尔斯主动为冰球队队长加雷特·格雷厄姆辅导功课。随着两人面对各自的过往，这场最初各取所需的交易，渐渐萌生了真情。他们的朋友洛根、迪恩、塔克和艾莉也都在大学生活与爱情中摸索前行。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     }
   ],
   "week_global_all": [
@@ -239,7 +239,7 @@
       "title": "后室",
       "type": "movie",
       "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2026-05-27",
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
@@ -249,45 +249,12 @@
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖",
+      "genreTitle": "恐怖•惊悚",
       "rating": 7.9,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧•恐怖",
-      "rating": 5.5,
-      "release_date": "2026-06-03",
-      "overview": "　　在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/88IaC41OrqKrH3SWYLajQUaDpO2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
-    },
-    {
-      "id": 1242265,
-      "title": "导火线",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•剧情",
-      "rating": 6.4,
-      "release_date": "2026-03-23",
-      "overview": "伦敦市中心的建筑工地，一枚未引爆的二战炸弹意外出土。军方拆弹专家威尔与警方指挥官紧急启动全城疏散，整座街区陷入混乱。而这场“定时炸弹危机”，恰好成为一群劫匪策划已久的银行劫案完美掩护。拆弹倒计时与抢劫计划双线并行，危机与犯罪交织，一场以全城恐慌为背景的猫鼠游戏就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eW4uRAxqKfhYUuFuG9M1e6tj6b1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xXl77FyrDOUaYEDzmkhFqOXm8ns.jpg"
-    },
-    {
-      "id": 1430077,
-      "title": "幽旅巫咒",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.1,
-      "release_date": "2026-04-29",
-      "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bj5gdqsB34GSpvLglN4lslV9EjQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4CarGYFfras93VBH8GwDWwhxcQc.jpg"
     },
     {
       "id": 85552,
@@ -299,6 +266,17 @@
       "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
       "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 5.5,
+      "release_date": "2026-06-03",
+      "overview": "　　在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/88IaC41OrqKrH3SWYLajQUaDpO2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
       "id": 1122573,
@@ -323,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
+      "id": 1430077,
+      "title": "幽旅巫咒",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.1,
+      "release_date": "2026-04-29",
+      "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bj5gdqsB34GSpvLglN4lslV9EjQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4CarGYFfras93VBH8GwDWwhxcQc.jpg"
+    },
+    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -332,17 +321,6 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
-    },
-    {
-      "id": 1327819,
-      "title": "河狸变身计划",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 8.2,
-      "release_date": "2026-03-04",
-      "overview": "梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
       "id": 124364,
@@ -356,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "悬疑•科幻•惊悚",
-      "rating": 8.0,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
-    },
-    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -378,6 +345,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     },
     {
+      "id": 1327819,
+      "title": "河狸变身计划",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 8.2,
+      "release_date": "2026-03-04",
+      "overview": "梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
+    },
+    {
+      "id": 1116201,
+      "title": "铁肺",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.2,
+      "release_date": "2026-01-30",
+      "overview": "　　在“寂静被提”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8e5vJfkj2w661aE1uzIUH2uCgPe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员 5",
       "type": "movie",
@@ -387,6 +376,28 @@
       "overview": "　　本部续作中，胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。\r 　　当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 1275779,
+      "title": "揭秘日",
+      "type": "movie",
+      "genreTitle": "悬疑•科幻•惊悚",
+      "rating": 8.0,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
+    },
+    {
+      "id": 252107,
+      "title": "星城",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
+      "rating": 6.3,
+      "release_date": "2026-05-28",
+      "overview": "踏进受《为全人类》启发的惊险新篇章，同一个架空历史，却从苏联的角度出发，讲述铁幕背后一众宇航员、工程师和情报人员铤而走险，在登月竞赛中取胜求存。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1tbUKieOUaqiafxDnEwchd9KfDo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fRyyCKzp0HTEzthtASul7eRjayb.jpg"
     },
     {
       "id": 687163,
@@ -404,44 +415,33 @@
       "title": "星球大战：曼达洛人与古古",
       "type": "movie",
       "genreTitle": "动作•冒险•科幻",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-05-20",
       "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
       "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
-      "id": 252107,
-      "title": "星城",
-      "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
-      "rating": 6.3,
-      "release_date": "2026-05-28",
-      "overview": "踏进受《为全人类》启发的惊险新篇章，同一个架空历史，却从苏联的角度出发，讲述铁幕背后一众宇航员、工程师和情报人员铤而走险，在登月竞赛中取胜求存。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1tbUKieOUaqiafxDnEwchd9KfDo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fRyyCKzp0HTEzthtASul7eRjayb.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
-      "id": 1116201,
-      "title": "铁肺",
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.2,
-      "release_date": "2026-01-30",
-      "overview": "　　在“寂静被提”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8e5vJfkj2w661aE1uzIUH2uCgPe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qKYCNfv9Z8bZIvDdE7jTliVBFPu.jpg"
+      "genreTitle": "音乐•剧情",
+      "rating": 7.6,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 6.7,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1rxNbVaBlYW3wBwrNrnqvQWgPkf.jpg"
     }
   ],
   "popular_movies": [
@@ -449,7 +449,7 @@
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖",
+      "genreTitle": "恐怖•惊悚",
       "rating": 7.9,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
@@ -494,7 +494,7 @@
       "title": "后室",
       "type": "movie",
       "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-05-27",
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
