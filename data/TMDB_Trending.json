@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-06-06 22:21:35",
+  "last_updated": "2026-06-06 23:59:14",
   "today_global": [
-    {
-      "id": 1358005,
-      "title": "同事以上，恋人未满",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-06-04",
-      "overview": "这部带点暧昧色彩的浪漫喜剧片由詹妮弗·洛佩兹和布雷特·戈尔茨坦主演，讲述了一段隐秘办公室恋情以及两个工作狂遵从内心后遇到的混乱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gtBS0bQNqTeOVN2UbqdwXxNFGKn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hYMfEomoYdtADo9xHqy0VmXVfpw.jpg"
-    },
     {
       "id": 276161,
       "title": "铁拳教育",
       "type": "tv",
       "genreTitle": "动作冒险•剧情•喜剧",
-      "rating": 8.4,
+      "rating": 8.6,
       "release_date": "2026-06-05",
       "overview": "在校园暴力猖獗、教师权威瓦解且恐龙家长无理解干涉的崩坏世界中，政府为了重整教育体制，依法创立了特殊机构“教权保护局”。当学校陷入常规手段无法解决的混乱失序时，特勤小组便会奉命出动。他们获准在必要时不惜逾越法律规范，使出课本上绝对不会教的强硬暴力与非常规手段，展开拳拳到肉的黑色幽默反击。这群特勤队员无所不用其极，誓言要对越界的失控学生、失格教师及傲慢家长实施痛快的“铁拳教育”，以恶制恶地夺回崩塌的教育正义与崩溃的校园秩序。",
       "poster_url": "https://image.tmdb.org/t/p/original/bo5hUNwbTV84C4BAZJrnZPn5bQW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
+    },
+    {
+      "id": 1358005,
+      "title": "同事以上，恋人未满",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 6.9,
+      "release_date": "2026-06-04",
+      "overview": "这部带点暧昧色彩的浪漫喜剧片由詹妮弗·洛佩兹和布雷特·戈尔茨坦主演，讲述了一段隐秘办公室恋情以及两个工作狂遵从内心后遇到的混乱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gtBS0bQNqTeOVN2UbqdwXxNFGKn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hYMfEomoYdtADo9xHqy0VmXVfpw.jpg"
     },
     {
       "id": 1274706,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
-      "id": 1530510,
-      "title": "墨西哥 1986：主办大作战",
-      "type": "movie",
-      "genreTitle": "喜剧•历史•剧情",
-      "rating": 5.9,
-      "release_date": "2026-05-21",
-      "overview": "勇气、疯狂和纯碎的墨西哥式创造力。1986 年，墨西哥排除万难举办了最重要的足球比赛。他们是如何完成这一壮举的？",
-      "poster_url": "https://image.tmdb.org/t/p/original/e5JZ1ItIPM03ZdERsC0kA2Z04mN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5Dkv39CuytJDnJeZjkepFtOWqBr.jpg"
-    },
-    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -112,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
     },
     {
-      "id": 1288341,
-      "title": "狙击 7 队",
+      "id": 1530510,
+      "title": "墨西哥 1986：主办大作战",
       "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 5.4,
-      "release_date": "2026-04-30",
-      "overview": "顶级女狙击手Kris曾叱咤战场，如今隐姓埋名，在澳洲偏远的农场独自抚养女儿Anja。她本以为血腥的过往已彻底过去，不料当年的残暴军阀追踪而至。面对孤立无援的绝境，为了守护家园与唯一的孩子，她不得不重拾狙击枪，召集了曾经的狙击小队成员，与仇敌展开一场生死决战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wkONt70slXtDpCmwAfUMpxBsZKs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mS6ummmqQx4MALQcG5e675ad5R6.jpg"
+      "genreTitle": "喜剧•历史•剧情",
+      "rating": 5.9,
+      "release_date": "2026-05-21",
+      "overview": "勇气、疯狂和纯碎的墨西哥式创造力。1986 年，墨西哥排除万难举办了最重要的足球比赛。他们是如何完成这一壮举的？",
+      "poster_url": "https://image.tmdb.org/t/p/original/e5JZ1ItIPM03ZdERsC0kA2Z04mN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5Dkv39CuytJDnJeZjkepFtOWqBr.jpg"
     },
     {
       "id": 454639,
@@ -134,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
+      "id": 1288341,
+      "title": "狙击 7 队",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 5.4,
+      "release_date": "2026-04-30",
+      "overview": "顶级女狙击手Kris曾叱咤战场，如今隐姓埋名，在澳洲偏远的农场独自抚养女儿Anja。她本以为血腥的过往已彻底过去，不料当年的残暴军阀追踪而至。面对孤立无援的绝境，为了守护家园与唯一的孩子，她不得不重拾狙击枪，召集了曾经的狙击小队成员，与仇敌展开一场生死决战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wkONt70slXtDpCmwAfUMpxBsZKs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mS6ummmqQx4MALQcG5e675ad5R6.jpg"
+    },
+    {
       "id": 1430077,
       "title": "幽旅巫咒",
       "type": "movie",
@@ -143,6 +143,17 @@
       "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
       "poster_url": "https://image.tmdb.org/t/p/original/bj5gdqsB34GSpvLglN4lslV9EjQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4CarGYFfras93VBH8GwDWwhxcQc.jpg"
+    },
+    {
+      "id": 289147,
+      "title": "灵魂摆渡·十年",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 9.5,
+      "release_date": "2026-06-02",
+      "overview": "幻海市，夏冬青与娅共同经营着昼夜转换的444号便利店，并与酷似失踪赵吏的“守夜人”结成新搭档，守护人界与灵界的平衡。三人组在平凡日子里化解了多起异事，然而，一场意外打破了平静……红月当空之际，众人诛灭其阴谋回归现实。幻海市恢复宁静，444号便利店继续营业，但新的异闻已在青石板路上悄然滋生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r1EHwuOLdQ396YOlpmBoFEeOit3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l0FjtWuP0rOgYySGbpqUMVi4R9g.jpg"
     },
     {
       "id": 1285959,
@@ -167,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmeZPGeX1wrxykiARQJMEd9Dmtl.jpg"
     },
     {
-      "id": 289147,
-      "title": "灵魂摆渡·十年",
+      "id": 229544,
+      "title": "Among Us",
       "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "genreTitle": "动画•悬疑•喜剧",
       "rating": 9.5,
-      "release_date": "2026-06-02",
-      "overview": "幻海市，夏冬青与娅共同经营着昼夜转换的444号便利店，并与酷似失踪赵吏的“守夜人”结成新搭档，守护人界与灵界的平衡。三人组在平凡日子里化解了多起异事，然而，一场意外打破了平静……红月当空之际，众人诛灭其阴谋回归现实。幻海市恢复宁静，444号便利店继续营业，但新的异闻已在青石板路上悄然滋生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r1EHwuOLdQ396YOlpmBoFEeOit3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l0FjtWuP0rOgYySGbpqUMVi4R9g.jpg"
+      "release_date": "2026-06-05",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/zQPnH87FXB6MEwRIy2xfhT41lq9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zoa11EvyuasC3j7PmH1QGftrSvf.jpg"
     },
     {
       "id": 687163,
@@ -189,6 +200,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 85552,
+      "title": "亢奋",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.3,
+      "release_date": "2019-06-16",
+      "overview": "一群高中生在一个充满毒品、性爱、创伤与社群媒体的世界，探索爱与友谊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2fQXV9wqD63IrZlfNqMkFzx2pkT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
+    },
+    {
       "id": 299167,
       "title": "达顿牧场",
       "type": "tv",
@@ -198,31 +220,20 @@
       "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
       "poster_url": "https://image.tmdb.org/t/p/original/k3BVaqF1b9fybZlFALsp8svk9bI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uBEsb8MBw28VTbe2DFcaja8KsfK.jpg"
-    },
-    {
-      "id": 1083884,
-      "title": "Signal One",
-      "type": "movie",
-      "genreTitle": "悬疑•科幻",
-      "rating": 6.7,
-      "release_date": "2026-06-05",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/dINJlQVlDCpsEVqhjFyOjpymxsg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dD2aQdZzhG40nALaJREfCAscAxT.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "悬疑•科幻•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 6.8,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
+    },
     {
       "id": 220102,
       "title": "暗影蜘蛛侠",
@@ -246,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.8,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
-    },
-    {
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
@@ -277,6 +277,17 @@
       "overview": "　　当一名冷酷无情的独裁者窃取了数十亿美元的巨额财富后，一支潜伏于暗影之中的精英特工小队受命夺回这笔巨款。这些特工游走于全球暗网，既能操控权谋博弈，亦精通爆破突袭。这场本已险象环生的惊天盗局却风云突变，最终升级为一场充斥着谋略、欺诈与生死较量的全面战争。",
       "poster_url": "https://image.tmdb.org/t/p/original/gM4lET5f5GK0jesz3yJ15qADXtY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
+    },
+    {
+      "id": 276161,
+      "title": "铁拳教育",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•喜剧",
+      "rating": 8.6,
+      "release_date": "2026-06-05",
+      "overview": "在校园暴力猖獗、教师权威瓦解且恐龙家长无理解干涉的崩坏世界中，政府为了重整教育体制，依法创立了特殊机构“教权保护局”。当学校陷入常规手段无法解决的混乱失序时，特勤小组便会奉命出动。他们获准在必要时不惜逾越法律规范，使出课本上绝对不会教的强硬暴力与非常规手段，展开拳拳到肉的黑色幽默反击。这群特勤队员无所不用其极，誓言要对越界的失控学生、失格教师及傲慢家长实施痛快的“铁拳教育”，以恶制恶地夺回崩塌的教育正义与崩溃的校园秩序。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bo5hUNwbTV84C4BAZJrnZPn5bQW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
     },
     {
       "id": 1430077,
@@ -316,7 +327,7 @@
       "title": "同事以上，恋人未满",
       "type": "movie",
       "genreTitle": "爱情•喜剧",
-      "rating": 7.0,
+      "rating": 6.9,
       "release_date": "2026-06-04",
       "overview": "这部带点暧昧色彩的浪漫喜剧片由詹妮弗·洛佩兹和布雷特·戈尔茨坦主演，讲述了一段隐秘办公室恋情以及两个工作狂遵从内心后遇到的混乱。",
       "poster_url": "https://image.tmdb.org/t/p/original/gtBS0bQNqTeOVN2UbqdwXxNFGKn.jpg",
@@ -345,39 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 276161,
-      "title": "铁拳教育",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2026-06-05",
-      "overview": "在校园暴力猖獗、教师权威瓦解且恐龙家长无理解干涉的崩坏世界中，政府为了重整教育体制，依法创立了特殊机构“教权保护局”。当学校陷入常规手段无法解决的混乱失序时，特勤小组便会奉命出动。他们获准在必要时不惜逾越法律规范，使出课本上绝对不会教的强硬暴力与非常规手段，展开拳拳到肉的黑色幽默反击。这群特勤队员无所不用其极，誓言要对越界的失控学生、失格教师及傲慢家长实施痛快的“铁拳教育”，以恶制恶地夺回崩塌的教育正义与崩溃的校园秩序。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bo5hUNwbTV84C4BAZJrnZPn5bQW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "悬疑•科幻•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
-    },
-    {
-      "id": 76479,
-      "title": "黑袍纠察队",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
-      "rating": 8.5,
-      "release_date": "2019-07-25",
-      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
-    },
-    {
       "id": 1327819,
       "title": "河狸变身计划",
       "type": "movie",
@@ -400,6 +378,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 76479,
+      "title": "黑袍纠察队",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.5,
+      "release_date": "2019-07-25",
+      "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
       "id": 273240,
       "title": "校园之外",
       "type": "tv",
@@ -409,6 +398,17 @@
       "overview": "音乐系学生汉娜·威尔斯（艾拉·布赖特 饰）与校冰球队王牌、布莱尔鹰队队长加勒特·格雷厄姆（贝尔蒙特·卡梅利 饰）。二人达成协议，开启一段契约恋爱：汉娜假意和加勒特交往，借此博取心仪的音乐人贾斯汀的关注；作为交换，汉娜辅导加勒特补习，帮他通过哲学课程。朝夕相处间，汉娜与加勒特从假扮恋人慢慢动了真情，修成真正的情侣。",
       "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+    },
+    {
+      "id": 1275779,
+      "title": "揭秘日",
+      "type": "movie",
+      "genreTitle": "悬疑•科幻•惊悚",
+      "rating": 7.9,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     },
     {
       "id": 1116201,
@@ -428,20 +428,20 @@
       "genreTitle": "动画•家庭•喜剧",
       "rating": 0.0,
       "release_date": "2026-06-17",
-      "overview": "　　本部续作中，胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。\r 　　当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
-      "id": 270476,
-      "title": "寡妇湾",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
+      "id": 1274706,
+      "title": "谜印女子",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪",
+      "rating": 3.8,
+      "release_date": "2026-06-05",
+      "overview": "一名女子在集装箱中被发现，记忆全无。两名警探争分夺秒，试图查出她的身份，以及是谁想要置她于死地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ilajfwHgPdD8F0baN8XnEC94o2U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2fgcRuaseQ9RIiTAUDbLtymnj2z.jpg"
     }
   ],
   "popular_movies": [
