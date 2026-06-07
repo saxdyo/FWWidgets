@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08 05:55:01",
+  "last_updated": "2026-06-08 06:51:12",
   "today_global": [
     {
       "id": 1339713,
@@ -224,17 +224,6 @@
   ],
   "week_global_all": [
     {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
-    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -244,6 +233,17 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.9,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
       "id": 1273221,
@@ -279,6 +279,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
     },
     {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
       "id": 454639,
       "title": "宇宙巨人：希曼崛起",
       "type": "movie",
@@ -294,22 +305,11 @@
       "title": "幽旅巫咒",
       "type": "movie",
       "genreTitle": "恐怖",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-04-29",
       "overview": "　　小说家欧姆·鲍曼前往一家偏远客栈，为父母撒落骨灰，却被一则传闻缠上——蜜月套房里，有女巫在此徘徊作祟。诡异的幻象接连浮现，一桩骇人失踪案骤然发生，迫使他必须面对自己过往中那些阴暗不堪的角落。",
       "poster_url": "https://image.tmdb.org/t/p/original/bj5gdqsB34GSpvLglN4lslV9EjQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4CarGYFfras93VBH8GwDWwhxcQc.jpg"
-    },
-    {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 1358005,
@@ -345,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
     },
     {
-      "id": 1084244,
-      "title": "玩具总动员 5",
+      "id": 1275779,
+      "title": "揭秘日",
       "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+      "genreTitle": "悬疑•科幻•惊悚",
+      "rating": 8.1,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     },
     {
       "id": 276161,
@@ -367,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
     },
     {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "悬疑•科幻•惊悚",
-      "rating": 8.1,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
-    },
-    {
       "id": 76479,
       "title": "黑袍纠察队",
       "type": "tv",
@@ -387,6 +376,17 @@
       "overview": "这是一个超能力者和普通人共存的世界，祖国人、火车头、深海、梅芙女王、透明人和玄色隶属于全球最大的超级英雄公司沃特集团，在帮助政府惩奸除恶维护世界和平的同时，他们也以偶像的身份帮助公司赚取了难以计数的利润。休伊是一个平凡的男孩，她的女友死于一场意外，而这场意外的制造者正是火车头。休伊不愿意接受沃特公司潦草的致歉和赔偿，决定替女友报仇。",
       "poster_url": "https://image.tmdb.org/t/p/original/3FmvkVnH3wASaBOxW2Mcrw97IzO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llYYakoWuvtKbwhVXDAX4aKK3SR.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员 5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
       "id": 1327819,
@@ -411,15 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
-      "id": 273240,
-      "title": "校园之外",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 9.0,
-      "release_date": "2026-05-13",
-      "overview": "音乐系学生汉娜·威尔斯（艾拉·布赖特 饰）与校冰球队王牌、布莱尔鹰队队长加勒特·格雷厄姆（贝尔蒙特·卡梅利 饰）。二人达成协议，开启一段契约恋爱：汉娜假意和加勒特交往，借此博取心仪的音乐人贾斯汀的关注；作为交换，汉娜辅导加勒特补习，帮他通过哲学课程。朝夕相处间，汉娜与加勒特从假扮恋人慢慢动了真情，修成真正的情侣。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 936075,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/whvcV9TbiBf9OLFz6E1BNy3dY9p.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 273240,
+      "title": "校园之外",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "剧情",
+      "rating": 9.0,
+      "release_date": "2026-05-13",
+      "overview": "音乐系学生汉娜·威尔斯（艾拉·布赖特 饰）与校冰球队王牌、布莱尔鹰队队长加勒特·格雷厄姆（贝尔蒙特·卡梅利 饰）。二人达成协议，开启一段契约恋爱：汉娜假意和加勒特交往，借此博取心仪的音乐人贾斯汀的关注；作为交换，汉娜辅导加勒特补习，帮他通过哲学课程。朝夕相处间，汉娜与加勒特从假扮恋人慢慢动了真情，修成真正的情侣。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vOyCOnSOPTRjPTujsJnfEyDBR26.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zZZldZCo4TvLabprufXdLtn6HE1.jpg"
     }
   ],
   "popular_movies": [
@@ -461,7 +461,7 @@
       "title": "పెద్ది",
       "type": "movie",
       "genreTitle": "动作•剧情",
-      "rating": 4.9,
+      "rating": 5.0,
       "release_date": "2026-06-03",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/kJAJNNBYlbqAcpTDxBNnaILSMTy.jpg",
@@ -472,7 +472,7 @@
       "title": "卡拉萨米",
       "type": "movie",
       "genreTitle": "犯罪•剧情•惊悚",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-04-30",
       "overview": "影片背景设定在1991年海湾战争期间的印度拉马纳塔普兰。讲述了一名试图洗心革面的前小偷卡拉萨米（丹努什 饰），因其父亲被无良银行的掠夺性贷款所陷害，被迫重返犯罪道路，卷入一场惊心动魄的复仇与抢劫大战。",
       "poster_url": "https://image.tmdb.org/t/p/original/uIrFdMWlJFdc1jPBP9bxeaISCDj.jpg",
