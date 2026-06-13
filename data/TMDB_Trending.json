@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13 06:18:08",
+  "last_updated": "2026-06-13 08:09:13",
   "today_global": [
     {
       "id": 1275779,
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tYvikGoGcmGvo5gkiNwNjzXcxCb.jpg"
     },
     {
-      "id": 1390300,
-      "title": "致命之旅",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-03-14",
-      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
-    },
-    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -68,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
-      "id": 312493,
-      "title": "格斗实况",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 7.9,
-      "release_date": "2026-06-11",
-      "overview": "一场打斗意外在网上爆红后，这个遭到霸凌的贫穷少年开始通过直播挣钱，并逐渐走出绝望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3HgYqDnbrcgwBDiYJd6vbPJ76mR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wN7VYNmMBzkeYbQ2N7MutJCeCWO.jpg"
-    },
-    {
       "id": 1560681,
       "title": "极恶原色：黑暗谜镇",
       "type": "movie",
@@ -88,6 +66,28 @@
       "overview": "宁静的小镇上，一名男孩突然失踪。新调任的检察官在调查过程中，逐渐发现此案与一宗尘封已久的失踪人口案件存在意想不到的关联。",
       "poster_url": "https://image.tmdb.org/t/p/original/ewzQdEikLaqcCimR6qIwPBluVGM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7JHEgs57oIsF8Cl0TfY7xlJkkgR.jpg"
+    },
+    {
+      "id": 1390300,
+      "title": "致命之旅",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-03-14",
+      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
+    },
+    {
+      "id": 312493,
+      "title": "格斗实况",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 7.9,
+      "release_date": "2026-06-11",
+      "overview": "一场打斗意外在网上爆红后，这个遭到霸凌的贫穷少年开始通过直播挣钱，并逐渐走出绝望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3HgYqDnbrcgwBDiYJd6vbPJ76mR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wN7VYNmMBzkeYbQ2N7MutJCeCWO.jpg"
     },
     {
       "id": 1084244,
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
     },
     {
-      "id": 206484,
-      "title": "诛仙",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-02",
-      "overview": "一夜间惨变孤儿的张小凡被青云门收为弟子，经过五年刻苦修炼，他在师门七脉会武上大放异彩，后被派往空桑山打探魔教行迹，旅程中，他与师姐陆雪琪遭遇危难，并结识救护了魔教女子碧瑶，同时，新的危险也在前方等待着他。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kSC8drFvUBrcnHe6bz6zwvrnoeo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/llTCjeqRVcOKmZa12u3zeRTQMUg.jpg"
-    },
-    {
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
@@ -132,6 +121,17 @@
       "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
       "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+    },
+    {
+      "id": 1501018,
+      "title": "Une Famille de Bâtards",
+      "type": "movie",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 9.3,
+      "release_date": "2026-06-12",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/zuiZDJcjlNWB6EcXHer06u9BQke.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7ImZeJiXNcZYKruKEqMzyW3CwVL.jpg"
     },
     {
       "id": 277439,
@@ -145,59 +145,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
     },
     {
-      "id": 1501018,
-      "title": "Une Famille de Bâtards",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 9.3,
+      "id": 206484,
+      "title": "诛仙",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-02",
+      "overview": "一夜间惨变孤儿的张小凡被青云门收为弟子，经过五年刻苦修炼，他在师门七脉会武上大放异彩，后被派往空桑山打探魔教行迹，旅程中，他与师姐陆雪琪遭遇危难，并结识救护了魔教女子碧瑶，同时，新的危险也在前方等待着他。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kSC8drFvUBrcnHe6bz6zwvrnoeo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/llTCjeqRVcOKmZa12u3zeRTQMUg.jpg"
+    },
+    {
+      "id": 322430,
+      "title": "众妻之夫",
+      "type": "tv",
+      "genreTitle": "剧情•肥皂剧",
+      "rating": 9.0,
       "release_date": "2026-06-12",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/zuiZDJcjlNWB6EcXHer06u9BQke.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7ImZeJiXNcZYKruKEqMzyW3CwVL.jpg"
+      "overview": "网红乔伊丝有着看似完美的婚姻，但出轨丈夫的一系列“成就”浮出水面后，她在丑闻的打击之下面临情绪崩溃。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a7cg0krQZS30UuGNafSS4l6N9DL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hGCQ0tsJMpKjfrnCyYY0kMY2kY1.jpg"
     },
     {
       "id": 260592,
       "title": "每个夏天之后",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 8.3,
+      "rating": 8.0,
       "release_date": "2026-06-10",
       "overview": "卡莉·福琼的《每个夏天之后》是一部充满浪漫与怀旧色彩的故事，讲述了初恋以及那些在我们生命中留下永久印记的人与选择。",
       "poster_url": "https://image.tmdb.org/t/p/original/fWKRF6XzqPHB6SZJmBd8VSaXoiH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rLNexAEA76se1a6hKa1Bo5hUPfl.jpg"
-    },
-    {
-      "id": 278605,
-      "title": "南部档案",
-      "type": "tv",
-      "genreTitle": "动作冒险•悬疑",
-      "rating": 9.0,
-      "release_date": "2026-06-11",
-      "overview": "民国初年，南洋海上发生“水鬼望乡”离奇命案，张家外派调查神秘事务的南部档案馆坐办张海盐、张海虾二人搭档亲往调查，却意外卷入了一个用于猎杀海外张家人的绝命死局。张海虾以自己的死谋局求解，送张海盐上了“南安号”巨轮回厦门以图他能够有一线生机，但这趟波澜诡谲的航程似乎才刚刚起航，一手遮天的军阀大佬、单纯执着的少年账房、还有十年未见的至亲故人……张海盐独自面对着接踵而至的意外，而当他踏上厦门的那一刻，真正属于两个少年的命运才初初开始转动……",
-      "poster_url": "https://image.tmdb.org/t/p/original/nX6WBk4BogPFzMngsmzXTt9SyzA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sPigZbSrlZk2RxmJWR1VTYkXa2h.jpg"
-    },
-    {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 1280738,
-      "title": "火遮眼",
-      "type": "movie",
-      "genreTitle": "动作•犯罪",
-      "rating": 7.8,
-      "release_date": "2026-06-10",
-      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg"
     },
     {
       "id": 1699155,
@@ -211,29 +189,40 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg"
     },
     {
-      "id": 322430,
-      "title": "众妻之夫",
+      "id": 270476,
+      "title": "寡妇湾",
       "type": "tv",
-      "genreTitle": "剧情•肥皂剧",
-      "rating": 9.0,
-      "release_date": "2026-06-12",
-      "overview": "网红乔伊丝有着看似完美的婚姻，但出轨丈夫的一系列“成就”浮出水面后，她在丑闻的打击之下面临情绪崩溃。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a7cg0krQZS30UuGNafSS4l6N9DL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hGCQ0tsJMpKjfrnCyYY0kMY2kY1.jpg"
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
+    },
+    {
+      "id": 1280738,
+      "title": "火遮眼",
+      "type": "movie",
+      "genreTitle": "动作•犯罪",
+      "rating": 7.8,
+      "release_date": "2026-06-10",
+      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 8.5,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
-    },
     {
       "id": 1339713,
       "title": "痴迷",
@@ -246,6 +235,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 8.5,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+    },
+    {
       "id": 1275779,
       "title": "揭秘日",
       "type": "movie",
@@ -253,7 +253,7 @@
       "rating": 7.2,
       "release_date": "2026-06-10",
       "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2adVouFxjF3TlXgbOOX2H8bLFYj.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     },
     {
@@ -301,26 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
+      "id": 277439,
+      "title": "恐怖角",
       "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员 5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+      "genreTitle": "剧情•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-06-04",
+      "overview": "一名来自他们过去、恶名昭彰的杀手获释之际，一对婚姻美满律师夫妇的生活即将陷入风暴。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a4B0RX5XFOl3nsrG4DxTTntk1gZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
     },
     {
       "id": 454639,
@@ -334,15 +323,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
-      "id": 277439,
-      "title": "恐怖角",
+      "id": 1084244,
+      "title": "玩具总动员 5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 8.0,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 6.0,
-      "release_date": "2026-06-04",
-      "overview": "一名来自他们过去、恶名昭彰的杀手获释之际，一对婚姻美满律师夫妇的生活即将陷入风暴。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a4B0RX5XFOl3nsrG4DxTTntk1gZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 1390300,
+      "title": "致命之旅",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-03-14",
+      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
     },
     {
       "id": 206484,
@@ -367,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
     },
     {
-      "id": 1390300,
-      "title": "致命之旅",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-03-14",
-      "overview": "一对婚姻出现问题的老夫妻为了修复关系，隐居到一处偏僻的小屋，但两人却暗中策划谋杀对方。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7FMj0d3LOGlZ55b59Pk23PLwCNM.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
-    },
-    {
       "id": 1358005,
       "title": "同事以上，恋人未满",
       "type": "movie",
@@ -400,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     },
     {
+      "id": 270476,
+      "title": "寡妇湾",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
+    },
+    {
       "id": 1560681,
       "title": "极恶原色：黑暗谜镇",
       "type": "movie",
@@ -409,17 +420,6 @@
       "overview": "宁静的小镇上，一名男孩突然失踪。新调任的检察官在调查过程中，逐渐发现此案与一宗尘封已久的失踪人口案件存在意想不到的关联。",
       "poster_url": "https://image.tmdb.org/t/p/original/ewzQdEikLaqcCimR6qIwPBluVGM.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7JHEgs57oIsF8Cl0TfY7xlJkkgR.jpg"
-    },
-    {
-      "id": 1122573,
-      "title": "金谍行动",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-05-13",
-      "overview": "　　当一名冷酷无情的独裁者窃取了数十亿美元的巨额财富后，一支潜伏于暗影之中的精英特工小队受命夺回这笔巨款。这些特工游走于全球暗网，既能操控权谋博弈，亦精通爆破突袭。这场本已险象环生的惊天盗局却风云突变，最终升级为一场充斥着谋略、欺诈与生死较量的全面战争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Bok2uTh4e0Zh9EqDTGDVLjrCZ8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
     },
     {
       "id": 85552,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4yRqdgulLRtcCO5ZUOs2G5v874l.jpg"
     },
     {
-      "id": 260592,
-      "title": "每个夏天之后",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.0,
-      "release_date": "2026-06-10",
-      "overview": "卡莉·福琼的《每个夏天之后》是一部充满浪漫与怀旧色彩的故事，讲述了初恋以及那些在我们生命中留下永久印记的人与选择。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fWKRF6XzqPHB6SZJmBd8VSaXoiH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rLNexAEA76se1a6hKa1Bo5hUPfl.jpg"
+      "id": 1122573,
+      "title": "金谍行动",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.6,
+      "release_date": "2026-05-13",
+      "overview": "　　当一名冷酷无情的独裁者窃取了数十亿美元的巨额财富后，一支潜伏于暗影之中的精英特工小队受命夺回这笔巨款。这些特工游走于全球暗网，既能操控权谋博弈，亦精通爆破突袭。这场本已险象环生的惊天盗局却风云突变，最终升级为一场充斥着谋略、欺诈与生死较量的全面战争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Bok2uTh4e0Zh9EqDTGDVLjrCZ8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
     }
   ],
   "popular_movies": [
