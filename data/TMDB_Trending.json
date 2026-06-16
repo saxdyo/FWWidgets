@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-17 02:22:24",
+  "last_updated": "2026-06-17 05:36:28",
   "today_global": [
+    {
+      "id": 1318413,
+      "title": "诺曼底72小时",
+      "type": "movie",
+      "genreTitle": "惊悚•历史•战争",
+      "rating": 8.0,
+      "release_date": "2026-05-25",
+      "overview": "　　聚焦诺曼底登陆前夕的紧张局势，围绕盟军远征军最高司令部首席气象学家詹姆斯·斯塔格上尉展开，他的职责是向盟军最高指挥官德怀特·戴维·艾森豪威尔通报决定成败的天气状况。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hZnaXN9XJ0NZI99OJoW2B8PV8c5.jpg"
+    },
     {
       "id": 1084244,
       "title": "玩具总动员 5",
@@ -13,48 +24,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
-      "id": 1318413,
-      "title": "诺曼底72小时",
-      "type": "movie",
-      "genreTitle": "惊悚•历史•战争",
-      "rating": 7.9,
-      "release_date": "2026-05-25",
-      "overview": "　　聚焦诺曼底登陆前夕的紧张局势，围绕盟军远征军最高司令部首席气象学家詹姆斯·斯塔格上尉展开，他的职责是向盟军最高指挥官德怀特·戴维·艾森豪威尔通报决定成败的天气状况。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hZnaXN9XJ0NZI99OJoW2B8PV8c5.jpg"
-    },
-    {
       "id": 1127384,
       "title": "深水",
       "type": "movie",
       "genreTitle": "惊悚•恐怖",
-      "rating": 6.6,
+      "rating": 6.3,
       "release_date": "2026-04-30",
       "overview": "一架从洛杉矶飞往上海的国际航班，在飞越太平洋时遭遇货舱锂电池起火事故，安全系统接连失效，机长理查德与副机长本被迫驾驶飞机紧急迫降在海域。机上三十余名幸存者被困在破损的飞机残骸上，很快发现这片海域已是鲨鱼的猎场。成群的灰鲭鲨被残骸的血腥味吸引，不断发起攻击。幸存者们来自不同国家、背景各异，必须放下隔阂与猜忌，利用有限的资源搭建防御、寻找逃生机会，在茫茫大海中与饥饿的鲨群展开殊死对抗。",
       "poster_url": "https://image.tmdb.org/t/p/original/ySc7DcmVWzdAOwCrIo3RdRdepLN.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/kM87i7bhA9AQouNCJPoXunrviEN.jpg"
     },
     {
+      "id": 1275779,
+      "title": "揭秘日",
+      "type": "movie",
+      "genreTitle": "动作•科幻•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
+      "genreTitle": "恐怖",
       "rating": 7.9,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "动作•科幻•惊悚",
-      "rating": 6.9,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     },
     {
       "id": 1083381,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -90,26 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 0.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
-    },
-    {
-      "id": 276161,
-      "title": "铁拳教育",
+      "id": 124364,
+      "title": "梦魇绝镇",
       "type": "tv",
-      "genreTitle": "动作冒险•剧情•喜剧",
-      "rating": 9.4,
-      "release_date": "2026-06-05",
-      "overview": "在校园暴力猖獗、教师权威瓦解且恐龙家长无理解干涉的崩坏世界中，政府为了重整教育体制，依法创立了特殊机构“教权保护局”。当学校陷入常规手段无法解决的混乱失序时，特勤小组便会奉命出动。他们获准在必要时不惜逾越法律规范，使出课本上绝对不会教的强硬暴力与非常规手段，展开拳拳到肉的黑色幽默反击。这群特勤队员无所不用其极，誓言要对越界的失控学生、失格教师及傲慢家长实施痛快的“铁拳教育”，以恶制恶地夺回崩塌的教育正义与崩溃的校园秩序。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7KEA6GYQ81Lcmu3KHee2eYKjccP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 969681,
@@ -145,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2k7LFf5zgWxK7YDN1UP6rVV6Ixs.jpg"
     },
     {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 8.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
+    },
+    {
       "id": 60625,
       "title": "瑞克和莫蒂",
       "type": "tv",
@@ -156,26 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
-      "id": 1280738,
-      "title": "火遮眼",
-      "type": "movie",
-      "genreTitle": "动作•犯罪",
-      "rating": 8.0,
-      "release_date": "2026-06-10",
-      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg"
+      "id": 276161,
+      "title": "铁拳教育",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•喜剧",
+      "rating": 9.4,
+      "release_date": "2026-06-05",
+      "overview": "在校园暴力猖獗、教师权威瓦解且恐龙家长无理解干涉的崩坏世界中，政府为了重整教育体制，依法创立了特殊机构“教权保护局”。当学校陷入常规手段无法解决的混乱失序时，特勤小组便会奉命出动。他们获准在必要时不惜逾越法律规范，使出课本上绝对不会教的强硬暴力与非常规手段，展开拳拳到肉的黑色幽默反击。这群特勤队员无所不用其极，誓言要对越界的失控学生、失格教师及傲慢家长实施痛快的“铁拳教育”，以恶制恶地夺回崩塌的教育正义与崩溃的校园秩序。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7KEA6GYQ81Lcmu3KHee2eYKjccP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
     },
     {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.3,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 0.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
       "id": 94997,
@@ -189,68 +178,57 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8wIEd8DIWxN3Cm1PUQN1aKdQXL2.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
+      "id": 1538497,
+      "title": "魔法秘境",
       "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
+      "genreTitle": "冒险•动画•家庭",
+      "rating": 0.0,
+      "release_date": "2026-11-25",
+      "overview": "　　故事聚焦一个不合群的少年和他的母亲——当他发现自己“怪异特质”竟是隐藏的魔法天赋，两人意外坠入魔法肆意奔涌的奇幻异界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wt0SVolfV6jy47eDYTuD9u7TVJX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zAprVxe5sYgQuYYwDAFAVSnBMkO.jpg"
+    },
+    {
+      "id": 1280738,
+      "title": "火遮眼",
+      "type": "movie",
+      "genreTitle": "动作•犯罪",
       "rating": 8.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
+      "release_date": "2026-06-10",
+      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg"
     },
     {
-      "id": 230311,
-      "title": "爱情有烟火",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.5,
-      "release_date": "2026-06-15",
-      "overview": "投行小职员钱菲，原本沉浸在对人生的幸福规划中，但没想到，未婚夫汪若海选择了不再与她同行。从此，钱菲被迫开启了重新规划人生和事业的艰苦路途。富二代李亦非一心想做事业，只把爱情当作一种锦上添花，女友桂黎黎过不了没钱的创业日子，也离开了李亦非。在命运的捉弄下，有着完全不同人生观和爱情观的钱菲和李亦非，渐渐有了交集。钱菲为了还房贷，出租了一个房间给富二代李亦非，从此开启了和李亦非的合租生活。钱菲面对与自己完全相反的李亦非，在朋友、家人、同事的陪伴帮助下，用一颗永不妥协、积极进取的心勇敢面对困难和矛盾，快速成长。最终，钱菲和李亦非从合租在一起，到一起合作项目，从不停地发生碰撞，产生种种误会，到深入了解，最后相爱，并肩面对未来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vjRI8Vnxoetq4Rkl0aJYUYZ95iN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/JtnTLEuroHJo0R1gquhgFzkzKz.jpg"
-    },
-    {
-      "id": 1239134,
-      "title": "鬼叫你要嫁",
+      "id": 1273221,
+      "title": "惊声尖笑6",
       "type": "movie",
-      "genreTitle": "恐怖•喜剧",
+      "genreTitle": "喜剧",
       "rating": 5.5,
-      "release_date": "2026-04-16",
-      "overview": "一名男子继承了芒格尔布尔乡间的一座古老庄园，并计划在此为妹妹操办婚礼。然而，接连发生的灵异怪事和惶恐不安的当地村民，迫使他不得不深入调查这座老宅尘封的诡秘往事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/79RBp8afL4u4z3nVGR78z6eIvBB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/upLz7Mxu9QjLCQrQDc8FgQzmCqq.jpg"
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+    },
+    {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.3,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1084244,
-      "title": "玩具总动员 5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.6,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
     {
       "id": 1275779,
       "title": "揭秘日",
       "type": "movie",
       "genreTitle": "动作•科幻•惊悚",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-06-10",
       "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
       "poster_url": "https://image.tmdb.org/t/p/original/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
@@ -268,15 +246,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
     },
     {
-      "id": 1318413,
-      "title": "诺曼底72小时",
+      "id": 1084244,
+      "title": "玩具总动员 5",
       "type": "movie",
-      "genreTitle": "惊悚•历史•战争",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.6,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖",
       "rating": 7.9,
-      "release_date": "2026-05-25",
-      "overview": "　　聚焦诺曼底登陆前夕的紧张局势，围绕盟军远征军最高司令部首席气象学家詹姆斯·斯塔格上尉展开，他的职责是向盟军最高指挥官德怀特·戴维·艾森豪威尔通报决定成败的天气状况。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hZnaXN9XJ0NZI99OJoW2B8PV8c5.jpg"
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
+    },
+    {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 8.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
     },
     {
       "id": 1083381,
@@ -288,17 +288,6 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
-    },
-    {
-      "id": 1127384,
-      "title": "深水",
-      "type": "movie",
-      "genreTitle": "惊悚•恐怖",
-      "rating": 6.7,
-      "release_date": "2026-04-30",
-      "overview": "一架从洛杉矶飞往上海的国际航班，在飞越太平洋时遭遇货舱锂电池起火事故，安全系统接连失效，机长理查德与副机长本被迫驾驶飞机紧急迫降在海域。机上三十余名幸存者被困在破损的飞机残骸上，很快发现这片海域已是鲨鱼的猎场。成群的灰鲭鲨被残骸的血腥味吸引，不断发起攻击。幸存者们来自不同国家、背景各异，必须放下隔阂与猜忌，利用有限的资源搭建防御、寻找逃生机会，在茫茫大海中与饥饿的鲨群展开殊死对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ySc7DcmVWzdAOwCrIo3RdRdepLN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kM87i7bhA9AQouNCJPoXunrviEN.jpg"
     },
     {
       "id": 124364,
@@ -323,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3pi7MLqfErHDUkMh2hjumbkUkQp.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 8.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
-    },
-    {
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
@@ -345,37 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1318413,
+      "title": "诺曼底72小时",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6EErlfr8sZjZlx1PF4BND5W8XL6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.3,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 0.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
+      "genreTitle": "惊悚•历史•战争",
+      "rating": 8.0,
+      "release_date": "2026-05-25",
+      "overview": "　　聚焦诺曼底登陆前夕的紧张局势，围绕盟军远征军最高司令部首席气象学家詹姆斯·斯塔格上尉展开，他的职责是向盟军最高指挥官德怀特·戴维·艾森豪威尔通报决定成败的天气状况。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hZnaXN9XJ0NZI99OJoW2B8PV8c5.jpg"
     },
     {
       "id": 322430,
@@ -389,6 +345,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sJCEjOaDfIpYCgyDNqDnAv9k67I.jpg"
     },
     {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6EErlfr8sZjZlx1PF4BND5W8XL6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
+    },
+    {
       "id": 1390300,
       "title": "致命之旅",
       "type": "movie",
@@ -400,26 +367,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fovxI4fTVmNJNxoYzcCWIYyAH6N.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.7,
-      "release_date": "2026-03-15",
-      "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.3,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
+      "id": 260592,
+      "title": "每个夏天之后",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 8.4,
+      "release_date": "2026-06-10",
+      "overview": "卡莉·福琼的《每个夏天之后》是一部充满浪漫与怀旧色彩的故事，讲述了初恋以及那些在我们生命中留下永久印记的人与选择。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fWKRF6XzqPHB6SZJmBd8VSaXoiH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rLNexAEA76se1a6hKa1Bo5hUPfl.jpg"
     },
     {
       "id": 1280738,
       "title": "火遮眼",
       "type": "movie",
       "genreTitle": "动作•犯罪",
-      "rating": 8.0,
+      "rating": 8.1,
       "release_date": "2026-06-10",
       "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
       "poster_url": "https://image.tmdb.org/t/p/original/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg"
+    },
+    {
+      "id": 1127384,
+      "title": "深水",
+      "type": "movie",
+      "genreTitle": "惊悚•恐怖",
+      "rating": 6.4,
+      "release_date": "2026-04-30",
+      "overview": "一架从洛杉矶飞往上海的国际航班，在飞越太平洋时遭遇货舱锂电池起火事故，安全系统接连失效，机长理查德与副机长本被迫驾驶飞机紧急迫降在海域。机上三十余名幸存者被困在破损的飞机残骸上，很快发现这片海域已是鲨鱼的猎场。成群的灰鲭鲨被残骸的血腥味吸引，不断发起攻击。幸存者们来自不同国家、背景各异，必须放下隔阂与猜忌，利用有限的资源搭建防御、寻找逃生机会，在茫茫大海中与饥饿的鲨群展开殊死对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ySc7DcmVWzdAOwCrIo3RdRdepLN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kM87i7bhA9AQouNCJPoXunrviEN.jpg"
+    },
+    {
+      "id": 270476,
+      "title": "寡妇湾",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
       "id": 220102,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
     },
     {
-      "id": 270476,
-      "title": "寡妇湾",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.7,
+      "release_date": "2026-03-15",
+      "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gPg0CXQyXDytV7kvj5eSob73mji.jpg"
     }
   ],
   "popular_movies": [
@@ -460,7 +460,7 @@
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
+      "genreTitle": "恐怖",
       "rating": 7.9,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
