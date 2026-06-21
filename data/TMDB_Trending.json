@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21 18:56:04",
+  "last_updated": "2026-06-21 20:59:44",
   "today_global": [
     {
       "id": 1451344,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7wwzkJ8it0LO76JBN2NCYqzrCZw.jpg"
     },
     {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
-    {
       "id": 278178,
       "title": "我会找到你",
       "type": "tv",
@@ -57,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
     },
     {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.9,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
+    },
+    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -66,6 +66,17 @@
       "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
       "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 219971,
+      "title": "The Agency",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2024-12-01",
+      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aX7IrXzEm6Gy9ZQYq078gatM0GV.jpg"
     },
     {
       "id": 936075,
@@ -99,17 +110,6 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
       "poster_url": "https://image.tmdb.org/t/p/original/9Cyza5XIgeHsNx2KiXfYA1W4rjR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8wIEd8DIWxN3Cm1PUQN1aKdQXL2.jpg"
-    },
-    {
-      "id": 219971,
-      "title": "The Agency",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2024-12-01",
-      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aX7IrXzEm6Gy9ZQYq078gatM0GV.jpg"
     },
     {
       "id": 1318413,
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.2,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
       "id": 296285,
       "title": "Oasis：绿洲谜踪",
       "type": "tv",
@@ -165,6 +176,17 @@
       "overview": "一名年轻女子在豪华度假村神秘失踪，员工与客人都成了嫌疑人 — 真相大白前，所有人都不得离开。",
       "poster_url": "https://image.tmdb.org/t/p/original/qgJAYr8fg57WQqf8V8ZGauwBZ6y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n4B2dVVScH4L4Scvy7mTboYcfGQ.jpg"
+    },
+    {
+      "id": 1477317,
+      "title": "你的错误：伦敦版",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.7,
+      "release_date": "2026-06-17",
+      "overview": "尼克和诺亚都踏上了足以改变人生的冒险之旅，但这趟旅程却威胁着他们的命运——尼克与父亲共同经营生意，而诺亚则在牛津大学开启人生新篇章。如今，他们各自过着不同的生活，结识了新的朋友，却发现自己深陷诱惑、竞争和背叛的漩涡之中，彼此的感情也面临着前所未有的考验。随着秘密的揭开和诱惑的加剧，他们必须竭尽全力守护彼此——否则，他们将失去一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pf5OhZdGCE7r2fQKNGTfHSSG3GO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2q1cOlueLQ0iNWb92kfBklDAAXK.jpg"
     },
     {
       "id": 276161,
@@ -178,26 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg"
     },
     {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.2,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
-    },
-    {
-      "id": 203744,
-      "title": "Sugar",
+      "id": 220102,
+      "title": "暗影蜘蛛侠",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.2,
-      "release_date": "2024-04-04",
-      "overview": "故事背景设定在洛杉矶，讲述一位神秘的私家侦探在与个人心魔斗争的同时，调查一位好莱坞制片人心爱孙女的失踪案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/u4uF5A3lkVFTcubBhrgm8WbCz9v.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 8.5,
+      "release_date": "2026-05-25",
+      "overview": "私家侦探本·莱利接下几桩看似单纯的案子，没想到黑帮分子、怪物，以及一位神秘的蛇蝎美人织起一张阴谋之网，让他必须面对过去，那个纽约唯一超级英雄的身份：蜘蛛侠。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f2dyNx2eWY8Ccmko94DPEfeE361.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
     },
     {
       "id": 931285,
@@ -209,17 +220,6 @@
       "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
       "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
-    },
-    {
-      "id": 1477317,
-      "title": "你的错误：伦敦版",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.7,
-      "release_date": "2026-06-17",
-      "overview": "尼克和诺亚都踏上了足以改变人生的冒险之旅，但这趟旅程却威胁着他们的命运——尼克与父亲共同经营生意，而诺亚则在牛津大学开启人生新篇章。如今，他们各自过着不同的生活，结识了新的朋友，却发现自己深陷诱惑、竞争和背叛的漩涡之中，彼此的感情也面临着前所未有的考验。随着秘密的揭开和诱惑的加剧，他们必须竭尽全力守护彼此——否则，他们将失去一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pf5OhZdGCE7r2fQKNGTfHSSG3GO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2q1cOlueLQ0iNWb92kfBklDAAXK.jpg"
     }
   ],
   "week_global_all": [
@@ -279,15 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
-      "id": 1318413,
-      "title": "诺曼底72小时",
-      "type": "movie",
-      "genreTitle": "惊悚•历史•战争",
-      "rating": 7.7,
-      "release_date": "2026-05-25",
-      "overview": "聚焦诺曼底登陆前夕的紧张局势，围绕盟军远征军最高司令部首席气象学家詹姆斯·斯塔格上尉展开，他的职责是向盟军最高指挥官德怀特·戴维·艾森豪威尔通报决定成败的天气状况。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hZnaXN9XJ0NZI99OJoW2B8PV8c5.jpg"
+      "id": 219971,
+      "title": "The Agency",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2024-12-01",
+      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aX7IrXzEm6Gy9ZQYq078gatM0GV.jpg"
     },
     {
       "id": 936075,
@@ -299,6 +299,17 @@
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+    },
+    {
+      "id": 1318413,
+      "title": "诺曼底72小时",
+      "type": "movie",
+      "genreTitle": "惊悚•历史•战争",
+      "rating": 7.7,
+      "release_date": "2026-05-25",
+      "overview": "聚焦诺曼底登陆前夕的紧张局势，围绕盟军远征军最高司令部首席气象学家詹姆斯·斯塔格上尉展开，他的职责是向盟军最高指挥官德怀特·戴维·艾森豪威尔通报决定成败的天气状况。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hZnaXN9XJ0NZI99OJoW2B8PV8c5.jpg"
     },
     {
       "id": 1275779,
@@ -323,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nmBM6hvrj8cioWKrpQOo9IcU8s5.jpg"
     },
     {
-      "id": 219971,
-      "title": "The Agency",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2024-12-01",
-      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aX7IrXzEm6Gy9ZQYq078gatM0GV.jpg"
-    },
-    {
       "id": 1477317,
       "title": "你的错误：伦敦版",
       "type": "movie",
@@ -345,22 +345,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2q1cOlueLQ0iNWb92kfBklDAAXK.jpg"
     },
     {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.3,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9Cyza5XIgeHsNx2KiXfYA1W4rjR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8wIEd8DIWxN3Cm1PUQN1aKdQXL2.jpg"
-    },
-    {
       "id": 614945,
       "title": "真爱留声",
       "type": "movie",
       "genreTitle": "爱情•喜剧",
-      "rating": 7.5,
+      "rating": 7.4,
       "release_date": "2026-06-20",
       "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
       "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
@@ -378,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.3,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9Cyza5XIgeHsNx2KiXfYA1W4rjR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8wIEd8DIWxN3Cm1PUQN1aKdQXL2.jpg"
+    },
+    {
       "id": 276161,
       "title": "铁拳教育",
       "type": "tv",
@@ -387,28 +387,6 @@
       "overview": "在校园暴力猖獗、教师权威瓦解且恐龙家长无理解干涉的崩坏世界中，政府为了重整教育体制，依法创立了特殊机构“教权保护局”。当学校陷入常规手段无法解决的混乱失序时，特勤小组便会奉命出动。他们获准在必要时不惜逾越法律规范，使出课本上绝对不会教的强硬暴力与非常规手段，展开拳拳到肉的黑色幽默反击。这群特勤队员无所不用其极，誓言要对越界的失控学生、失格教师及傲慢家长实施痛快的“铁拳教育”，以恶制恶地夺回崩塌的教育正义与崩溃的校园秩序。",
       "poster_url": "https://image.tmdb.org/t/p/original/7KEA6GYQ81Lcmu3KHee2eYKjccP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg"
-    },
-    {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 8.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6EErlfr8sZjZlx1PF4BND5W8XL6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 454639,
@@ -422,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
+      "id": 931285,
+      "title": "真人快打2",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•冒险",
+      "rating": 8.0,
+      "release_date": "2026-05-06",
+      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uZZpFLX0x8dyaRqCko0LJ1IczFC.jpg"
+    },
+    {
       "id": 220102,
       "title": "暗影蜘蛛侠",
       "type": "tv",
@@ -431,6 +420,17 @@
       "overview": "私家侦探本·莱利接下几桩看似单纯的案子，没想到黑帮分子、怪物，以及一位神秘的蛇蝎美人织起一张阴谋之网，让他必须面对过去，那个纽约唯一超级英雄的身份：蜘蛛侠。",
       "poster_url": "https://image.tmdb.org/t/p/original/f2dyNx2eWY8Ccmko94DPEfeE361.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1lo3PXyXfqCRvMPyM0JXCC8qWZx.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6EErlfr8sZjZlx1PF4BND5W8XL6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 65942,
@@ -494,7 +494,7 @@
       "title": "轮番上阵",
       "type": "movie",
       "genreTitle": "剧情•爱情",
-      "rating": 4.4,
+      "rating": 4.0,
       "release_date": "2024-02-16",
       "overview": "一个怀疑丈夫出轨的妻子跟踪他在巴厘岛的行踪。当她遇到了一个迷人的男人后，她的心被俘获了。很快她希望丈夫真的出轨了，从而减轻她所感受到的内疚。",
       "poster_url": "https://image.tmdb.org/t/p/original/rMgG7cWuq9O6zhhLs2CbqIKVA8V.jpg",
@@ -505,7 +505,7 @@
       "title": "卡鲁普",
       "type": "movie",
       "genreTitle": "动作•奇幻",
-      "rating": 7.1,
+      "rating": 6.7,
       "release_date": "2026-05-14",
       "overview": "在一个正义岌岌可危的世界里，守护神维泰·卡鲁普化身为一名律师，与那个掠夺弱势群体的腐败司法体系展开斗争。",
       "poster_url": "https://image.tmdb.org/t/p/original/4KZXlZ5tTT6ghbW77gS4hSLkCd7.jpg",
