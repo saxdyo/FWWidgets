@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24 07:44:07",
+  "last_updated": "2026-06-24 09:49:57",
   "today_global": [
     {
       "id": 94997,
@@ -17,7 +17,7 @@
       "title": "调音师",
       "type": "movie",
       "genreTitle": "惊悚•犯罪",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-05-21",
       "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
       "poster_url": "https://image.tmdb.org/t/p/original/nwoP8tsFcmCrvvbXq7xKMeFnZCz.jpg",
@@ -46,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
+      "id": 1227877,
+      "title": "贼爱时尚",
+      "type": "movie",
+      "genreTitle": "喜剧•科幻•犯罪",
+      "rating": 5.7,
+      "release_date": "2026-05-21",
+      "overview": "在旧金山湾区一个超现实的平行世界里，一群被称为\"顺风手\"的商店扒手，将矛头对准了一位剽窃他们设计的心狠手辣的冷酷时尚大亨。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4pNKIUFy7tkZiBx0rnSmG9ysRy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ivqjd3AwGAS7RlCzt3SlTAb2Bnk.jpg"
+    },
+    {
       "id": 1284016,
       "title": "情歌恋习曲",
       "type": "movie",
@@ -57,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vYLrUEREFd3ESRajzxN66MSNdmM.jpg"
     },
     {
-      "id": 1227877,
-      "title": "贼爱时尚",
+      "id": 1329471,
+      "title": "卡罗琳娜·卡罗琳",
       "type": "movie",
-      "genreTitle": "喜剧•科幻•犯罪",
-      "rating": 5.7,
-      "release_date": "2026-05-21",
-      "overview": "在旧金山湾区一个超现实的平行世界里，一群被称为\"顺风手\"的商店扒手，将矛头对准了一位剽窃他们设计的心狠手辣的冷酷时尚大亨。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4pNKIUFy7tkZiBx0rnSmG9ysRy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ivqjd3AwGAS7RlCzt3SlTAb2Bnk.jpg"
+      "genreTitle": "犯罪•剧情•爱情",
+      "rating": 6.8,
+      "release_date": "2026-06-05",
+      "overview": "小镇上的年轻女子Caroline遇上一个路过的男人，他魅力十足、诈骗为生，两人一起开启了横穿美国东南部的犯罪之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/KkQ0MHr1yd9xhPXW8CDJdlzzzR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/112sW296vEx3d71C8fzOqoFIomN.jpg"
     },
     {
       "id": 1083381,
@@ -90,28 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 1329471,
-      "title": "卡罗琳娜·卡罗琳",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•爱情",
-      "rating": 6.7,
-      "release_date": "2026-06-05",
-      "overview": "小镇上的年轻女子Caroline遇上一个路过的男人，他魅力十足、诈骗为生，两人一起开启了横穿美国东南部的犯罪之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/112sW296vEx3d71C8fzOqoFIomN.jpg"
-    },
-    {
-      "id": 278178,
-      "title": "我会找到你",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 8.5,
-      "release_date": "2026-06-18",
-      "overview": "一名父亲因被误判杀害亲生儿子而入狱，却在得知儿子可能仍然活着后，展开一场绝望的救子行动。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xlmw7sjlcnBGpp8NK18YBD6soz3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
-    },
-    {
       "id": 289763,
       "title": "明天上班见！",
       "type": "tv",
@@ -123,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fyOnmJ3yDoYPN9iWmlmaJgW0xGf.jpg"
     },
     {
-      "id": 219971,
-      "title": "The Agency",
+      "id": 278178,
+      "title": "我会找到你",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2024-12-01",
-      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hqDfUWFtOJBxqNSwq1PE2DmfoSr.jpg"
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 8.5,
+      "release_date": "2026-06-18",
+      "overview": "一名父亲因被误判杀害亲生儿子而入狱，却在得知儿子可能仍然活着后，展开一场绝望的救子行动。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xlmw7sjlcnBGpp8NK18YBD6soz3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
     },
     {
       "id": 969681,
@@ -156,26 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
-      "id": 614945,
-      "title": "真爱留声",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 8.1,
-      "release_date": "2026-06-20",
-      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg"
-    },
-    {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
+      "id": 219971,
+      "title": "The Agency",
       "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2024-12-01",
+      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hqDfUWFtOJBxqNSwq1PE2DmfoSr.jpg"
     },
     {
       "id": 454639,
@@ -189,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 8.7,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
-    },
-    {
       "id": 1275779,
       "title": "揭秘日",
       "type": "movie",
@@ -211,6 +178,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
     },
     {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 8.7,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+    },
+    {
+      "id": 614945,
+      "title": "真爱留声",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 8.1,
+      "release_date": "2026-06-20",
+      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg"
+    },
+    {
       "id": 1228710,
       "title": "星球大战：曼达洛人与古古",
       "type": "movie",
@@ -220,20 +209,20 @@
       "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
       "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+    },
+    {
+      "id": 196950,
+      "title": "尖帽子的魔法工房",
+      "type": "tv",
+      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
+      "rating": 9.1,
+      "release_date": "2026-04-06",
+      "overview": "　　生活在一个偏远村庄的少女可可一直渴望成为一名魔法师，但是这个世界只有出生就是魔法师的人才能成为魔法师。在一次偶然事故中，可可不小心看到了魔法师奇夫利施展魔法的过程，发现了魔法的真相。于是可可便临摹起了自己还是孩童时一位自称魔法师的神秘男子卖给她的一本绘本，不料却用出了强大而危险的禁忌魔法，将自己的母亲与房子都变成了石头。发现了自己不小心将魔法真相泄露而返回寻找可可的奇夫利看到禁忌魔法所造成的惨状，决心将她收为自己的徒弟，解开「绘本」之谜，帮助她将自己的母亲恢复原状。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eBWVcJmzpjxndjd6lN8vU7AFuUe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8yTIQ18sa4mcLx4diyjsalDOVkb.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.3,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9Cyza5XIgeHsNx2KiXfYA1W4rjR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fFOk5QlPH6qpKLHZW67sdmbLAQQ.jpg"
-    },
     {
       "id": 1084244,
       "title": "玩具总动员5",
@@ -244,6 +233,17 @@
       "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.3,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9Cyza5XIgeHsNx2KiXfYA1W4rjR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fFOk5QlPH6qpKLHZW67sdmbLAQQ.jpg"
     },
     {
       "id": 1339713,
@@ -312,39 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 270476,
-      "title": "寡妇湾",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧•悬疑",
-      "rating": 8.2,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
-    },
-    {
-      "id": 614945,
-      "title": "真爱留声",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 8.1,
-      "release_date": "2026-06-20",
-      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg"
-    },
-    {
-      "id": 1340206,
-      "title": "调音师",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-05-21",
-      "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nwoP8tsFcmCrvvbXq7xKMeFnZCz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/H3Rjme4A31GZ9IKj7hrUKI611t.jpg"
-    },
-    {
       "id": 936075,
       "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
@@ -354,17 +321,6 @@
       "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
       "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
-    },
-    {
-      "id": 1451344,
-      "title": "人夫总动员",
-      "type": "movie",
-      "genreTitle": "喜剧•动作",
-      "rating": 7.4,
-      "release_date": "2026-06-18",
-      "overview": "一名警探与前妻的新任丈夫一起追踪绑架她的人。这对毫不搭调的组合能否放下分歧，展开疯狂的营救？",
-      "poster_url": "https://image.tmdb.org/t/p/original/3eGQwA9qLHRzmp5PzEeUwr8Gtgh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nmBM6hvrj8cioWKrpQOo9IcU8s5.jpg"
     },
     {
       "id": 1318413,
@@ -378,26 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uvFzRbxRIhFr3Eyf0kwYgUESr8c.jpg"
     },
     {
-      "id": 219971,
-      "title": "The Agency",
+      "id": 270476,
+      "title": "寡妇湾",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.1,
-      "release_date": "2024-12-01",
-      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hqDfUWFtOJBxqNSwq1PE2DmfoSr.jpg"
-    },
-    {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
+      "genreTitle": "剧情•喜剧•悬疑",
+      "rating": 8.2,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     },
     {
       "id": 1477317,
@@ -411,6 +356,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2q1cOlueLQ0iNWb92kfBklDAAXK.jpg"
     },
     {
+      "id": 1451344,
+      "title": "人夫总动员",
+      "type": "movie",
+      "genreTitle": "喜剧•动作",
+      "rating": 7.5,
+      "release_date": "2026-06-18",
+      "overview": "一名警探与前妻的新任丈夫一起追踪绑架她的人。这对毫不搭调的组合能否放下分歧，展开疯狂的营救？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3eGQwA9qLHRzmp5PzEeUwr8Gtgh.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nmBM6hvrj8cioWKrpQOo9IcU8s5.jpg"
+    },
+    {
+      "id": 614945,
+      "title": "真爱留声",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 8.1,
+      "release_date": "2026-06-20",
+      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg"
+    },
+    {
       "id": 454639,
       "title": "宇宙巨人：希曼崛起",
       "type": "movie",
@@ -420,6 +387,39 @@
       "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
       "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 219971,
+      "title": "The Agency",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.1,
+      "release_date": "2024-12-01",
+      "overview": "改编自2015年热门法剧《传奇办公室》，设定在一个超越日常间谍活动、充满更深层次阴谋和诡计的世界，角色们在努力应对国家和世界的生存威胁时，同时进行自我的斗争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zyRGAd49pIEy0POVvY7WD1TdDtK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hqDfUWFtOJBxqNSwq1PE2DmfoSr.jpg"
+    },
+    {
+      "id": 277439,
+      "title": "恐怖角",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 6.7,
+      "release_date": "2026-06-04",
+      "overview": "一名来自他们过去、恶名昭彰的杀手获释之际，一对婚姻美满律师夫妇的生活即将陷入风暴。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a4B0RX5XFOl3nsrG4DxTTntk1gZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
     },
     {
       "id": 931285,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5aNsrFMfQsJ3zn2M9U5HxZW83DX.jpg"
     },
     {
-      "id": 1284016,
-      "title": "情歌恋习曲",
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
       "type": "movie",
-      "genreTitle": "喜剧•音乐•剧情",
-      "rating": 7.3,
-      "release_date": "2026-05-18",
-      "overview": "　　落魄的婚礼歌手里克和同样落魄的男团前成员丹尼在一场表演上结识，丹尼盗用里克的一首歌，咸鱼翻身。里克决定不惜一切代价，夺回自己的歌。",
-      "poster_url": "https://image.tmdb.org/t/p/original/x5p8EQVbd9adoMCAjXpDnSgYWku.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vYLrUEREFd3ESRajzxN66MSNdmM.jpg"
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 7.2,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     }
   ],
   "popular_movies": [
