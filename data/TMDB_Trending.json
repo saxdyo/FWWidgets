@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26 06:12:38",
+  "last_updated": "2026-06-26 08:00:45",
   "today_global": [
     {
       "id": 1301421,
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
+      "id": 1020047,
+      "title": "但丁之手",
+      "type": "movie",
+      "genreTitle": "剧情•犯罪",
+      "rating": 4.2,
+      "release_date": "2026-06-12",
+      "overview": "影片改编自尼克·托切斯的同名小说，讲述两个平行故事，分别围绕著名诗人但丁和他的代表作《神曲》展开：当代纽约，《神曲》原稿出现在一个黑市走私团伙的手中，厌倦现状的学者尼克（奥斯卡·伊萨克 Oscar Isaac 饰）被他们召唤去辨别真伪。尼克最终因诱惑而违抗黑手党偷走了手稿，和他的爱人茱丽叶塔（盖尔·加朵 Gal Gadot 饰）踏上了一条黑暗暴力之路，从隐喻式的地狱到天堂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gXHjhh2KbOGqBKAAUeSjNhKCkOt.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qaeizAtJqOwMJ0WDfOxgc5nmv57.jpg"
+    },
+    {
       "id": 82452,
       "title": "降世神通：最后的气宗",
       "type": "tv",
@@ -44,17 +55,6 @@
       "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
       "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
-    },
-    {
-      "id": 1020047,
-      "title": "但丁之手",
-      "type": "movie",
-      "genreTitle": "剧情•犯罪",
-      "rating": 3.4,
-      "release_date": "2026-06-12",
-      "overview": "影片改编自尼克·托切斯的同名小说，讲述两个平行故事，分别围绕著名诗人但丁和他的代表作《神曲》展开：当代纽约，《神曲》原稿出现在一个黑市走私团伙的手中，厌倦现状的学者尼克（奥斯卡·伊萨克 Oscar Isaac 饰）被他们召唤去辨别真伪。尼克最终因诱惑而违抗黑手党偷走了手稿，和他的爱人茱丽叶塔（盖尔·加朵 Gal Gadot 饰）踏上了一条黑暗暴力之路，从隐喻式的地狱到天堂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gXHjhh2KbOGqBKAAUeSjNhKCkOt.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qaeizAtJqOwMJ0WDfOxgc5nmv57.jpg"
     },
     {
       "id": 1084244,
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 1413976,
-      "title": "公民义警",
-      "type": "movie",
-      "genreTitle": "惊悚•动作•犯罪",
-      "rating": 7.1,
-      "release_date": "2026-06-19",
-      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
-    },
-    {
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
@@ -101,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
-      "id": 1340206,
-      "title": "调音师",
+      "id": 1413976,
+      "title": "公民义警",
       "type": "movie",
-      "genreTitle": "惊悚•犯罪•剧情",
-      "rating": 7.2,
-      "release_date": "2026-05-21",
-      "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nwoP8tsFcmCrvvbXq7xKMeFnZCz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/H3Rjme4A31GZ9IKj7hrUKI611t.jpg"
+      "genreTitle": "惊悚•动作•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-06-19",
+      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
     },
     {
       "id": 1083381,
@@ -123,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
+      "id": 1340206,
+      "title": "调音师",
+      "type": "movie",
+      "genreTitle": "惊悚•犯罪•剧情",
+      "rating": 7.2,
+      "release_date": "2026-05-21",
+      "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nwoP8tsFcmCrvvbXq7xKMeFnZCz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/H3Rjme4A31GZ9IKj7hrUKI611t.jpg"
+    },
+    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -134,11 +134,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
+      "id": 136315,
+      "title": "熊家餐馆",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.2,
+      "release_date": "2022-06-23",
+      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3utKZ1Wp7FD9NE8Dysu0NATa9cC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+    },
+    {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.2,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
       "id": 1382832,
       "title": "饥饿河马",
       "type": "movie",
       "genreTitle": "惊悚•恐怖",
-      "rating": 6.5,
+      "rating": 6.4,
       "release_date": "2026-06-03",
       "overview": "一群度假者在路易斯安那州的沼泽地迷路后，必须与一头横冲直撞、四处乱窜的河马展开殊死搏斗。",
       "poster_url": "https://image.tmdb.org/t/p/original/n6mTo0YXafeoOUbHZxB9muKEjhX.jpg",
@@ -156,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.2,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
-    },
-    {
       "id": 278178,
       "title": "我会找到你",
       "type": "tv",
@@ -176,17 +187,6 @@
       "overview": "一名父亲因被误判杀害亲生儿子而入狱，却在得知儿子可能仍然活着后，展开一场绝望的救子行动。",
       "poster_url": "https://image.tmdb.org/t/p/original/xlmw7sjlcnBGpp8NK18YBD6soz3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
-    },
-    {
-      "id": 136315,
-      "title": "熊家餐馆",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.2,
-      "release_date": "2022-06-23",
-      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3utKZ1Wp7FD9NE8Dysu0NATa9cC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
     },
     {
       "id": 936075,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
+      "id": 86031,
+      "title": "石纪元",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•喜剧",
+      "rating": 8.5,
+      "release_date": "2019-07-05",
+      "overview": "全人类被神奇的现象一瞬间石化后过了几千年——拥有超人般头脑、天生的科学少年·千空苏醒了。在文明遭到毁灭的石头世界（STONE WORLD）里，千空决定要用科学的力量复原整个世界。而与此同时苏醒过来的有，以有着过人体力的儿时玩伴·大木大树为首的伙伴们，从零开始创造文明——从石器时代到现代文明，一定要赶上这科学史的200万年差距！前所未闻的创世冒险谭，就此开幕！",
+      "poster_url": "https://image.tmdb.org/t/p/original/7GFo7yLsXmnIH6xOB3blY8KyAMd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/px8w8DstjI8AOaWYqLc6BQngUvL.jpg"
     }
   ],
   "week_global_all": [
@@ -290,6 +290,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
+      "id": 1081003,
+      "title": "超级少女",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.1,
+      "release_date": "2026-06-23",
+      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3bhjIqSsJFDchBCeaqCdsvy1byD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
+    },
+    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -312,28 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
     },
     {
-      "id": 614945,
-      "title": "真爱留声",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 8.1,
-      "release_date": "2026-06-20",
-      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pqfQk3kQZtvFVKXOtIDkLF0wExc.jpg"
-    },
-    {
-      "id": 1081003,
-      "title": "超级少女",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.1,
-      "release_date": "2026-06-23",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3bhjIqSsJFDchBCeaqCdsvy1byD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
-    },
-    {
       "id": 1413976,
       "title": "公民义警",
       "type": "movie",
@@ -343,6 +332,17 @@
       "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
       "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
+    },
+    {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧•恐怖",
+      "rating": 5.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
       "id": 1275779,
@@ -378,26 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
+      "id": 614945,
+      "title": "真爱留声",
       "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.1,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧•恐怖",
-      "rating": 5.5,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 8.1,
+      "release_date": "2026-06-20",
+      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pqfQk3kQZtvFVKXOtIDkLF0wExc.jpg"
     },
     {
       "id": 1340206,
@@ -407,8 +396,19 @@
       "rating": 7.2,
       "release_date": "2026-05-21",
       "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nwoP8tsFcmCrvvbXq7xKMeFnZCz.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/29YqkGW6ztW3jbe0Nse6TwcXbhs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/H3Rjme4A31GZ9IKj7hrUKI611t.jpg"
+    },
+    {
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.1,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
       "id": 219971,
@@ -422,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7dhv5iqKgE7TqfOewFSwNzzzzi5.jpg"
     },
     {
-      "id": 270476,
-      "title": "寡妇湾",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧•悬疑",
-      "rating": 8.2,
-      "release_date": "2026-04-28",
-      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
-    },
-    {
       "id": 82452,
       "title": "降世神通：最后的气宗",
       "type": "tv",
@@ -442,6 +431,17 @@
       "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
       "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+    },
+    {
+      "id": 270476,
+      "title": "寡妇湾",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧•悬疑",
+      "rating": 8.2,
+      "release_date": "2026-04-28",
+      "overview": "一位镇长无视当地人声称寡妇湾小镇遭受诅咒的警告，执意要将其打造成下一个新英格兰旅游胜地。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTJIgeN8Z0fvqf0JHlncWWWPKTe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1iD5hquLgpnGj7HrJD6o93xX1tA.jpg"
     }
   ],
   "popular_movies": [
