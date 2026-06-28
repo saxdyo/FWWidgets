@@ -1,27 +1,38 @@
 {
-  "last_updated": "2026-06-28 07:47:42",
+  "last_updated": "2026-06-28 09:59:19",
   "today_global": [
     {
       "id": 1397385,
       "title": "人生大弟震",
       "type": "movie",
       "genreTitle": "喜剧",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-06-25",
       "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
       "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
     },
     {
-      "id": 136315,
-      "title": "熊家餐馆",
+      "id": 1081003,
+      "title": "超级少女",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.2,
+      "release_date": "2026-06-24",
+      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tsoemc4reM9GayGPZ3CczFGJeQU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
+    },
+    {
+      "id": 296206,
+      "title": "金特务：本色回归",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p3af2hq94mBavcJi2buRDzZEmhr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 9.4,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9XokGnTlAgxkqnoOnbsSnBfO8Il.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
     },
     {
       "id": 1301421,
@@ -46,26 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nvPTdnCx8qyUSm4BwUnYrQwHfRt.jpg"
     },
     {
-      "id": 1081003,
-      "title": "超级少女",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.2,
-      "release_date": "2026-06-24",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tsoemc4reM9GayGPZ3CczFGJeQU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
-    },
-    {
-      "id": 296206,
-      "title": "金特务：本色回归",
+      "id": 136315,
+      "title": "熊家餐馆",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 9.2,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9XokGnTlAgxkqnoOnbsSnBfO8Il.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.1,
+      "release_date": "2022-06-23",
+      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p3af2hq94mBavcJi2buRDzZEmhr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
     },
     {
       "id": 1339713,
@@ -90,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
     },
     {
+      "id": 82452,
+      "title": "降世神通：最后的气宗",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.8,
+      "release_date": "2024-02-22",
+      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -105,22 +116,11 @@
       "title": "末行手记",
       "type": "tv",
       "genreTitle": "悬疑•剧情",
-      "rating": 9.4,
+      "rating": 9.5,
       "release_date": "2026-06-26",
       "overview": "一名曾经写作失意、后来转任教授的男子，在学生的作品中发现罕见才华，并逐渐对他的草稿产生执念，而两人的私人指导也开始走偏。",
       "poster_url": "https://image.tmdb.org/t/p/original/e8GGUacMjy50RsucgXk0oPHZsL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yMGdcBsVg9ARwjSirC8tvYMZptt.jpg"
-    },
-    {
-      "id": 82452,
-      "title": "降世神通：最后的气宗",
-      "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.8,
-      "release_date": "2024-02-22",
-      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pcBTl7U8eVOVGhu2Wi0hN693tsd.jpg"
     },
     {
       "id": 1084244,
@@ -143,17 +143,6 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 454639,
@@ -178,10 +167,32 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3fs6Encf71ChabAKV6VrnpQRrjV.jpg"
     },
     {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 106449,
+      "title": "凡人修仙传",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2020-07-25",
+      "overview": "平凡少年韩立出生贫困，为了让家人过上更好的生活，自愿前去七玄门参加入门考核，最终被墨大夫收入门下。墨大夫一开始对韩立悉心培养、传授医术，让韩立对他非常感激，但随着一同入门的弟子张铁失踪，韩立才发现了墨大夫的真面目。墨大夫试图夺舍韩立，最终却被韩立反杀。通过墨大夫的遗书韩立得知了一个全新世界：修仙界的存在。在帮助七玄门抵御外敌之后，韩立离开了七玄门，前去墨大夫的家中寻找暖阳宝玉解毒，并帮助墨家人打败了敌人。通过墨大夫之女墨彩环的口中得知太南小会地址，韩立为追寻修仙人的足迹决定前往太南小会，拜别家人后，韩立来到太南谷，结识了一众修仙人士，正式展开了自己的修仙之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u1VRjvvCIVwb1MUhoxSAUimhoKZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/632PectuRJe1uz6L2R9l4iKSZ7b.jpg"
+    },
+    {
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
-      "genreTitle": "喜剧",
+      "genreTitle": "喜剧•恐怖",
       "rating": 5.5,
       "release_date": "2026-06-03",
       "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
@@ -200,26 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg"
     },
     {
-      "id": 880067,
-      "title": "悬命琴师",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-06-18",
+      "id": 295780,
+      "title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 4.5,
+      "release_date": "2026-06-26",
       "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/lWdpUOhnJ8uWWO1G1vbyUsCliov.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fD93IUnUDusYp5cl0U4ryMMP8On.jpg"
-    },
-    {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/original/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e0VR9ASgRETqKEGppCKDN12iR4d.jpg"
     }
   ],
   "week_global_all": [
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nvPTdnCx8qyUSm4BwUnYrQwHfRt.jpg"
     },
     {
-      "id": 1301421,
-      "title": "绵羊侦探团",
-      "type": "movie",
-      "genreTitle": "喜剧•犯罪•悬疑",
-      "rating": 7.7,
-      "release_date": "2026-04-30",
-      "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
-    },
-    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -255,6 +244,17 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 1301421,
+      "title": "绵羊侦探团",
+      "type": "movie",
+      "genreTitle": "喜剧•犯罪•悬疑",
+      "rating": 7.7,
+      "release_date": "2026-04-30",
+      "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
     },
     {
       "id": 1084244,
@@ -279,28 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.9,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
-    },
-    {
-      "id": 136315,
-      "title": "熊家餐馆",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p3af2hq94mBavcJi2buRDzZEmhr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
-    },
-    {
       "id": 1081003,
       "title": "超级少女",
       "type": "movie",
@@ -312,26 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
-      "id": 1413976,
-      "title": "公民义警",
+      "id": 1083381,
+      "title": "后室",
       "type": "movie",
-      "genreTitle": "惊悚•动作•犯罪",
+      "genreTitle": "恐怖•悬疑•科幻",
       "rating": 6.9,
-      "release_date": "2026-06-19",
-      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
       "id": 454639,
@@ -345,81 +312,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
-      "id": 1340206,
-      "title": "调音师",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•音乐",
-      "rating": 7.2,
-      "release_date": "2026-05-21",
-      "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/29YqkGW6ztW3jbe0Nse6TwcXbhs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg"
-    },
-    {
-      "id": 82452,
-      "title": "降世神通：最后的气宗",
+      "id": 124364,
+      "title": "梦魇绝镇",
       "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.8,
-      "release_date": "2024-02-22",
-      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 8.7,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+      "id": 136315,
+      "title": "熊家餐馆",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.1,
+      "release_date": "2022-06-23",
+      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p3af2hq94mBavcJi2buRDzZEmhr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1413976,
+      "title": "公民义警",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 5.5,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
-    },
-    {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+      "genreTitle": "惊悚•动作•犯罪",
+      "rating": 6.9,
+      "release_date": "2026-06-19",
+      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
     },
     {
       "id": 278178,
@@ -433,15 +356,92 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
     },
     {
-      "id": 296206,
-      "title": "金特务：本色回归",
+      "id": 1340206,
+      "title": "调音师",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•音乐",
+      "rating": 7.2,
+      "release_date": "2026-05-21",
+      "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/29YqkGW6ztW3jbe0Nse6TwcXbhs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg"
+    },
+    {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧•恐怖",
+      "rating": 5.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+    },
+    {
+      "id": 203744,
+      "title": "Sugar",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 9.2,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9XokGnTlAgxkqnoOnbsSnBfO8Il.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.2,
+      "release_date": "2024-04-04",
+      "overview": "故事背景设定在洛杉矶，讲述一位神秘的私家侦探在与个人心魔斗争的同时，调查一位好莱坞制片人心爱孙女的失踪案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u4uF5A3lkVFTcubBhrgm8WbCz9v.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
+    },
+    {
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+    },
+    {
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
+    },
+    {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 8.7,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+    },
+    {
+      "id": 614945,
+      "title": "真爱留声",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-06-20",
+      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pqfQk3kQZtvFVKXOtIDkLF0wExc.jpg"
     }
   ],
   "popular_movies": [
@@ -505,7 +505,7 @@
       "title": "超级少女",
       "type": "movie",
       "genreTitle": "动作•冒险•科幻",
-      "rating": 6.1,
+      "rating": 6.2,
       "release_date": "2026-06-26",
       "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
       "poster_url": "https://image.tmdb.org/t/p/original/tsoemc4reM9GayGPZ3CczFGJeQU.jpg",
@@ -571,7 +571,7 @@
       "title": "你会心碎",
       "type": "movie",
       "genreTitle": "爱情",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-03-26",
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
