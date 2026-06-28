@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-06-28 14:15:06",
+  "last_updated": "2026-06-28 17:48:41",
   "today_global": [
+    {
+      "id": 296206,
+      "title": "金特务：本色回归",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 8.0,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9XokGnTlAgxkqnoOnbsSnBfO8Il.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+    },
+    {
+      "id": 1301421,
+      "title": "绵羊侦探团",
+      "type": "movie",
+      "genreTitle": "喜剧•犯罪•悬疑",
+      "rating": 7.8,
+      "release_date": "2026-04-30",
+      "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
+    },
     {
       "id": 1081003,
       "title": "超级少女",
@@ -13,66 +35,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
-      "id": 296206,
-      "title": "金特务：本色回归",
+      "id": 124364,
+      "title": "梦魇绝镇",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 8.2,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
-    },
-    {
-      "id": 1301421,
-      "title": "绵羊侦探团",
-      "type": "movie",
-      "genreTitle": "喜剧•犯罪•悬疑",
-      "rating": 7.7,
-      "release_date": "2026-04-30",
-      "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 1397385,
       "title": "人生大弟震",
       "type": "movie",
       "genreTitle": "喜剧",
-      "rating": 6.3,
+      "rating": 6.4,
       "release_date": "2026-06-18",
       "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
       "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
     },
     {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
-    },
-    {
-      "id": 136315,
-      "title": "熊家餐馆",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p3af2hq94mBavcJi2buRDzZEmhr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
-    },
-    {
       "id": 1413976,
       "title": "公民义警",
       "type": "movie",
       "genreTitle": "惊悚•动作•犯罪",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-06-19",
       "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
       "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
@@ -101,6 +90,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
+      "id": 136315,
+      "title": "熊家餐馆",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.1,
+      "release_date": "2022-06-23",
+      "overview": "讲述一位年轻名厨被迫回到芝加哥接管亡兄遗下的餐馆而面对各种难关的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p3af2hq94mBavcJi2buRDzZEmhr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.9,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
+    },
+    {
+      "id": 286360,
+      "title": "末行手记",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 9.5,
+      "release_date": "2026-06-26",
+      "overview": "一名曾经写作失意、后来转任教授的男子，在学生的作品中发现罕见才华，并逐渐对他的草稿产生执念，而两人的私人指导也开始走偏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e8GGUacMjy50RsucgXk0oPHZsL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pcBTl7U8eVOVGhu2Wi0hN693tsd.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -110,17 +132,6 @@
       "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
-      "id": 286360,
-      "title": "末行手记",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 9.6,
-      "release_date": "2026-06-26",
-      "overview": "一名曾经写作失意、后来转任教授的男子，在学生的作品中发现罕见才华，并逐渐对他的草稿产生执念，而两人的私人指导也开始走偏。",
-      "poster_url": "https://image.tmdb.org/t/p/original/e8GGUacMjy50RsucgXk0oPHZsL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pcBTl7U8eVOVGhu2Wi0hN693tsd.jpg"
     },
     {
       "id": 82452,
@@ -134,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
-    },
-    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -154,17 +154,6 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.2,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
     },
     {
       "id": 106449,
@@ -178,11 +167,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/632PectuRJe1uz6L2R9l4iKSZ7b.jpg"
     },
     {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.2,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
       "id": 1398050,
       "title": "驾驶课",
       "type": "movie",
       "genreTitle": "喜剧",
-      "rating": 6.2,
+      "rating": 6.5,
       "release_date": "2026-05-14",
       "overview": "《河谷的艾德》讲述了一群青少年偷走学校里的驾驶培训用车，进行一次公路旅行的故事。他们的目的是帮助一位高中毕业生找到他大学一年级时的女友，并让她重新回到他的身边。",
       "poster_url": "https://image.tmdb.org/t/p/original/hHbzSzjJnmcq02l2razSScBEVBf.jpg",
@@ -200,26 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
     },
     {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 8.7,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+      "id": 295780,
+      "title": "生活、拉里与不快乐的追求：一部美国史",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 4.5,
+      "release_date": "2026-06-26",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e0VR9ASgRETqKEGppCKDN12iR4d.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
+      "id": 1340206,
+      "title": "调音师",
       "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/1f7F27dEZ79ZCZZukEyr2GPKP5a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+      "genreTitle": "犯罪•剧情•音乐",
+      "rating": 7.2,
+      "release_date": "2026-05-21",
+      "overview": "　　一位才华横溢的钢琴调音师，发现自己精湛的钢琴调音技艺可以用于破解保险箱，由此他的生活发生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/29YqkGW6ztW3jbe0Nse6TwcXbhs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg"
     }
   ],
   "week_global_all": [
@@ -239,11 +239,22 @@
       "title": "绵羊侦探团",
       "type": "movie",
       "genreTitle": "喜剧•犯罪•悬疑",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2026-04-30",
       "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 94997,
@@ -255,17 +266,6 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.9,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
       "id": 1084244,
@@ -290,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.9,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/y9cuIc3fM6G3aIXySmDqsgRGUE1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qJyp8AE5ejXAaQjxWPTsWeTb.jpg"
     },
     {
       "id": 1083381,
@@ -312,6 +312,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
+      "id": 1413976,
+      "title": "公民义警",
+      "type": "movie",
+      "genreTitle": "惊悚•动作•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-06-19",
+      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
+    },
+    {
       "id": 454639,
       "title": "宇宙巨人：希曼崛起",
       "type": "movie",
@@ -321,6 +332,17 @@
       "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
       "poster_url": "https://image.tmdb.org/t/p/original/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/33g87CikjzzT3NW9VzqIGskkUNx.jpg"
+    },
+    {
+      "id": 296206,
+      "title": "金特务：本色回归",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 8.0,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9XokGnTlAgxkqnoOnbsSnBfO8Il.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
     },
     {
       "id": 136315,
@@ -334,59 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
     },
     {
-      "id": 1413976,
-      "title": "公民义警",
-      "type": "movie",
-      "genreTitle": "惊悚•动作•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-06-19",
-      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/etG4gYPv819o7wxq2JZdHQci5vy.jpg"
-    },
-    {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
-      "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 8.7,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
-    },
-    {
-      "id": 296206,
-      "title": "金特务：本色回归",
+      "id": 278178,
+      "title": "我会找到你",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
+      "genreTitle": "剧情•悬疑•犯罪",
       "rating": 8.2,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
-    },
-    {
-      "id": 614945,
-      "title": "真爱留声",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-06-20",
-      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/pqfQk3kQZtvFVKXOtIDkLF0wExc.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧•恐怖",
-      "rating": 5.5,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+      "release_date": "2026-06-18",
+      "overview": "一名父亲因被误判杀害亲生儿子而入狱，却在得知儿子可能仍然活着后，展开一场绝望的救子行动。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xlmw7sjlcnBGpp8NK18YBD6soz3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
     },
     {
       "id": 969681,
@@ -400,17 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/1f7F27dEZ79ZCZZukEyr2GPKP5a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
       "id": 1340206,
       "title": "调音师",
       "type": "movie",
@@ -422,6 +389,50 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg"
     },
     {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧•恐怖",
+      "rating": 5.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+    },
+    {
+      "id": 286360,
+      "title": "末行手记",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 9.5,
+      "release_date": "2026-06-26",
+      "overview": "一名曾经写作失意、后来转任教授的男子，在学生的作品中发现罕见才华，并逐渐对他的草稿产生执念，而两人的私人指导也开始走偏。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e8GGUacMjy50RsucgXk0oPHZsL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pcBTl7U8eVOVGhu2Wi0hN693tsd.jpg"
+    },
+    {
+      "id": 614945,
+      "title": "真爱留声",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-06-20",
+      "overview": "年轻女子给已故姐姐发送的搞笑自白语音留言无意中被转给了陌生人，而这个陌生人竟隔着遥远的距离爱上了她。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pqfQk3kQZtvFVKXOtIDkLF0wExc.jpg"
+    },
+    {
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
+      "type": "movie",
+      "genreTitle": "音乐•剧情",
+      "rating": 8.7,
+      "release_date": "2026-04-22",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mg6msj2GmHvz60tPXwaAXBCno2X.jpg"
+    },
+    {
       "id": 1275779,
       "title": "揭秘日",
       "type": "movie",
@@ -431,17 +442,6 @@
       "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
       "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iq40sWg8wFLPKQD9MiHsT3xB1Ic.jpg"
-    },
-    {
-      "id": 278178,
-      "title": "我会找到你",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 8.2,
-      "release_date": "2026-06-18",
-      "overview": "一名父亲因被误判杀害亲生儿子而入狱，却在得知儿子可能仍然活着后，展开一场绝望的救子行动。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xlmw7sjlcnBGpp8NK18YBD6soz3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2NEydy6ECus2soANNIY9LAipwl.jpg"
     }
   ],
   "popular_movies": [
@@ -450,7 +450,7 @@
       "title": "Welcome to the Jungle",
       "type": "movie",
       "genreTitle": "动作•喜剧•冒险",
-      "rating": 0.0,
+      "rating": 4.0,
       "release_date": "2026-06-25",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg",
@@ -505,7 +505,7 @@
       "title": "超级少女",
       "type": "movie",
       "genreTitle": "动作•冒险•科幻",
-      "rating": 6.2,
+      "rating": 6.1,
       "release_date": "2026-06-26",
       "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
       "poster_url": "https://image.tmdb.org/t/p/original/tsoemc4reM9GayGPZ3CczFGJeQU.jpg",
@@ -527,7 +527,7 @@
       "title": "深水",
       "type": "movie",
       "genreTitle": "惊悚•恐怖",
-      "rating": 6.2,
+      "rating": 6.1,
       "release_date": "2026-04-30",
       "overview": "一架从洛杉矶飞往上海的国际航班，在飞越太平洋时遭遇货舱锂电池起火事故，安全系统接连失效，机长理查德与副机长本被迫驾驶飞机紧急迫降在海域。机上三十余名幸存者被困在破损的飞机残骸上，很快发现这片海域已是鲨鱼的猎场。成群的灰鲭鲨被残骸的血腥味吸引，不断发起攻击。幸存者们来自不同国家、背景各异，必须放下隔阂与猜忌，利用有限的资源搭建防御、寻找逃生机会，在茫茫大海中与饥饿的鲨群展开殊死对抗。",
       "poster_url": "https://image.tmdb.org/t/p/original/d38UrBjS5QgECryNeaf58jkLSsv.jpg",
@@ -571,7 +571,7 @@
       "title": "你会心碎",
       "type": "movie",
       "genreTitle": "爱情",
-      "rating": 7.1,
+      "rating": 7.0,
       "release_date": "2026-03-26",
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
@@ -582,7 +582,7 @@
       "title": "绵羊侦探团",
       "type": "movie",
       "genreTitle": "喜剧•犯罪•悬疑",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2026-05-16",
       "overview": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
@@ -600,15 +600,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lsmAimMr62q62kDxRHjfqNmkDs8.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
+      "id": 1226293,
+      "title": "轮番上阵",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.7,
-      "release_date": "2026-05-22",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+      "genreTitle": "剧情•爱情",
+      "rating": 4.4,
+      "release_date": "2024-02-16",
+      "overview": "一个怀疑丈夫出轨的妻子跟踪他在巴厘岛的行踪。当她遇到了一个迷人的男人后，她的心被俘获了。很快她希望丈夫真的出轨了，从而减轻她所感受到的内疚。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rMgG7cWuq9O6zhhLs2CbqIKVA8V.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/emK2hOB6ACiExT0lNLog9lAmMFL.jpg"
     }
   ]
 }
