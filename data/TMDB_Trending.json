@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-02 12:49:06",
+  "last_updated": "2026-07-02 15:57:21",
   "today_global": [
     {
       "id": 1202033,
       "title": "福尔摩斯小姐3",
       "type": "movie",
-      "genreTitle": "悬疑•惊悚•冒险",
-      "rating": 7.6,
+      "genreTitle": "冒险•犯罪•悬疑",
+      "rating": 7.7,
       "release_date": "2026-06-30",
       "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
       "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
@@ -35,28 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.8,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 6.8,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
-    },
-    {
       "id": 254420,
       "title": "艾丽",
       "type": "tv",
@@ -66,6 +44,17 @@
       "overview": "在艾丽·伍兹离开舒适圈入学哈佛前，我们回到 1995 年，看她在波涛汹涌的高中校园生活中，面对假面闺密、禁忌恋情，留下让人不敢直视的时尚黑历史。并看这段青涩岁月的意外插曲，如何把艾丽塑造成我们熟知并热爱的经典女主角。",
       "poster_url": "https://image.tmdb.org/t/p/original/4kevrekSdE31nS3E8lSVIiOmk7U.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nOyJnPeXvg7Rtq9iPyDu06FSEA8.jpg"
+    },
+    {
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.8,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
       "id": 1081003,
@@ -79,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 6.8,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
+    },
+    {
       "id": 1108427,
       "title": "海洋奇缘：启航",
       "type": "movie",
@@ -88,17 +88,6 @@
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
-    },
-    {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.8,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
       "id": 1368337,
@@ -112,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 6.8,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -121,28 +121,6 @@
       "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
       "id": 94997,
@@ -156,6 +134,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
       "id": 1413976,
       "title": "公民义警",
       "type": "movie",
@@ -167,59 +156,70 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eO1REczQpbV2uOeUkO6EG8VkNIe.jpg"
     },
     {
-      "id": 298994,
-      "title": "LV999的村民",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2026-07-02",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/b62MUHX0v8aVVyqH9P0zlEYhf9n.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z7lSMYbkFAuGTvnYRDM9ssekqTe.jpg"
-    },
-    {
-      "id": 1397385,
-      "title": "人生大弟震",
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.2,
-      "release_date": "2026-06-18",
-      "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
-    },
-    {
-      "id": 136315,
-      "title": "熊家餐馆",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "年轻的厨师卡米与一群毛手毛脚的帮厨一起努力改造“芝加哥原味牛肉三明治店”。在此过程中，他的内心也经历了变化，最后所有人变得亲如家人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7y1ibpkTwlKYrxFbq3lh2RgIB1k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 1279493,
       "title": "熊乡",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.9,
+      "rating": 7.1,
       "release_date": "2026-06-18",
       "overview": "克罗将饰演年迈却令人生畏的俱乐部老板曼科・卡帕克，他遭到一名蒙面持枪歹徒抢劫。如今，他原本打算卖掉俱乐部，与女友一同安享晚年的愿望，似乎变得比以往更加遥不可及。贩毒集团的头目们对他步步紧逼，而一个初出茅庐的年轻人在镇上崭露头角，急切地想要买下这家俱乐部。",
       "poster_url": "https://image.tmdb.org/t/p/original/A56e359GzpasjuYRajkDBhLncEW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5vqPhj3ux4PkzSUSfcERXT8jq0x.jpg"
     },
     {
-      "id": 82452,
-      "title": "降世神通：最后的气宗",
+      "id": 298994,
+      "title": "LV999的村民",
       "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.8,
-      "release_date": "2024-02-22",
-      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "release_date": "2026-07-02",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/b62MUHX0v8aVVyqH9P0zlEYhf9n.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z7lSMYbkFAuGTvnYRDM9ssekqTe.jpg"
+    },
+    {
+      "id": 287976,
+      "title": "1936：盛夏尼斯",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.1,
+      "release_date": "2026-05-18",
+      "overview": "1936 年，尼斯。工人们在享受他们的第一个带薪假期时，四名背景迥异的女子卷入里维埃拉酒店检察官谋杀案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aHh7audsJOHjbM5uiFUh1KJL6jo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5QRSrRJgQsSMa0BvhvwIWMJ73Dj.jpg"
+    },
+    {
+      "id": 325188,
+      "title": "恐怖邻居大全",
+      "type": "tv",
+      "genreTitle": "犯罪•纪录",
+      "rating": 0.0,
+      "release_date": "2026-07-01",
+      "overview": "从令人发指的欺诈阴谋到毫无意义的暴力报复行为 — 这部情节紧张的纪录片剧集详细讲述了邻里关系恶化的真实故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dvVlESgdry13rcaePh0nN0o7PV9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aNi6OGEFE6d854JaRH0MgXCiC0X.jpg"
+    },
+    {
+      "id": 1397385,
+      "title": "人生大弟震",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.3,
+      "release_date": "2026-06-18",
+      "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
     }
   ],
   "week_global_all": [
@@ -238,8 +238,8 @@
       "id": 1202033,
       "title": "福尔摩斯小姐3",
       "type": "movie",
-      "genreTitle": "悬疑•惊悚•冒险",
-      "rating": 7.5,
+      "genreTitle": "冒险•犯罪•悬疑",
+      "rating": 7.7,
       "release_date": "2026-06-30",
       "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
       "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
@@ -257,17 +257,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.8,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
       "id": 1301421,
       "title": "绵羊侦探团",
       "type": "movie",
@@ -279,37 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
     },
     {
-      "id": 138502,
-      "title": "X战警97",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2024-03-20",
-      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bujL5enSKGZB8U7dokyBcNbzXzB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
       "type": "movie",
-      "genreTitle": "喜剧•剧情",
+      "genreTitle": "冒险•动画•喜剧",
       "rating": 6.8,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
-    },
-    {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
       "id": 1083381,
@@ -323,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
-      "id": 1084244,
-      "title": "玩具总动员5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.4,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -345,15 +301,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
-      "id": 136315,
-      "title": "熊家餐馆",
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "年轻的厨师卡米与一群毛手毛脚的帮厨一起努力改造“芝加哥原味牛肉三明治店”。在此过程中，他的内心也经历了变化，最后所有人变得亲如家人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7y1ibpkTwlKYrxFbq3lh2RgIB1k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 1314481,
+      "title": "穿普拉达的女王2",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 6.8,
+      "release_date": "2026-04-29",
+      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
       "id": 1413976,
@@ -367,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eO1REczQpbV2uOeUkO6EG8VkNIe.jpg"
     },
     {
-      "id": 82452,
-      "title": "降世神通：最后的气宗",
+      "id": 136315,
+      "title": "熊家餐馆",
       "type": "tv",
-      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
-      "rating": 7.8,
-      "release_date": "2024-02-22",
-      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.1,
+      "release_date": "2022-06-23",
+      "overview": "年轻的厨师卡米与一群毛手毛脚的帮厨一起努力改造“芝加哥原味牛肉三明治店”。在此过程中，他的内心也经历了变化，最后所有人变得亲如家人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7y1ibpkTwlKYrxFbq3lh2RgIB1k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
     },
     {
       "id": 296206,
@@ -389,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
     },
     {
-      "id": 1397385,
-      "title": "人生大弟震",
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.2,
-      "release_date": "2026-06-18",
-      "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 969681,
@@ -411,15 +389,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
+      "id": 82452,
+      "title": "降世神通：最后的气宗",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.8,
+      "release_date": "2024-02-22",
+      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
+      "genreTitle": "冒险•动作•奇幻",
       "rating": 0.0,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
+    },
+    {
+      "id": 1397385,
+      "title": "人生大弟震",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.3,
+      "release_date": "2026-06-18",
+      "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
     },
     {
       "id": 1340206,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg"
     },
     {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 5.4,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7GuYEJ8eouxDJo5BYjwROzMqziw.jpg"
+      "id": 138502,
+      "title": "X战警97",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2024-03-20",
+      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bujL5enSKGZB8U7dokyBcNbzXzB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     }
   ],
   "popular_movies": [
