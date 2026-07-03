@@ -1,38 +1,16 @@
 {
-  "last_updated": "2026-07-03 13:37:31",
+  "last_updated": "2026-07-03 16:40:48",
   "today_global": [
     {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 8.1,
+      "rating": 8.2,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/mW8QTP2wNE1LF0MtHAyTTjhzg3L.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tvJDUFPLKmxDnJtdbFoBddWllio.jpg"
-    },
-    {
-      "id": 1202033,
-      "title": "福尔摩斯小姐3",
-      "type": "movie",
-      "genreTitle": "冒险•犯罪•悬疑",
-      "rating": 7.2,
-      "release_date": "2026-06-30",
-      "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
-    },
-    {
-      "id": 253960,
-      "title": "气体人第一号",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•犯罪",
-      "rating": 9.0,
-      "release_date": "2026-07-02",
-      "overview": "本作是以1960年上映的东宝特摄电影『ガス人間第1号』《气体人第一号》（导演：本多猪四郎，编剧：木村武）为原作，由日韩的创作者以现代视角重新构建的完全原创故事重启作品。\n\n当一位嘉宾评论员在直播中肿胀爆炸时，这种前所未有、难以想象的犯罪令全世界陷入震惊。在这起可怕的谋杀背后，是一个似乎凭空消失的人：气体人。由于没有人能够掌握他的真实身份，这个未知者宣布将执行一系列针对性暗杀行动。他在每一次无法解释的攻击中逃避身份识别和抓捕，全国逐渐笼罩在恐慌之下。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jRINbGiI9wjM9gwxw4IT5G0ErlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xTUY8hHCJx405xqheQeoD5Fz6bS.jpg"
     },
     {
       "id": 125988,
@@ -46,6 +24,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
+      "id": 253960,
+      "title": "气体人第一号",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•犯罪",
+      "rating": 9.0,
+      "release_date": "2026-07-02",
+      "overview": "本作是以1960年上映的东宝特摄电影『ガス人間第1号』《气体人第一号》（导演：本多猪四郎，编剧：木村武）为原作，由日韩的创作者以现代视角重新构建的完全原创故事重启作品。\n\n当一位嘉宾评论员在直播中肿胀爆炸时，这种前所未有、难以想象的犯罪令全世界陷入震惊。在这起可怕的谋杀背后，是一个似乎凭空消失的人：气体人。由于没有人能够掌握他的真实身份，这个未知者宣布将执行一系列针对性暗杀行动。他在每一次无法解释的攻击中逃避身份识别和抓捕，全国逐渐笼罩在恐慌之下。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jRINbGiI9wjM9gwxw4IT5G0ErlU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xTUY8hHCJx405xqheQeoD5Fz6bS.jpg"
+    },
+    {
+      "id": 1202033,
+      "title": "福尔摩斯小姐3",
+      "type": "movie",
+      "genreTitle": "冒险•犯罪•悬疑",
+      "rating": 7.2,
+      "release_date": "2026-06-30",
+      "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
+    },
+    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -55,6 +55,28 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
+      "id": 322055,
+      "title": "检察官的提案",
+      "type": "tv",
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 0.0,
+      "release_date": "2026-06-25",
+      "overview": "曾因“杀人犯之子”的标签饱受欺凌的李彩河，在洗清冤屈后成为一名八级检察院调查员。他被分配到檀岘分局，努力开启新生活，却意外与曾帮助过他的检察官朱泰善重逢。朱泰善性格完美主义且敏感古怪，在一次共同值夜班后，他对李彩河产生了浓厚兴趣。为了调查一桩悬而未决的谋杀案，朱泰善提议李彩河担任自己的专属调查员。两人在压抑又充满张力的办公环境下，展开了一场徘徊于职场正义与禁忌情感之间的危险博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4A5Sl89zZ0WRKj5QrhMxgBFiQYc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ldn29Yw9neSEDTJl5LtCsfA4rTf.jpg"
+    },
+    {
+      "id": 254420,
+      "title": "艾丽",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.6,
+      "release_date": "2026-07-01",
+      "overview": "在艾丽·伍兹离开舒适圈入学哈佛前，我们回到 1995 年，看她在波涛汹涌的高中校园生活中，面对假面闺密、禁忌恋情，留下让人不敢直视的时尚黑历史。并看这段青涩岁月的意外插曲，如何把艾丽塑造成我们熟知并热爱的经典女主角。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kWlGge7cWOTp0qZnYCRfUo0BTP9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nOyJnPeXvg7Rtq9iPyDu06FSEA8.jpg"
     },
     {
       "id": 1084244,
@@ -79,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
     },
     {
-      "id": 254420,
-      "title": "艾丽",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.6,
-      "release_date": "2026-07-01",
-      "overview": "在艾丽·伍兹离开舒适圈入学哈佛前，我们回到 1995 年，看她在波涛汹涌的高中校园生活中，面对假面闺密、禁忌恋情，留下让人不敢直视的时尚黑历史。并看这段青涩岁月的意外插曲，如何把艾丽塑造成我们熟知并热爱的经典女主角。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kWlGge7cWOTp0qZnYCRfUo0BTP9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nOyJnPeXvg7Rtq9iPyDu06FSEA8.jpg"
+      "id": 1081003,
+      "title": "超级少女",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.3,
+      "release_date": "2026-06-24",
+      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
       "id": 138502,
@@ -101,26 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
-      "id": 1081003,
-      "title": "超级少女",
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.3,
-      "release_date": "2026-06-24",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
-    },
-    {
-      "id": 322055,
-      "title": "检察官的提案",
-      "type": "tv",
-      "genreTitle": "悬疑•犯罪•剧情",
+      "genreTitle": "家庭•奇幻•喜剧",
       "rating": 0.0,
-      "release_date": "2026-06-25",
-      "overview": "曾因“杀人犯之子”的标签饱受欺凌的李彩河，在洗清冤屈后成为一名八级检察院调查员。他被分配到檀岘分局，努力开启新生活，却意外与曾帮助过他的检察官朱泰善重逢。朱泰善性格完美主义且敏感古怪，在一次共同值夜班后，他对李彩河产生了浓厚兴趣。为了调查一桩悬而未决的谋杀案，朱泰善提议李彩河担任自己的专属调查员。两人在压抑又充满张力的办公环境下，展开了一场徘徊于职场正义与禁忌情感之间的危险博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4A5Sl89zZ0WRKj5QrhMxgBFiQYc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ldn29Yw9neSEDTJl5LtCsfA4rTf.jpg"
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 1083381,
@@ -145,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -165,6 +165,17 @@
       "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
       "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 1368337,
@@ -178,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
+      "id": 283609,
+      "title": "处男老师的超级任务",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+      "genreTitle": "喜剧",
+      "rating": 0.0,
+      "release_date": "2026-07-02",
+      "overview": "倒霉的苏布被派往一个条件艰苦的村庄教授性教育课，他必须想办法完成任务，同时避免触怒保守的父亲。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aAMQgKfUCk9FVVQwyBqerP7S0qN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9uOZUDapEqN8qiJ3z8aSCj5k488.jpg"
     },
     {
       "id": 312949,
@@ -204,22 +215,11 @@
       "title": "鬼玩人6：燃烧",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 6.0,
+      "rating": 8.0,
       "release_date": "2026-07-08",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/jn69Rtd1eXH9poYI6FAeHYylWAO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
-    },
-    {
-      "id": 298994,
-      "title": "LV999的村民",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 9.0,
-      "release_date": "2026-07-02",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/b62MUHX0v8aVVyqH9P0zlEYhf9n.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ydWwc4NOeDb7t8pcR3tf6n12rLB.jpg"
     }
   ],
   "week_global_all": [
@@ -228,7 +228,7 @@
       "title": "痴迷",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 8.1,
+      "rating": 8.2,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/mW8QTP2wNE1LF0MtHAyTTjhzg3L.jpg",
@@ -268,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.7,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -290,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
     },
     {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -299,17 +321,6 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
-    },
-    {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.7,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
       "id": 1301421,
@@ -323,17 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
     },
     {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
       "id": 124364,
       "title": "梦魇绝镇",
       "type": "tv",
@@ -345,6 +345,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
     },
     {
+      "id": 136315,
+      "title": "熊家餐馆",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.1,
+      "release_date": "2022-06-23",
+      "overview": "年轻的厨师卡米与一群毛手毛脚的帮厨一起努力改造“芝加哥原味牛肉三明治店”。在此过程中，他的内心也经历了变化，最后所有人变得亲如家人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7y1ibpkTwlKYrxFbq3lh2RgIB1k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
+    },
+    {
+      "id": 1413976,
+      "title": "公民义警",
+      "type": "movie",
+      "genreTitle": "惊悚•动作•犯罪",
+      "rating": 6.6,
+      "release_date": "2026-06-19",
+      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ydEgw9vDABo4hiHsP29BVtMRTfS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eO1REczQpbV2uOeUkO6EG8VkNIe.jpg"
+    },
+    {
       "id": 253960,
       "title": "气体人第一号",
       "type": "tv",
@@ -354,6 +376,17 @@
       "overview": "本作是以1960年上映的东宝特摄电影『ガス人間第1号』《气体人第一号》（导演：本多猪四郎，编剧：木村武）为原作，由日韩的创作者以现代视角重新构建的完全原创故事重启作品。\n\n当一位嘉宾评论员在直播中肿胀爆炸时，这种前所未有、难以想象的犯罪令全世界陷入震惊。在这起可怕的谋杀背后，是一个似乎凭空消失的人：气体人。由于没有人能够掌握他的真实身份，这个未知者宣布将执行一系列针对性暗杀行动。他在每一次无法解释的攻击中逃避身份识别和抓捕，全国逐渐笼罩在恐慌之下。",
       "poster_url": "https://image.tmdb.org/t/p/original/jRINbGiI9wjM9gwxw4IT5G0ErlU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xTUY8hHCJx405xqheQeoD5Fz6bS.jpg"
+    },
+    {
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 296206,
@@ -378,26 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 136315,
-      "title": "熊家餐馆",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "年轻的厨师卡米与一群毛手毛脚的帮厨一起努力改造“芝加哥原味牛肉三明治店”。在此过程中，他的内心也经历了变化，最后所有人变得亲如家人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7y1ibpkTwlKYrxFbq3lh2RgIB1k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
-    },
-    {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
+      "genreTitle": "冒险•动作•奇幻",
       "rating": 0.0,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
       "id": 138502,
@@ -411,37 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
-      "id": 1413976,
-      "title": "公民义警",
-      "type": "movie",
-      "genreTitle": "惊悚•动作•犯罪",
-      "rating": 6.6,
-      "release_date": "2026-06-19",
-      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ydEgw9vDABo4hiHsP29BVtMRTfS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eO1REczQpbV2uOeUkO6EG8VkNIe.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 0.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
+      "id": 82452,
+      "title": "降世神通：最后的气宗",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy•剧情",
+      "rating": 7.8,
+      "release_date": "2024-02-22",
+      "overview": "人称“神通王”的小男孩必须掌握四种元素之力，以拯救战火纷飞的世界，击败一心阻碍他的冷酷敌人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6yRBwqaKcFlp9TBIuZgLvJip8hA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qL5eKuLxbcaKr2p8tO0NetAoh9h.jpg"
     }
   ],
   "popular_movies": [
@@ -504,7 +504,7 @@
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
-      "genreTitle": "喜剧•恐怖",
+      "genreTitle": "喜剧",
       "rating": 5.4,
       "release_date": "2026-06-03",
       "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
