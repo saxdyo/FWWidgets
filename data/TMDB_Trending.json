@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04 05:52:05",
+  "last_updated": "2026-07-04 06:49:12",
   "today_global": [
     {
       "id": 1339713,
@@ -246,17 +246,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.7,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -268,6 +257,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.7,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
       "id": 1314481,
       "title": "穿普拉达的女王2",
       "type": "movie",
@@ -277,17 +277,6 @@
       "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
-    },
-    {
-      "id": 1301421,
-      "title": "绵羊侦探团",
-      "type": "movie",
-      "genreTitle": "冒险•悬疑•喜剧",
-      "rating": 7.8,
-      "release_date": "2026-04-30",
-      "overview": "影片改编自莱奥妮·斯万的畅销小说。牧羊人乔治最爱给羊群读侦探小说，没想到自己有一天会离奇死亡。他留下的3000万巨额遗产，让每个人貌似都有犯罪动机。警察毫无头绪之时，羊群们决定“不务正业”迈出牧场，追查牧羊人“躺平”真相！它们秉承着遇见麻烦就吃草，嗅到危险就躺倒的哲学，却迎来了一个意想不到的结果……",
-      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
     },
     {
       "id": 1084244,
@@ -312,6 +301,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
+      "id": 1301421,
+      "title": "绵羊侦探团",
+      "type": "movie",
+      "genreTitle": "冒险•悬疑•喜剧",
+      "rating": 7.8,
+      "release_date": "2026-04-30",
+      "overview": "影片改编自莱奥妮·斯万的畅销小说。牧羊人乔治最爱给羊群读侦探小说，没想到自己有一天会离奇死亡。他留下的3000万巨额遗产，让每个人貌似都有犯罪动机。警察毫无头绪之时，羊群们决定“不务正业”迈出牧场，追查牧羊人“躺平”真相！它们秉承着遇见麻烦就吃草，嗅到危险就躺倒的哲学，却迎来了一个意想不到的结果……",
+      "poster_url": "https://image.tmdb.org/t/p/original/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/VDFQlkXOo37kgAFcfsyfZ5Gd1l.jpg"
+    },
+    {
+      "id": 124364,
+      "title": "梦魇绝镇",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-02-20",
+      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+    },
+    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -321,17 +332,6 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场内战即将爆发，这场战争将被称为“血龙狂舞”。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 1083381,
@@ -345,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lyXcBYJdnF47MKSwOyV3E8Hc7F6.jpg"
     },
     {
-      "id": 124364,
-      "title": "梦魇绝镇",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-02-20",
-      "overview": "本剧讲述美国中部一个噩梦般的小镇会困住所有走进来的人，而不甘愿留下来的人在找寻出路的同时，他们还得面对日落后出没的怪物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/q0aZ89NDGXxzJeJtJIvpxZmD5e3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xWrJGCcPal1D3f6VdMlOZJUeGuF.jpg"
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 1413976,
@@ -389,15 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
+      "id": 687163,
+      "title": "挽救计划",
       "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 0.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
+      "genreTitle": "科幻•冒险",
+      "rating": 8.7,
+      "release_date": "2026-03-15",
+      "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
     },
     {
       "id": 1108427,
@@ -411,37 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 253960,
-      "title": "气体人第一号",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•犯罪",
-      "rating": 9.0,
-      "release_date": "2026-07-02",
-      "overview": "本作是以1960年上映的东宝特摄电影『ガス人間第1号』《气体人第一号》（导演：本多猪四郎，编剧：木村武）为原作，由日韩的创作者以现代视角重新构建的完全原创故事重启作品。\n\n当一位嘉宾评论员在直播中肿胀爆炸时，这种前所未有、难以想象的犯罪令全世界陷入震惊。在这起可怕的谋杀背后，是一个似乎凭空消失的人：气体人。由于没有人能够掌握他的真实身份，这个未知者宣布将执行一系列针对性暗杀行动。他在每一次无法解释的攻击中逃避身份识别和抓捕，全国逐渐笼罩在恐慌之下。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jRINbGiI9wjM9gwxw4IT5G0ErlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xTUY8hHCJx405xqheQeoD5Fz6bS.jpg"
-    },
-    {
-      "id": 136315,
-      "title": "熊家餐馆",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.1,
-      "release_date": "2022-06-23",
-      "overview": "年轻的厨师卡米与一群毛手毛脚的帮厨一起努力改造“芝加哥原味牛肉三明治店”。在此过程中，他的内心也经历了变化，最后所有人变得亲如家人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7y1ibpkTwlKYrxFbq3lh2RgIB1k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rKWvDYfzq0078PziKgidA7jAs5y.jpg"
-    },
-    {
-      "id": 936075,
-      "title": "迈克尔·杰克逊：巨星之路",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "音乐•剧情",
-      "rating": 8.7,
-      "release_date": "2026-04-22",
-      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rSMReXYZ9vLaVuJ73gcnWJXcWE8.jpg"
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 0.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
+    },
+    {
+      "id": 1397385,
+      "title": "人生大弟震",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.3,
+      "release_date": "2026-06-18",
+      "overview": "古怪的“弟弟”再次意外出现后，这个著名房地产经纪人精心打造的生活被彻底颠覆。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5FBD0YNRdssZI6yNA2Ky8qCK2Or.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nGQdGugDeOkhz8NcqRmU0CvkPce.jpg"
+    },
+    {
+      "id": 299167,
+      "title": "达顿牧场",
+      "type": "tv",
+      "genreTitle": "西部•剧情",
+      "rating": 9.3,
+      "release_date": "2026-05-15",
+      "overview": "抛开《黄石》时期经历的阴影，Beth和Rip努力共筑未来，但他们遭遇了残酷的新现实，以及一家不择手段、只为保住自己帝国的无情敌对牧场。在南得克萨斯州，血脉之深远胜于一切，宽恕转瞬即逝，而生存的代价，或许正是你的灵魂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5flBkpyqwxyq69HzRnV6XL8nOUa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3ep9KMoFFMLr0eA1KGat0svAXaR.jpg"
     }
   ],
   "popular_movies": [
@@ -493,7 +493,7 @@
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
-      "genreTitle": "喜剧",
+      "genreTitle": "喜剧•恐怖",
       "rating": 5.5,
       "release_date": "2026-06-03",
       "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
