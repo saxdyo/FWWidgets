@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-09 06:50:37",
+  "last_updated": "2026-07-09 07:55:36",
   "today_global": [
     {
       "id": 1280738,
       "title": "火遮眼",
       "type": "movie",
       "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.6,
+      "rating": 7.7,
       "release_date": "2026-06-10",
       "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
       "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
@@ -28,7 +28,7 @@
       "title": "海洋奇缘：启航",
       "type": "movie",
       "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 5.8,
+      "rating": 5.5,
       "release_date": "2026-07-08",
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
@@ -39,7 +39,7 @@
       "title": "鬼玩人6：炼狱",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 7.5,
+      "rating": 7.4,
       "release_date": "2026-07-07",
       "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
       "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
@@ -101,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
+      "id": 258348,
+      "title": "克雷瓦提斯-魔兽之王与婴儿与尸之勇者-",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.0,
+      "release_date": "2025-07-02",
+      "overview": "阿莉西亚从小就向往着成为勇者，最终被国王选中成为13名勇者之一。勇者们带着传说中的宝剑前去讨伐魔兽王克雷瓦提斯。但如此鲁莽的举动，为艾多西亚大陆的人族惹来了可能导致灭绝的危机。全世界的唯一希望，就是被托付给魔兽王的一个婴儿——",
+      "poster_url": "https://image.tmdb.org/t/p/original/krx4GwKIWVCtr4MgMeGi4lYkz5x.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7BWn0XKkmB8Ngj6Jb8QzLhscFIG.jpg"
+    },
+    {
       "id": 1368337,
       "title": "奥德赛",
       "type": "movie",
@@ -123,11 +134,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
+      "id": 297826,
+      "title": "盗掘王",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-07-09",
+      "overview": "2025年，世界各地出现了神秘的「古墓」，古墓中的「文物」能赋予持有者异能力，更有不少人利用这些力量谋财。靠着「遗物」赋予的异能力以盗墓为生的刚力辽河，却因雇主大河原泰政的背叛，在「墓」中被逼入绝境，命悬一线。此时，一个突然开口说话的「乌鸦遗物」救了他一命。回过神来，他发现自己竟穿越回到了15年前的2025年！为了向大河原报复，辽河凭借著未来的记忆与知识作为武器，向所有掌握财富与权力的统治者们亮出獠牙！他将利用「文物」攀上世界顶点，成为真正的「盗墓王」!",
+      "poster_url": "https://image.tmdb.org/t/p/original/arohqBQaGUFnqNqwERlIVQNmLFv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8dZwc6nDN3iqCwXranLQmL7oFSo.jpg"
+    },
+    {
       "id": 290232,
       "title": "有你，我不怕",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 7.5,
+      "rating": 8.3,
       "release_date": "2026-07-08",
       "overview": "一个 10 岁的男孩偶然撞见了骇人的一幕，随后他认识到在一个濒临崩溃的小镇上生活、生存并陷入绝望是多么残酷的现实。",
       "poster_url": "https://image.tmdb.org/t/p/original/knY4kDTbzDzyH0a4Zp75wgnd5ga.jpg",
@@ -156,39 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
-      "id": 258348,
-      "title": "克雷瓦提斯-魔兽之王与婴儿与尸之勇者-",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.0,
-      "release_date": "2025-07-02",
-      "overview": "阿莉西亚从小就向往着成为勇者，最终被国王选中成为13名勇者之一。勇者们带着传说中的宝剑前去讨伐魔兽王克雷瓦提斯。但如此鲁莽的举动，为艾多西亚大陆的人族惹来了可能导致灭绝的危机。全世界的唯一希望，就是被托付给魔兽王的一个婴儿——",
-      "poster_url": "https://image.tmdb.org/t/p/original/krx4GwKIWVCtr4MgMeGi4lYkz5x.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7BWn0XKkmB8Ngj6Jb8QzLhscFIG.jpg"
-    },
-    {
-      "id": 297826,
-      "title": "盗掘王",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-07-09",
-      "overview": "2025年，世界各地出现了神秘的「古墓」，古墓中的「文物」能赋予持有者异能力，更有不少人利用这些力量谋财。靠着「遗物」赋予的异能力以盗墓为生的刚力辽河，却因雇主大河原泰政的背叛，在「墓」中被逼入绝境，命悬一线。此时，一个突然开口说话的「乌鸦遗物」救了他一命。回过神来，他发现自己竟穿越回到了15年前的2025年！为了向大河原报复，辽河凭借著未来的记忆与知识作为武器，向所有掌握财富与权力的统治者们亮出獠牙！他将利用「文物」攀上世界顶点，成为真正的「盗墓王」!",
-      "poster_url": "https://image.tmdb.org/t/p/original/arohqBQaGUFnqNqwERlIVQNmLFv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8dZwc6nDN3iqCwXranLQmL7oFSo.jpg"
-    },
-    {
-      "id": 94664,
-      "title": "无职转生～到了异世界就拿出真本事～",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2021-01-11",
-      "overview": "“我要在这个异世界拿出真本事！”34岁童贞且无职的家里蹲男子，在父母的葬礼当天被赶出家门后，在路上被一辆卡车所撞死。意识清醒后，他发现自己居然作为一个刚出生的婴儿转生到了剑与魔法的异世界！像废物一样活过了前世的男子，发誓要作为少年·鲁迪乌斯在异世界以认真的态度好好活下去！等待着鲁迪乌斯的是，与娇小魔术师、有着精灵长耳又很男孩子气的美少女、凶暴的傲娇大小姐以及其他性格各异的人们之间的邂逅，当然也还有残酷的冒险与战斗。新的人生就要开始了！“人生重来型”幻想冒险谭，在此开幕！",
-      "poster_url": "https://image.tmdb.org/t/p/original/wMSO4QgEyUhnf1XLIpz5w371xtb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l8lwpvr1QA7GAz7vPHU76sNxP1o.jpg"
-    },
-    {
       "id": 69346,
       "title": "幼女战记",
       "type": "tv",
@@ -200,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xe2IkfzpGFObODJLTpBB9bdRpbB.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
       "id": 1202033,
       "title": "福尔摩斯小姐3",
       "type": "movie",
@@ -220,6 +198,28 @@
       "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
       "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
+    },
+    {
+      "id": 260823,
+      "title": "乡下大叔成了剑圣",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.2,
+      "release_date": "2025-04-05",
+      "overview": "在偏远乡村经营道场的不起眼中年剑术老师，贝利尔·加德南特。以剑士巅峰为目标的日子已经远去，他与自身的实力妥协，悠闲度日。如今他的前徒弟之一，已经晋升为王国骑士团长的艾露西亚时隔十年来访了。“我推荐老师您担任骑士团专属特别教官，并成功获得了批准。”贝利尔原本认为，就这样在乡村宁静结束自己生涯也不要紧，但从此他的命运发生了剧变！城市生活。与成长巨大的前徒弟们重逢。邂逅新的伙伴，以及强敌。“对我一个过了巅峰期的大叔而言，这担子实在是太重了……”贝利尔虽然这么想，但长期以来不断认真锻炼的剑术已经达到了人称“乡下剑圣”的惊人境界......",
+      "poster_url": "https://image.tmdb.org/t/p/original/fWLpYnmApgNQXOV80o72vevmZOI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pTUox6frXoOvsXjE8KBElKFWMFC.jpg"
+    },
+    {
+      "id": 1706919,
+      "title": "The Ghost in the Shell",
+      "type": "movie",
+      "genreTitle": "动画•科幻",
+      "rating": 7.0,
+      "release_date": "2026-06-26",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/dtSrLSFuBgSXh3txUvMxGucA217.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5rnHroVWaDM7nqnHwcgULSySkRO.jpg"
     }
   ],
   "week_global_all": [
