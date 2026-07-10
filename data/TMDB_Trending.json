@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 06:59:09",
+  "last_updated": "2026-07-10 08:01:30",
   "today_global": [
     {
       "id": 1339713,
@@ -17,7 +17,7 @@
       "title": "草原上的小木屋",
       "type": "tv",
       "genreTitle": "剧情•西部•家庭",
-      "rating": 6.8,
+      "rating": 5.8,
       "release_date": "2026-07-09",
       "overview": "英格斯一家离开原本的生活，来到美国西部草原展开拓荒之旅。面对大自然带来的喜悦与求生的艰辛，他们携手建立新的家园，也重新体会“家”真正的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/e5NqtI6o8vzNN6GC8GJbuwDYP6U.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
-      "id": 1710008,
-      "title": "爱无退路",
-      "type": "movie",
-      "genreTitle": "剧情•动作",
-      "rating": 3.9,
-      "release_date": "2026-07-08",
-      "overview": "为了成为母亲，她付出了一切。当年幼的儿子病倒后，洁达不惜一切代价寻找合适的捐赠者，只为救他一命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/apXd3xMwRc2Idjty4U8ev4UbKTP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/784ee7ff4TnFZC60g5OTORpsJrx.jpg"
-    },
-    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -88,6 +77,17 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qhTnrSsFOZi5oKhkTzvA9468lz9.jpg"
+    },
+    {
+      "id": 1710008,
+      "title": "爱无退路",
+      "type": "movie",
+      "genreTitle": "剧情•动作",
+      "rating": 3.9,
+      "release_date": "2026-07-08",
+      "overview": "为了成为母亲，她付出了一切。当年幼的儿子病倒后，洁达不惜一切代价寻找合适的捐赠者，只为救他一命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/apXd3xMwRc2Idjty4U8ev4UbKTP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/784ee7ff4TnFZC60g5OTORpsJrx.jpg"
     },
     {
       "id": 125988,
@@ -123,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
+      "id": 297826,
+      "title": "盗掘王",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-07-09",
+      "overview": "2025年，世界各地出现了神秘的「古墓」，古墓中的「文物」能赋予持有者异能力，更有不少人利用这些力量谋财。靠着「遗物」赋予的异能力以盗墓为生的刚力辽河，却因雇主大河原泰政的背叛，在「墓」中被逼入绝境，命悬一线。此时，一个突然开口说话的「乌鸦遗物」救了他一命。回过神来，他发现自己竟穿越回到了15年前的2025年！为了向大河原报复，辽河凭借著未来的记忆与知识作为武器，向所有掌握财富与权力的统治者们亮出獠牙！他将利用「文物」攀上世界顶点，成为真正的「盗墓王」!",
+      "poster_url": "https://image.tmdb.org/t/p/original/arohqBQaGUFnqNqwERlIVQNmLFv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/efo2pV1xzSIyd35jXixoB2WJM3u.jpg"
+    },
+    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -145,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
     },
     {
-      "id": 297826,
-      "title": "盗掘王",
+      "id": 290232,
+      "title": "有你，我不怕",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-07-09",
-      "overview": "2025年，世界各地出现了神秘的「古墓」，古墓中的「文物」能赋予持有者异能力，更有不少人利用这些力量谋财。靠着「遗物」赋予的异能力以盗墓为生的刚力辽河，却因雇主大河原泰政的背叛，在「墓」中被逼入绝境，命悬一线。此时，一个突然开口说话的「乌鸦遗物」救了他一命。回过神来，他发现自己竟穿越回到了15年前的2025年！为了向大河原报复，辽河凭借著未来的记忆与知识作为武器，向所有掌握财富与权力的统治者们亮出獠牙！他将利用「文物」攀上世界顶点，成为真正的「盗墓王」!",
-      "poster_url": "https://image.tmdb.org/t/p/original/arohqBQaGUFnqNqwERlIVQNmLFv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/efo2pV1xzSIyd35jXixoB2WJM3u.jpg"
+      "genreTitle": "剧情",
+      "rating": 7.8,
+      "release_date": "2026-07-08",
+      "overview": "一个 10 岁的男孩偶然撞见了骇人的一幕，随后他认识到在一个濒临崩溃的小镇上生活、生存并陷入绝望是多么残酷的现实。",
+      "poster_url": "https://image.tmdb.org/t/p/original/knY4kDTbzDzyH0a4Zp75wgnd5ga.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hmw3Qs89SjF6PLdzTDUdFM6XO70.jpg"
     },
     {
       "id": 69346,
@@ -167,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xe2IkfzpGFObODJLTpBB9bdRpbB.jpg"
     },
     {
-      "id": 290232,
-      "title": "有你，我不怕",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.8,
-      "release_date": "2026-07-08",
-      "overview": "一个 10 岁的男孩偶然撞见了骇人的一幕，随后他认识到在一个濒临崩溃的小镇上生活、生存并陷入绝望是多么残酷的现实。",
-      "poster_url": "https://image.tmdb.org/t/p/original/knY4kDTbzDzyH0a4Zp75wgnd5ga.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hmw3Qs89SjF6PLdzTDUdFM6XO70.jpg"
-    },
-    {
       "id": 322055,
       "title": "检察官的提案",
       "type": "tv",
@@ -187,6 +187,17 @@
       "overview": "曾因“杀人犯之子”的标签饱受欺凌的李彩河，在洗清冤屈后成为一名八级检察院调查员。他被分配到檀岘分局，努力开启新生活，却意外与曾帮助过他的检察官朱泰善重逢。朱泰善性格完美主义且敏感古怪，在一次共同值夜班后，他对李彩河产生了浓厚兴趣。为了调查一桩悬而未决的谋杀案，朱泰善提议李彩河担任自己的专属调查员。两人在压抑又充满张力的办公环境下，展开了一场徘徊于职场正义与禁忌情感之间的危险博弈。",
       "poster_url": "https://image.tmdb.org/t/p/original/4A5Sl89zZ0WRKj5QrhMxgBFiQYc.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ldn29Yw9neSEDTJl5LtCsfA4rTf.jpg"
+    },
+    {
+      "id": 296286,
+      "title": "躲在超市后门抽烟的两人",
+      "type": "tv",
+      "genreTitle": "动画•剧情•喜剧",
+      "rating": 9.1,
+      "release_date": "2026-07-09",
+      "overview": "每天过着社畜生活的上班族佐佐木，唯一的慰藉就是常去超市的收银员山田。某天疲惫不堪的他再次前往超市寻求治愈，却发现山田刚好不在。郁闷的他试图通过抽烟缓解压力，却怎么也找不到吸烟区，还被路人投以嫌弃的目光。就在这时，一位穿着奇特的田山女士把他带到了超市后面一起抽烟。从此，他便经常跑来和田山一起吞云吐雾、谈天说地。然而这位田山女士的真实身份竟然是……",
+      "poster_url": "https://image.tmdb.org/t/p/original/1ZkivwzRnJOTMyZvyE88EvjK4ML.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t19vHBHvOVulT4qFfIGjRdINldm.jpg"
     },
     {
       "id": 969681,
@@ -209,17 +220,6 @@
       "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
       "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
-      "id": 296286,
-      "title": "躲在超市后门抽烟的两人",
-      "type": "tv",
-      "genreTitle": "动画•剧情•喜剧",
-      "rating": 9.1,
-      "release_date": "2026-07-09",
-      "overview": "每天过着社畜生活的上班族佐佐木，唯一的慰藉就是常去超市的收银员山田。某天疲惫不堪的他再次前往超市寻求治愈，却发现山田刚好不在。郁闷的他试图通过抽烟缓解压力，却怎么也找不到吸烟区，还被路人投以嫌弃的目光。就在这时，一位穿着奇特的田山女士把他带到了超市后面一起抽烟。从此，他便经常跑来和田山一起吞云吐雾、谈天说地。然而这位田山女士的真实身份竟然是……",
-      "poster_url": "https://image.tmdb.org/t/p/original/1ZkivwzRnJOTMyZvyE88EvjK4ML.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t19vHBHvOVulT4qFfIGjRdINldm.jpg"
     }
   ],
   "week_global_all": [
