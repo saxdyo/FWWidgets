@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-10 16:12:50",
+  "last_updated": "2026-07-10 19:38:01",
   "today_global": [
+    {
+      "id": 283304,
+      "title": "草原上的小木屋",
+      "type": "tv",
+      "genreTitle": "剧情•西部•家庭",
+      "rating": 4.2,
+      "release_date": "2026-07-09",
+      "overview": "英格斯一家离开原本的生活，来到美国西部草原展开拓荒之旅。面对大自然带来的喜悦与求生的艰辛，他们携手建立新的家园，也重新体会“家”真正的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e5NqtI6o8vzNN6GC8GJbuwDYP6U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3Tvd8J99LXOVVpQZmBFvkKw8tFv.jpg"
+    },
     {
       "id": 1339713,
       "title": "痴迷",
@@ -13,59 +24,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 283304,
-      "title": "草原上的小木屋",
-      "type": "tv",
-      "genreTitle": "剧情•西部•家庭",
-      "rating": 4.2,
-      "release_date": "2026-07-09",
-      "overview": "英格斯一家离开原本的生活，来到美国西部草原展开拓荒之旅。面对大自然带来的喜悦与求生的艰辛，他们携手建立新的家园，也重新体会“家”真正的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/e5NqtI6o8vzNN6GC8GJbuwDYP6U.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1zzWBhSP7G8qite2eGpYEGERgSr.jpg"
-    },
-    {
-      "id": 1280738,
-      "title": "火遮眼",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.7,
-      "release_date": "2026-06-10",
-      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
-    },
-    {
       "id": 1108427,
       "title": "海洋奇缘：启航",
       "type": "movie",
       "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 4.9,
+      "rating": 5.0,
       "release_date": "2026-07-08",
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
+      "id": 1280738,
+      "title": "火遮眼",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.6,
+      "release_date": "2026-06-10",
+      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
+    },
+    {
       "id": 1212763,
-      "title": "鬼玩人6：炼狱",
+      "title": "鬼玩人：炼狱",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 7.4,
+      "rating": 7.3,
       "release_date": "2026-07-07",
       "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
       "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
-    },
-    {
-      "id": 1368314,
-      "title": "鬼上车",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.2,
-      "release_date": "2026-05-20",
-      "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
     },
     {
       "id": 125988,
@@ -90,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
-      "id": 322055,
-      "title": "检察官的提案",
-      "type": "tv",
-      "genreTitle": "悬疑•犯罪•剧情",
-      "rating": 5.0,
-      "release_date": "2026-06-25",
-      "overview": "曾因“杀人犯之子”的标签饱受欺凌的李彩河，在洗清冤屈后成为一名八级检察院调查员。他被分配到檀岘分局，努力开启新生活，却意外与曾帮助过他的检察官朱泰善重逢。朱泰善性格完美主义且敏感古怪，在一次共同值夜班后，他对李彩河产生了浓厚兴趣。为了调查一桩悬而未决的谋杀案，朱泰善提议李彩河担任自己的专属调查员。两人在压抑又充满张力的办公环境下，展开了一场徘徊于职场正义与禁忌情感之间的危险博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4A5Sl89zZ0WRKj5QrhMxgBFiQYc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ldn29Yw9neSEDTJl5LtCsfA4rTf.jpg"
-    },
-    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -112,26 +90,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qhTnrSsFOZi5oKhkTzvA9468lz9.jpg"
     },
     {
+      "id": 1484913,
+      "title": "最后王牌",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 0.0,
+      "release_date": "2026-07-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/y35NPzuvfIbPQyhwnV4dBTqS76h.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pQ0NWkuGcaa9brmyfLeg9tBSFm2.jpg"
+    },
+    {
       "id": 1710008,
       "title": "爱无退路",
       "type": "movie",
       "genreTitle": "剧情•动作",
-      "rating": 4.2,
+      "rating": 4.7,
       "release_date": "2026-07-08",
       "overview": "为了成为母亲，她付出了一切。当年幼的儿子病倒后，洁达不惜一切代价寻找合适的捐赠者，只为救他一命。",
       "poster_url": "https://image.tmdb.org/t/p/original/oP23Fx4BBuiOQI6S4EopOTUvviY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/784ee7ff4TnFZC60g5OTORpsJrx.jpg"
-    },
-    {
-      "id": 296286,
-      "title": "躲在超市后门抽烟的两人",
-      "type": "tv",
-      "genreTitle": "动画•剧情•喜剧",
-      "rating": 9.1,
-      "release_date": "2026-07-09",
-      "overview": "每天过着社畜生活的上班族佐佐木，唯一的慰藉就是常去超市的收银员山田。某天疲惫不堪的他再次前往超市寻求治愈，却发现山田刚好不在。郁闷的他试图通过抽烟缓解压力，却怎么也找不到吸烟区，还被路人投以嫌弃的目光。就在这时，一位穿着奇特的田山女士把他带到了超市后面一起抽烟。从此，他便经常跑来和田山一起吞云吐雾、谈天说地。然而这位田山女士的真实身份竟然是……",
-      "poster_url": "https://image.tmdb.org/t/p/original/1ZkivwzRnJOTMyZvyE88EvjK4ML.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t19vHBHvOVulT4qFfIGjRdINldm.jpg"
     },
     {
       "id": 1084244,
@@ -145,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
+      "id": 296286,
+      "title": "躲在超市后门抽烟的两人",
+      "type": "tv",
+      "genreTitle": "动画•剧情•喜剧",
+      "rating": 9.2,
+      "release_date": "2026-07-09",
+      "overview": "每天过着社畜生活的上班族佐佐木，唯一的慰藉就是常去超市的收银员山田。某天疲惫不堪的他再次前往超市寻求治愈，却发现山田刚好不在。郁闷的他试图通过抽烟缓解压力，却怎么也找不到吸烟区，还被路人投以嫌弃的目光。就在这时，一位穿着奇特的田山女士把他带到了超市后面一起抽烟。从此，他便经常跑来和田山一起吞云吐雾、谈天说地。然而这位田山女士的真实身份竟然是……",
+      "poster_url": "https://image.tmdb.org/t/p/original/1ZkivwzRnJOTMyZvyE88EvjK4ML.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t19vHBHvOVulT4qFfIGjRdINldm.jpg"
+    },
+    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -156,15 +145,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 286506,
-      "title": "百花杀",
+      "id": 1368314,
+      "title": "鬼上车",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.3,
+      "release_date": "2026-05-20",
+      "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
+    },
+    {
+      "id": 322055,
+      "title": "检察官的提案",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 0.0,
-      "release_date": "2026-07-09",
-      "overview": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/35QPxowgWR3dmoPwfOUqq5b9evN.jpg"
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 5.0,
+      "release_date": "2026-06-25",
+      "overview": "曾因“杀人犯之子”的标签饱受欺凌的李彩河，在洗清冤屈后成为一名八级检察院调查员。他被分配到檀岘分局，努力开启新生活，却意外与曾帮助过他的检察官朱泰善重逢。朱泰善性格完美主义且敏感古怪，在一次共同值夜班后，他对李彩河产生了浓厚兴趣。为了调查一桩悬而未决的谋杀案，朱泰善提议李彩河担任自己的专属调查员。两人在压抑又充满张力的办公环境下，展开了一场徘徊于职场正义与禁忌情感之间的危险博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4A5Sl89zZ0WRKj5QrhMxgBFiQYc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ldn29Yw9neSEDTJl5LtCsfA4rTf.jpg"
     },
     {
       "id": 1315772,
@@ -189,37 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 297826,
-      "title": "盗掘王",
+      "id": 252107,
+      "title": "星城",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
+      "rating": 7.3,
+      "release_date": "2026-05-28",
+      "overview": "踏进受《为全人类》启发的惊险新篇章，同一个架空历史，却从苏联的角度出发，讲述铁幕背后一众宇航员、工程师和情报人员铤而走险，在登月竞赛中取胜求存。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1tbUKieOUaqiafxDnEwchd9KfDo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g9kREkHW2fWDlJhlE1g8DqDBinS.jpg"
+    },
+    {
+      "id": 286506,
+      "title": "百花杀",
+      "type": "tv",
+      "genreTitle": "剧情",
       "rating": 0.0,
       "release_date": "2026-07-09",
-      "overview": "2025年，世界各地出现了神秘的「古墓」，古墓中的「文物」能赋予持有者异能力，更有不少人利用这些力量谋财。靠着「遗物」赋予的异能力以盗墓为生的刚力辽河，却因雇主大河原泰政的背叛，在「墓」中被逼入绝境，命悬一线。此时，一个突然开口说话的「乌鸦遗物」救了他一命。回过神来，他发现自己竟穿越回到了15年前的2025年！为了向大河原报复，辽河凭借著未来的记忆与知识作为武器，向所有掌握财富与权力的统治者们亮出獠牙！他将利用「文物」攀上世界顶点，成为真正的「盗墓王」!",
-      "poster_url": "https://image.tmdb.org/t/p/original/arohqBQaGUFnqNqwERlIVQNmLFv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/efo2pV1xzSIyd35jXixoB2WJM3u.jpg"
+      "overview": "灭门之女顾青栀以西北郡主沈汐和的身份苏醒归来，从骄矜边疆玫瑰蜕变为冷情罗刹郡主，誓要自主人生，云巅执棋。储君萧华雍病骨藏锋，洞悉朝局。两人一路相知携手，执掌风云。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sWdiop8BQwODB6tVOMeTfi0XHE3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/35QPxowgWR3dmoPwfOUqq5b9evN.jpg"
     },
     {
-      "id": 69346,
-      "title": "幼女战记",
-      "type": "tv",
-      "genreTitle": "动画•剧情•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2017-01-06",
-      "overview": "统一历1923年6月，金发碧眼的幼女，谭雅·提古雷查夫，正作为部队勤务的一环而在北方军管区诺登战区第三巡逻线进行帝国军士官学校最终课程的研修。作为航空魔导师向着光辉履历踏出第一步的研修，平安无事地结束 ── 本该如此。但事态却向着超出预料的方向转变。以协约联合的越境侵犯为契机，帝国与协约联合进入战争状态。随着转移至战时体制，谭雅被交付了观测任务，但协约联合军发动奇袭，谭雅陷入不得不与敌军魔导师中队单独交战的事态。敌众我寡，就连在我军抵达之前牵制敌军都无法做到，但逃跑的话则难免敌前逃亡的死罪，她面临这种绝望的状况。为了无论如何存活下去，并在面对高层时做到最好的应对，谭雅使用了某个战略……",
-      "poster_url": "https://image.tmdb.org/t/p/original/dcb3KTCA3LDLB0tiZBQQKCoT3tK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xe2IkfzpGFObODJLTpBB9bdRpbB.jpg"
-    },
-    {
-      "id": 1170608,
-      "title": "沙丘3",
+      "id": 1595852,
+      "title": "Boulevard",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "讲述保罗·厄崔迪成为宇宙皇帝后，虽拥有预知未来的能力，却无法阻止以他之名发动的圣战席卷星系，在权力、信仰与个人命运的夹缝中，他逐渐走向无法回头的抉择与代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/itJtHn6U2lyJPaWNbWGx8Bam4b5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
+      "genreTitle": "剧情•爱情",
+      "rating": 4.5,
+      "release_date": "2026-04-10",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/fvk8wxyQXLlrBIMuglDxdMYLgBW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/98uiDns59GUw26SQSCFmuSHTki3.jpg"
     }
   ],
   "week_global_all": [
@@ -235,37 +235,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1368314,
-      "title": "鬼上车",
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.2,
-      "release_date": "2026-05-20",
-      "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.0,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 1280738,
       "title": "火遮眼",
       "type": "movie",
       "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.7,
+      "rating": 7.6,
       "release_date": "2026-06-10",
       "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
       "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
-    },
-    {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 4.9,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 125988,
@@ -279,15 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+      "id": 1212763,
+      "title": "鬼玩人：炼狱",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.3,
+      "release_date": "2026-07-07",
+      "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
     },
     {
       "id": 1368337,
@@ -301,6 +290,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
     },
     {
+      "id": 283304,
+      "title": "草原上的小木屋",
+      "type": "tv",
+      "genreTitle": "剧情•西部•家庭",
+      "rating": 4.2,
+      "release_date": "2026-07-09",
+      "overview": "英格斯一家离开原本的生活，来到美国西部草原展开拓荒之旅。面对大自然带来的喜悦与求生的艰辛，他们携手建立新的家园，也重新体会“家”真正的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e5NqtI6o8vzNN6GC8GJbuwDYP6U.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3Tvd8J99LXOVVpQZmBFvkKw8tFv.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -310,28 +321,6 @@
       "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
-      "id": 1202033,
-      "title": "福尔摩斯小姐3",
-      "type": "movie",
-      "genreTitle": "冒险•犯罪•悬疑",
-      "rating": 7.0,
-      "release_date": "2026-06-30",
-      "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
-    },
-    {
-      "id": 1212763,
-      "title": "鬼玩人6：炼狱",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.4,
-      "release_date": "2026-07-07",
-      "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
     },
     {
       "id": 1083381,
@@ -345,28 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qhTnrSsFOZi5oKhkTzvA9468lz9.jpg"
     },
     {
-      "id": 1081003,
-      "title": "超级少女",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.2,
-      "release_date": "2026-06-24",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
-    },
-    {
-      "id": 94664,
-      "title": "无职转生～到了异世界就拿出真本事～",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2021-01-11",
-      "overview": "“我要在这个异世界拿出真本事！”34岁童贞且无职的家里蹲男子，在父母的葬礼当天被赶出家门后，在路上被一辆卡车所撞死。意识清醒后，他发现自己居然作为一个刚出生的婴儿转生到了剑与魔法的异世界！像废物一样活过了前世的男子，发誓要作为少年·鲁迪乌斯在异世界以认真的态度好好活下去！等待着鲁迪乌斯的是，与娇小魔术师、有着精灵长耳又很男孩子气的美少女、凶暴的傲娇大小姐以及其他性格各异的人们之间的邂逅，当然也还有残酷的冒险与战斗。新的人生就要开始了！“人生重来型”幻想冒险谭，在此开幕！",
-      "poster_url": "https://image.tmdb.org/t/p/original/wMSO4QgEyUhnf1XLIpz5w371xtb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l8lwpvr1QA7GAz7vPHU76sNxP1o.jpg"
-    },
-    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -376,6 +343,28 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
+      "id": 1202033,
+      "title": "福尔摩斯小姐3",
+      "type": "movie",
+      "genreTitle": "冒险•犯罪•悬疑",
+      "rating": 7.0,
+      "release_date": "2026-06-30",
+      "overview": "侦探伊诺拉·福尔摩斯前往马耳他探险，并打算在那里结婚，但夏洛克的失踪令其卷入一桩危险的案件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fqwwPwdpKpgTWXmo16wjleJDalX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
+    },
+    {
+      "id": 1368314,
+      "title": "鬼上车",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.3,
+      "release_date": "2026-05-20",
+      "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
     },
     {
       "id": 969681,
@@ -389,37 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 312949,
-      "title": "尼古喵喵",
+      "id": 94664,
+      "title": "无职转生～到了异世界就拿出真本事～",
       "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2026-07-03",
-      "overview": "尼古喵喵是只超爱抽烟的废物兽人！\n\n因为缺乏伦理与卫生观念，不是把烟头往窗外乱丢，就是对人乱吐口水，偶尔还会做出一些违法乱纪的事。\n\n幸好她身边有贴心的管家婆妹妹猫以及好友猫作伴，让她依旧能每天吞云吐雾、得过且过的生活着。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p5soa8DFv7PYxjOlTMY1ARHjT3a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zAMw1Nu5XzGW50eNjBkIxF3kfrx.jpg"
-    },
-    {
-      "id": 253960,
-      "title": "气体人第一号",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•犯罪",
-      "rating": 7.8,
-      "release_date": "2026-07-02",
-      "overview": "冈本贤治是一位停职中的刑警，受命追查造成一连串离奇命案的罪魁祸首。一切始于一位大学教授在电视直播中身体突然膨胀爆炸，所有人惊魂未定之际，一名自称是“气体人”的男子登场，预告自己即将连续杀人，令整个社会陷入恐慌。贤治和记者京子竭尽全力挖掘真相、追捕凶手，这名罪犯的行为却似乎嘲弄着徒劳追捕他的相关当局。每一桩新的杀戮，都让社会遭到无形的恐惧进一步侵蚀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jRINbGiI9wjM9gwxw4IT5G0ErlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xTUY8hHCJx405xqheQeoD5Fz6bS.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.0,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2021-01-11",
+      "overview": "“我要在这个异世界拿出真本事！”34岁童贞且无职的家里蹲男子，在父母的葬礼当天被赶出家门后，在路上被一辆卡车所撞死。意识清醒后，他发现自己居然作为一个刚出生的婴儿转生到了剑与魔法的异世界！像废物一样活过了前世的男子，发誓要作为少年·鲁迪乌斯在异世界以认真的态度好好活下去！等待着鲁迪乌斯的是，与娇小魔术师、有着精灵长耳又很男孩子气的美少女、凶暴的傲娇大小姐以及其他性格各异的人们之间的邂逅，当然也还有残酷的冒险与战斗。新的人生就要开始了！“人生重来型”幻想冒险谭，在此开幕！",
+      "poster_url": "https://image.tmdb.org/t/p/original/wMSO4QgEyUhnf1XLIpz5w371xtb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l8lwpvr1QA7GAz7vPHU76sNxP1o.jpg"
     },
     {
       "id": 37854,
@@ -433,15 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 138502,
-      "title": "X战警97",
+      "id": 296206,
+      "title": "金特务：本色回归",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2024-03-20",
-      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pmNPP4TdwTXl6FgCY8ppOIu096A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.0,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+    },
+    {
+      "id": 253960,
+      "title": "气体人第一号",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•犯罪",
+      "rating": 7.8,
+      "release_date": "2026-07-02",
+      "overview": "冈本贤治是一位停职中的刑警，受命追查造成一连串离奇命案的罪魁祸首。一切始于一位大学教授在电视直播中身体突然膨胀爆炸，所有人惊魂未定之际，一名自称是“气体人”的男子登场，预告自己即将连续杀人，令整个社会陷入恐慌。贤治和记者京子竭尽全力挖掘真相、追捕凶手，这名罪犯的行为却似乎嘲弄着徒劳追捕他的相关当局。每一桩新的杀戮，都让社会遭到无形的恐惧进一步侵蚀。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jRINbGiI9wjM9gwxw4IT5G0ErlU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xTUY8hHCJx405xqheQeoD5Fz6bS.jpg"
+    },
+    {
+      "id": 687163,
+      "title": "挽救计划",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 8.7,
+      "release_date": "2026-03-15",
+      "overview": "太阳正在被“吃”掉，绝望吞噬地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜 题，寻回唯一的希望火种？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
+    },
+    {
+      "id": 252107,
+      "title": "星城",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•War & Politics",
+      "rating": 7.3,
+      "release_date": "2026-05-28",
+      "overview": "踏进受《为全人类》启发的惊险新篇章，同一个架空历史，却从苏联的角度出发，讲述铁幕背后一众宇航员、工程师和情报人员铤而走险，在登月竞赛中取胜求存。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1tbUKieOUaqiafxDnEwchd9KfDo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/g9kREkHW2fWDlJhlE1g8DqDBinS.jpg"
     }
   ],
   "popular_movies": [
