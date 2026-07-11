@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12 05:35:37",
+  "last_updated": "2026-07-12 06:32:55",
   "today_global": [
     {
       "id": 1339713,
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1280738,
-      "title": "火遮眼",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.5,
-      "release_date": "2025-09-07",
-      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
-    },
-    {
       "id": 1108427,
       "title": "海洋奇缘：启航",
       "type": "movie",
@@ -255,6 +244,17 @@
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+    },
+    {
+      "id": 1280738,
+      "title": "火遮眼",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.5,
+      "release_date": "2025-09-07",
+      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
     },
     {
       "id": 125988,
@@ -272,7 +272,7 @@
       "title": "奥德赛",
       "type": "movie",
       "genreTitle": "冒险•动作•奇幻",
-      "rating": 4.2,
+      "rating": 4.0,
       "release_date": "2026-07-15",
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
@@ -294,22 +294,11 @@
       "title": "鬼玩人：炼狱",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-07-07",
       "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
       "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
-    },
-    {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 1083381,
@@ -321,6 +310,17 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/qhTnrSsFOZi5oKhkTzvA9468lz9.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 1084244,
@@ -367,17 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 299167,
       "title": "达顿牧场",
       "type": "tv",
@@ -398,6 +387,17 @@
       "overview": "英格斯一家离开原本的生活，来到美国西部草原展开拓荒之旅。面对大自然带来的喜悦与求生的艰辛，他们携手建立新的家园，也重新体会“家”真正的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/e5NqtI6o8vzNN6GC8GJbuwDYP6U.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3Tvd8J99LXOVVpQZmBFvkKw8tFv.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 1314481,
