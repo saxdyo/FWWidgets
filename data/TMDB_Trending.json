@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 04:01:50",
+  "last_updated": "2026-07-15 05:42:17",
   "today_global": [
     {
       "id": 1083381,
@@ -17,11 +17,22 @@
       "title": "奥德赛",
       "type": "movie",
       "genreTitle": "冒险•动作•奇幻",
-      "rating": 5.4,
+      "rating": 5.2,
       "release_date": "2026-07-15",
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
+    },
+    {
+      "id": 1440050,
+      "title": "The Breadwinner",
+      "type": "movie",
+      "genreTitle": "喜剧•家庭",
+      "rating": 5.9,
+      "release_date": "2026-05-29",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/4apG9Xk6HQvV48JKEjSUeiebju7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jelsrPGIPjXMWdV94LdB8bBu4B9.jpg"
     },
     {
       "id": 1339713,
@@ -33,17 +44,6 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 1440050,
-      "title": "The Breadwinner",
-      "type": "movie",
-      "genreTitle": "喜剧•家庭",
-      "rating": 6.4,
-      "release_date": "2026-05-29",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/4apG9Xk6HQvV48JKEjSUeiebju7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jelsrPGIPjXMWdV94LdB8bBu4B9.jpg"
     },
     {
       "id": 1280738,
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 1248832,
-      "title": "挖掘者",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 0.0,
-      "release_date": "2026-09-30",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/44lQ4yVXNKdsEJOoBdfs9NQtu7p.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2ikG6AQhfhdas2pIsctPMEzSRJm.jpg"
-    },
-    {
       "id": 1212763,
       "title": "鬼玩人：炼狱",
       "type": "movie",
@@ -123,59 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
     },
     {
-      "id": 301412,
-      "title": "给你梦想",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 1.5,
-      "release_date": "2026-07-13",
-      "overview": "讲述由惠利饰演的「朱怡才」从怀抱梦想、无所畏惧的少女，成长为各地奔走的外景记者；而黄寅烨饰演的「禹秀彬」则勇敢踏出父母替他安排好的人生轨迹，成为以首部作品声名大噪的天才导演。多年后的重逢，不仅唤醒了两人尘封已久的梦想，也让青春时期未完的爱情故事，再度迎来书写的机会。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AoSrsUluuXcXZOO1IrZPnIqESQd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uG9ufzdzn5dQWlpsFHQWNKLSpsM.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员5",
+      "id": 1248832,
+      "title": "挖掘者",
       "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.4,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/jCsZCz3IOVwKnEpN7GmHzA8fjx3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
-      "id": 1397201,
-      "title": "黄金神威：网走监狱袭击篇",
-      "type": "movie",
-      "genreTitle": "动作•冒险•历史",
-      "rating": 7.9,
-      "release_date": "2026-03-13",
-      "overview": "在争夺阿伊努黄金宝藏的三方激战中，阿席莉帕和杉元前往网走监狱，野蓖坊在此等候并将告知二人关于自己父亲的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nYL0jsMZesJnmESAPAdYUosVrJw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eeiZikJBrnx5H5AQOaTD9Lt6DU3.jpg"
-    },
-    {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.3,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "喜剧",
+      "rating": 0.0,
+      "release_date": "2026-09-30",
+      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/44lQ4yVXNKdsEJOoBdfs9NQtu7p.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2ikG6AQhfhdas2pIsctPMEzSRJm.jpg"
     },
     {
       "id": 60625,
@@ -189,15 +134,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
-      "id": 296206,
-      "title": "金特务：本色回归",
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/jCsZCz3IOVwKnEpN7GmHzA8fjx3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.5,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 301412,
+      "title": "给你梦想",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 1.5,
+      "release_date": "2026-07-13",
+      "overview": "讲述由惠利饰演的「朱怡才」从怀抱梦想、无所畏惧的少女，成长为各地奔走的外景记者；而黄寅烨饰演的「禹秀彬」则勇敢踏出父母替他安排好的人生轨迹，成为以首部作品声名大噪的天才导演。多年后的重逢，不仅唤醒了两人尘封已久的梦想，也让青春时期未完的爱情故事，再度迎来书写的机会。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AoSrsUluuXcXZOO1IrZPnIqESQd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uG9ufzdzn5dQWlpsFHQWNKLSpsM.jpg"
+    },
+    {
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
+      "type": "movie",
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.3,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
+      "id": 1397201,
+      "title": "黄金神威：网走监狱袭击篇",
+      "type": "movie",
+      "genreTitle": "动作•冒险•历史",
+      "rating": 7.9,
+      "release_date": "2026-03-13",
+      "overview": "在争夺阿伊努黄金宝藏的三方激战中，阿席莉帕和杉元前往网走监狱，野蓖坊在此等候并将告知二人关于自己父亲的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nYL0jsMZesJnmESAPAdYUosVrJw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eeiZikJBrnx5H5AQOaTD9Lt6DU3.jpg"
     },
     {
       "id": 1380316,
@@ -209,6 +198,17 @@
       "overview": "聚焦一对身上有烧伤疤痕的姐妹，她们被病床上的母亲要求去杀掉父亲——是他电影下载妻女，把她们烧伤。两人因此踏上了一场奇特的旅程，是复仇，还是宽恕？",
       "poster_url": "https://image.tmdb.org/t/p/original/642wkhrR4oKDEIcmPZpb4qROo4C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/yvUSxKodDwPWYx4eWGtoHM9CVO7.jpg"
+    },
+    {
+      "id": 255358,
+      "title": "新攻壳机动队",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 9.1,
+      "release_date": "2026-07-07",
+      "overview": "公元2029年，近未来日本高度信息化，电子网络覆盖全球。全身义体化的草薙素子与巴特等人受荒卷大辅招募，组建公安九课，专门打击网络犯罪与国际阴谋。随着神秘黑客“傀儡师”现身，一场关乎人类、意识与未来的赛博朋克危机就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/14udGIBIqwivmzW1f12sQoIsqsr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ehpr5PIFrOHQl4cZZf1PDBwdYKc.jpg"
     },
     {
       "id": 687163,
@@ -272,7 +272,7 @@
       "title": "奥德赛",
       "type": "movie",
       "genreTitle": "冒险•动作•奇幻",
-      "rating": 5.2,
+      "rating": 5.1,
       "release_date": "2026-07-15",
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
@@ -312,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -334,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 1368314,
@@ -354,6 +343,17 @@
       "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 60625,
@@ -378,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3Tvd8J99LXOVVpQZmBFvkKw8tFv.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
+      "id": 1440050,
+      "title": "The Breadwinner",
       "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.3,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+      "genreTitle": "喜剧•家庭",
+      "rating": 5.9,
+      "release_date": "2026-05-29",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/axojupFSNsgfghWYvlK3uisssk4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jelsrPGIPjXMWdV94LdB8bBu4B9.jpg"
     },
     {
       "id": 687163,
@@ -400,37 +400,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
     },
     {
-      "id": 1440050,
-      "title": "The Breadwinner",
+      "id": 1315772,
+      "title": "小黄人与大怪兽",
       "type": "movie",
-      "genreTitle": "喜剧•家庭",
-      "rating": 6.4,
-      "release_date": "2026-05-29",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/4apG9Xk6HQvV48JKEjSUeiebju7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jelsrPGIPjXMWdV94LdB8bBu4B9.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
-    },
-    {
-      "id": 296206,
-      "title": "金特务：本色回归",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.5,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+      "genreTitle": "冒险•动画•喜剧",
+      "rating": 6.3,
+      "release_date": "2026-06-24",
+      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
       "id": 255358,
@@ -442,6 +420,28 @@
       "overview": "公元2029年，近未来日本高度信息化，电子网络覆盖全球。全身义体化的草薙素子与巴特等人受荒卷大辅招募，组建公安九课，专门打击网络犯罪与国际阴谋。随着神秘黑客“傀儡师”现身，一场关乎人类、意识与未来的赛博朋克危机就此展开。",
       "poster_url": "https://image.tmdb.org/t/p/original/14udGIBIqwivmzW1f12sQoIsqsr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ehpr5PIFrOHQl4cZZf1PDBwdYKc.jpg"
+    },
+    {
+      "id": 950028,
+      "title": "激情邀约",
+      "type": "movie",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.6,
+      "release_date": "2026-06-25",
+      "overview": "影片改编自西班牙电影《多愁善感》，是一部关于夫妻关系的讽刺喜剧。影片讲述的是“一对夫妇邀请邻居过来，点燃了一场充满意想不到的转折的夜晚，揭示了深藏的情感和未被探索的性欲。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/fYvFr8hmabWNNMa7PXZSGMfA9gY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vNACQTOWt9mYvFONNzDhUf3Ah4.jpg"
+    },
+    {
+      "id": 296206,
+      "title": "金特务：本色回归",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.5,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
     }
   ],
   "popular_movies": [
