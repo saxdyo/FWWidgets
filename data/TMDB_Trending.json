@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 06:42:07",
+  "last_updated": "2026-07-15 07:38:16",
   "today_global": [
     {
       "id": 1083381,
@@ -13,6 +13,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
+      "id": 1440050,
+      "title": "The Breadwinner",
+      "type": "movie",
+      "genreTitle": "喜剧•家庭",
+      "rating": 5.8,
+      "release_date": "2026-05-29",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/axojupFSNsgfghWYvlK3uisssk4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eOH7c1ekKmtD8aid90tprpVv8NI.jpg"
+    },
+    {
       "id": 1368337,
       "title": "奥德赛",
       "type": "movie",
@@ -22,17 +33,6 @@
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"
-    },
-    {
-      "id": 1440050,
-      "title": "The Breadwinner",
-      "type": "movie",
-      "genreTitle": "喜剧•家庭",
-      "rating": 5.9,
-      "release_date": "2026-05-29",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/axojupFSNsgfghWYvlK3uisssk4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jelsrPGIPjXMWdV94LdB8bBu4B9.jpg"
     },
     {
       "id": 1339713,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 5.6,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
-    },
-    {
       "id": 1212763,
       "title": "鬼玩人：炼狱",
       "type": "movie",
@@ -90,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.6,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 125988,
@@ -112,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
+    },
+    {
       "id": 1248832,
       "title": "挖掘者",
       "type": "movie",
@@ -121,28 +121,6 @@
       "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
       "poster_url": "https://image.tmdb.org/t/p/original/44lQ4yVXNKdsEJOoBdfs9NQtu7p.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2ikG6AQhfhdas2pIsctPMEzSRJm.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 7.4,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/jCsZCz3IOVwKnEpN7GmHzA8fjx3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
-    },
-    {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
       "id": 255358,
@@ -156,11 +134,44 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ehpr5PIFrOHQl4cZZf1PDBwdYKc.jpg"
     },
     {
+      "id": 60625,
+      "title": "瑞克和莫蒂",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.7,
+      "release_date": "2013-12-02",
+      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/jCsZCz3IOVwKnEpN7GmHzA8fjx3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 1380316,
+      "title": "上帝是吗？",
+      "type": "movie",
+      "genreTitle": "剧情•惊悚",
+      "rating": 5.9,
+      "release_date": "2026-05-14",
+      "overview": "聚焦一对身上有烧伤疤痕的姐妹，她们被病床上的母亲要求去杀掉父亲——是他电影下载妻女，把她们烧伤。两人因此踏上了一场奇特的旅程，是复仇，还是宽恕？",
+      "poster_url": "https://image.tmdb.org/t/p/original/642wkhrR4oKDEIcmPZpb4qROo4C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yvUSxKodDwPWYx4eWGtoHM9CVO7.jpg"
+    },
+    {
       "id": 1397201,
       "title": "黄金神威：网走监狱袭击篇",
       "type": "movie",
       "genreTitle": "动作•冒险•历史",
-      "rating": 8.1,
+      "rating": 8.3,
       "release_date": "2026-03-13",
       "overview": "在争夺阿伊努黄金宝藏的三方激战中，阿席莉帕和杉元前往网走监狱，野蓖坊在此等候并将告知二人关于自己父亲的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/nYL0jsMZesJnmESAPAdYUosVrJw.jpg",
@@ -178,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 1380316,
-      "title": "上帝是吗？",
-      "type": "movie",
-      "genreTitle": "剧情•惊悚",
-      "rating": 5.9,
-      "release_date": "2026-05-14",
-      "overview": "聚焦一对身上有烧伤疤痕的姐妹，她们被病床上的母亲要求去杀掉父亲——是他电影下载妻女，把她们烧伤。两人因此踏上了一场奇特的旅程，是复仇，还是宽恕？",
-      "poster_url": "https://image.tmdb.org/t/p/original/642wkhrR4oKDEIcmPZpb4qROo4C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yvUSxKodDwPWYx4eWGtoHM9CVO7.jpg"
-    },
-    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -204,7 +204,7 @@
       "title": "给你梦想",
       "type": "tv",
       "genreTitle": "剧情•喜剧",
-      "rating": 1.5,
+      "rating": 6.8,
       "release_date": "2026-07-13",
       "overview": "讲述由惠利饰演的「朱怡才」从怀抱梦想、无所畏惧的少女，成长为各地奔走的外景记者；而黄寅烨饰演的「禹秀彬」则勇敢踏出父母替他安排好的人生轨迹，成为以首部作品声名大噪的天才导演。多年后的重逢，不仅唤醒了两人尘封已久的梦想，也让青春时期未完的爱情故事，再度迎来书写的机会。",
       "poster_url": "https://image.tmdb.org/t/p/original/AoSrsUluuXcXZOO1IrZPnIqESQd.jpg",
@@ -342,7 +342,7 @@
       "release_date": "2026-05-29",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/axojupFSNsgfghWYvlK3uisssk4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jelsrPGIPjXMWdV94LdB8bBu4B9.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eOH7c1ekKmtD8aid90tprpVv8NI.jpg"
     },
     {
       "id": 1368314,
