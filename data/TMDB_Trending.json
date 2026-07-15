@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-16 05:43:46",
+  "last_updated": "2026-07-16 06:43:39",
   "today_global": [
     {
       "id": 278624,
       "title": "幸运女神",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 5.4,
+      "rating": 5.2,
       "release_date": "2026-07-14",
       "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒“幸运儿”露西被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
       "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
@@ -17,7 +17,7 @@
       "title": "奥德赛",
       "type": "movie",
       "genreTitle": "冒险•动作•奇幻",
-      "rating": 5.9,
+      "rating": 6.1,
       "release_date": "2026-07-15",
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
@@ -28,7 +28,7 @@
       "title": "后室",
       "type": "movie",
       "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 6.9,
+      "rating": 7.0,
       "release_date": "2026-05-27",
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
@@ -39,7 +39,7 @@
       "title": "痴迷",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 8.3,
+      "rating": 8.2,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
@@ -50,7 +50,7 @@
       "title": "一家之主",
       "type": "movie",
       "genreTitle": "喜剧•家庭",
-      "rating": 6.2,
+      "rating": 6.5,
       "release_date": "2026-05-29",
       "overview": "全能妈妈在《创智赢家》（鲨鱼坦克）拿到投资合约后，与原本负责养家的丈夫互换身份。丈夫变身全职奶爸，照料三个女儿，艰难适应全新生活。",
       "poster_url": "https://image.tmdb.org/t/p/original/axojupFSNsgfghWYvlK3uisssk4.jpg",
@@ -61,7 +61,7 @@
       "title": "海洋奇缘：启航",
       "type": "movie",
       "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 5.5,
+      "rating": 5.6,
       "release_date": "2026-07-08",
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
@@ -112,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/z7D92Edbp3hHYd9YrWQqUBxY7eO.jpg"
     },
     {
-      "id": 255358,
-      "title": "新攻壳机动队",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 9.0,
-      "release_date": "2026-07-07",
-      "overview": "公元2029年，近未来日本高度信息化，电子网络覆盖全球。全身义体化的草薙素子与巴特等人受荒卷大辅招募，组建公安九课，专门打击网络犯罪与国际阴谋。随着神秘黑客“傀儡师”现身，一场关乎人类、意识与未来的赛博朋克危机就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/14udGIBIqwivmzW1f12sQoIsqsr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ehpr5PIFrOHQl4cZZf1PDBwdYKc.jpg"
-    },
-    {
       "id": 138502,
       "title": "X战警97",
       "type": "tv",
@@ -143,6 +132,17 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 255358,
+      "title": "新攻壳机动队",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "release_date": "2026-07-07",
+      "overview": "公元2029年，近未来日本高度信息化，电子网络覆盖全球。全身义体化的草薙素子与巴特等人受荒卷大辅招募，组建公安九课，专门打击网络犯罪与国际阴谋。随着神秘黑客“傀儡师”现身，一场关乎人类、意识与未来的赛博朋克危机就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/14udGIBIqwivmzW1f12sQoIsqsr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ehpr5PIFrOHQl4cZZf1PDBwdYKc.jpg"
     },
     {
       "id": 125988,
@@ -178,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7sdPDXWmACNoaLq0ZpN5m01q43W.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
-    },
-    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -198,6 +187,17 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
       "id": 687163,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
     }
   ],
   "week_global_all": [
