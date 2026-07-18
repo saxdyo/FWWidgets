@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 03:55:38",
+  "last_updated": "2026-07-19 04:34:37",
   "today_global": [
     {
       "id": 1368337,
@@ -17,7 +17,7 @@
       "title": "鬼谜东宫",
       "type": "tv",
       "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.0,
+      "rating": 7.9,
       "release_date": "2026-07-17",
       "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
-      "id": 1318621,
-      "title": "星光继承者：暗黑仙境",
-      "type": "movie",
-      "genreTitle": "奇幻•家庭•电视电影",
-      "rating": 7.2,
-      "release_date": "2026-07-16",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/txvtdhLGkDXzNkWukNwiD5FBQLc.jpg"
-    },
-    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -55,6 +44,17 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 1318621,
+      "title": "星光继承者：暗黑仙境",
+      "type": "movie",
+      "genreTitle": "奇幻•家庭•电视电影",
+      "rating": 7.0,
+      "release_date": "2026-07-16",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/txvtdhLGkDXzNkWukNwiD5FBQLc.jpg"
     },
     {
       "id": 1656220,
@@ -83,11 +83,22 @@
       "title": "欲海暗涌",
       "type": "movie",
       "genreTitle": "悬疑•剧情",
-      "rating": 5.9,
+      "rating": 6.2,
       "release_date": "2026-05-07",
       "overview": "卢塞洛是一位事业成功的律师，表面上拥有完美的生活，却在与女儿年轻的游泳教练的一段婚外激情中逐渐沉沦。最初这段禁忌之情只是欲望的放纵，却很快演变成对她婚姻与事业脆弱平衡的威胁。随着悲剧的发生，她的世界分崩离析，对家人的爱也经受着严峻的考验。为了守护家人，卢塞洛将发现自己究竟愿意付出何种程度的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/sUvYeS4wVXKregd3GpZjn27kBKm.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tXgAdNWi85yDssXy0653hVJ7Smt.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 278624,
@@ -101,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "id": 1280738,
+      "title": "火遮眼",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-06-10",
+      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
     },
     {
       "id": 296206,
@@ -134,26 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/az7uojwOwn96KIlQrBFlLGE3nB6.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 8.2,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
-    },
-    {
-      "id": 222623,
-      "title": "擅长逃跑的殿下",
+      "id": 254528,
+      "title": "高球鹰雄",
       "type": "tv",
-      "genreTitle": "动画•动作冒险",
-      "rating": 7.8,
-      "release_date": "2024-07-06",
-      "overview": "公元1333年，日本武士治国的镰仓幕府因深受信赖的幕臣足立高氏的叛变而灭亡。失去一切、陷入绝望的幕府正统继承人北条时行，在自称为神的神官诹访頼重的指引下，逃出了化为焦土的镰仓。\n\n时行逃亡至诹访后，遇到了值得信赖的伙伴，并逐渐积累了夺回镰仓所需的力量。面对时代变迁的惊涛骇浪，与以“战斗”和“死亡”为生存之道的武士们不同，时行选择了“逃跑”和“求生”来克服困境。在这英雄辈出的乱世，时行重新夺回天下的鬼抓人游戏将如何发展呢？",
-      "poster_url": "https://image.tmdb.org/t/p/original/y1cYeKaC0ZFTVz9f1KYSCd6fhsn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w8iRnZPaZAgHr4J8fZMVXbbiOZ4.jpg"
+      "genreTitle": "喜剧",
+      "rating": 4.4,
+      "release_date": "2026-07-16",
+      "overview": "朗尼·霍金斯（威尔·法瑞尔 饰）曾是2004年排名第一的高尔夫选手，如今在球涯后期苦苦挣扎，试图找回往日光彩。身体告诉他应该要退休了，但他的内心认为一切还没结束。前妻和身为高球界新金童的儿子兰斯都知道，他的时代已经过去。然而朗尼只差再赢下一场大赛，就能完成高尔夫“大满贯”。他始终拒绝相信大势已去，坚信自己距离高尔夫史上最伟大的东山再起，就只差这么一杆。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CJ6aauutghqXMiQCPpH4ihmcUZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l4KBO7xkG6fkaaj53ptOIOPW7V4.jpg"
     },
     {
       "id": 969681,
@@ -167,15 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
-      "id": 254528,
-      "title": "高球鹰雄",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 4.4,
-      "release_date": "2026-07-16",
-      "overview": "朗尼·霍金斯（威尔·法瑞尔 饰）曾是2004年排名第一的高尔夫选手，如今在球涯后期苦苦挣扎，试图找回往日光彩。身体告诉他应该要退休了，但他的内心认为一切还没结束。前妻和身为高球界新金童的儿子兰斯都知道，他的时代已经过去。然而朗尼只差再赢下一场大赛，就能完成高尔夫“大满贯”。他始终拒绝相信大势已去，坚信自己距离高尔夫史上最伟大的东山再起，就只差这么一杆。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CJ6aauutghqXMiQCPpH4ihmcUZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l4KBO7xkG6fkaaj53ptOIOPW7V4.jpg"
+      "id": 1212763,
+      "title": "鬼玩人：炼狱",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-07-07",
+      "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
     },
     {
       "id": 94997,
@@ -189,37 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 1280738,
-      "title": "火遮眼",
+      "id": 1058424,
+      "title": "希望",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.5,
-      "release_date": "2026-06-10",
-      "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 8.2,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
     },
     {
-      "id": 1616674,
-      "title": "亲情习作",
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 4.8,
-      "release_date": "2026-07-11",
-      "overview": "学校家族史作业促使一名成绩优异的青少年直面关系疏远的父亲。并寻求理解。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r2qZvqdzO1m9X3BRtqKLJBMl1ym.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1QiFfqaAhZi4HMlJNMvJVXOovc6.jpg"
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.8,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 1212763,
-      "title": "鬼玩人：炼狱",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-07-07",
-      "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "week_global_all": [
@@ -472,7 +472,7 @@
       "title": "奥德赛",
       "type": "movie",
       "genreTitle": "冒险•动作•奇幻",
-      "rating": 7.5,
+      "rating": 7.6,
       "release_date": "2026-08-14",
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
@@ -534,17 +534,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
-      "id": 1368314,
-      "title": "鬼上车",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.2,
-      "release_date": "2026-05-20",
-      "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
-    },
-    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -556,11 +545,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
     },
     {
+      "id": 1368314,
+      "title": "鬼上车",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.2,
+      "release_date": "2026-05-20",
+      "overview": "一对年轻情侣目睹了一场血肉横飞的高速公路惨剧后，原以为只是路上的惊魂插曲，却未曾想到，一个名为“凶灵”的恶魔早已悄然潜入他们的房车。当这个不散的恶灵开始步步紧逼，誓要将两人拖入地狱深渊时，原本浪漫的房车旅行彻底沦为一场挣脱不得的梦魇之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yRxCn3v7FeUBHh3gnutx0VsXdNC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fu3uTS1399f6ixyBTXJhH3RPxsB.jpg"
+    },
+    {
       "id": 1280738,
       "title": "火遮眼",
       "type": "movie",
       "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.4,
+      "rating": 7.5,
       "release_date": "2026-06-11",
       "overview": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
       "poster_url": "https://image.tmdb.org/t/p/original/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
@@ -582,7 +582,7 @@
       "title": "你的心会破碎",
       "type": "movie",
       "genreTitle": "爱情",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-03-26",
       "overview": "高中生波琳娜在新学校饱受欺凌，为了摆脱困境，她和校霸巴尔斯达成了一场交易：他假装成她的男友保护她，而她则对他言听计从。在这场假扮情侣的游戏中，两人渐渐动了真情，可她的家人和同学却千方百计想要拆散这对恋人。",
       "poster_url": "https://image.tmdb.org/t/p/original/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
@@ -600,15 +600,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
     },
     {
-      "id": 1413976,
-      "title": "公民义警",
+      "id": 936075,
+      "title": "迈克尔·杰克逊：巨星之路",
       "type": "movie",
-      "genreTitle": "惊悚•动作•犯罪",
-      "rating": 6.4,
-      "release_date": "2026-06-19",
-      "overview": "男主角桑德斯是一名义警，他追捕罪犯、伸张正义，成为社交媒体红人和公众眼中的英雄，但当地警察局长认为他是社会的威胁，打算将他打倒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ydEgw9vDABo4hiHsP29BVtMRTfS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eO1REczQpbV2uOeUkO6EG8VkNIe.jpg"
+      "genreTitle": "音乐•剧情",
+      "rating": 8.7,
+      "release_date": "2026-04-24",
+      "overview": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1hPSbiyfAhtWAIBf2XtDPA0NyvS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rSMReXYZ9vLaVuJ73gcnWJXcWE8.jpg"
     }
   ]
 }
