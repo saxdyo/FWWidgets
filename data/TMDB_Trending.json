@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 23:42:02",
+  "last_updated": "2026-07-20 00:39:40",
   "today_global": [
     {
       "id": 1368337,
@@ -39,7 +39,7 @@
       "title": "鬼谜东宫",
       "type": "tv",
       "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2026-07-17",
       "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
@@ -79,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9jdReHRO3tVsgIdDcY952FA5nfF.jpg"
     },
     {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
       "id": 296206,
       "title": "金特务：本色回归",
       "type": "tv",
@@ -90,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.9,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 278624,
@@ -112,15 +123,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
+      "id": 1656220,
+      "title": "23000条生命",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 5.8,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+      "genreTitle": "剧情",
+      "rating": 4.6,
+      "release_date": "2026-07-02",
+      "overview": "一群年轻人起航前往地中海营救难民，这项任务让他们对法律与正义的信念备受考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tpYT9AXw4XuMp0o5OYVNeHS2Gtx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f1ax7Fndh1lVqo1YjyZu8CQMAh6.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
     },
     {
       "id": 1280738,
@@ -145,48 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
-      "id": 289139,
-      "title": "这一秒过火",
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 0.0,
-      "release_date": "2026-07-19",
-      "overview": "民国乱世，备受冷眼的世家少爷慕容清峄与饱受苦难的复仇孤女任素素阴差阳错结缘相识，却因误会含恨而别。两人再重逢，却身份错位，陷入爱恨交织的极限拉扯中。二人历经世事波折与生离死别，最后携手直面乱世危局。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4e1ycw3hY6aAtUGIsLOk80gTobn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xj7FJeDDr2w7QQS6negtXb0AEMg.jpg"
-    },
-    {
-      "id": 1468683,
-      "title": "心跳为你停：直到永远",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.7,
-      "release_date": "2026-07-14",
-      "overview": "毕业季来临，尼克即将离家去上大学，而查理在学校有了独立新生活，远距离恋爱的现实问题开始让他们倍感沉重。猜疑在心中滋长，两人的关系面临迄今最大的考验。与此同时，他们的好友也各自面临爱情与友情的起起落落，在学习成长与放下的过程中尝尽苦乐参半的滋味。初恋真能持续到永远吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/tPMYrcNr4kwcGGAiHcvZ6BuD8eE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aE3Nd8BrArylYBrf4AbRStyvNmG.jpg"
-    },
-    {
-      "id": 241882,
-      "title": "亡命闺蜜",
-      "type": "tv",
-      "genreTitle": "动作冒险",
-      "rating": 4.7,
-      "release_date": "2026-07-15",
-      "overview": "黛比和闺蜜朱迪丝被迫展开逃亡，因为她发现朱迪丝根本不是什么法务会计师，而是国际杀手！在神秘人物的追杀下，加上黛比的丈夫涉入某个极度腐败的事件中，她们必须与时间赛跑，展开一场横跨欧洲的公路之旅以厘清真相、保住性命。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bApmHdczQOmds4cCXx0naZ4IUqE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/foCghy8VgobIKo2KUNQ1DHytTFD.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 931285,
@@ -200,26 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5aNsrFMfQsJ3zn2M9U5HxZW83DX.jpg"
     },
     {
-      "id": 1656220,
-      "title": "23000条生命",
+      "id": 1084244,
+      "title": "玩具总动员5",
       "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 4.7,
-      "release_date": "2026-07-02",
-      "overview": "一群年轻人起航前往地中海营救难民，这项任务让他们对法律与正义的信念备受考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tpYT9AXw4XuMp0o5OYVNeHS2Gtx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f1ax7Fndh1lVqo1YjyZu8CQMAh6.jpg"
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/jCsZCz3IOVwKnEpN7GmHzA8fjx3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 8.1,
+      "id": 241882,
+      "title": "亡命闺蜜",
+      "type": "tv",
+      "genreTitle": "动作冒险",
+      "rating": 4.7,
       "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
+      "overview": "黛比和闺蜜朱迪丝被迫展开逃亡，因为她发现朱迪丝根本不是什么法务会计师，而是国际杀手！在神秘人物的追杀下，加上黛比的丈夫涉入某个极度腐败的事件中，她们必须与时间赛跑，展开一场横跨欧洲的公路之旅以厘清真相、保住性命。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bApmHdczQOmds4cCXx0naZ4IUqE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/foCghy8VgobIKo2KUNQ1DHytTFD.jpg"
+    },
+    {
+      "id": 1468683,
+      "title": "心跳为你停：直到永远",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.6,
+      "release_date": "2026-07-14",
+      "overview": "毕业季来临，尼克即将离家去上大学，而查理在学校有了独立新生活，远距离恋爱的现实问题开始让他们倍感沉重。猜疑在心中滋长，两人的关系面临迄今最大的考验。与此同时，他们的好友也各自面临爱情与友情的起起落落，在学习成长与放下的过程中尝尽苦乐参半的滋味。初恋真能持续到永远吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/tPMYrcNr4kwcGGAiHcvZ6BuD8eE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aE3Nd8BrArylYBrf4AbRStyvNmG.jpg"
     }
   ],
   "week_global_all": [
@@ -250,11 +250,22 @@
       "title": "痴迷",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 8.3,
+      "rating": 8.2,
       "release_date": "2026-05-13",
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 279323,
+      "title": "鬼谜东宫",
+      "type": "tv",
+      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.8,
+      "release_date": "2026-07-17",
+      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
     },
     {
       "id": 278624,
@@ -268,15 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 279323,
-      "title": "鬼谜东宫",
-      "type": "tv",
-      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.7,
-      "release_date": "2026-07-17",
-      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.9,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 125988,
@@ -290,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 5.8,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
-    },
-    {
       "id": 1318621,
       "title": "星光继承者：暗黑仙境",
       "type": "movie",
@@ -310,6 +310,17 @@
       "overview": "红公主和克萝伊成功改写历史，阻止了红心皇后走上黑化之路。 以为就此迎来大团圆结局，没想到竟然催生出全新反派。 这次她们将与新伙伴携手合作，在重重危机之中拯救仙境。",
       "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/txvtdhLGkDXzNkWukNwiD5FBQLc.jpg"
+    },
+    {
+      "id": 1212763,
+      "title": "鬼玩人：炼狱",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-07-07",
+      "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
     },
     {
       "id": 1280738,
@@ -334,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 1212763,
-      "title": "鬼玩人：炼狱",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-07-07",
-      "overview": "丈夫去世后，一名女子前往娘家偏僻的祖宅寻求慰藉。随着家人一个个被转化为“邪灵”，让这场聚会变成了来自地狱的家庭重逢，她逐渐发现，自己在生前许下的誓言，即便在死后依然索命不休。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9XkPQMF9KkulsmmK5siFirCFjWP.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -354,50 +354,6 @@
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/r1ubLKr9XIZN6enAwOWelj47zgU.jpg"
-    },
-    {
-      "id": 296206,
-      "title": "金特务：本色回归",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.4,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
-    },
-    {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 8.1,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
       "id": 1084244,
@@ -411,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
-      "id": 254528,
-      "title": "高球鹰雄",
+      "id": 296206,
+      "title": "金特务：本色回归",
       "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 4.5,
-      "release_date": "2026-07-16",
-      "overview": "朗尼·霍金斯（威尔·法瑞尔 饰）曾是2004年排名第一的高尔夫选手，如今在球涯后期苦苦挣扎，试图找回往日光彩。身体告诉他应该要退休了，但他的内心认为一切还没结束。前妻和身为高球界新金童的儿子兰斯都知道，他的时代已经过去。然而朗尼只差再赢下一场大赛，就能完成高尔夫“大满贯”。他始终拒绝相信大势已去，坚信自己距离高尔夫史上最伟大的东山再起，就只差这么一杆。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2CJ6aauutghqXMiQCPpH4ihmcUZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l4KBO7xkG6fkaaj53ptOIOPW7V4.jpg"
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.4,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
     },
     {
       "id": 1315772,
@@ -431,6 +387,50 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 8.1,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
+    },
+    {
+      "id": 60625,
+      "title": "瑞克和莫蒂",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.7,
+      "release_date": "2013-12-02",
+      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
+    },
+    {
+      "id": 254528,
+      "title": "高球鹰雄",
+      "type": "tv",
+      "genreTitle": "喜剧",
+      "rating": 4.5,
+      "release_date": "2026-07-16",
+      "overview": "朗尼·霍金斯（威尔·法瑞尔 饰）曾是2004年排名第一的高尔夫选手，如今在球涯后期苦苦挣扎，试图找回往日光彩。身体告诉他应该要退休了，但他的内心认为一切还没结束。前妻和身为高球界新金童的儿子兰斯都知道，他的时代已经过去。然而朗尼只差再赢下一场大赛，就能完成高尔夫“大满贯”。他始终拒绝相信大势已去，坚信自己距离高尔夫史上最伟大的东山再起，就只差这么一杆。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2CJ6aauutghqXMiQCPpH4ihmcUZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l4KBO7xkG6fkaaj53ptOIOPW7V4.jpg"
     },
     {
       "id": 1314481,
