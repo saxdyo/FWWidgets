@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 06:46:38",
+  "last_updated": "2026-07-23 07:48:48",
   "today_global": [
     {
       "id": 1275779,
@@ -17,22 +17,11 @@
       "title": "宇宙巨人：希曼崛起",
       "type": "movie",
       "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-06-03",
       "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
       "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
-    },
-    {
-      "id": 281281,
-      "title": "GIGN：精英部队",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.8,
-      "release_date": "2026-07-22",
-      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/DuXHZLWYIGW2vG6HFhOv5skDPQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yqavGt058YB6o2SOJunH0ZJYn6h.jpg"
     },
     {
       "id": 1368337,
@@ -44,6 +33,17 @@
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 281281,
+      "title": "GIGN：精英部队",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.8,
+      "release_date": "2026-07-22",
+      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/DuXHZLWYIGW2vG6HFhOv5skDPQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yqavGt058YB6o2SOJunH0ZJYn6h.jpg"
     },
     {
       "id": 1273221,
@@ -119,7 +119,7 @@
       "rating": 6.8,
       "release_date": "2026-07-22",
       "overview": "改编自伊莉丝·松永的真实案件，她动手杀害并肢解丈夫的尸体，震惊巴西上下。本片以虚构视角探究伊莉丝的故事，揭露一段混乱关系里的互动方式，以及又是哪些抉择导致这起骇人的罪案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/heU6R1LwpguWVtGsCttiY0wTHaU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/FzZ8NGlSDFYJ7g9f2aURPvItFt.jpg"
     },
     {
@@ -178,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 279323,
-      "title": "鬼谜东宫",
-      "type": "tv",
-      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.9,
-      "release_date": "2026-07-17",
-      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
-    },
-    {
       "id": 1400940,
       "title": "泥面人",
       "type": "movie",
@@ -198,6 +187,17 @@
       "overview": "本片讲述一位B级片演员给自己注射一种物质来保持状态，却发现他可以改变自己的脸和体形，成为一块行走的泥土。",
       "poster_url": "https://image.tmdb.org/t/p/original/8CVxezsk8HLHC28FDbEHEfh6pMU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/meDlo7HGy8fCt6nNfZJruX7hsGR.jpg"
+    },
+    {
+      "id": 60625,
+      "title": "瑞克和莫蒂",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.7,
+      "release_date": "2013-12-02",
+      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
       "id": 37854,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 138502,
-      "title": "X战警97",
+      "id": 279323,
+      "title": "鬼谜东宫",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.6,
-      "release_date": "2024-03-20",
-      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pmNPP4TdwTXl6FgCY8ppOIu096A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
+      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.9,
+      "release_date": "2026-07-17",
+      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
     }
   ],
   "week_global_all": [
@@ -250,7 +250,7 @@
       "title": "宇宙巨人：希曼崛起",
       "type": "movie",
       "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.0,
+      "rating": 7.1,
       "release_date": "2026-06-03",
       "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
       "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
@@ -356,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
     },
     {
-      "id": 1318621,
-      "title": "星光继承者：暗黑仙境",
-      "type": "movie",
-      "genreTitle": "奇幻•家庭•电视电影",
-      "rating": 7.7,
-      "release_date": "2026-07-16",
-      "overview": "红公主和克萝伊成功改写历史，阻止了红心皇后走上黑化之路。 以为就此迎来大团圆结局，没想到竟然催生出全新反派。 这次她们将与新伙伴携手合作，在重重危机之中拯救仙境。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/txvtdhLGkDXzNkWukNwiD5FBQLc.jpg"
-    },
-    {
       "id": 1003596,
       "title": "复仇者联盟5",
       "type": "movie",
@@ -376,6 +365,17 @@
       "overview": "讲述了复仇者联盟一行人对抗试图征服多元宇宙的征服者康的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/2UnOGhrwaDLyhlbYrSDDQWci4UC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
+    },
+    {
+      "id": 1318621,
+      "title": "星光继承者：暗黑仙境",
+      "type": "movie",
+      "genreTitle": "奇幻•家庭•电视电影",
+      "rating": 7.7,
+      "release_date": "2026-07-16",
+      "overview": "红公主和克萝伊成功改写历史，阻止了红心皇后走上黑化之路。 以为就此迎来大团圆结局，没想到竟然催生出全新反派。 这次她们将与新伙伴携手合作，在重重危机之中拯救仙境。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/txvtdhLGkDXzNkWukNwiD5FBQLc.jpg"
     },
     {
       "id": 1108427,
@@ -411,17 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 215072,
-      "title": "杀人者的购物中心",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•悬疑",
-      "rating": 8.3,
-      "release_date": "2024-01-17",
-      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
-      "poster_url": "https://image.tmdb.org/t/p/original/3T61ZGr2AAh0NySpax8QYrMVYWu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
-    },
-    {
       "id": 60625,
       "title": "瑞克和莫蒂",
       "type": "tv",
@@ -431,6 +420,17 @@
       "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
+    },
+    {
+      "id": 215072,
+      "title": "杀人者的购物中心",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•悬疑",
+      "rating": 8.3,
+      "release_date": "2024-01-17",
+      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3T61ZGr2AAh0NySpax8QYrMVYWu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
     },
     {
       "id": 1280738,
