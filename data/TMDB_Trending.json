@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24 06:42:25",
+  "last_updated": "2026-07-24 07:44:44",
   "today_global": [
     {
       "id": 454639,
@@ -197,7 +197,7 @@
       "release_date": "2026-06-18",
       "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
       "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4sZ4SAy34TAZEuyH9eJYRClGYUs.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ugOolHi7NNSoSclURMEcuMAIAl7.jpg"
     },
     {
       "id": 1084244,
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 7.0,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -312,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
-      "id": 278624,
-      "title": "幸运女神",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
       "rating": 7.0,
-      "release_date": "2026-07-14",
-      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 125988,
@@ -334,11 +323,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
+      "id": 278624,
+      "title": "幸运女神",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.0,
+      "release_date": "2026-07-14",
+      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
+    },
+    {
+      "id": 103516,
+      "title": "星际迷航：奇异新世界",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.0,
+      "release_date": "2022-05-05",
+      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
+    },
+    {
       "id": 279323,
       "title": "鬼谜东宫",
       "type": "tv",
       "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.9,
+      "rating": 8.0,
       "release_date": "2026-07-17",
       "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
@@ -376,17 +387,6 @@
       "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
       "poster_url": "https://image.tmdb.org/t/p/original/DuXHZLWYIGW2vG6HFhOv5skDPQ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tMpfa73LmKpeZ3Fix1QmFGIUrKI.jpg"
-    },
-    {
-      "id": 103516,
-      "title": "星际迷航：奇异新世界",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.0,
-      "release_date": "2022-05-05",
-      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
     },
     {
       "id": 1084244,
