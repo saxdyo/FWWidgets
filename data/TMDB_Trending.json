@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24 04:03:59",
+  "last_updated": "2026-07-24 05:51:09",
   "today_global": [
     {
       "id": 454639,
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tMpfa73LmKpeZ3Fix1QmFGIUrKI.jpg"
     },
     {
-      "id": 1630409,
-      "title": "末路讨债人",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 6.5,
-      "release_date": "2026-07-20",
-      "overview": "出狱后饱受内疚折磨的前讨债人，与绝症赛跑，重返昔日世界，为高利贷受害者复仇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ymRyjfCVmEthXCfzjRJZYrq7baK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5Va6qlwvpneo0XLzGFlvgYH5ncP.jpg"
-    },
-    {
       "id": 1273221,
       "title": "惊声尖笑6",
       "type": "movie",
@@ -66,6 +55,17 @@
       "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
       "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
+    },
+    {
+      "id": 1630409,
+      "title": "末路讨债人",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 6.5,
+      "release_date": "2026-07-20",
+      "overview": "出狱后饱受内疚折磨的前讨债人，与绝症赛跑，重返昔日世界，为高利贷受害者复仇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ymRyjfCVmEthXCfzjRJZYrq7baK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5Va6qlwvpneo0XLzGFlvgYH5ncP.jpg"
     },
     {
       "id": 1228710,
@@ -90,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
-      "id": 1487861,
-      "title": "暗影伊莉丝",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪•剧情",
-      "rating": 5.9,
-      "release_date": "2026-07-22",
-      "overview": "改编自伊莉丝·松永的真实案件，她动手杀害并肢解丈夫的尸体，震惊巴西上下。本片以虚构视角探究伊莉丝的故事，揭露一段混乱关系里的互动方式，以及又是哪些抉择导致这起骇人的罪案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wlQIDrjQa3QvskMiT1mtzE7BJC7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/FzZ8NGlSDFYJ7g9f2aURPvItFt.jpg"
+      "id": 103516,
+      "title": "星际迷航：奇异新世界",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.0,
+      "release_date": "2022-05-05",
+      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
     },
     {
       "id": 1083381,
@@ -112,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
       "id": 215072,
       "title": "杀人者的购物中心",
       "type": "tv",
@@ -123,26 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
     },
     {
-      "id": 103516,
-      "title": "星际迷航：奇异新世界",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.0,
-      "release_date": "2022-05-05",
-      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
+      "id": 1487861,
+      "title": "暗影伊莉丝",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+      "genreTitle": "惊悚•犯罪•剧情",
+      "rating": 5.8,
+      "release_date": "2026-07-22",
+      "overview": "改编自伊莉丝·松永的真实案件，她动手杀害并肢解丈夫的尸体，震惊巴西上下。本片以虚构视角探究伊莉丝的故事，揭露一段混乱关系里的互动方式，以及又是哪些抉择导致这起骇人的罪案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wlQIDrjQa3QvskMiT1mtzE7BJC7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/FzZ8NGlSDFYJ7g9f2aURPvItFt.jpg"
     },
     {
       "id": 240993,
@@ -178,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 1284465,
-      "title": "罗宾汉之死",
-      "type": "movie",
-      "genreTitle": "冒险•剧情•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-06-18",
-      "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4sZ4SAy34TAZEuyH9eJYRClGYUs.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -200,15 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5",
+      "id": 1284465,
+      "title": "罗宾汉之死",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "讲述了复仇者联盟一行人对抗试图征服多元宇宙的征服者康的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2UnOGhrwaDLyhlbYrSDDQWci4UC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
+      "genreTitle": "冒险•剧情•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-06-18",
+      "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4sZ4SAy34TAZEuyH9eJYRClGYUs.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
       "id": 329394,
@@ -246,15 +246,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
     },
     {
-      "id": 240993,
-      "title": "兰森峡谷",
-      "type": "tv",
-      "genreTitle": "剧情•西部",
-      "rating": 7.1,
-      "release_date": "2025-04-17",
-      "overview": "一部充满浪漫气息的家庭剧和当代西部传奇故事，讲述了三个牧场家庭在德克萨斯州山区广阔的苔原和滚滚河流的背景下相互交织的生活和爱情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6G2p138whZGHsP3gmhINZVDkanB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oWIzItuQO6gOrPdQ72S1flATCcX.jpg"
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
     },
     {
       "id": 1083381,
@@ -268,15 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
-      "id": 1273221,
-      "title": "惊声尖笑6",
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.5,
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.3,
       "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
       "id": 1339713,
@@ -290,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 279323,
-      "title": "鬼谜东宫",
-      "type": "tv",
-      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.9,
-      "release_date": "2026-07-17",
-      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 7.0,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 969681,
@@ -312,28 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 7.0,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.3,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
-    },
-    {
       "id": 278624,
       "title": "幸运女神",
       "type": "tv",
@@ -345,11 +323,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
+      "id": 279323,
+      "title": "鬼谜东宫",
+      "type": "tv",
+      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.9,
+      "release_date": "2026-07-17",
+      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
+    },
+    {
       "id": 1318621,
       "title": "星光继承者：暗黑仙境",
       "type": "movie",
       "genreTitle": "奇幻•家庭•电视电影",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2026-07-16",
       "overview": "红公主和克萝伊成功改写历史，阻止了红心皇后走上黑化之路。 以为就此迎来大团圆结局，没想到竟然催生出全新反派。 这次她们将与新伙伴携手合作，在重重危机之中拯救仙境。",
       "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
@@ -367,59 +367,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 931285,
-      "title": "真人快打2",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•冒险",
-      "rating": 8.0,
-      "release_date": "2026-05-06",
-      "overview": "　　过气好莱坞演员强尼·凯奇（卡尔·厄本 饰）被意外选中，加入一场决定地球命运的真人快打。吉塔娜（阿德莱恩·鲁道夫 饰）、刀锋索尼娅（杰西卡·麦克娜美 饰）、卡诺（约什·劳森 饰）、刘康（林路迪 饰）、贾克斯（麦卡德·布鲁克斯 饰）、尚宗（黄经汉 饰）、雷电（浅野忠信 饰）、避寒（乔·塔斯利姆 饰）、蝎子（真田广之 饰）等角色也将各显身手，开启血浆狂飙的格斗厮杀。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5aNsrFMfQsJ3zn2M9U5HxZW83DX.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
+      "id": 281281,
+      "title": "GIGN：精英部队",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 6.5,
+      "release_date": "2026-07-22",
+      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/DuXHZLWYIGW2vG6HFhOv5skDPQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tMpfa73LmKpeZ3Fix1QmFGIUrKI.jpg"
     },
     {
-      "id": 1315772,
-      "title": "小黄人与大怪兽",
-      "type": "movie",
-      "genreTitle": "冒险•动画•喜剧",
-      "rating": 6.4,
-      "release_date": "2026-06-24",
-      "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
-      "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sfGdosEmaYJQha8esMcP8YuCpaj.jpg"
-    },
-    {
-      "id": 125988,
-      "title": "末日地堡",
+      "id": 103516,
+      "title": "星际迷航：奇异新世界",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "rating": 8.0,
+      "release_date": "2022-05-05",
+      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
     },
     {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
+      "id": 1084244,
+      "title": "玩具总动员5",
       "type": "movie",
-      "genreTitle": "恐怖•科幻•惊悚",
-      "rating": 0.0,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/e0RQaLbATqDhJ7HAqmQlHkV2S6j.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1CIaRYKf3zg2Xyce1CSfCMg2Vfw.jpg"
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
+    },
+    {
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.8,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+    },
+    {
+      "id": 60625,
+      "title": "瑞克和莫蒂",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.7,
+      "release_date": "2013-12-02",
+      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
       "id": 1003596,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.8,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
+      "id": 215072,
+      "title": "杀人者的购物中心",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•悬疑",
+      "rating": 8.4,
+      "release_date": "2024-01-17",
+      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3T61ZGr2AAh0NySpax8QYrMVYWu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
     }
   ],
   "popular_movies": [
@@ -545,17 +545,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg"
     },
     {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.3,
-      "release_date": "2026-06-05",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
-    },
-    {
       "id": 1228710,
       "title": "星球大战：曼达洛人与古古",
       "type": "movie",
@@ -567,15 +556,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
-      "id": 1668364,
-      "title": "欲海暗涌",
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
       "type": "movie",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.0,
-      "release_date": "2026-05-07",
-      "overview": "卢塞洛是一位事业成功的律师，表面上拥有完美的生活，却在与女儿年轻的游泳教练的一段婚外激情中逐渐沉沦。最初这段禁忌之情只是欲望的放纵，却很快演变成对她婚姻与事业脆弱平衡的威胁。随着悲剧的发生，她的世界分崩离析，对家人的爱也经受着严峻的考验。为了守护家人，卢塞洛将发现自己究竟愿意付出何种程度的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sUvYeS4wVXKregd3GpZjn27kBKm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tXgAdNWi85yDssXy0653hVJ7Smt.jpg"
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.3,
+      "release_date": "2026-06-05",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
+    },
+    {
+      "id": 1727780,
+      "title": "边界线",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 0.0,
+      "release_date": "2026-07-17",
+      "overview": "一伙擅自行动的美国特工坚信自己是国家隐秘救星，他们绑架墨西哥黑帮成员，将这批人分散投放到美国各大城市。此举引发大规模犯罪骚乱，特工们刻意煽动本土排外偏见、左右选民立场；流血冲突持续升级，民主体系岌岌可危，执法部门必须争分夺秒，揭穿这场惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sAA2mjpYJFAKydtzG4P4aHC4mZk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t5iMyppJhIdjPQDAWIWoilO5iYf.jpg"
     },
     {
       "id": 1318621,
@@ -600,15 +600,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
     },
     {
-      "id": 1727780,
-      "title": "边界线",
+      "id": 1668364,
+      "title": "欲海暗涌",
       "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 0.0,
-      "release_date": "2026-07-17",
-      "overview": "一伙擅自行动的美国特工坚信自己是国家隐秘救星，他们绑架墨西哥黑帮成员，将这批人分散投放到美国各大城市。此举引发大规模犯罪骚乱，特工们刻意煽动本土排外偏见、左右选民立场；流血冲突持续升级，民主体系岌岌可危，执法部门必须争分夺秒，揭穿这场惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sAA2mjpYJFAKydtzG4P4aHC4mZk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t5iMyppJhIdjPQDAWIWoilO5iYf.jpg"
+      "genreTitle": "悬疑•剧情",
+      "rating": 6.9,
+      "release_date": "2026-05-07",
+      "overview": "卢塞洛是一位事业成功的律师，表面上拥有完美的生活，却在与女儿年轻的游泳教练的一段婚外激情中逐渐沉沦。最初这段禁忌之情只是欲望的放纵，却很快演变成对她婚姻与事业脆弱平衡的威胁。随着悲剧的发生，她的世界分崩离析，对家人的爱也经受着严峻的考验。为了守护家人，卢塞洛将发现自己究竟愿意付出何种程度的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sUvYeS4wVXKregd3GpZjn27kBKm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tXgAdNWi85yDssXy0653hVJ7Smt.jpg"
     }
   ]
 }
