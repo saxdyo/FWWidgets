@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 09:19:40",
+  "last_updated": "2026-07-23 12:59:00",
   "today_global": [
     {
       "id": 1275779,
@@ -17,7 +17,7 @@
       "title": "宇宙巨人：希曼崛起",
       "type": "movie",
       "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.1,
+      "rating": 7.2,
       "release_date": "2026-06-03",
       "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
       "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
@@ -39,7 +39,7 @@
       "title": "精英部队",
       "type": "tv",
       "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.8,
+      "rating": 6.9,
       "release_date": "2026-07-22",
       "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
       "poster_url": "https://image.tmdb.org/t/p/original/DuXHZLWYIGW2vG6HFhOv5skDPQ.jpg",
@@ -68,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
     },
     {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -75,7 +86,7 @@
       "rating": 0.0,
       "release_date": "2026-07-28",
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jWryKnKZQUx1enk6dtHBDs8xQLZ.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
@@ -88,17 +99,6 @@
       "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
       "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
       "id": 1083381,
@@ -115,8 +115,8 @@
       "id": 1487861,
       "title": "暗影伊莉丝",
       "type": "movie",
-      "genreTitle": "犯罪",
-      "rating": 6.8,
+      "genreTitle": "惊悚•犯罪•剧情",
+      "rating": 6.0,
       "release_date": "2026-07-22",
       "overview": "改编自伊莉丝·松永的真实案件，她动手杀害并肢解丈夫的尸体，震惊巴西上下。本片以虚构视角探究伊莉丝的故事，揭露一段混乱关系里的互动方式，以及又是哪些抉择导致这起骇人的罪案。",
       "poster_url": "https://image.tmdb.org/t/p/original/heU6R1LwpguWVtGsCttiY0wTHaU.jpg",
@@ -127,7 +127,7 @@
       "title": "幸运女神",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 6.9,
+      "rating": 7.0,
       "release_date": "2026-07-14",
       "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
       "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
@@ -143,17 +143,6 @@
       "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
       "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4sZ4SAy34TAZEuyH9eJYRClGYUs.jpg"
-    },
-    {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 1003596,
@@ -178,15 +167,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/meDlo7HGy8fCt6nNfZJruX7hsGR.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 5.8,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 279323,
+      "title": "鬼谜东宫",
+      "type": "tv",
+      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.9,
+      "release_date": "2026-07-17",
+      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
     },
     {
       "id": 138502,
@@ -200,15 +200,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
-      "id": 279323,
-      "title": "鬼谜东宫",
-      "type": "tv",
-      "genreTitle": "悬疑•动作冒险•Sci-Fi & Fantasy",
-      "rating": 7.9,
-      "release_date": "2026-07-17",
-      "overview": "一名游走于灵界的男子，与一位能听见亡者之声的宫女奉皇命进入东宫 — 他们能揭开其中的黑暗秘密吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/rq60ZPk4gUD3uTmvf1yDE4iMvTK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 5.8,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 37854,
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
-    },
-    {
       "id": 1275779,
       "title": "揭秘日",
       "type": "movie",
@@ -257,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
     },
     {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -266,6 +266,17 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.2,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
       "id": 1273221,
@@ -286,8 +297,19 @@
       "rating": 0.0,
       "release_date": "2026-07-28",
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jWryKnKZQUx1enk6dtHBDs8xQLZ.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+    },
+    {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 7.0,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 279323,
@@ -301,37 +323,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nVolojETYdP03byQhV8Eoe6eFqh.jpg"
     },
     {
+      "id": 215072,
+      "title": "杀人者的购物中心",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•悬疑",
+      "rating": 8.3,
+      "release_date": "2024-01-17",
+      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3T61ZGr2AAh0NySpax8QYrMVYWu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
+    },
+    {
       "id": 278624,
       "title": "幸运女神",
       "type": "tv",
       "genreTitle": "剧情•犯罪",
-      "rating": 6.9,
+      "rating": 7.0,
       "release_date": "2026-07-14",
       "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
       "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
-    },
-    {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.1,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
-    },
-    {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 7.0,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 94997,
@@ -349,11 +360,22 @@
       "title": "星光继承者：暗黑仙境",
       "type": "movie",
       "genreTitle": "奇幻•家庭•电视电影",
-      "rating": 7.7,
+      "rating": 7.8,
       "release_date": "2026-07-16",
       "overview": "红公主和克萝伊成功改写历史，阻止了红心皇后走上黑化之路。 以为就此迎来大团圆结局，没想到竟然催生出全新反派。 这次她们将与新伙伴携手合作，在重重危机之中拯救仙境。",
       "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/txvtdhLGkDXzNkWukNwiD5FBQLc.jpg"
+    },
+    {
+      "id": 1003596,
+      "title": "复仇者联盟5",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "讲述了复仇者联盟一行人对抗试图征服多元宇宙的征服者康的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2UnOGhrwaDLyhlbYrSDDQWci4UC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
       "id": 125988,
@@ -378,48 +400,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
-    },
-    {
-      "id": 1003596,
-      "title": "复仇者联盟5",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "讲述了复仇者联盟一行人对抗试图征服多元宇宙的征服者康的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2UnOGhrwaDLyhlbYrSDDQWci4UC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
+      "id": 281281,
+      "title": "精英部队",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 6.9,
+      "release_date": "2026-07-22",
+      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/DuXHZLWYIGW2vG6HFhOv5skDPQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tMpfa73LmKpeZ3Fix1QmFGIUrKI.jpg"
     },
     {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
+      "id": 1284465,
+      "title": "罗宾汉之死",
+      "type": "movie",
+      "genreTitle": "冒险•剧情•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-06-18",
+      "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4sZ4SAy34TAZEuyH9eJYRClGYUs.jpg"
     },
     {
       "id": 1280738,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/x1ljlhlVIPaTDMjz1YG2Kz4Qi0y.jpg"
     },
     {
-      "id": 296206,
-      "title": "金特务：本色回归",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.2,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "popular_movies": [
