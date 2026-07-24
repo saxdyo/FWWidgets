@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-07-25 06:46:52",
+  "last_updated": "2026-07-25 07:50:26",
   "today_global": [
-    {
-      "id": 287620,
-      "title": "斯图尔特未能拯救宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy",
-      "rating": 9.0,
-      "release_date": "2026-07-23",
-      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mD7wr9a8nuCN0XhLDe8nXBnW5r2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qyoidDZSojQpFdEYygJMkE0m8gC.jpg"
-    },
     {
       "id": 1275779,
       "title": "揭秘日",
@@ -28,11 +17,22 @@
       "title": "奥德赛",
       "type": "movie",
       "genreTitle": "冒险•动作•奇幻",
-      "rating": 7.9,
+      "rating": 8.0,
       "release_date": "2026-07-15",
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 287620,
+      "title": "斯图尔特未能拯救宇宙",
+      "type": "tv",
+      "genreTitle": "喜剧•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "release_date": "2026-07-23",
+      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
+      "poster_url": "https://image.tmdb.org/t/p/original/o7p5Sx3VdpGHzy3bUoF5278VlFU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qyoidDZSojQpFdEYygJMkE0m8gC.jpg"
     },
     {
       "id": 1361774,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg"
     },
     {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.5,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
-    },
-    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -90,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1630409,
-      "title": "末路讨债人",
+      "id": 1273221,
+      "title": "惊声尖笑6",
       "type": "movie",
-      "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-07-20",
-      "overview": "出狱后饱受内疚折磨的前讨债人，与绝症赛跑，重返昔日世界，为高利贷受害者复仇。 纳姆曾经是黑帮手下心狠手辣的专职讨债人，因为过往犯下的暴力罪行入狱服刑。刑满出狱后他想要彻底隐姓埋名赎罪，却被确诊绝症，生命只剩下很短的时间。就在他打算安静走完余生时，他从前所在的高利贷组织愈发肆无忌惮，暴力欺压底层欠债平民，甚至残害无辜受害者。背负深重愧疚、又只剩有限寿命的纳姆不再选择逃避，孤身重新踏入曼谷黑暗的地下江湖。这一次他不再为黑帮催债牟利，而是向作恶的黑恶势力举起武器，一边为曾经被自己伤害过的人弥补过错，一边拯救正在遭受压榨的普通人，在复仇、正义与自我救赎之间挣扎，在曼谷雨夜与河畔展开一场不计生死的清算之战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ymRyjfCVmEthXCfzjRJZYrq7baK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5Va6qlwvpneo0XLzGFlvgYH5ncP.jpg"
+      "genreTitle": "喜剧",
+      "rating": 6.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
     },
     {
       "id": 1083381,
@@ -134,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
+      "id": 1630409,
+      "title": "末路讨债人",
+      "type": "movie",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.0,
+      "release_date": "2026-07-20",
+      "overview": "出狱后饱受内疚折磨的前讨债人，与绝症赛跑，重返昔日世界，为高利贷受害者复仇。 纳姆曾经是黑帮手下心狠手辣的专职讨债人，因为过往犯下的暴力罪行入狱服刑。刑满出狱后他想要彻底隐姓埋名赎罪，却被确诊绝症，生命只剩下很短的时间。就在他打算安静走完余生时，他从前所在的高利贷组织愈发肆无忌惮，暴力欺压底层欠债平民，甚至残害无辜受害者。背负深重愧疚、又只剩有限寿命的纳姆不再选择逃避，孤身重新踏入曼谷黑暗的地下江湖。这一次他不再为黑帮催债牟利，而是向作恶的黑恶势力举起武器，一边为曾经被自己伤害过的人弥补过错，一边拯救正在遭受压榨的普通人，在复仇、正义与自我救赎之间挣扎，在曼谷雨夜与河畔展开一场不计生死的清算之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ymRyjfCVmEthXCfzjRJZYrq7baK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5Va6qlwvpneo0XLzGFlvgYH5ncP.jpg"
+    },
+    {
       "id": 1228710,
       "title": "星球大战：曼达洛人与古古",
       "type": "movie",
@@ -156,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
     },
     {
+      "id": 281281,
+      "title": "GIGN：精英部队",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.0,
+      "release_date": "2026-07-22",
+      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xYFFF8B6QDwN2qW5gvxezA2c7Vi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tMpfa73LmKpeZ3Fix1QmFGIUrKI.jpg"
+    },
+    {
       "id": 1620682,
       "title": "真心慢动作",
       "type": "movie",
@@ -167,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lgOAFRBi1T5Pd9mYzhRnom1PPqL.jpg"
     },
     {
-      "id": 281281,
-      "title": "GIGN：精英部队",
+      "id": 324434,
+      "title": "露娜：重返轮滑",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.0,
-      "release_date": "2026-07-22",
-      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xYFFF8B6QDwN2qW5gvxezA2c7Vi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tMpfa73LmKpeZ3Fix1QmFGIUrKI.jpg"
+      "genreTitle": "家庭•喜剧•剧情",
+      "rating": 7.6,
+      "release_date": "2026-07-24",
+      "overview": "在露娜·瓦伦特（Luna Valente）作为职业自由式轮滑选手的事业巅峰期，一场可怕的事故让她在轮滑界消失得无影无踪，却留下了不可磨灭的印记。两年后，她一位挚友生活中的重大变故将她带回了布宜诺斯艾利斯，恰逢自由式轮滑界一项全新且重要的赛事即将开幕——以她名字命名的「本森传承杯」（Benson Legacy Cup）。一回到心爱的 Jam & Roller 轮滑馆，露娜便与老友和旧日恋人重逢。重返轮滑场并不容易，但穿上轮滑鞋、再次感受脚下生风的渴望，很快便变得难以抗拒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gzwiyE7jHHvjWS8WBEqztCqxD9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sKW1g98CFyb0bzRgefFtsAKtlwQ.jpg"
     },
     {
       "id": 1487861,
@@ -209,17 +220,6 @@
       "overview": "一部充满浪漫气息的家庭剧和当代西部传奇故事，讲述了三个牧场家庭在德克萨斯州山区广阔的苔原和滚滚河流的背景下相互交织的生活和爱情。",
       "poster_url": "https://image.tmdb.org/t/p/original/6G2p138whZGHsP3gmhINZVDkanB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oWIzItuQO6gOrPdQ72S1flATCcX.jpg"
-    },
-    {
-      "id": 324434,
-      "title": "露娜：重返轮滑",
-      "type": "tv",
-      "genreTitle": "家庭•喜剧•剧情",
-      "rating": 7.5,
-      "release_date": "2026-07-24",
-      "overview": "在露娜·瓦伦特（Luna Valente）作为职业自由式轮滑选手的事业巅峰期，一场可怕的事故让她在轮滑界消失得无影无踪，却留下了不可磨灭的印记。两年后，她一位挚友生活中的重大变故将她带回了布宜诺斯艾利斯，恰逢自由式轮滑界一项全新且重要的赛事即将开幕——以她名字命名的「本森传承杯」（Benson Legacy Cup）。一回到心爱的 Jam & Roller 轮滑馆，露娜便与老友和旧日恋人重逢。重返轮滑场并不容易，但穿上轮滑鞋、再次感受脚下生风的渴望，很快便变得难以抗拒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gzwiyE7jHHvjWS8WBEqztCqxD9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sKW1g98CFyb0bzRgefFtsAKtlwQ.jpg"
     }
   ],
   "week_global_all": [
@@ -505,7 +505,7 @@
       "title": "超级少女",
       "type": "movie",
       "genreTitle": "动作•冒险•科幻",
-      "rating": 6.1,
+      "rating": 6.2,
       "release_date": "2026-06-26",
       "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
       "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
@@ -604,7 +604,7 @@
       "title": "星光继承者：暗黑仙境",
       "type": "movie",
       "genreTitle": "奇幻•家庭•电视电影",
-      "rating": 7.8,
+      "rating": 7.7,
       "release_date": "2026-07-16",
       "overview": "红公主和克萝伊成功改写历史，阻止了红心皇后走上黑化之路。 以为就此迎来大团圆结局，没想到竟然催生出全新反派。 这次她们将与新伙伴携手合作，在重重危机之中拯救仙境。",
       "poster_url": "https://image.tmdb.org/t/p/original/pxrdN5dMQZzFdg1U0MGts3vlOzw.jpg",
