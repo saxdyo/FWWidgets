@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 23:32:45",
+  "last_updated": "2026-07-28 01:24:56",
   "today_global": [
     {
       "id": 1081003,
@@ -13,17 +13,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 9.1,
-      "release_date": "2026-07-28",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bFm80QdYiytfO27wZ93N4qoly8I.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
-    },
-    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -33,6 +22,17 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 9.1,
+      "release_date": "2026-07-28",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bFm80QdYiytfO27wZ93N4qoly8I.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
       "id": 1368337,
@@ -46,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
+      "id": 980431,
+      "title": "安昂传奇：最后的气宗",
+      "type": "movie",
+      "genreTitle": "动画•动作•冒险",
+      "rating": 9.3,
+      "release_date": "2026-07-24",
+      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uMnhXLchOwDUdlKxCoPO6ijJbEU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/74iiUwzqe2BnRZl7QD4LVQUQKHb.jpg"
+    },
+    {
       "id": 194583,
       "title": "行尸走肉：死亡之城",
       "type": "tv",
@@ -57,15 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vkKhHAygrFStG2H27M131dEQKsH.jpg"
     },
     {
-      "id": 980431,
-      "title": "安昂传奇：最后的气宗",
-      "type": "movie",
-      "genreTitle": "动画•动作•冒险",
-      "rating": 9.4,
-      "release_date": "2026-07-24",
-      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uMnhXLchOwDUdlKxCoPO6ijJbEU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/74iiUwzqe2BnRZl7QD4LVQUQKHb.jpg"
+      "id": 60625,
+      "title": "瑞克和莫蒂",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.7,
+      "release_date": "2013-12-02",
+      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
       "id": 1275779,
@@ -90,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
-    },
-    {
       "id": 949838,
       "title": "大叔乱入72小时",
       "type": "movie",
@@ -108,7 +108,7 @@
       "rating": 6.6,
       "release_date": "2026-07-20",
       "overview": "一名 40 岁的广告高管被误加到 20 岁左右年轻人的群聊中。为了拯救事业，他与这群人一起参加了一场迈阿密疯狂单身派对。",
-      "poster_url": "https://image.tmdb.org/t/p/original/s9mbP98cFn7eT6C33iymdTV6x32.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/hyJtuA70A4aR2D8WXtaLFGLfo1y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/a9sSMRe2LfZWp5SAiXWJddSIqlj.jpg"
     },
     {
@@ -123,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.3,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
+      "id": 296756,
+      "title": "柯蒂斯总统",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-07-26",
+      "overview": "柯蒂斯总统及其古怪的幕僚团队将共同应对那些瑞克根本不会理会的一系列危机——从跨维度外交到超自然现象调查，再到无法解释的异常事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lc9riW73Oee2pBxi1UrDPgyQjEr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xBG5M8tflHMUEKbmO8T4M8RTT8q.jpg"
     },
     {
       "id": 1375646,
@@ -145,37 +145,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pflYEf3a4uAlwSN0oYpSiFPWFfj.jpg"
     },
     {
-      "id": 296756,
-      "title": "柯蒂斯总统",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 5.0,
-      "release_date": "2026-07-26",
-      "overview": "柯蒂斯总统及其古怪的幕僚团队将共同应对那些瑞克根本不会理会的一系列危机——从跨维度外交到超自然现象调查，再到无法解释的异常事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lc9riW73Oee2pBxi1UrDPgyQjEr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xBG5M8tflHMUEKbmO8T4M8RTT8q.jpg"
-    },
-    {
-      "id": 296206,
-      "title": "金特务：本色回归",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.7,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
-    },
-    {
-      "id": 1083381,
-      "title": "后室",
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2xIESLpDBn4NOJXqhKgFlPQCPtq.jpg"
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.3,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
       "id": 1228710,
@@ -200,6 +178,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
     },
     {
+      "id": 296206,
+      "title": "金特务：本色回归",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.7,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+    },
+    {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2xIESLpDBn4NOJXqhKgFlPQCPtq.jpg"
+    },
+    {
       "id": 1361774,
       "title": "低弧慢球",
       "type": "movie",
@@ -207,22 +207,33 @@
       "rating": 6.3,
       "release_date": "2026-07-23",
       "overview": "为了拯救陷入困境的乡村俱乐部，并赢得父亲的认同，一名过气职业网球选手被迫打破神圣誓言，做出难以想象之举：转战匹克球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cXk6ByCpdk5evzSfHbo950Yb377.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gM3wGmsN6YkSYnU0RTWgaFQRUy.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/p3Qs3FRnCwIcCAxxa14i6480ACQ.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 125988,
+      "title": "末日地堡",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 1081003,
+      "title": "超级少女",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.3,
+      "release_date": "2026-06-24",
+      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
+    },
     {
       "id": 1368337,
       "title": "奥德赛",
@@ -233,17 +244,6 @@
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 7.4,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
     },
     {
       "id": 969681,
@@ -257,48 +257,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
-      "id": 1081003,
-      "title": "超级少女",
+      "id": 1275779,
+      "title": "揭秘日",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.3,
-      "release_date": "2026-06-24",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fgwmYhbx9vVdFXrKG9mSsOV9Pnm.jpg"
-    },
-    {
-      "id": 454639,
-      "title": "宇宙巨人：希曼崛起",
-      "type": "movie",
-      "genreTitle": "动作•奇幻•科幻",
-      "rating": 7.3,
-      "release_date": "2026-06-03",
-      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
-      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.3,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.5,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
+      "genreTitle": "科幻•惊悚",
+      "rating": 7.4,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
     },
     {
       "id": 94997,
@@ -312,6 +279,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.3,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.3,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
+    },
+    {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
+    },
+    {
       "id": 1228710,
       "title": "星球大战：曼达洛人与古古",
       "type": "movie",
@@ -323,48 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2xIESLpDBn4NOJXqhKgFlPQCPtq.jpg"
-    },
-    {
       "id": 980431,
       "title": "安昂传奇：最后的气宗",
       "type": "movie",
       "genreTitle": "动画•动作•冒险",
-      "rating": 9.4,
+      "rating": 9.3,
       "release_date": "2026-07-24",
       "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
       "poster_url": "https://image.tmdb.org/t/p/original/uMnhXLchOwDUdlKxCoPO6ijJbEU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/74iiUwzqe2BnRZl7QD4LVQUQKHb.jpg"
-    },
-    {
-      "id": 296206,
-      "title": "金特务：本色回归",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.7,
-      "release_date": "2026-06-26",
-      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
-    },
-    {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
       "id": 60625,
@@ -378,37 +345,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
-      "id": 1361774,
-      "title": "低弧慢球",
+      "id": 1083381,
+      "title": "后室",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.3,
-      "release_date": "2026-07-23",
-      "overview": "为了拯救陷入困境的乡村俱乐部，并赢得父亲的认同，一名过气职业网球选手被迫打破神圣誓言，做出难以想象之举：转战匹克球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cXk6ByCpdk5evzSfHbo950Yb377.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p3Qs3FRnCwIcCAxxa14i6480ACQ.jpg"
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2xIESLpDBn4NOJXqhKgFlPQCPtq.jpg"
     },
     {
-      "id": 281281,
-      "title": "GIGN：精英部队",
+      "id": 30984,
+      "title": "死神",
       "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 7.0,
-      "release_date": "2026-07-22",
-      "overview": "所属精英部队遭遇空前袭击，即将从第一线退下的高级军官率队展开危险任务，也因而被迫面对自己的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xYFFF8B6QDwN2qW5gvxezA2c7Vi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ffW0oNfJmkaAlnL5O4VpX23OuSN.jpg"
-    },
-    {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
       "id": 1375646,
@@ -420,6 +376,39 @@
       "overview": "因不明感染事件被封锁在一栋大楼内的幸存者们，与以不可预测形态进化的感染者展开殊死搏斗。随着感染不断扩散，幸存者被迫在有限空间中寻找生路，同时面对越来越聪明、越来越危险的感染者。全智贤在片中饰演生命工程学教授兼幸存者领袖权世贞。她不仅要带领众人逃出生天，更试图破解感染者不断进化的规律，在绝境中寻找唯一的生机。  如果说《釜山行》让观众见识了高速奔袭的感染者，那么延尚昊导演的新作《群体》，则把恐惧再次升级。影片于2026年5月21日在韩国上映，仅4天突破100万观影人次，随后迅速突破500万人次，不仅成功跨越损益平衡点，也成为今年韩国最具话题性的商业电影之一。彻底颠覆了传统丧尸设定。电影中的感染者不再只是凭本能行动，而是会不断进化，并逐渐形成拥有群体智慧（Hive Mind）”的全新生命体。他们会集结、协同行动，甚至能够根据环境不断改变攻击方式，让每一次逃亡都充满未知。",
       "poster_url": "https://image.tmdb.org/t/p/original/da2fq1YuRQLJBM55ka3u20KSAqd.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/pflYEf3a4uAlwSN0oYpSiFPWFfj.jpg"
+    },
+    {
+      "id": 296206,
+      "title": "金特务：本色回归",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 7.7,
+      "release_date": "2026-06-26",
+      "overview": "改编自同名网络漫画，讲述的是原本只想平凡当个父亲的金部长，在挚爱的女儿突然失踪后，不得不揭开自己极力隐藏的真实身份，为了救回女儿不惜一切的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j0ryIvjGuuiIY1SobOLIzRS1CBl.jpg"
+    },
+    {
+      "id": 1361774,
+      "title": "低弧慢球",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.3,
+      "release_date": "2026-07-23",
+      "overview": "为了拯救陷入困境的乡村俱乐部，并赢得父亲的认同，一名过气职业网球选手被迫打破神圣誓言，做出难以想象之举：转战匹克球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gM3wGmsN6YkSYnU0RTWgaFQRUy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p3Qs3FRnCwIcCAxxa14i6480ACQ.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 1003596,
@@ -442,6 +431,17 @@
       "overview": "麦琪和尼根前往末日后的曼哈顿——很久以前就与大陆隔绝了。这座摇摇欲坠的城市充满了死者和居民，他们把它变成了一个充满无政府状态、危险、美丽和恐怖的世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/j0rCyVah4Vii1zBUwvpZEftIMoI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vkKhHAygrFStG2H27M131dEQKsH.jpg"
+    },
+    {
+      "id": 296756,
+      "title": "柯蒂斯总统",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-07-26",
+      "overview": "柯蒂斯总统及其古怪的幕僚团队将共同应对那些瑞克根本不会理会的一系列危机——从跨维度外交到超自然现象调查，再到无法解释的异常事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lc9riW73Oee2pBxi1UrDPgyQjEr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xBG5M8tflHMUEKbmO8T4M8RTT8q.jpg"
     }
   ],
   "popular_movies": [
