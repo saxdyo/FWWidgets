@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-30 00:59:36",
+  "last_updated": "2026-07-30 02:04:37",
   "today_global": [
     {
       "id": 1481343,
       "title": "恶魔之口",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
+      "genreTitle": "惊悚•恐怖",
       "rating": 6.2,
       "release_date": "2026-07-29",
       "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
@@ -228,7 +228,7 @@
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
-      "rating": 7.6,
+      "rating": 7.8,
       "release_date": "2026-07-28",
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
@@ -238,23 +238,12 @@
       "id": 1481343,
       "title": "恶魔之口",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.0,
+      "genreTitle": "惊悚•恐怖",
+      "rating": 6.2,
       "release_date": "2026-07-29",
       "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
       "poster_url": "https://image.tmdb.org/t/p/original/xMxxAFN9gbniUqTa53YftWTA763.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8FUfXGWIuRKrHnTiTgtVmZflqJj.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1081003,
@@ -266,6 +255,17 @@
       "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
       "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/HgXbiIESCtvYiBSDGlGzDqj7A9.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1275779,
@@ -301,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
-    },
-    {
       "id": 980431,
       "title": "安昂传奇：最后的气宗",
       "type": "movie",
@@ -323,37 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/74iiUwzqe2BnRZl7QD4LVQUQKHb.jpg"
     },
     {
-      "id": 215072,
-      "title": "杀人者的购物中心",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险•悬疑",
-      "rating": 8.4,
-      "release_date": "2024-01-17",
-      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
-      "poster_url": "https://image.tmdb.org/t/p/original/bqPkhXWA1kP1OCrN2q2v9up8YXe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
-    },
-    {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
+      "id": 1083381,
+      "title": "后室",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 7.4,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
-      "id": 1273221,
-      "title": "惊声尖笑6",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.5,
-      "release_date": "2026-06-03",
-      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
       "id": 1314481,
@@ -367,6 +334,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
     },
     {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 7.4,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
+    },
+    {
       "id": 1311031,
       "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭",
       "type": "movie",
@@ -376,39 +354,6 @@
       "overview": "当鬼杀队的成员和柱之人在为即将到来的与鬼的战斗做准备，完成共同的体能训练——柱之训练时，鬼舞辻无惨在产屋敷宅邸出现。由于鬼杀队的主公处于危险之中，炭治郎和柱急忙赶往总部，但却被鸣女推入一个神秘的异空间。炭治郎和鬼杀队的目标是鬼的堡垒——无限城。因此，鬼杀队和鬼之间的最终战斗的战场已经准备就绪。",
       "poster_url": "https://image.tmdb.org/t/p/original/7kelotRA447lTaBviPrw2jom9cr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/shTfJLn9Ds2IDYpaV3EqzGoeQmI.jpg"
-    },
-    {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
-    },
-    {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 278624,
@@ -422,6 +367,61 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
+      "id": 215072,
+      "title": "杀人者的购物中心",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•悬疑",
+      "rating": 8.4,
+      "release_date": "2024-01-17",
+      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
+      "poster_url": "https://image.tmdb.org/t/p/original/bqPkhXWA1kP1OCrN2q2v9up8YXe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
+    },
+    {
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+    },
+    {
+      "id": 1273221,
+      "title": "惊声尖笑6",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.5,
+      "release_date": "2026-06-03",
+      "overview": "在逃离那个似曾相识的面具杀手二十六年后，核心四人组再度成为猎杀目标，而这一次，所有恐怖电影IP都将无一幸免。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lCt0tiCxlM4yhMSW3LOlpHUiQI4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
       "id": 1564614,
       "title": "利未记",
       "type": "movie",
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iac1TORmxL3dEWyHSrmTgSYIzeN.jpg"
     },
     {
-      "id": 1361774,
-      "title": "低弧慢球",
+      "id": 1375646,
+      "title": "群体",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.2,
-      "release_date": "2026-07-23",
-      "overview": "为了拯救陷入困境的乡村俱乐部，并赢得父亲的认同，一名过气职业网球选手被迫打破神圣誓言，做出难以想象之举：转战匹克球。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3gM3wGmsN6YkSYnU0RTWgaFQRUy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p3Qs3FRnCwIcCAxxa14i6480ACQ.jpg"
+      "genreTitle": "动作•恐怖•科幻",
+      "rating": 8.1,
+      "release_date": "2026-05-21",
+      "overview": "因不明感染事件被封锁在一栋大楼内的幸存者们，与以不可预测形态进化的感染者展开殊死搏斗。随着感染不断扩散，幸存者被迫在有限空间中寻找生路，同时面对越来越聪明、越来越危险的感染者。全智贤在片中饰演生命工程学教授兼幸存者领袖权世贞。她不仅要带领众人逃出生天，更试图破解感染者不断进化的规律，在绝境中寻找唯一的生机。  如果说《釜山行》让观众见识了高速奔袭的感染者，那么延尚昊导演的新作《群体》，则把恐惧再次升级。影片于2026年5月21日在韩国上映，仅4天突破100万观影人次，随后迅速突破500万人次，不仅成功跨越损益平衡点，也成为今年韩国最具话题性的商业电影之一。彻底颠覆了传统丧尸设定。电影中的感染者不再只是凭本能行动，而是会不断进化，并逐渐形成拥有群体智慧（Hive Mind）”的全新生命体。他们会集结、协同行动，甚至能够根据环境不断改变攻击方式，让每一次逃亡都充满未知。",
+      "poster_url": "https://image.tmdb.org/t/p/original/da2fq1YuRQLJBM55ka3u20KSAqd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pflYEf3a4uAlwSN0oYpSiFPWFfj.jpg"
     }
   ],
   "popular_movies": [
@@ -548,7 +548,7 @@
       "id": 1284465,
       "title": "罗宾汉之死",
       "type": "movie",
-      "genreTitle": "冒险•剧情•惊悚",
+      "genreTitle": "冒险•剧情•动作",
       "rating": 6.6,
       "release_date": "2026-06-18",
       "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
