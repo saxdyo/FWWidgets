@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01 07:48:08",
+  "last_updated": "2026-08-01 09:21:15",
   "today_global": [
     {
       "id": 969681,
@@ -13,17 +13,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 7.9,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
       "id": 1081003,
       "title": "超级少女",
       "type": "movie",
@@ -35,22 +24,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/HgXbiIESCtvYiBSDGlGzDqj7A9.jpg"
     },
     {
-      "id": 1339713,
-      "title": "痴迷",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 7.9,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 125909,
+      "title": "蝙蝠侠：披风斗士",
+      "type": "tv",
+      "genreTitle": "动画•犯罪•动作冒险",
+      "rating": 7.2,
+      "release_date": "2024-08-01",
+      "overview": "亿万富翁布鲁斯·韦恩在悲剧的烈火中锤炼成了一种既超越人类、又不完全是人类的存在——蝙蝠侠。夜复一夜，他在极其艰难的情况下，孤身一人对犯罪展开了无情的战争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nVdvMIroEKaCvcOgSjEWH4pua7y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tT7JY6F5Or9ynKOmIq7PTU9TJXr.jpg"
     },
     {
       "id": 1481343,
       "title": "恶魔之口",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-07-29",
       "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
       "poster_url": "https://image.tmdb.org/t/p/original/lASUu8LYmDcNZfG388d3RW1GUWW.jpg",
@@ -68,26 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 1275779,
-      "title": "揭秘日",
+      "id": 1339713,
+      "title": "痴迷",
       "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 7.4,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
-    },
-    {
-      "id": 125909,
-      "title": "蝙蝠侠：披风斗士",
-      "type": "tv",
-      "genreTitle": "动画•犯罪•动作冒险",
-      "rating": 7.2,
-      "release_date": "2024-08-01",
-      "overview": "亿万富翁布鲁斯·韦恩在悲剧的烈火中锤炼成了一种既超越人类、又不完全是人类的存在——蝙蝠侠。夜复一夜，他在极其艰难的情况下，孤身一人对犯罪展开了无情的战争。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nVdvMIroEKaCvcOgSjEWH4pua7y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tT7JY6F5Or9ynKOmIq7PTU9TJXr.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.3,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
       "id": 277439,
@@ -101,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
     },
     {
-      "id": 1564614,
-      "title": "利未记",
+      "id": 1275779,
+      "title": "揭秘日",
       "type": "movie",
-      "genreTitle": "恐怖•爱情",
-      "rating": 6.4,
-      "release_date": "2026-06-17",
-      "overview": "两个相爱却命运多舛的男孩，被一个暴力的存在所纠缠。这个存在会以他们最想要见到的人，也就是彼此的模样出现。在澳大利亚维多利亚州一座闭塞保守、被极端基督教教义牢牢束缚的乡村小镇，少年纳伊姆对同龄男孩莱恩萌生了隐秘的爱慕，两人悄悄发展出一段禁忌恋情。一次偶然，纳伊姆撞见莱恩和牧师的儿子亨特私下幽会，嫉妒与内心压抑的自我厌恶驱使他揭发了这件事。牧师一家随即请来所谓“救赎疗愈师”，对三个孩子施行残酷的矫正驱魔仪式，试图抹除他们的同性欲望。这场扭曲的宗教仪式非但没有达成目的，反而意外召唤出了一只邪恶魔物。这个恶灵拥有特殊的变形能力，会化作每个人心底最渴望之人的样貌，一旦角色屈从于内心的情愫，就会立刻遭到恶灵暴力追杀。纳伊姆必须一边直面自己犯下的过错，一边和莱恩联手对抗无孔不入的恶灵，同时还要对抗整个小镇充满偏见与敌意的宗教环境，在肉体与精神的双重绝境里求生赎罪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lZNzH9FqOQMz60FKCRI9a4OiPTg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iac1TORmxL3dEWyHSrmTgSYIzeN.jpg"
+      "genreTitle": "科幻•惊悚",
+      "rating": 7.4,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
     },
     {
       "id": 1396749,
@@ -121,6 +110,17 @@
       "overview": "1990年代备受欢迎的韩国流行音乐三人组合因一场丑闻解散。二十年后，三人为一场演出重聚 — 如果他们能够克服一个个问题的话。",
       "poster_url": "https://image.tmdb.org/t/p/original/30GihkAnQpgNrq9okm2XkXJdXZo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/v1hEzGT6ppKu94p25UXdnSH2Bqd.jpg"
+    },
+    {
+      "id": 271016,
+      "title": "九门",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 9.0,
+      "release_date": "2026-07-30",
+      "overview": "长沙风云再起之时，张启山（陈伟霆 饰）与吴老狗（曾舜晞 饰）强强联手，携手霍仙姑（陈瑶 饰）与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1HzN1aUEPaIOj8l19ITXR6N16mu.jpg"
     },
     {
       "id": 287620,
@@ -156,15 +156,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
-      "id": 271016,
-      "title": "九门",
+      "id": 1564614,
+      "title": "利未记",
+      "type": "movie",
+      "genreTitle": "恐怖•爱情",
+      "rating": 6.4,
+      "release_date": "2026-06-17",
+      "overview": "两个相爱却命运多舛的男孩，被一个暴力的存在所纠缠。这个存在会以他们最想要见到的人，也就是彼此的模样出现。在澳大利亚维多利亚州一座闭塞保守、被极端基督教教义牢牢束缚的乡村小镇，少年纳伊姆对同龄男孩莱恩萌生了隐秘的爱慕，两人悄悄发展出一段禁忌恋情。一次偶然，纳伊姆撞见莱恩和牧师的儿子亨特私下幽会，嫉妒与内心压抑的自我厌恶驱使他揭发了这件事。牧师一家随即请来所谓“救赎疗愈师”，对三个孩子施行残酷的矫正驱魔仪式，试图抹除他们的同性欲望。这场扭曲的宗教仪式非但没有达成目的，反而意外召唤出了一只邪恶魔物。这个恶灵拥有特殊的变形能力，会化作每个人心底最渴望之人的样貌，一旦角色屈从于内心的情愫，就会立刻遭到恶灵暴力追杀。纳伊姆必须一边直面自己犯下的过错，一边和莱恩联手对抗无孔不入的恶灵，同时还要对抗整个小镇充满偏见与敌意的宗教环境，在肉体与精神的双重绝境里求生赎罪。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lZNzH9FqOQMz60FKCRI9a4OiPTg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iac1TORmxL3dEWyHSrmTgSYIzeN.jpg"
+    },
+    {
+      "id": 301418,
+      "title": "现在不是外遇的问题",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 9.0,
-      "release_date": "2026-07-30",
-      "overview": "长沙风云再起之时，张启山（陈伟霆 饰）与吴老狗（曾舜晞 饰）强强联手，携手霍仙姑（陈瑶 饰）与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1HzN1aUEPaIOj8l19ITXR6N16mu.jpg"
+      "genreTitle": "犯罪•喜剧",
+      "rating": 6.0,
+      "release_date": "2026-07-31",
+      "overview": "这是一部黑色喜剧，讲述了一对因出卖家庭而走红的网红夫妇，以及一对正在经历混乱离婚诉讼的邻居医生夫妇，随着他们卷入一个无法控制的秘密，一系列冲突不断升级，甚至连婚外情都显得微不足道。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xBSDiZJ2DBrgkxugSV6xD4ZomW1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bftAVJ4PKXitpNk6bwoz25SW2CX.jpg"
+    },
+    {
+      "id": 1122573,
+      "title": "金谍行动",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.6,
+      "release_date": "2026-05-13",
+      "overview": "　　当一名冷酷无情的独裁者窃取了数十亿美元的巨额财富后，一支潜伏于暗影之中的精英特工小队受命夺回这笔巨款。这些特工游走于全球暗网，既能操控权谋博弈，亦精通爆破突袭。这场本已险象环生的惊天盗局却风云突变，最终升级为一场充斥着谋略、欺诈与生死较量的全面战争。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1HdIIUkc8zs7npBqreuBT74BURb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/flnL4bbRwinTp6gDr7M29oWHWXg.jpg"
     },
     {
       "id": 454639,
@@ -178,39 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 7.4,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
-    },
-    {
-      "id": 103516,
-      "title": "星际迷航：奇异新世界",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.9,
-      "release_date": "2022-05-05",
-      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kaTkbuMo8ivbrvTWLy0e3CrpNf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
-    },
-    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -220,6 +209,17 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 1698575,
+      "title": "史努比特辑：有家真好",
+      "type": "movie",
+      "genreTitle": "动画•家庭",
+      "rating": 6.3,
+      "release_date": "2026-07-30",
+      "overview": "史诺比遗失了心爱的狗屋，并在寻找失宝的旅程中发现家的真谛。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vXwlj5UKvSuItoqcrj09LSyB1aA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rYoBZHrj6XIU2fYjIaSF4uuokkT.jpg"
     }
   ],
   "week_global_all": [
@@ -290,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/74iiUwzqe2BnRZl7QD4LVQUQKHb.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
+      "id": 278624,
+      "title": "幸运女神",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.2,
+      "release_date": "2026-07-14",
+      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
       "id": 1481343,
@@ -323,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
+      "id": 103516,
+      "title": "星际迷航：奇异新世界",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.9,
+      "release_date": "2022-05-05",
+      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kaTkbuMo8ivbrvTWLy0e3CrpNf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -332,50 +343,6 @@
       "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
-    },
-    {
-      "id": 1564614,
-      "title": "利未记",
-      "type": "movie",
-      "genreTitle": "恐怖•爱情",
-      "rating": 6.4,
-      "release_date": "2026-06-17",
-      "overview": "两个相爱却命运多舛的男孩，被一个暴力的存在所纠缠。这个存在会以他们最想要见到的人，也就是彼此的模样出现。在澳大利亚维多利亚州一座闭塞保守、被极端基督教教义牢牢束缚的乡村小镇，少年纳伊姆对同龄男孩莱恩萌生了隐秘的爱慕，两人悄悄发展出一段禁忌恋情。一次偶然，纳伊姆撞见莱恩和牧师的儿子亨特私下幽会，嫉妒与内心压抑的自我厌恶驱使他揭发了这件事。牧师一家随即请来所谓“救赎疗愈师”，对三个孩子施行残酷的矫正驱魔仪式，试图抹除他们的同性欲望。这场扭曲的宗教仪式非但没有达成目的，反而意外召唤出了一只邪恶魔物。这个恶灵拥有特殊的变形能力，会化作每个人心底最渴望之人的样貌，一旦角色屈从于内心的情愫，就会立刻遭到恶灵暴力追杀。纳伊姆必须一边直面自己犯下的过错，一边和莱恩联手对抗无孔不入的恶灵，同时还要对抗整个小镇充满偏见与敌意的宗教环境，在肉体与精神的双重绝境里求生赎罪。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lZNzH9FqOQMz60FKCRI9a4OiPTg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iac1TORmxL3dEWyHSrmTgSYIzeN.jpg"
-    },
-    {
-      "id": 1228710,
-      "title": "星球大战：曼达洛人与古古",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 7.4,
-      "release_date": "2026-05-20",
-      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
-    },
-    {
-      "id": 287620,
-      "title": "斯图尔特未能拯救宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy",
-      "rating": 9.2,
-      "release_date": "2026-07-23",
-      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
-    },
-    {
-      "id": 60625,
-      "title": "瑞克和莫蒂",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2013-12-02",
-      "overview": "一名反社会人格的天才科学家拉着他天性胆怯的孙子一同进行疯狂又危险的跨宇宙探险的故事。瑞克·桑切斯和女儿贝丝一家同住，他经常带着她、女婿杰瑞、孙女桑美和孙子莫蒂一同踏上大胆的星系冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nbLginNBtPaqz12tSvMjzvxuPFJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7KQeNdbctJlO0y2FhSvj54TLWmq.jpg"
     },
     {
       "id": 30984,
@@ -389,6 +356,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xoM3lntYJzZwOBJJs5O1ix0jyfe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -398,6 +376,28 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 1361774,
+      "title": "低弧慢球",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 6.2,
+      "release_date": "2026-07-23",
+      "overview": "为了拯救陷入困境的乡村俱乐部，并赢得父亲的认同，一名过气职业网球选手被迫打破神圣誓言，做出难以想象之举：转战匹克球。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3gM3wGmsN6YkSYnU0RTWgaFQRUy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p3Qs3FRnCwIcCAxxa14i6480ACQ.jpg"
+    },
+    {
+      "id": 1228710,
+      "title": "星球大战：曼达洛人与古古",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 7.4,
+      "release_date": "2026-05-20",
+      "overview": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bUn3iS6IqtKdpSo4qD1yNzOLCwO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg"
     },
     {
       "id": 1273221,
@@ -411,15 +411,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg"
     },
     {
-      "id": 277439,
-      "title": "恐怖角",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.1,
-      "release_date": "2026-06-04",
-      "overview": "一名来自他们过去、恶名昭彰的杀手获释之际，一对婚姻美满律师夫妇的生活即将陷入风暴。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a4B0RX5XFOl3nsrG4DxTTntk1gZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
+      "id": 949838,
+      "title": "72小时",
+      "type": "movie",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-07-20",
+      "overview": "一名 40 岁的广告高管被误加到 20 岁左右年轻人的群聊中。为了拯救事业，他与这群人一起参加了一场迈阿密疯狂单身派对。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3oqaC3Obac9mx2LGUvrDDHMjOFn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/a9sSMRe2LfZWp5SAiXWJddSIqlj.jpg"
     },
     {
       "id": 1375646,
@@ -433,15 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pflYEf3a4uAlwSN0oYpSiFPWFfj.jpg"
     },
     {
-      "id": 1314481,
-      "title": "穿普拉达的女王2",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.1,
-      "release_date": "2026-04-29",
-      "overview": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4TqyrEtilbZZ4h6fEqmqaJuGzYk.jpg"
+      "id": 287620,
+      "title": "斯图尔特未能拯救宇宙",
+      "type": "tv",
+      "genreTitle": "喜剧•Sci-Fi & Fantasy",
+      "rating": 9.2,
+      "release_date": "2026-07-23",
+      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
     }
   ],
   "popular_movies": [
