@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04 04:48:54",
+  "last_updated": "2026-08-04 05:53:57",
   "today_global": [
     {
       "id": 969681,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
     },
     {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
       "id": 1368337,
       "title": "奥德赛",
       "type": "movie",
@@ -55,6 +44,17 @@
       "overview": "特洛伊战争结束后，伊萨卡国王奥德修斯踏上了返回家乡的艰险旅程。",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 1339713,
@@ -156,26 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yvNrzX1j3mhkIs3BTu2IJqOlBkm.jpg"
     },
     {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
-    },
-    {
-      "id": 271016,
-      "title": "九门",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 8.5,
-      "release_date": "2026-07-30",
-      "overview": "长沙风云再起之时，张启山（陈伟霆 饰）与吴老狗（曾舜晞 饰）强强联手，携手霍仙姑（陈瑶 饰）与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1HzN1aUEPaIOj8l19ITXR6N16mu.jpg"
+      "id": 1481343,
+      "title": "恶魔之口",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.6,
+      "release_date": "2026-07-29",
+      "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lASUu8LYmDcNZfG388d3RW1GUWW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1X8Tx9McZNLSmlvZRE7dDWWa0e6.jpg"
     },
     {
       "id": 454639,
@@ -189,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
     },
     {
-      "id": 1481343,
-      "title": "恶魔之口",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-07-29",
-      "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lASUu8LYmDcNZfG388d3RW1GUWW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1X8Tx9McZNLSmlvZRE7dDWWa0e6.jpg"
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
       "id": 1741109,
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yvNrzX1j3mhkIs3BTu2IJqOlBkm.jpg"
     },
     {
-      "id": 296140,
-      "title": "我的偶像总裁",
+      "id": 271016,
+      "title": "九门",
       "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-03",
-      "overview": "新员工南多凛如愿以偿，进入由自己的偶像李灿创办的时尚公司“阿佩罗”。然而，当公司真正的CEO姜河基强势介入后，一场充满笑料的爱情三角纠葛就此展开。这部甜蜜搞笑的浪漫喜剧，讲述了超级粉丝在职场中与偶像及真正的老板之间碰撞出的火花与闹剧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5nIm7u64PRXFAHrfNYvOunROSDg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/v8O0X6PP7grEaXsPkdiotIx78tA.jpg"
+      "genreTitle": "剧情•动作冒险",
+      "rating": 8.5,
+      "release_date": "2026-07-30",
+      "overview": "长沙风云再起之时，张启山（陈伟霆 饰）与吴老狗（曾舜晞 饰）强强联手，携手霍仙姑（陈瑶 饰）与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1HzN1aUEPaIOj8l19ITXR6N16mu.jpg"
+    },
+    {
+      "id": 277439,
+      "title": "恐怖角",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.1,
+      "release_date": "2026-06-04",
+      "overview": "一名来自他们过去、恶名昭彰的杀手获释之际，一对婚姻美满律师夫妇的生活即将陷入风暴。",
+      "poster_url": "https://image.tmdb.org/t/p/original/a4B0RX5XFOl3nsrG4DxTTntk1gZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qqB7fouSsUHxYd3aExb9CzjzerQ.jpg"
     }
   ],
   "week_global_all": [
