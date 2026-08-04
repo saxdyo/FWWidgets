@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-08-05 04:58:02",
+  "last_updated": "2026-08-05 06:05:39",
   "today_global": [
-    {
-      "id": 1212763,
-      "title": "鬼玩人：炼狱",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.1,
-      "release_date": "2026-07-07",
-      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zmBoHvwgdobiG8xFRgyJfWmKmRc.jpg"
-    },
     {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
@@ -22,6 +11,17 @@
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/qhpHPE2IODQY6JtNoQ4H27K1juk.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+    },
+    {
+      "id": 1212763,
+      "title": "鬼玩人：炼狱",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.2,
+      "release_date": "2026-07-07",
+      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zmBoHvwgdobiG8xFRgyJfWmKmRc.jpg"
     },
     {
       "id": 1368337,
@@ -68,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
+      "id": 1081003,
+      "title": "超级少女",
+      "type": "movie",
+      "genreTitle": "动作•冒险•科幻",
+      "rating": 6.7,
+      "release_date": "2026-06-24",
+      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/HgXbiIESCtvYiBSDGlGzDqj7A9.jpg"
+    },
+    {
       "id": 1307118,
       "title": "灵魂伴侣",
       "type": "movie",
@@ -77,6 +88,17 @@
       "overview": "又名：《梅根》宇宙外传 / 夺魂伴侣。 一名男子获得了一个人工智能机器人，以应对刚刚去世的妻子的去世。 为了创造一个真正有知觉的伴侣，他无意中把一个无害的爱情机器人变成了一个致命的灵魂伴侣。",
       "poster_url": "https://image.tmdb.org/t/p/original/3IOTIAJcL9GXG5gGnf3EDDCYRHj.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tZ6PAiaydcJvoz7NWMvqxM0HYR3.jpg"
+    },
+    {
+      "id": 1594914,
+      "title": "孤军突围",
+      "type": "movie",
+      "genreTitle": "动作•战争",
+      "rating": 7.4,
+      "release_date": "2026-06-26",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/fBniztkLes0lA2CD50j4iWAwX5y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bP0HATMi9p5lhvrQTs4l1XI8fQE.jpg"
     },
     {
       "id": 113962,
@@ -90,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
     },
     {
-      "id": 1081003,
-      "title": "超级少女",
-      "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.7,
-      "release_date": "2026-06-24",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/HgXbiIESCtvYiBSDGlGzDqj7A9.jpg"
-    },
-    {
       "id": 97546,
       "title": "Ted Lasso",
       "type": "tv",
@@ -112,15 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5pK444voLpKDBYB19e2DxN2g6iz.jpg"
     },
     {
-      "id": 1594914,
-      "title": "孤军突围",
+      "id": 1284465,
+      "title": "罗宾汉之死",
       "type": "movie",
-      "genreTitle": "动作•战争",
-      "rating": 7.4,
-      "release_date": "2026-06-26",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/fBniztkLes0lA2CD50j4iWAwX5y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bP0HATMi9p5lhvrQTs4l1XI8fQE.jpg"
+      "genreTitle": "冒险•剧情•动作",
+      "rating": 6.5,
+      "release_date": "2026-06-18",
+      "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ugOolHi7NNSoSclURMEcuMAIAl7.jpg"
     },
     {
       "id": 1083381,
@@ -145,28 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zq4oIDFgq1EQuLm5RygOMFmP2Ii.jpg"
     },
     {
-      "id": 296140,
-      "title": "我的偶像总裁",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 0.8,
-      "release_date": "2026-08-03",
-      "overview": "新员工南多凛如愿以偿，进入由自己的偶像李灿创办的时尚公司“阿佩罗”。然而，当公司真正的CEO姜河基强势介入后，一场充满笑料的爱情三角纠葛就此展开。这部甜蜜搞笑的浪漫喜剧，讲述了超级粉丝在职场中与偶像及真正的老板之间碰撞出的火花与闹剧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5nIm7u64PRXFAHrfNYvOunROSDg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/v8O0X6PP7grEaXsPkdiotIx78tA.jpg"
-    },
-    {
-      "id": 1284465,
-      "title": "罗宾汉之死",
-      "type": "movie",
-      "genreTitle": "冒险•剧情•动作",
-      "rating": 6.5,
-      "release_date": "2026-06-18",
-      "overview": "罗宾汉一生沉沦于罪恶和杀戮，饱受过往阴影的折磨。一场他以为是绝唱的战斗后，他身负重伤。一位神秘女子给了他救赎的希望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3w3rBbs5CeQW9GEsoXm0iX2rSYw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ugOolHi7NNSoSclURMEcuMAIAl7.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -178,15 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 30984,
-      "title": "死神",
+      "id": 296140,
+      "title": "我的偶像总裁",
       "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 0.8,
+      "release_date": "2026-08-03",
+      "overview": "新员工南多凛如愿以偿，进入由自己的偶像李灿创办的时尚公司“阿佩罗”。然而，当公司真正的CEO姜河基强势介入后，一场充满笑料的爱情三角纠葛就此展开。这部甜蜜搞笑的浪漫喜剧，讲述了超级粉丝在职场中与偶像及真正的老板之间碰撞出的火花与闹剧。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5nIm7u64PRXFAHrfNYvOunROSDg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/v8O0X6PP7grEaXsPkdiotIx78tA.jpg"
     },
     {
       "id": 1404304,
@@ -200,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d4zFDlp7maocZCbVuAsrcdqcAAz.jpg"
     },
     {
-      "id": 1481343,
-      "title": "恶魔之口",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-07-29",
-      "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lASUu8LYmDcNZfG388d3RW1GUWW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1X8Tx9McZNLSmlvZRE7dDWWa0e6.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -220,6 +198,28 @@
       "overview": "太阳正在被“吃”掉，绝望吞噬着地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜题，寻回唯一的希望火种？",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
+    },
+    {
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+    },
+    {
+      "id": 1481343,
+      "title": "恶魔之口",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-07-29",
+      "overview": "五个好友在进入社会之前来到泰国的恶魔之口洞穴系统进行最后一次冒险。但他们很快就发现水下有生物正在追捕他们，行动迅速、悄无声息、且致命。在令人窒息的黑暗中，信任逐渐瓦解，恐慌蔓延，每一次错误的抉择都成为生死的挣扎。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lASUu8LYmDcNZfG388d3RW1GUWW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1X8Tx9McZNLSmlvZRE7dDWWa0e6.jpg"
     }
   ],
   "week_global_all": [
