@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-08 14:27:28",
+  "last_updated": "2026-08-08 15:37:47",
   "today_global": [
     {
       "id": 1284041,
       "title": "最后孤屋",
       "type": "movie",
       "genreTitle": "恐怖•科幻•惊悚",
-      "rating": 6.0,
+      "rating": 5.8,
       "release_date": "2026-08-06",
       "overview": "一家人被神秘地困在家中。面对日益减少的物资和可怕的力量，他们必须齐心协力，求得生机。",
       "poster_url": "https://image.tmdb.org/t/p/original/9c5MdgpbHsGHFWrI5mglUDgo8o5.jpg",
@@ -24,6 +24,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
+      "id": 291496,
+      "title": "我的荒糖恋爱",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 7.2,
+      "release_date": "2026-08-07",
+      "overview": "一名事业心十足的检察官失忆后，搬去和声称是自己男友的拳击教练同住。这段尴尬同居会发展成真爱吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/jjvpHNJfzbRU8RGZxqGiWZNIXjX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3Yypc9omHiqUAL46ciYHkyAfjOr.jpg"
+    },
+    {
+      "id": 1263532,
+      "title": "野兽赛跑",
+      "type": "movie",
+      "genreTitle": "动作•科幻•惊悚",
+      "rating": 5.4,
+      "release_date": "2026-03-17",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/ice7S6dKUoJqByKPP5dZ283ao4A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8xS1rjvNBuM7zdptEarvgyXoJ7P.jpg"
+    },
+    {
       "id": 1368337,
       "title": "奥德赛",
       "type": "movie",
@@ -35,26 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 291496,
-      "title": "我的荒糖恋爱",
+      "id": 300480,
+      "title": "瑞奇·热维斯之街猫一族",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.3,
+      "genreTitle": "动画•喜剧",
+      "rating": 7.8,
       "release_date": "2026-08-07",
-      "overview": "一名事业心十足的检察官失忆后，搬去和声称是自己男友的拳击教练同住。这段尴尬同居会发展成真爱吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/jjvpHNJfzbRU8RGZxqGiWZNIXjX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3Yypc9omHiqUAL46ciYHkyAfjOr.jpg"
-    },
-    {
-      "id": 1263532,
-      "title": "野兽赛跑",
-      "type": "movie",
-      "genreTitle": "动作•科幻•惊悚",
-      "rating": 5.8,
-      "release_date": "2026-03-17",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/ice7S6dKUoJqByKPP5dZ283ao4A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8xS1rjvNBuM7zdptEarvgyXoJ7P.jpg"
+      "overview": "一群性格各异、来自社会底层的英国流浪猫，在残酷的人类世界中求生存、寻找陪伴，同时聚在一起“反思人生”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w3Fgw1LCWdP9Zx2UEyuagRG9DAA.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tTFmJZrwD1p2fP2MRklMxcpHyHL.jpg"
     },
     {
       "id": 125988,
@@ -66,17 +77,6 @@
       "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
-      "id": 300480,
-      "title": "瑞奇·热维斯之街猫一族",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 7.7,
-      "release_date": "2026-08-07",
-      "overview": "一群性格各异、来自社会底层的英国流浪猫，在残酷的人类世界中求生存、寻找陪伴，同时聚在一起“反思人生”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w3Fgw1LCWdP9Zx2UEyuagRG9DAA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tTFmJZrwD1p2fP2MRklMxcpHyHL.jpg"
     },
     {
       "id": 1212763,
@@ -101,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 298168,
-      "title": "青春碎片",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.2,
-      "release_date": "2026-08-05",
-      "overview": "1980年代五光十色的洛杉矶，梦想成为作家且观察力敏锐，就读于名门预校的青少年布雷特，与一群光鲜亮丽的朋友在探索自我认同、性、嫉妒与迷恋时，也逐渐察觉到美国青少年生活表象下暗藏的危险。随着神秘又充满魅力的转学生罗伯特的到来，他们原本充斥着财富、美貌、派对与纵情享乐的特权世界逐渐开始瓦解。而他的出现，恰巧与专门锁定全城青少年的连续杀人犯“拖网客”所引发的恐慌不谋而合。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n3f64eaJLRbwt29ewgFpUWSFFH9.jpg"
-    },
-    {
       "id": 1081003,
       "title": "超级少女",
       "type": "movie",
@@ -121,6 +110,28 @@
       "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
       "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h43uFqdv97np9dQ3B1iGut8hmcy.jpg"
+    },
+    {
+      "id": 284753,
+      "title": "萨菲德·萨加尔行动",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-07",
+      "overview": "一支印度空军飞行员中队突破他们的极限，尝试执行一项大胆又危险的任务。改编自真实事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fteoIzTf8XDCV7z0A8ZSmFg1Arn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bKvEIOHJ2UpK6NhF86n36dOmfBY.jpg"
+    },
+    {
+      "id": 298168,
+      "title": "青春碎片",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.2,
+      "release_date": "2026-08-05",
+      "overview": "1980年代五光十色的洛杉矶，梦想成为作家且观察力敏锐，就读于名门预校的青少年布雷特，与一群光鲜亮丽的朋友在探索自我认同、性、嫉妒与迷恋时，也逐渐察觉到美国青少年生活表象下暗藏的危险。随着神秘又充满魅力的转学生罗伯特的到来，他们原本充斥着财富、美貌、派对与纵情享乐的特权世界逐渐开始瓦解。而他的出现，恰巧与专门锁定全城青少年的连续杀人犯“拖网客”所引发的恐慌不谋而合。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n3f64eaJLRbwt29ewgFpUWSFFH9.jpg"
     },
     {
       "id": 97546,
@@ -145,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3VGqjZa6skfsR725nFnmz8TpiAj.jpg"
     },
     {
-      "id": 289324,
-      "title": "星球大战：幻境 — 第九个绝地武士",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.0,
-      "release_date": "2026-08-05",
-      "overview": "卡拉和她那群乌合之众般的绝地武士寻找值得尊敬的绝地武士，与日益强大的军阀作战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ahTIoo85WhmEKFwFUFqvgFS6m6o.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
-    },
-    {
       "id": 203744,
       "title": "Sugar",
       "type": "tv",
@@ -167,15 +167,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
     },
     {
-      "id": 284753,
-      "title": "萨菲德·萨加尔行动",
+      "id": 289324,
+      "title": "星球大战：幻境 — 第九个绝地武士",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-07",
-      "overview": "一支印度空军飞行员中队突破他们的极限，尝试执行一项大胆又危险的任务。改编自真实事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fteoIzTf8XDCV7z0A8ZSmFg1Arn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bKvEIOHJ2UpK6NhF86n36dOmfBY.jpg"
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 7.0,
+      "release_date": "2026-08-05",
+      "overview": "卡拉和她那群乌合之众般的绝地武士寻找值得尊敬的绝地武士，与日益强大的军阀作战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ahTIoo85WhmEKFwFUFqvgFS6m6o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
+    },
+    {
+      "id": 287620,
+      "title": "斯图尔特未能拯救宇宙",
+      "type": "tv",
+      "genreTitle": "喜剧•Sci-Fi & Fantasy",
+      "rating": 9.2,
+      "release_date": "2026-07-23",
+      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
     },
     {
       "id": 283297,
@@ -198,17 +209,6 @@
       "overview": "纽约乖乖女Jackie在一场意外失去父母后，母亲的好友Katherine Walter成为了她的监护人，并把她从纽约上东区带到了科罗拉多州的郊区生活——只不过，还有七个Walter家的男孩也同时住在这里，其中有两人还同时喜欢上了Jackie，但她却还是一心想要按照自己既定目标前进：考上普林斯顿、回到纽约——她，能如意吗？",
       "poster_url": "https://image.tmdb.org/t/p/original/q5aIN2C2AJgp8eYY61pWXmHp0bK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5WUsnqUm7xbY3oSwumSLfjyyax.jpg"
-    },
-    {
-      "id": 287620,
-      "title": "斯图尔特未能拯救宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy",
-      "rating": 9.2,
-      "release_date": "2026-07-23",
-      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
     },
     {
       "id": 1083381,
