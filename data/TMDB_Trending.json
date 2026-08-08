@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09 00:15:21",
+  "last_updated": "2026-08-09 01:17:46",
   "today_global": [
     {
       "id": 1284041,
@@ -57,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3Yypc9omHiqUAL46ciYHkyAfjOr.jpg"
     },
     {
+      "id": 1679730,
+      "title": "缎带英雄",
+      "type": "movie",
+      "genreTitle": "动画•奇幻•剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-07",
+      "overview": "残酷的内尔伽勒摧毁蓝宝石大人的王国后，她以缎带英雄的身份醒来，努力拯救她的新家园，避免遭受同样的黑暗命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iLfFiw6x1o9TzuqVrIYoe9z8guU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -66,17 +77,6 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 300480,
@@ -90,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tTFmJZrwD1p2fP2MRklMxcpHyHL.jpg"
     },
     {
-      "id": 1679730,
-      "title": "缎带英雄",
-      "type": "movie",
-      "genreTitle": "动画•奇幻•剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-07",
-      "overview": "残酷的内尔伽勒摧毁蓝宝石大人的王国后，她以缎带英雄的身份醒来，努力拯救她的新家园，避免遭受同样的黑暗命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iLfFiw6x1o9TzuqVrIYoe9z8guU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg"
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 1212763,
@@ -112,6 +112,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/viHFZ7GlzMcmPbADvP4Vd6Ema0g.jpg"
     },
     {
+      "id": 203744,
+      "title": "Sugar",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.2,
+      "release_date": "2024-04-04",
+      "overview": "故事背景设定在洛杉矶，讲述一位神秘的私家侦探在与个人心魔斗争的同时，调查一位好莱坞制片人心爱孙女的失踪案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u4uF5A3lkVFTcubBhrgm8WbCz9v.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
+    },
+    {
       "id": 284753,
       "title": "萨菲德·萨加尔行动",
       "type": "tv",
@@ -121,28 +132,6 @@
       "overview": "一支印度空军飞行员中队突破他们的极限，尝试执行一项大胆又危险的任务。改编自真实事件。",
       "poster_url": "https://image.tmdb.org/t/p/original/fteoIzTf8XDCV7z0A8ZSmFg1Arn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/bKvEIOHJ2UpK6NhF86n36dOmfBY.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
-      "id": 220074,
-      "title": "财阀X刑警",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪•悬疑",
-      "rating": 7.8,
-      "release_date": "2024-01-26",
-      "overview": "在这世上无所不能，却只为玩乐拼上性命的富家子弟被卷进意外中，并加入了重案组。用更多钱逮住有钱的家伙，用更硬的背景逮住背景硬的家伙，抓获警方难以企及的罪犯，财阀三世专属的痛快搜查开始了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aSq93L2Ux3r44WUu9KBAKOdZik0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3VGqjZa6skfsR725nFnmz8TpiAj.jpg"
     },
     {
       "id": 1081003,
@@ -156,15 +145,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h43uFqdv97np9dQ3B1iGut8hmcy.jpg"
     },
     {
-      "id": 203744,
-      "title": "Sugar",
+      "id": 298168,
+      "title": "青春碎片",
       "type": "tv",
       "genreTitle": "剧情•悬疑",
-      "rating": 7.2,
-      "release_date": "2024-04-04",
-      "overview": "故事背景设定在洛杉矶，讲述一位神秘的私家侦探在与个人心魔斗争的同时，调查一位好莱坞制片人心爱孙女的失踪案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/u4uF5A3lkVFTcubBhrgm8WbCz9v.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
+      "rating": 8.2,
+      "release_date": "2026-08-05",
+      "overview": "1980年代五光十色的洛杉矶，梦想成为作家且观察力敏锐，就读于名门预校的青少年布雷特，与一群光鲜亮丽的朋友在探索自我认同、性、嫉妒与迷恋时，也逐渐察觉到美国青少年生活表象下暗藏的危险。随着神秘又充满魅力的转学生罗伯特的到来，他们原本充斥着财富、美貌、派对与纵情享乐的特权世界逐渐开始瓦解。而他的出现，恰巧与专门锁定全城青少年的连续杀人犯“拖网客”所引发的恐慌不谋而合。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n3f64eaJLRbwt29ewgFpUWSFFH9.jpg"
+    },
+    {
+      "id": 220074,
+      "title": "财阀X刑警",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪•悬疑",
+      "rating": 7.8,
+      "release_date": "2024-01-26",
+      "overview": "在这世上无所不能，却只为玩乐拼上性命的富家子弟被卷进意外中，并加入了重案组。用更多钱逮住有钱的家伙，用更硬的背景逮住背景硬的家伙，抓获警方难以企及的罪犯，财阀三世专属的痛快搜查开始了。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aSq93L2Ux3r44WUu9KBAKOdZik0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3VGqjZa6skfsR725nFnmz8TpiAj.jpg"
+    },
+    {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
       "id": 289324,
@@ -178,6 +189,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
     },
     {
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+    },
+    {
       "id": 1598732,
       "title": "完美世界剧场版 九劫焚天",
       "type": "movie",
@@ -189,37 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jaVa5D37DCkF3EptbRBOhBECvTS.jpg"
     },
     {
-      "id": 298168,
-      "title": "青春碎片",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.2,
-      "release_date": "2026-08-05",
-      "overview": "1980年代五光十色的洛杉矶，梦想成为作家且观察力敏锐，就读于名门预校的青少年布雷特，与一群光鲜亮丽的朋友在探索自我认同、性、嫉妒与迷恋时，也逐渐察觉到美国青少年生活表象下暗藏的危险。随着神秘又充满魅力的转学生罗伯特的到来，他们原本充斥着财富、美貌、派对与纵情享乐的特权世界逐渐开始瓦解。而他的出现，恰巧与专门锁定全城青少年的连续杀人犯“拖网客”所引发的恐慌不谋而合。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n3f64eaJLRbwt29ewgFpUWSFFH9.jpg"
-    },
-    {
-      "id": 287620,
-      "title": "斯图尔特未能拯救宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy",
-      "rating": 9.2,
-      "release_date": "2026-07-23",
-      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
-    },
-    {
-      "id": 237964,
-      "title": "死人公司",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 7.2,
-      "release_date": "2024-04-04",
-      "overview": "当托雷格罗萨殡仪馆创始人猝然离世，其“贴心助手”老吴已摩拳擦掌，企图将殡葬帝国收入囊中。然而，遗孀林太太却在葬礼当天，用一支檀香笔与一本账簿撕开权力的裂缝——老吴的“白事”算计，终将被她写入“红本”的生死簿。在这场以骨灰为筹码、以遗愿为暗号的棋局中，殡仪馆的灵堂成了生死博弈的战场，而“死亡”不过是她夺回丈夫遗产的第一道门。",
-      "poster_url": "https://image.tmdb.org/t/p/original/g6vptk7afH3OHOKSjdjJJtEoOMh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rNnTUZgVhzJc36FViudinVPBDSh.jpg"
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     }
   ],
   "week_global_all": [
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
       "id": 1081003,
       "title": "超级少女",
       "type": "movie",
@@ -312,92 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 289324,
-      "title": "星球大战：幻境 — 第九个绝地武士",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 6.6,
-      "release_date": "2026-08-05",
-      "overview": "卡拉和她那群乌合之众般的绝地武士寻找值得尊敬的绝地武士，与日益强大的军阀作战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ahTIoo85WhmEKFwFUFqvgFS6m6o.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
-    },
-    {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 113962,
-      "title": "特别行动：母狮",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.0,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 7.4,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
-    },
-    {
-      "id": 291496,
-      "title": "我的荒糖恋爱",
+      "id": 97546,
+      "title": "Ted Lasso",
       "type": "tv",
       "genreTitle": "剧情•喜剧",
-      "rating": 6.7,
-      "release_date": "2026-08-07",
-      "overview": "一名事业心十足的检察官失忆后，搬去和声称是自己男友的拳击教练同住。这段尴尬同居会发展成真爱吗？",
-      "poster_url": "https://image.tmdb.org/t/p/original/jjvpHNJfzbRU8RGZxqGiWZNIXjX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3Yypc9omHiqUAL46ciYHkyAfjOr.jpg"
-    },
-    {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
-    },
-    {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
-    },
-    {
-      "id": 615,
-      "title": "飞出个未来",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "1999-03-28",
-      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
+      "rating": 8.3,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
       "id": 1679730,
@@ -411,15 +323,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg"
     },
     {
-      "id": 1307118,
-      "title": "灵魂伴侣",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-07-31",
-      "overview": "又名：《梅根》宇宙外传 / 夺魂伴侣。 一名男子获得了一个人工智能机器人，以应对刚刚去世的妻子的去世。 为了创造一个真正有知觉的伴侣，他无意中把一个无害的爱情机器人变成了一个致命的灵魂伴侣。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3IOTIAJcL9GXG5gGnf3EDDCYRHj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tZ6PAiaydcJvoz7NWMvqxM0HYR3.jpg"
+      "id": 289324,
+      "title": "星球大战：幻境 — 第九个绝地武士",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 6.6,
+      "release_date": "2026-08-05",
+      "overview": "卡拉和她那群乌合之众般的绝地武士寻找值得尊敬的绝地武士，与日益强大的军阀作战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ahTIoo85WhmEKFwFUFqvgFS6m6o.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
+    },
+    {
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
       "id": 298168,
@@ -433,15 +356,92 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n3f64eaJLRbwt29ewgFpUWSFFH9.jpg"
     },
     {
-      "id": 283297,
-      "title": "斯特林角",
+      "id": 291496,
+      "title": "我的荒糖恋爱",
       "type": "tv",
-      "genreTitle": "悬疑•剧情",
+      "genreTitle": "剧情•喜剧",
+      "rating": 6.7,
+      "release_date": "2026-08-07",
+      "overview": "一名事业心十足的检察官失忆后，搬去和声称是自己男友的拳击教练同住。这段尴尬同居会发展成真爱吗？",
+      "poster_url": "https://image.tmdb.org/t/p/original/jjvpHNJfzbRU8RGZxqGiWZNIXjX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3Yypc9omHiqUAL46ciYHkyAfjOr.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
+    },
+    {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
+    },
+    {
+      "id": 1275779,
+      "title": "揭秘日",
+      "type": "movie",
+      "genreTitle": "科幻•惊悚",
       "rating": 7.4,
-      "release_date": "2026-08-05",
-      "overview": "17岁的纽约少女Annie（艾拉·鲁宾 饰）和双胞胎哥哥由养父抚养长大。她无意中继承了神秘外祖父在加拿大的一座岛屿。于是她前往加拿大度过了一个夏天。在那里，她结交了新朋友，收获了浪漫爱情，并揭开了家族的隐藏秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hYTurZ5ecVMEx5LPLSsLLPwutBV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xADPV9cDAXjV1Z7xmKQfdzBc6eP.jpg"
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
+    },
+    {
+      "id": 615,
+      "title": "飞出个未来",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "1999-03-28",
+      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
+    },
+    {
+      "id": 203744,
+      "title": "Sugar",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.2,
+      "release_date": "2024-04-04",
+      "overview": "故事背景设定在洛杉矶，讲述一位神秘的私家侦探在与个人心魔斗争的同时，调查一位好莱坞制片人心爱孙女的失踪案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u4uF5A3lkVFTcubBhrgm8WbCz9v.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
+    },
+    {
+      "id": 113962,
+      "title": "特别行动：母狮",
+      "type": "tv",
+      "genreTitle": "剧情•War & Politics",
+      "rating": 8.0,
+      "release_date": "2023-07-23",
+      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
+    },
+    {
+      "id": 1263532,
+      "title": "野兽赛跑",
+      "type": "movie",
+      "genreTitle": "动作•科幻•惊悚",
+      "rating": 5.5,
+      "release_date": "2026-03-17",
+      "overview": "在气候灾难后的里约热内卢，瓜纳巴拉湾彻底干涸，整座城市沦为断壁残垣，贫富撕裂到极致。当地传统民间赌局“动物彩票”被资本寡头改造为全民观赏的致命竞技“兽群竞速”。参赛选手佩戴对应动物形象面具，在废墟城市里完成极限跑酷竞速，冠军能拿到足以改变人生的巨额奖金，但参赛的硬性代价是必须抵押一名至亲作为赌注，一旦落败，抵押之人会被流放至绝境海岸，生死难料。主角马诺是底层反抗组织的领袖，毕生都在对抗这套资本压榨的残酷赛事，可他的妹妹达尔瓦被当作赌注抵押进比赛，为换回亲人，马诺只能放下反抗身份，戴上动物面具踏入这场生死竞速。赛道之上不仅要对抗其他亡命选手，还要面对权贵阶层的恶意刁难、当地原住民对赛道侵占的怒火，同时他在奔跑途中逐步揭开赛事背后资本收割底层、操纵生死的黑暗阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ice7S6dKUoJqByKPP5dZ283ao4A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8xS1rjvNBuM7zdptEarvgyXoJ7P.jpg"
     }
   ],
   "popular_movies": [
