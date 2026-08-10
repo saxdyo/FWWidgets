@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10 07:16:39",
+  "last_updated": "2026-08-10 08:40:15",
   "today_global": [
     {
       "id": 969681,
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
+    },
+    {
       "id": 1679730,
       "title": "缎带英雄",
       "type": "movie",
@@ -44,6 +55,28 @@
       "overview": "残酷的内尔伽勒摧毁蓝宝石大人的王国后，她以缎带英雄的身份醒来，努力拯救她的新家园，避免遭受同样的黑暗命运。",
       "poster_url": "https://image.tmdb.org/t/p/original/iLfFiw6x1o9TzuqVrIYoe9z8guU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg"
+    },
+    {
+      "id": 113962,
+      "title": "特别行动：母狮",
+      "type": "tv",
+      "genreTitle": "剧情•War & Politics",
+      "rating": 8.0,
+      "release_date": "2023-07-23",
+      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
+    },
+    {
+      "id": 94997,
+      "title": "权力的游戏前传：龙族",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
+      "rating": 8.4,
+      "release_date": "2022-08-21",
+      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
       "id": 1339713,
@@ -68,17 +101,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/viHFZ7GlzMcmPbADvP4Vd6Ema0g.jpg"
     },
     {
-      "id": 113962,
-      "title": "特别行动：母狮",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.0,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
-    },
-    {
       "id": 1081003,
       "title": "超级少女",
       "type": "movie",
@@ -90,26 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h43uFqdv97np9dQ3B1iGut8hmcy.jpg"
     },
     {
-      "id": 94997,
-      "title": "权力的游戏前传：龙族",
+      "id": 97546,
+      "title": "Ted Lasso",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情•动作冒险",
-      "rating": 8.4,
-      "release_date": "2022-08-21",
-      "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
       "id": 30984,
@@ -123,17 +134,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
       "id": 291496,
       "title": "我的荒糖恋爱",
       "type": "tv",
@@ -145,6 +145,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3Yypc9omHiqUAL46ciYHkyAfjOr.jpg"
     },
     {
+      "id": 980431,
+      "title": "安昂传奇：最后的气宗",
+      "type": "movie",
+      "genreTitle": "动画•动作•冒险",
+      "rating": 9.3,
+      "release_date": "2026-07-24",
+      "overview": "派拉蒙和尼克宣布“降世神通”系列开发三部新的电影，仍是动画形式。第一部由《降世神通：最后的气宗》导演Lauren Montgomery执导，《最后的气宗》主创Bryan Konietzko和Michael DiMartino担任制片人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uMnhXLchOwDUdlKxCoPO6ijJbEU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/74iiUwzqe2BnRZl7QD4LVQUQKHb.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
+      "id": 454639,
+      "title": "宇宙巨人：希曼崛起",
+      "type": "movie",
+      "genreTitle": "动作•奇幻•科幻",
+      "rating": 7.2,
+      "release_date": "2026-06-03",
+      "overview": "亚当（尼古拉斯·加利齐纳 饰）在神秘圣剑的召唤下，尘封十五年的异世界王子身份觉醒，平凡人生被彻底颠覆。他跨越时空重返埃坦尼亚，但故乡早已在骷髅王的统治下分崩离析。为拯救曾经的家园与现在的世界，亚当必须再次拔出圣剑，喊出那句响彻寰宇的咒语——“赐予我力量吧！我是希曼！”",
+      "poster_url": "https://image.tmdb.org/t/p/original/i2mfUWIoxbBuNVn71ALVhC7F7Lo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8QmGSFFcUZzJKtEJxp3CG6AoUpI.jpg"
+    },
+    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -154,6 +187,17 @@
       "overview": "太阳正在被“吃”掉，绝望吞噬着地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜题，寻回唯一的希望火种？",
       "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
+    },
+    {
+      "id": 203744,
+      "title": "Sugar",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.2,
+      "release_date": "2024-04-04",
+      "overview": "故事背景设定在洛杉矶，讲述一位神秘的私家侦探在与个人心魔斗争的同时，调查一位好莱坞制片人心爱孙女的失踪案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u4uF5A3lkVFTcubBhrgm8WbCz9v.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p4OYCckYVNJJgqK6HVPu5f8uXH4.jpg"
     },
     {
       "id": 37854,
@@ -176,50 +220,6 @@
       "overview": "在气候灾难后的里约热内卢，瓜纳巴拉湾彻底干涸，整座城市沦为断壁残垣，贫富撕裂到极致。当地传统民间赌局“动物彩票”被资本寡头改造为全民观赏的致命竞技“兽群竞速”。参赛选手佩戴对应动物形象面具，在废墟城市里完成极限跑酷竞速，冠军能拿到足以改变人生的巨额奖金，但参赛的硬性代价是必须抵押一名至亲作为赌注，一旦落败，抵押之人会被流放至绝境海岸，生死难料。主角马诺是底层反抗组织的领袖，毕生都在对抗这套资本压榨的残酷赛事，可他的妹妹达尔瓦被当作赌注抵押进比赛，为换回亲人，马诺只能放下反抗身份，戴上动物面具踏入这场生死竞速。赛道之上不仅要对抗其他亡命选手，还要面对权贵阶层的恶意刁难、当地原住民对赛道侵占的怒火，同时他在奔跑途中逐步揭开赛事背后资本收割底层、操纵生死的黑暗阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/ice7S6dKUoJqByKPP5dZ283ao4A.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/8xS1rjvNBuM7zdptEarvgyXoJ7P.jpg"
-    },
-    {
-      "id": 300480,
-      "title": "瑞奇·热维斯之街猫一族",
-      "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 7.0,
-      "release_date": "2026-08-07",
-      "overview": "一群性格各异、来自社会底层的英国流浪猫，在残酷的人类世界中求生存、寻找陪伴，同时聚在一起“反思人生”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/w3Fgw1LCWdP9Zx2UEyuagRG9DAA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tTFmJZrwD1p2fP2MRklMxcpHyHL.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
-      "id": 289324,
-      "title": "星球大战：幻境 — 第九个绝地武士",
-      "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
-      "rating": 7.3,
-      "release_date": "2026-08-05",
-      "overview": "卡拉和她那群乌合之众般的绝地武士寻找值得尊敬的绝地武士，与日益强大的军阀作战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ahTIoo85WhmEKFwFUFqvgFS6m6o.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
-    },
-    {
-      "id": 291350,
-      "title": "林间鸽踪",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 3.8,
-      "release_date": "2026-08-07",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/cA2NyvzIqjeAOXYlxtWcQWGSRZ8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wPXTBdO4gvczVmYxjRi7pFqotgw.jpg"
     }
   ],
   "week_global_all": [
@@ -279,17 +279,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 113962,
-      "title": "特别行动：母狮",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.0,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
-    },
-    {
       "id": 1081003,
       "title": "超级少女",
       "type": "movie",
@@ -299,6 +288,17 @@
       "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
       "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/h43uFqdv97np9dQ3B1iGut8hmcy.jpg"
+    },
+    {
+      "id": 113962,
+      "title": "特别行动：母狮",
+      "type": "tv",
+      "genreTitle": "剧情•War & Politics",
+      "rating": 8.0,
+      "release_date": "2023-07-23",
+      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
     },
     {
       "id": 94997,
@@ -312,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -332,6 +321,17 @@
       "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
       "id": 1083381,
@@ -345,6 +345,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.8,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
       "id": 289324,
       "title": "星球大战：幻境 — 第九个绝地武士",
       "type": "tv",
@@ -356,15 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xkOo3YfMR7Fy36UiubmNjxPyNDi.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 283297,
+      "title": "斯特林角",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.8,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.8,
+      "release_date": "2026-08-05",
+      "overview": "17岁的纽约少女Annie（艾拉·鲁宾 饰）和双胞胎哥哥由养父抚养长大。她无意中继承了神秘外祖父在加拿大的一座岛屿。于是她前往加拿大度过了一个夏天。在那里，她结交了新朋友，收获了浪漫爱情，并揭开了家族的隐藏秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hYTurZ5ecVMEx5LPLSsLLPwutBV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xADPV9cDAXjV1Z7xmKQfdzBc6eP.jpg"
     },
     {
       "id": 30984,
@@ -389,17 +400,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
     },
     {
-      "id": 283297,
-      "title": "斯特林角",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.8,
-      "release_date": "2026-08-05",
-      "overview": "17岁的纽约少女Annie（艾拉·鲁宾 饰）和双胞胎哥哥由养父抚养长大。她无意中继承了神秘外祖父在加拿大的一座岛屿。于是她前往加拿大度过了一个夏天。在那里，她结交了新朋友，收获了浪漫爱情，并揭开了家族的隐藏秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hYTurZ5ecVMEx5LPLSsLLPwutBV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xADPV9cDAXjV1Z7xmKQfdzBc6eP.jpg"
-    },
-    {
       "id": 687163,
       "title": "挽救计划",
       "type": "movie",
@@ -422,6 +422,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tZ6PAiaydcJvoz7NWMvqxM0HYR3.jpg"
     },
     {
+      "id": 1679730,
+      "title": "缎带英雄",
+      "type": "movie",
+      "genreTitle": "动画•奇幻•剧情",
+      "rating": 6.6,
+      "release_date": "2026-08-07",
+      "overview": "残酷的内尔伽勒摧毁蓝宝石大人的王国后，她以缎带英雄的身份醒来，努力拯救她的新家园，避免遭受同样的黑暗命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iLfFiw6x1o9TzuqVrIYoe9z8guU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg"
+    },
+    {
       "id": 298168,
       "title": "青春碎片",
       "type": "tv",
@@ -431,17 +442,6 @@
       "overview": "1980年代五光十色的洛杉矶，梦想成为作家且观察力敏锐，就读于名门预校的青少年布雷特，与一群光鲜亮丽的朋友在探索自我认同、性、嫉妒与迷恋时，也逐渐察觉到美国青少年生活表象下暗藏的危险。随着神秘又充满魅力的转学生罗伯特的到来，他们原本充斥着财富、美貌、派对与纵情享乐的特权世界逐渐开始瓦解。而他的出现，恰巧与专门锁定全城青少年的连续杀人犯“拖网客”所引发的恐慌不谋而合。",
       "poster_url": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n3f64eaJLRbwt29ewgFpUWSFFH9.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 7.4,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mVjtYjFiSKFsdsKpb2e8fi6vMY3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
     }
   ],
   "popular_movies": [
