@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-08-16 03:11:36",
+  "last_updated": "2026-08-16 04:07:04",
   "today_global": [
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "改编自同名荷马史诗，讲述奥德修斯的故事，以及他在特洛伊战争后10年的回家之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
     {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
@@ -24,11 +13,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
+      "id": 1003596,
+      "title": "复仇者联盟5：毁灭之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bltbI7UBYgVyOX4OnzK4HpDCDiB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
+    },
+    {
       "id": 1504358,
       "title": "别祝我好运",
       "type": "movie",
       "genreTitle": "喜剧•音乐•剧情",
-      "rating": 7.2,
+      "rating": 7.3,
       "release_date": "2026-08-13",
       "overview": "作为学校音乐剧的主演，高中生索菲·比伦鲍姆已准备好迎接聚光灯 — 但家里的风波竟比舞台上的还要戏剧化。",
       "poster_url": "https://image.tmdb.org/t/p/original/tQwY1YoZDqxPChPsFbwZFXDYtzv.jpg",
@@ -46,17 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bltbI7UBYgVyOX4OnzK4HpDCDiB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
-    },
-    {
       "id": 1493400,
       "title": "摇滚夏令营3",
       "type": "movie",
@@ -66,6 +55,17 @@
       "overview": "Connect‑3重聚巡演的开场艺人意外缺席，乐队重返摇滚夏令营物色新人。一众营员角逐巡演开场席位，竞争加剧，友谊面临考验，也催生了意外的结盟、秘密与爱情。",
       "poster_url": "https://image.tmdb.org/t/p/original/gV936n8KGZHenNB3b15WLRcS3kF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lW0I5pedbFm1nS0kjAhmNOTVOvk.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "改编自同名荷马史诗，讲述奥德修斯的故事，以及他在特洛伊战争后10年的回家之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1315772,
@@ -79,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
     },
     {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.9,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -101,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 213375,
-      "title": "幻视任务",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-10-14",
-      "overview": "讲述幻视试图恢复记忆和人性的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wG8FByKU1I9UCCP4fOXgm8BFYyI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hgo15B8eUnbEjszVV1qdV8sGz9S.jpg"
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
       "id": 1589248,
@@ -123,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/YYlAZZ42lxiqtlT6uB7ZOT1Hbi.jpg"
     },
     {
-      "id": 950028,
-      "title": "激情邀约",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情•爱情",
-      "rating": 7.4,
-      "release_date": "2026-06-25",
-      "overview": "影片改编自西班牙电影《多愁善感》，是一部关于夫妻关系的讽刺喜剧。影片讲述的是“一对夫妇邀请邻居过来，点燃了一场充满意想不到的转折的夜晚，揭示了深藏的情感和未被探索的性欲。”",
-      "poster_url": "https://image.tmdb.org/t/p/original/3T3FolKgLQtYGcFHUAWRCwCKTsp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6fvX6BdW5804rgQfiVwLK464uem.jpg"
+      "id": 213375,
+      "title": "幻视任务",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-10-14",
+      "overview": "讲述幻视试图恢复记忆和人性的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wG8FByKU1I9UCCP4fOXgm8BFYyI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hgo15B8eUnbEjszVV1qdV8sGz9S.jpg"
     },
     {
       "id": 1339713,
@@ -167,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2J3e3gOy6jqflXjiJYa3E3BhI2J.jpg"
     },
     {
+      "id": 950028,
+      "title": "激情邀约",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情•爱情",
+      "rating": 7.4,
+      "release_date": "2026-06-25",
+      "overview": "影片改编自西班牙电影《多愁善感》，是一部关于夫妻关系的讽刺喜剧。影片讲述的是“一对夫妇邀请邻居过来，点燃了一场充满意想不到的转折的夜晚，揭示了深藏的情感和未被探索的性欲。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/3T3FolKgLQtYGcFHUAWRCwCKTsp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6fvX6BdW5804rgQfiVwLK464uem.jpg"
+    },
+    {
       "id": 95350,
       "title": "绿灯军团",
       "type": "tv",
@@ -178,26 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lIvVYm4aTFcR0BSbxJ3ZVZQjIc5.jpg"
     },
     {
-      "id": 138502,
-      "title": "X战警97",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2024-03-20",
-      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pmNPP4TdwTXl6FgCY8ppOIu096A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
-    },
-    {
-      "id": 287620,
-      "title": "斯图尔特未能拯救宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy",
-      "rating": 9.1,
-      "release_date": "2026-07-23",
-      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
+      "id": 1275779,
+      "title": "揭秘日",
+      "type": "movie",
+      "genreTitle": "科幻•惊悚",
+      "rating": 7.4,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gMGu5lyv6fjeaoYQGW54eHVA7H8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
     },
     {
       "id": 331650,
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg"
     },
     {
-      "id": 687163,
-      "title": "挽救计划",
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eTnnHbvI59hUzowsuqpPOtJZFI9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+    },
+    {
+      "id": 1588838,
+      "title": "我们的极限人生",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 8.7,
-      "release_date": "2026-03-15",
-      "overview": "太阳正在被“吃”掉，绝望吞噬着地球。一名“平凡”的中学教师背负全人类的希望，踏上“太空不归路”。末路孤旅中，他意外遇到一位外星萌友，一个同样身陷绝境的外星工程师，这对“宇宙搭子”成了两个文明最后的救命稻草。他们能否在资源紧缺的情况下攻克重重科学谜题，寻回唯一的希望火种？",
-      "poster_url": "https://image.tmdb.org/t/p/original/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
+      "genreTitle": "剧情•冒险",
+      "rating": 5.6,
+      "release_date": "2026-02-06",
+      "overview": "一群极限运动爱好者尝试翼装定点跳伞，在追求飞翔快感的同时，致命风险也随之而来。五年之间，接连有三名跳伞运动员遭遇形态相似的事故身亡，仅有卡洛斯·苏亚雷斯是这场系列悲剧当中唯一活下来的幸存者。导演萨尔瓦多·卡尔沃找到这位幸存者，打算以他的亲身经历为蓝本，去还原、讲述这几位跳伞者背后的故事，影片围绕事故创伤、极限运动从业者的命运展开，交织现实回忆与记录式的叙事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/BDj8x5dBJMhyBfrL33nRIdNd7x.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2X1m5BImK0KZTHJpNMioubJWMUM.jpg"
     }
   ],
   "week_global_all": [
