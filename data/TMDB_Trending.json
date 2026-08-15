@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15 15:18:49",
+  "last_updated": "2026-08-15 16:11:32",
   "today_global": [
     {
       "id": 1504358,
@@ -46,28 +46,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
-      "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bltbI7UBYgVyOX4OnzK4HpDCDiB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
-    },
-    {
       "id": 1589248,
       "title": "我的死党恋爱了",
       "type": "movie",
@@ -79,15 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/oAFBdUTyyJZ7EMImZAdMGuPvt6V.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
+      "id": 108978,
+      "title": "侠探杰克",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 1101383,
@@ -101,6 +79,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
+      "id": 1003596,
+      "title": "复仇者联盟5：毁灭之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bltbI7UBYgVyOX4OnzK4HpDCDiB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
+    },
+    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -110,6 +99,17 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 950028,
@@ -123,17 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6fvX6BdW5804rgQfiVwLK464uem.jpg"
     },
     {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
       "id": 123542,
       "title": "时光代理人",
       "type": "tv",
@@ -143,6 +132,28 @@
       "overview": "在繁华都市的某个角落，有一家叫做“时光照相馆”的小店还在照常营业。虽然门庭冷落，但它背后其实由两个具有特殊能力的男人——程小时和陆光经营着。为了完成顾客的委托，陆光和程小时组队配合使用超能力进入照片，然而事情的发展却没能按他们所想的那样。",
       "poster_url": "https://image.tmdb.org/t/p/original/A9z3veK4kJhaPog9laE4eHNeI8D.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5ose7fWrreM9Zr7CiixAGpnMFe.jpg"
+    },
+    {
+      "id": 331650,
+      "title": "法律边缘",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-14",
+      "overview": "为了保住弟弟的性命，一名理想主义的州检察官被迫在囚犯哥哥的帮派中做双重特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xCiH7GBwpkdJMxPESMYo5ika7gW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
       "id": 94997,
@@ -156,50 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 309798,
-      "title": "我的璀璨生涯",
-      "type": "tv",
-      "genreTitle": "剧情•家庭",
-      "rating": 3.8,
-      "release_date": "2026-08-13",
-      "overview": "在社会对女人的期望就是找个男人安顿下来的时代，不甘现状、思维敏捷、拒绝顺从的西比拉决心书写自己的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9FOO28eFG9Vtd2KbmMoeUvoEruY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dKgefiyGDFoTK8nY9XfTOgZgMI7.jpg"
-    },
-    {
-      "id": 138502,
-      "title": "X战警97",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.7,
-      "release_date": "2024-03-20",
-      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pmNPP4TdwTXl6FgCY8ppOIu096A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
-    },
-    {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
-    },
-    {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
-      "rating": 5.9,
-      "release_date": "2026-08-16",
-      "overview": "两名星际警察——新兵约翰·斯图尔特与绿灯传奇哈尔·乔丹在调查美国中心地带的一起谋杀案时，被卷入了一个黑暗的地球之谜。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xc0FLsGFEVtX5iu4AQkIW80wtFg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/62P9tZ8Gyq64EIRMs4ZW9a9L3AV.jpg"
-    },
-    {
       "id": 1284041,
       "title": "最后孤屋",
       "type": "movie",
@@ -211,15 +178,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2J3e3gOy6jqflXjiJYa3E3BhI2J.jpg"
     },
     {
-      "id": 331650,
-      "title": "法律边缘",
+      "id": 95350,
+      "title": "绿灯军团",
       "type": "tv",
-      "genreTitle": "犯罪•剧情",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 5.9,
+      "release_date": "2026-08-16",
+      "overview": "两名星际警察——新兵约翰·斯图尔特与绿灯传奇哈尔·乔丹在调查美国中心地带的一起谋杀案时，被卷入了一个黑暗的地球之谜。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xc0FLsGFEVtX5iu4AQkIW80wtFg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lIvVYm4aTFcR0BSbxJ3ZVZQjIc5.jpg"
+    },
+    {
+      "id": 309798,
+      "title": "我的璀璨生涯",
+      "type": "tv",
+      "genreTitle": "剧情•家庭",
+      "rating": 3.8,
+      "release_date": "2026-08-13",
+      "overview": "在社会对女人的期望就是找个男人安顿下来的时代，不甘现状、思维敏捷、拒绝顺从的西比拉决心书写自己的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9FOO28eFG9Vtd2KbmMoeUvoEruY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dKgefiyGDFoTK8nY9XfTOgZgMI7.jpg"
+    },
+    {
+      "id": 287620,
+      "title": "斯图尔特未能拯救宇宙",
+      "type": "tv",
+      "genreTitle": "喜剧•Sci-Fi & Fantasy",
+      "rating": 9.1,
+      "release_date": "2026-07-23",
+      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
+    },
+    {
+      "id": 1444466,
+      "title": "आवारापन २",
+      "type": "movie",
+      "genreTitle": "动作•剧情•爱情",
       "rating": 0.0,
       "release_date": "2026-08-14",
-      "overview": "为了保住弟弟的性命，一名理想主义的州检察官被迫在囚犯哥哥的帮派中做双重特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xCiH7GBwpkdJMxPESMYo5ika7gW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg"
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/lD3J6zTbWkVtPYuSUuuBwpuKMCO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sJBASJrAnbpDeQNGwbLRLx5s1nS.jpg"
     }
   ],
   "week_global_all": [
