@@ -1,27 +1,16 @@
 {
-  "last_updated": "2026-08-15 23:07:38",
+  "last_updated": "2026-08-16 00:07:39",
   "today_global": [
     {
       "id": 1504358,
       "title": "别祝我好运",
       "type": "movie",
       "genreTitle": "喜剧•音乐•剧情",
-      "rating": 7.0,
+      "rating": 7.2,
       "release_date": "2026-08-13",
       "overview": "作为学校音乐剧的主演，高中生索菲·比伦鲍姆已准备好迎接聚光灯 — 但家里的风波竟比舞台上的还要戏剧化。",
       "poster_url": "https://image.tmdb.org/t/p/original/dzPjMB1WSFCnxrRDu08hxftczkb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ygr0JGYYQrhGj3DZQK61WZRCQqT.jpg"
-    },
-    {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 1368337,
@@ -39,11 +28,22 @@
       "title": "摇滚夏令营3",
       "type": "movie",
       "genreTitle": "音乐•喜剧•剧情",
-      "rating": 5.8,
+      "rating": 6.2,
       "release_date": "2026-08-13",
       "overview": "Connect‑3重聚巡演的开场艺人意外缺席，乐队重返摇滚夏令营物色新人。一众营员角逐巡演开场席位，竞争加剧，友谊面临考验，也催生了意外的结盟、秘密与爱情。",
       "poster_url": "https://image.tmdb.org/t/p/original/gV936n8KGZHenNB3b15WLRcS3kF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/lW0I5pedbFm1nS0kjAhmNOTVOvk.jpg"
+    },
+    {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 969681,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
-      "id": 1589248,
-      "title": "我的死党恋爱了",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 2.8,
-      "release_date": "2026-08-14",
-      "overview": "奥利和马佐是最好的朋友，他们一起住，一起工作并打算一起周游世界，一直到马佐和丽贝卡的感情颠覆了一切。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sWFzFNvqpas8y0BFSx0o7dURG8H.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oAFBdUTyyJZ7EMImZAdMGuPvt6V.jpg"
-    },
-    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -90,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "id": 1589248,
+      "title": "我的死党恋爱了",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 2.8,
+      "release_date": "2026-08-14",
+      "overview": "奥利和马佐是最好的朋友，他们一起住，一起工作并打算一起周游世界，一直到马佐和丽贝卡的感情颠覆了一切。",
+      "poster_url": "https://image.tmdb.org/t/p/original/sWFzFNvqpas8y0BFSx0o7dURG8H.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oAFBdUTyyJZ7EMImZAdMGuPvt6V.jpg"
     },
     {
       "id": 1101383,
@@ -112,6 +101,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
       "id": 950028,
       "title": "激情邀约",
       "type": "movie",
@@ -121,6 +121,17 @@
       "overview": "影片改编自西班牙电影《多愁善感》，是一部关于夫妻关系的讽刺喜剧。影片讲述的是“一对夫妇邀请邻居过来，点燃了一场充满意想不到的转折的夜晚，揭示了深藏的情感和未被探索的性欲。”",
       "poster_url": "https://image.tmdb.org/t/p/original/3T3FolKgLQtYGcFHUAWRCwCKTsp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6fvX6BdW5804rgQfiVwLK464uem.jpg"
+    },
+    {
+      "id": 213375,
+      "title": "幻视任务",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy",
+      "rating": 0.0,
+      "release_date": "2026-10-14",
+      "overview": "讲述幻视试图恢复记忆和人性的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wG8FByKU1I9UCCP4fOXgm8BFYyI.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hgo15B8eUnbEjszVV1qdV8sGz9S.jpg"
     },
     {
       "id": 1339713,
@@ -134,17 +145,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 213375,
-      "title": "幻视任务",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-10-14",
-      "overview": "讲述幻视试图恢复记忆和人性的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lDe6FlUsSjMttuHN846ZOf7vXOh.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hgo15B8eUnbEjszVV1qdV8sGz9S.jpg"
-    },
-    {
       "id": 94997,
       "title": "权力的游戏前传：龙族",
       "type": "tv",
@@ -154,17 +154,6 @@
       "overview": "在维斯特洛大陆，坦格利安家族的衰落被公之于众。一场被称为“血龙狂舞”的内战即将爆发。",
       "poster_url": "https://image.tmdb.org/t/p/original/w5iFwPk6h9fv3zxLN2QkxVEVyBw.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
-    },
-    {
-      "id": 331650,
-      "title": "法律边缘",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-14",
-      "overview": "为了保住弟弟的性命，一名理想主义的州检察官被迫在囚犯哥哥的帮派中做双重特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xCiH7GBwpkdJMxPESMYo5ika7gW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg"
     },
     {
       "id": 1284041,
@@ -189,26 +178,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lIvVYm4aTFcR0BSbxJ3ZVZQjIc5.jpg"
     },
     {
-      "id": 1588838,
-      "title": "我们的极限人生",
-      "type": "movie",
-      "genreTitle": "剧情•冒险",
-      "rating": 5.5,
-      "release_date": "2026-02-06",
-      "overview": "一群极限运动爱好者尝试翼装定点跳伞，在追求飞翔快感的同时，致命风险也随之而来。五年之间，接连有三名跳伞运动员遭遇形态相似的事故身亡，仅有卡洛斯·苏亚雷斯是这场系列悲剧当中唯一活下来的幸存者。导演萨尔瓦多·卡尔沃找到这位幸存者，打算以他的亲身经历为蓝本，去还原、讲述这几位跳伞者背后的故事，影片围绕事故创伤、极限运动从业者的命运展开，交织现实回忆与记录式的叙事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/BDj8x5dBJMhyBfrL33nRIdNd7x.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2X1m5BImK0KZTHJpNMioubJWMUM.jpg"
+      "id": 331650,
+      "title": "法律边缘",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-14",
+      "overview": "为了保住弟弟的性命，一名理想主义的州检察官被迫在囚犯哥哥的帮派中做双重特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xCiH7GBwpkdJMxPESMYo5ika7gW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg"
     },
     {
-      "id": 215072,
-      "title": "杀人者的购物中心",
+      "id": 138502,
+      "title": "X战警97",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•悬疑",
-      "rating": 8.4,
-      "release_date": "2024-01-17",
-      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
-      "poster_url": "https://image.tmdb.org/t/p/original/bqPkhXWA1kP1OCrN2q2v9up8YXe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.7,
+      "release_date": "2024-03-20",
+      "overview": "由变种人组成的X战警利用他们不可思议的天赋，保护一个痛恨又恐惧他们的世界，接受前所未有的挑战，并面临出乎意料的危险新未来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pmNPP4TdwTXl6FgCY8ppOIu096A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8HP2e2b3IbR4awxonXho30kHROJ.jpg"
     },
     {
       "id": 287620,
@@ -220,6 +209,17 @@
       "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
       "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
+    },
+    {
+      "id": 123542,
+      "title": "时光代理人",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
+      "rating": 8.2,
+      "release_date": "2021-04-30",
+      "overview": "在繁华都市的某个角落，有一家叫做“时光照相馆”的小店还在照常营业。虽然门庭冷落，但它背后其实由两个具有特殊能力的男人——程小时和陆光经营着。为了完成顾客的委托，陆光和程小时组队配合使用超能力进入照片，然而事情的发展却没能按他们所想的那样。",
+      "poster_url": "https://image.tmdb.org/t/p/original/A9z3veK4kJhaPog9laE4eHNeI8D.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f5ose7fWrreM9Zr7CiixAGpnMFe.jpg"
     }
   ],
   "week_global_all": [
@@ -323,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
       "id": 1003596,
       "title": "复仇者联盟5：毁灭之日",
       "type": "movie",
@@ -343,6 +332,17 @@
       "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
       "poster_url": "https://image.tmdb.org/t/p/original/bltbI7UBYgVyOX4OnzK4HpDCDiB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 138502,
@@ -367,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/h43uFqdv97np9dQ3B1iGut8hmcy.jpg"
     },
     {
+      "id": 1493400,
+      "title": "摇滚夏令营3",
+      "type": "movie",
+      "genreTitle": "音乐•喜剧•剧情",
+      "rating": 6.0,
+      "release_date": "2026-08-13",
+      "overview": "Connect‑3重聚巡演的开场艺人意外缺席，乐队重返摇滚夏令营物色新人。一众营员角逐巡演开场席位，竞争加剧，友谊面临考验，也催生了意外的结盟、秘密与爱情。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gV936n8KGZHenNB3b15WLRcS3kF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lW0I5pedbFm1nS0kjAhmNOTVOvk.jpg"
+    },
+    {
       "id": 215072,
       "title": "杀人者的购物中心",
       "type": "tv",
@@ -376,17 +387,6 @@
       "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
       "poster_url": "https://image.tmdb.org/t/p/original/bqPkhXWA1kP1OCrN2q2v9up8YXe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
       "id": 687163,
@@ -400,48 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xpTKUZPhNlfObvxo1P7jasdoCig.jpg"
     },
     {
-      "id": 1212763,
-      "title": "鬼玩人：炼狱",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.9,
-      "release_date": "2026-07-07",
-      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/viHFZ7GlzMcmPbADvP4Vd6Ema0g.jpg"
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.4,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
-      "id": 278624,
-      "title": "幸运女神",
+      "id": 1308767,
+      "title": "青年华盛顿",
+      "type": "movie",
+      "genreTitle": "历史•战争•剧情",
+      "rating": 7.8,
+      "release_date": "2026-07-02",
+      "overview": "　　这部电影讲述了美国首任总统的早年经历。在犯下引发法国与印第安人战争的重大错误后，年仅22岁却雄心勃勃的华盛顿必须直面自己的失败，并重拾勇气，成长为一位能够缔造国家的领袖。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3RHN5LV16sTu9WKBM2im5FkAQfH.jpg"
+    },
+    {
+      "id": 271016,
+      "title": "九门",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.4,
-      "release_date": "2026-07-14",
-      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.8,
+      "release_date": "2026-07-30",
+      "overview": "长沙风云再起之时，张启山与吴老狗强强联手，携手霍仙姑与九门诸人共赴冒险奇局。一桩401部队的神秘失踪事件，牵出百年尘封的惊天秘辛。生死抉择、兄弟之情、门派担当与家国大义相互交织。九门众人用热血和牺牲，守护家园，共渡难关。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bkyBY4EYv1htCkgmgVNfVrJ7qqW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1HzN1aUEPaIOj8l19ITXR6N16mu.jpg"
     },
     {
       "id": 113962,
       "title": "特别行动：母狮",
       "type": "tv",
       "genreTitle": "剧情•War & Politics",
-      "rating": 8.1,
+      "rating": 8.0,
       "release_date": "2023-07-23",
       "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
       "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/4K5Jdry2gZj5XbomCa0H56g9XCs.jpg"
-    },
-    {
-      "id": 1493400,
-      "title": "摇滚夏令营3",
-      "type": "movie",
-      "genreTitle": "音乐•喜剧•剧情",
-      "rating": 5.8,
-      "release_date": "2026-08-13",
-      "overview": "Connect‑3重聚巡演的开场艺人意外缺席，乐队重返摇滚夏令营物色新人。一众营员角逐巡演开场席位，竞争加剧，友谊面临考验，也催生了意外的结盟、秘密与爱情。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gV936n8KGZHenNB3b15WLRcS3kF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lW0I5pedbFm1nS0kjAhmNOTVOvk.jpg"
     }
   ],
   "popular_movies": [
