@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 21:35:40",
+  "last_updated": "2026-08-20 22:21:37",
   "today_global": [
     {
       "id": 1288445,
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -279,6 +268,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 1288445,
+      "title": "怒之杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.2,
+      "release_date": "2026-08-19",
+      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
+    },
+    {
+      "id": 100757,
+      "title": "外滩探秘",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.3,
+      "release_date": "2020-04-15",
+      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/juNPe9rBABGNJhe2D9cCcS85y22.jpg"
+    },
+    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -288,17 +310,6 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
-    },
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
       "id": 1339713,
@@ -312,6 +323,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
+    },
+    {
       "id": 1003596,
       "title": "复仇者联盟5：毁灭之日",
       "type": "movie",
@@ -323,17 +345,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
-      "id": 1288445,
-      "title": "怒之杀",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 7.1,
-      "release_date": "2026-08-19",
-      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -343,6 +354,17 @@
       "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
+      "id": 278624,
+      "title": "幸运女神",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.2,
+      "release_date": "2026-07-14",
+      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
       "id": 950028,
@@ -367,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 278624,
-      "title": "幸运女神",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.2,
-      "release_date": "2026-07-14",
-      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
-    },
-    {
       "id": 1291595,
       "title": "潜伏6：血域",
       "type": "movie",
@@ -400,6 +411,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2J3e3gOy6jqflXjiJYa3E3BhI2J.jpg"
     },
     {
+      "id": 1275779,
+      "title": "揭秘日",
+      "type": "movie",
+      "genreTitle": "科幻•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-06-10",
+      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gMGu5lyv6fjeaoYQGW54eHVA7H8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
+    },
+    {
       "id": 1493400,
       "title": "摇滚夏令营3",
       "type": "movie",
@@ -411,37 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xlr2840IlISY4weeTU1Bwglfnim.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
-      "id": 1504358,
-      "title": "别祝我好运",
-      "type": "movie",
-      "genreTitle": "喜剧•音乐•剧情",
-      "rating": 7.0,
-      "release_date": "2026-08-13",
-      "overview": "作为学校音乐剧的主演，高中生索菲·比伦鲍姆已准备好迎接聚光灯 — 但家里的风波竟比舞台上的还要戏剧化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tQwY1YoZDqxPChPsFbwZFXDYtzv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ygr0JGYYQrhGj3DZQK61WZRCQqT.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 7.5,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gMGu5lyv6fjeaoYQGW54eHVA7H8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.8,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "popular_movies": [
