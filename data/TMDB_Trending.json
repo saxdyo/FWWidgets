@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 11:34:10",
+  "last_updated": "2026-08-20 12:22:42",
   "today_global": [
     {
       "id": 1288445,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
       "id": 278624,
       "title": "幸运女神",
       "type": "tv",
@@ -44,6 +33,17 @@
       "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
       "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
+    },
+    {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 969681,
@@ -90,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
-      "id": 1291595,
-      "title": "潜伏6：血域",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 5.8,
-      "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/juday8QWmjKAfIx7jbOEHzhAt4T.jpg"
-    },
-    {
       "id": 97546,
       "title": "Ted Lasso",
       "type": "tv",
@@ -110,6 +99,17 @@
       "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
       "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+    },
+    {
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 5.8,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/juday8QWmjKAfIx7jbOEHzhAt4T.jpg"
     },
     {
       "id": 1418582,
@@ -156,17 +156,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
     },
     {
-      "id": 65942,
-      "title": "Re：从零开始的异世界生活",
-      "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.1,
-      "release_date": "2016-04-04",
-      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
-      "poster_url": "https://image.tmdb.org/t/p/original/zTAJk1ERMticlZeXaKTq6UozgxC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
-    },
-    {
       "id": 272938,
       "title": "师兄太稳健",
       "type": "tv",
@@ -189,6 +178,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/50wc0vm3Xyo6U1borkFNr8VNRg8.jpg"
     },
     {
+      "id": 65942,
+      "title": "Re：从零开始的异世界生活",
+      "type": "tv",
+      "genreTitle": "动画•剧情•悬疑",
+      "rating": 8.1,
+      "release_date": "2016-04-04",
+      "overview": "在异世界陷入迷茫的普通高中生菜月昴，邂逅了一位银发的美少女。但想助她一臂之力的昴，却一次次地遭遇敌袭，背叛、暴力，甚至是死亡……“死亡回归”——无力的少年拥有的唯一能力，能将死后时间倒转回一开始。使用了这般力量，便会失去过去的回忆，可为了守护最重要的人们，昴必须抗争到底。“即使你忘却了我，我也不会遗忘你。”",
+      "poster_url": "https://image.tmdb.org/t/p/original/zTAJk1ERMticlZeXaKTq6UozgxC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9yrr6ubLv7uaOeHv890mVe1HNGn.jpg"
+    },
+    {
+      "id": 228421,
+      "title": "平凡的乔",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•犯罪",
+      "rating": 7.4,
+      "release_date": "2023-06-26",
+      "overview": "Joe Washington发现他最近去世的父亲从危险人物那里偷走了数百万美元，现在那些人认为Joe知道它在哪里，所以他必须找到真相和不见的数百万美元。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jsLYlsWA3CsE7V1owlSqfU9QzVG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nBlEHQOZAITRsrSkh6GAyCJvI4W.jpg"
+    },
+    {
       "id": 1275779,
       "title": "揭秘日",
       "type": "movie",
@@ -209,17 +220,6 @@
       "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
-      "id": 228421,
-      "title": "平凡的乔",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•犯罪",
-      "rating": 7.4,
-      "release_date": "2023-06-26",
-      "overview": "Joe Washington发现他最近去世的父亲从危险人物那里偷走了数百万美元，现在那些人认为Joe知道它在哪里，所以他必须找到真相和不见的数百万美元。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jsLYlsWA3CsE7V1owlSqfU9QzVG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nBlEHQOZAITRsrSkh6GAyCJvI4W.jpg"
     }
   ],
   "week_global_all": [
