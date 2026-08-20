@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-21 06:12:30",
+  "last_updated": "2026-08-21 07:12:34",
   "today_global": [
     {
       "id": 1288445,
       "title": "怒之杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 7.0,
+      "rating": 6.9,
       "release_date": "2026-08-19",
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "release_date": "2026-08-16",
-      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -55,6 +44,17 @@
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+    },
+    {
+      "id": 95350,
+      "title": "绿灯军团",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2026-08-16",
+      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
       "id": 1368337,
@@ -79,44 +79,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
-      "id": 1291595,
-      "title": "潜伏6：血域",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.2,
-      "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/juday8QWmjKAfIx7jbOEHzhAt4T.jpg"
-    },
-    {
-      "id": 1418582,
-      "title": "一直在这里",
-      "type": "movie",
-      "genreTitle": "喜剧•爱情",
-      "rating": 6.6,
-      "release_date": "2026-06-18",
-      "overview": "菲利佩只想与喜欢艺术的妈妈在一起，看看歌舞片，安静地享受夏日假期。但邻居的儿子却在此时过来借住，让这段假期变得不安。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wiIFKSEZkKgmoI1ylsrbqvRxu1S.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
       "id": 303351,
       "title": "极昼血祭",
       "type": "tv",
       "genreTitle": "剧情•犯罪•悬疑",
-      "rating": 3.0,
+      "rating": 4.7,
       "release_date": "2026-08-20",
       "overview": "斯德哥尔摩夏日炎炎，似乎不曾悄然笼罩在黑暗之中。911接获一通报案电话，表示家中遭到入侵。两名警探获派前往事发地点：一栋位于群岛的避暑小屋，却发现屋内空无一人，至少肉眼所及，一片空无。隔天，两名警探的遗体被人发现，且犯案手法凶残。一连串骇人命案就此开展，且凶手似乎专挑警察下手。主导调查的警探为了破案，非得向身为退休警探的父亲求助。",
       "poster_url": "https://image.tmdb.org/t/p/original/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
@@ -156,15 +123,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 312523,
-      "title": "S&X",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-20",
-      "overview": "霜鸟诊所的性治疗师霜鸟壹人，天天接触面临亲密关系问题，却难以对人启齿的患者。他不理会外界对他的职业的嘲讽与偏见，始终以最真诚的态度及尊重对待每一位患者，但身边的人却不晓得他其实也藏着不为人知的焦虑…",
-      "poster_url": "https://image.tmdb.org/t/p/original/pxMfWKFJI33PNyVQu0cxX8yqta7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1k1FZ1J6Q9n1JbMoLJ75ND95Fc.jpg"
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.2,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/juday8QWmjKAfIx7jbOEHzhAt4T.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 1418582,
+      "title": "一直在这里",
+      "type": "movie",
+      "genreTitle": "喜剧•爱情",
+      "rating": 6.9,
+      "release_date": "2026-06-18",
+      "overview": "菲利佩只想与喜欢艺术的妈妈在一起，看看歌舞片，安静地享受夏日假期。但邻居的儿子却在此时过来借住，让这段假期变得不安。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wiIFKSEZkKgmoI1ylsrbqvRxu1S.jpg"
     },
     {
       "id": 1232569,
@@ -178,6 +167,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uUzZrj2HYtuvf5uzLLdYAucZ9iI.jpg"
     },
     {
+      "id": 312523,
+      "title": "S&X",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-20",
+      "overview": "霜鸟诊所的性治疗师霜鸟壹人，天天接触面临亲密关系问题，却难以对人启齿的患者。他不理会外界对他的职业的嘲讽与偏见，始终以最真诚的态度及尊重对待每一位患者，但身边的人却不晓得他其实也藏着不为人知的焦虑…",
+      "poster_url": "https://image.tmdb.org/t/p/original/pxMfWKFJI33PNyVQu0cxX8yqta7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1k1FZ1J6Q9n1JbMoLJ75ND95Fc.jpg"
+    },
+    {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.4,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+    },
+    {
       "id": 243360,
       "title": "谜探路德维希",
       "type": "tv",
@@ -187,17 +198,6 @@
       "overview": "约翰·泰勒过着安静的孤独生活，以“路德维希”为笔名，靠设计谜题为生。当他的孪生兄弟詹姆斯从地球上消失后，约翰冒充了他哥哥的身份，试图找到他的下落。",
       "poster_url": "https://image.tmdb.org/t/p/original/tnUBJU3xfu3MW0g4TAYfFK452da.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ol2KdP81yW3hasVQvGDOqwUGdS7.jpg"
-    },
-    {
-      "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gwAUKYpKyKc2Hnw8GBSDBqCz9BY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
       "id": 1101383,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+      "id": 1003596,
+      "title": "复仇者联盟5：毁灭之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gwAUKYpKyKc2Hnw8GBSDBqCz9BY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     }
   ],
   "week_global_all": [
@@ -472,7 +472,7 @@
       "title": "玩具总动员5",
       "type": "movie",
       "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.0,
+      "rating": 7.9,
       "release_date": "2026-06-19",
       "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
@@ -494,7 +494,7 @@
       "title": "星辰之怒",
       "type": "movie",
       "genreTitle": "动作•科幻•惊悚",
-      "rating": 5.0,
+      "rating": 4.8,
       "release_date": "2026-08-06",
       "overview": "故事讲述一位国际特种部队女兵预感到人类即将灭亡。《群星之怒》是根据屡获殊荣的短片《不再有星辰》改编的电影长片。",
       "poster_url": "https://image.tmdb.org/t/p/original/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
