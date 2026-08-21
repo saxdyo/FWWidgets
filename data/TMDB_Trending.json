@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-21 17:21:47",
+  "last_updated": "2026-08-21 18:16:01",
   "today_global": [
     {
       "id": 1288445,
       "title": "怒之杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 7.0,
+      "rating": 6.9,
       "release_date": "2026-08-19",
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o4DnuqGYpbbxArCs2GMM4MrYvek.jpg"
     },
     {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "release_date": "2026-08-16",
-      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -88,17 +77,6 @@
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
-    },
-    {
-      "id": 312523,
-      "title": "S&X",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-20",
-      "overview": "霜鸟诊所的性治疗师霜鸟壹人，天天接触面临亲密关系问题，却难以对人启齿的患者。他不理会外界对他的职业的嘲讽与偏见，始终以最真诚的态度及尊重对待每一位患者，但身边的人却不晓得他其实也藏着不为人知的焦虑…",
-      "poster_url": "https://image.tmdb.org/t/p/original/pxMfWKFJI33PNyVQu0cxX8yqta7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1k1FZ1J6Q9n1JbMoLJ75ND95Fc.jpg"
     },
     {
       "id": 1291595,
@@ -112,6 +90,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/juday8QWmjKAfIx7jbOEHzhAt4T.jpg"
     },
     {
+      "id": 95350,
+      "title": "绿灯军团",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.1,
+      "release_date": "2026-08-16",
+      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
+    },
+    {
+      "id": 312523,
+      "title": "S&X",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-20",
+      "overview": "霜鸟诊所的性治疗师霜鸟壹人，天天接触面临亲密关系问题，却难以对人启齿的患者。他不理会外界对他的职业的嘲讽与偏见，始终以最真诚的态度及尊重对待每一位患者，但身边的人却不晓得他其实也藏着不为人知的焦虑…",
+      "poster_url": "https://image.tmdb.org/t/p/original/pxMfWKFJI33PNyVQu0cxX8yqta7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1k1FZ1J6Q9n1JbMoLJ75ND95Fc.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -121,6 +121,17 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 1315772,
@@ -145,15 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/68CwdYjUYImHZUn4a05cTxe1KhX.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+      "id": 1418582,
+      "title": "一直在这里",
+      "type": "movie",
+      "genreTitle": "喜剧•爱情",
+      "rating": 6.9,
+      "release_date": "2026-06-18",
+      "overview": "菲利佩只想与喜欢艺术的妈妈在一起，看看歌舞片，安静地享受夏日假期。但邻居的儿子却在此时过来借住，让这段假期变得不安。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ddDsMC9wBbPfYSQmgL59NkjkSGY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wiIFKSEZkKgmoI1ylsrbqvRxu1S.jpg"
     },
     {
       "id": 278624,
@@ -167,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 1418582,
-      "title": "一直在这里",
-      "type": "movie",
-      "genreTitle": "喜剧•爱情",
-      "rating": 7.3,
-      "release_date": "2026-06-18",
-      "overview": "菲利佩只想与喜欢艺术的妈妈在一起，看看歌舞片，安静地享受夏日假期。但邻居的儿子却在此时过来借住，让这段假期变得不安。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ddDsMC9wBbPfYSQmgL59NkjkSGY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wiIFKSEZkKgmoI1ylsrbqvRxu1S.jpg"
-    },
-    {
       "id": 243360,
       "title": "谜探路德维希",
       "type": "tv",
@@ -187,6 +187,17 @@
       "overview": "约翰·泰勒过着安静的孤独生活，以“路德维希”为笔名，靠设计谜题为生。当他的孪生兄弟詹姆斯从地球上消失后，约翰冒充了他哥哥的身份，试图找到他的下落。",
       "poster_url": "https://image.tmdb.org/t/p/original/tnUBJU3xfu3MW0g4TAYfFK452da.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ol2KdP81yW3hasVQvGDOqwUGdS7.jpg"
+    },
+    {
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
       "id": 103516,
@@ -209,17 +220,6 @@
       "overview": "一夜间惨变孤儿的张小凡被青云门收为弟子，经过五年刻苦修炼，他在师门七脉会武上大放异彩，后被派往空桑山打探魔教行迹，旅程中，他与师姐陆雪琪遭遇危难，并结识救护了魔教女子碧瑶，同时，新的危险也在前方等待着他。",
       "poster_url": "https://image.tmdb.org/t/p/original/kSC8drFvUBrcnHe6bz6zwvrnoeo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/llTCjeqRVcOKmZa12u3zeRTQMUg.jpg"
-    },
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     }
   ],
   "week_global_all": [
