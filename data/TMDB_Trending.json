@@ -1,17 +1,6 @@
 {
-  "last_updated": "2026-08-22 14:16:19",
+  "last_updated": "2026-08-22 15:20:25",
   "today_global": [
-    {
-      "id": 1288445,
-      "title": "怒之杀",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-08-19",
-      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
-    },
     {
       "id": 1621552,
       "title": "夜巡毒枭",
@@ -22,6 +11,17 @@
       "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
       "poster_url": "https://image.tmdb.org/t/p/original/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
+    },
+    {
+      "id": 1288445,
+      "title": "怒之杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.8,
+      "release_date": "2026-08-19",
+      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
     },
     {
       "id": 125988,
@@ -35,17 +35,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -57,26 +46,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
     },
     {
-      "id": 1291595,
-      "title": "潜伏6：血域",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
-    },
-    {
-      "id": 100757,
-      "title": "外滩探秘",
-      "type": "tv",
-      "genreTitle": "动作冒险•悬疑",
-      "rating": 8.2,
-      "release_date": "2020-04-15",
-      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1084244,
@@ -90,6 +68,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
+    },
+    {
       "id": 95350,
       "title": "绿灯军团",
       "type": "tv",
@@ -101,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
+      "id": 100757,
+      "title": "外滩探秘",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.2,
+      "release_date": "2020-04-15",
+      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yHueK6vWjBtd6diyKpiKucuIJbn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -110,6 +110,17 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 1676318,
+      "title": "回到90年代",
+      "type": "movie",
+      "genreTitle": "喜剧•爱情",
+      "rating": 6.0,
+      "release_date": "2026-08-18",
+      "overview": "五个好朋友 Matteo、Jonas、Chris、Ben 和 Oliver 自小就梦想着组建一支男孩乐队。当一个难得的机会让他们离音乐梦想更近一步时，乐队中的一名成员却突然想要退出，这让整个乐队的未来受到了质疑。五个男孩必须超越自我，突然发现自己身处完全不同的年代。在动荡的时光之旅中，他们懂得了什么是真正的友谊，什么是乐队成功的真谛。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2T0j25ofU6aUei6J6ek2hlTL1wc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6CG7wAnzAief9Vy87ChN77oBeXh.jpg"
     },
     {
       "id": 1315772,
@@ -132,17 +143,6 @@
       "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
       "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
-      "id": 1676318,
-      "title": "回到90年代",
-      "type": "movie",
-      "genreTitle": "喜剧•爱情",
-      "rating": 6.0,
-      "release_date": "2026-08-18",
-      "overview": "五个好朋友 Matteo、Jonas、Chris、Ben 和 Oliver 自小就梦想着组建一支男孩乐队。当一个难得的机会让他们离音乐梦想更近一步时，乐队中的一名成员却突然想要退出，这让整个乐队的未来受到了质疑。五个男孩必须超越自我，突然发现自己身处完全不同的年代。在动荡的时光之旅中，他们懂得了什么是真正的友谊，什么是乐队成功的真谛。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2T0j25ofU6aUei6J6ek2hlTL1wc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6CG7wAnzAief9Vy87ChN77oBeXh.jpg"
     },
     {
       "id": 1130948,
@@ -167,6 +167,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o4DnuqGYpbbxArCs2GMM4MrYvek.jpg"
     },
     {
+      "id": 1538273,
+      "title": "爱恋成婚",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧•剧情",
+      "rating": 0.0,
+      "release_date": "2026-08-21",
+      "overview": "新娘结婚后拒绝离开娘家，她的丈夫必须考虑是否能够适应居住在岳父岳母屋檐下的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bFARF1GDM13XkOi4TpIHddbEbXK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jgsptBYJbuO7omWLOj1HNsqvgLM.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -178,26 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.4,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
-    },
-    {
-      "id": 1538273,
-      "title": "爱恋成婚",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-08-21",
-      "overview": "新娘结婚后拒绝离开娘家，她的丈夫必须考虑是否能够适应居住在岳父岳母屋檐下的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bFARF1GDM13XkOi4TpIHddbEbXK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jgsptBYJbuO7omWLOj1HNsqvgLM.jpg"
+      "id": 287620,
+      "title": "斯图尔特未能拯救宇宙",
+      "type": "tv",
+      "genreTitle": "喜剧•Sci-Fi & Fantasy",
+      "rating": 9.1,
+      "release_date": "2026-07-23",
+      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
     },
     {
       "id": 278624,
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 287620,
-      "title": "斯图尔特未能拯救宇宙",
-      "type": "tv",
-      "genreTitle": "喜剧•Sci-Fi & Fantasy",
-      "rating": 9.1,
-      "release_date": "2026-07-23",
-      "overview": "故事聚焦《大爆炸》的漫画书老板斯图尔特·布鲁姆，他弄坏了一个谢尔顿和莱纳德制造的设备，意外导致了多元宇宙的世界末日，他必须与女友Denise、地质学家Bert和量子物理学家Barry一起去将现实复原。一路上，他们遇到了平行宇宙版本的各个《大爆炸》角色，事情进展并不顺利。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aTB1eos3gZ86rpQuMccPbqauWGY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cmo9yQiilHt2g1obzamGsjx5bOC.jpg"
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     }
   ],
   "week_global_all": [
@@ -235,11 +235,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 8.1,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
+    },
+    {
       "id": 1288445,
       "title": "怒之杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-08-19",
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
@@ -257,37 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/63JYqhefGrbVg0YqZ3xWqn0pwT2.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.1,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
-    },
-    {
-      "id": 125988,
-      "title": "末日地堡",
+      "id": 108978,
+      "title": "侠探杰克",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 1339713,
@@ -301,15 +301,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1291595,
-      "title": "潜伏6：血域",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 1315772,
@@ -323,17 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
       "id": 1101383,
       "title": "逃出绝命街",
       "type": "movie",
@@ -345,15 +334,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
-      "id": 100757,
-      "title": "外滩探秘",
+      "id": 97546,
+      "title": "Ted Lasso",
       "type": "tv",
-      "genreTitle": "动作冒险•悬疑",
-      "rating": 8.2,
-      "release_date": "2020-04-15",
-      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.4,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+    },
+    {
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zSqi655Ci8ym5mDz53NcdjYOiei.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
     },
     {
       "id": 1003596,
@@ -367,6 +367,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     },
     {
+      "id": 278624,
+      "title": "幸运女神",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.2,
+      "release_date": "2026-07-14",
+      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
+    },
+    {
       "id": 950028,
       "title": "激情邀约",
       "type": "movie",
@@ -378,15 +389,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6fvX6BdW5804rgQfiVwLK464uem.jpg"
     },
     {
-      "id": 278624,
-      "title": "幸运女神",
+      "id": 100757,
+      "title": "外滩探秘",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.2,
-      "release_date": "2026-07-14",
-      "overview": "一宗涉及数百万美元的劫案搞砸后，骗徒幸儿被迫亡命天涯。在联邦调查局与冷血黑帮大佬的夹击下，幸儿必须为生存而战，设法逃出生天。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9gCX7hf1nDovg3E5WHRzxFdzOm1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.2,
+      "release_date": "2020-04-15",
+      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yHueK6vWjBtd6diyKpiKucuIJbn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
     },
     {
       "id": 94997,
@@ -400,48 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/4SGdAZCzWdWiAewQa80aQAURczk.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
-    },
-    {
-      "id": 1275779,
-      "title": "揭秘日",
-      "type": "movie",
-      "genreTitle": "科幻•惊悚",
-      "rating": 7.5,
-      "release_date": "2026-06-10",
-      "overview": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gMGu5lyv6fjeaoYQGW54eHVA7H8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hd0aLenSOcw2Cya5nGSTTAVwZLQ.jpg"
-    },
-    {
-      "id": 113962,
-      "title": "特别行动：母狮",
+      "id": 37854,
+      "title": "航海王",
       "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.1,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qF4TGTwit18WsKBMCWN1DUNfCbp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.8,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
+      "id": 615,
+      "title": "飞出个未来",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
       "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+      "release_date": "1999-03-28",
+      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
+    },
+    {
+      "id": 215072,
+      "title": "杀人者的购物中心",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险•悬疑",
+      "rating": 8.5,
+      "release_date": "2024-01-17",
+      "overview": "智安的叔叔是她唯一的监护人，在叔叔突然过世后，智安发现他留下的可疑购物中心。她的叔叔是什么人？他在经营何种购物中心？在智安还不明白发生何事时，觊觎购物中心仓库的可疑顾客们便展开袭击！被独自留下的智安能否对抗他们，成功活命？",
+      "poster_url": "https://image.tmdb.org/t/p/original/bqPkhXWA1kP1OCrN2q2v9up8YXe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zV23ViK8pLvZ1xLW67RjINGKrDv.jpg"
     }
   ],
   "popular_movies": [
