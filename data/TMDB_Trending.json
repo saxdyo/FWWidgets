@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24 16:31:41",
+  "last_updated": "2026-08-24 17:32:03",
   "today_global": [
     {
       "id": 95350,
@@ -90,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 1621552,
-      "title": "夜巡毒枭",
-      "type": "movie",
-      "genreTitle": "犯罪•动作•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-08-21",
-      "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5R77M1w3y6i6GUd8EoNiEQIFPhC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
-    },
-    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -110,6 +99,17 @@
       "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
+    },
+    {
+      "id": 1621552,
+      "title": "夜巡毒枭",
+      "type": "movie",
+      "genreTitle": "犯罪•动作•惊悚",
+      "rating": 6.6,
+      "release_date": "2026-08-21",
+      "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5R77M1w3y6i6GUd8EoNiEQIFPhC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
     },
     {
       "id": 125988,
@@ -145,6 +145,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     },
     {
+      "id": 1212763,
+      "title": "鬼玩人：炼狱",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 7.8,
+      "release_date": "2026-07-07",
+      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/viHFZ7GlzMcmPbADvP4Vd6Ema0g.jpg"
+    },
+    {
       "id": 1083381,
       "title": "后室",
       "type": "movie",
@@ -167,26 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
     },
     {
-      "id": 1212763,
-      "title": "鬼玩人：炼狱",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.8,
-      "release_date": "2026-07-07",
-      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/viHFZ7GlzMcmPbADvP4Vd6Ema0g.jpg"
-    },
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.4,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
+      "id": 100757,
+      "title": "外滩探秘",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.2,
+      "release_date": "2020-04-15",
+      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wnTH4q0Mi1ZiGE6ITCl1AwwTYfo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
     },
     {
       "id": 298610,
@@ -200,26 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9jdReHRO3tVsgIdDcY952FA5nfF.jpg"
     },
     {
-      "id": 100757,
-      "title": "外滩探秘",
-      "type": "tv",
-      "genreTitle": "动作冒险•悬疑",
-      "rating": 8.2,
-      "release_date": "2020-04-15",
-      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wnTH4q0Mi1ZiGE6ITCl1AwwTYfo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
-      "id": 286709,
-      "title": "西区帮派",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
+      "id": 1384216,
+      "title": "末世行者",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•惊悚",
       "rating": 7.3,
-      "release_date": "2026-07-12",
-      "overview": "西区帮派借雅各布・贾维茨会展中心的工程项目牟利，一边对抗意大利黑手党的施压，一边周旋于内部的权力倾轧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lqHDXCfR3Fwb8aFZJzIwL5GX0fR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mWQywzDJjUsbD0ZMb7mVY58WDp1.jpg"
+      "release_date": "2026-08-26",
+      "overview": "一场大流行病席卷全球后，人口锐减。在科罗拉多州的飞机库里，一名男子与他的狗和一位阴郁的枪手相伴过着孤寂的生活。当他驾驶着老旧的塞斯纳飞机时，无线电里突然传来神秘的信号，由此引发了一场追寻声音来源的探索之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/q2lN1pVMmVXEA0UpgdFupYwsPHg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fRH6jJ3yjfyi4udQTQNL6yCdtet.jpg"
     }
   ],
   "week_global_all": [
