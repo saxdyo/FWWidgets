@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 06:11:35",
+  "last_updated": "2026-08-25 07:10:59",
   "today_global": [
     {
       "id": 95350,
@@ -228,7 +228,7 @@
       "title": "绿灯军团",
       "type": "tv",
       "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.2,
+      "rating": 8.1,
       "release_date": "2026-08-16",
       "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
       "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
@@ -290,17 +290,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
       "id": 108978,
       "title": "侠探杰克",
       "type": "tv",
@@ -310,6 +299,17 @@
       "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
       "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
       "id": 1291595,
@@ -327,22 +327,11 @@
       "title": "小黄人与大怪兽",
       "type": "movie",
       "genreTitle": "冒险•动画•喜剧",
-      "rating": 7.5,
+      "rating": 7.6,
       "release_date": "2026-06-24",
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
-    },
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.4,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
       "id": 30984,
@@ -367,6 +356,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
+    },
+    {
       "id": 113962,
       "title": "特别行动：母狮",
       "type": "tv",
@@ -389,17 +389,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bHwGnr8tD7Lp66pBr2qHZhCRyqM.jpg"
     },
     {
-      "id": 100757,
-      "title": "外滩探秘",
-      "type": "tv",
-      "genreTitle": "动作冒险•悬疑",
-      "rating": 8.2,
-      "release_date": "2020-04-15",
-      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wnTH4q0Mi1ZiGE6ITCl1AwwTYfo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
-    },
-    {
       "id": 1621552,
       "title": "夜巡毒枭",
       "type": "movie",
@@ -409,6 +398,17 @@
       "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
       "poster_url": "https://image.tmdb.org/t/p/original/5R77M1w3y6i6GUd8EoNiEQIFPhC.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
+    },
+    {
+      "id": 100757,
+      "title": "外滩探秘",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.2,
+      "release_date": "2020-04-15",
+      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wnTH4q0Mi1ZiGE6ITCl1AwwTYfo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
     },
     {
       "id": 278624,
@@ -422,17 +422,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJJzUf6ifDLcV7Ttou79BDYxYR6.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gwAUKYpKyKc2Hnw8GBSDBqCz9BY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
-    },
-    {
       "id": 1384216,
       "title": "末世行者",
       "type": "movie",
@@ -442,6 +431,17 @@
       "overview": "一场大流行病席卷全球后，人口锐减。在科罗拉多州的飞机库里，一名男子与他的狗和一位阴郁的枪手相伴过着孤寂的生活。当他驾驶着老旧的塞斯纳飞机时，无线电里突然传来神秘的信号，由此引发了一场追寻声音来源的探索之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/q2lN1pVMmVXEA0UpgdFupYwsPHg.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fRH6jJ3yjfyi4udQTQNL6yCdtet.jpg"
+    },
+    {
+      "id": 1003596,
+      "title": "复仇者联盟5：毁灭之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gwAUKYpKyKc2Hnw8GBSDBqCz9BY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/uttJRcb0wwlrH71w7PQNr8AktD2.jpg"
     }
   ],
   "popular_movies": [
