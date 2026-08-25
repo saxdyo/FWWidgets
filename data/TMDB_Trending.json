@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 12:24:52",
+  "last_updated": "2026-08-25 13:20:32",
   "today_global": [
     {
       "id": 95350,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
       "id": 1288445,
       "title": "怒之杀",
       "type": "movie",
@@ -44,6 +33,17 @@
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
     {
       "id": 1212763,
@@ -57,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bHwGnr8tD7Lp66pBr2qHZhCRyqM.jpg"
     },
     {
+      "id": 1621552,
+      "title": "夜巡毒枭",
+      "type": "movie",
+      "genreTitle": "犯罪•动作•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-08-21",
+      "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5R77M1w3y6i6GUd8EoNiEQIFPhC.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -68,15 +79,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
-      "id": 1621552,
-      "title": "夜巡毒枭",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "犯罪•动作•惊悚",
-      "rating": 7.2,
-      "release_date": "2026-08-21",
-      "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5R77M1w3y6i6GUd8EoNiEQIFPhC.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1339713,
@@ -101,17 +112,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -132,6 +132,17 @@
       "overview": "一场大流行病席卷全球后，人口锐减。在科罗拉多州的飞机库里，一名男子与他的狗和一位阴郁的枪手相伴过着孤寂的生活。当他驾驶着老旧的塞斯纳飞机时，无线电里突然传来神秘的信号，由此引发了一场追寻声音来源的探索之旅。",
       "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fRH6jJ3yjfyi4udQTQNL6yCdtet.jpg"
+    },
+    {
+      "id": 113962,
+      "title": "特别行动：母狮",
+      "type": "tv",
+      "genreTitle": "剧情•War & Politics",
+      "rating": 8.1,
+      "release_date": "2023-07-23",
+      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bzPng0lOpPqkYVUsdLNY7kZhWAX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
     },
     {
       "id": 1291595,
@@ -156,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
-      "id": 113962,
-      "title": "特别行动：母狮",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.1,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bzPng0lOpPqkYVUsdLNY7kZhWAX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
-    },
-    {
       "id": 1315772,
       "title": "小黄人与大怪兽",
       "type": "movie",
@@ -176,17 +176,6 @@
       "overview": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "poster_url": "https://image.tmdb.org/t/p/original/y4JWxHZ1dMisqbHhX7ytOAK3wwv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9Cu3aaWcXT4axzhNLoW4rOPoeUx.jpg"
-    },
-    {
-      "id": 615,
-      "title": "飞出个未来",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "1999-03-28",
-      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
     },
     {
       "id": 1101383,
@@ -200,26 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3bq3Jy5cnE2FjngeRVvkJawquVf.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
+      "id": 615,
+      "title": "飞出个未来",
       "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.8,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动画•喜剧•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "1999-03-28",
+      "overview": "Fry是一名生活在20世纪的送货员，他工作不顺心，生活不如意，是个彻头彻尾的失败者。机缘巧合下，他被时光机器送到了1000年后的未来，也就是公元3000年！在光怪陆离的未来世界，他遇到了独眼女外星人Leela，Leela要给他植入职业芯片，好让他能在未来生活下去，而他的新职业居然也是送货员。Fry遂逃离出去，路上遇到了机器人Bender。Leela在追捕他们的过程中，也放弃了自己不喜欢的职业，连同Fry一起，成为了职业逃亡者。三人搭乘了星际宇宙飞船，成为星际快递公司的船员，而Fry的新工作，就是负责为宇宙的各个地方送快递，也就是说，他还是个送货员。  就这样，送货员Fry，船长Leela，机器人Bender穿梭于宇宙之中，展开了妙趣横生的31世纪星际快递冒险之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aRkoaAzki6vuDnKkcmnmvmR3eGd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
     },
     {
-      "id": 1204680,
-      "title": "歪心狼对阵Acme",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.2,
-      "release_date": "2026-08-20",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
+      "id": 100757,
+      "title": "外滩探秘",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑",
+      "rating": 8.2,
+      "release_date": "2020-04-15",
+      "overview": "在北卡罗来纳州一座贫富分明的小岛上，小约翰和三位密友前去寻找失落的宝藏，并经历了谜团和冒险。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nl5s3J6jlsorQxVrwxGdgg6Q9y6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b5M9IIf9zBha7gNcCw7J6LB8oNS.jpg"
+    },
+    {
+      "id": 287238,
+      "title": "狂怒追缉",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-07-27",
+      "overview": "一名是誓言缉凶的联邦调查局探员艾莉丝，一名是神秘狡猾的女性连环杀手凯萨琳。两人皆以自己的方式伸张正义，当她们的命运开始交织，是非对错的界线也随之模糊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pS1NXKwQcj7JvOYMkSt38vNJZzz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2BRmtZvk2WtRln5avS9W6vgwDf.jpg"
     }
   ],
   "week_global_all": [
