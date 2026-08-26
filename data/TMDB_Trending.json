@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-26 18:20:53",
+  "last_updated": "2026-08-26 19:16:28",
   "today_global": [
+    {
+      "id": 1516698,
+      "title": "最后的日出",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 10.0,
+      "release_date": "2026-08-26",
+      "overview": "身患慢性疾病的大学生小莱与母亲一同前往马略卡岛度过夏天。她在那里意外邂逅了胡利安，并开始学会活在当下。然而，随着病情不断恶化，尘封多年的家族秘密也逐渐浮出水面，一切美好都可能在夏天结束前分崩离析。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3PWJqDfygN0YNNjWsDUOXclCp3h.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dJdZcLn8t1ZLodoxaP4DJ6jgBKy.jpg"
+    },
     {
       "id": 87513,
       "title": "狂暴对峙",
@@ -11,17 +22,6 @@
       "overview": "约翰·米勒是一名底层汽车厂蓝领工人，他爱上了本地黑帮大佬雷诺兹的前女友索菲亚。黑帮头目因嫉妒怀恨在心，精心设局栽赃米勒走私巨额毒品，让他含冤被判终身监禁。漫长牢狱生涯结束后，米勒彻底抛弃言语沟通，只怀揣唯一目标复仇夺回家人与人生。他孤身一人穿梭在底特律破败街巷，徒手对抗整个黑帮势力，全程依靠格斗、枪械竞速、街头搏杀层层瓦解仇敌势力，在血与火的对抗里完成压抑多年的怒火宣泄。",
       "poster_url": "https://image.tmdb.org/t/p/original/8YvNuskwLrzRJXOz0Q0FVfUNBfB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3AMJfpYY78BZ1tqn9eMUhv6OPSR.jpg"
-    },
-    {
-      "id": 1516698,
-      "title": "最后的日出",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 10.0,
-      "release_date": "2026-08-26",
-      "overview": "身患慢性疾病的大学生小莱与母亲一同前往马略卡岛度过夏天。她在那里意外邂逅了胡利安，并开始学会活在当下。然而，随着病情不断恶化，尘封多年的家族秘密也逐渐浮出水面，一切美好都可能在夏天结束前分崩离析。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pego3yEZ5SuGvRjESKAguL4Wu7M.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dJdZcLn8t1ZLodoxaP4DJ6jgBKy.jpg"
     },
     {
       "id": 1560520,
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dD9jGW6ucJTamWSEcwJKtCmj90u.jpg"
     },
     {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
       "id": 95350,
       "title": "绿灯军团",
       "type": "tv",
@@ -46,15 +57,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+      "id": 1384216,
+      "title": "末世行者",
+      "type": "movie",
+      "genreTitle": "科幻•冒险•惊悚",
+      "rating": 6.9,
+      "release_date": "2026-08-26",
+      "overview": "一场大流行病席卷全球后，人口锐减。在科罗拉多州的飞机库里，一名男子与他的狗和一位阴郁的枪手相伴过着孤寂的生活。当他驾驶着老旧的塞斯纳飞机时，无线电里突然传来神秘的信号，由此引发了一场追寻声音来源的探索之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fRH6jJ3yjfyi4udQTQNL6yCdtet.jpg"
     },
     {
       "id": 1288445,
@@ -68,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
       "id": 1368337,
       "title": "奥德赛",
       "type": "movie",
@@ -90,15 +90,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 1384216,
-      "title": "末世行者",
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
       "type": "movie",
-      "genreTitle": "科幻•冒险•惊悚",
-      "rating": 6.9,
-      "release_date": "2026-08-26",
-      "overview": "一场大流行病席卷全球后，人口锐减。在科罗拉多州的飞机库里，一名男子与他的狗和一位阴郁的枪手相伴过着孤寂的生活。当他驾驶着老旧的塞斯纳飞机时，无线电里突然传来神秘的信号，由此引发了一场追寻声音来源的探索之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fRH6jJ3yjfyi4udQTQNL6yCdtet.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
     {
       "id": 1339713,
@@ -145,6 +145,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.6,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
+    },
+    {
       "id": 97546,
       "title": "Ted Lasso",
       "type": "tv",
@@ -167,17 +178,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
     },
     {
-      "id": 1439808,
-      "title": "冥界",
-      "type": "movie",
-      "genreTitle": "剧情•奇幻•爱情",
-      "rating": 8.9,
-      "release_date": "2026-07-23",
-      "overview": "音乐剧《冥界》西区版现场官摄电影，改编自希腊神话中俄耳甫斯潜入地府寻找欧律狄刻的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2li7BGcYiCBZ4f6ojm23qOE7tHZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1cEvtHEKz95tQoD76UaRyyXJW4b.jpg"
-    },
-    {
       "id": 125988,
       "title": "末日地堡",
       "type": "tv",
@@ -189,17 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
     },
     {
-      "id": 1291595,
-      "title": "潜伏6：血域",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
-    },
-    {
       "id": 1514682,
       "title": "鲨笼绝境",
       "type": "movie",
@@ -209,6 +198,17 @@
       "overview": "五位挚友相约前往热带海岛度假，计划在碧蓝海域中体验刺激的鲨鱼笼潜水，同时享受奢靡的派对狂欢。然而他们浑然不知，这趟旅程不过是一场精心布局的犯罪幌子，幕后主谋正是行事冷酷、算无遗策的危险人物“伯恩斯”——他在暴力中淬炼成型，对大海了如指掌。当阴谋突然引爆，一场激烈冲突 让女主角塔蒂亚娜与好友卡莉被困深海之中：头顶是氧气瓶指针飞速下滑的恐慌，四周是游弋不去的鲨鱼，水面之上则是伯恩斯穷凶极恶的手下虎视眈眈。夹在水下猛兽与水面上暴徒的双重绞杀之间，塔蒂亚娜必须凭借全部的智慧与勇气，在生命流逝之前找到逃出生天、拯救同伴的唯一出路。影片将海洋生存惊悚的窒息感与犯罪动作的高燃节奏融于一体，充满意料之外的反转，令人屏息。",
       "poster_url": "https://image.tmdb.org/t/p/original/7bOuu1SRALGwsG2fLCTvRkCmQBj.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/7WQlf63Dr8CTm2pEMLlQMUWy74Q.jpg"
+    },
+    {
+      "id": 1439808,
+      "title": "冥界",
+      "type": "movie",
+      "genreTitle": "剧情•奇幻•爱情",
+      "rating": 8.9,
+      "release_date": "2026-07-23",
+      "overview": "音乐剧《冥界》西区版现场官摄电影，改编自希腊神话中俄耳甫斯潜入地府寻找欧律狄刻的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2li7BGcYiCBZ4f6ojm23qOE7tHZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1cEvtHEKz95tQoD76UaRyyXJW4b.jpg"
     },
     {
       "id": 37854,
@@ -472,7 +472,7 @@
       "title": "怒之杀",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.6,
+      "rating": 6.5,
       "release_date": "2026-09-04",
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
@@ -483,7 +483,7 @@
       "title": "星辰之怒",
       "type": "movie",
       "genreTitle": "动作•科幻•惊悚",
-      "rating": 5.5,
+      "rating": 5.6,
       "release_date": "2026-08-06",
       "overview": "故事讲述一位国际特种部队女兵预感到人类即将灭亡。《群星之怒》是根据屡获殊荣的短片《不再有星辰》改编的电影长片。",
       "poster_url": "https://image.tmdb.org/t/p/original/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
@@ -516,7 +516,7 @@
       "title": "夜巡毒枭",
       "type": "movie",
       "genreTitle": "犯罪•动作•惊悚",
-      "rating": 8.4,
+      "rating": 8.5,
       "release_date": "2026-08-21",
       "overview": "两位墨西哥员警不幸得罪一名残忍的毒枭后，必须拼命撑过值勤的最后几小时。改编自真实事件。",
       "poster_url": "https://image.tmdb.org/t/p/original/5R77M1w3y6i6GUd8EoNiEQIFPhC.jpg",
