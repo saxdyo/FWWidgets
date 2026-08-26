@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-26 13:20:01",
+  "last_updated": "2026-08-26 14:22:19",
   "today_global": [
     {
       "id": 87513,
       "title": "狂暴对峙",
       "type": "movie",
       "genreTitle": "动作•惊悚•犯罪",
-      "rating": 7.1,
+      "rating": 7.2,
       "release_date": "2026-07-23",
       "overview": "约翰·米勒是一名底层汽车厂蓝领工人，他爱上了本地黑帮大佬雷诺兹的前女友索菲亚。黑帮头目因嫉妒怀恨在心，精心设局栽赃米勒走私巨额毒品，让他含冤被判终身监禁。漫长牢狱生涯结束后，米勒彻底抛弃言语沟通，只怀揣唯一目标复仇夺回家人与人生。他孤身一人穿梭在底特律破败街巷，徒手对抗整个黑帮势力，全程依靠格斗、枪械竞速、街头搏杀层层瓦解仇敌势力，在血与火的对抗里完成压抑多年的怒火宣泄。",
       "poster_url": "https://image.tmdb.org/t/p/original/dNtojaHKYIbIVfhuLBZTF0KcbW.jpg",
@@ -17,7 +17,7 @@
       "title": "蝙蝠侠：骑士陨落 第一部：骑士陨落",
       "type": "movie",
       "genreTitle": "动画•动作•冒险",
-      "rating": 8.1,
+      "rating": 8.2,
       "release_date": "2026-06-23",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/nN0MbX8D5HlTYztl3PDXkiQQLzf.jpg",
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
+      "id": 1288445,
+      "title": "怒之杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-19",
+      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
+    },
+    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -46,17 +57,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
     {
-      "id": 1288445,
-      "title": "怒之杀",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-08-19",
-      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
-    },
-    {
       "id": 30984,
       "title": "死神",
       "type": "tv",
@@ -66,17 +66,6 @@
       "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
       "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
-    },
-    {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 1368337,
@@ -101,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
       "id": 1384216,
       "title": "末世行者",
       "type": "movie",
@@ -112,15 +112,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/fRH6jJ3yjfyi4udQTQNL6yCdtet.jpg"
     },
     {
-      "id": 1439808,
-      "title": "冥界",
+      "id": 1212763,
+      "title": "鬼玩人：炼狱",
       "type": "movie",
-      "genreTitle": "剧情•奇幻•爱情",
-      "rating": 8.9,
-      "release_date": "2026-07-23",
-      "overview": "音乐剧《冥界》西区版现场官摄电影，改编自希腊神话中俄耳甫斯潜入地府寻找欧律狄刻的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2li7BGcYiCBZ4f6ojm23qOE7tHZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1cEvtHEKz95tQoD76UaRyyXJW4b.jpg"
+      "genreTitle": "恐怖",
+      "rating": 7.8,
+      "release_date": "2026-07-07",
+      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bHwGnr8tD7Lp66pBr2qHZhCRyqM.jpg"
     },
     {
       "id": 1084244,
@@ -134,15 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
-      "id": 1212763,
-      "title": "鬼玩人：炼狱",
+      "id": 1439808,
+      "title": "冥界",
       "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 7.8,
-      "release_date": "2026-07-07",
-      "overview": "爱丽丝在丈夫骤然离世后深陷悲痛，受邀前往公婆的乡间庄园暂住，试图和丈夫的家人互相慰藉，一同走出丧亲的阴霾。可入住没多久，诡异状况便接连爆发，庄园里怪事频发，身边的亲人举止日渐反常。很快，恶灵诅咒席卷整座宅邸，身边的人一个接一个被侵蚀异化，变成面目焦黑、嗜血狂暴的死徒。她逐渐发现，当年婚礼上许下的婚姻誓言并未随丈夫的死亡消散，反而成了缠绕整个家族的恶灵契约。被困在庄园里的她，必须在亲人彻底沦陷前，在遍地死徒的绝境里拼杀求生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vJGTgRfMOgiuXQGkvo7uJR53C6P.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bHwGnr8tD7Lp66pBr2qHZhCRyqM.jpg"
+      "genreTitle": "剧情•奇幻•爱情",
+      "rating": 8.9,
+      "release_date": "2026-07-23",
+      "overview": "音乐剧《冥界》西区版现场官摄电影，改编自希腊神话中俄耳甫斯潜入地府寻找欧律狄刻的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2li7BGcYiCBZ4f6ojm23qOE7tHZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1cEvtHEKz95tQoD76UaRyyXJW4b.jpg"
     },
     {
       "id": 294487,
@@ -167,6 +167,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vqgbIravMFb3XR0qm0STynacXi3.jpg"
     },
     {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+    },
+    {
       "id": 1621552,
       "title": "夜巡毒枭",
       "type": "movie",
@@ -189,17 +200,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
       "id": 1291595,
       "title": "潜伏6：血域",
       "type": "movie",
@@ -211,15 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
     },
     {
-      "id": 1514682,
-      "title": "鲨笼绝境",
-      "type": "movie",
-      "genreTitle": "动作•惊悚•恐怖",
-      "rating": 7.2,
-      "release_date": "2026-07-29",
-      "overview": "五位挚友相约前往热带海岛度假，计划在碧蓝海域中体验刺激的鲨鱼笼潜水，同时享受奢靡的派对狂欢。然而他们浑然不知，这趟旅程不过是一场精心布局的犯罪幌子，幕后主谋正是行事冷酷、算无遗策的危险人物“伯恩斯”——他在暴力中淬炼成型，对大海了如指掌。当阴谋突然引爆，一场激烈冲突 让女主角塔蒂亚娜与好友卡莉被困深海之中：头顶是氧气瓶指针飞速下滑的恐慌，四周是游弋不去的鲨鱼，水面之上则是伯恩斯穷凶极恶的手下虎视眈眈。夹在水下猛兽与水面上暴徒的双重绞杀之间，塔蒂亚娜必须凭借全部的智慧与勇气，在生命流逝之前找到逃出生天、拯救同伴的唯一出路。影片将海洋生存惊悚的窒息感与犯罪动作的高燃节奏融于一体，充满意料之外的反转，令人屏息。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7bOuu1SRALGwsG2fLCTvRkCmQBj.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7WQlf63Dr8CTm2pEMLlQMUWy74Q.jpg"
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.8,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "week_global_all": [
