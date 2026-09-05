@@ -1,16 +1,38 @@
 {
-  "last_updated": "2026-09-04 14:34:09",
+  "last_updated": "2026-09-06 00:18:20",
   "today_global": [
+    {
+      "id": 1137844,
+      "title": "求救信号",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 7.1,
+      "release_date": "2026-09-02",
+      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
+      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
+    },
     {
       "id": 1386315,
       "title": "生死时限",
       "type": "movie",
       "genreTitle": "惊悚•动作",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-09-03",
       "overview": "一位才华横溢的伦敦律师玛雅马滕正在晨跑，突然接到一个电话，生活瞬间崩塌：她的儿子被绑架了。为了救回儿子，她必须不停奔跑，服从绑匪给的每个冷酷命令，不能信任任何人--每一秒都在考验这位母亲为了救孩子，愿意付出多大的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/67HuUq4XAKs1NVaLF2bY2Yv8hHG.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/yehoKeGgvgfqwbUsM1GGaQJ9p5r.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
     },
     {
       "id": 236235,
@@ -24,37 +46,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2UTptUCms8tjMUWycUdcNjyEufq.jpg"
     },
     {
-      "id": 247168,
-      "title": "查德·鲍尔斯",
+      "id": 329471,
+      "title": "大世界之旅",
       "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.0,
-      "release_date": "2025-09-30",
-      "overview": "八年前，明星四分卫罗斯·哈乐戴犯下无法弥补的错误，葬送了自己的大学橄榄球生涯。现在，他乔装为怪咖天才查德·鲍尔斯，加入陷入困境的南格鲁吉亚鲶鱼队，渴望东山再起。",
-      "poster_url": "https://image.tmdb.org/t/p/original/navRKmzE8rZ3PZlWgt2ememY3Xd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tDbWcF4zrJY7YnYBTVoopiAHE0E.jpg"
+      "genreTitle": "真人秀",
+      "rating": 10.0,
+      "release_date": "2026-09-04",
+      "overview": "欢迎收看《大世界之旅》。全球最精彩的汽车节目强势回归，由托马斯·霍兰德、詹姆斯·恩格尔斯曼和弗朗西斯·布尔乔亚三位新主持人领衔，继续为您带来其标志性的环球冒险、令人惊叹的车辆、惊险刺激的特技表演和鲜明的观点。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gcUNI7k0gWqmgXRqKZ65edQk2Cv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dAH9aubdHa7eDVVIvc6qUDmoqF3.jpg"
     },
     {
-      "id": 1506560,
-      "title": "雷霆家族大对决",
-      "type": "movie",
-      "genreTitle": "科幻•动作•喜剧",
-      "rating": 6.6,
-      "release_date": "2026-09-03",
-      "overview": "当克洛伊觉醒了一股危险的全新超能力后，她接到命令，必须前往超级英雄寄宿学校。菲比、芭芭拉和比利陪同她躲藏，而麦克斯、汉克和诺拉则追赶他们，家庭因此分裂，一场关乎他们未来的战争就此爆发。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gb5hRCGVetxqJAJh7Q5bbE7fOW2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6yT5O0g8ZXNOm9I5IXLZonZRBgx.jpg"
-    },
-    {
-      "id": 1355228,
-      "title": "蒙眼追凶",
-      "type": "movie",
-      "genreTitle": "动作•剧情•惊悚",
-      "rating": 5.8,
-      "release_date": "2026-09-03",
-      "overview": "一个母亲在绑架事件中失去视力和爱女，她决定亲自出马，追捕凶手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hCHei97aPYCCsh4vicz9X0wmdFV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sT5WVT8LzvDwIbfy9BGXK0fvf3s.jpg"
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
       "id": 969681,
@@ -63,86 +74,20 @@
       "genreTitle": "科幻•动作•冒险",
       "rating": 7.9,
       "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
-      "id": 329471,
-      "title": "The Grand Tour",
-      "type": "tv",
-      "genreTitle": "真人秀",
-      "rating": 0.0,
-      "release_date": "2026-09-04",
-      "overview": "",
-      "poster_url": "https://image.tmdb.org/t/p/original/kq6XB6xmD86txW4UR32tT2JUiN9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uR5nHTqzKn0Of4m4nwpqBux05jr.jpg"
     },
     {
       "id": 1204680,
       "title": "歪心狼对阵ACME",
       "type": "movie",
       "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.8,
+      "rating": 7.7,
       "release_date": "2026-08-20",
       "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
       "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
-    },
-    {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2026-08-16",
-      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
-    },
-    {
-      "id": 860508,
-      "title": "耳语人",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-08-27",
-      "overview": "年幼的儿子失踪后，这名鳏夫向关系疏远的父亲求助，后者是一名退休的警探，而他曾送进监狱的一名连环杀手现在与这起案件有关。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zSE3jbdxhwImciCvMRu4Ql5Ui3Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rHGJWs4XjO88QL4o9PWY618CVY8.jpg"
     },
     {
       "id": 1368337,
@@ -156,6 +101,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 860508,
+      "title": "耳语人",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-08-27",
+      "overview": "年幼的儿子失踪后，这名鳏夫向关系疏远的父亲求助，后者是一名退休的警探，而他曾送进监狱的一名连环杀手现在与这起案件有关。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zSE3jbdxhwImciCvMRu4Ql5Ui3Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rHGJWs4XjO88QL4o9PWY618CVY8.jpg"
+    },
+    {
       "id": 196322,
       "title": "Dark Matter",
       "type": "tv",
@@ -163,19 +130,63 @@
       "rating": 7.8,
       "release_date": "2024-05-07",
       "overview": "杰森·戴森被强行带到平行时空中的另一段人生，他为了回到真正的家人身边而踏上艰苦旅程，同时竭力拯救他们脱离头号敌人，也就是他自己。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wdOwBBz4tV3msGtyN72uwS90TmW.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/vD7dohDoe2zF2XVqIfBrjMlXgQF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1DRDYQnXSgDY6Qxd4HSxE6wlaBH.jpg"
     },
     {
-      "id": 1081003,
-      "title": "超级少女",
+      "id": 1355228,
+      "title": "蒙眼追凶",
       "type": "movie",
-      "genreTitle": "动作•冒险•科幻",
-      "rating": 6.7,
-      "release_date": "2026-06-24",
-      "overview": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mTfjvvBUaDmexYEPwVqBFsYYh8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/h43uFqdv97np9dQ3B1iGut8hmcy.jpg"
+      "genreTitle": "动作•剧情•惊悚",
+      "rating": 4.6,
+      "release_date": "2026-09-03",
+      "overview": "一个母亲在绑架事件中失去视力和爱女，她决定亲自出马，追捕凶手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hCHei97aPYCCsh4vicz9X0wmdFV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sT5WVT8LzvDwIbfy9BGXK0fvf3s.jpg"
+    },
+    {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 1506560,
+      "title": "雷霆家族大对决",
+      "type": "movie",
+      "genreTitle": "电视电影•家庭•科幻",
+      "rating": 6.9,
+      "release_date": "2026-09-03",
+      "overview": "当克洛伊觉醒了一股危险的全新超能力后，她接到命令，必须前往超级英雄寄宿学校。菲比、芭芭拉和比利陪同她躲藏，而麦克斯、汉克和诺拉则追赶他们，家庭因此分裂，一场关乎他们未来的战争就此爆发。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gb5hRCGVetxqJAJh7Q5bbE7fOW2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6yT5O0g8ZXNOm9I5IXLZonZRBgx.jpg"
+    },
+    {
+      "id": 1288445,
+      "title": "怒之杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-08-19",
+      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
+    },
+    {
+      "id": 95350,
+      "title": "绿灯军团",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2026-08-16",
+      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
       "id": 1315772,
@@ -189,37 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kuKDnaghvvNaCI32t6rcf3lq0X8.jpg"
     },
     {
-      "id": 1101412,
-      "title": "坠落2：死点",
+      "id": 1083381,
+      "title": "后室",
       "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 6.0,
-      "release_date": "2026-09-01",
-      "overview": "痛失姐妹汉特之后，杰克斯与汉特那无畏的好友露斯再度重聚。为了抚平内心的伤痛，两人结伴前往泰国著名的坤山山脉徒步疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的3000英尺高空栈道上。面对死神的威胁，杰克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aBtS3yCWReAen3OefxBXedbArFI.jpg"
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mv5c6PZt31A1bEYagWYtmMIgQC1.jpg"
     },
     {
-      "id": 103516,
-      "title": "星际迷航：奇异新世界",
+      "id": 247168,
+      "title": "查德·鲍尔斯",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.9,
-      "release_date": "2022-05-05",
-      "overview": "在柯克船长登上企业号之前的几年里，跟随克里斯托弗·派克、斯波克和第一号探索银河系周围的新世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5kaTkbuMo8ivbrvTWLy0e3CrpNf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fEQbvO2gtPY2JFuFPZDp1qlGsCt.jpg"
-    },
-    {
-      "id": 1480574,
-      "title": "诈死游戏",
-      "type": "movie",
-      "genreTitle": "惊悚•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-08-28",
-      "overview": "犯罪天才杰克（塞缪尔·杰克逊 饰）计划制造一场假死骗局，好跟妻子诺拉（伊娃·格林 饰）共同诈领3000万美元保险金，还打算陷害妻子的年轻情夫查德（杰森·费尔南德斯 饰）成为杀害自己的凶手。然而，早已受够杰克的诺拉心中另有盘算，她要真的杀死杰克，并独吞这笔钜款。这对尔虞我诈的夫妻，究竟谁能够笑到最后？",
-      "poster_url": "https://image.tmdb.org/t/p/original/lMNzKFqzMg58SEnC2qGHd8nr0l6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8iZXcIxfvbShhKofyeGY6zyJ8yR.jpg"
+      "genreTitle": "喜剧",
+      "rating": 8.0,
+      "release_date": "2025-09-30",
+      "overview": "八年前，明星四分卫罗斯·哈乐戴犯下无法弥补的错误，葬送了自己的大学橄榄球生涯。现在，他乔装为怪咖天才查德·鲍尔斯，加入陷入困境的南格鲁吉亚鲶鱼队，渴望东山再起。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ngb8FY7NDKCeeqOgauNFOSaBLoz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tDbWcF4zrJY7YnYBTVoopiAHE0E.jpg"
     }
   ],
   "week_global_all": [
@@ -228,10 +228,10 @@
       "title": "生死时限",
       "type": "movie",
       "genreTitle": "惊悚•动作",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-09-03",
       "overview": "一位才华横溢的伦敦律师玛雅马滕正在晨跑，突然接到一个电话，生活瞬间崩塌：她的儿子被绑架了。为了救回儿子，她必须不停奔跑，服从绑匪给的每个冷酷命令，不能信任任何人--每一秒都在考验这位母亲为了救孩子，愿意付出多大的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/67HuUq4XAKs1NVaLF2bY2Yv8hHG.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/yehoKeGgvgfqwbUsM1GGaQJ9p5r.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
     },
     {
@@ -243,7 +243,7 @@
       "release_date": "2023-05-04",
       "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
       "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d9vKHMFbhx6rAQZhE9opiIbmGFx.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
     },
     {
       "id": 860508,
@@ -257,22 +257,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rHGJWs4XjO88QL4o9PWY618CVY8.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
       "id": 1204680,
       "title": "歪心狼对阵ACME",
       "type": "movie",
       "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.8,
+      "rating": 7.7,
       "release_date": "2026-08-20",
       "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
       "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
@@ -296,9 +285,20 @@
       "genreTitle": "科幻•动作•冒险",
       "rating": 7.9,
       "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1339713,
@@ -323,15 +323,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 196322,
-      "title": "Dark Matter",
+      "id": 30984,
+      "title": "死神",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 7.8,
-      "release_date": "2024-05-07",
-      "overview": "杰森·戴森被强行带到平行时空中的另一段人生，他为了回到真正的家人身边而踏上艰苦旅程，同时竭力拯救他们脱离头号敌人，也就是他自己。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wdOwBBz4tV3msGtyN72uwS90TmW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1DRDYQnXSgDY6Qxd4HSxE6wlaBH.jpg"
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
       "id": 108978,
@@ -343,6 +343,39 @@
       "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
       "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 1137844,
+      "title": "求救信号",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 7.0,
+      "release_date": "2026-09-02",
+      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
+      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
+    },
+    {
+      "id": 1288445,
+      "title": "怒之杀",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-08-19",
+      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
+    },
+    {
+      "id": 196322,
+      "title": "Dark Matter",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 7.8,
+      "release_date": "2024-05-07",
+      "overview": "杰森·戴森被强行带到平行时空中的另一段人生，他为了回到真正的家人身边而踏上艰苦旅程，同时竭力拯救他们脱离头号敌人，也就是他自己。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vD7dohDoe2zF2XVqIfBrjMlXgQF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1DRDYQnXSgDY6Qxd4HSxE6wlaBH.jpg"
     },
     {
       "id": 1083381,
@@ -367,61 +400,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/kuKDnaghvvNaCI32t6rcf3lq0X8.jpg"
     },
     {
-      "id": 1288445,
-      "title": "怒之杀",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.4,
-      "release_date": "2026-08-19",
-      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
-    },
-    {
-      "id": 247168,
-      "title": "查德·鲍尔斯",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 8.0,
-      "release_date": "2025-09-30",
-      "overview": "八年前，明星四分卫罗斯·哈乐戴犯下无法弥补的错误，葬送了自己的大学橄榄球生涯。现在，他乔装为怪咖天才查德·鲍尔斯，加入陷入困境的南格鲁吉亚鲶鱼队，渴望东山再起。",
-      "poster_url": "https://image.tmdb.org/t/p/original/navRKmzE8rZ3PZlWgt2ememY3Xd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tDbWcF4zrJY7YnYBTVoopiAHE0E.jpg"
-    },
-    {
-      "id": 290193,
-      "title": "鼠惑",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 7.6,
-      "release_date": "2026-08-28",
-      "overview": "一名隐居作家醒来后发现自己的身份被盗用。为了从人称“田鼠”的男人手中夺回自己的人生，他不得不与一名冷酷无情的高利贷者联手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ipIcSJUXBenqEWXXhc0WYb9l4DN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6B3xYx8ishrDshAO0tO8t4rUGzI.jpg"
-    },
-    {
-      "id": 287238,
-      "title": "狂怒追缉",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.2,
-      "release_date": "2026-07-27",
-      "overview": "一名是誓言缉凶的联邦调查局探员艾莉丝，一名是神秘狡猾的女性连环杀手凯萨琳。两人皆以自己的方式伸张正义，当她们的命运开始交织，是非对错的界线也随之模糊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pS1NXKwQcj7JvOYMkSt38vNJZzz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2BRmtZvk2WtRln5avS9W6vgwDf.jpg"
-    },
-    {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
-    },
-    {
       "id": 1384216,
       "title": "末世行者",
       "type": "movie",
@@ -433,15 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/x4DEDCtrk873TU0YbNye3CTE54M.jpg"
     },
     {
-      "id": 1084244,
-      "title": "玩具总动员5",
+      "id": 287238,
+      "title": "狂怒追缉",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.1,
+      "release_date": "2026-07-27",
+      "overview": "一名是誓言缉凶的联邦调查局探员艾莉丝，一名是神秘狡猾的女性连环杀手凯萨琳。两人皆以自己的方式伸张正义，当她们的命运开始交织，是非对错的界线也随之模糊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pS1NXKwQcj7JvOYMkSt38vNJZzz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2BRmtZvk2WtRln5avS9W6vgwDf.jpg"
+    },
+    {
+      "id": 1480574,
+      "title": "诈死游戏",
       "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
+      "genreTitle": "惊悚•犯罪",
+      "rating": 6.7,
+      "release_date": "2026-08-28",
+      "overview": "犯罪天才杰克（塞缪尔·杰克逊 饰）计划制造一场假死骗局，好跟妻子诺拉（伊娃·格林 饰）共同诈领3000万美元保险金，还打算陷害妻子的年轻情夫查德（杰森·费尔南德斯 饰）成为杀害自己的凶手。然而，早已受够杰克的诺拉心中另有盘算，她要真的杀死杰克，并独吞这笔钜款。这对尔虞我诈的夫妻，究竟谁能够笑到最后？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lMNzKFqzMg58SEnC2qGHd8nr0l6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8iZXcIxfvbShhKofyeGY6zyJ8yR.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
     }
   ],
   "popular_movies": [
@@ -452,7 +452,7 @@
       "genreTitle": "科幻•动作•冒险",
       "rating": 7.9,
       "release_date": "2026-07-29",
-      "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
@@ -479,15 +479,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
     },
     {
-      "id": 1516698,
-      "title": "最后的曙光",
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.7,
-      "release_date": "2026-08-26",
-      "overview": "身患慢性疾病的大学生小莱与母亲一同前往马略卡岛度过夏天的故事。她在那里意外邂逅了胡利安，并开始学会活在当下。然而，随着病情不断恶化，尘封多年的家族秘密也逐渐浮出水面，一切美好都可能在夏天结束前分崩离析。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vbwR8j3rcaBjDnVQjNn9tW19TvT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p66ahb34qp8oQFcaPYtuAk2RZIW.jpg"
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.7,
+      "release_date": "2026-08-20",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
     },
     {
       "id": 1285366,
@@ -501,22 +501,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/yjK3ardrgdS8suZG8KMU82Q7U38.jpg"
     },
     {
-      "id": 1204680,
-      "title": "歪心狼对阵ACME",
+      "id": 1386315,
+      "title": "逃亡者",
       "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.8,
-      "release_date": "2026-08-20",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
+      "genreTitle": "惊悚•动作",
+      "rating": 6.3,
+      "release_date": "2026-09-03",
+      "overview": "一位才华横溢的伦敦律师玛雅马滕正在晨跑，突然接到一个电话，生活瞬间崩塌：她的儿子被绑架了。为了救回儿子，她必须不停奔跑，服从绑匪给的每个冷酷命令，不能信任任何人--每一秒都在考验这位母亲为了救孩子，愿意付出多大的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yehoKeGgvgfqwbUsM1GGaQJ9p5r.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
+    },
+    {
+      "id": 1516698,
+      "title": "最后的曙光",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.6,
+      "release_date": "2026-08-26",
+      "overview": "身患慢性疾病的大学生小莱与母亲一同前往马略卡岛度过夏天的故事。她在那里意外邂逅了胡利安，并开始学会活在当下。然而，随着病情不断恶化，尘封多年的家族秘密也逐渐浮出水面，一切美好都可能在夏天结束前分崩离析。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vbwR8j3rcaBjDnVQjNn9tW19TvT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p66ahb34qp8oQFcaPYtuAk2RZIW.jpg"
     },
     {
       "id": 1213243,
       "title": "毒：成人童话",
       "type": "movie",
       "genreTitle": "动作•犯罪•剧情",
-      "rating": 7.8,
+      "rating": 7.9,
       "release_date": "2026-08-26",
       "overview": "",
       "poster_url": "https://image.tmdb.org/t/p/original/oiIPU4lvnI0Ag2K9cyAi44eCaoE.jpg",
@@ -534,17 +545,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/etFPzmqXZlHDderOCgg3YjQswT1.jpg"
     },
     {
-      "id": 860508,
-      "title": "耳语人",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•惊悚",
-      "rating": 6.6,
-      "release_date": "2026-08-27",
-      "overview": "年幼的儿子失踪后，这名鳏夫向关系疏远的父亲求助，后者是一名退休的警探，而他曾送进监狱的一名连环杀手现在与这起案件有关。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zSE3jbdxhwImciCvMRu4Ql5Ui3Z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rHGJWs4XjO88QL4o9PWY618CVY8.jpg"
-    },
-    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -554,28 +554,6 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 1232569,
-      "title": "匹诺曹：弦断",
-      "type": "movie",
-      "genreTitle": "恐怖•奇幻•悬疑",
-      "rating": 6.7,
-      "release_date": "2026-07-22",
-      "overview": "老木匠杰佩托为孙子詹姆斯打造了一具栩栩如生的木偶匹诺曹，木偶意外觉醒了自我意识，本心单纯地想要守护小主人。但在邪恶化的蟋蟀蛊惑、以及自身木质本源的执念驱使下，匹诺曹偏执地认定所有让詹姆斯受委屈、产生不快的人都是威胁，为了真正变成人类，他开始疯狂猎杀目标，通过收集受害者的牙齿、皮肤、器官来完成肉身蜕变，牙医、校霸、刻薄的成年人接连沦为他的猎物，一场失控的血腥屠杀就此铺开，原本纯真的童话人偶彻底沦为残忍的杀人傀儡。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eUJXk3bTvLBi5Zcb0BCedZU7lVL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/knnV7fCwXVJD8fo9RSKDqx9zov9.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-06-19",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
       "id": 1375646,
@@ -589,17 +567,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/pflYEf3a4uAlwSN0oYpSiFPWFfj.jpg"
     },
     {
-      "id": 1323244,
-      "title": "星辰之怒",
-      "type": "movie",
-      "genreTitle": "动作•科幻•惊悚",
-      "rating": 5.9,
-      "release_date": "2026-08-06",
-      "overview": "故事讲述一位国际特种部队女兵预感到人类即将灭亡。《群星之怒》是根据屡获殊荣的短片《不再有星辰》改编的电影长片。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z7lZgL5tzefTfhyRtouThFhsuUS.jpg"
-    },
-    {
       "id": 1393326,
       "title": "牢笼鬼魂",
       "type": "movie",
@@ -609,6 +576,39 @@
       "overview": "故事舞台设在一座狱警贪腐、帮派割据、管理极端残暴的重型监狱，一名自带恶灵的新囚犯入狱后，牢房区接连爆发无差别血腥命案，死者遗体都会被恶灵改造成诡异惊悚的人体陈列造型，监狱里水火不容的几大囚犯帮派、收受贿赂草菅人命的狱警，在持续不断的死亡恐慌下被迫放下仇怨抱团求生。其中一名囚犯意外获得感知人身上黑暗气场的能力，能预判恶灵的猎杀目标，众人一边对抗恶灵的疯狂屠戮，一边逐层揭开监狱长期掩盖的虐囚黑幕、以及恶灵复仇背后埋藏的陈年冤屈，在不间断的血腥杀戮、暴力冲突里，完成一场底层绝境的反抗。 \\n《撒旦的奴隶》恐怖片名导乔科·安瓦尔最新恐怖力作，主打重口血腥，超自然肉体恐怖，视觉冲击力是近几年东南亚恐怖片的天花板，肉体恐怖、猎奇怪物造型全程高能，血浆场面密集且设计极具想象力。",
       "poster_url": "https://image.tmdb.org/t/p/original/a6HlN2x472krH34s7SFhJAS5fPb.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tC9s5FN3HRzIuJr0zPcUcFWNgML.jpg"
+    },
+    {
+      "id": 860508,
+      "title": "耳语人",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-08-27",
+      "overview": "年幼的儿子失踪后，这名鳏夫向关系疏远的父亲求助，后者是一名退休的警探，而他曾送进监狱的一名连环杀手现在与这起案件有关。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zSE3jbdxhwImciCvMRu4Ql5Ui3Z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rHGJWs4XjO88QL4o9PWY618CVY8.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-06-19",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
+    },
+    {
+      "id": 1323244,
+      "title": "星辰之怒",
+      "type": "movie",
+      "genreTitle": "动作•科幻•惊悚",
+      "rating": 6.0,
+      "release_date": "2026-08-06",
+      "overview": "故事讲述一位国际特种部队女兵预感到人类即将灭亡。《群星之怒》是根据屡获殊荣的短片《不再有星辰》改编的电影长片。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z7lZgL5tzefTfhyRtouThFhsuUS.jpg"
     }
   ]
 }
