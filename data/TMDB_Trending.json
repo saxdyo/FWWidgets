@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 00:06:49",
+  "last_updated": "2026-09-08 04:11:51",
   "today_global": [
     {
       "id": 1765072,
@@ -24,17 +24,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 1137844,
-      "title": "求救信号",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•战争",
-      "rating": 8.0,
-      "release_date": "2026-09-03",
-      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
-      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
-    },
-    {
       "id": 1108427,
       "title": "海洋奇缘：启航",
       "type": "movie",
@@ -44,6 +33,17 @@
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+    },
+    {
+      "id": 1137844,
+      "title": "求救信号",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•战争",
+      "rating": 7.9,
+      "release_date": "2026-09-03",
+      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
+      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
     },
     {
       "id": 1386315,
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
     },
     {
-      "id": 301626,
-      "title": "双城记",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 9.5,
-      "release_date": "2026-09-06",
-      "overview": "1782年英法对峙之际，一对长相相似的男子，一个是没落的法国贵族，另一个是嗜酒的英国律师。在法国大革命的动荡局势中，两人同时爱上了同一名女子。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iHHgpGDcvot75BHecUB6uu01miY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9EGYa51w81iQRqvPaiFKxah1lly.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -88,6 +77,17 @@
       "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+    },
+    {
+      "id": 113962,
+      "title": "特别行动：母狮",
+      "type": "tv",
+      "genreTitle": "剧情•War & Politics",
+      "rating": 8.1,
+      "release_date": "2023-07-23",
+      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fASiB6nkIO1GQKHh55U1fGntwdo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
     },
     {
       "id": 1368337,
@@ -123,81 +123,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 113962,
-      "title": "特别行动：母狮",
+      "id": 301626,
+      "title": "双城记",
       "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.1,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fASiB6nkIO1GQKHh55U1fGntwdo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
-      "id": 294486,
-      "title": "交锋",
-      "type": "tv",
-      "genreTitle": "悬疑",
-      "rating": 9.0,
+      "genreTitle": "剧情•悬疑",
+      "rating": 9.6,
       "release_date": "2026-09-06",
-      "overview": "一宗世纪之交的泄密大案扣动两岸局势脉搏，同时还掩藏着一场境外势力与我方在隐蔽战线上的针锋较量。二十世纪九十年代末，闽州市国家安全局一对性格迥异的师徒，因机缘巧合的命运安排，为了共同的使命与信仰并肩作战。他们联手挫败了各种阴谋，也与敌手在横跨二十年的命运长河里不断纠缠。当时间流转，新世纪的潮流剧变席卷而来，国家安全局势攻防易势，隐蔽战线上的较量却不止不休。在一次次关乎人性的考验中，这三人的命运关系因不同抉择，在岁月洗礼中悄然改变着。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gRe5FZjMWw8xXzWk1hxWuNQckOg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4MjP6HJLU9bapBQnkGB5HvMi0is.jpg"
+      "overview": "1782年英法对峙之际，一对长相相似的男子，一个是没落的法国贵族，另一个是嗜酒的英国律师。在法国大革命的动荡局势中，两人同时爱上了同一名女子。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iHHgpGDcvot75BHecUB6uu01miY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9EGYa51w81iQRqvPaiFKxah1lly.jpg"
     },
     {
       "id": 1204680,
       "title": "歪心狼对阵ACME",
       "type": "movie",
       "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.6,
+      "rating": 7.7,
       "release_date": "2026-08-20",
       "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
       "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
-    },
-    {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
-      "id": 329471,
-      "title": "大世界之旅",
-      "type": "tv",
-      "genreTitle": "真人秀",
-      "rating": 9.6,
-      "release_date": "2026-09-04",
-      "overview": "欢迎收看《大世界之旅》。全球最精彩的汽车节目强势回归，由托马斯·霍兰德、詹姆斯·恩格尔斯曼和弗朗西斯·布尔乔亚三位新主持人领衔，继续为您带来其标志性的环球冒险、令人惊叹的车辆、惊险刺激的特技表演和鲜明的观点。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gcUNI7k0gWqmgXRqKZ65edQk2Cv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dAH9aubdHa7eDVVIvc6qUDmoqF3.jpg"
-    },
-    {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mv5c6PZt31A1bEYagWYtmMIgQC1.jpg"
     },
     {
       "id": 615,
@@ -211,6 +156,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
     },
     {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
       "id": 30984,
       "title": "死神",
       "type": "tv",
@@ -220,6 +176,50 @@
       "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
       "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+    },
+    {
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 1302904,
+      "title": "魔法情缘",
+      "type": "movie",
+      "genreTitle": "爱情•奇幻•喜剧",
+      "rating": 6.7,
+      "release_date": "2026-09-09",
+      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
+    },
+    {
+      "id": 329471,
+      "title": "大世界之旅",
+      "type": "tv",
+      "genreTitle": "真人秀",
+      "rating": 9.6,
+      "release_date": "2026-09-04",
+      "overview": "欢迎收看《大世界之旅》。全球最精彩的汽车节目强势回归，由托马斯·霍兰德、詹姆斯·恩格尔斯曼和弗朗西斯·布尔乔亚三位新主持人领衔，继续为您带来其标志性的环球冒险、令人惊叹的车辆、惊险刺激的特技表演和鲜明的观点。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gcUNI7k0gWqmgXRqKZ65edQk2Cv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dAH9aubdHa7eDVVIvc6qUDmoqF3.jpg"
+    },
+    {
+      "id": 294486,
+      "title": "交锋",
+      "type": "tv",
+      "genreTitle": "悬疑",
+      "rating": 9.0,
+      "release_date": "2026-09-06",
+      "overview": "一宗世纪之交的泄密大案扣动两岸局势脉搏，同时还掩藏着一场境外势力与我方在隐蔽战线上的针锋较量。二十世纪九十年代末，闽州市国家安全局一对性格迥异的师徒，因机缘巧合的命运安排，为了共同的使命与信仰并肩作战。他们联手挫败了各种阴谋，也与敌手在横跨二十年的命运长河里不断纠缠。当时间流转，新世纪的潮流剧变席卷而来，国家安全局势攻防易势，隐蔽战线上的较量却不止不休。在一次次关乎人性的考验中，这三人的命运关系因不同抉择，在岁月洗礼中悄然改变着。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gRe5FZjMWw8xXzWk1hxWuNQckOg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4MjP6HJLU9bapBQnkGB5HvMi0is.jpg"
     }
   ],
   "week_global_all": [
@@ -233,6 +233,17 @@
       "overview": "一位才华横溢的伦敦律师玛雅马滕正在晨跑，突然接到一个电话，生活瞬间崩塌：她的儿子被绑架了。为了救回儿子，她必须不停奔跑，服从绑匪给的每个冷酷命令，不能信任任何人--每一秒都在考验这位母亲为了救孩子，愿意付出多大的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/yehoKeGgvgfqwbUsM1GGaQJ9p5r.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
     },
     {
       "id": 95350,
@@ -257,17 +268,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -277,17 +277,6 @@
       "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
-      "id": 236235,
-      "title": "绅士们",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•犯罪",
-      "rating": 7.8,
-      "release_date": "2024-03-07",
-      "overview": "埃迪·霍尼曼意外地继承了父亲庞大的乡村地产，却发现这是一个大麻帝国的一部分。此外，来自英国黑社会的一群危险人物也想从这次行动中分一杯羹。埃迪决心把家人从他们的魔掌中解救出来，于是试图以黑制黑。然而，卷入犯罪世界之后，他开始沉浸其中无法自拔。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3Cs3g8GBeMqR9p8rKeACqPLst9Q.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2UTptUCms8tjMUWycUdcNjyEufq.jpg"
     },
     {
       "id": 1368337,
@@ -312,6 +301,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
     },
     {
+      "id": 236235,
+      "title": "绅士们",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•犯罪",
+      "rating": 7.8,
+      "release_date": "2024-03-07",
+      "overview": "埃迪·霍尼曼意外地继承了父亲庞大的乡村地产，却发现这是一个大麻帝国的一部分。此外，来自英国黑社会的一群危险人物也想从这次行动中分一杯羹。埃迪决心把家人从他们的魔掌中解救出来，于是试图以黑制黑。然而，卷入犯罪世界之后，他开始沉浸其中无法自拔。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3Cs3g8GBeMqR9p8rKeACqPLst9Q.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2UTptUCms8tjMUWycUdcNjyEufq.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -321,17 +321,6 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 860508,
@@ -345,15 +334,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rHGJWs4XjO88QL4o9PWY618CVY8.jpg"
     },
     {
-      "id": 1137844,
-      "title": "求救信号",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•战争",
-      "rating": 8.0,
-      "release_date": "2026-09-03",
-      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
-      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 113962,
@@ -367,28 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
-      "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.1,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mv5c6PZt31A1bEYagWYtmMIgQC1.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
-    },
-    {
       "id": 30984,
       "title": "死神",
       "type": "tv",
@@ -400,15 +367,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 329471,
-      "title": "大世界之旅",
-      "type": "tv",
-      "genreTitle": "真人秀",
-      "rating": 9.6,
-      "release_date": "2026-09-04",
-      "overview": "欢迎收看《大世界之旅》。全球最精彩的汽车节目强势回归，由托马斯·霍兰德、詹姆斯·恩格尔斯曼和弗朗西斯·布尔乔亚三位新主持人领衔，继续为您带来其标志性的环球冒险、令人惊叹的车辆、惊险刺激的特技表演和鲜明的观点。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gcUNI7k0gWqmgXRqKZ65edQk2Cv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dAH9aubdHa7eDVVIvc6qUDmoqF3.jpg"
+      "id": 1137844,
+      "title": "求救信号",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•战争",
+      "rating": 7.9,
+      "release_date": "2026-09-03",
+      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
+      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
+    },
+    {
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻",
+      "rating": 0.0,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3mILtkNzKWPGX9aVIOkAbuOraW0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jwJZKZ1PrLQSiwH6lAJa0Dkzvu7.jpg"
     },
     {
       "id": 615,
@@ -422,6 +400,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e3R2LHBi8P3mFYMAoziMbpEZmyf.jpg"
     },
     {
+      "id": 287238,
+      "title": "狂怒追缉",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.2,
+      "release_date": "2026-07-27",
+      "overview": "一名是誓言缉凶的联邦调查局探员艾莉丝，一名是神秘狡猾的女性连环杀手凯萨琳。两人皆以自己的方式伸张正义，当她们的命运开始交织，是非对错的界线也随之模糊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pS1NXKwQcj7JvOYMkSt38vNJZzz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2BRmtZvk2WtRln5avS9W6vgwDf.jpg"
+    },
+    {
       "id": 1288445,
       "title": "怒之杀",
       "type": "movie",
@@ -433,15 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
     },
     {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
+      "id": 1480574,
+      "title": "诈死游戏",
       "type": "movie",
-      "genreTitle": "恐怖•科幻",
-      "rating": 0.0,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/3mILtkNzKWPGX9aVIOkAbuOraW0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jwJZKZ1PrLQSiwH6lAJa0Dkzvu7.jpg"
+      "genreTitle": "惊悚•犯罪",
+      "rating": 6.6,
+      "release_date": "2026-08-28",
+      "overview": "犯罪天才杰克（塞缪尔·杰克逊 饰）计划制造一场假死骗局，好跟妻子诺拉（伊娃·格林 饰）共同诈领3000万美元保险金，还打算陷害妻子的年轻情夫查德（杰森·费尔南德斯 饰）成为杀害自己的凶手。然而，早已受够杰克的诺拉心中另有盘算，她要真的杀死杰克，并独吞这笔钜款。这对尔虞我诈的夫妻，究竟谁能够笑到最后？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lMNzKFqzMg58SEnC2qGHd8nr0l6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8iZXcIxfvbShhKofyeGY6zyJ8yR.jpg"
+    },
+    {
+      "id": 1083381,
+      "title": "后室",
+      "type": "movie",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.1,
+      "release_date": "2026-05-27",
+      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mv5c6PZt31A1bEYagWYtmMIgQC1.jpg"
     }
   ],
   "popular_movies": [
