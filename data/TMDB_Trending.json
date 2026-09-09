@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09 13:24:33",
+  "last_updated": "2026-09-09 18:09:44",
   "today_global": [
     {
       "id": 1108427,
@@ -24,6 +24,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cQijkqnB0TbrNILztYwrTxlLq5h.jpg"
     },
     {
+      "id": 258230,
+      "title": "最后目击",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 9.0,
+      "release_date": "2026-09-09",
+      "overview": "该剧讲述了警探Ian Ridley（帕特里克·布拉莫尔 饰）的故事：11年前，当他年幼的女儿Maggie无影无踪地失踪后，他的生活彻底崩溃。如今他担任警察调度员，唯一支撑他活下去的，是他拒不接受女儿可能永远消失的事实。当他接到一个他确信就是Maggie的少女打来的求救电话时，他将不惜一切代价找到她，让他破碎的家庭重聚——无论付出什么代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bLJnwmQS3yjfMWxWcNyEl316NpR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
+    },
+    {
       "id": 1137844,
       "title": "求救信号",
       "type": "movie",
@@ -46,26 +57,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 258230,
-      "title": "最后目击",
+      "id": 69557,
+      "title": "高墙边的混乱",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.0,
-      "release_date": "2026-09-09",
-      "overview": "该剧讲述了警探Ian Ridley（帕特里克·布拉莫尔 饰）的故事：11年前，当他年幼的女儿Maggie无影无踪地失踪后，他的生活彻底崩溃。如今他担任警察调度员，唯一支撑他活下去的，是他拒不接受女儿可能永远消失的事实。当他接到一个他确信就是Maggie的少女打来的求救电话时，他将不惜一切代价找到她，让他破碎的家庭重聚——无论付出什么代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bLJnwmQS3yjfMWxWcNyEl316NpR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
+      "genreTitle": "剧情•动作冒险•War & Politics",
+      "rating": 7.4,
+      "release_date": "2015-02-15",
+      "overview": "一名退休的顶尖以色列特务重操旧业，追缉一位早就死在自己手下的巴勒斯坦激进份子，引发一连串的混乱事件……",
+      "poster_url": "https://image.tmdb.org/t/p/original/iTZX0noHJMYLhNHNj7r97mm9Zi.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b3S01b9R5djFXUlun5CMj4rw7dP.jpg"
     },
     {
-      "id": 1302904,
-      "title": "魔法情缘",
+      "id": 108978,
+      "title": "侠探杰克",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
       "type": "movie",
-      "genreTitle": "爱情•奇幻•喜剧",
-      "rating": 6.2,
-      "release_date": "2026-09-09",
-      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
     {
       "id": 1288445,
@@ -79,15 +101,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5kmju0rHpro6g8YWdihio8SJ1jH.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1302904,
+      "title": "魔法情缘",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+      "genreTitle": "爱情•奇幻•喜剧",
+      "rating": 6.5,
+      "release_date": "2026-09-09",
+      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
+    },
+    {
+      "id": 246473,
+      "title": "韩国制造",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.1,
+      "release_date": "2025-12-24",
+      "overview": "1970年代的韩国，决心要攀上财富与权力顶峰的白冀兑，过着双重身份的人生，白天是中央情报部课长，晚上则成了危险的生意人。他意志坚决且势不可挡，却碰上一名不屈不挠、不惜一切代价也要扳倒他的正义检察官张健荣。二人之间不断针锋相对，却意外被卷入重大事件。在动荡的时代下，亦敌亦友的他们，又将如何面对这场影响着未来的人生事件？",
+      "poster_url": "https://image.tmdb.org/t/p/original/b8RqVzxYGKKAZUQ1pjdqU6vh8ve.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pJj5cAflsspKwZyTDsp7QaEn5Nz.jpg"
     },
     {
       "id": 1386315,
@@ -123,37 +156,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
     },
     {
-      "id": 1204680,
-      "title": "歪心狼对阵ACME",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.7,
-      "release_date": "2026-08-20",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
-    },
-    {
-      "id": 69557,
-      "title": "高墙边的混乱",
+      "id": 236235,
+      "title": "绅士们",
       "type": "tv",
-      "genreTitle": "剧情•动作冒险•War & Politics",
-      "rating": 7.4,
-      "release_date": "2015-02-15",
-      "overview": "一名退休的顶尖以色列特务重操旧业，追缉一位早就死在自己手下的巴勒斯坦激进份子，引发一连串的混乱事件……",
-      "poster_url": "https://image.tmdb.org/t/p/original/iTZX0noHJMYLhNHNj7r97mm9Zi.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b3S01b9R5djFXUlun5CMj4rw7dP.jpg"
-    },
-    {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+      "genreTitle": "喜剧•剧情•犯罪",
+      "rating": 7.8,
+      "release_date": "2024-03-07",
+      "overview": "埃迪·霍尼曼意外地继承了父亲庞大的乡村地产，却发现这是一个大麻帝国的一部分。此外，来自英国黑社会的一群危险人物也想从这次行动中分一杯羹。埃迪决心把家人从他们的魔掌中解救出来，于是试图以黑制黑。然而，卷入犯罪世界之后，他开始沉浸其中无法自拔。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3Cs3g8GBeMqR9p8rKeACqPLst9Q.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2UTptUCms8tjMUWycUdcNjyEufq.jpg"
     },
     {
       "id": 1339713,
@@ -178,28 +189,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Uf9Lf7qlkO44EkR3IaUhqXkiDl.jpg"
     },
     {
-      "id": 113962,
-      "title": "特别行动：母狮",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.1,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fASiB6nkIO1GQKHh55U1fGntwdo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
       "id": 1423191,
       "title": "生化危机：爆发夜",
       "type": "movie",
@@ -211,15 +200,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jwJZKZ1PrLQSiwH6lAJa0Dkzvu7.jpg"
     },
     {
-      "id": 236235,
-      "title": "绅士们",
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.7,
+      "release_date": "2026-08-20",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
+    },
+    {
+      "id": 304842,
+      "title": "毒潮：白粉飞纪事",
       "type": "tv",
-      "genreTitle": "喜剧•剧情•犯罪",
-      "rating": 7.8,
-      "release_date": "2024-03-07",
-      "overview": "埃迪·霍尼曼意外地继承了父亲庞大的乡村地产，却发现这是一个大麻帝国的一部分。此外，来自英国黑社会的一群危险人物也想从这次行动中分一杯羹。埃迪决心把家人从他们的魔掌中解救出来，于是试图以黑制黑。然而，卷入犯罪世界之后，他开始沉浸其中无法自拔。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3Cs3g8GBeMqR9p8rKeACqPLst9Q.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2UTptUCms8tjMUWycUdcNjyEufq.jpg"
+      "genreTitle": "剧情",
+      "rating": 6.2,
+      "release_date": "2026-09-08",
+      "overview": "20世纪90年代的洛杉矶，在帮派冲突频发、唱片公司纷纷试图利用嘻哈文化牟利的背景下，万达（Wanda）与莱昂（Leon）努力推动西海岸说唱走向主流。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tiLqDZQdVILCIt00MLwDvnXAttr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2irbQmVO8IQbuxrJBg1meIX9WBr.jpg"
     }
   ],
   "week_global_all": [
@@ -246,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
     },
     {
+      "id": 258230,
+      "title": "最后目击",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 9.0,
+      "release_date": "2026-09-09",
+      "overview": "该剧讲述了警探Ian Ridley（帕特里克·布拉莫尔 饰）的故事：11年前，当他年幼的女儿Maggie无影无踪地失踪后，他的生活彻底崩溃。如今他担任警察调度员，唯一支撑他活下去的，是他拒不接受女儿可能永远消失的事实。当他接到一个他确信就是Maggie的少女打来的求救电话时，他将不惜一切代价找到她，让他破碎的家庭重聚——无论付出什么代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bLJnwmQS3yjfMWxWcNyEl316NpR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
+    },
+    {
       "id": 95350,
       "title": "绿灯军团",
       "type": "tv",
@@ -268,59 +279,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
     },
     {
-      "id": 258230,
-      "title": "最后目击",
+      "id": 108978,
+      "title": "侠探杰克",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.0,
-      "release_date": "2026-09-09",
-      "overview": "该剧讲述了警探Ian Ridley（帕特里克·布拉莫尔 饰）的故事：11年前，当他年幼的女儿Maggie无影无踪地失踪后，他的生活彻底崩溃。如今他担任警察调度员，唯一支撑他活下去的，是他拒不接受女儿可能永远消失的事实。当他接到一个他确信就是Maggie的少女打来的求救电话时，他将不惜一切代价找到她，让他破碎的家庭重聚——无论付出什么代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bLJnwmQS3yjfMWxWcNyEl316NpR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
-      "id": 1204680,
-      "title": "歪心狼对阵ACME",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.7,
-      "release_date": "2026-08-20",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
-      "id": 1137844,
-      "title": "求救信号",
-      "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-09-03",
-      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
-      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
+      "genreTitle": "动作冒险•犯罪",
+      "rating": 8.1,
+      "release_date": "2022-02-03",
+      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
       "id": 236235,
@@ -334,6 +301,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2UTptUCms8tjMUWycUdcNjyEufq.jpg"
     },
     {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 1137844,
+      "title": "求救信号",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 8.0,
+      "release_date": "2026-09-03",
+      "overview": "在冷战高峰期，自视甚高的美国海军飞行员Troy 'Assassin' Kelly上尉飞到苏联去执行秘密任务，然而任务崩了，他一个人被困在敌后方，被性情暴躁、喜好美国文化的前克格勃特工Nikolai Ustinov发现。Troy以为自己完了，但是他们之间出人意料的结盟，是否会让Troy获救，以及发展出一段双方都没想到的情谊？",
+      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -343,6 +343,28 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 246473,
+      "title": "韩国制造",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.1,
+      "release_date": "2025-12-24",
+      "overview": "1970年代的韩国，决心要攀上财富与权力顶峰的白冀兑，过着双重身份的人生，白天是中央情报部课长，晚上则成了危险的生意人。他意志坚决且势不可挡，却碰上一名不屈不挠、不惜一切代价也要扳倒他的正义检察官张健荣。二人之间不断针锋相对，却意外被卷入重大事件。在动荡的时代下，亦敌亦友的他们，又将如何面对这场影响着未来的人生事件？",
+      "poster_url": "https://image.tmdb.org/t/p/original/b8RqVzxYGKKAZUQ1pjdqU6vh8ve.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pJj5cAflsspKwZyTDsp7QaEn5Nz.jpg"
+    },
+    {
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.7,
+      "release_date": "2026-08-20",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
     },
     {
       "id": 1433367,
@@ -356,37 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cQijkqnB0TbrNILztYwrTxlLq5h.jpg"
     },
     {
-      "id": 108978,
-      "title": "侠探杰克",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪",
-      "rating": 8.1,
-      "release_date": "2022-02-03",
-      "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
-    },
-    {
-      "id": 1302904,
-      "title": "魔法情缘",
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
       "type": "movie",
-      "genreTitle": "爱情•奇幻•喜剧",
-      "rating": 6.5,
-      "release_date": "2026-09-09",
-      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+      "genreTitle": "恐怖•科幻",
+      "rating": 0.0,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/3mILtkNzKWPGX9aVIOkAbuOraW0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jwJZKZ1PrLQSiwH6lAJa0Dkzvu7.jpg"
     },
     {
       "id": 1288445,
@@ -411,17 +411,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻",
-      "rating": 0.0,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/3mILtkNzKWPGX9aVIOkAbuOraW0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jwJZKZ1PrLQSiwH6lAJa0Dkzvu7.jpg"
-    },
-    {
       "id": 113962,
       "title": "特别行动：母狮",
       "type": "tv",
@@ -433,15 +422,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
     },
     {
-      "id": 1514026,
-      "title": "逃出布迪秀",
+      "id": 1480574,
+      "title": "诈死游戏",
       "type": "movie",
-      "genreTitle": "恐怖•喜剧•奇幻",
-      "rating": 8.2,
-      "release_date": "2026-08-27",
-      "overview": "一行人意外坠入诡异老式儿童节目次元。画风酷似玛卡巴卡，软萌橙色独角兽巴迪主持欢乐秀场。一旦拒绝配合演出，便会惨遭猎杀，死者还会被节目直接替换。众人被困虚假片场，一边躲避玩偶的疯狂追杀，一边拼死寻找逃出电视空间的出路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qG84lCvV5wDVBDYaNFPDFWa9IAl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A4rtlYLwJxcCR9BrB9g4AEDU0FF.jpg"
+      "genreTitle": "惊悚•犯罪",
+      "rating": 6.6,
+      "release_date": "2026-08-28",
+      "overview": "犯罪天才杰克（塞缪尔·杰克逊 饰）计划制造一场假死骗局，好跟妻子诺拉（伊娃·格林 饰）共同诈领3000万美元保险金，还打算陷害妻子的年轻情夫查德（杰森·费尔南德斯 饰）成为杀害自己的凶手。然而，早已受够杰克的诺拉心中另有盘算，她要真的杀死杰克，并独吞这笔钜款。这对尔虞我诈的夫妻，究竟谁能够笑到最后？",
+      "poster_url": "https://image.tmdb.org/t/p/original/lMNzKFqzMg58SEnC2qGHd8nr0l6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bANuOi0F9yy3QbQpTPNPKZLnOxZ.jpg"
+    },
+    {
+      "id": 1302904,
+      "title": "魔法情缘",
+      "type": "movie",
+      "genreTitle": "爱情•奇幻•喜剧",
+      "rating": 6.5,
+      "release_date": "2026-09-09",
+      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
     }
   ],
   "popular_movies": [
@@ -512,6 +512,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
     },
     {
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 6.8,
+      "release_date": "2026-07-10",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+    },
+    {
       "id": 1137844,
       "title": "求救信号",
       "type": "movie",
@@ -549,7 +560,7 @@
       "title": "雷霆家族大对决",
       "type": "movie",
       "genreTitle": "电视电影•家庭•科幻",
-      "rating": 7.1,
+      "rating": 6.7,
       "release_date": "2026-09-03",
       "overview": "当克洛伊觉醒了一股危险的全新超能力后，她接到命令，必须前往超级英雄寄宿学校。菲比、芭芭拉和比利陪同她躲藏，而麦克斯、汉克和诺拉则追赶他们，家庭因此分裂，一场关乎他们未来的战争就此爆发。",
       "poster_url": "https://image.tmdb.org/t/p/original/gb5hRCGVetxqJAJh7Q5bbE7fOW2.jpg",
@@ -565,17 +576,6 @@
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 6.7,
-      "release_date": "2026-07-10",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
       "id": 1516698,
