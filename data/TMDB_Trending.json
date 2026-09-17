@@ -1,33 +1,22 @@
 {
-  "last_updated": "2026-09-17 08:55:28",
+  "last_updated": "2026-09-17 13:32:22",
   "today_global": [
     {
       "id": 273207,
-      "title": "侠女内莉",
+      "title": "内格利",
       "type": "tv",
       "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 7.0,
+      "rating": 6.8,
       "release_date": "2026-09-16",
-      "overview": "弗朗西丝·内莉是一位常驻芝加哥的私家侦探，也曾是杰克·雷彻在陆军第110特别调查组的战友。当得知一位昔日挚友在一场可疑事故中丧生后，她决心不惜一切代价寻求正义。",
+      "overview": "《侠探杰克》的全新衍生剧。弗朗西丝·内格利（玛丽亚·斯滕 饰）是一位常驻芝加哥的私家侦探，也曾是杰克·雷彻（阿伦·里奇森饰）在陆军第110特别调查组的战友。当得知一位昔日挚友在一场可疑事故中丧生后，她决心不惜一切代价寻求正义。",
       "poster_url": "https://image.tmdb.org/t/p/original/l5gxBGG8RVECttvH4lBn2YkNR13.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/gvwouvqHJE5mqS1xws7ELtEYJS4.jpg"
-    },
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
     },
     {
       "id": 1423191,
       "title": "生化危机：爆发夜",
       "type": "movie",
-      "genreTitle": "恐怖•科幻",
+      "genreTitle": "恐怖•喜剧•惊悚",
       "rating": 8.1,
       "release_date": "2026-09-16",
       "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
@@ -44,6 +33,17 @@
       "overview": "退役宪兵警察杰克雷彻被误认为是谋杀嫌疑人而被捕，他发现自己卷入了一场致命的阴谋之中。这桩阴谋涉及了黑警、奸商以及狡诈的政客。他只能凭借自己的机智将佐治亚州马格雷夫的案件查个水落石出。",
       "poster_url": "https://image.tmdb.org/t/p/original/dt5XNeYjR46lmVHQKiwfAmDHy9d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
+    },
+    {
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 6.9,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
     },
     {
       "id": 95480,
@@ -66,17 +66,6 @@
       "overview": "气候灾难后的柏林，城市被巨大的穹顶分隔成两个世界。多年失散的姐妹贝娅与菲比重逢，却意外发现吸血鬼势力已经渗透城市地下犯罪，并试图在即将到来的选举中夺取政治权力。",
       "poster_url": "https://image.tmdb.org/t/p/original/jsUOt5rC4LYDBv3bXiCAZoS1pyN.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/nAEIr2b9M9ya8SXOTA1bDDMjhCA.jpg"
-    },
-    {
-      "id": 1124142,
-      "title": "养蜂人的对手",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-08-13",
-      "overview": "　　阿姆齐亚·金在俄克拉何马州的偏远乡间经营小镇蜂蜜生意之余，还领导着一支充满天赋的乐队。随着关系疏远的养女意外归来，阿姆齐亚试图修复与养女的情感并打造家族企业，然而看似平静的蜂蜜产业背后却充斥着残酷的博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rwyfz4PDszLVy59DRefELkopcf2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bNpCrCZLRaqrNyaX0Ty29VvyDH8.jpg"
     },
     {
       "id": 332657,
@@ -101,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
     {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2026-08-16",
-      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
-    },
-    {
       "id": 252105,
       "title": "战斧",
       "type": "tv",
@@ -123,81 +101,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nSiYKfGZBtbVbb0W9gsFNKl0SLf.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
+      "id": 1124142,
+      "title": "养蜂人的对手",
+      "type": "movie",
+      "genreTitle": "犯罪•剧情•惊悚",
+      "rating": 6.9,
+      "release_date": "2026-08-13",
+      "overview": "　　阿姆齐亚·金在俄克拉何马州的偏远乡间经营小镇蜂蜜生意之余，还领导着一支充满天赋的乐队。随着关系疏远的养女意外归来，阿姆齐亚试图修复与养女的情感并打造家族企业，然而看似平静的蜂蜜产业背后却充斥着残酷的博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rwyfz4PDszLVy59DRefELkopcf2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bNpCrCZLRaqrNyaX0Ty29VvyDH8.jpg"
+    },
+    {
+      "id": 95350,
+      "title": "绿灯军团",
       "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
-      "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 7.3,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
-    },
-    {
-      "id": 1204680,
-      "title": "歪心狼对阵ACME",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.6,
-      "release_date": "2026-08-20",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
-    },
-    {
-      "id": 258230,
-      "title": "最后目击",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.8,
-      "release_date": "2026-09-09",
-      "overview": "紧急报案中心调度员伊恩接到一通少女的求助电话，深信对方就是失踪多年的女儿玛吉，于是不惜一切展开追寻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fvfkAqD1Q1GfdZv3Pew95lmMe6u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2026-08-16",
+      "overview": "跟随约翰·斯图尔特与绿灯军团传奇哈尔·乔丹的脚步，看这两位星际警察如何深入美国腹地，调查一起谋杀命案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
       "id": 295089,
       "title": "娃娃",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 10.0,
+      "rating": 5.5,
       "release_date": "2026-09-16",
       "overview": "斯坦尼斯瓦夫野心勃勃，一心想攀上社会阶梯，而他对伊莎贝拉的痴迷，也成为他通往渴望征服的世界的入口。而伊莎贝拉则努力挣脱贵族秩序的束缚，在瞬息万变的社会中寻找属于自己的位置。他们之间强大的纽带悬于深深的阶级鸿沟、痴迷、对自由的渴望以及财富的诱惑之间。这是一部对波兰经典文学作品的当代重释。",
       "poster_url": "https://image.tmdb.org/t/p/original/qLWiTE7Vw5erBwAgaOOzLZgH1an.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/sMwAtX25Uum4fqkWYkiRsnHkrv8.jpg"
-    },
-    {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.5,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
     },
     {
       "id": 232018,
@@ -211,15 +145,81 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6RCM8JwIMLcryFGMedoVbF3wBOM.jpg"
     },
     {
-      "id": 1318467,
-      "title": "最后之吻",
+      "id": 1368337,
+      "title": "奥德赛",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑•惊悚",
-      "rating": 6.9,
-      "release_date": "2026-09-15",
-      "overview": "一场惨烈的班级旅行事故后，少女劳雷尔意外获得诡异能力，亲吻便能预知他人死亡瞬间。同学们接连迎来注定的死亡结局，恐慌席卷校园。她拼命与时间赛跑，试图逆转同伴的死亡命运。随着不断干预命运，事故背后的死亡诅咒慢慢浮出水面，所有死亡都指向同一个隐秘源头。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tLVmHB7uOFbf46pFMcN73Lt3rKF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/axlPrPBwdlhcWFnjLLpAH1CEP96.jpg"
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.4,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+    },
+    {
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 7.4,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
+    },
+    {
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.6,
+      "release_date": "2026-08-20",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+    },
+    {
+      "id": 258230,
+      "title": "最后目击",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.8,
+      "release_date": "2026-09-09",
+      "overview": "紧急报案中心调度员伊恩接到一通少女的求助电话，深信对方就是失踪多年的女儿玛吉，于是不惜一切展开追寻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fvfkAqD1Q1GfdZv3Pew95lmMe6u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
+    },
+    {
+      "id": 1108427,
+      "title": "海洋奇缘：启航",
+      "type": "movie",
+      "genreTitle": "家庭•奇幻•喜剧",
+      "rating": 7.3,
+      "release_date": "2026-07-08",
+      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     }
   ],
   "week_global_all": [
@@ -228,33 +228,11 @@
       "title": "逃出绝命街",
       "type": "movie",
       "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2026-08-12",
       "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
       "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
-    },
-    {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻",
-      "rating": 8.1,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
-    },
-    {
-      "id": 273207,
-      "title": "侠女内莉",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-09-16",
-      "overview": "弗朗西丝·内莉是一位常驻芝加哥的私家侦探，也曾是杰克·雷彻在陆军第110特别调查组的战友。当得知一位昔日挚友在一场可疑事故中丧生后，她决心不惜一切代价寻求正义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/l5gxBGG8RVECttvH4lBn2YkNR13.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gvwouvqHJE5mqS1xws7ELtEYJS4.jpg"
     },
     {
       "id": 108978,
@@ -268,15 +246,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.8,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+      "genreTitle": "恐怖•喜剧•惊悚",
+      "rating": 8.1,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
+    },
+    {
+      "id": 273207,
+      "title": "内格利",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-09-16",
+      "overview": "《侠探杰克》的全新衍生剧。弗朗西丝·内格利（玛丽亚·斯滕 饰）是一位常驻芝加哥的私家侦探，也曾是杰克·雷彻（阿伦·里奇森饰）在陆军第110特别调查组的战友。当得知一位昔日挚友在一场可疑事故中丧生后，她决心不惜一切代价寻求正义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l5gxBGG8RVECttvH4lBn2YkNR13.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gvwouvqHJE5mqS1xws7ELtEYJS4.jpg"
     },
     {
       "id": 95350,
@@ -301,15 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.8,
+      "release_date": "2026-07-29",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
     },
     {
       "id": 1368337,
@@ -323,15 +312,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 332401,
-      "title": "血色之城",
+      "id": 95480,
+      "title": "Slow Horses",
       "type": "tv",
-      "genreTitle": "悬疑",
-      "rating": 10.0,
-      "release_date": "2026-09-16",
-      "overview": "气候灾难后的柏林，城市被巨大的穹顶分隔成两个世界。多年失散的姐妹贝娅与菲比重逢，却意外发现吸血鬼势力已经渗透城市地下犯罪，并试图在即将到来的选举中夺取政治权力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jsUOt5rC4LYDBv3bXiCAZoS1pyN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nAEIr2b9M9ya8SXOTA1bDDMjhCA.jpg"
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
       "id": 1204680,
@@ -345,26 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
     },
     {
-      "id": 258230,
-      "title": "最后目击",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.8,
-      "release_date": "2026-09-09",
-      "overview": "紧急报案中心调度员伊恩接到一通少女的求助电话，深信对方就是失踪多年的女儿玛吉，于是不惜一切展开追寻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fvfkAqD1Q1GfdZv3Pew95lmMe6u.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
-    },
-    {
-      "id": 113962,
-      "title": "母狮",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 8.2,
-      "release_date": "2023-07-23",
-      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fASiB6nkIO1GQKHh55U1fGntwdo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 7.4,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
     },
     {
       "id": 1137844,
@@ -378,39 +367,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
     },
     {
-      "id": 125988,
-      "title": "末日地堡",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.2,
-      "release_date": "2023-05-04",
-      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
-    },
-    {
-      "id": 1433367,
-      "title": "一夜限定",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 6.5,
-      "release_date": "2026-08-06",
-      "overview": "在架空版本的纽约，当地立法全面禁止婚前亲密行为，全年仅有固定12小时被解禁，全城单身人群都会在这天争相寻找临时约会。女主角艾莉刚刚经历失恋，并不想随便将就一夜情，男主欧文是披萨店打工的普通青年，同样渴望真挚的感情。两人在解禁之夜偶然相遇，原本只是结伴躲避各种疯狂的路人搭讪与城市管控，一路上接连遭遇乌龙意外、旧日仇家阻拦，在横穿整座混乱都市的奔波里，慢慢对彼此动了真心，在这个只为放纵设立的夜晚，追寻一份长久的爱恋。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aZxB62eRH3J0u0iTykjSd5CEHMT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cQijkqnB0TbrNILztYwrTxlLq5h.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
       "id": 1302904,
       "title": "魔法情缘",
       "type": "movie",
@@ -422,26 +378,70 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.5,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mBZKC8ActTlM4W3HEGI1Cl1RtO3.jpg"
+      "id": 332401,
+      "title": "血色之城",
+      "type": "tv",
+      "genreTitle": "悬疑",
+      "rating": 10.0,
+      "release_date": "2026-09-16",
+      "overview": "气候灾难后的柏林，城市被巨大的穹顶分隔成两个世界。多年失散的姐妹贝娅与菲比重逢，却意外发现吸血鬼势力已经渗透城市地下犯罪，并试图在即将到来的选举中夺取政治权力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jsUOt5rC4LYDBv3bXiCAZoS1pyN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nAEIr2b9M9ya8SXOTA1bDDMjhCA.jpg"
     },
     {
-      "id": 1124142,
-      "title": "养蜂人的对手",
-      "type": "movie",
-      "genreTitle": "犯罪•剧情•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-08-13",
-      "overview": "　　阿姆齐亚·金在俄克拉何马州的偏远乡间经营小镇蜂蜜生意之余，还领导着一支充满天赋的乐队。随着关系疏远的养女意外归来，阿姆齐亚试图修复与养女的情感并打造家族企业，然而看似平静的蜂蜜产业背后却充斥着残酷的博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rwyfz4PDszLVy59DRefELkopcf2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bNpCrCZLRaqrNyaX0Ty29VvyDH8.jpg"
+      "id": 258230,
+      "title": "最后目击",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.8,
+      "release_date": "2026-09-09",
+      "overview": "紧急报案中心调度员伊恩接到一通少女的求助电话，深信对方就是失踪多年的女儿玛吉，于是不惜一切展开追寻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fvfkAqD1Q1GfdZv3Pew95lmMe6u.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
+    },
+    {
+      "id": 2190,
+      "title": "南方公园",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 8.3,
+      "release_date": "1997-08-13",
+      "overview": "《南方公园》，其他译法包括《衰仔乐园》（港版翻译）或《南方四贱客》（台版翻译），是美国喜剧中心（Comedy Central）制作的一部剪纸摆拍动画剧集，由Matt Stone和Trey Parker创作。主角为科罗拉多州虚构的南方公园小镇的四名10岁的男孩。南方公园经常通过歪曲式的摹仿来讽刺和嘲弄美国文化和社会时事的方方面面，挑战了许多根深蒂固的观念和禁忌。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7qdorMrUa7Pgzhty7RqrsGZ0Zgo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zdsOOY2Blbvf7ZZvmykQzZ8Hl1f.jpg"
+    },
+    {
+      "id": 125988,
+      "title": "末日地堡",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2023-05-04",
+      "overview": "该剧基于休·豪伊所著同名畅销科幻系列小说改编，在一个满目疮痍、有毒物质遍布的未来世界中，成千上万的人居住在深埋在地下的巨大筒仓里。在警长违反了一项基本规则以及有些居民神秘死亡后，工程师朱丽叶开始揭开惊人的秘密和筒仓的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gSvAV1uyOisUNnzND9XQbDTNMg4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n4CgMPbY3GpyKwQqIXX4A5HqAIW.jpg"
+    },
+    {
+      "id": 113962,
+      "title": "母狮",
+      "type": "tv",
+      "genreTitle": "剧情•War & Politics",
+      "rating": 8.2,
+      "release_date": "2023-07-23",
+      "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fASiB6nkIO1GQKHh55U1fGntwdo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
+    },
+    {
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2004-10-05",
+      "overview": "故事的主角黑崎一护是个看似暴力、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     }
   ],
   "popular_movies": [
@@ -494,7 +494,7 @@
       "title": "逃出绝命街",
       "type": "movie",
       "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2026-08-14",
       "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
       "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
@@ -538,7 +538,7 @@
       "title": "保镖恋人",
       "type": "movie",
       "genreTitle": "爱情•惊悚",
-      "rating": 6.6,
+      "rating": 6.7,
       "release_date": "2026-09-09",
       "overview": "玛菲尔（Marfil）是一个西班牙富商的女儿，她在纽约的生活因一次绑架然后莫名其妙的获释而彻底颠覆。她的父亲雇佣了塞巴斯蒂安·摩尔（Sebastián Moore）作为她的保镖，两人被迫朝夕相处。在这个看似一切都不真实的世界里，一种无法避免的吸引力在他们之间悄然萌生。本片改编自《罪爱/错误》（Culpables）系列畅销书作者梅塞德斯·罗恩（Mercedes Ron）的同名小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/wRyb983cO7hdEdWsN6RNAXXhWqu.jpg",
@@ -565,6 +565,17 @@
       "overview": "罗尔夫（迈克尔·克罗默饰）是一位性咨询专栏作家，也是一位色鬼，与许多女性有过婚外情，但从未有过永久的关系。苏珊娜，他的前情人之一，提出打赌没有女人能让罗尔夫求婚，她的女友安德里亚（西比尔·丹宁饰）急切地接受了这一打赌。但有一个陷阱：为了赢得赌注，安德里亚必须让风流成性的罗尔夫承诺结婚，而不必先和他上床。",
       "poster_url": "https://image.tmdb.org/t/p/original/g3Mqv7hHPcjjmlpJrNSvx1lkZHx.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wVg11RahrRfghgqViuoJgcJL1iM.jpg"
+    },
+    {
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧•惊悚",
+      "rating": 8.1,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
       "id": 30723,
@@ -598,17 +609,6 @@
       "overview": "一位才华横溢的伦敦律师玛雅马滕正在晨跑，突然接到一个电话，生活瞬间崩塌：她的儿子被绑架了。为了救回儿子，她必须不停奔跑，服从绑匪给的每个冷酷命令，不能信任任何人--每一秒都在考验这位母亲为了救孩子，愿意付出多大的代价。",
       "poster_url": "https://image.tmdb.org/t/p/original/67HuUq4XAKs1NVaLF2bY2Yv8hHG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/wTiz8RcOVfjXBvG4nwXd26wycHe.jpg"
-    },
-    {
-      "id": 1393326,
-      "title": "牢笼鬼魂",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧•惊悚",
-      "rating": 7.2,
-      "release_date": "2026-04-16",
-      "overview": "故事舞台设在一座狱警贪腐、帮派割据、管理极端残暴的重型监狱，一名自带恶灵的新囚犯入狱后，牢房区接连爆发无差别血腥命案，死者遗体都会被恶灵改造成诡异惊悚的人体陈列造型，监狱里水火不容的几大囚犯帮派、收受贿赂草菅人命的狱警，在持续不断的死亡恐慌下被迫放下仇怨抱团求生。其中一名囚犯意外获得感知人身上黑暗气场的能力，能预判恶灵的猎杀目标，众人一边对抗恶灵的疯狂屠戮，一边逐层揭开监狱长期掩盖的虐囚黑幕、以及恶灵复仇背后埋藏的陈年冤屈，在不间断的血腥杀戮、暴力冲突里，完成一场底层绝境的反抗。 \\n《撒旦的奴隶》恐怖片名导乔科·安瓦尔最新恐怖力作，主打重口血腥，超自然肉体恐怖，视觉冲击力是近几年东南亚恐怖片的天花板，肉体恐怖、猎奇怪物造型全程高能，血浆场面密集且设计极具想象力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/a6HlN2x472krH34s7SFhJAS5fPb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tC9s5FN3HRzIuJr0zPcUcFWNgML.jpg"
     }
   ]
 }
