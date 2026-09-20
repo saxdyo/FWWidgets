@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 05:56:20",
+  "last_updated": "2026-09-21 07:40:40",
   "today_global": [
     {
       "id": 1423191,
@@ -35,6 +35,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
     },
     {
+      "id": 239618,
+      "title": "美国人质",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.0,
+      "release_date": "2026-09-20",
+      "overview": "讲述了深受印第安纳波利斯民众喜爱的电台记者弗雷德·赫克曼的真实故事。当劫持者托尼·基里西斯要求释放他时，赫克曼被卷入了一场生死攸关的危机之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p3Ro0ngezX9aNZY6j3vYbpQqVhr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/24v2AyGP1hTTeSJDUH83z6a8lgh.jpg"
+    },
+    {
       "id": 1101383,
       "title": "逃出绝命街",
       "type": "movie",
@@ -44,17 +55,6 @@
       "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
       "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
-    },
-    {
-      "id": 239618,
-      "title": "美国人质",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.0,
-      "release_date": "2026-09-20",
-      "overview": "讲述了深受印第安纳波利斯民众喜爱的电台记者弗雷德·赫克曼的真实故事。当劫持者托尼·基里西斯要求释放他时，赫克曼被卷入了一场生死攸关的危机之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p3Ro0ngezX9aNZY6j3vYbpQqVhr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/24v2AyGP1hTTeSJDUH83z6a8lgh.jpg"
     },
     {
       "id": 247718,
@@ -90,17 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gvwouvqHJE5mqS1xws7ELtEYJS4.jpg"
     },
     {
-      "id": 1240889,
-      "title": "瘴气营地的青春性事与死亡",
-      "type": "movie",
-      "genreTitle": "喜剧•恐怖•爱情",
-      "rating": 6.5,
-      "release_date": "2026-08-06",
-      "overview": "一个虚构的、曾经流行的恐怖电影系列正逐渐失去观众。在多年的草率续集和日渐式微的粉丝基础上，Camp Miasma 杀人狂系列被一位充满热情的年轻酷儿导演接管，以重振这部作品。但当她拜访原电影的女主角——一位如今隐居且充满神秘色彩的女演员时，两位女性陷入了一个充满欲望、恐惧和狂乱的血腥世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/t8JBX1h4yipba70tNmPaTV2tgbr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hbuUjg5UzqKki8rzCs5c9ffvSKJ.jpg"
-    },
-    {
       "id": 108978,
       "title": "侠探杰克",
       "type": "tv",
@@ -121,6 +110,17 @@
       "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
       "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
+    },
+    {
+      "id": 1240889,
+      "title": "瘴气营地的青春性事与死亡",
+      "type": "movie",
+      "genreTitle": "喜剧•恐怖•爱情",
+      "rating": 6.5,
+      "release_date": "2026-08-06",
+      "overview": "一个虚构的、曾经流行的恐怖电影系列正逐渐失去观众。在多年的草率续集和日渐式微的粉丝基础上，Camp Miasma 杀人狂系列被一位充满热情的年轻酷儿导演接管，以重振这部作品。但当她拜访原电影的女主角——一位如今隐居且充满神秘色彩的女演员时，两位女性陷入了一个充满欲望、恐惧和狂乱的血腥世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/t8JBX1h4yipba70tNmPaTV2tgbr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hbuUjg5UzqKki8rzCs5c9ffvSKJ.jpg"
     },
     {
       "id": 1514863,
@@ -167,11 +167,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
+      "id": 94664,
+      "title": "无职转生～到了异世界就拿出真本事～",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2021-01-11",
+      "overview": "“我要在这个异世界拿出真本事！”34岁童贞且无职的家里蹲男子，在父母的葬礼当天被赶出家门后，在路上被一辆卡车所撞死。意识清醒后，他发现自己居然作为一个刚出生的婴儿转生到了剑与魔法的异世界！像废物一样活过了前世的男子，发誓要作为少年·鲁迪乌斯在异世界以认真的态度好好活下去！等待着鲁迪乌斯的是，与娇小魔术师、有着精灵长耳又很男孩子气的美少女、凶暴的傲娇大小姐以及其他性格各异的人们之间的邂逅，当然也还有残酷的冒险与战斗。新的人生就要开始了！“人生重来型”幻想冒险谭，在此开幕！",
+      "poster_url": "https://image.tmdb.org/t/p/original/u7LWdKmEdEr6Ui3GZMsFGlKZQBd.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l8lwpvr1QA7GAz7vPHU76sNxP1o.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
       "id": 1641629,
       "title": "你和我：与世界为敌",
       "type": "movie",
       "genreTitle": "爱情•剧情",
-      "rating": 5.7,
+      "rating": 5.5,
       "release_date": "2026-09-18",
       "overview": "家境优渥的年轻女性阿尔玛兰卡斯特瞒着以为她在攻读法律的父母，给自己留出一年时间去追寻电影梦。当她被迫与孑然一身的年轻男子瓦迪姆阿卡迪合作时，两人间擦出了火花。然而，暗处潜伏着一个无形的威胁，妄图将他们两人拆散并曝光一切…",
       "poster_url": "https://image.tmdb.org/t/p/original/j801na4Sf6DrZPL5Ba1vUZo5OFN.jpg",
@@ -189,51 +211,18 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 94664,
-      "title": "无职转生～到了异世界就拿出真本事～",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2021-01-11",
-      "overview": "“我要在这个异世界拿出真本事！”34岁童贞且无职的家里蹲男子，在父母的葬礼当天被赶出家门后，在路上被一辆卡车所撞死。意识清醒后，他发现自己居然作为一个刚出生的婴儿转生到了剑与魔法的异世界！像废物一样活过了前世的男子，发誓要作为少年·鲁迪乌斯在异世界以认真的态度好好活下去！等待着鲁迪乌斯的是，与娇小魔术师、有着精灵长耳又很男孩子气的美少女、凶暴的傲娇大小姐以及其他性格各异的人们之间的邂逅，当然也还有残酷的冒险与战斗。新的人生就要开始了！“人生重来型”幻想冒险谭，在此开幕！",
-      "poster_url": "https://image.tmdb.org/t/p/original/u7LWdKmEdEr6Ui3GZMsFGlKZQBd.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l8lwpvr1QA7GAz7vPHU76sNxP1o.jpg"
-    },
-    {
-      "id": 1451944,
-      "title": "爱欲四部曲3",
+      "id": 1137844,
+      "title": "求救信号",
       "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 7.0,
-      "release_date": "2026-09-18",
-      "overview": "本片是 2018 年荣获艾美奖提名的《爱欲四部曲》的续集。四位著名印度导演通过短片探究性、关系、欲望和爱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5W6eRCUywdVOSswhmkwi2et1Amk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4KhYHimTT2j1YOvAXZ62o2anPNj.jpg"
-    },
-    {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "genreTitle": "动作•喜剧",
+      "rating": 8.0,
+      "release_date": "2026-09-03",
+      "overview": "一名美国海军飞行员在冷战时期执行绝密任务时不幸被困在敌营。他唯有与一位性格古怪的前克格勃特工联手才有一线生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6MzhVjAgqj4mA0FjzoECcBlLMB7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5mK7cL559hwSFHZIRipLGozcfNU.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
-    },
     {
       "id": 1423191,
       "title": "生化危机：爆发夜",
@@ -244,6 +233,17 @@
       "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
       "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
+    },
+    {
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
     },
     {
       "id": 299939,
@@ -356,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.0,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
-    },
-    {
       "id": 1108427,
       "title": "海洋奇缘：启航",
       "type": "movie",
@@ -376,6 +365,28 @@
       "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
       "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+    },
+    {
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.7,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
     },
     {
       "id": 275102,
@@ -389,15 +400,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/av8T87Tdd1lN74FBTmCYyVGxFIe.jpg"
     },
     {
-      "id": 37854,
-      "title": "航海王",
-      "type": "tv",
-      "genreTitle": "动作冒险•喜剧•动画",
-      "rating": 8.7,
-      "release_date": "1999-10-20",
-      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.6,
+      "release_date": "2026-08-20",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
     },
     {
       "id": 1137844,
@@ -422,26 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6RCM8JwIMLcryFGMedoVbF3wBOM.jpg"
     },
     {
-      "id": 1204680,
-      "title": "歪心狼对阵ACME",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.6,
-      "release_date": "2026-08-20",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/linZzmvbivJnXAXthvblHZdkkpp.jpg"
-    },
-    {
-      "id": 2190,
-      "title": "南方公园",
+      "id": 239618,
+      "title": "美国人质",
       "type": "tv",
-      "genreTitle": "动画•喜剧",
-      "rating": 8.3,
-      "release_date": "1997-08-13",
-      "overview": "讲述科罗拉多州南方公园小镇上，斯坦、凯尔、卡特曼和肯尼四个孩子的生活。他们不断卷入超自然事件、社会冲突和各种荒诞危机，并以孩子的视角面对成年人世界中的政治、宗教、文化和社会问题。",
-      "poster_url": "https://image.tmdb.org/t/p/original/aqroh5nCMtxWFKjXEhrqXpe1HPO.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/8BzcYcoi0i8JKWFvDYtjFUYx1cR.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.0,
+      "release_date": "2026-09-20",
+      "overview": "讲述了深受印第安纳波利斯民众喜爱的电台记者弗雷德·赫克曼的真实故事。当劫持者托尼·基里西斯要求释放他时，赫克曼被卷入了一场生死攸关的危机之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/p3Ro0ngezX9aNZY6j3vYbpQqVhr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/24v2AyGP1hTTeSJDUH83z6a8lgh.jpg"
     }
   ],
   "popular_movies": [
