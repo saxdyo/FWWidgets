@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-24 07:14:50",
+  "last_updated": "2026-09-24 09:42:57",
   "today_global": [
     {
       "id": 1032863,
       "title": "爱情假说",
       "type": "movie",
       "genreTitle": "爱情•喜剧",
-      "rating": 8.4,
+      "rating": 8.3,
       "release_date": "2026-09-23",
       "overview": "改编自《纽约时报》畅销小说。博士生奥利弗一时冲动，吻了系里最令人生畏的教授亚当·卡尔森。两人因各自都需要一段\"假恋情\"而走到一起，这段关系演变成了一场关于化学反应的实验，或许这真能解开爱情谜题。",
       "poster_url": "https://image.tmdb.org/t/p/original/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg",
@@ -46,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uw7VNIqQGKcZH9hph6R4fuX9WMA.jpg"
     },
     {
+      "id": 445466,
+      "title": "白痴们",
+      "type": "movie",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 7.4,
+      "release_date": "2026-08-20",
+      "overview": "两个跌入人生谷底的司机护送一名富家少年前往戒毒所，但这项原本简单的工作，却因少年而演变成一场充满毒品、危险与犯罪的混乱旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mLFQLanKYL94mIxjJHOZJ6ZynHT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/67BYOc4WmTKRGjqpspSNaAAHumK.jpg"
+    },
+    {
       "id": 1084244,
       "title": "玩具总动员5",
       "type": "movie",
@@ -68,17 +79,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1V4qYjjNNhldd3fQLUuTnzXRPmJ.jpg"
     },
     {
-      "id": 445466,
-      "title": "白痴们",
-      "type": "movie",
-      "genreTitle": "喜剧•犯罪",
-      "rating": 7.2,
-      "release_date": "2026-08-20",
-      "overview": "两个跌入人生谷底的司机护送一名富家少年前往戒毒所，但这项原本简单的工作，却因少年而演变成一场充满毒品、危险与犯罪的混乱旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mLFQLanKYL94mIxjJHOZJ6ZynHT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/67BYOc4WmTKRGjqpspSNaAAHumK.jpg"
-    },
-    {
       "id": 1263337,
       "title": "野兽之心",
       "type": "movie",
@@ -90,37 +90,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/e9PHZ5JURcItPmqCE2tak8ZZrfH.jpg"
     },
     {
+      "id": 308963,
+      "title": "人身保护令",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.5,
+      "release_date": "2026-09-23",
+      "overview": "故事取材于巴西无罪计划的现实工作，该组织长期致力于纠正巴西大量冤错案件，但剧集整体为虚构叙事。著名法学教授带领学生团队为一名被定罪男子洗清罪名，却发现她最聪明的学生与她的过去有着紧密的联系。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mDD3knquVU7BmOl4AcocUXLeypw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ssglI1XmPx5ks84jq1uGDwVZqD5.jpg"
+    },
+    {
       "id": 1248832,
       "title": "挖掘者",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 9.0,
+      "genreTitle": "喜剧•剧情",
+      "rating": 9.3,
       "release_date": "2026-09-30",
       "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
       "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
-    },
-    {
-      "id": 1477712,
-      "title": "卖冰淇淋的人",
-      "type": "movie",
-      "genreTitle": "恐怖•喜剧•惊悚",
-      "rating": 4.6,
-      "release_date": "2026-08-03",
-      "overview": "一个美丽的小镇出现了一位神秘的冰淇淋小贩，他所供应的美味冰品让孩子们疯狂，全镇因此陷入失控……",
-      "poster_url": "https://image.tmdb.org/t/p/original/brmzdI8ETPrzNqlDw8DSpdGnJS4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/fwa7BOo72tYKhqr4uJoOdsmlE4z.jpg"
-    },
-    {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.2,
-      "release_date": "2026-08-16",
-      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
       "id": 1465063,
@@ -134,59 +123,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
     },
     {
-      "id": 312557,
-      "title": "密涅瓦学院",
+      "id": 95350,
+      "title": "绿灯军团",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 6.6,
-      "release_date": "2026-09-22",
-      "overview": "在密涅瓦军事高中，少年们应对着纪律、竞争和家庭压力，而一名年轻学员在好友失踪后开始寻找答案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/glieIAP0dLzkAa4UD3gJnGbyvqA.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zynoUI9kwDQKkGW5KqvxQp8Kj1Q.jpg"
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.2,
+      "release_date": "2026-08-16",
+      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 247718,
-      "title": "MobLand",
+      "id": 1477712,
+      "title": "卖冰淇淋的人",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧•惊悚",
+      "rating": 4.6,
+      "release_date": "2026-08-03",
+      "overview": "一个美丽的小镇出现了一位神秘的冰淇淋小贩，他所供应的美味冰品让孩子们疯狂，全镇因此陷入失控……",
+      "poster_url": "https://image.tmdb.org/t/p/original/brmzdI8ETPrzNqlDw8DSpdGnJS4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fwa7BOo72tYKhqr4uJoOdsmlE4z.jpg"
+    },
+    {
+      "id": 246473,
+      "title": "韩国制造",
       "type": "tv",
       "genreTitle": "犯罪•剧情",
+      "rating": 8.2,
+      "release_date": "2025-12-24",
+      "overview": "20世纪70年代的韩国，野心勃勃的白基泰在情报机构与地下商业世界之间游走，凭借权力和手段不断攀向财富与权力的顶峰。与此同时，检察官张建荣始终追查隐藏在权力背后的犯罪与阴谋。两个立场截然不同的人不断交锋，在时代动荡与政治博弈中展开一场关于权力、欲望与正义的较量。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qAfnDSi2EO2UdIWCQdoOcmmJJtH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pJj5cAflsspKwZyTDsp7QaEn5Nz.jpg"
+    },
+    {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.0,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
+    },
+    {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
       "rating": 8.4,
-      "release_date": "2025-03-30",
-      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
-      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
-    },
-    {
-      "id": 675871,
-      "title": "超级骑警3",
-      "type": "movie",
-      "genreTitle": "喜剧•犯罪•悬疑",
-      "rating": 6.9,
-      "release_date": "2026-08-06",
-      "overview": "　　影片讲述了佛蒙特州的超级骑警们再次卷入一场荒诞与危机交织的闹剧。当队员 Farva 与 Thorny 的妹妹上演了一场极度夸张的印度式订婚仪式，并迅速演变成一场混乱时，整个小队被迫介入。为了阻止 Thorny 试图拆散这段姻缘的各种奇葩计划，骑警们不得不一边努力维持秩序，一边还要试图破获一个极其狡猾的新型毒品走私网络。他们必须在拯救世界以及可能挽救这场婚礼的过程中，再次展现他们不务正业却又总能误打误撞立功的搞笑日常。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iZK7dZXAZEqAt5TYionYretrgWg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lT7JAJ70IDd3LRJn78apkfyf7kv.jpg"
-    },
-    {
-      "id": 308963,
-      "title": "人身保护令",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.7,
-      "release_date": "2026-09-23",
-      "overview": "故事取材于巴西无罪计划的现实工作，该组织长期致力于纠正巴西大量冤错案件，但剧集整体为虚构叙事。法学教授伊内兹主持大学冤案复查项目，带领学生为一名坚称无辜的在押青年翻案。聪慧的女学生玛丽娜加入团队，表面追求司法理想，实则背负家族旧案的伤痛，她希望借助小组的力量弥补曾经的司法伤害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8JP8OXWufxAXFLfOOj4XU2SEhvV.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ssglI1XmPx5ks84jq1uGDwVZqD5.jpg"
-    },
-    {
-      "id": 273207,
-      "title": "侠女内莉",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 8.1,
-      "release_date": "2026-09-16",
-      "overview": "弗朗西丝·内莉是一位常驻芝加哥的私家侦探，也曾是杰克·雷彻在陆军第110特别调查组的战友。当得知一位昔日挚友在一场可疑事故中丧生后，她决心不惜一切代价寻求正义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/l5gxBGG8RVECttvH4lBn2YkNR13.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/gvwouvqHJE5mqS1xws7ELtEYJS4.jpg"
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
     },
     {
       "id": 113962,
@@ -200,26 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
     },
     {
-      "id": 1083381,
-      "title": "后室",
+      "id": 675871,
+      "title": "超级骑警3",
       "type": "movie",
-      "genreTitle": "恐怖•悬疑•科幻",
-      "rating": 7.0,
-      "release_date": "2026-05-27",
-      "overview": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7flxvNLk48fvJel8zHDGqMFvQ9C.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mv5c6PZt31A1bEYagWYtmMIgQC1.jpg"
+      "genreTitle": "喜剧•犯罪•悬疑",
+      "rating": 6.9,
+      "release_date": "2026-08-06",
+      "overview": "法瓦与索尼妹妹的印度式订婚闹得一团糟，索尼试图拆散两人之际，超级骑警还要调查一个新型贩毒团伙，设法挽救婚礼。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nFhr4gTp40HKYYhfGUtjmCJrbYZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lT7JAJ70IDd3LRJn78apkfyf7kv.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+      "id": 312557,
+      "title": "密涅瓦学院",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 6.6,
+      "release_date": "2026-09-22",
+      "overview": "在密涅瓦军事高中，少年们应对着纪律、竞争和家庭压力，而一名年轻学员在好友失踪后开始寻找答案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mKJr2vyMUK3YI2zqjnpHjKxoogn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zynoUI9kwDQKkGW5KqvxQp8Kj1Q.jpg"
+    },
+    {
+      "id": 273207,
+      "title": "侠女内莉",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 8.1,
+      "release_date": "2026-09-16",
+      "overview": "弗朗西丝·内莉是一位常驻芝加哥的私家侦探，也曾是杰克·雷彻在陆军第110特别调查组的战友。当得知一位昔日挚友在一场可疑事故中丧生后，她决心不惜一切代价寻求正义。",
+      "poster_url": "https://image.tmdb.org/t/p/original/l5gxBGG8RVECttvH4lBn2YkNR13.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gvwouvqHJE5mqS1xws7ELtEYJS4.jpg"
     }
   ],
   "week_global_all": [
@@ -246,6 +246,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1V4qYjjNNhldd3fQLUuTnzXRPmJ.jpg"
     },
     {
+      "id": 1101383,
+      "title": "逃出绝命街",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-08-12",
+      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
+    },
+    {
       "id": 273207,
       "title": "侠女内莉",
       "type": "tv",
@@ -266,17 +277,6 @@
       "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
       "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
-    },
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•惊悚",
-      "rating": 7.0,
-      "release_date": "2026-08-12",
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
     },
     {
       "id": 95350,
@@ -301,39 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/p2mlKiQwgy3xyr5o9zBgpKVAVtn.jpg"
     },
     {
-      "id": 1032863,
-      "title": "爱情假说",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 8.4,
-      "release_date": "2026-09-23",
-      "overview": "改编自《纽约时报》畅销小说。博士生奥利弗一时冲动，吻了系里最令人生畏的教授亚当·卡尔森。两人因各自都需要一段\"假恋情\"而走到一起，这段关系演变成了一场关于化学反应的实验，或许这真能解开爱情谜题。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iPoPTzCwlutU2ZwWVTbXQsqlHqw.jpg"
-    },
-    {
-      "id": 1084244,
-      "title": "玩具总动员5",
-      "type": "movie",
-      "genreTitle": "动画•家庭•喜剧",
-      "rating": 8.4,
-      "release_date": "2026-06-17",
-      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
-      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
       "id": 113962,
       "title": "母狮",
       "type": "tv",
@@ -343,28 +310,6 @@
       "overview": "本剧基于一个真实的CIA项目，在该项目中，女性被训练来渗透恐怖组织和犯罪网络。故事讲述Cruz Manuelos，一名经验不足但充满热情的海军陆战队士兵，她被CIA招募加入了「母狮」战斗小队，试图从内部瓦解一个恐怖组织。Joe是一位意志坚强、不屈不挠的女性，CIA「母狮」项目的站长。她负责训练、管理和领导手下的女性特工。",
       "poster_url": "https://image.tmdb.org/t/p/original/fASiB6nkIO1GQKHh55U1fGntwdo.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iodFe2iwwXQZQTHJsNxfOC1kZtU.jpg"
-    },
-    {
-      "id": 1263337,
-      "title": "野兽之心",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚",
-      "rating": 7.7,
-      "release_date": "2026-09-19",
-      "overview": "讲述一名前陆军特种部队士兵与他退役战犬的荒野求生故事。在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e9PHZ5JURcItPmqCE2tak8ZZrfH.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 275102,
@@ -389,15 +334,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gluZ5YCX99Y2lkfrGGRHtfyOflZ.jpg"
     },
     {
-      "id": 1248832,
-      "title": "挖掘者",
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
       "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 9.0,
-      "release_date": "2026-09-30",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 445466,
+      "title": "白痴们",
+      "type": "movie",
+      "genreTitle": "喜剧•犯罪",
+      "rating": 7.4,
+      "release_date": "2026-08-20",
+      "overview": "两个跌入人生谷底的司机护送一名富家少年前往戒毒所，但这项原本简单的工作，却因少年而演变成一场充满毒品、危险与犯罪的混乱旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mLFQLanKYL94mIxjJHOZJ6ZynHT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/67BYOc4WmTKRGjqpspSNaAAHumK.jpg"
     },
     {
       "id": 95480,
@@ -411,15 +378,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
     },
     {
-      "id": 1108427,
-      "title": "海洋奇缘：启航",
+      "id": 1032863,
+      "title": "爱情假说",
       "type": "movie",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 7.4,
-      "release_date": "2026-07-08",
-      "overview": "海的召唤，从未停止。熟悉的旋律响起，属于“莫阿娜”的冒险，再次扬帆启航。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8f4OJJrMtZcoB4h1BLyyZewd96X.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-23",
+      "overview": "改编自《纽约时报》畅销小说。博士生奥利弗一时冲动，吻了系里最令人生畏的教授亚当·卡尔森。两人因各自都需要一段\"假恋情\"而走到一起，这段关系演变成了一场关于化学反应的实验，或许这真能解开爱情谜题。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iPoPTzCwlutU2ZwWVTbXQsqlHqw.jpg"
     },
     {
       "id": 1339713,
@@ -433,15 +400,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1465063,
-      "title": "忘却之岛",
+      "id": 1263337,
+      "title": "野兽之心",
       "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 7.6,
-      "release_date": "2026-09-10",
-      "overview": "　　一对好友在高中毕业后要分开了，她们准备吃垃圾食品、唱卡拉ok度过在一起的最后一夜，却被一个神奇的传送通道送去了某座被遗忘已久的魔法岛屿，来自菲律宾神话。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uSFWzP6gIzqWJUCZLgVAVhtyfYW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
+      "genreTitle": "冒险•惊悚",
+      "rating": 7.7,
+      "release_date": "2026-09-19",
+      "overview": "讲述一名前陆军特种部队士兵与他退役战犬的荒野求生故事。在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e9PHZ5JURcItPmqCE2tak8ZZrfH.jpg"
+    },
+    {
+      "id": 2190,
+      "title": "南方公园",
+      "type": "tv",
+      "genreTitle": "动画•喜剧",
+      "rating": 8.3,
+      "release_date": "1997-08-13",
+      "overview": "讲述科罗拉多州南方公园小镇上，斯坦、凯尔、卡特曼和肯尼四个孩子的生活。他们不断卷入超自然事件、社会冲突和各种荒诞危机，并以孩子的视角面对成年人世界中的政治、宗教、文化和社会问题。",
+      "poster_url": "https://image.tmdb.org/t/p/original/aqroh5nCMtxWFKjXEhrqXpe1HPO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8BzcYcoi0i8JKWFvDYtjFUYx1cR.jpg"
+    },
+    {
+      "id": 1641629,
+      "title": "你和我：与世界为敌",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 5.7,
+      "release_date": "2026-09-18",
+      "overview": "家境优渥的年轻女性阿尔玛兰卡斯特瞒着以为她在攻读法律的父母，给自己留出一年时间去追寻电影梦。当她被迫与孑然一身的年轻男子瓦迪姆阿卡迪合作时，两人间擦出了火花。然而，暗处潜伏着一个无形的威胁，妄图将他们两人拆散并曝光一切…",
+      "poster_url": "https://image.tmdb.org/t/p/original/j801na4Sf6DrZPL5Ba1vUZo5OFN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ll0KHqhRi6pWycQ3BGbmiBffm1i.jpg"
+    },
+    {
+      "id": 1084244,
+      "title": "玩具总动员5",
+      "type": "movie",
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 8.4,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     }
   ],
   "popular_movies": [
