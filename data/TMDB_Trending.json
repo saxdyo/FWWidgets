@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-05 17:38:51",
+  "last_updated": "2026-10-06 02:52:48",
   "today_global": [
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+    },
     {
       "id": 95350,
       "title": "绿灯军团",
@@ -13,81 +24,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 207347,
-      "title": "青之箱",
-      "type": "tv",
-      "genreTitle": "动画•剧情",
-      "rating": 7.8,
-      "release_date": "2024-10-03",
-      "overview": "进入中高一贯制体育强校──荣明高校男子羽毛球部的一年级生猪股大喜，每天早晨在晨练时都会遇到比他大一岁的的鹿野千夏学姐，并对她产生了爱慕之情。千夏是女子篮球队的王牌，无论在校内还是校外都是备受瞩目的高岭之花。就这样，忙于社团活动、恋爱和学习的高中生活就这样开始了，而在某一天……",
-      "poster_url": "https://image.tmdb.org/t/p/original/fTt9CEgDgxP8tNiQisNBTnRRpEk.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/l65NWhmBHHQbmVrGGOQXBpd7hBI.jpg"
-    },
-    {
-      "id": 1248832,
-      "title": "挖掘者",
+      "id": 1291595,
+      "title": "潜伏6：血域",
       "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.5,
-      "release_date": "2026-09-28",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
-    },
-    {
-      "id": 73223,
-      "title": "黑色四叶草",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2017-10-03",
-      "overview": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔……这是关于一位没魔法能力的少年却想要成为魔法帝的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qCYdcLGAARSbnTuG9BGlDyi7Zue.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mNadS5wd6Co7rUsWWY7jXUkYoP1.jpg"
-    },
-    {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•冒险",
-      "rating": 7.3,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
-    },
-    {
-      "id": 290856,
-      "title": "法警小队",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 7.9,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 283692,
-      "title": "一觉醒来就有了最强装备跟太空船，决定以自家独栋建筑为目标当佣兵自由过活",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-10-04",
-      "overview": "身为上班族的佐藤孝弘每天都过着无趣又劳累的生活。然而某天醒来时，他发现自己身处平时最爱玩的SF游戏世界里，而且还坐在搭载最强装备的宇宙飞船玤驾驶舱里。不仅可以去冒险，也可以贸易，甚至成为佣兵。掌握了这个宇宙的最强装备的孝弘决定改名为“西罗”，并以这个身分活下去。“我是西罗舰长，是一名佣兵。”后来，西罗遇到了其他伙伴，并在一次又一次的战斗中察觉到——在外太空喝不到自己唯一喜欢的碳酸饮料。而且，他没有一个能和伙伴们一起回去的家。因此，虽然价格高得惊人，但他下定决心要“在行星上买一栋附带庭院的独栋住宅”！就这样，西罗带着最强的装备与伙伴们展开了他的佣兵生涯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ccLkKM9nZ4eR2ZjDg2vpOCInZro.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jw3lE0QlWWswA2tkimGnThk0ABF.jpg"
-    },
-    {
-      "id": 231801,
-      "title": "极道寿司次郎！",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险",
-      "rating": 7.7,
-      "release_date": "2026-10-04",
-      "overview": "故事背景为近未来的洛杉矶，整座城市被“美食秩序”彻底掌控：顶级主厨的权势堪比黑帮大佬，餐厅就是各方势力的权力中心，为了拿下顶级餐厅的一席位，有人不惜突破底线，不同的烹饪理念更是分化出针锋相对的派系。",
-      "poster_url": "https://image.tmdb.org/t/p/original/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wYGrWmg2CfAWaWt6AhSwjlgn9hm.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
     },
     {
       "id": 977942,
@@ -101,59 +46,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9YKDy9xgIopB2qoFZcHYNkFeikh.jpg"
     },
     {
-      "id": 298505,
-      "title": "乌鸦学园",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 7.1,
-      "release_date": "2026-10-01",
-      "overview": "在新奥尔良闹鬼的中心地带，跟随三名少女女巫和她们那些魅力十足又危险的男巫同学，来到这所精英魔法寄宿学校——在这里，权力是货币，秘密足以致命，吸引力更是一种负担。夹在古老的超自然战争和禁忌之恋之间，女巫团必须决定，为了保护她们的城市——以及她们自己——她们愿意走到哪一步。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9QQtWusZn3imcHWtgeXF8eMABU2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
+      "id": 1248832,
+      "title": "挖掘者",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
-      "id": 284558,
-      "title": "杀死杰姬",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 6.9,
-      "release_date": "2026-10-02",
-      "overview": "前可卡因贩子杰基·普莱斯 （Jackie Price） 通过税收计划奢侈地出售艺术品。在匿名20年后，当精英杀手七恶魔被雇佣杀死她时，她平静的生活结束了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2VOcRepadY50B7mr3Vn8OOviRA3.jpg"
-    },
-    {
-      "id": 1283515,
-      "title": "不存在的罪人",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-09-30",
-      "overview": "影片改编自柯琳·胡佛的同名畅销小说。知名作家维莉蒂因故无法完成新作，潦倒作家洛温受邀前往其偏远庄园代笔，却意外发现维莉蒂诡异的自传手稿。面对其中关于丈夫杰里米的扭曲告白，洛温逐渐难辨虚实、操控与诱惑。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fD6hgmReIOGiFv3l22eVSQLxqFX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
-    },
-    {
-      "id": 258165,
-      "title": "伊甸之东",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.9,
-      "release_date": "2026-10-01",
-      "overview": "这部剧集对史坦贝克的经典之作进行了全新诠释，讲述特拉斯克家族跨越数代的传奇故事，特别聚焦于那个难以磨灭的反英雄人物——凯茜·埃姆斯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/slYjlpkFnaCSZJICqj2G158Eoqg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tpO6wfPC2giib4YvV3pQ5EaS7Bp.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.5,
+      "release_date": "2026-09-28",
+      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
     },
     {
       "id": 1339713,
@@ -167,37 +68,92 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1458857,
-      "title": "只要活下去",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 7.1,
-      "release_date": "2026-10-02",
-      "overview": "一位单身母亲和一名被监禁的男子通过真挚的书信建立起一段出人意料的情谊，在重重困难之下，开启了一扇通往救赎、希望与爱的门。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bPof2ZCsbjCJ6nPPqQPexAd4wfm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jhlA7tXeynux7WktY4XGOiYNwCK.jpg"
+      "id": 207347,
+      "title": "青之箱",
+      "type": "tv",
+      "genreTitle": "动画•剧情",
+      "rating": 7.8,
+      "release_date": "2024-10-03",
+      "overview": "进入中高一贯制体育强校──荣明高校男子羽毛球部的一年级生猪股大喜，每天早晨在晨练时都会遇到比他大一岁的的鹿野千夏学姐，并对她产生了爱慕之情。千夏是女子篮球队的王牌，无论在校内还是校外都是备受瞩目的高岭之花。就这样，忙于社团活动、恋爱和学习的高中生活就这样开始了，而在某一天……",
+      "poster_url": "https://image.tmdb.org/t/p/original/fTt9CEgDgxP8tNiQisNBTnRRpEk.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/l65NWhmBHHQbmVrGGOQXBpd7hBI.jpg"
     },
     {
-      "id": 220542,
-      "title": "药屋少女的呢喃",
+      "id": 283692,
+      "title": "一觉醒来就有了最强装备跟太空船，决定以自家独栋建筑为目标当佣兵自由过活",
       "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.6,
-      "release_date": "2023-10-22",
-      "overview": "“可否为我配制一帖春药？”猫猫的眼眸瞬间浮现出惊讶与好奇的色彩。位处大陆中央的某个大国，有位姑娘置身于皇帝宫阙之中。姑娘名唤猫猫，原在烟花巷担任药师，眼下则在后宫做下女。这个绝对称不上美女的姑娘很懂分寸，只是静待期满离宫。她有自信，皇帝绝对不会“宠幸”她。其间，猫猫得知皇子皆年幼早夭的事，并听闻连尚在人世的皇子皇女也身染重病，她开始调查他们的病因。广获赞誉的酣畅淋漓推理之作，众所期盼的第一集终于出版。以中世东方为舞台，“试毒”少女将一一解决宫中发生的悬疑案件！",
-      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
-    },
-    {
-      "id": 320377,
-      "title": "战车椅子",
-      "type": "tv",
-      "genreTitle": "动画",
-      "rating": 3.0,
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 0.0,
       "release_date": "2026-10-04",
-      "overview": "在被称为“宇宙最危险城镇”的鬼城岛，当地黑帮普遍使用基因兴奋剂来获取终极力量。少女平良静接下了最危险的刺杀任务，但动手的并不是她，而是她的哥哥凪——一名曾为保护妹妹中弹的顶尖杀手，如今陷入昏迷，只能依靠轮椅行动。然而，平良静发现了唤醒哥哥的方法：他必须直面杀意！于是妹妹平良静开始带着哥哥与强敌们进行“康复训练”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8nRWyGcv6y200JSaOBSUmFh9wp3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/cFxouAuLIa54PEwYlCFdJwCm0lc.jpg"
+      "overview": "身为上班族的佐藤孝弘每天都过着无趣又劳累的生活。然而某天醒来时，他发现自己身处平时最爱玩的SF游戏世界里，而且还坐在搭载最强装备的宇宙飞船玤驾驶舱里。不仅可以去冒险，也可以贸易，甚至成为佣兵。掌握了这个宇宙的最强装备的孝弘决定改名为“西罗”，并以这个身分活下去。“我是西罗舰长，是一名佣兵。”后来，西罗遇到了其他伙伴，并在一次又一次的战斗中察觉到——在外太空喝不到自己唯一喜欢的碳酸饮料。而且，他没有一个能和伙伴们一起回去的家。因此，虽然价格高得惊人，但他下定决心要“在行星上买一栋附带庭院的独栋住宅”！就这样，西罗带着最强的装备与伙伴们展开了他的佣兵生涯。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ccLkKM9nZ4eR2ZjDg2vpOCInZro.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jw3lE0QlWWswA2tkimGnThk0ABF.jpg"
+    },
+    {
+      "id": 1377237,
+      "title": "护肝人",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-07",
+      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
+    },
+    {
+      "id": 298505,
+      "title": "乌鸦学园",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 7.2,
+      "release_date": "2026-10-01",
+      "overview": "在新奥尔良闹鬼的中心地带，跟随三名少女女巫和她们那些魅力十足又危险的男巫同学，来到这所精英魔法寄宿学校——在这里，权力是货币，秘密足以致命，吸引力更是一种负担。夹在古老的超自然战争和禁忌之恋之间，女巫团必须决定，为了保护她们的城市——以及她们自己——她们愿意走到哪一步。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9QQtWusZn3imcHWtgeXF8eMABU2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
+    },
+    {
+      "id": 1307118,
+      "title": "灵魂伴侣",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-07-31",
+      "overview": "又名：《梅根》宇宙外传 / 夺魂伴侣。 一名男子获得了一个人工智能机器人，以应对刚刚去世的妻子的去世。 为了创造一个真正有知觉的伴侣，他无意中把一个无害的爱情机器人变成了一个致命的灵魂伴侣。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3IOTIAJcL9GXG5gGnf3EDDCYRHj.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tZ6PAiaydcJvoz7NWMvqxM0HYR3.jpg"
+    },
+    {
+      "id": 1283515,
+      "title": "不存在的罪人",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚",
+      "rating": 6.6,
+      "release_date": "2026-09-30",
+      "overview": "影片改编自柯琳·胡佛的同名畅销小说。知名作家维莉蒂因故无法完成新作，潦倒作家洛温受邀前往其偏远庄园代笔，却意外发现维莉蒂诡异的自传手稿。面对其中关于丈夫杰里米的扭曲告白，洛温逐渐难辨虚实、操控与诱惑。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fD6hgmReIOGiFv3l22eVSQLxqFX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
+    },
+    {
+      "id": 247718,
+      "title": "MobLand",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.5,
+      "release_date": "2025-03-30",
+      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
+      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
+    },
+    {
+      "id": 231801,
+      "title": "狩斯郎！",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险",
+      "rating": 7.7,
+      "release_date": "2026-10-04",
+      "overview": "故事背景为近未来的洛杉矶，整座城市被“美食秩序”彻底掌控：顶级主厨的权势堪比黑帮大佬，餐厅就是各方势力的权力中心，为了拿下顶级餐厅的一席位，有人不惜突破底线，不同的烹饪理念更是分化出针锋相对的派系。",
+      "poster_url": "https://image.tmdb.org/t/p/original/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wYGrWmg2CfAWaWt6AhSwjlgn9hm.jpg"
     },
     {
       "id": 259140,
@@ -211,18 +167,84 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ih1K6HFDoy2OPQ5NLu1cs9a6Oft.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5",
+      "id": 37854,
+      "title": "航海王",
+      "type": "tv",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.8,
+      "release_date": "1999-10-20",
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/8WW2T4hOggSkX7l3nXjmTuibxx6.jpg"
+    },
+    {
+      "id": 290856,
+      "title": "法警小队",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪•动作冒险",
+      "rating": 7.9,
+      "release_date": "2026-03-01",
+      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5W3sAL4rUK6Fi0kdgPPWBTTZhnU.jpg"
+    },
+    {
+      "id": 126437,
+      "title": "青之芦苇",
+      "type": "tv",
+      "genreTitle": "动画",
+      "rating": 7.8,
+      "release_date": "2022-04-09",
+      "overview": "“我来带你走向世界。”\n\n生活在爱媛县的中学生青井苇人是弱小足球部的王牌。\n\n在中学最后一场比赛中输了的那一天，青井在海边奔跑发泄他的不满。此时，青井遇到了一名来观看比赛的男人。\n\n那个男人——福田达也，来自J联赛屈指可数的俱乐部「Esperion FC」，是培育高中时期的「青年队」的主教练。\n\n福田在拥有某种特殊才能的青井身上发现了无限的可能性，开始讲述自己的野心。\n\n“我的野心。是我建立的俱乐部，掌握世界。不是走向世界的垫脚石。我认为我的俱乐部才是世界。这就是肩负着所有野心的培养“青年军”。\n\n接受福田的邀请，青井决定去东京参加选拔考试。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hHAieX1kcUIMi7KmOT3RtGQdBK8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gEW7bei0PJba1E2fGTIHViy3Due.jpg"
+    },
+    {
+      "id": 324502,
+      "title": "装备我最强",
+      "type": "tv",
+      "genreTitle": "动画•Sci-Fi & Fantasy•动作冒险",
+      "rating": 6.2,
+      "release_date": "2026-10-02",
+      "overview": "　　全世界有20亿人游玩的超人气VR游戏《SATISFY》。\n\n　　在这个游戏内获得的财富与名声也会影响现实世界的背景下，\n\n　　长岭巧以玩家名“贪婪”为名，目标是摆脱平淡无奇的日常，实现人生逆袭。\n\n　　某天，贪婪在完成一项超高难度任务后，\n\n　　获得了传说级道具，并转职成为传说中的锻造工匠“法格玛的后裔”。\n\n　　虽然等级归零、装备几乎等于全裸，一切要从头开始——但……\n\n　　“既然打不到强力的装备，那就自己造！”\n\n　　贪婪既贪婪又工于算计，却也有着古怪的毅力和重情义的一面。\n\n　　他凭借制作装备的力量，开始剧烈撼动《SATISFY》的世界。\n\n　　一无所有者创造传说，\n\n　　逆袭成王幻想剧，开幕！",
+      "poster_url": "https://image.tmdb.org/t/p/original/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/745xqHbiUWwO51TM60MXRCR4Onm.jpg"
+    },
+    {
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4bhCfFuCfMITX3ZXYmyQKTvvSVI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
+      "genreTitle": "恐怖•科幻•冒险",
+      "rating": 7.3,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.9,
+      "release_date": "2026-07-29",
+      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
+      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
+    },
+    {
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-08-19",
+      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prGSGD56ihQCaexXldXYpeESBeM.jpg"
+    },
     {
       "id": 95350,
       "title": "绿灯军团",
@@ -246,6 +268,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
     },
     {
+      "id": 1283515,
+      "title": "不存在的罪人",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-09-30",
+      "overview": "影片改编自柯琳·胡佛的同名畅销小说。知名作家维莉蒂因故无法完成新作，潦倒作家洛温受邀前往其偏远庄园代笔，却意外发现维莉蒂诡异的自传手稿。面对其中关于丈夫杰里米的扭曲告白，洛温逐渐难辨虚实、操控与诱惑。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fD6hgmReIOGiFv3l22eVSQLxqFX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
+    },
+    {
       "id": 977942,
       "title": "起义",
       "type": "movie",
@@ -255,6 +288,17 @@
       "overview": "在中世纪的英格兰，一位无畏的勇士召集平民发动了一场激烈的起义，反抗国王理查德二世的高压统治。随着国家陷入混乱，他的起义军与王室军队展开了一场绝望的自由之战。",
       "poster_url": "https://image.tmdb.org/t/p/original/uLI9v21yjlFcrL0qdBPHpNk1Gmu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9YKDy9xgIopB2qoFZcHYNkFeikh.jpg"
+    },
+    {
+      "id": 258165,
+      "title": "伊甸之东",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 7.9,
+      "release_date": "2026-10-01",
+      "overview": "这部剧集对史坦贝克的经典之作进行了全新诠释，讲述特拉斯克家族跨越数代的传奇故事，特别聚焦于那个难以磨灭的反英雄人物——凯茜·埃姆斯。",
+      "poster_url": "https://image.tmdb.org/t/p/original/slYjlpkFnaCSZJICqj2G158Eoqg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tpO6wfPC2giib4YvV3pQ5EaS7Bp.jpg"
     },
     {
       "id": 1423191,
@@ -279,39 +323,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
     },
     {
-      "id": 1283515,
-      "title": "不存在的罪人",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-09-30",
-      "overview": "影片改编自柯琳·胡佛的同名畅销小说。知名作家维莉蒂因故无法完成新作，潦倒作家洛温受邀前往其偏远庄园代笔，却意外发现维莉蒂诡异的自传手稿。面对其中关于丈夫杰里米的扭曲告白，洛温逐渐难辨虚实、操控与诱惑。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fD6hgmReIOGiFv3l22eVSQLxqFX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
-    },
-    {
-      "id": 258165,
-      "title": "伊甸之东",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 7.9,
-      "release_date": "2026-10-01",
-      "overview": "这部剧集对史坦贝克的经典之作进行了全新诠释，讲述特拉斯克家族跨越数代的传奇故事，特别聚焦于那个难以磨灭的反英雄人物——凯茜·埃姆斯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/slYjlpkFnaCSZJICqj2G158Eoqg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tpO6wfPC2giib4YvV3pQ5EaS7Bp.jpg"
-    },
-    {
-      "id": 1492640,
-      "title": "大学炸弹客",
-      "type": "movie",
-      "genreTitle": "惊悚•剧情•犯罪",
-      "rating": 6.6,
-      "release_date": "2026-09-25",
-      "overview": "在这部改编自真人真事的剧情片中，联邦调查局一路追捕特德·卡钦斯基，而他从哈佛神童和实验对象一步步变成“大学炸弹客”的历程也随之揭晓。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oSdSbEXVumkwYst9kwT4CL1b57R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/4DpUm28fnyHnDnaKCKrbNzVEGuB.jpg"
-    },
-    {
       "id": 1339713,
       "title": "痴迷",
       "type": "movie",
@@ -321,83 +332,6 @@
       "overview": "性格孤僻的小镇青年贝尔苦苦暗恋女神妮基却怯于表白。他在一家商店意外获得神秘许愿道具 “一愿柳”，折断柳条许下 “让妮基爱我胜过世上所有人” 的愿望。愿望成真后，妮基却逐渐失控，变得痴缠癫狂，对贝尔产生窒息般的控制欲，身体、人格与理智接连崩塌。这场强求来的 “爱情” 暗藏致命代价，将贝尔拖入万劫不复的深渊。",
       "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 290856,
-      "title": "法警小队",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 7.9,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ipW2alnIHWHlpPjbPxi5cQcsCzS.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.9,
-      "release_date": "2026-07-29",
-      "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
-      "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg"
-    },
-    {
-      "id": 1204680,
-      "title": "歪心狼对阵ACME",
-      "type": "movie",
-      "genreTitle": "喜剧•冒险•家庭",
-      "rating": 7.5,
-      "release_date": "2026-08-17",
-      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oYWeCzV8gIjTE8U7ukmM6rK0ZDO.jpg"
-    },
-    {
-      "id": 247718,
-      "title": "MobLand",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 8.5,
-      "release_date": "2025-03-30",
-      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
-      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
-    },
-    {
-      "id": 298505,
-      "title": "乌鸦学园",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 7.1,
-      "release_date": "2026-10-01",
-      "overview": "在新奥尔良闹鬼的中心地带，跟随三名少女女巫和她们那些魅力十足又危险的男巫同学，来到这所精英魔法寄宿学校——在这里，权力是货币，秘密足以致命，吸引力更是一种负担。夹在古老的超自然战争和禁忌之恋之间，女巫团必须决定，为了保护她们的城市——以及她们自己——她们愿意走到哪一步。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9QQtWusZn3imcHWtgeXF8eMABU2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
-    },
-    {
-      "id": 284558,
-      "title": "杀死杰姬",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 6.9,
-      "release_date": "2026-10-02",
-      "overview": "前可卡因贩子杰基·普莱斯 （Jackie Price） 通过税收计划奢侈地出售艺术品。在匿名20年后，当精英杀手七恶魔被雇佣杀死她时，她平静的生活结束了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2VOcRepadY50B7mr3Vn8OOviRA3.jpg"
-    },
-    {
-      "id": 220542,
-      "title": "药屋少女的呢喃",
-      "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.6,
-      "release_date": "2023-10-22",
-      "overview": "“可否为我配制一帖春药？”猫猫的眼眸瞬间浮现出惊讶与好奇的色彩。位处大陆中央的某个大国，有位姑娘置身于皇帝宫阙之中。姑娘名唤猫猫，原在烟花巷担任药师，眼下则在后宫做下女。这个绝对称不上美女的姑娘很懂分寸，只是静待期满离宫。她有自信，皇帝绝对不会“宠幸”她。其间，猫猫得知皇子皆年幼早夭的事，并听闻连尚在人世的皇子皇女也身染重病，她开始调查他们的病因。广获赞誉的酣畅淋漓推理之作，众所期盼的第一集终于出版。以中世东方为舞台，“试毒”少女将一一解决宫中发生的悬疑案件！",
-      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
     },
     {
       "id": 1003596,
@@ -411,37 +345,103 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
+      "id": 247718,
+      "title": "MobLand",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.5,
+      "release_date": "2025-03-30",
+      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
+      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
+    },
+    {
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.5,
+      "release_date": "2026-08-17",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oYWeCzV8gIjTE8U7ukmM6rK0ZDO.jpg"
+    },
+    {
+      "id": 290856,
+      "title": "法警小队",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪•动作冒险",
+      "rating": 7.9,
+      "release_date": "2026-03-01",
+      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5W3sAL4rUK6Fi0kdgPPWBTTZhnU.jpg"
+    },
+    {
+      "id": 1153576,
+      "title": "街头霸王",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 0.0,
+      "release_date": "2026-10-13",
+      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
+    },
+    {
+      "id": 298505,
+      "title": "乌鸦学园",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 7.2,
+      "release_date": "2026-10-01",
+      "overview": "在新奥尔良闹鬼的中心地带，跟随三名少女女巫和她们那些魅力十足又危险的男巫同学，来到这所精英魔法寄宿学校——在这里，权力是货币，秘密足以致命，吸引力更是一种负担。夹在古老的超自然战争和禁忌之恋之间，女巫团必须决定，为了保护她们的城市——以及她们自己——她们愿意走到哪一步。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9QQtWusZn3imcHWtgeXF8eMABU2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
+    },
+    {
       "id": 1458857,
       "title": "只要活下去",
       "type": "movie",
       "genreTitle": "剧情•爱情",
-      "rating": 7.1,
+      "rating": 7.2,
       "release_date": "2026-10-02",
       "overview": "一位单身母亲和一名被监禁的男子通过真挚的书信建立起一段出人意料的情谊，在重重困难之下，开启了一扇通往救赎、希望与爱的门。",
       "poster_url": "https://image.tmdb.org/t/p/original/bPof2ZCsbjCJ6nPPqQPexAd4wfm.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/jhlA7tXeynux7WktY4XGOiYNwCK.jpg"
     },
     {
-      "id": 1263337,
-      "title": "野兽之心",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚",
-      "rating": 7.5,
-      "release_date": "2026-09-19",
-      "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e9PHZ5JURcItPmqCE2tak8ZZrfH.jpg"
+      "id": 307106,
+      "title": "恋爱博士",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 0.0,
+      "release_date": "2026-10-05",
+      "overview": "高中时曾是游泳选手、后因病失去一条腿的博士生民宰，与一度迷失方向、如今重新出发的硕士生宥真。在冰冷的机器人实验室里，两名年轻人开启了一段酸甜苦辣交织的浪漫恋曲。",
+      "poster_url": "https://image.tmdb.org/t/p/original/mi6MY0MHWSGulv9mjn5kTn0Kocf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/fyBCir5oh2TCrF0uWD1gUEfg6Pz.jpg"
     },
     {
-      "id": 73223,
-      "title": "黑色四叶草",
+      "id": 298852,
+      "title": "律界战争",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2017-10-03",
-      "overview": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔……这是关于一位没魔法能力的少年却想要成为魔法帝的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qCYdcLGAARSbnTuG9BGlDyi7Zue.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mNadS5wd6Co7rUsWWY7jXUkYoP1.jpg"
+      "genreTitle": "剧情",
+      "rating": 8.8,
+      "release_date": "2026-10-02",
+      "overview": "这是一部选集剧，背景设定在伦敦法律界的精英世界，讲述两家竞争律所Cathcarts和Taylor & Byrne，每一季都将在一场不同的、登上头条的法律大战中正面交锋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c1Q5gcXjGCR6iI3oNsKK4ftA3YK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oulQCeDaIuOrBsEDmYY4aE4diHA.jpg"
+    },
+    {
+      "id": 220542,
+      "title": "药屋少女的呢喃",
+      "type": "tv",
+      "genreTitle": "动画•剧情•悬疑",
+      "rating": 8.6,
+      "release_date": "2023-10-22",
+      "overview": "“可否为我配制一帖春药？”猫猫的眼眸瞬间浮现出惊讶与好奇的色彩。位处大陆中央的某个大国，有位姑娘置身于皇帝宫阙之中。姑娘名唤猫猫，原在烟花巷担任药师，眼下则在后宫做下女。这个绝对称不上美女的姑娘很懂分寸，只是静待期满离宫。她有自信，皇帝绝对不会“宠幸”她。其间，猫猫得知皇子皆年幼早夭的事，并听闻连尚在人世的皇子皇女也身染重病，她开始调查他们的病因。广获赞誉的酣畅淋漓推理之作，众所期盼的第一集终于出版。以中世东方为舞台，“试毒”少女将一一解决宫中发生的悬疑案件！",
+      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
     }
   ],
   "popular_movies": [
@@ -538,7 +538,7 @@
       "title": "挖掘者",
       "type": "movie",
       "genreTitle": "喜剧•剧情",
-      "rating": 7.5,
+      "rating": 7.6,
       "release_date": "2026-09-28",
       "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
       "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
@@ -604,7 +604,7 @@
       "title": "起义",
       "type": "movie",
       "genreTitle": "历史•剧情•动作",
-      "rating": 8.0,
+      "rating": 7.9,
       "release_date": "2026-09-10",
       "overview": "在中世纪的英格兰，一位无畏的勇士召集平民发动了一场激烈的起义，反抗国王理查德二世的高压统治。随着国家陷入混乱，他的起义军与王室军队展开了一场绝望的自由之战。",
       "poster_url": "https://image.tmdb.org/t/p/original/uLI9v21yjlFcrL0qdBPHpNk1Gmu.jpg",
