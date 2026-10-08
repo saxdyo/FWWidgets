@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08 10:18:42",
+  "last_updated": "2026-10-08 17:33:51",
   "today_global": [
     {
       "id": 969681,
@@ -13,25 +13,14 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
-      "id": 1101412,
-      "title": "坠落2：死点",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 7.1,
-      "release_date": "2026-09-01",
-      "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zwHsEcRcazZCxTWs9Glwo9qWZ0F.jpg"
-    },
-    {
       "id": 288673,
       "title": "魔女嘉莉",
       "type": "tv",
       "genreTitle": "悬疑•剧情",
-      "rating": 8.7,
+      "rating": 8.6,
       "release_date": "2026-10-07",
       "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AsBZWp9VZfSY7HhZBADlaQtb9k4.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/rhrBJJ3Lyexd07i0IQ07DmBGCI3.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
@@ -41,7 +30,7 @@
       "genreTitle": "恐怖•惊悚",
       "rating": 7.5,
       "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的异界“幽冥界”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
     },
@@ -57,6 +46,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
+      "id": 1101412,
+      "title": "坠落2：死点",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 7.2,
+      "release_date": "2026-09-01",
+      "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zwHsEcRcazZCxTWs9Glwo9qWZ0F.jpg"
+    },
+    {
       "id": 1284046,
       "title": "猛攻",
       "type": "movie",
@@ -66,39 +66,6 @@
       "overview": "军事基地逃出了一个神秘的危险存在，被佣军追捕，威胁到了一名此前曾是军人、如今因为某些原因住在拖车里的母亲。为保护所爱之人，她不得不使出特殊技能。",
       "poster_url": "https://image.tmdb.org/t/p/original/qg5U3trH8yEk94Iee9pFFxy8VzK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/e1qgN9wbkCpY42xsQJyFJ5H1CtS.jpg"
-    },
-    {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
-      "id": 1248832,
-      "title": "挖掘者",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.6,
-      "release_date": "2026-09-28",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
-    },
-    {
-      "id": 1400837,
-      "title": "另一个妈妈",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 9.0,
-      "release_date": "2026-10-07",
-      "overview": "故事讲述八岁女孩贝拉住在父母婚姻摇摇欲坠的房子里。某天，她发现衣柜深处总在深夜探出一个东西——那东西长得和她妈妈乌苏拉一模一样，于是贝拉叫它“另一个妈妈”。它每天重复同一句话：“我可以进到你心里吗？”贝拉本能地拒绝，但“另一个妈妈”开始以更扭曲狰狞的形态渗透家庭生活，甚至试图取代真正的母亲。当家中怪事频发、家人也开始看见它时，贝拉必须在被彻底吞噬前，揪出这个伪装者，或者承认有些门不该打开。影片改编自乔什·马勒曼2024年的同名小说。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
     },
     {
       "id": 305551,
@@ -112,6 +79,39 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xrkcLUAGy7voJFsVZ0ZBigXvzXn.jpg"
     },
     {
+      "id": 1400837,
+      "title": "另一个妈咪",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 9.1,
+      "release_date": "2026-10-07",
+      "overview": "故事讲述八岁女孩贝拉住在父母婚姻摇摇欲坠的房子里。某天，她发现衣柜深处总在深夜探出一个东西——那东西长得和她妈妈乌苏拉一模一样，于是贝拉叫它“另一个妈妈”。它每天重复同一句话：“我可以进到你心里吗？”贝拉本能地拒绝，但“另一个妈妈”开始以更扭曲狰狞的形态渗透家庭生活，甚至试图取代真正的母亲。当家中怪事频发、家人也开始看见它时，贝拉必须在被彻底吞噬前，揪出这个伪装者，或者承认有些门不该打开。影片改编自乔什·马勒曼2024年的同名小说。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
+    },
+    {
+      "id": 1248832,
+      "title": "挖掘者",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.5,
+      "release_date": "2026-09-28",
+      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
+    },
+    {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 8.4,
+      "release_date": "2020-08-14",
+      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
+    },
+    {
       "id": 258230,
       "title": "最后目击",
       "type": "tv",
@@ -123,6 +123,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9iY8V4zax8YlXss1RJrgMJ8zSbN.jpg"
     },
     {
+      "id": 285322,
+      "title": "暗潮之下",
+      "type": "tv",
+      "genreTitle": "悬疑",
+      "rating": 6.8,
+      "release_date": "2026-10-08",
+      "overview": "当一只神秘的海洋生物威胁着纽芬兰的一个小镇时，一位坚韧的渔夫和他的家人奋力保护他们这个紧密相连的社区。",
+      "poster_url": "https://image.tmdb.org/t/p/original/it6VZ3N056EsfUmT8MjXpqpE2LZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/4kOFF9OydoMIQCNGKOF7YpxcIiO.jpg"
+    },
+    {
       "id": 1423191,
       "title": "生化危机：爆发夜",
       "type": "movie",
@@ -132,39 +143,6 @@
       "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
       "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
-    },
-    {
-      "id": 312693,
-      "title": "小先知",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情•悬疑",
-      "rating": 8.1,
-      "release_date": "2026-02-09",
-      "overview": "七年前，自从女友失踪后，迈克尔·斯利普的人生便仿佛停滞不前。一本旧日记里神秘的配方，却承诺要为他追寻已久的谜团带来答案。",
-      "poster_url": "https://image.tmdb.org/t/p/original/tuSiOJHYyVrj04EyoiWEAUlOGlN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A1u7ba2LIJMxtxGd9D9VkCatGls.jpg"
-    },
-    {
-      "id": 290233,
-      "title": "致命权力圈",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 9.0,
-      "release_date": "2026-10-07",
-      "overview": "四个一生的好友陷入了勒索的罗网，一段泄露的视频威胁要揭露可能摧毁他们友谊的秘密。",
-      "poster_url": "https://image.tmdb.org/t/p/original/u2PDaI3BYtGg0YO0rOKnycDwxld.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9AnA4GTHzgo5WBs74bjIBhtheop.jpg"
-    },
-    {
-      "id": 1400940,
-      "title": "泥面人",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚•科幻",
-      "rating": 0.0,
-      "release_date": "2026-10-21",
-      "overview": "本片讲述一位B级片演员给自己注射一种物质来保持状态，却发现他可以改变自己的脸和体形，成为一块行走的泥土。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8CVxezsk8HLHC28FDbEHEfh6pMU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mp0lHHCGCa7VU420O0l68uP9C0S.jpg"
     },
     {
       "id": 1283515,
@@ -189,26 +167,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xn42TCarooeOxY1yrfOknEmMvAu.jpg"
     },
     {
-      "id": 290856,
-      "title": "法警小队",
+      "id": 312693,
+      "title": "小先知",
       "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 7.9,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5W3sAL4rUK6Fi0kdgPPWBTTZhnU.jpg"
+      "genreTitle": "喜剧•剧情•悬疑",
+      "rating": 8.1,
+      "release_date": "2026-02-09",
+      "overview": "七年前，自从女友失踪后，迈克尔·斯利普的人生便仿佛停滞不前。一本旧日记里神秘的配方，却承诺要为他追寻已久的谜团带来答案。",
+      "poster_url": "https://image.tmdb.org/t/p/original/tuSiOJHYyVrj04EyoiWEAUlOGlN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A1u7ba2LIJMxtxGd9D9VkCatGls.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5",
+      "id": 290233,
+      "title": "致命权力圈",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 9.0,
+      "release_date": "2026-10-07",
+      "overview": "四个一生的好友陷入了勒索的罗网，一段泄露的视频威胁要揭露可能摧毁他们友谊的秘密。",
+      "poster_url": "https://image.tmdb.org/t/p/original/u2PDaI3BYtGg0YO0rOKnycDwxld.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9AnA4GTHzgo5WBs74bjIBhtheop.jpg"
+    },
+    {
+      "id": 1281331,
+      "title": "社交清算",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
+      "genreTitle": "剧情•惊悚",
+      "rating": 8.6,
+      "release_date": "2026-10-07",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/1AGr15FlsfA5xSJWtJara4esfKs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zEa5jl6oH44m7DKB9i8m2oFMict.jpg"
+    },
+    {
+      "id": 1400940,
+      "title": "泥面人",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚•科幻",
       "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4bhCfFuCfMITX3ZXYmyQKTvvSVI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
+      "release_date": "2026-10-21",
+      "overview": "本片讲述一位B级片演员给自己注射一种物质来保持状态，却发现他可以改变自己的脸和体形，成为一块行走的泥土。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8CVxezsk8HLHC28FDbEHEfh6pMU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mp0lHHCGCa7VU420O0l68uP9C0S.jpg"
     },
     {
       "id": 1153576,
@@ -235,17 +235,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
-      "id": 1248832,
-      "title": "挖掘者",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.6,
-      "release_date": "2026-09-28",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
-    },
-    {
       "id": 95350,
       "title": "绿灯军团",
       "type": "tv",
@@ -257,22 +246,44 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
+      "id": 1248832,
+      "title": "挖掘者",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.5,
+      "release_date": "2026-09-28",
+      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
+    },
+    {
       "id": 1291595,
       "title": "潜伏6：血域",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
       "rating": 7.5,
       "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
+      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的异界“幽冥界”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
+    },
+    {
+      "id": 1283515,
+      "title": "不存在的罪人",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚",
+      "rating": 6.4,
+      "release_date": "2026-09-30",
+      "overview": "影片改编自柯琳·胡佛的同名畅销小说。知名作家维莉蒂因故无法完成新作，潦倒作家洛温受邀前往其偏远庄园代笔，却意外发现维莉蒂诡异的自传手稿。面对其中关于丈夫杰里米的扭曲告白，洛温逐渐难辨虚实、操控与诱惑。",
+      "poster_url": "https://image.tmdb.org/t/p/original/fD6hgmReIOGiFv3l22eVSQLxqFX.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
     },
     {
       "id": 1101412,
       "title": "坠落2：死点",
       "type": "movie",
       "genreTitle": "惊悚",
-      "rating": 7.1,
+      "rating": 7.2,
       "release_date": "2026-09-01",
       "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
       "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
@@ -290,48 +301,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
+      "id": 288673,
+      "title": "魔女嘉莉",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 8.6,
+      "release_date": "2026-10-07",
+      "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rhrBJJ3Lyexd07i0IQ07DmBGCI3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
+    },
+    {
       "id": 258165,
       "title": "伊甸园之东",
       "type": "tv",
       "genreTitle": "剧情",
-      "rating": 8.0,
+      "rating": 8.1,
       "release_date": "2026-10-01",
       "overview": "这部剧集对史坦贝克的经典之作进行了全新诠释，讲述特拉斯克家族跨越数代的传奇故事，特别聚焦于那个难以磨灭的反英雄人物——凯茜·埃姆斯。",
       "poster_url": "https://image.tmdb.org/t/p/original/2cSncSwNF8NHdOjwAsLYyHHYypB.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/tpO6wfPC2giib4YvV3pQ5EaS7Bp.jpg"
-    },
-    {
-      "id": 1283515,
-      "title": "不存在的罪人",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚",
-      "rating": 6.4,
-      "release_date": "2026-09-30",
-      "overview": "影片改编自柯琳·胡佛的同名畅销小说。知名作家维莉蒂因故无法完成新作，潦倒作家洛温受邀前往其偏远庄园代笔，却意外发现维莉蒂诡异的自传手稿。面对其中关于丈夫杰里米的扭曲告白，洛温逐渐难辨虚实、操控与诱惑。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fD6hgmReIOGiFv3l22eVSQLxqFX.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
-    },
-    {
-      "id": 977942,
-      "title": "起义",
-      "type": "movie",
-      "genreTitle": "历史•剧情•动作",
-      "rating": 8.0,
-      "release_date": "2026-09-10",
-      "overview": "在中世纪的英格兰，一位无畏的勇士召集平民发动了一场激烈的起义，反抗国王理查德二世的高压统治。随着国家陷入混乱，他的起义军与王室军队展开了一场绝望的自由之战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uLI9v21yjlFcrL0qdBPHpNk1Gmu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9YKDy9xgIopB2qoFZcHYNkFeikh.jpg"
-    },
-    {
-      "id": 1377237,
-      "title": "护肝人",
-      "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-09-07",
-      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
     },
     {
       "id": 1284046,
@@ -346,25 +335,36 @@
     },
     {
       "id": 1400837,
-      "title": "另一个妈妈",
+      "title": "另一个妈咪",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
-      "rating": 9.0,
+      "rating": 9.1,
       "release_date": "2026-10-07",
       "overview": "故事讲述八岁女孩贝拉住在父母婚姻摇摇欲坠的房子里。某天，她发现衣柜深处总在深夜探出一个东西——那东西长得和她妈妈乌苏拉一模一样，于是贝拉叫它“另一个妈妈”。它每天重复同一句话：“我可以进到你心里吗？”贝拉本能地拒绝，但“另一个妈妈”开始以更扭曲狰狞的形态渗透家庭生活，甚至试图取代真正的母亲。当家中怪事频发、家人也开始看见它时，贝拉必须在被彻底吞噬前，揪出这个伪装者，或者承认有些门不该打开。影片改编自乔什·马勒曼2024年的同名小说。",
       "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
     },
     {
-      "id": 290856,
-      "title": "法警小队",
+      "id": 977942,
+      "title": "起义",
+      "type": "movie",
+      "genreTitle": "历史•剧情•动作",
+      "rating": 8.0,
+      "release_date": "2026-09-10",
+      "overview": "在中世纪的英格兰，一位无畏的勇士召集平民发动了一场激烈的起义，反抗国王理查德二世的高压统治。随着国家陷入混乱，他的起义军与王室军队展开了一场绝望的自由之战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uLI9v21yjlFcrL0qdBPHpNk1Gmu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9YKDy9xgIopB2qoFZcHYNkFeikh.jpg"
+    },
+    {
+      "id": 298505,
+      "title": "乌鸦学园",
       "type": "tv",
-      "genreTitle": "剧情•犯罪•动作冒险",
-      "rating": 7.9,
-      "release_date": "2026-03-01",
-      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5W3sAL4rUK6Fi0kdgPPWBTTZhnU.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 7.1,
+      "release_date": "2026-10-01",
+      "overview": "纽约少女布莱尔来到新奥尔良一所神秘的魔法学校，试图揭开母亲命运的谜团。随着巫师与吸血鬼的冲突升级，她和同伴必须对抗更黑暗的威胁，同时应对超自然校园生活与禁忌初恋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lxB8RtueKNlTHoKajFA1TK06n8n.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
     },
     {
       "id": 1339713,
@@ -378,15 +378,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 298505,
-      "title": "乌鸦学园",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 7.1,
-      "release_date": "2026-10-01",
-      "overview": "纽约少女布莱尔·罗伯兹来到新奥尔良一所神秘的魔法学校，试图揭开母亲的命运之谜，此时女巫与吸血鬼的冲突却一触即发。她和一群少女见习女巫，必须联手对抗更黑暗的威胁，同时应付超自然高中的种种危机。随着危险步步逼近，一段禁忌的初恋也悄然萌芽。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9QQtWusZn3imcHWtgeXF8eMABU2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
+      "id": 1377237,
+      "title": "护肝人",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-07",
+      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
+    },
+    {
+      "id": 1153576,
+      "title": "街头霸王",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 0.0,
+      "release_date": "2026-10-13",
+      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
     },
     {
       "id": 1003596,
@@ -400,48 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
-      "id": 97546,
-      "title": "Ted Lasso",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 8.4,
-      "release_date": "2020-08-14",
-      "overview": "一位美国橄榄球教练受聘执教一支英国足球队；他虽然缺乏足球知识，但他乐观、坚定，而且带了很多饼干。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uPtfFJmTKHCfYW2NTIND8SBeZBa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/guUhHHbNL2fvl1HzcQb6d7YNfTi.jpg"
-    },
-    {
-      "id": 284558,
-      "title": "杀死杰姬",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 6.9,
+      "id": 1458857,
+      "title": "只要活下去",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.6,
       "release_date": "2026-10-02",
-      "overview": "前可卡因贩子杰基·普莱斯 （Jackie Price） 通过税收计划奢侈地出售艺术品。在匿名20年后，当精英杀手七恶魔被雇佣杀死她时，她平静的生活结束了。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vvMpr6wO4EMtA7lqftffTel5c1R.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2VOcRepadY50B7mr3Vn8OOviRA3.jpg"
+      "overview": "一位单身母亲和一名被监禁的男子通过真挚的书信建立起一段出人意料的情谊，在重重困难之下，开启了一扇通往救赎、希望与爱的门。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bPof2ZCsbjCJ6nPPqQPexAd4wfm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jhlA7tXeynux7WktY4XGOiYNwCK.jpg"
     },
     {
-      "id": 288673,
-      "title": "魔女嘉莉",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 8.7,
-      "release_date": "2026-10-07",
-      "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AsBZWp9VZfSY7HhZBADlaQtb9k4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 220542,
-      "title": "药屋少女的呢喃",
-      "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.6,
-      "release_date": "2023-10-22",
-      "overview": "“可否为我配制一帖春药？”猫猫的眼眸瞬间浮现出惊讶与好奇的色彩。位处大陆中央的某个大国，有位姑娘置身于皇帝宫阙之中。姑娘名唤猫猫，原在烟花巷担任药师，眼下则在后宫做下女。这个绝对称不上美女的姑娘很懂分寸，只是静待期满离宫。她有自信，皇帝绝对不会“宠幸”她。其间，猫猫得知皇子皆年幼早夭的事，并听闻连尚在人世的皇子皇女也身染重病，她开始调查他们的病因。广获赞誉的酣畅淋漓推理之作，众所期盼的第一集终于出版。以中世东方为舞台，“试毒”少女将一一解决宫中发生的悬疑案件！",
-      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
+      "id": 1204680,
+      "title": "歪心狼对阵ACME",
+      "type": "movie",
+      "genreTitle": "喜剧•冒险•家庭",
+      "rating": 7.5,
+      "release_date": "2026-08-17",
+      "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oYWeCzV8gIjTE8U7ukmM6rK0ZDO.jpg"
     }
   ],
   "popular_movies": [
@@ -450,7 +450,7 @@
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
-      "rating": 8.2,
+      "rating": 8.3,
       "release_date": "2026-07-29",
       "overview": "全世界已经忘记了彼得·帕克的存在。失去曾经的朋友、爱人与家人后，他选择独自留在纽约，将全部生活投入打击犯罪，成为一名真正的全职蜘蛛侠。数年过去，日复一日的战斗和孤独让彼得承受着越来越沉重的压力，而他的身体也开始发生无法解释的异常变化。与此同时，一股难以察觉的新威胁正在城市中悄然蔓延。为了阻止危机继续扩大，彼得必须在自己逐渐失控的变化与这名甚至无法被看见的敌人之间寻找新的战斗方式，也再次面对那些他以为已经彻底放下的过去……",
       "poster_url": "https://image.tmdb.org/t/p/original/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
@@ -490,11 +490,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
+      "id": 1291595,
+      "title": "潜伏6：血域",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-08-19",
+      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的异界“幽冥界”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
+    },
+    {
       "id": 1228834,
       "title": "拨乱行动",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-09-10",
       "overview": "2021阿富汗撤军惨败，一支CIA小队遭体制抛弃，背负战争创伤。队长塔克从患病导师处得知德黑兰酒店藏有2500万美金，召集蒙冤旧部潜入敌城。小队本只想取钱翻身，却意外卷入高危营救，旧伤、猜忌与背叛接连袭来，众人赌命拼死翻盘。",
       "poster_url": "https://image.tmdb.org/t/p/original/noGrxxPWZsWcJ19kRsEEawfFnEl.jpg",
@@ -512,17 +523,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
     },
     {
-      "id": 1291595,
-      "title": "潜伏6：血域",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 7.4,
-      "release_date": "2026-08-19",
-      "overview": "　　三名潜行者悄然入侵静谧的郊区，将一户新搬来的家庭困于灵薄狱的夹缝之中。他们原以为这只是场残酷的猎杀游戏，却在此撕裂了现实与异界的边界——一个令人战栗的真相逐渐浮现：深渊彼岸的“灵薄狱”，正从裂缝中不断渗入现实世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
-    },
-    {
       "id": 1751701,
       "title": "星陨之后",
       "type": "movie",
@@ -534,6 +534,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eFWjIRSntE5h5mxRLML5HrMygGZ.jpg"
     },
     {
+      "id": 1101412,
+      "title": "坠落2：死点",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 7.1,
+      "release_date": "2026-09-01",
+      "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zwHsEcRcazZCxTWs9Glwo9qWZ0F.jpg"
+    },
+    {
       "id": 1204680,
       "title": "歪心狼对阵ACME",
       "type": "movie",
@@ -543,17 +554,6 @@
       "overview": "　　故事讲述了乐一通经典角色歪心狼（Wile E. Coyote）在长期使用Acme公司的产品追捕BB鸟（Road Runner）失败并遭受身心创伤后，决定不再忍受。他聘请了一位倒霉的人类律师，向Acme公司提起诉讼，要求巨额赔偿。而Acme公司的首席律师则试图捍卫公司利益，双方在法庭上展开了一场荒诞又爆笑的对决。  影片改编自1990年《纽约客》的一篇同名文章。",
       "poster_url": "https://image.tmdb.org/t/p/original/xONOMna5Z102bw0jMPBM4H73B9m.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/oYWeCzV8gIjTE8U7ukmM6rK0ZDO.jpg"
-    },
-    {
-      "id": 1248832,
-      "title": "挖掘者",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.5,
-      "release_date": "2026-09-28",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
     },
     {
       "id": 460458,
@@ -578,6 +578,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hQudHBeunvdwq7swqEnA8kAGkca.jpg"
     },
     {
+      "id": 1248832,
+      "title": "挖掘者",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.5,
+      "release_date": "2026-09-28",
+      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
+    },
+    {
       "id": 1294189,
       "title": "猫鼬",
       "type": "movie",
@@ -598,17 +609,6 @@
       "overview": "由于一块奇特的晶体，一位害羞的学生穿越到了石器时代，在那里他爱上了一位美丽的穴居女子，并帮助她的族人击退了一群食人族。",
       "poster_url": "https://image.tmdb.org/t/p/original/kONbgktPKsm3EMj3MiES0IP8BRr.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/j36JpZBTdA1rZhsIu3XaGL7dlcK.jpg"
-    },
-    {
-      "id": 1032863,
-      "title": "爱情假说",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-09-23",
-      "overview": "改编自《纽约时报》畅销小说。博士生奥利弗一时冲动，吻了系里最令人生畏的教授亚当·卡尔森。两人因各自都需要一段\"假恋情\"而走到一起，这段关系演变成了一场关于化学反应的实验，或许这真能解开爱情谜题。",
-      "poster_url": "https://image.tmdb.org/t/p/original/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iPoPTzCwlutU2ZwWVTbXQsqlHqw.jpg"
     }
   ]
 }
