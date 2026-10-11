@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11 22:24:44",
+  "last_updated": "2026-10-12 03:13:13",
   "today_global": [
     {
       "id": 123542,
@@ -21,18 +21,29 @@
       "release_date": "2026-10-09",
       "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
       "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2lx5WGVJ6cl5wMwdgjxezpPAk7m.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
     },
     {
-      "id": 1148365,
-      "title": "火柴盒大电影",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.8,
-      "release_date": "2026-10-05",
-      "overview": "一群儿时好友重聚后，生活发生巨变。曾离开家乡的前领袖、中央情报局卧底特工肖恩突然归来，意外将众人卷入一场紧张的国际追逐行动，必须合力拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qpLaKSlC9OE3Fk1e48jFIekgr5t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
+      "id": 312359,
+      "title": "龙珠超 比鲁斯",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 10.0,
+      "release_date": "2026-10-11",
+      "overview": "距离与魔人布欧的激战已过去数年，地球终于迎来了一段短暂的和平时期。与此同时，破坏神比鲁斯也从沉睡中苏醒。就连界王神和界王神都惊叹不已，比鲁斯觉醒了，他拥有足以毁灭星辰的压倒性力量……然而，比鲁斯听闻有赛亚人击败了弗利萨，便突然出现在悟空面前。随着比鲁斯前所未有的力量即将到来，地球面临着毁灭的威胁……破坏神与悟空…",
+      "poster_url": "https://image.tmdb.org/t/p/original/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iCjwkPh342jKkOaEzsbtoGNHHf8.jpg"
+    },
+    {
+      "id": 333101,
+      "title": "金银岛",
+      "type": "tv",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 4.0,
+      "release_date": "2026-10-11",
+      "overview": "改编自罗伯特·路易斯·史蒂文森的经典冒险小说。年轻的吉姆·霍金斯和母亲贝斯得到一张传说中的海盗藏宝图，由此踏上横渡大西洋的致命航程。面对叛变、暴力与背叛，吉姆必须在危机四伏的旅途中成长，而这段经历也将彻底改变他的人生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6UGFQsv7vWuhgj8iTAN7CrMs7M9.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i7wMD1lxUGONUhF75bzOSqfexYj.jpg"
     },
     {
       "id": 288673,
@@ -57,37 +68,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
-      "id": 293607,
-      "title": "百日谎言",
-      "type": "tv",
-      "genreTitle": "动作冒险",
-      "rating": 0.0,
-      "release_date": "2026-10-10",
-      "overview": "天才扒手佳景在朝鲜总督府伪装就业100天，作为假密探活跃在朝鲜，最后成为真正的密探的过程以及与朝鲜翻译官泰雄展开浪漫爱情故事的谍报罗曼史电视剧。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wViZplLOXa4ej7Xkhiri3BqsYc2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/p1EbBDGYJcvb0zYIEwDydPSzUH2.jpg"
-    },
-    {
-      "id": 333101,
-      "title": "金银岛",
-      "type": "tv",
-      "genreTitle": "剧情•动作冒险",
-      "rating": 1.0,
-      "release_date": "2026-10-11",
-      "overview": "改编自罗伯特·路易斯·史蒂文森的经典冒险小说。年轻的吉姆·霍金斯和母亲贝斯得到一张传说中的海盗藏宝图，由此踏上横渡大西洋的致命航程。面对叛变、暴力与背叛，吉姆必须在危机四伏的旅途中成长，而这段经历也将彻底改变他的人生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6UGFQsv7vWuhgj8iTAN7CrMs7M9.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i7wMD1lxUGONUhF75bzOSqfexYj.jpg"
-    },
-    {
-      "id": 285322,
-      "title": "暗潮之下",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.3,
-      "release_date": "2026-10-08",
-      "overview": "当一只神秘的海洋生物威胁着纽芬兰的一个小镇时，一位坚韧的渔夫和他的家人奋力保护他们这个紧密相连的社区。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zalCOSxzRZgmZLE7PxYZ9nD6J9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg"
+      "id": 1148365,
+      "title": "火柴盒大电影",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•冒险",
+      "rating": 7.8,
+      "release_date": "2026-10-05",
+      "overview": "一群儿时好友重聚后，生活发生巨变。曾离开家乡的前领袖、中央情报局卧底特工肖恩突然归来，意外将众人卷入一场紧张的国际追逐行动，必须合力拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qpLaKSlC9OE3Fk1e48jFIekgr5t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
     },
     {
       "id": 95350,
@@ -101,15 +90,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
-      "id": 293610,
-      "title": "Doctor X：白色黑手党时代",
+      "id": 285322,
+      "title": "暗潮之下",
       "type": "tv",
-      "genreTitle": "悬疑•剧情•犯罪",
-      "rating": 7.7,
-      "release_date": "2026-10-09",
-      "overview": "一名神秘且出色的外科医生来到一家人人自大、腐败横行的医院，面对强烈的反对，接手看似无法医治的病例。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3vdziRiueKXLnyxFjKCQH5mEQ6B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6Jjr2hxM66VpPd06e8zQkX5f5ZE.jpg"
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.3,
+      "release_date": "2026-10-08",
+      "overview": "当一只神秘的海洋生物威胁着纽芬兰的一个小镇时，一位坚韧的渔夫和他的家人奋力保护他们这个紧密相连的社区。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zalCOSxzRZgmZLE7PxYZ9nD6J9z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg"
+    },
+    {
+      "id": 293607,
+      "title": "百日谎言",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 0.0,
+      "release_date": "2026-10-10",
+      "overview": "天才扒手佳景在朝鲜总督府伪装就业100天，作为假密探活跃在朝鲜，最后成为真正的密探的过程以及与朝鲜翻译官泰雄展开浪漫爱情故事的谍报罗曼史电视剧。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wViZplLOXa4ej7Xkhiri3BqsYc2.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/p1EbBDGYJcvb0zYIEwDydPSzUH2.jpg"
+    },
+    {
+      "id": 1400837,
+      "title": "另一个妈咪",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 5.8,
+      "release_date": "2026-10-07",
+      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
     },
     {
       "id": 73223,
@@ -123,15 +134,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/mNadS5wd6Co7rUsWWY7jXUkYoP1.jpg"
     },
     {
-      "id": 231620,
-      "title": "现在就出发",
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
+      "type": "movie",
+      "genreTitle": "恐怖•科幻•冒险",
+      "rating": 7.3,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
+    },
+    {
+      "id": 293610,
+      "title": "Doctor X：白色黑手党时代",
       "type": "tv",
-      "genreTitle": "真人秀•喜剧",
-      "rating": 7.5,
-      "release_date": "2023-08-13",
-      "overview": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/rYA8lb9XCfI0RRHUr4rQ6F44A3j.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mqlxv348gPd20K9W98F1VrOVHq2.jpg"
+      "genreTitle": "悬疑•剧情•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-10-09",
+      "overview": "一名神秘且出色的外科医生来到一家人人自大、腐败横行的医院，面对强烈的反对，接手看似无法医治的病例。",
+      "poster_url": "https://image.tmdb.org/t/p/original/3vdziRiueKXLnyxFjKCQH5mEQ6B.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6Jjr2hxM66VpPd06e8zQkX5f5ZE.jpg"
     },
     {
       "id": 1248832,
@@ -156,15 +178,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/t2R2yQORkNqnU6kRmZ4vO1839q5.jpg"
     },
     {
-      "id": 1400837,
-      "title": "另一个妈咪",
+      "id": 1101412,
+      "title": "坠落２：死点",
       "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 5.8,
-      "release_date": "2026-10-07",
-      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
+      "genreTitle": "惊悚",
+      "rating": 7.3,
+      "release_date": "2026-09-01",
+      "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"
     },
     {
       "id": 1291595,
@@ -178,44 +200,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
     },
     {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•冒险",
-      "rating": 7.3,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
-    },
-    {
-      "id": 295420,
-      "title": "朱色假面",
+      "id": 231620,
+      "title": "现在就出发",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 0.0,
-      "release_date": "2026-10-10",
-      "overview": "挺身迎战。面对强大的敌人。以及自己的命运。「面具」会赋予佩戴者力量。有时能无限拓展可能性，有时却会带来难以想象的灾祸。传说中的面具职人的弟子佩尔，被偶然拿起的「武神面具」所操纵而失去理智暴走，无意间亲手杀害了同伴与师父。在绝望中，佩尔立志要销毁世界上全部由师父打造的面具。他直面自己犯下的错误，踏上了赎罪的旅程。与新友人的相遇，以及与强敌的对峙。围绕「面具」的战斗幻想曲，正式开幕！",
-      "poster_url": "https://image.tmdb.org/t/p/original/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/veXqFj4DuspDYbpwLt18g6FIo8x.jpg"
-    },
-    {
-      "id": 1101412,
-      "title": "坠落２：死点",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 7.3,
-      "release_date": "2026-09-01",
-      "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"
+      "genreTitle": "真人秀•喜剧",
+      "rating": 7.5,
+      "release_date": "2023-08-13",
+      "overview": "《现在就出发》是由腾讯视频出品，一生向扬联合出品出的户外真人秀 。节目一方面为观众展现了祖国引人入胜的山河风光、自然美景，另一方面展现出嘉宾们与大自然相处的生活观，带领观众一起逃离都市水泥森林，打造秘境里的充电之旅。",
+      "poster_url": "https://image.tmdb.org/t/p/original/rYA8lb9XCfI0RRHUr4rQ6F44A3j.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mqlxv348gPd20K9W98F1VrOVHq2.jpg"
     },
     {
       "id": 1476746,
       "title": "花匠刺客",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.5,
+      "rating": 6.8,
       "release_date": "2026-09-24",
       "overview": "温和低调的花匠，实则是顶尖刺客，一心逃离血腥过往。他偶然结识揭发警界腐败的关键证人，对方遭黑警追杀，他的真实身份也随之曝光。为保护证人，他不得不重拾武器，对抗庞大的黑警集团，浴血奋战。",
       "poster_url": "https://image.tmdb.org/t/p/original/vv2WOsUIL4tAdf8BW2of8Kgq08E.jpg",
@@ -223,28 +223,6 @@
     }
   ],
   "week_global_all": [
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 8.4,
-      "release_date": "2026-07-29",
-      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/307VGSiP9BCF4Z6vhJilmkiMx5O.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
-    },
-    {
-      "id": 1236045,
-      "title": "人性本兽",
-      "type": "movie",
-      "genreTitle": "惊悚•剧情",
-      "rating": 7.4,
-      "release_date": "2026-10-09",
-      "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2lx5WGVJ6cl5wMwdgjxezpPAk7m.jpg"
-    },
     {
       "id": 123542,
       "title": "时光代理人",
@@ -257,15 +235,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5ose7fWrreM9Zr7CiixAGpnMFe.jpg"
     },
     {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2026-08-16",
-      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 8.4,
+      "release_date": "2026-07-29",
+      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
+      "poster_url": "https://image.tmdb.org/t/p/original/307VGSiP9BCF4Z6vhJilmkiMx5O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
       "id": 1148365,
@@ -277,6 +255,28 @@
       "overview": "一群儿时好友重聚后，生活发生巨变。曾离开家乡的前领袖、中央情报局卧底特工肖恩突然归来，意外将众人卷入一场紧张的国际追逐行动，必须合力拯救世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/qpLaKSlC9OE3Fk1e48jFIekgr5t.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
+    },
+    {
+      "id": 1236045,
+      "title": "人性本兽",
+      "type": "movie",
+      "genreTitle": "惊悚•剧情",
+      "rating": 7.4,
+      "release_date": "2026-10-09",
+      "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
+    },
+    {
+      "id": 95350,
+      "title": "绿灯军团",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2026-08-16",
+      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
     },
     {
       "id": 288673,
@@ -291,14 +291,25 @@
     },
     {
       "id": 1291595,
-      "title": "潜伏6：血域",
+      "title": "潜伏6：阴深暗处",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
       "rating": 7.6,
       "release_date": "2026-08-19",
-      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的异界“幽冥界”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
+      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的“阴深暗处”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
+    },
+    {
+      "id": 1284046,
+      "title": "猛攻",
+      "type": "movie",
+      "genreTitle": "动作•恐怖•惊悚",
+      "rating": 5.8,
+      "release_date": "2026-09-02",
+      "overview": "军事基地逃出了一个神秘的危险存在，被佣军追捕，威胁到了一名此前曾是军人、如今因为某些原因住在拖车里的母亲。为保护所爱之人，她不得不使出特殊技能。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xsCLTMktqhQSbde0hiEREKEELcN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qgN9wbkCpY42xsQJyFJ5H1CtS.jpg"
     },
     {
       "id": 1101412,
@@ -345,17 +356,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
-      "id": 1284046,
-      "title": "猛攻",
-      "type": "movie",
-      "genreTitle": "动作•恐怖•惊悚",
-      "rating": 5.8,
-      "release_date": "2026-09-02",
-      "overview": "军事基地逃出了一个神秘的危险存在，被佣军追捕，威胁到了一名此前曾是军人、如今因为某些原因住在拖车里的母亲。为保护所爱之人，她不得不使出特殊技能。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xsCLTMktqhQSbde0hiEREKEELcN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/e1qgN9wbkCpY42xsQJyFJ5H1CtS.jpg"
-    },
-    {
       "id": 285322,
       "title": "暗潮之下",
       "type": "tv",
@@ -367,26 +367,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg"
     },
     {
-      "id": 73223,
-      "title": "黑色五叶草",
+      "id": 298505,
+      "title": "乌鸦学园",
       "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2017-10-03",
-      "overview": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔……这是关于一位没魔法能力的少年却想要成为魔法帝的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/fneujgbpcmX92mywDf30cvk1s7q.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mNadS5wd6Co7rUsWWY7jXUkYoP1.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 7.4,
+      "release_date": "2026-10-01",
+      "overview": "纽约少女布莱尔来到新奥尔良一所神秘的魔法学校，试图揭开母亲命运的谜团。随着巫师与吸血鬼的冲突升级，她和同伴必须对抗更黑暗的威胁，同时应对超自然校园生活与禁忌初恋。",
+      "poster_url": "https://image.tmdb.org/t/p/original/lxB8RtueKNlTHoKajFA1TK06n8n.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/Yotonexyut0zMzYQbb4HlBNLG8.jpg"
     },
     {
-      "id": 247718,
-      "title": "MobLand",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 8.5,
-      "release_date": "2025-03-30",
-      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
-      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
+      "id": 1458857,
+      "title": "只要活下去",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.7,
+      "release_date": "2026-10-02",
+      "overview": "一位单身母亲和一名被监禁的男子通过真挚的书信建立起一段出人意料的情谊，在重重困难之下，开启了一扇通往救赎、希望与爱的门。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bPof2ZCsbjCJ6nPPqQPexAd4wfm.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jhlA7tXeynux7WktY4XGOiYNwCK.jpg"
+    },
+    {
+      "id": 1281331,
+      "title": "社交清算",
+      "type": "movie",
+      "genreTitle": "剧情•历史•惊悚",
+      "rating": 7.4,
+      "release_date": "2026-10-07",
+      "overview": "《社交网络》的延续作品，受真实事件启发。年轻的Facebook工程师弗朗西斯·豪根在《华尔街日报》记者杰夫·霍维茨的协助下，踏上一段危险的旅程，揭露这个社交网络最隐秘的内幕。",
+      "poster_url": "https://image.tmdb.org/t/p/original/on14cDF7G7lHYiLzxH4yHMKGPsO.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zEa5jl6oH44m7DKB9i8m2oFMict.jpg"
     },
     {
       "id": 1283515,
@@ -400,48 +411,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "改编自荷马史诗《奥德赛》。特洛伊战争结束后，伊萨卡国王奥德修斯历经艰险、踏上漫长归乡之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
-      "id": 258165,
-      "title": "伊甸之东",
+      "id": 299939,
+      "title": "怪物：丽兹·波顿的故事",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.0,
-      "release_date": "2026-10-01",
-      "overview": "这部剧集对史坦贝克的经典之作进行了全新诠释，讲述特拉斯克家族跨越数代的传奇故事，特别聚焦于那个难以磨灭的反英雄人物——凯茜·埃姆斯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/slYjlpkFnaCSZJICqj2G158Eoqg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tpO6wfPC2giib4YvV3pQ5EaS7Bp.jpg"
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.0,
+      "release_date": "2026-09-17",
+      "overview": "被困于维多利亚时代残酷家庭的丽兹·波顿用斧头残忍杀害了自己的父母，此案震惊全国。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4Uk0MaEEx0bO418rhM7B8gqeFPy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1V4qYjjNNhldd3fQLUuTnzXRPmJ.jpg"
     },
     {
-      "id": 1339713,
-      "title": "痴迷",
+      "id": 1084244,
+      "title": "玩具总动员5",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "性格孤僻的小镇青年贝尔苦苦暗恋女神妮基却怯于表白。他在一家商店意外获得神秘许愿道具 “一愿柳”，折断柳条许下 “让妮基爱我胜过世上所有人” 的愿望。愿望成真后，妮基却逐渐失控，变得痴缠癫狂，对贝尔产生窒息般的控制欲，身体、人格与理智接连崩塌。这场强求来的 “爱情” 暗藏致命代价，将贝尔拖入万劫不复的深渊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
+      "genreTitle": "动画•家庭•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-06-17",
+      "overview": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oo46YfPuMcV9t7KsTiaMVUVRjvJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wDyp6C7IkBv4KW7bjNGgFq9IjQR.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4bhCfFuCfMITX3ZXYmyQKTvvSVI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
+      "id": 247718,
+      "title": "MobLand",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.5,
+      "release_date": "2025-03-30",
+      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
+      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     }
   ],
   "popular_movies": [
@@ -453,7 +453,7 @@
       "rating": 8.4,
       "release_date": "2026-07-29",
       "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/307VGSiP9BCF4Z6vhJilmkiMx5O.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
@@ -469,12 +469,12 @@
     },
     {
       "id": 1291595,
-      "title": "潜伏6：血域",
+      "title": "潜伏6：阴深暗处",
       "type": "movie",
       "genreTitle": "恐怖•惊悚",
       "rating": 7.6,
       "release_date": "2026-08-19",
-      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的异界“幽冥界”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
+      "overview": "一位年轻母亲带着女儿住回儿时的家中，却发现自己能够进入亡魂徘徊的“阴深暗处”。当邪恶力量盯上她，她发现自己不仅能进入其中，还能将其中的存在带回现实世界。",
       "poster_url": "https://image.tmdb.org/t/p/original/5hzLh3TS8XLZpNDlQ6fZGc2TPCn.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/31FE1XdUcyN5rF8nRDBr4iDwawn.jpg"
     },
@@ -501,17 +501,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/bQQ3UGOJcCTRjVAjOwR17eQuwJC.jpg"
     },
     {
-      "id": 1377237,
-      "title": "护肝人",
-      "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-09-07",
-      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
-    },
-    {
       "id": 1101412,
       "title": "坠落２：死点",
       "type": "movie",
@@ -523,26 +512,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"
     },
     {
-      "id": 1751701,
-      "title": "星陨之后",
+      "id": 1377237,
+      "title": "护肝人",
       "type": "movie",
-      "genreTitle": "科幻•剧情•惊悚",
-      "rating": 6.0,
-      "release_date": "2026-09-15",
-      "overview": "丧父的伊森·尼科尔斯继承了国内大型温室，恰逢小行星即将撞击地球。社会崩塌，他遭遇背叛、深陷孤独，为求生躲进家族掩体，在撞击后的废墟中忍受伤痛与绝望。直到无线电传来微弱信号，他才知道自己并非孤身一人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eFWjIRSntE5h5mxRLML5HrMygGZ.jpg"
-    },
-    {
-      "id": 1236045,
-      "title": "人性本兽",
-      "type": "movie",
-      "genreTitle": "惊悚•剧情",
-      "rating": 7.5,
-      "release_date": "2026-10-09",
-      "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2lx5WGVJ6cl5wMwdgjxezpPAk7m.jpg"
+      "genreTitle": "动作•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-07",
+      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
     },
     {
       "id": 1712451,
@@ -556,11 +534,22 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/473QygJr1AdPJbl1IXYi2bxVcfL.jpg"
     },
     {
+      "id": 1236045,
+      "title": "人性本兽",
+      "type": "movie",
+      "genreTitle": "惊悚•剧情",
+      "rating": 7.4,
+      "release_date": "2026-10-09",
+      "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
+    },
+    {
       "id": 460458,
       "title": "Resident Evil: Welcome to Raccoon City",
       "type": "movie",
       "genreTitle": "动作•恐怖•科幻",
-      "rating": 5.9,
+      "rating": 6.0,
       "release_date": "2021-11-24",
       "overview": "浣熊市曾是蓬勃发展的制药巨头——伞公司(Umbrella Corporation)的总部所在地，现在却是一个死气沉沉的中西部小镇。该公司的大撤离使这座城市变成了一片荒地，地下蕴藏着巨大的邪恶。当邪恶被释放时，镇上的人们将永远改变，一小群幸存者必须共同努力，揭开保护伞背后的真相，并度过夜晚。",
       "poster_url": "https://image.tmdb.org/t/p/original/ybDsxJcJpxutJHA12yZVxGxQIsU.jpg",
@@ -607,8 +596,19 @@
       "rating": 7.8,
       "release_date": "2026-10-05",
       "overview": "一群儿时好友重聚后，生活发生巨变。曾离开家乡的前领袖、中央情报局卧底特工肖恩突然归来，意外将众人卷入一场紧张的国际追逐行动，必须合力拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uA41lHbWzKTo7FJlCEITuICozc0.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/original/qpLaKSlC9OE3Fk1e48jFIekgr5t.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
+    },
+    {
+      "id": 1751701,
+      "title": "星陨之后",
+      "type": "movie",
+      "genreTitle": "科幻•剧情•惊悚",
+      "rating": 6.0,
+      "release_date": "2026-09-15",
+      "overview": "丧父的伊森·尼科尔斯继承了国内大型温室，恰逢小行星即将撞击地球。社会崩塌，他遭遇背叛、深陷孤独，为求生躲进家族掩体，在撞击后的废墟中忍受伤痛与绝望。直到无线电传来微弱信号，他才知道自己并非孤身一人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eFWjIRSntE5h5mxRLML5HrMygGZ.jpg"
     }
   ]
 }
