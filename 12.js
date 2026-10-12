@@ -5,7 +5,7 @@ var WidgetMetadata = {
   author: "sax",
   site: "https://github.com/saxdyo/FWWidgets",
   version: "0.0.1",
-  requiredVersion: "0.0.1",
+  requiredVersion: "1.3.0",
   detailCacheDuration: 60,
   
   // 全局参数
