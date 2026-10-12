@@ -4,7 +4,7 @@ var WidgetMetadata = {
   description: "TMDB + Trakt",
   author: "sax",
   site: "https://github.com/saxdyo/FWWidgets",
-  version: "3.0.1",
+  version: "0.0.1",
   requiredVersion: "0.0.1",
   detailCacheDuration: 60,
   
