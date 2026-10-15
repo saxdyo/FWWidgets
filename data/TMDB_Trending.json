@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-15 18:23:32",
+  "last_updated": "2026-10-15 23:21:07",
   "today_global": [
     {
       "id": 213375,
       "title": "幻视任务",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 9.0,
+      "rating": 9.1,
       "release_date": "2026-10-13",
       "overview": "幻视在重启后隐姓埋名，为了逃避企图把他变成武器的人。他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯，甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与托马斯·谢泼德踏上逃亡之路。这少年可能就是他儿子的化身。",
       "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
@@ -14,10 +14,10 @@
     },
     {
       "id": 1381078,
-      "title": "一生所爱",
+      "title": "你的生命挚爱",
       "type": "movie",
       "genreTitle": "爱情•剧情",
-      "rating": 6.2,
+      "rating": 6.3,
       "release_date": "2026-10-07",
       "overview": "《你的生命挚爱》由瑞秋·莫里森（代表作《内心之火》）执导，本片讲述了玛雅（玛格丽特·库里饰）与查理（加布里埃尔·巴索饰）的一次偶然邂逅开启了一段轰轰烈烈的恋情，也开启了一个远超玛雅想象的未来。当那个未来崩塌，玛雅被抛入一段意想不到的新生活--这段生活将迫使她直面自己是谁、想要什么，以及如何重新去爱的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/eEu09K9uy02fO8UcCrAnulDV3US.jpg",
@@ -28,40 +28,51 @@
       "title": "希望",
       "type": "movie",
       "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-07-15",
       "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
       "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
     },
     {
+      "id": 213562,
+      "title": "水晶湖",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 6.4,
+      "release_date": "2026-10-15",
+      "overview": "经典恐怖 IP《十三号星期五》即将推出前传剧集《水晶湖》，剧集敲定琳达・卡德里尼出演不死杀人魔杰森的母亲帕梅拉・沃赫斯；1980 年原版电影里，帕梅拉便是整部悲剧的缘起：幼子杰森自幼体弱多病，在将近一年前不幸溺亡于小镇湖泊，丧子之痛始终将这位单亲母亲裹挟其中、难以消解。而后两名陌生来客登门打探她的过往，一连串惊悚诡异的事件接连爆发，水晶湖小镇的居民也纷纷心生猜忌：帕梅拉・沃赫斯的真面目到底是什么？",
+      "poster_url": "https://image.tmdb.org/t/p/original/t0OZ6k0hvLgbQjK6tge6F83bfng.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xdOvVEA4mMt8L0WAWYx55w2CSkB.jpg"
+    },
+    {
       "id": 1153576,
       "title": "街头霸王",
       "type": "movie",
       "genreTitle": "动作•奇幻",
-      "rating": 6.7,
+      "rating": 6.6,
       "release_date": "2026-10-13",
       "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
       "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
     },
     {
-      "id": 123542,
-      "title": "时光代理人",
+      "id": 203857,
+      "title": "头号外交官",
       "type": "tv",
-      "genreTitle": "动画•Sci-Fi & Fantasy•悬疑",
-      "rating": 8.1,
-      "release_date": "2021-04-30",
-      "overview": "在繁华都市的某个角落，有一家叫做“时光照相馆”的小店还在照常营业。虽然门庭冷落，但它背后其实由两个具有特殊能力的男人——程小时和陆光经营着。为了完成顾客的委托，陆光和程小时组队配合使用超能力进入照片，然而事情的发展却没能按他们所想的那样。",
-      "poster_url": "https://image.tmdb.org/t/p/original/44cNZ5PmLOwTIOkYwlAewgzn8Bl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f5ose7fWrreM9Zr7CiixAGpnMFe.jpg"
+      "genreTitle": "剧情•War & Politics",
+      "rating": 7.6,
+      "release_date": "2023-04-20",
+      "overview": "在一场国际危机期间，这名职业外交官既要应对身为英国大使的重责，又要处理她与政坛明星的动荡婚姻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xmVWrkNhIIWpNiV8abuMvL5wDM7.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/s5KaidPKwFkCM7BvZALVQ7yjbI4.jpg"
     },
     {
       "id": 1255833,
       "title": "鲸口脱险",
       "type": "movie",
       "genreTitle": "惊悚",
-      "rating": 7.8,
+      "rating": 7.5,
       "release_date": "2026-10-14",
       "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
       "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
@@ -79,48 +90,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
-      "id": 203857,
-      "title": "头号外交官",
-      "type": "tv",
-      "genreTitle": "剧情•War & Politics",
-      "rating": 7.6,
-      "release_date": "2023-04-20",
-      "overview": "在一场国际危机期间，这名职业外交官既要应对身为英国大使的重责，又要处理她与政坛明星的动荡婚姻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xmVWrkNhIIWpNiV8abuMvL5wDM7.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/s5KaidPKwFkCM7BvZALVQ7yjbI4.jpg"
-    },
-    {
-      "id": 1514026,
-      "title": "逃出布迪秀",
+      "id": 1623256,
+      "title": "风暴生日宴",
       "type": "movie",
-      "genreTitle": "恐怖•喜剧•奇幻",
-      "rating": 7.4,
-      "release_date": "2026-08-27",
-      "overview": "一行人意外坠入诡异老式儿童节目次元。画风酷似玛卡巴卡，软萌橙色独角兽巴迪主持欢乐秀场。一旦拒绝配合演出，便会惨遭猎杀，死者还会被节目直接替换。众人被困虚假片场，一边躲避玩偶的疯狂追杀，一边拼死寻找逃出电视空间的出路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qG84lCvV5wDVBDYaNFPDFWa9IAl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A4rtlYLwJxcCR9BrB9g4AEDU0FF.jpg"
+      "genreTitle": "喜剧•剧情",
+      "rating": 8.8,
+      "release_date": "2026-10-15",
+      "overview": "　　菲利普即将年满 45 岁，他邀请了自己最亲密的朋友们来他在瑞典北部那座豪华且新购置的农场庄园共进晚餐。但他们并不知道，一场猛烈的风暴即将来临，届时他们将被困在一起。他们精心伪装的举止崩溃了，毫无掩饰的崩溃情绪随之而来。当恐慌开始蔓延，所有人都意识到情况的严重性时，农场开始缩小，秘密被揭露，意想不到的情感也随之形成。",
+      "poster_url": "https://image.tmdb.org/t/p/original/glNkKRgIJdUpsVilwSZL720qq2Q.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg"
     },
     {
       "id": 1302904,
       "title": "魔法情缘",
       "type": "movie",
       "genreTitle": "爱情•奇幻•喜剧",
-      "rating": 6.3,
+      "rating": 6.4,
       "release_date": "2026-09-09",
       "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
       "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
-    },
-    {
-      "id": 289892,
-      "title": "极恶老大",
-      "type": "tv",
-      "genreTitle": "动画•喜剧•剧情",
-      "rating": 7.5,
-      "release_date": "2020-10-31",
-      "overview": "这部成人向动画喜剧讲述了“急速杀人专业团”（简称“急杀团”）的荒诞历险、胡闹日常与复杂关系。这支来自地狱的恶魔刺客团队，以猎杀地球上的人类为业。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2amGMjIx3kXNUIFPVZZBVBTu6PS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vzL52Oa06RgZ6GEVR20TTlsGfdz.jpg"
     },
     {
       "id": 288673,
@@ -134,26 +123,70 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
+      "id": 289892,
+      "title": "极恶老大",
+      "type": "tv",
+      "genreTitle": "动画•喜剧•剧情",
+      "rating": 7.5,
+      "release_date": "2020-10-31",
+      "overview": "这部成人向动画喜剧讲述了“急速杀人专业团”（简称“急杀团”）的荒诞历险、胡闹日常与复杂关系。这支来自地狱的恶魔刺客团队，以猎杀地球上的人类为业。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2amGMjIx3kXNUIFPVZZBVBTu6PS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vzL52Oa06RgZ6GEVR20TTlsGfdz.jpg"
+    },
+    {
+      "id": 1514026,
+      "title": "逃出布迪秀",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧•奇幻",
+      "rating": 7.3,
+      "release_date": "2026-08-27",
+      "overview": "一行人意外坠入诡异老式儿童节目次元。画风酷似玛卡巴卡，软萌橙色独角兽巴迪主持欢乐秀场。一旦拒绝配合演出，便会惨遭猎杀，死者还会被节目直接替换。众人被困虚假片场，一边躲避玩偶的疯狂追杀，一边拼死寻找逃出电视空间的出路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qG84lCvV5wDVBDYaNFPDFWa9IAl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A4rtlYLwJxcCR9BrB9g4AEDU0FF.jpg"
+    },
+    {
+      "id": 286183,
+      "title": "好莱坞艺术学校",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•家庭",
+      "rating": 0.0,
+      "release_date": "2026-10-15",
+      "overview": "事业不顺的女演员崔娜·维加回到她的母校好莱坞艺术学校，成为了一名不合格的代课老师。她很快发现自己既与新一代雄心勃勃、才华横溢的学生们发生冲突，又意外地激励着他们，帮助他们在这所好莱坞最顶尖的表演艺术学校找到自己真正的道路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uVL8tV8z9br3XGsA9DDEY743sRE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jaZAduAvxdW8kpCVp6CZJQ2FSbr.jpg"
+    },
+    {
+      "id": 1234139,
+      "title": "ஜெயிலர் 2",
+      "type": "movie",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-10-14",
+      "overview": "",
+      "poster_url": "https://image.tmdb.org/t/p/original/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg"
+    },
+    {
+      "id": 1236045,
+      "title": "人性本兽",
+      "type": "movie",
+      "genreTitle": "惊悚•剧情",
+      "rating": 7.2,
+      "release_date": "2026-10-09",
+      "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
+    },
+    {
       "id": 1400940,
       "title": "泥面人",
       "type": "movie",
       "genreTitle": "恐怖•惊悚•科幻",
-      "rating": 8.3,
+      "rating": 8.2,
       "release_date": "2026-10-21",
       "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
       "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
-    },
-    {
-      "id": 273247,
-      "title": "独家黑幕",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 6.7,
-      "release_date": "2025-09-23",
-      "overview": "该剧讲述公民记者李·雷本的刺激冒险。这位狂热的记者自称塔尔萨“真相守护者”，他对真相的执着总让他惹上麻烦。虽然李不是理想主义者，但他坚决揭露腐败，挖掘城镇的秘辛，即使这会让他身陷险境。李最新一篇深度报道，揭露了权倾一时的华许伯格家族秘辛，没想到戴尔·华许伯格随即离奇自杀身亡，李知道自己挖到惊天内幕了。戴尔生前留下线索，希望有人能深入调查他的死因，李决定追查下去。李发现，悲伤的寡妇贝蒂·乔似乎对她的大伯比对她已故的丈夫更感兴趣。而一股强大的势力想要阻止李继续追查。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5iiJrn2O5YmOCSQh7fm7DejeQrx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/uYryVpgFWgEMizSiOcc53JcDGq9.jpg"
     },
     {
       "id": 1148365,
@@ -178,48 +211,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
-      "id": 1236045,
-      "title": "人性本兽",
-      "type": "movie",
-      "genreTitle": "惊悚•剧情",
-      "rating": 7.2,
-      "release_date": "2026-10-09",
-      "overview": "在儿子被人绑架后，一位洛杉矶市长候选人和妻子一边急忙筹赎金，一边做出选择，而这些选择可能彻底改变他们的生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/4AK2gnG7V8HnMfQT7uiNJo0yMme.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
-    },
-    {
-      "id": 335536,
-      "title": "泰森",
+      "id": 273247,
+      "title": "独家黑幕",
       "type": "tv",
-      "genreTitle": "纪录",
-      "rating": 0.0,
-      "release_date": "2026-10-13",
-      "overview": "这部扣人心弦的四集纪录片剧集聚焦迈克·泰森这位体育史上最令人敬畏和迷人的人物之一，探寻了他的劲爆人生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bHyUKbN8My4burTpJkls5IPNKYK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1rlMGCyEYfvW2r2Bdlff1Jp47wa.jpg"
-    },
-    {
-      "id": 213562,
-      "title": "水晶湖",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 5.5,
-      "release_date": "2026-10-15",
-      "overview": "经典恐怖 IP《十三号星期五》即将推出前传剧集《水晶湖》，剧集敲定琳达・卡德里尼出演不死杀人魔杰森的母亲帕梅拉・沃赫斯；1980 年原版电影里，帕梅拉便是整部悲剧的缘起：幼子杰森自幼体弱多病，在将近一年前不幸溺亡于小镇湖泊，丧子之痛始终将这位单亲母亲裹挟其中、难以消解。而后两名陌生来客登门打探她的过往，一连串惊悚诡异的事件接连爆发，水晶湖小镇的居民也纷纷心生猜忌：帕梅拉・沃赫斯的真面目到底是什么？",
-      "poster_url": "https://image.tmdb.org/t/p/original/t0OZ6k0hvLgbQjK6tge6F83bfng.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xdOvVEA4mMt8L0WAWYx55w2CSkB.jpg"
-    },
-    {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2026-08-16",
-      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 6.7,
+      "release_date": "2025-09-23",
+      "overview": "该剧讲述公民记者李·雷本的刺激冒险。这位狂热的记者自称塔尔萨“真相守护者”，他对真相的执着总让他惹上麻烦。虽然李不是理想主义者，但他坚决揭露腐败，挖掘城镇的秘辛，即使这会让他身陷险境。李最新一篇深度报道，揭露了权倾一时的华许伯格家族秘辛，没想到戴尔·华许伯格随即离奇自杀身亡，李知道自己挖到惊天内幕了。戴尔生前留下线索，希望有人能深入调查他的死因，李决定追查下去。李发现，悲伤的寡妇贝蒂·乔似乎对她的大伯比对她已故的丈夫更感兴趣。而一股强大的势力想要阻止李继续追查。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5iiJrn2O5YmOCSQh7fm7DejeQrx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gQrfqFa3GBbmKl9DUPxCpyLNARi.jpg"
     }
   ],
   "week_global_all": [
@@ -239,11 +239,22 @@
       "title": "幻视任务",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 9.0,
+      "rating": 9.1,
       "release_date": "2026-10-13",
       "overview": "幻视在重启后隐姓埋名，为了逃避企图把他变成武器的人。他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯，甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与托马斯·谢泼德踏上逃亡之路。这少年可能就是他儿子的化身。",
       "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
+    },
+    {
+      "id": 213562,
+      "title": "水晶湖",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 6.4,
+      "release_date": "2026-10-15",
+      "overview": "经典恐怖 IP《十三号星期五》即将推出前传剧集《水晶湖》，剧集敲定琳达・卡德里尼出演不死杀人魔杰森的母亲帕梅拉・沃赫斯；1980 年原版电影里，帕梅拉便是整部悲剧的缘起：幼子杰森自幼体弱多病，在将近一年前不幸溺亡于小镇湖泊，丧子之痛始终将这位单亲母亲裹挟其中、难以消解。而后两名陌生来客登门打探她的过往，一连串惊悚诡异的事件接连爆发，水晶湖小镇的居民也纷纷心生猜忌：帕梅拉・沃赫斯的真面目到底是什么？",
+      "poster_url": "https://image.tmdb.org/t/p/original/t0OZ6k0hvLgbQjK6tge6F83bfng.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xdOvVEA4mMt8L0WAWYx55w2CSkB.jpg"
     },
     {
       "id": 1236045,
@@ -257,15 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
     },
     {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 8.5,
-      "release_date": "2026-07-29",
-      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+      "id": 288673,
+      "title": "魔女嘉莉",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2026-10-07",
+      "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xobpaz7TiODcuGhT9dvENFhhVGw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
       "id": 1148365,
@@ -279,22 +290,33 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
     },
     {
-      "id": 288673,
-      "title": "魔女嘉莉",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2026-10-07",
-      "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xobpaz7TiODcuGhT9dvENFhhVGw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 8.5,
+      "release_date": "2026-07-29",
+      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+    },
+    {
+      "id": 1153576,
+      "title": "街头霸王",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 6.6,
+      "release_date": "2026-10-13",
+      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
     },
     {
       "id": 1058424,
       "title": "希望",
       "type": "movie",
       "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-07-15",
       "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
       "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
@@ -305,33 +327,11 @@
       "title": "魔法情缘",
       "type": "movie",
       "genreTitle": "爱情•奇幻•喜剧",
-      "rating": 6.3,
+      "rating": 6.4,
       "release_date": "2026-09-09",
       "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
       "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
-    },
-    {
-      "id": 1153576,
-      "title": "街头霸王",
-      "type": "movie",
-      "genreTitle": "动作•奇幻",
-      "rating": 6.7,
-      "release_date": "2026-10-13",
-      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
-    },
-    {
-      "id": 1381078,
-      "title": "一生所爱",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.2,
-      "release_date": "2026-10-07",
-      "overview": "《你的生命挚爱》由瑞秋·莫里森（代表作《内心之火》）执导，本片讲述了玛雅（玛格丽特·库里饰）与查理（加布里埃尔·巴索饰）的一次偶然邂逅开启了一段轰轰烈烈的恋情，也开启了一个远超玛雅想象的未来。当那个未来崩塌，玛雅被抛入一段意想不到的新生活--这段生活将迫使她直面自己是谁、想要什么，以及如何重新去爱的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eEu09K9uy02fO8UcCrAnulDV3US.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i6klj4wEjBI2BDRGHlNrROXvvLK.jpg"
     },
     {
       "id": 285322,
@@ -345,15 +345,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg"
     },
     {
-      "id": 95350,
-      "title": "绿灯军团",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2026-08-16",
-      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
+      "id": 1255833,
+      "title": "鲸口脱险",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 7.5,
+      "release_date": "2026-10-14",
+      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
+    },
+    {
+      "id": 1400837,
+      "title": "另一个妈妈",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 6.0,
+      "release_date": "2026-10-07",
+      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
     },
     {
       "id": 203857,
@@ -367,15 +378,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/s5KaidPKwFkCM7BvZALVQ7yjbI4.jpg"
     },
     {
-      "id": 1248832,
-      "title": "挖掘者",
+      "id": 1381078,
+      "title": "你的生命挚爱",
       "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.5,
-      "release_date": "2026-09-28",
-      "overview": "世界上最有权势的男子极力证明自己其实是人类的救世主，结果等来了他酝酿的灾难要摧毁万物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/c8UJ50GM0jiVIk6YO9hEiqEe0dP.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/2Bia4uyQ64lbOXvirVSPOtqmt2R.jpg"
+      "genreTitle": "爱情•剧情",
+      "rating": 6.3,
+      "release_date": "2026-10-07",
+      "overview": "《你的生命挚爱》由瑞秋·莫里森（代表作《内心之火》）执导，本片讲述了玛雅（玛格丽特·库里饰）与查理（加布里埃尔·巴索饰）的一次偶然邂逅开启了一段轰轰烈烈的恋情，也开启了一个远超玛雅想象的未来。当那个未来崩塌，玛雅被抛入一段意想不到的新生活--这段生活将迫使她直面自己是谁、想要什么，以及如何重新去爱的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eEu09K9uy02fO8UcCrAnulDV3US.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i6klj4wEjBI2BDRGHlNrROXvvLK.jpg"
+    },
+    {
+      "id": 95350,
+      "title": "绿灯军团",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2026-08-16",
+      "overview": "绿灯侠哈尔·乔丹与新晋成员约翰·斯图尔特奉命调查美国小镇的一起神秘命案，却意外发现案件背后隐藏着与外星势力有关的阴谋，两人也在追查真相的过程中面对各自的信念与考验。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5ZmOP60VIEfM2cnt7CpAK1j9mEv.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/d2PAuA5kqVVy3tIHejBNykucr9l.jpg"
+    },
+    {
+      "id": 1003596,
+      "title": "复仇者联盟5",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/noX1GBl8agsODI785LIwJJRYADr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
       "id": 1423191,
@@ -400,48 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ycaeQclsoHdEVLIRZDOLY2oq7E2.jpg"
     },
     {
-      "id": 1400837,
-      "title": "另一个妈妈",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.0,
-      "release_date": "2026-10-07",
-      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
-    },
-    {
-      "id": 1255833,
-      "title": "鲸口脱险",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 7.8,
-      "release_date": "2026-10-14",
-      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
-    },
-    {
       "id": 1514026,
       "title": "逃出布迪秀",
       "type": "movie",
       "genreTitle": "恐怖•喜剧•奇幻",
-      "rating": 7.4,
+      "rating": 7.3,
       "release_date": "2026-08-27",
       "overview": "一行人意外坠入诡异老式儿童节目次元。画风酷似玛卡巴卡，软萌橙色独角兽巴迪主持欢乐秀场。一旦拒绝配合演出，便会惨遭猎杀，死者还会被节目直接替换。众人被困虚假片场，一边躲避玩偶的疯狂追杀，一边拼死寻找逃出电视空间的出路。",
       "poster_url": "https://image.tmdb.org/t/p/original/qG84lCvV5wDVBDYaNFPDFWa9IAl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/A4rtlYLwJxcCR9BrB9g4AEDU0FF.jpg"
-    },
-    {
-      "id": 1003596,
-      "title": "复仇者联盟5",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/noX1GBl8agsODI785LIwJJRYADr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     }
   ],
   "popular_movies": [
