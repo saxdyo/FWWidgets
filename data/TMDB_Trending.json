@@ -1,60 +1,38 @@
 {
-  "last_updated": "2026-10-16 23:01:14",
+  "last_updated": "2026-10-17 03:03:18",
   "today_global": [
     {
       "id": 1561726,
       "title": "大师计划",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 6.8,
+      "rating": 7.1,
       "release_date": "2026-10-16",
       "overview": "老牌神偷罗杰锁定卢浮宫镇馆之宝《蒙娜丽莎》，组建一支背景复杂、彼此猜忌的小队执行这场惊天盗窃。行动危机四伏，严密安保与暗处敌人层层围堵，原定计划接连崩坏，所有人被迫卷入一场凶险的生死博弈。",
       "poster_url": "https://image.tmdb.org/t/p/original/oukBZ29x5wrYJDZe6TuOTxQ7eU0.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/n7bKjcudT50t0BD6kmAnMhmzfeZ.jpg"
     },
     {
-      "id": 213562,
-      "title": "水晶湖",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.5,
-      "release_date": "2026-10-15",
-      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
-      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mIFm62GP8NzzKFZEsKVyWOeImXn.jpg"
-    },
-    {
       "id": 1288069,
       "title": "登峰传奇：丹增诺盖",
       "type": "movie",
       "genreTitle": "剧情•历史",
-      "rating": 6.3,
+      "rating": 6.8,
       "release_date": "2026-10-09",
       "overview": "　　出生于西藏的丹增和新西兰人艾德蒙加入英国登山队，一同挑战登顶珠峰，克服了难以逾越的困难，完成曾经被认为不可能的事情：“经过六次尝试后，丹增冒着一切风险进行了最后一次冒险，当他开始人生中最意义重大的攀登时，必须应对变幻莫测的政治因素和危险的天气。在此期间，丹增以幽默、热心和慷慨的态度对待同伴，也对神圣的珠穆朗玛峰怀有深深的敬畏和尊重”。 　　1953年5月29日，他们成为第一批登上珠穆朗玛峰顶峰的人。",
       "poster_url": "https://image.tmdb.org/t/p/original/6bZjibVS7cdrhTcwHgh6K8imNxF.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1bn5gYwFcGeA1FZoBbJl7bzWIfX.jpg"
     },
     {
-      "id": 1153576,
-      "title": "街头霸王",
-      "type": "movie",
-      "genreTitle": "动作•奇幻",
-      "rating": 6.4,
-      "release_date": "2026-10-13",
-      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
-    },
-    {
-      "id": 1623256,
-      "title": "风暴生日宴",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 8.3,
+      "id": 213562,
+      "title": "水晶湖",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.8,
       "release_date": "2026-10-15",
-      "overview": "几个大学老友被一场暴风雪困在了一家豪华旅馆，原本其乐融融的庆生宴随之演变成一场背叛、怨恨和不折不扣的混乱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ncniSkVXtWmo43Ua0wj97IUwh6t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg"
+      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
+      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mIFm62GP8NzzKFZEsKVyWOeImXn.jpg"
     },
     {
       "id": 153312,
@@ -65,7 +43,40 @@
       "release_date": "2022-11-13",
       "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
       "poster_url": "https://image.tmdb.org/t/p/original/pCJAdouNp46d31mGmpExm3evaKT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pS7CRbAb5LSaLAbgH9OkHg84yXh.jpg"
+    },
+    {
+      "id": 1153576,
+      "title": "街头霸王",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 6.2,
+      "release_date": "2026-10-13",
+      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
+    },
+    {
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 7.0,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
+    },
+    {
+      "id": 1623256,
+      "title": "风暴生日宴",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.9,
+      "release_date": "2026-10-15",
+      "overview": "几个大学老友被一场暴风雪困在了一家豪华旅馆，原本其乐融融的庆生宴随之演变成一场背叛、怨恨和不折不扣的混乱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ncniSkVXtWmo43Ua0wj97IUwh6t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/o4PeL2YUFYwliMfxVWJSo1kwaaQ.jpg"
     },
     {
       "id": 203857,
@@ -79,37 +90,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/s5KaidPKwFkCM7BvZALVQ7yjbI4.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.0,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
-    },
-    {
       "id": 213375,
       "title": "幻视任务",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 9.1,
+      "rating": 9.0,
       "release_date": "2026-10-13",
       "overview": "幻视在重启后隐姓埋名，为了逃避企图把他变成武器的人。他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯，甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与托马斯·谢泼德踏上逃亡之路。这少年可能就是他儿子的化身。",
       "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
-      "id": 300146,
-      "title": "嫁金钗",
-      "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 9.0,
-      "release_date": "2026-10-16",
-      "overview": "阿丑原是街上倒夜香的低贱少女，人人皆可践踏欺凌，只因一张酷似侯府千金魏娆的面容，意外成为国公府世子陆濯的冲喜新娘。阿丑野心勃勃，一心借机上位，然而濒死的新婚丈夫忽然苏醒，鸠占鹊巢引来连绵灾祸。魏娆恨她鸠占鹊巢，急欲除之后快；陆濯以她为蛇蝎妇人，百般提防谋算。国公府明面一团和气，实则陷阱重重、步步杀机。阿丑于暗流中奋力周旋各方、筹谋前路，挣脱命运桎梏，更查出了自己身世的秘密，与至亲最终团圆，从底层夜香妇一路逆袭上位，过出光芒万丈的锦绣人生。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/214MZMPdA3F2GZlm9c3aYE91sYt.jpg"
+      "id": 1255833,
+      "title": "鲸口脱险",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 7.4,
+      "release_date": "2026-10-14",
+      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
+    },
+    {
+      "id": 1284186,
+      "title": "牺牲",
+      "type": "movie",
+      "genreTitle": "冒险•喜剧•动作",
+      "rating": 5.8,
+      "release_date": "2026-04-09",
+      "overview": "在一场星光熠熠的慈善晚会上，一位陷入存在主义危机的电影明星被激进女战士及其追随者劫持。随着现场陷入混乱，一场关于信仰、救赎与牺牲的冒险就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9ZNlVceBMpLVJK3s8I64nLYeF2d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg"
     },
     {
       "id": 1381078,
@@ -123,48 +134,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/i6klj4wEjBI2BDRGHlNrROXvvLK.jpg"
     },
     {
-      "id": 1255833,
-      "title": "鲸口脱险",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 7.5,
-      "release_date": "2026-10-14",
-      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 8.5,
-      "release_date": "2026-07-29",
-      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
-    },
-    {
-      "id": 1234139,
-      "title": "狱卒2",
-      "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-10-14",
-      "overview": "退役狱警“老虎”穆图维尔·潘迪安隐姓埋名，与家人过着平静生活。随着昔日犯罪集团追查瓦尔曼之死及失踪的古代雕像，他的行踪意外暴露。为保护家人，穆图维尔再度迎战新的敌人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNlCTdDVKeYfXgJZANgHYFAcpqK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/zpHTOdRl7GEPqFsDGqsN6Hi9Ylt.jpg"
-    },
-    {
-      "id": 1302904,
-      "title": "魔法情缘",
-      "type": "movie",
-      "genreTitle": "爱情•奇幻•喜剧",
-      "rating": 6.7,
-      "release_date": "2026-09-09",
-      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
+      "id": 286183,
+      "title": "好莱坞艺术学院",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情•家庭",
+      "rating": 7.0,
+      "release_date": "2026-10-15",
+      "overview": "好莱坞艺术学院开课啦！自称偶像的特丽娜·维加回归，带领一群才华横溢的青少年追逐明星梦和名望，同时也引发各种爆笑混乱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/seJH1p7gWvgQBAmzep5xpt3J71a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jaZAduAvxdW8kpCVp6CZJQ2FSbr.jpg"
     },
     {
       "id": 288673,
@@ -178,6 +156,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 8.5,
+      "release_date": "2026-07-29",
+      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+    },
+    {
+      "id": 300146,
+      "title": "嫁金钗",
+      "type": "tv",
+      "genreTitle": "剧情",
+      "rating": 9.0,
+      "release_date": "2026-10-16",
+      "overview": "阿丑原是街上倒夜香的低贱少女，人人皆可践踏欺凌，只因一张酷似侯府千金魏娆的面容，意外成为国公府世子陆濯的冲喜新娘。阿丑野心勃勃，一心借机上位，然而濒死的新婚丈夫忽然苏醒，鸠占鹊巢引来连绵灾祸。魏娆恨她鸠占鹊巢，急欲除之后快；陆濯以她为蛇蝎妇人，百般提防谋算。国公府明面一团和气，实则陷阱重重、步步杀机。阿丑于暗流中奋力周旋各方、筹谋前路，挣脱命运桎梏，更查出了自己身世的秘密，与至亲最终团圆，从底层夜香妇一路逆袭上位，过出光芒万丈的锦绣人生。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/214MZMPdA3F2GZlm9c3aYE91sYt.jpg"
+    },
+    {
       "id": 1400940,
       "title": "泥面人",
       "type": "movie",
@@ -189,15 +189,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
     },
     {
-      "id": 1284186,
-      "title": "牺牲",
+      "id": 1302904,
+      "title": "魔法情缘",
       "type": "movie",
-      "genreTitle": "冒险•喜剧•动作",
-      "rating": 5.7,
-      "release_date": "2026-04-09",
-      "overview": "在一场星光熠熠的慈善晚会上，一位陷入存在主义危机的电影明星被激进女战士及其追随者劫持。随着现场陷入混乱，一场关于信仰、救赎与牺牲的冒险就此展开。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9ZNlVceBMpLVJK3s8I64nLYeF2d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg"
+      "genreTitle": "爱情•奇幻•喜剧",
+      "rating": 6.7,
+      "release_date": "2026-09-09",
+      "overview": "一个世代都是女巫的家族，被诅咒几个世纪都无法拥有爱情，他们试​​图通过直面黑暗的秘密和为彼此牺牲来打破诅咒。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bJbQFamy07IPMxZHcPLKCTY4b6t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
     },
     {
       "id": 247718,
@@ -211,18 +211,62 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     },
     {
-      "id": 286183,
-      "title": "好莱坞艺术学院",
+      "id": 298550,
+      "title": "朋友、性和游戏",
       "type": "tv",
-      "genreTitle": "喜剧•剧情•家庭",
-      "rating": 7.0,
-      "release_date": "2026-10-15",
-      "overview": "好莱坞艺术学院开课啦！自称偶像的特丽娜·维加回归，带领一群才华横溢的青少年追逐明星梦和名望，同时也引发各种爆笑混乱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/seJH1p7gWvgQBAmzep5xpt3J71a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jaZAduAvxdW8kpCVp6CZJQ2FSbr.jpg"
+      "genreTitle": "剧情",
+      "rating": 0.0,
+      "release_date": "2026-10-16",
+      "overview": "一次偶然的前同学间的相遇，触发了一场关键游戏的开始，在这场游戏中，四对伴侣要交换对象。节目以一种既细腻又非常有趣的方式探讨了以下主题：我的感情关系是否幸福，以及当我试探其界限时会发生什么？",
+      "poster_url": "https://image.tmdb.org/t/p/original/y4pqKTe8foSlbZJxfhvEHvkmEkH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/geSUajSeWBu14vLk0NyuR1OnrX7.jpg"
     }
   ],
   "week_global_all": [
+    {
+      "id": 1561726,
+      "title": "大师计划",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.1,
+      "release_date": "2026-10-16",
+      "overview": "老牌神偷罗杰锁定卢浮宫镇馆之宝《蒙娜丽莎》，组建一支背景复杂、彼此猜忌的小队执行这场惊天盗窃。行动危机四伏，严密安保与暗处敌人层层围堵，原定计划接连崩坏，所有人被迫卷入一场凶险的生死博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/oukBZ29x5wrYJDZe6TuOTxQ7eU0.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n7bKjcudT50t0BD6kmAnMhmzfeZ.jpg"
+    },
+    {
+      "id": 1288069,
+      "title": "登峰传奇：丹增诺盖",
+      "type": "movie",
+      "genreTitle": "剧情•历史",
+      "rating": 6.8,
+      "release_date": "2026-10-09",
+      "overview": "　　出生于西藏的丹增和新西兰人艾德蒙加入英国登山队，一同挑战登顶珠峰，克服了难以逾越的困难，完成曾经被认为不可能的事情：“经过六次尝试后，丹增冒着一切风险进行了最后一次冒险，当他开始人生中最意义重大的攀登时，必须应对变幻莫测的政治因素和危险的天气。在此期间，丹增以幽默、热心和慷慨的态度对待同伴，也对神圣的珠穆朗玛峰怀有深深的敬畏和尊重”。 　　1953年5月29日，他们成为第一批登上珠穆朗玛峰顶峰的人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6bZjibVS7cdrhTcwHgh6K8imNxF.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1bn5gYwFcGeA1FZoBbJl7bzWIfX.jpg"
+    },
+    {
+      "id": 213562,
+      "title": "水晶湖",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.8,
+      "release_date": "2026-10-15",
+      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
+      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/mIFm62GP8NzzKFZEsKVyWOeImXn.jpg"
+    },
+    {
+      "id": 213375,
+      "title": "幻视任务",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 9.0,
+      "release_date": "2026-10-13",
+      "overview": "幻视在重启后隐姓埋名，为了逃避企图把他变成武器的人。他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯，甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与托马斯·谢泼德踏上逃亡之路。这少年可能就是他儿子的化身。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
+    },
     {
       "id": 123542,
       "title": "时光代理人",
@@ -235,15 +279,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5ose7fWrreM9Zr7CiixAGpnMFe.jpg"
     },
     {
-      "id": 213375,
-      "title": "幻视任务",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 9.1,
+      "id": 1153576,
+      "title": "街头霸王",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 6.2,
       "release_date": "2026-10-13",
-      "overview": "幻视在重启后隐姓埋名，为了逃避企图把他变成武器的人。他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯，甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与托马斯·谢泼德踏上逃亡之路。这少年可能就是他儿子的化身。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
+      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
+    },
+    {
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 7.0,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
+    },
+    {
+      "id": 153312,
+      "title": "塔尔萨之王",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2022-11-13",
+      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pCJAdouNp46d31mGmpExm3evaKT.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/pS7CRbAb5LSaLAbgH9OkHg84yXh.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 8.5,
+      "release_date": "2026-07-29",
+      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
       "id": 1236045,
@@ -257,50 +334,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/zah47IGR7eNJud8UQTTfVYNPIgW.jpg"
     },
     {
-      "id": 1148365,
-      "title": "火柴盒大电影",
-      "type": "movie",
-      "genreTitle": "动作•喜剧•冒险",
-      "rating": 7.9,
-      "release_date": "2026-10-05",
-      "overview": "一群儿时好友重聚后，生活发生巨变。曾离开家乡的前领袖、中央情报局卧底特工肖恩突然归来，意外将众人卷入一场紧张的国际追逐行动，必须合力拯救世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qpLaKSlC9OE3Fk1e48jFIekgr5t.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
-    },
-    {
-      "id": 1153576,
-      "title": "街头霸王",
-      "type": "movie",
-      "genreTitle": "动作•奇幻",
-      "rating": 6.4,
-      "release_date": "2026-10-13",
-      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 8.5,
-      "release_date": "2026-07-29",
-      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
-    },
-    {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 7.0,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
-    },
-    {
       "id": 288673,
       "title": "魔女嘉莉",
       "type": "tv",
@@ -323,48 +356,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/A4761rPvkBMyclcUPjokrO4vqHf.jpg"
     },
     {
-      "id": 213562,
-      "title": "水晶湖",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.4,
-      "release_date": "2026-10-15",
-      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
-      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/mIFm62GP8NzzKFZEsKVyWOeImXn.jpg"
-    },
-    {
-      "id": 1288069,
-      "title": "登峰传奇：丹增诺盖",
+      "id": 1148365,
+      "title": "火柴盒大电影",
       "type": "movie",
-      "genreTitle": "剧情•历史",
-      "rating": 6.7,
-      "release_date": "2026-10-09",
-      "overview": "　　出生于西藏的丹增和新西兰人艾德蒙加入英国登山队，一同挑战登顶珠峰，克服了难以逾越的困难，完成曾经被认为不可能的事情：“经过六次尝试后，丹增冒着一切风险进行了最后一次冒险，当他开始人生中最意义重大的攀登时，必须应对变幻莫测的政治因素和危险的天气。在此期间，丹增以幽默、热心和慷慨的态度对待同伴，也对神圣的珠穆朗玛峰怀有深深的敬畏和尊重”。 　　1953年5月29日，他们成为第一批登上珠穆朗玛峰顶峰的人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6bZjibVS7cdrhTcwHgh6K8imNxF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1bn5gYwFcGeA1FZoBbJl7bzWIfX.jpg"
-    },
-    {
-      "id": 1561726,
-      "title": "大师计划",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-10-16",
-      "overview": "老牌神偷罗杰锁定卢浮宫镇馆之宝《蒙娜丽莎》，组建一支背景复杂、彼此猜忌的小队执行这场惊天盗窃。行动危机四伏，严密安保与暗处敌人层层围堵，原定计划接连崩坏，所有人被迫卷入一场凶险的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/oukBZ29x5wrYJDZe6TuOTxQ7eU0.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n7bKjcudT50t0BD6kmAnMhmzfeZ.jpg"
-    },
-    {
-      "id": 285322,
-      "title": "暗潮之下",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 7.2,
-      "release_date": "2026-10-08",
-      "overview": "当一只神秘的海洋生物威胁着纽芬兰的一个小镇时，一位坚韧的渔夫和他的家人奋力保护他们这个紧密相连的社区。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zalCOSxzRZgmZLE7PxYZ9nD6J9z.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg"
+      "genreTitle": "动作•喜剧•冒险",
+      "rating": 7.9,
+      "release_date": "2026-10-05",
+      "overview": "一群儿时好友重聚后，生活发生巨变。曾离开家乡的前领袖、中央情报局卧底特工肖恩突然归来，意外将众人卷入一场紧张的国际追逐行动，必须合力拯救世界。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qpLaKSlC9OE3Fk1e48jFIekgr5t.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iXqQiIyZoXEg5uoDcTvGW8SAziB.jpg"
     },
     {
       "id": 300146,
@@ -378,28 +378,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/214MZMPdA3F2GZlm9c3aYE91sYt.jpg"
     },
     {
-      "id": 1255833,
-      "title": "鲸口脱险",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 7.5,
-      "release_date": "2026-10-14",
-      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
-    },
-    {
-      "id": 1381078,
-      "title": "你的生命挚爱",
-      "type": "movie",
-      "genreTitle": "爱情•剧情",
-      "rating": 6.5,
-      "release_date": "2026-10-07",
-      "overview": "《你的生命挚爱》由瑞秋·莫里森（代表作《内心之火》）执导，本片讲述了玛雅（玛格丽特·库里饰）与查理（加布里埃尔·巴索饰）的一次偶然邂逅开启了一段轰轰烈烈的恋情，也开启了一个远超玛雅想象的未来。当那个未来崩塌，玛雅被抛入一段意想不到的新生活--这段生活将迫使她直面自己是谁、想要什么，以及如何重新去爱的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eEu09K9uy02fO8UcCrAnulDV3US.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/i6klj4wEjBI2BDRGHlNrROXvvLK.jpg"
-    },
-    {
       "id": 1400940,
       "title": "泥面人",
       "type": "movie",
@@ -411,26 +389,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
     },
     {
-      "id": 153312,
-      "title": "塔尔萨之王",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•喜剧",
-      "rating": 8.3,
-      "release_date": "2022-11-13",
-      "overview": "曾经的纽约黑手党族长德怀特在服刑25年后从监狱获释，却被自己老大流放去了俄克拉荷马州的塔尔萨。德怀特意识到自己的黑帮家族并没有考虑他的最佳利益，于是他从一群并非自己想象中的人物里，逐渐建立起了一个“团队”，来帮助他在一个彻头彻尾的陌生之地打造一个新的犯罪帝国。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pCJAdouNp46d31mGmpExm3evaKT.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sxoIItiW2rHZOCdeyHjE1YjbtOG.jpg"
+      "id": 1255833,
+      "title": "鲸口脱险",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 7.4,
+      "release_date": "2026-10-14",
+      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
     },
     {
-      "id": 1400837,
-      "title": "另一个妈妈",
+      "id": 1284186,
+      "title": "牺牲",
       "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 5.9,
+      "genreTitle": "冒险•喜剧•动作",
+      "rating": 5.8,
+      "release_date": "2026-04-09",
+      "overview": "在一场星光熠熠的慈善晚会上，一位陷入存在主义危机的电影明星被激进女战士及其追随者劫持。随着现场陷入混乱，一场关于信仰、救赎与牺牲的冒险就此展开。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9ZNlVceBMpLVJK3s8I64nLYeF2d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg"
+    },
+    {
+      "id": 1381078,
+      "title": "你的生命挚爱",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.6,
       "release_date": "2026-10-07",
-      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg"
+      "overview": "《你的生命挚爱》由瑞秋·莫里森（代表作《内心之火》）执导，本片讲述了玛雅（玛格丽特·库里饰）与查理（加布里埃尔·巴索饰）的一次偶然邂逅开启了一段轰轰烈烈的恋情，也开启了一个远超玛雅想象的未来。当那个未来崩塌，玛雅被抛入一段意想不到的新生活--这段生活将迫使她直面自己是谁、想要什么，以及如何重新去爱的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/eEu09K9uy02fO8UcCrAnulDV3US.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/i6klj4wEjBI2BDRGHlNrROXvvLK.jpg"
     },
     {
       "id": 247718,
@@ -442,6 +431,17 @@
       "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
       "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
+    },
+    {
+      "id": 285322,
+      "title": "暗潮之下",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.3,
+      "release_date": "2026-10-08",
+      "overview": "当一只神秘的海洋生物威胁着纽芬兰的一个小镇时，一位坚韧的渔夫和他的家人奋力保护他们这个紧密相连的社区。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zalCOSxzRZgmZLE7PxYZ9nD6J9z.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg"
     }
   ],
   "popular_movies": [
