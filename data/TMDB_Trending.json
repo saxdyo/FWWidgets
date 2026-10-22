@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23 01:40:26",
+  "last_updated": "2026-10-23 07:41:33",
   "today_global": [
     {
       "id": 220542,
@@ -13,17 +13,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
     },
     {
-      "id": 120911,
-      "title": "The Terminal List",
-      "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.0,
-      "release_date": "2022-06-30",
-      "overview": "改编自杰克·卡尔的系列小说。海豹突击队队长詹姆斯·里斯在一次秘密任务后卷入重重阴谋。从军事行动到国际谍战，他在追寻真相与执行任务的过程中，逐步揭开隐藏在背后的危险势力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5r3QqV3CMOoVJ4XH6C6ntUMtKr8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
-    },
-    {
       "id": 1400940,
       "title": "泥面人",
       "type": "movie",
@@ -33,6 +22,17 @@
       "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
       "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
+    },
+    {
+      "id": 120911,
+      "title": "The Terminal List",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.0,
+      "release_date": "2022-06-30",
+      "overview": "改编自杰克·卡尔的系列小说。海豹突击队队长詹姆斯·里斯在一次秘密任务后卷入重重阴谋。从军事行动到国际谍战，他在追寻真相与执行任务的过程中，逐步揭开隐藏在背后的危险势力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5r3QqV3CMOoVJ4XH6C6ntUMtKr8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
     },
     {
       "id": 105248,
@@ -50,7 +50,7 @@
       "title": "幻视任务",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.7,
+      "rating": 8.8,
       "release_date": "2026-10-13",
       "overview": "幻视在重启后隐姓埋名，逃避企图把他变成武器的人。为了寻找生命的新意义，他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯…甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与神秘少年托马斯·谢泼德踏上逃亡之路，而这少年可能是他儿子的化身。在逃避追捕的同时，幻视必须面对自己，抵抗奥创的影响，并揭开年轻同伴的谜团。",
       "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
@@ -68,17 +68,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.1,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
-    },
-    {
       "id": 213562,
       "title": "水晶湖",
       "type": "tv",
@@ -88,28 +77,6 @@
       "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
       "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6thBvfTt3j29UOmyi9ycCRems0q.jpg"
-    },
-    {
-      "id": 250923,
-      "title": "天作不合的我们",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.3,
-      "release_date": "2024-09-26",
-      "overview": "一名不可知论者性爱播客主播与一名刚刚恢复单身的拉比坠入爱河。然而，面对迥然不同的生活方式和爱管闲事的家人，两人的恋情能否经受住考验？",
-      "poster_url": "https://image.tmdb.org/t/p/original/wcbAJF0nN2wlT3hNNzHGYkq6Are.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vmpWfKOypIf4jNDWTbbvqM6IT2J.jpg"
-    },
-    {
-      "id": 1058424,
-      "title": "希望",
-      "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 6.9,
-      "release_date": "2026-07-15",
-      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
     },
     {
       "id": 1198654,
@@ -123,6 +90,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uQjZ91ndHCxLBbtH8IBJMe7PS93.jpg"
     },
     {
+      "id": 95480,
+      "title": "Slow Horses",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.1,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
+    },
+    {
       "id": 1108427,
       "title": "海洋奇缘：启航",
       "type": "movie",
@@ -134,26 +112,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/42DkaiWwVqTLdZh3Z8dDHuMNgsa.jpg"
     },
     {
-      "id": 1380417,
-      "title": "不择手段",
-      "type": "movie",
-      "genreTitle": "惊悚•历史•犯罪",
-      "rating": 6.6,
-      "release_date": "2026-09-02",
-      "overview": "改编自真实事件。一名年轻的黑人联邦调查局探员奉命前往1960年代的密西西比州，调查针对民权领袖的一系列残忍谋杀案。他被迫与臭名昭著的黑手党杀手格雷格·斯卡帕合作，在追查真凶的过程中，正义与复仇的界限逐渐模糊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/duiObQgNpRkDBB4SfjN9wZFy9Ak.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oeRTTn3em6yHsnJy9miKJwdHuKR.jpg"
+      "id": 250923,
+      "title": "天作不合的我们",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.3,
+      "release_date": "2024-09-26",
+      "overview": "一名不可知论者性爱播客主播与一名刚刚恢复单身的拉比坠入爱河。然而，面对迥然不同的生活方式和爱管闲事的家人，两人的恋情能否经受住考验？",
+      "poster_url": "https://image.tmdb.org/t/p/original/wcbAJF0nN2wlT3hNNzHGYkq6Are.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vmpWfKOypIf4jNDWTbbvqM6IT2J.jpg"
     },
     {
       "id": 1433583,
       "title": "监狱雄心",
       "type": "movie",
       "genreTitle": "惊悚•冒险•历史",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2026-09-16",
       "overview": "俄勒冈州，1933年。塞缪尔·墨菲被强行从女儿身边带走，送往一座残酷的劳役营。典狱长克兰西以提前释放为诱饵，要求他穿越危机四伏的荒野走私黄金。为再次见到孩子，墨菲甘愿冒何等风险？",
       "poster_url": "https://image.tmdb.org/t/p/original/hwvUwTJOkh1MrJlkJ2NRSVOO8c.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/zKizFK3adjtpXut1dW6bRaxwhd.jpg"
+    },
+    {
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 6.9,
+      "release_date": "2026-07-15",
+      "overview": "20世纪70至80年代，生活在非军事区附近孤立村庄——湖浦港的居民，与不明外星生物对抗。",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
+    },
+    {
+      "id": 791523,
+      "title": "荒野丛林",
+      "type": "movie",
+      "genreTitle": "动画•冒险•奇幻",
+      "rating": 8.9,
+      "release_date": "2026-10-19",
+      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
+      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
     },
     {
       "id": 1153576,
@@ -167,17 +167,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6kJENBnZsVZuhYTSR3zZi6FUe30.jpg"
     },
     {
-      "id": 300527,
-      "title": "有人刚好提起我吗？",
-      "type": "tv",
-      "genreTitle": "喜剧",
-      "rating": 5.0,
-      "release_date": "2026-10-22",
-      "overview": "玄曾是日本最知名演员，却突然被人遗忘。渴望获得认可的他从零开始，拼尽全力重新站起来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/mP5P3DAifes24xqhmpRqymg0wtS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/tmmVnCnNzT1yMuFFUfJwHvVqx5D.jpg"
-    },
-    {
       "id": 969681,
       "title": "蜘蛛侠：崭新之日",
       "type": "movie",
@@ -187,6 +176,17 @@
       "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
       "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+    },
+    {
+      "id": 1380417,
+      "title": "不择手段",
+      "type": "movie",
+      "genreTitle": "惊悚•历史•犯罪",
+      "rating": 6.6,
+      "release_date": "2026-09-02",
+      "overview": "改编自真实事件。一名年轻的黑人联邦调查局探员奉命前往1960年代的密西西比州，调查针对民权领袖的一系列残忍谋杀案。他被迫与臭名昭著的黑手党杀手格雷格·斯卡帕合作，在追查真凶的过程中，正义与复仇的界限逐渐模糊。",
+      "poster_url": "https://image.tmdb.org/t/p/original/duiObQgNpRkDBB4SfjN9wZFy9Ak.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/oeRTTn3em6yHsnJy9miKJwdHuKR.jpg"
     },
     {
       "id": 1339713,
@@ -200,40 +200,29 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 1561726,
-      "title": "偷天父子兵",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.9,
-      "release_date": "2026-10-16",
-      "overview": "老牌神偷罗杰锁定卢浮宫镇馆之宝《蒙娜丽莎》，组建一支背景复杂、彼此猜忌的小队执行这场惊天盗窃。行动危机四伏，严密安保与暗处敌人层层围堵，原定计划接连崩坏，所有人被迫卷入一场凶险的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqZnhdnnoo4YQiFXm4LmwoMaWWw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n7bKjcudT50t0BD6kmAnMhmzfeZ.jpg"
+      "id": 247718,
+      "title": "MobLand",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.5,
+      "release_date": "2025-03-30",
+      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
+      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     },
     {
-      "id": 791523,
-      "title": "荒野丛林",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 9.0,
-      "release_date": "2026-10-19",
-      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
-      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
+      "id": 153312,
+      "title": "塔尔萨之王",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.3,
+      "release_date": "2022-11-13",
+      "overview": "纽约黑手党头目德怀特·曼弗雷迪服刑25年后获释，却被组织放逐至俄克拉何马州塔尔萨。他逐步招募一群意想不到的伙伴，在这座陌生城市建立自己的犯罪帝国。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7kIKWlPZraQNQTHrUZWKEZft9hp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ro6mCt4rHkSrLpu86pphY8Jn2lb.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 220542,
-      "title": "药屋少女的呢喃",
-      "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.7,
-      "release_date": "2023-10-22",
-      "overview": "花街出身的药师少女猫猫被拐入后宫做下人，凭借对毒药与药物的丰富知识和敏锐的洞察力，卷入宫中接连发生的疑难事件，并与神秘宦官壬氏一同揭开重重谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
-    },
     {
       "id": 123542,
       "title": "时光代理人",
@@ -244,6 +233,17 @@
       "overview": "在繁华都市的某个角落，有一家叫做“时光照相馆”的小店还在照常营业。虽然门庭冷落，但它背后其实由两个具有特殊能力的男人——程小时和陆光经营着。为了完成顾客的委托，陆光和程小时组队配合使用超能力进入照片，然而事情的发展却没能按他们所想的那样。",
       "poster_url": "https://image.tmdb.org/t/p/original/44cNZ5PmLOwTIOkYwlAewgzn8Bl.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/f5ose7fWrreM9Zr7CiixAGpnMFe.jpg"
+    },
+    {
+      "id": 220542,
+      "title": "药屋少女的呢喃",
+      "type": "tv",
+      "genreTitle": "动画•剧情•悬疑",
+      "rating": 8.7,
+      "release_date": "2023-10-22",
+      "overview": "花街出身的药师少女猫猫被拐入后宫做下人，凭借对毒药与药物的丰富知识和敏锐的洞察力，卷入宫中接连发生的疑难事件，并与神秘宦官壬氏一同揭开重重谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
     },
     {
       "id": 1400940,
@@ -257,6 +257,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
     },
     {
+      "id": 213562,
+      "title": "水晶湖",
+      "type": "tv",
+      "genreTitle": "剧情•悬疑",
+      "rating": 8.6,
+      "release_date": "2026-10-15",
+      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
+      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6thBvfTt3j29UOmyi9ycCRems0q.jpg"
+    },
+    {
       "id": 105248,
       "title": "赛博朋克：边缘行者",
       "type": "tv",
@@ -266,6 +277,17 @@
       "overview": "夜之城每一季都有新故事，也总有一群特立独行的新角色登场，讲述属于他们的传奇。",
       "poster_url": "https://image.tmdb.org/t/p/original/kL0jycZo9QAIhempGbsb88uw1E1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/obzl1uYiC8gevu2YZIifw42hRt5.jpg"
+    },
+    {
+      "id": 213375,
+      "title": "幻视任务",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.8,
+      "release_date": "2026-10-13",
+      "overview": "幻视在重启后隐姓埋名，逃避企图把他变成武器的人。为了寻找生命的新意义，他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯…甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与神秘少年托马斯·谢泼德踏上逃亡之路，而这少年可能是他儿子的化身。在逃避追捕的同时，幻视必须面对自己，抵抗奥创的影响，并揭开年轻同伴的谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
       "id": 120911,
@@ -290,26 +312,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
-      "id": 213375,
-      "title": "幻视任务",
-      "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.7,
-      "release_date": "2026-10-13",
-      "overview": "幻视在重启后隐姓埋名，逃避企图把他变成武器的人。为了寻找生命的新意义，他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯…甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与神秘少年托马斯·谢泼德踏上逃亡之路，而这少年可能是他儿子的化身。在逃避追捕的同时，幻视必须面对自己，抵抗奥创的影响，并揭开年轻同伴的谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
-    },
-    {
-      "id": 213562,
-      "title": "水晶湖",
-      "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.6,
-      "release_date": "2026-10-15",
-      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
-      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6thBvfTt3j29UOmyi9ycCRems0q.jpg"
+      "id": 1561726,
+      "title": "偷天父子兵",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-10-16",
+      "overview": "老牌神偷罗杰锁定卢浮宫镇馆之宝《蒙娜丽莎》，组建一支背景复杂、彼此猜忌的小队执行这场惊天盗窃。行动危机四伏，严密安保与暗处敌人层层围堵，原定计划接连崩坏，所有人被迫卷入一场凶险的生死博弈。",
+      "poster_url": "https://image.tmdb.org/t/p/original/AqZnhdnnoo4YQiFXm4LmwoMaWWw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/n7bKjcudT50t0BD6kmAnMhmzfeZ.jpg"
     },
     {
       "id": 1058424,
@@ -323,44 +334,11 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
     },
     {
-      "id": 1561726,
-      "title": "偷天父子兵",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 6.9,
-      "release_date": "2026-10-16",
-      "overview": "老牌神偷罗杰锁定卢浮宫镇馆之宝《蒙娜丽莎》，组建一支背景复杂、彼此猜忌的小队执行这场惊天盗窃。行动危机四伏，严密安保与暗处敌人层层围堵，原定计划接连崩坏，所有人被迫卷入一场凶险的生死博弈。",
-      "poster_url": "https://image.tmdb.org/t/p/original/AqZnhdnnoo4YQiFXm4LmwoMaWWw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/n7bKjcudT50t0BD6kmAnMhmzfeZ.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 8.5,
-      "release_date": "2026-07-29",
-      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
-    },
-    {
-      "id": 1153576,
-      "title": "街头霸王",
-      "type": "movie",
-      "genreTitle": "动作•奇幻",
-      "rating": 6.3,
-      "release_date": "2026-10-13",
-      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
-      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6kJENBnZsVZuhYTSR3zZi6FUe30.jpg"
-    },
-    {
       "id": 1288069,
       "title": "登峰传奇：丹增诺盖",
       "type": "movie",
       "genreTitle": "剧情•历史",
-      "rating": 8.4,
+      "rating": 8.3,
       "release_date": "2026-10-09",
       "overview": "根据真实事件改编。喜马拉雅登山家丹增·诺盖与新西兰登山家埃德蒙·希拉里携手登顶珠穆朗玛峰，成为首批登顶者。在妻子达瓦和探险队秘书吉尔·亨德森的支持下，丹增争取加入英国登山队，在攀登过程中面对文化差异、阶级矛盾与高山险境。",
       "poster_url": "https://image.tmdb.org/t/p/original/l1Jj0SAqdlbEwSWa8Ags31D5WiZ.jpg",
@@ -378,15 +356,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/uQjZ91ndHCxLBbtH8IBJMe7PS93.jpg"
     },
     {
-      "id": 95480,
-      "title": "Slow Horses",
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 8.5,
+      "release_date": "2026-07-29",
+      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+    },
+    {
+      "id": 1153576,
+      "title": "街头霸王",
+      "type": "movie",
+      "genreTitle": "动作•奇幻",
+      "rating": 6.3,
+      "release_date": "2026-10-13",
+      "overview": "改编自卡普空同名系列格斗游戏。1993年，昔日形同兄弟的街头格斗家隆与肯因春丽的邀请重返赛场，参加世界格斗王大赛。然而，一场致命阴谋潜伏其中，迫使两人再次面对彼此与各自的过去。",
+      "poster_url": "https://image.tmdb.org/t/p/original/B7id5YjOBmyvlzIRrlhqA051EW.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6kJENBnZsVZuhYTSR3zZi6FUe30.jpg"
+    },
+    {
+      "id": 247718,
+      "title": "MobLand",
       "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 8.1,
-      "release_date": "2022-04-01",
-      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.5,
+      "release_date": "2025-03-30",
+      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
+      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     },
     {
       "id": 153312,
@@ -400,15 +400,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ro6mCt4rHkSrLpu86pphY8Jn2lb.jpg"
     },
     {
-      "id": 250923,
-      "title": "天作不合的我们",
+      "id": 95480,
+      "title": "Slow Horses",
       "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 7.3,
-      "release_date": "2024-09-26",
-      "overview": "一名不可知论者性爱播客主播与一名刚刚恢复单身的拉比坠入爱河。然而，面对迥然不同的生活方式和爱管闲事的家人，两人的恋情能否经受住考验？",
-      "poster_url": "https://image.tmdb.org/t/p/original/wcbAJF0nN2wlT3hNNzHGYkq6Are.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vmpWfKOypIf4jNDWTbbvqM6IT2J.jpg"
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 8.1,
+      "release_date": "2022-04-01",
+      "overview": "该剧根据米克·赫伦的同名系列小说改编，故事围绕着军情五处内一个不正常的特务组，以及他们讨人厌的老板：臭名满天下的杰克逊·兰姆。他们在真假难辨的间谍世界中努力着，以保卫英国免受邪恶势力的侵害。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xPrBhPFundGRzXRZiRknxieycdQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iUyjPNhv4fQcYplG8Ho7GQs8ieS.jpg"
+    },
+    {
+      "id": 1514026,
+      "title": "逃出布迪秀",
+      "type": "movie",
+      "genreTitle": "恐怖•喜剧•奇幻",
+      "rating": 7.1,
+      "release_date": "2026-08-27",
+      "overview": "一行人意外坠入诡异老式儿童节目次元。画风酷似玛卡巴卡，软萌橙色独角兽巴迪主持欢乐秀场。一旦拒绝配合演出，便会惨遭猎杀，死者还会被节目直接替换。众人被困虚假片场，一边躲避玩偶的疯狂追杀，一边拼死寻找逃出电视空间的出路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/qG84lCvV5wDVBDYaNFPDFWa9IAl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/A4rtlYLwJxcCR9BrB9g4AEDU0FF.jpg"
+    },
+    {
+      "id": 1255833,
+      "title": "鲸口脱险",
+      "type": "movie",
+      "genreTitle": "惊悚",
+      "rating": 6.6,
+      "release_date": "2026-10-14",
+      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
     },
     {
       "id": 1339713,
@@ -420,28 +442,6 @@
       "overview": "性格孤僻的小镇青年贝尔苦苦暗恋女神妮基却怯于表白。他在一家商店意外获得神秘许愿道具 “一愿柳”，折断柳条许下 “让妮基爱我胜过世上所有人” 的愿望。愿望成真后，妮基却逐渐失控，变得痴缠癫狂，对贝尔产生窒息般的控制欲，身体、人格与理智接连崩塌。这场强求来的 “爱情” 暗藏致命代价，将贝尔拖入万劫不复的深渊。",
       "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 1255833,
-      "title": "鲸口脱险",
-      "type": "movie",
-      "genreTitle": "惊悚",
-      "rating": 6.5,
-      "release_date": "2026-10-14",
-      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qEYD1j2QfpJDjNjZdTfRwPgQoGp.jpg"
-    },
-    {
-      "id": 247718,
-      "title": "MobLand",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情",
-      "rating": 8.5,
-      "release_date": "2025-03-30",
-      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
-      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     }
   ],
   "popular_movies": [
