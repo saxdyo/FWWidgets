@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29 10:57:57",
+  "last_updated": "2026-10-29 17:11:56",
   "today_global": [
     {
       "id": 1283515,
@@ -17,7 +17,7 @@
       "title": "极速：伪装者",
       "type": "movie",
       "genreTitle": "爱情•惊悚",
-      "rating": 7.5,
+      "rating": 7.4,
       "release_date": "2026-10-27",
       "overview": "一位年轻的赛车技师假装与赛车界最具争议的的明星车手订婚，表面上是为了维护他的名声，实则是为了自己能有机会成为赛车手。但很快，这个谎言就威胁到一切，包括这段早已超越单纯交易的感情…",
       "poster_url": "https://image.tmdb.org/t/p/original/C9Kz6l4AsRBIPFiBRHsy0LsTmq.jpg",
@@ -28,7 +28,7 @@
       "title": "Ali G: 我系水？",
       "type": "movie",
       "genreTitle": "喜剧",
-      "rating": 5.6,
+      "rating": 5.5,
       "release_date": "2026-10-22",
       "overview": "消失在公众视野二十年后，阿里·G惊讶地发现，长期交往的女友朱莉已经怀孕八个月。为了养活即将出生的孩子，他动身前往美国，试图重振昔日声名，却遭遇一群可能威胁他和孩子性命的对手。",
       "poster_url": "https://image.tmdb.org/t/p/original/hEPifVqWAgAmv8LVR2vb6gBP90d.jpg",
@@ -39,22 +39,11 @@
       "title": "末世行者",
       "type": "movie",
       "genreTitle": "动作•惊悚•科幻",
-      "rating": 6.8,
+      "rating": 6.9,
       "release_date": "2026-08-26",
       "overview": "改编自彼得·海勒的同名小说。在残酷的末世中，年轻飞行员希格与军事生存专家班格利建立了一个与世隔绝的居所。当一段神秘的无线电信号传来，希格决定踏入未知世界，寻找他仍然相信存在的希望与人性。",
       "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/x4DEDCtrk873TU0YbNye3CTE54M.jpg"
-    },
-    {
-      "id": 1465063,
-      "title": "忘却之岛",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 7.5,
-      "release_date": "2026-09-10",
-      "overview": "好友乔与拉伊萨高中毕业即将分别，她们打算相伴度过最后一夜，却意外被传送到奇幻岛屿纳卡利。二人得知重返家园的代价是抹去关于彼此的全部记忆，她们必须抓紧时间，在遗忘对方找到方法离开这座岛屿。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2O3b5ey8xITyzz5KuaaRTj6bONx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
     },
     {
       "id": 213375,
@@ -68,6 +57,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
+      "id": 1465063,
+      "title": "忘却之岛",
+      "type": "movie",
+      "genreTitle": "动画•冒险•奇幻",
+      "rating": 7.5,
+      "release_date": "2026-09-10",
+      "overview": "好友乔与拉伊萨高中毕业即将分别，她们打算相伴度过最后一夜，却意外被传送到奇幻岛屿纳卡利。二人得知重返家园的代价是抹去关于彼此的全部记忆，她们必须抓紧时间，在遗忘对方找到方法离开这座岛屿。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2O3b5ey8xITyzz5KuaaRTj6bONx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
+    },
+    {
       "id": 1400940,
       "title": "泥面人",
       "type": "movie",
@@ -77,17 +77,6 @@
       "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
       "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
-    },
-    {
-      "id": 791523,
-      "title": "荒野丛林",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 8.6,
-      "release_date": "2026-10-19",
-      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
-      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
     },
     {
       "id": 334700,
@@ -101,6 +90,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gSlWzjRk1QarsB2PrJemCd88wJc.jpg"
     },
     {
+      "id": 1377237,
+      "title": "护肝人",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-07",
+      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
+    },
+    {
+      "id": 791523,
+      "title": "荒野丛林",
+      "type": "movie",
+      "genreTitle": "动画•冒险•奇幻",
+      "rating": 8.6,
+      "release_date": "2026-10-19",
+      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
+      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
+    },
+    {
       "id": 96677,
       "title": "Lupin",
       "type": "tv",
@@ -112,26 +123,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
     },
     {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "高中生黑崎一护意外获得死神之力，从此卷入现世、尸魂界与虚圈之间的纷争。在守护同伴的战斗中，他逐渐揭开自己的身世，并迎来决定三界命运的最终决战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
-    },
-    {
-      "id": 1377237,
-      "title": "护肝人",
+      "id": 1058424,
+      "title": "希望",
       "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-09-07",
-      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 6.8,
+      "release_date": "2026-07-15",
+      "overview": "支援人员前往扑救山火，通讯也随之中断。湖浦派出所所长范锡与警员成爱奋力保护村中老人，而进入山中追踪怪物的成基等人反遭猎杀。由无知引发的灾难逐渐演变为一场席卷宇宙的悲剧.",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
     },
     {
       "id": 1170608,
@@ -156,48 +156,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/nsBcKpMjRRiBOMWZKAhrmVoSePi.jpg"
     },
     {
-      "id": 120911,
-      "title": "The Terminal List",
+      "id": 30984,
+      "title": "死神",
       "type": "tv",
-      "genreTitle": "动作冒险•剧情",
-      "rating": 8.0,
-      "release_date": "2022-06-30",
-      "overview": "改编自杰克·卡尔的系列小说。海豹突击队队长詹姆斯·里斯在一次秘密任务后卷入重重阴谋。从军事行动到国际谍战，他在追寻真相与执行任务的过程中，逐步揭开隐藏在背后的危险势力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5r3QqV3CMOoVJ4XH6C6ntUMtKr8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "高中生黑崎一护意外获得死神之力，从此卷入现世、尸魂界与虚圈之间的纷争。在守护同伴的战斗中，他逐渐揭开自己的身世，并迎来决定三界命运的最终决战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 1058424,
-      "title": "希望",
+      "id": 1290418,
+      "title": "尸变",
       "type": "movie",
-      "genreTitle": "科幻•悬疑•动作",
-      "rating": 6.8,
-      "release_date": "2026-07-15",
-      "overview": "支援人员前往扑救山火，通讯也随之中断。湖浦派出所所长范锡与警员成爱奋力保护村中老人，而进入山中追踪怪物的成基等人反遭猎杀。由无知引发的灾难逐渐演变为一场席卷宇宙的悲剧.",
-      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
-    },
-    {
-      "id": 1300968,
-      "title": "饥饿游戏：收获日出",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-11-18",
-      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xdtMZkNcoVgMfsoAJxXDozMQd3n.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
-    },
-    {
-      "id": 105248,
-      "title": "赛博朋克：边缘行者",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-09-13",
-      "overview": "夜之城每一季都有新故事，也总有一群特立独行的新角色登场，讲述属于他们的传奇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kL0jycZo9QAIhempGbsb88uw1E1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/obzl1uYiC8gevu2YZIifw42hRt5.jpg"
+      "genreTitle": "犯罪•恐怖•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-09-24",
+      "overview": "一名失踪36年的男子尸体在一桩骇人命案现场被发现，他的女儿梅格由此追查父亲隐秘的黑暗过往。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e5x2eLPY5vOqmzI2mEgOzyYQNq8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg"
     },
     {
       "id": 1003596,
@@ -211,50 +189,50 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
-      "id": 1290418,
-      "title": "尸变",
+      "id": 120911,
+      "title": "The Terminal List",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.0,
+      "release_date": "2022-06-30",
+      "overview": "改编自杰克·卡尔的系列小说。海豹突击队队长詹姆斯·里斯在一次秘密任务后卷入重重阴谋。从军事行动到国际谍战，他在追寻真相与执行任务的过程中，逐步揭开隐藏在背后的危险势力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5r3QqV3CMOoVJ4XH6C6ntUMtKr8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
+    },
+    {
+      "id": 1300968,
+      "title": "饥饿游戏：收获日出",
       "type": "movie",
-      "genreTitle": "犯罪•恐怖•惊悚",
-      "rating": 6.8,
-      "release_date": "2026-09-24",
-      "overview": "一名失踪36年的男子尸体在一桩骇人命案现场被发现，他的女儿梅格由此追查父亲隐秘的黑暗过往。",
-      "poster_url": "https://image.tmdb.org/t/p/original/e5x2eLPY5vOqmzI2mEgOzyYQNq8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-11-18",
+      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xdtMZkNcoVgMfsoAJxXDozMQd3n.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
+    },
+    {
+      "id": 1339713,
+      "title": "痴迷",
+      "type": "movie",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "一个渴望爱情的浪漫主义者打破神秘的“许愿柳”，希望赢得心仪之人的芳心。当愿望如愿实现，他却发现，有些欲望背后隐藏着黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     }
   ],
   "week_global_all": [
     {
-      "id": 1400940,
-      "title": "泥面人",
+      "id": 1384216,
+      "title": "末世行者",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•科幻",
-      "rating": 7.5,
-      "release_date": "2026-10-19",
-      "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
-    },
-    {
-      "id": 220542,
-      "title": "药屋少女的呢喃",
-      "type": "tv",
-      "genreTitle": "动画•剧情•悬疑",
-      "rating": 8.7,
-      "release_date": "2023-10-22",
-      "overview": "花街出身的药师少女猫猫被拐入后宫做下人，凭借对毒药与药物的丰富知识和敏锐的洞察力，卷入宫中接连发生的疑难事件，并与神秘宦官壬氏一同揭开重重谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
-    },
-    {
-      "id": 96677,
-      "title": "Lupin",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 7.7,
-      "release_date": "2021-01-08",
-      "overview": "灵感源自莫里斯·勒布朗创作的亚森·罗宾系列小说。绅士怪盗阿桑·迪奥普受到亚森·罗宾冒险的启发，凭借智慧与魅力智胜敌人，保护所爱之人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pUgzEc6Rn9NOgkn9cL1XUmjxvQl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
+      "genreTitle": "动作•惊悚•科幻",
+      "rating": 6.9,
+      "release_date": "2026-08-26",
+      "overview": "改编自彼得·海勒的同名小说。在残酷的末世中，年轻飞行员希格与军事生存专家班格利建立了一个与世隔绝的居所。当一段神秘的无线电信号传来，希格决定踏入未知世界，寻找他仍然相信存在的希望与人性。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/x4DEDCtrk873TU0YbNye3CTE54M.jpg"
     },
     {
       "id": 1283515,
@@ -268,26 +246,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ar5lp1Ee5yFnOL5S2rTdDySZFPz.jpg"
     },
     {
-      "id": 1384216,
-      "title": "末世行者",
+      "id": 1400940,
+      "title": "泥面人",
       "type": "movie",
-      "genreTitle": "动作•惊悚•科幻",
-      "rating": 6.8,
-      "release_date": "2026-08-26",
-      "overview": "改编自彼得·海勒的同名小说。在残酷的末世中，年轻飞行员希格与军事生存专家班格利建立了一个与世隔绝的居所。当一段神秘的无线电信号传来，希格决定踏入未知世界，寻找他仍然相信存在的希望与人性。",
-      "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/x4DEDCtrk873TU0YbNye3CTE54M.jpg"
+      "genreTitle": "恐怖•惊悚•科幻",
+      "rating": 7.5,
+      "release_date": "2026-10-19",
+      "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
     },
     {
-      "id": 791523,
-      "title": "荒野丛林",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 8.6,
-      "release_date": "2026-10-19",
-      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
-      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
+      "id": 96677,
+      "title": "Lupin",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 7.7,
+      "release_date": "2021-01-08",
+      "overview": "灵感源自莫里斯·勒布朗创作的亚森·罗宾系列小说。绅士怪盗阿桑·迪奥普受到亚森·罗宾冒险的启发，凭借智慧与魅力智胜敌人，保护所爱之人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pUgzEc6Rn9NOgkn9cL1XUmjxvQl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
+    },
+    {
+      "id": 220542,
+      "title": "药屋少女的呢喃",
+      "type": "tv",
+      "genreTitle": "动画•剧情•悬疑",
+      "rating": 8.7,
+      "release_date": "2023-10-22",
+      "overview": "花街出身的药师少女猫猫被拐入后宫做下人，凭借对毒药与药物的丰富知识和敏锐的洞察力，卷入宫中接连发生的疑难事件，并与神秘宦官壬氏一同揭开重重谜团。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nUFTbH417TqmCbw2b2mPSAESoTb.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
     },
     {
       "id": 213375,
@@ -312,17 +301,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
     },
     {
-      "id": 105248,
-      "title": "赛博朋克：边缘行者",
-      "type": "tv",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.5,
-      "release_date": "2022-09-13",
-      "overview": "夜之城每一季都有新故事，也总有一群特立独行的新角色登场，讲述属于他们的传奇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kL0jycZo9QAIhempGbsb88uw1E1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/obzl1uYiC8gevu2YZIifw42hRt5.jpg"
-    },
-    {
       "id": 1058424,
       "title": "希望",
       "type": "movie",
@@ -332,6 +310,17 @@
       "overview": "支援人员前往扑救山火，通讯也随之中断。湖浦派出所所长范锡与警员成爱奋力保护村中老人，而进入山中追踪怪物的成基等人反遭猎杀。由无知引发的灾难逐渐演变为一场席卷宇宙的悲剧.",
       "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
+    },
+    {
+      "id": 105248,
+      "title": "赛博朋克：边缘行者",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-09-13",
+      "overview": "夜之城每一季都有新故事，也总有一群特立独行的新角色登场，讲述属于他们的传奇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kL0jycZo9QAIhempGbsb88uw1E1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/obzl1uYiC8gevu2YZIifw42hRt5.jpg"
     },
     {
       "id": 1465063,
@@ -345,15 +334,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
     },
     {
-      "id": 30984,
-      "title": "死神",
-      "type": "tv",
-      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
-      "rating": 8.4,
-      "release_date": "2004-10-05",
-      "overview": "高中生黑崎一护意外获得死神之力，从此卷入现世、尸魂界与虚圈之间的纷争。在守护同伴的战斗中，他逐渐揭开自己的身世，并迎来决定三界命运的最终决战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+      "id": 1290418,
+      "title": "尸变",
+      "type": "movie",
+      "genreTitle": "犯罪•恐怖•惊悚",
+      "rating": 6.7,
+      "release_date": "2026-09-24",
+      "overview": "一名失踪36年的男子尸体在一桩骇人命案现场被发现，他的女儿梅格由此追查父亲隐秘的黑暗过往。",
+      "poster_url": "https://image.tmdb.org/t/p/original/e5x2eLPY5vOqmzI2mEgOzyYQNq8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg"
+    },
+    {
+      "id": 791523,
+      "title": "荒野丛林",
+      "type": "movie",
+      "genreTitle": "动画•冒险•奇幻",
+      "rating": 8.6,
+      "release_date": "2026-10-19",
+      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
+      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
     },
     {
       "id": 969681,
@@ -367,37 +367,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
-      "id": 1290418,
-      "title": "尸变",
+      "id": 1003596,
+      "title": "复仇者联盟5",
       "type": "movie",
-      "genreTitle": "犯罪•恐怖•惊悚",
-      "rating": 6.7,
-      "release_date": "2026-09-24",
-      "overview": "一名失踪36年的男子尸体在一桩骇人命案现场被发现，他的女儿梅格由此追查父亲隐秘的黑暗过往。",
-      "poster_url": "https://image.tmdb.org/t/p/original/e5x2eLPY5vOqmzI2mEgOzyYQNq8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg"
-    },
-    {
-      "id": 1339713,
-      "title": "痴迷",
-      "type": "movie",
-      "genreTitle": "恐怖•惊悚",
-      "rating": 8.2,
-      "release_date": "2026-05-13",
-      "overview": "一个渴望爱情的浪漫主义者打破神秘的“许愿柳”，希望赢得心仪之人的芳心。当愿望如愿实现，他却发现，有些欲望背后隐藏着黑暗而可怕的代价。",
-      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
-    },
-    {
-      "id": 288673,
-      "title": "魔女嘉莉",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
-      "rating": 8.3,
-      "release_date": "2026-10-07",
-      "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xobpaz7TiODcuGhT9dvENFhhVGw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/noX1GBl8agsODI785LIwJJRYADr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
       "id": 1170608,
@@ -411,37 +389,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
     },
     {
-      "id": 1422041,
-      "title": "黑球",
+      "id": 1339713,
+      "title": "痴迷",
       "type": "movie",
-      "genreTitle": "剧情•战争",
-      "rating": 8.1,
-      "release_date": "2026-09-25",
-      "overview": "三个同性恋男子在西班牙历史上1932 年、1937 年和 2017 年三个不同时期的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/iog65w1sTbRNtv3K2nuUjlRpuAR.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "一个渴望爱情的浪漫主义者打破神秘的“许愿柳”，希望赢得心仪之人的芳心。当愿望如愿实现，他却发现，有些欲望背后隐藏着黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
-      "id": 213562,
-      "title": "水晶湖",
+      "id": 1727734,
+      "title": "Ali G: 我系水？",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 5.5,
+      "release_date": "2026-10-22",
+      "overview": "消失在公众视野二十年后，阿里·G惊讶地发现，长期交往的女友朱莉已经怀孕八个月。为了养活即将出生的孩子，他动身前往美国，试图重振昔日声名，却遭遇一群可能威胁他和孩子性命的对手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hEPifVqWAgAmv8LVR2vb6gBP90d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kx883SRQsRNTA965hgK04uHPARb.jpg"
+    },
+    {
+      "id": 1377237,
+      "title": "护肝人",
+      "type": "movie",
+      "genreTitle": "动作•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-07",
+      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
+    },
+    {
+      "id": 288673,
+      "title": "魔女嘉莉",
       "type": "tv",
-      "genreTitle": "剧情•悬疑",
-      "rating": 8.7,
-      "release_date": "2026-10-15",
-      "overview": "《十三号星期五》系列电影的前传剧集。一年前，单亲母亲帕姆·沃赫斯的年幼儿子杰森在湖中溺亡，她始终无法走出丧子之痛。两名陌生人登门调查她的过去，一连串诡异事件随之发生，令水晶湖镇的居民开始怀疑：帕姆·沃赫斯究竟是什么人？",
-      "poster_url": "https://image.tmdb.org/t/p/original/zHxl1KifN0NcbqInngsTApHeWjc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6thBvfTt3j29UOmyi9ycCRems0q.jpg"
+      "genreTitle": "悬疑•剧情•Sci-Fi & Fantasy",
+      "rating": 8.3,
+      "release_date": "2026-10-07",
+      "overview": "父亲的突然离世迫使嘉莉进入到了残酷的公立高中，她不得不面对席卷社区的校园霸凌丑闻、社交媒体时代无情的压力和冷酷无情，以及伴随青春期而觉醒的神秘心灵感应能力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/xobpaz7TiODcuGhT9dvENFhhVGw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
-      "id": 1596275,
-      "title": "极速：伪装者",
-      "type": "movie",
-      "genreTitle": "爱情•惊悚",
-      "rating": 7.5,
-      "release_date": "2026-10-27",
-      "overview": "一位年轻的赛车技师假装与赛车界最具争议的的明星车手订婚，表面上是为了维护他的名声，实则是为了自己能有机会成为赛车手。但很快，这个谎言就威胁到一切，包括这段早已超越单纯交易的感情…",
-      "poster_url": "https://image.tmdb.org/t/p/original/C9Kz6l4AsRBIPFiBRHsy0LsTmq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dw5G9bYehBz2DrQeY6zrBM2SYrn.jpg"
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "高中生黑崎一护意外获得死神之力，从此卷入现世、尸魂界与虚圈之间的纷争。在守护同伴的战斗中，他逐渐揭开自己的身世，并迎来决定三界命运的最终决战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     }
   ],
   "popular_movies": [
