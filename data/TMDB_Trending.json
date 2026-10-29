@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-29 07:39:39",
+  "last_updated": "2026-10-29 10:57:57",
   "today_global": [
     {
       "id": 1283515,
       "title": "不存在的罪人",
       "type": "movie",
       "genreTitle": "悬疑•惊悚•剧情",
-      "rating": 6.4,
+      "rating": 6.3,
       "release_date": "2026-09-30",
       "overview": "改编自科琳·胡佛的同名小说。知名作家维莉蒂·克劳福德因意外受伤后，洛温·阿什利受聘代笔完成她的系列小说，并搬进克劳福德家中。洛温意外发现维莉蒂令人不安的自传手稿，逐渐陷入真假难辨的秘密、操纵与执念之中。",
       "poster_url": "https://image.tmdb.org/t/p/original/zzJaCowELQcslovzG4RF9QUplH6.jpg",
@@ -17,11 +17,22 @@
       "title": "极速：伪装者",
       "type": "movie",
       "genreTitle": "爱情•惊悚",
-      "rating": 7.6,
+      "rating": 7.5,
       "release_date": "2026-10-27",
       "overview": "一位年轻的赛车技师假装与赛车界最具争议的的明星车手订婚，表面上是为了维护他的名声，实则是为了自己能有机会成为赛车手。但很快，这个谎言就威胁到一切，包括这段早已超越单纯交易的感情…",
       "poster_url": "https://image.tmdb.org/t/p/original/C9Kz6l4AsRBIPFiBRHsy0LsTmq.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/dw5G9bYehBz2DrQeY6zrBM2SYrn.jpg"
+    },
+    {
+      "id": 1727734,
+      "title": "Ali G: 我系水？",
+      "type": "movie",
+      "genreTitle": "喜剧",
+      "rating": 5.6,
+      "release_date": "2026-10-22",
+      "overview": "消失在公众视野二十年后，阿里·G惊讶地发现，长期交往的女友朱莉已经怀孕八个月。为了养活即将出生的孩子，他动身前往美国，试图重振昔日声名，却遭遇一群可能威胁他和孩子性命的对手。",
+      "poster_url": "https://image.tmdb.org/t/p/original/hEPifVqWAgAmv8LVR2vb6gBP90d.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/kx883SRQsRNTA965hgK04uHPARb.jpg"
     },
     {
       "id": 1384216,
@@ -46,24 +57,13 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
     },
     {
-      "id": 1727734,
-      "title": "Ali G: 我系水？",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.0,
-      "release_date": "2026-10-22",
-      "overview": "消失在公众视野二十年后，阿里·G惊讶地发现，长期交往的女友朱莉已经怀孕八个月。为了养活即将出生的孩子，他动身前往美国，试图重振昔日声名，却遭遇一群可能威胁他和孩子性命的对手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hEPifVqWAgAmv8LVR2vb6gBP90d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kx883SRQsRNTA965hgK04uHPARb.jpg"
-    },
-    {
       "id": 213375,
       "title": "幻视任务",
       "type": "tv",
       "genreTitle": "Sci-Fi & Fantasy•剧情",
       "rating": 8.6,
       "release_date": "2026-10-13",
-      "overview": "幻视在重启后隐姓埋名，逃避企图把他变成武器的人。为了寻找生命的新意义，他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯…甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与神秘少年托马斯·谢泼德踏上逃亡之路，而这少年可能是他儿子的化身。在逃避追捕的同时，幻视必须面对自己，抵抗奥创的影响，并揭开年轻同伴的谜团。",
+      "overview": "重启后的幻视隐居避世，试图摆脱将他武器化的人，并通过与体内的AI人格交流寻找存在意义，其中包括恶名昭彰的奥创。然而高额悬赏打破了平静，他被迫与神秘少年托马斯·谢泼德一同逃亡，后者或许是他重生后的儿子。",
       "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
@@ -90,39 +90,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
     },
     {
-      "id": 96677,
-      "title": "Lupin",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 7.7,
-      "release_date": "2021-01-08",
-      "overview": "灵感源自莫里斯·勒布朗创作的亚森·罗宾系列小说。绅士怪盗阿桑·迪奥普受到亚森·罗宾冒险的启发，凭借智慧与魅力智胜敌人，保护所爱之人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pUgzEc6Rn9NOgkn9cL1XUmjxvQl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
-    },
-    {
-      "id": 1170608,
-      "title": "沙丘3",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-15",
-      "overview": "在保罗·厄崔迪（提莫西·查拉梅 饰）掌控帝国近二十年后，此时的他已是一位冷酷无情的皇帝。当过去的盟友神秘回归，新的威胁接踵而至，反叛阴谋危机四伏，他必须直面自己统治的结果。帝国崩塌的幻象始终纠缠着他，昔日至爱再度现身，保罗被卷入一场巨大的阴谋之中，而契妮（赞达亚 饰）正处在风暴的中心。随着敌人步步逼近，保罗将不得不直面权力的代价，以及所爱之人的命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nRFhjS20RmhuLGEpQxewDyxlhmJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
-    },
-    {
-      "id": 1377237,
-      "title": "护肝人",
-      "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-09-07",
-      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
-    },
-    {
       "id": 334700,
       "title": "诡术",
       "type": "tv",
@@ -134,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gSlWzjRk1QarsB2PrJemCd88wJc.jpg"
     },
     {
-      "id": 1503762,
-      "title": "理智与情感",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 7.4,
-      "release_date": "2026-09-23",
-      "overview": "改编自简·奥斯汀的同名经典名著。乔治亚时期英格兰，达什伍德先生去世后，遗孀与三名女儿失去庄园继承权，被迫迁居乡间简陋房屋。长女埃莉诺与次女玛丽安在拮据处境与社会压力下各自面对求婚、心碎与对真爱的探寻。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2FKIwuM59SvqpkSZ0nfAdvDuT3S.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nsBcKpMjRRiBOMWZKAhrmVoSePi.jpg"
+      "id": 96677,
+      "title": "Lupin",
+      "type": "tv",
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 7.7,
+      "release_date": "2021-01-08",
+      "overview": "灵感源自莫里斯·勒布朗创作的亚森·罗宾系列小说。绅士怪盗阿桑·迪奥普受到亚森·罗宾冒险的启发，凭借智慧与魅力智胜敌人，保护所爱之人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pUgzEc6Rn9NOgkn9cL1XUmjxvQl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
     },
     {
       "id": 30984,
@@ -156,15 +123,59 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5",
+      "id": 1377237,
+      "title": "护肝人",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
+      "genreTitle": "动作•喜剧",
+      "rating": 8.3,
+      "release_date": "2026-09-07",
+      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
+    },
+    {
+      "id": 1170608,
+      "title": "沙丘3",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
       "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/noX1GBl8agsODI785LIwJJRYADr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
+      "release_date": "2026-12-15",
+      "overview": "改编自弗兰克·赫伯特的科幻小说《沙丘2：沙丘救世主》。保罗·厄崔迪夺取帝国统治权近二十年后，成为冷酷的皇帝。面对旧盟友回归、新威胁浮现与暗中背叛，保罗深陷一场阴谋，并必须直面权力的代价与所爱之人的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/KDlLzHTTE7vjplaXT5SfRZahwZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
+    },
+    {
+      "id": 1503762,
+      "title": "理智与情感",
+      "type": "movie",
+      "genreTitle": "剧情•爱情",
+      "rating": 7.4,
+      "release_date": "2026-09-23",
+      "overview": "改编自简·奥斯汀的同名经典名著。乔治亚时期英格兰，达什伍德先生去世后，遗孀与三名女儿失去庄园继承权，被迫迁居乡间简陋房屋。长女埃莉诺与次女玛丽安在拮据处境与社会压力下各自面对求婚、心碎与对真爱的探寻。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2FKIwuM59SvqpkSZ0nfAdvDuT3S.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nsBcKpMjRRiBOMWZKAhrmVoSePi.jpg"
+    },
+    {
+      "id": 120911,
+      "title": "The Terminal List",
+      "type": "tv",
+      "genreTitle": "动作冒险•剧情",
+      "rating": 8.0,
+      "release_date": "2022-06-30",
+      "overview": "改编自杰克·卡尔的系列小说。海豹突击队队长詹姆斯·里斯在一次秘密任务后卷入重重阴谋。从军事行动到国际谍战，他在追寻真相与执行任务的过程中，逐步揭开隐藏在背后的危险势力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5r3QqV3CMOoVJ4XH6C6ntUMtKr8.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
+    },
+    {
+      "id": 1058424,
+      "title": "希望",
+      "type": "movie",
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 6.8,
+      "release_date": "2026-07-15",
+      "overview": "支援人员前往扑救山火，通讯也随之中断。湖浦派出所所长范锡与警员成爱奋力保护村中老人，而进入山中追踪怪物的成基等人反遭猎杀。由无知引发的灾难逐渐演变为一场席卷宇宙的悲剧.",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
     },
     {
       "id": 1300968,
@@ -178,15 +189,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
     },
     {
-      "id": 1195803,
-      "title": "柳条人",
+      "id": 105248,
+      "title": "赛博朋克：边缘行者",
+      "type": "tv",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.5,
+      "release_date": "2022-09-13",
+      "overview": "夜之城每一季都有新故事，也总有一群特立独行的新角色登场，讲述属于他们的传奇。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kL0jycZo9QAIhempGbsb88uw1E1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/obzl1uYiC8gevu2YZIifw42hRt5.jpg"
+    },
+    {
+      "id": 1003596,
+      "title": "复仇者联盟5",
       "type": "movie",
-      "genreTitle": "爱情•奇幻•喜剧",
-      "rating": 8.0,
-      "release_date": "2026-10-21",
-      "overview": "海边小镇里有一个身上散发臭味的打渔女，饱受狭隘的邻居嘲讽，而她为自己找了个柳条做成的丈夫。这段离经叛道的爱情在保守的小镇里引起了怒火、嫉妒和轩然大波。",
-      "poster_url": "https://image.tmdb.org/t/p/original/xx1xkQrA1nNmCy86d1vyPGxsYY2.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w2myapUZiMa3ACz4gughcEYn2sF.jpg"
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/noX1GBl8agsODI785LIwJJRYADr.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
       "id": 1290418,
@@ -198,53 +220,9 @@
       "overview": "一名失踪36年的男子尸体在一桩骇人命案现场被发现，他的女儿梅格由此追查父亲隐秘的黑暗过往。",
       "poster_url": "https://image.tmdb.org/t/p/original/e5x2eLPY5vOqmzI2mEgOzyYQNq8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg"
-    },
-    {
-      "id": 1562777,
-      "title": "特技车手",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情•历史",
-      "rating": 8.8,
-      "release_date": "2026-09-25",
-      "overview": "根据加拿大特技车手肯·卡特的真实经历改编。20世纪70年代，加拿大特技车手肯·卡特决心驾驶火箭动力汽车飞跃圣劳伦斯河，完成横跨一英里的惊险壮举。面对公众质疑与个人心魔，他誓要挑战不可能，缔造传奇。",
-      "poster_url": "https://image.tmdb.org/t/p/original/sTmc7AsAiyXVXmVYqO98hQHQT6V.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5GHGegwjUrX1euGolMCuESvHW7O.jpg"
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "改编自荷马史诗《奥德赛》。特洛伊战争结束后，伊萨卡国王奥德修斯历经艰险、踏上漫长归乡之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qUj1aMFRkS51qxtT2klYYoEhxbq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     }
   ],
   "week_global_all": [
-    {
-      "id": 96677,
-      "title": "Lupin",
-      "type": "tv",
-      "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 7.7,
-      "release_date": "2021-01-08",
-      "overview": "灵感源自莫里斯·勒布朗创作的亚森·罗宾系列小说。绅士怪盗阿桑·迪奥普受到亚森·罗宾冒险的启发，凭借智慧与魅力智胜敌人，保护所爱之人。",
-      "poster_url": "https://image.tmdb.org/t/p/original/pUgzEc6Rn9NOgkn9cL1XUmjxvQl.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
-    },
-    {
-      "id": 1283515,
-      "title": "不存在的罪人",
-      "type": "movie",
-      "genreTitle": "悬疑•惊悚•剧情",
-      "rating": 6.3,
-      "release_date": "2026-09-30",
-      "overview": "改编自科琳·胡佛的同名小说。知名作家维莉蒂·克劳福德因意外受伤后，洛温·阿什利受聘代笔完成她的系列小说，并搬进克劳福德家中。洛温意外发现维莉蒂令人不安的自传手稿，逐渐陷入真假难辨的秘密、操纵与执念之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/zzJaCowELQcslovzG4RF9QUplH6.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ar5lp1Ee5yFnOL5S2rTdDySZFPz.jpg"
-    },
     {
       "id": 1400940,
       "title": "泥面人",
@@ -268,15 +246,26 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/lgI2UIRCFTq99dpSl8VhWGHqrWV.jpg"
     },
     {
-      "id": 213375,
-      "title": "幻视任务",
+      "id": 96677,
+      "title": "Lupin",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.6,
-      "release_date": "2026-10-13",
-      "overview": "幻视在重启后隐姓埋名，逃避企图把他变成武器的人。为了寻找生命的新意义，他开始与植入体内的AI对话，包括星期五、伊迪丝、贾维斯…甚至恶名昭彰的奥创。他低调的生活被一笔悬赏令终结，迫使他与神秘少年托马斯·谢泼德踏上逃亡之路，而这少年可能是他儿子的化身。在逃避追捕的同时，幻视必须面对自己，抵抗奥创的影响，并揭开年轻同伴的谜团。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
+      "genreTitle": "犯罪•剧情•悬疑",
+      "rating": 7.7,
+      "release_date": "2021-01-08",
+      "overview": "灵感源自莫里斯·勒布朗创作的亚森·罗宾系列小说。绅士怪盗阿桑·迪奥普受到亚森·罗宾冒险的启发，凭借智慧与魅力智胜敌人，保护所爱之人。",
+      "poster_url": "https://image.tmdb.org/t/p/original/pUgzEc6Rn9NOgkn9cL1XUmjxvQl.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/f7CwtaRgSFBVzW81JJbUEcmRGgK.jpg"
+    },
+    {
+      "id": 1283515,
+      "title": "不存在的罪人",
+      "type": "movie",
+      "genreTitle": "悬疑•惊悚•剧情",
+      "rating": 6.3,
+      "release_date": "2026-09-30",
+      "overview": "改编自科琳·胡佛的同名小说。知名作家维莉蒂·克劳福德因意外受伤后，洛温·阿什利受聘代笔完成她的系列小说，并搬进克劳福德家中。洛温意外发现维莉蒂令人不安的自传手稿，逐渐陷入真假难辨的秘密、操纵与执念之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/zzJaCowELQcslovzG4RF9QUplH6.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ar5lp1Ee5yFnOL5S2rTdDySZFPz.jpg"
     },
     {
       "id": 1384216,
@@ -301,26 +290,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
     },
     {
-      "id": 1465063,
-      "title": "忘却之岛",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 7.5,
-      "release_date": "2026-09-10",
-      "overview": "好友乔与拉伊萨高中毕业即将分别，她们打算相伴度过最后一夜，却意外被传送到奇幻岛屿纳卡利。二人得知重返家园的代价是抹去关于彼此的全部记忆，她们必须抓紧时间，在遗忘对方找到方法离开这座岛屿。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2O3b5ey8xITyzz5KuaaRTj6bONx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
-    },
-    {
-      "id": 1727734,
-      "title": "Ali G: 我系水？",
-      "type": "movie",
-      "genreTitle": "喜剧",
-      "rating": 6.0,
-      "release_date": "2026-10-22",
-      "overview": "消失在公众视野二十年后，阿里·G惊讶地发现，长期交往的女友朱莉已经怀孕八个月。为了养活即将出生的孩子，他动身前往美国，试图重振昔日声名，却遭遇一群可能威胁他和孩子性命的对手。",
-      "poster_url": "https://image.tmdb.org/t/p/original/hEPifVqWAgAmv8LVR2vb6gBP90d.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/kx883SRQsRNTA965hgK04uHPARb.jpg"
+      "id": 213375,
+      "title": "幻视任务",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.6,
+      "release_date": "2026-10-13",
+      "overview": "重启后的幻视隐居避世，试图摆脱将他武器化的人，并通过与体内的AI人格交流寻找存在意义，其中包括恶名昭彰的奥创。然而高额悬赏打破了平静，他被迫与神秘少年托马斯·谢泼德一同逃亡，后者或许是他重生后的儿子。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
       "id": 120911,
@@ -334,17 +312,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg"
     },
     {
-      "id": 1170608,
-      "title": "沙丘3",
-      "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-15",
-      "overview": "在保罗·厄崔迪（提莫西·查拉梅 饰）掌控帝国近二十年后，此时的他已是一位冷酷无情的皇帝。当过去的盟友神秘回归，新的威胁接踵而至，反叛阴谋危机四伏，他必须直面自己统治的结果。帝国崩塌的幻象始终纠缠着他，昔日至爱再度现身，保罗被卷入一场巨大的阴谋之中，而契妮（赞达亚 饰）正处在风暴的中心。随着敌人步步逼近，保罗将不得不直面权力的代价，以及所爱之人的命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/eqbAXAWB8uxXywNkKqUsQ2sbErJ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
-    },
-    {
       "id": 105248,
       "title": "赛博朋克：边缘行者",
       "type": "tv",
@@ -356,48 +323,70 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/obzl1uYiC8gevu2YZIifw42hRt5.jpg"
     },
     {
-      "id": 1596275,
-      "title": "极速：伪装者",
+      "id": 1058424,
+      "title": "希望",
       "type": "movie",
-      "genreTitle": "爱情•惊悚",
-      "rating": 7.3,
-      "release_date": "2026-10-27",
-      "overview": "一位年轻的赛车技师假装与赛车界最具争议的的明星车手订婚，表面上是为了维护他的名声，实则是为了自己能有机会成为赛车手。但很快，这个谎言就威胁到一切，包括这段早已超越单纯交易的感情…",
-      "poster_url": "https://image.tmdb.org/t/p/original/C9Kz6l4AsRBIPFiBRHsy0LsTmq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dw5G9bYehBz2DrQeY6zrBM2SYrn.jpg"
+      "genreTitle": "科幻•悬疑•动作",
+      "rating": 6.8,
+      "release_date": "2026-07-15",
+      "overview": "支援人员前往扑救山火，通讯也随之中断。湖浦派出所所长范锡与警员成爱奋力保护村中老人，而进入山中追踪怪物的成基等人反遭猎杀。由无知引发的灾难逐渐演变为一场席卷宇宙的悲剧.",
+      "poster_url": "https://image.tmdb.org/t/p/original/cNdHFtoePvOp5nxqwWNg9BJLQ8g.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/vgBzjgkQBd5aBxwzHh9wAmolttW.jpg"
+    },
+    {
+      "id": 1465063,
+      "title": "忘却之岛",
+      "type": "movie",
+      "genreTitle": "动画•冒险•奇幻",
+      "rating": 7.5,
+      "release_date": "2026-09-10",
+      "overview": "好友乔与拉伊萨高中毕业即将分别，她们打算相伴度过最后一夜，却意外被传送到奇幻岛屿纳卡利。二人得知重返家园的代价是抹去关于彼此的全部记忆，她们必须抓紧时间，在遗忘对方找到方法离开这座岛屿。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2O3b5ey8xITyzz5KuaaRTj6bONx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iU2RVy0G99XoDSUHvcQomtif5nP.jpg"
+    },
+    {
+      "id": 30984,
+      "title": "死神",
+      "type": "tv",
+      "genreTitle": "动作冒险•动画•Sci-Fi & Fantasy",
+      "rating": 8.4,
+      "release_date": "2004-10-05",
+      "overview": "高中生黑崎一护意外获得死神之力，从此卷入现世、尸魂界与虚圈之间的纷争。在守护同伴的战斗中，他逐渐揭开自己的身世，并迎来决定三界命运的最终决战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uZM8PIaimoRxQ3vYqzpZOifGE6Y.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/iOqZvLBolcM2r1q8zR49WnsKDDP.jpg"
+    },
+    {
+      "id": 969681,
+      "title": "蜘蛛侠：崭新之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 8.5,
+      "release_date": "2026-07-29",
+      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，但在一个无人记得他的世界里，看着昔日好友各自开启新生活的压力，正引发他无法掌控的变化。而这场蜕变，或许也是阻止威胁城市及他所爱之人的强大隐形反派的唯一希望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
       "id": 1290418,
       "title": "尸变",
       "type": "movie",
       "genreTitle": "犯罪•恐怖•惊悚",
-      "rating": 6.8,
+      "rating": 6.7,
       "release_date": "2026-09-24",
       "overview": "一名失踪36年的男子尸体在一桩骇人命案现场被发现，他的女儿梅格由此追查父亲隐秘的黑暗过往。",
       "poster_url": "https://image.tmdb.org/t/p/original/e5x2eLPY5vOqmzI2mEgOzyYQNq8.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg"
     },
     {
-      "id": 1377237,
-      "title": "护肝人",
+      "id": 1339713,
+      "title": "痴迷",
       "type": "movie",
-      "genreTitle": "动作•喜剧",
-      "rating": 8.3,
-      "release_date": "2026-09-07",
-      "overview": "高端特种押运员汉克·马龙必须在三小时内，将一颗肝脏从洛杉矶国际机场运往圣巴巴拉的一家医院，用于一台紧急移植手术。受赠者是一名濒危的七岁女孩，她拥有全球极为罕见的血型。偏偏南加州最危险犯罪集团的头目，也急需这颗器官。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bou3s9jCvcZ1iGPiYilD7C0LdLo.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg"
-    },
-    {
-      "id": 1003596,
-      "title": "复仇者联盟5",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/noX1GBl8agsODI785LIwJJRYADr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
+      "genreTitle": "恐怖•惊悚",
+      "rating": 8.2,
+      "release_date": "2026-05-13",
+      "overview": "一个渴望爱情的浪漫主义者打破神秘的“许愿柳”，希望赢得心仪之人的芳心。当愿望如愿实现，他却发现，有些欲望背后隐藏着黑暗而可怕的代价。",
+      "poster_url": "https://image.tmdb.org/t/p/original/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dCJ4Igrbnc35QeNKi3FUEt7nAJm.jpg"
     },
     {
       "id": 288673,
@@ -411,6 +400,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/o13jihsnYh8aCnE6lqrWp0YxuWw.jpg"
     },
     {
+      "id": 1170608,
+      "title": "沙丘3",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-15",
+      "overview": "改编自弗兰克·赫伯特的科幻小说《沙丘2：沙丘救世主》。保罗·厄崔迪夺取帝国统治权近二十年后，成为冷酷的皇帝。面对旧盟友回归、新威胁浮现与暗中背叛，保罗深陷一场阴谋，并必须直面权力的代价与所爱之人的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/KDlLzHTTE7vjplaXT5SfRZahwZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
+    },
+    {
+      "id": 1422041,
+      "title": "黑球",
+      "type": "movie",
+      "genreTitle": "剧情•战争",
+      "rating": 8.1,
+      "release_date": "2026-09-25",
+      "overview": "三个同性恋男子在西班牙历史上1932 年、1937 年和 2017 年三个不同时期的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/iog65w1sTbRNtv3K2nuUjlRpuAR.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+    },
+    {
       "id": 213562,
       "title": "水晶湖",
       "type": "tv",
@@ -422,26 +433,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/6thBvfTt3j29UOmyi9ycCRems0q.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
+      "id": 1596275,
+      "title": "极速：伪装者",
       "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "改编自荷马史诗《奥德赛》。特洛伊战争结束后，伊萨卡国王奥德修斯历经艰险、踏上漫长归乡之旅。",
-      "poster_url": "https://image.tmdb.org/t/p/original/qUj1aMFRkS51qxtT2klYYoEhxbq.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
-      "id": 969681,
-      "title": "蜘蛛侠：崭新之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 8.5,
-      "release_date": "2026-07-29",
-      "overview": "彼得·帕克（汤姆·霍兰德 饰）自愿让全世界遗忘自己，转眼已是四年。失去挚友、挚爱与亲人的陪伴，他独自重返街头，以全职蜘蛛侠的身份坚守使命，守护整座城市。然而，日益沉重的责任与无尽压力，意外引发了一场骇人的身体异变，直接威胁到蜘蛛侠的生命，迫使他向“绿巨人”班纳博士寻求帮助。与此同时，多方邪恶势力趁虚而入，纽约再度陷入危机。面对前所未有的强敌，蜘蛛侠能否绝境破局，完成破茧重生？",
-      "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+      "genreTitle": "爱情•惊悚",
+      "rating": 7.5,
+      "release_date": "2026-10-27",
+      "overview": "一位年轻的赛车技师假装与赛车界最具争议的的明星车手订婚，表面上是为了维护他的名声，实则是为了自己能有机会成为赛车手。但很快，这个谎言就威胁到一切，包括这段早已超越单纯交易的感情…",
+      "poster_url": "https://image.tmdb.org/t/p/original/C9Kz6l4AsRBIPFiBRHsy0LsTmq.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dw5G9bYehBz2DrQeY6zrBM2SYrn.jpg"
     }
   ],
   "popular_movies": [
@@ -463,7 +463,7 @@
       "genreTitle": "科幻•动作•冒险",
       "rating": 8.5,
       "release_date": "2026-07-29",
-      "overview": "彼得·帕克以蜘蛛侠的身份全职打击犯罪，却发现自己的身体发生了无法控制的变化。与此同时，一股神秘而强大的新威胁正向他和所爱之人逼近。",
+      "overview": "彼得·帕克（汤姆·霍兰德 饰）自愿让全世界遗忘自己，转眼已是四年。失去挚友、挚爱与亲人的陪伴，他独自重返街头，以全职蜘蛛侠的身份坚守使命，守护整座城市。然而，日益沉重的责任与无尽压力，意外引发了一场骇人的身体异变，直接威胁到蜘蛛侠的生命，迫使他向“绿巨人”班纳博士寻求帮助。与此同时，多方邪恶势力趁虚而入，纽约再度陷入危机。面对前所未有的强敌，蜘蛛侠能否绝境破局，完成破茧重生？",
       "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
@@ -551,7 +551,7 @@
       "genreTitle": "恐怖•奇幻•悬疑",
       "rating": 6.5,
       "release_date": "2026-07-22",
-      "overview": "老木匠杰佩托为孙子詹姆斯打造了一具栩栩如生的木偶匹诺曹，木偶意外觉醒了自我意识，本心单纯地想要守护小主人。但在邪恶化的蟋蟀蛊惑、以及自身木质本源的执念驱使下，匹诺曹偏执地认定所有让詹姆斯受委屈、产生不快的人都是威胁，为了真正变成人类，他开始疯狂猎杀目标，通过收集受害者的牙齿、皮肤、器官来完成肉身蜕变，牙医、校霸、刻薄的成年人接连沦为他的猎物，一场失控的血腥屠杀就此铺开，原本纯真的童话人偶彻底沦为残忍的杀人傀儡。",
+      "overview": "改编自卡洛·科洛迪的小说《木偶奇遇记》。爷爷盖比特向孙子詹姆斯介绍了一个看似神奇的木偶匹诺曹，希望他们成为最好的朋友。然而，詹姆斯没有意识到匹诺曹天真而极端的天性，当他把匹诺曹带入现实世界、介绍给他人类社会时，这个木偶开始了一场“清除所有坏事物”的血腥十字军式行动。",
       "poster_url": "https://image.tmdb.org/t/p/original/hJNdizFlxOW89edX3Rzr6OliSFI.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/knnV7fCwXVJD8fo9RSKDqx9zov9.jpg"
     },
@@ -560,7 +560,7 @@
       "title": "末世行者",
       "type": "movie",
       "genreTitle": "动作•惊悚•科幻",
-      "rating": 6.7,
+      "rating": 6.8,
       "release_date": "2026-08-26",
       "overview": "改编自彼得·海勒的同名小说。在残酷的末世中，年轻飞行员希格与军事生存专家班格利建立了一个与世隔绝的居所。当一段神秘的无线电信号传来，希格决定踏入未知世界，寻找他仍然相信存在的希望与人性。",
       "poster_url": "https://image.tmdb.org/t/p/original/wRayQFDXZZfZ0kj0ESniCgEh66a.jpg",
@@ -590,12 +590,12 @@
     },
     {
       "id": 1657630,
-      "title": "El despertar",
+      "title": "邪灵苏醒",
       "type": "movie",
       "genreTitle": "恐怖•动作•战争",
-      "rating": 7.3,
+      "rating": 6.8,
       "release_date": "2026-10-29",
-      "overview": "",
+      "overview": "一支精英军事小队深入南美丛林执行任务，却遭遇致命的超自然力量，揭开一股古老邪恶的存在。五百年前曾吞噬西班牙征服者的恐怖，如今再次降临。",
       "poster_url": "https://image.tmdb.org/t/p/original/w3YJx1PPPC6aiVKusxfc9QA0uYS.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/75MLVCmQ4QougShkx3OlUbJbuSK.jpg"
     },
