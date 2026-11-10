@@ -1,28 +1,6 @@
 {
-  "last_updated": "2026-11-10 15:48:51",
+  "last_updated": "2026-11-10 23:50:13",
   "today_global": [
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-07-15",
-      "overview": "特洛伊战争结束后，奥德修斯在返回伊萨卡的途中历经艰险，沿途遇到了独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神奇生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
-      "id": 1792170,
-      "title": "模范公民",
-      "type": "movie",
-      "genreTitle": "犯罪•科幻•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-11-03",
-      "overview": "失去记忆、对过往一片模糊的前警探史蒂文·贝，在一座偏僻农场接受失忆治疗，却遭遇日益加剧的敌意、诡异的监视，以及难以控制的本能。随着压力不断升级，他开始追查破碎现实背后的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vagcyob8HzG9VbWzhqdkXF1CGYN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z4ZaKj4yQ4OOrW3ieYjtDI9PQ82.jpg"
-    },
     {
       "id": 1489,
       "title": "吉米·坎摩尔直播秀",
@@ -35,37 +13,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/sv13a6ApgehTAL9lnueY9kK7VtU.jpg"
     },
     {
+      "id": 1792170,
+      "title": "模范公民",
+      "type": "movie",
+      "genreTitle": "犯罪•科幻•惊悚",
+      "rating": 6.3,
+      "release_date": "2026-11-03",
+      "overview": "失去记忆、对过往一片模糊的前警探史蒂文·贝，在一座偏僻农场接受失忆治疗，却遭遇日益加剧的敌意、诡异的监视，以及难以控制的本能。随着压力不断升级，他开始追查破碎现实背后的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vagcyob8HzG9VbWzhqdkXF1CGYN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z4ZaKj4yQ4OOrW3ieYjtDI9PQ82.jpg"
+    },
+    {
+      "id": 1400837,
+      "title": "另一个妈妈",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 5.8,
+      "release_date": "2026-10-07",
+      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zNaLP9XKRGdLYdKiLjEap5zqYWt.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-07-15",
+      "overview": "特洛伊战争结束后，奥德修斯在返回伊萨卡的途中历经艰险，沿途遇到了独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神奇生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
       "id": 1616419,
       "title": "一位好律师",
       "type": "movie",
       "genreTitle": "惊悚•剧情",
-      "rating": 7.2,
+      "rating": 7.1,
       "release_date": "2026-09-11",
       "overview": "莱昂纳尔·朗德里律师因频繁接触他所辩护的毒贩，自己竟也深陷可卡因泥潭，最终在一次法庭辩护中因吸食过量而当场昏厥。从戒毒所出来后，他只有一周时间，既要准备自己的辩护，又要同时应对一家工业集团的官司——该集团被控在非洲与恐怖组织暧昧不清。他的声誉命悬一线，职业生涯也岌岌可危。在这场与时间的疯狂赛跑中，唯一站在他身边的，是一个锲而不舍的实习生。",
       "poster_url": "https://image.tmdb.org/t/p/original/9aQFrPxHFLa3vbX9xwcygzaeKBT.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/fzlch1j1aVGJKI0GB6IdgbG5gpJ.jpg"
-    },
-    {
-      "id": 313738,
-      "title": "独一无二的浪漫",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-11-09",
-      "overview": "一位在便利店打工、梦想成为作家的平凡求职生，因缘际会下频繁遇见童星出身的顶级演员，却被对方误认为是「私生饭」。在误会解开后，两人阴错阳差展开了一段经纪人与明星的特别关系。与此同时，一名匿名者的持续跟踪浮出水面，让紧张感骤然升级。两人决定一同追查真相，然而接连爆发的意外事件，将他们推入更深的迷雾与危机之中……",
-      "poster_url": "https://image.tmdb.org/t/p/original/i4dsGTeyt0p6aEdxKEMslpMJrOE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1bTb7wJHiJZ8B8X94IBpPzF38MI.jpg"
-    },
-    {
-      "id": 1263337,
-      "title": "野兽之心",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚",
-      "rating": 7.3,
-      "release_date": "2026-09-19",
-      "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
     },
     {
       "id": 1423191,
@@ -79,6 +68,28 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
+      "id": 1263337,
+      "title": "野兽之心",
+      "type": "movie",
+      "genreTitle": "冒险•惊悚",
+      "rating": 7.3,
+      "release_date": "2026-09-19",
+      "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
+    },
+    {
+      "id": 1567605,
+      "title": "寒夜怪谈",
+      "type": "movie",
+      "genreTitle": "奇幻•喜剧",
+      "rating": 8.6,
+      "release_date": "2026-11-11",
+      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/soQM0M0P7OsHT7HmnlcDQ4rcDN0.jpg"
+    },
+    {
       "id": 1381071,
       "title": "哥斯拉-0.0",
       "type": "movie",
@@ -90,15 +101,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
     },
     {
-      "id": 1375441,
-      "title": "黄金时段",
+      "id": 656908,
+      "title": "罗摩衍那：王子传奇",
       "type": "movie",
-      "genreTitle": "惊悚•剧情•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-09-23",
-      "overview": "聚焦电视主持人克里斯·汉森与他推出的一档真人秀节目“猎捕恋童癖”，该节目利用人员在网络上伪装成未成年人，引诱恋童癖进入摄影棚，并将其逮捕。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6rjSYr7NoSWKwzSZbuHogNXgF1O.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9DLdnwZVgfqZMpMhj63cNhdLwQB.jpg"
+      "genreTitle": "奇幻•动作•冒险",
+      "rating": 7.5,
+      "release_date": "2026-11-05",
+      "overview": "改编自印度古代史诗《罗摩衍那》。魔王罗波那作恶多端，欲用武力一统三界。毗湿奴神化身罗摩降临凡尘，担起守护众生的重任。十四年流放间罗摩降妖除魔，一步步激怒了罗波那。当妻子悉多被掳走，彻底点燃了罗摩心中的战意。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2B67vLTkLIACYeq0xfrIOpCAum1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg"
     },
     {
       "id": 247718,
@@ -112,50 +123,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     },
     {
-      "id": 1567605,
-      "title": "寒夜怪谈",
-      "type": "movie",
-      "genreTitle": "奇幻•喜剧",
-      "rating": 8.2,
-      "release_date": "2026-11-11",
-      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/soQM0M0P7OsHT7HmnlcDQ4rcDN0.jpg"
-    },
-    {
-      "id": 656908,
-      "title": "罗摩衍那：王子传奇",
-      "type": "movie",
-      "genreTitle": "奇幻•动作•冒险",
-      "rating": 7.7,
-      "release_date": "2026-11-05",
-      "overview": "改编自印度古代史诗《罗摩衍那》。魔王罗波那作恶多端，欲用武力一统三界。毗湿奴神化身罗摩降临凡尘，担起守护众生的重任。十四年流放间罗摩降妖除魔，一步步激怒了罗波那。当妻子悉多被掳走，彻底点燃了罗摩心中的战意。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2B67vLTkLIACYeq0xfrIOpCAum1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg"
-    },
-    {
-      "id": 1483525,
-      "title": "可能的爱",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 7.4,
-      "release_date": "2026-09-23",
-      "overview": "一对失业夫妻遇上一对纪录片导演夫妇，并直面他们内心深处的渴望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7hEGIiIRdtFYA11fKPY1Kz8CpyI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg"
-    },
-    {
-      "id": 253372,
-      "title": "异能研究所",
-      "type": "tv",
-      "genreTitle": "悬疑•Sci-Fi & Fantasy",
-      "rating": 7.5,
-      "release_date": "2025-07-13",
-      "overview": "《迷失》导演杰克·本德与《大小谎言》)编剧大卫·E·凯利将把史蒂芬·金最新小说《研究院》打造为限定剧。本剧将由本德执导，凯利执笔剧本，据悉小说被描述为“自《小丑回魂》问世以来，有关孩子战胜邪恶的最令人揪心的故事”。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1iYF7aTc8FTswO5Ky2JlawMbfSa.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1UVkmpj8x2t8t2PXJOd0sVaFYVe.jpg"
-    },
-    {
       "id": 213375,
       "title": "幻视任务",
       "type": "tv",
@@ -167,15 +134,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
-      "id": 1400940,
-      "title": "泥面人",
+      "id": 1483525,
+      "title": "假如爱有如果",
       "type": "movie",
-      "genreTitle": "恐怖•惊悚•科幻",
+      "genreTitle": "剧情",
       "rating": 7.4,
-      "release_date": "2026-10-19",
-      "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
+      "release_date": "2026-09-23",
+      "overview": "一对失业夫妻遇上一对纪录片导演夫妇，并直面他们内心深处的渴望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7o6hwgUhpWjm1UqLu5IKuXXfxvP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg"
+    },
+    {
+      "id": 1300968,
+      "title": "饥饿游戏：收获日出",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-11-18",
+      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jPPiwFKBzrsNtBQVymuwsyt9qBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
+    },
+    {
+      "id": 313738,
+      "title": "独一无二的浪漫",
+      "type": "tv",
+      "genreTitle": "喜剧•剧情",
+      "rating": 0.0,
+      "release_date": "2026-11-09",
+      "overview": "一位在便利店打工、梦想成为作家的平凡求职生，因缘际会下频繁遇见童星出身的顶级演员，却被对方误认为是「私生饭」。在误会解开后，两人阴错阳差展开了一段经纪人与明星的特别关系。与此同时，一名匿名者的持续跟踪浮出水面，让紧张感骤然升级。两人决定一同追查真相，然而接连爆发的意外事件，将他们推入更深的迷雾与危机之中……",
+      "poster_url": "https://image.tmdb.org/t/p/original/i4dsGTeyt0p6aEdxKEMslpMJrOE.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1bTb7wJHiJZ8B8X94IBpPzF38MI.jpg"
+    },
+    {
+      "id": 84773,
+      "title": "指环王：力量之戒",
+      "type": "tv",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 7.2,
+      "release_date": "2022-09-01",
+      "overview": "强大的力量锻造成型，王国辉煌崛起又陨落成尘，让人意想不到的英雄遭受考验，而强大的反派势要让整个世界蒙上黑暗。\n\n一组为人熟悉的人物和全新的角色，他们必须对抗邪恶势力在中土世界再度崛起。从迷雾山脉的最深处、林顿壮丽的森林、努曼诺尔的海岛王国到地图的最边缘，这些领土和角色将联手创造传奇，即使他们不在人世后仍流芳百世。\n\n本剧设定在托尔金的《霍比特人》和《指环王》事件前的数千年，将带领观众回到那个年代。",
+      "poster_url": "https://image.tmdb.org/t/p/original/x4puqjv2DJL5JnicLzEl8YmEkNc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/gQ8RTP2BZNJ8CyaMs4P52jsGqq6.jpg"
     },
     {
       "id": 1003596,
@@ -189,50 +189,50 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
-      "id": 1380417,
-      "title": "不择手段",
+      "id": 1400940,
+      "title": "泥面人",
       "type": "movie",
-      "genreTitle": "惊悚•历史•犯罪",
-      "rating": 6.6,
-      "release_date": "2026-09-02",
-      "overview": "改编自真实事件。一名年轻的黑人联邦调查局探员奉命前往1960年代的密西西比州，调查针对民权领袖的一系列残忍谋杀案。他被迫与臭名昭著的黑手党杀手格雷格·斯卡帕合作，在追查真凶的过程中，正义与复仇的界限逐渐模糊。",
-      "poster_url": "https://image.tmdb.org/t/p/original/duiObQgNpRkDBB4SfjN9wZFy9Ak.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/oeRTTn3em6yHsnJy9miKJwdHuKR.jpg"
+      "genreTitle": "恐怖•惊悚•科幻",
+      "rating": 7.4,
+      "release_date": "2026-10-19",
+      "overview": "好莱坞新星马特·哈根遭犯罪头目毁容后，为恢复容貌接受先进治疗，却意外陷入疯狂，走上复仇之路。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1maUuFiGGmCATYaSMJTL4MbDXma.jpg"
     },
     {
-      "id": 279155,
-      "title": "谷雨",
+      "id": 253372,
+      "title": "异能研究所",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 9.0,
-      "release_date": "2026-11-05",
-      "overview": "1994年，春江市税务稽查欧阳煦、刑警严平安与寻妻的周海洋，因一桩假发票案相识。时代浪潮之下，三人境遇迴异，命运逐渐分化。多年后，谷雨行动让他们再度相逢，昔日兄弟已然站在对立面。欧阳煦直面以周海洋为首骗税团伙及其背后保护伞，在情与法理之间艰难抉择。从一张发票入手，撕开贪欲面纱，最终清除罪恶，守护正义。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kcVAU4qFRLD5gYNTZNvbZcZ1Jui.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wq90aEtC8xYym8dFovlU7X98Anq.jpg"
+      "genreTitle": "悬疑•Sci-Fi & Fantasy",
+      "rating": 7.5,
+      "release_date": "2025-07-13",
+      "overview": "《迷失》导演杰克·本德与《大小谎言》)编剧大卫·E·凯利将把史蒂芬·金最新小说《研究院》打造为限定剧。本剧将由本德执导，凯利执笔剧本，据悉小说被描述为“自《小丑回魂》问世以来，有关孩子战胜邪恶的最令人揪心的故事”。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1iYF7aTc8FTswO5Ky2JlawMbfSa.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1UVkmpj8x2t8t2PXJOd0sVaFYVe.jpg"
     },
     {
-      "id": 1300968,
-      "title": "饥饿游戏：收获日出",
+      "id": 1375441,
+      "title": "黄金时段",
       "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-11-18",
-      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/jPPiwFKBzrsNtBQVymuwsyt9qBw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
+      "genreTitle": "惊悚•剧情•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-09-23",
+      "overview": "聚焦电视主持人克里斯·汉森与他推出的一档真人秀节目“猎捕恋童癖”，该节目利用人员在网络上伪装成未成年人，引诱恋童癖进入摄影棚，并将其逮捕。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6rjSYr7NoSWKwzSZbuHogNXgF1O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9DLdnwZVgfqZMpMhj63cNhdLwQB.jpg"
     }
   ],
   "week_global_all": [
     {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
+      "id": 1792170,
+      "title": "模范公民",
       "type": "movie",
-      "genreTitle": "恐怖•科幻•冒险",
-      "rating": 7.5,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
-      "poster_url": "https://image.tmdb.org/t/p/original/oLLEEUq7In4Ob731KpjrValqM4A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
+      "genreTitle": "犯罪•科幻•惊悚",
+      "rating": 6.5,
+      "release_date": "2026-11-03",
+      "overview": "失去记忆、对过往一片模糊的前警探史蒂文·贝，在一座偏僻农场接受失忆治疗，却遭遇日益加剧的敌意、诡异的监视，以及难以控制的本能。随着压力不断升级，他开始追查破碎现实背后的真相。",
+      "poster_url": "https://image.tmdb.org/t/p/original/vagcyob8HzG9VbWzhqdkXF1CGYN.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/z4ZaKj4yQ4OOrW3ieYjtDI9PQ82.jpg"
     },
     {
       "id": 1368337,
@@ -246,26 +246,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 1489,
-      "title": "吉米·坎摩尔直播秀",
-      "type": "tv",
-      "genreTitle": "脱口秀•喜剧",
-      "rating": 5.3,
-      "release_date": "2003-01-26",
-      "overview": "《吉米·坎摩尔秀》是美国一档深夜脱口秀节目，由吉米·坎摩尔创作并主持，在ABC电视台播出。",
-      "poster_url": "https://image.tmdb.org/t/p/original/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/sv13a6ApgehTAL9lnueY9kK7VtU.jpg"
-    },
-    {
-      "id": 1792170,
-      "title": "模范公民",
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
       "type": "movie",
-      "genreTitle": "犯罪•科幻•惊悚",
-      "rating": 6.5,
-      "release_date": "2026-11-03",
-      "overview": "失去记忆、对过往一片模糊的前警探史蒂文·贝，在一座偏僻农场接受失忆治疗，却遭遇日益加剧的敌意、诡异的监视，以及难以控制的本能。随着压力不断升级，他开始追查破碎现实背后的真相。",
-      "poster_url": "https://image.tmdb.org/t/p/original/vagcyob8HzG9VbWzhqdkXF1CGYN.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/z4ZaKj4yQ4OOrW3ieYjtDI9PQ82.jpg"
+      "genreTitle": "恐怖•科幻•冒险",
+      "rating": 7.5,
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster_url": "https://image.tmdb.org/t/p/original/oLLEEUq7In4Ob731KpjrValqM4A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
       "id": 1263337,
@@ -279,26 +268,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
     },
     {
-      "id": 1375441,
-      "title": "黄金时段",
+      "id": 1400837,
+      "title": "另一个妈妈",
       "type": "movie",
-      "genreTitle": "惊悚•剧情•犯罪",
-      "rating": 6.8,
-      "release_date": "2026-09-23",
-      "overview": "聚焦电视主持人克里斯·汉森与他推出的一档真人秀节目“猎捕恋童癖”，该节目利用人员在网络上伪装成未成年人，引诱恋童癖进入摄影棚，并将其逮捕。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6rjSYr7NoSWKwzSZbuHogNXgF1O.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9DLdnwZVgfqZMpMhj63cNhdLwQB.jpg"
-    },
-    {
-      "id": 1483525,
-      "title": "可能的爱",
-      "type": "movie",
-      "genreTitle": "剧情•爱情",
-      "rating": 7.4,
-      "release_date": "2026-09-23",
-      "overview": "一对失业夫妻遇上一对纪录片导演夫妇，并直面他们内心深处的渴望。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7hEGIiIRdtFYA11fKPY1Kz8CpyI.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg"
+      "genreTitle": "恐怖",
+      "rating": 5.8,
+      "release_date": "2026-10-07",
+      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8NhvDXIZXU39wZCJbhUerrJyRnK.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/zNaLP9XKRGdLYdKiLjEap5zqYWt.jpg"
     },
     {
       "id": 1381071,
@@ -312,70 +290,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
     },
     {
-      "id": 225385,
-      "title": "黑鸽",
-      "type": "tv",
-      "genreTitle": "动作冒险•悬疑•犯罪",
-      "rating": 7.0,
-      "release_date": "2024-12-05",
-      "overview": "嫁给政客的卧底间谍依靠多年好友兼职业杀手的协助完成秘密行动，如履薄冰地维系自己的双重生活。",
-      "poster_url": "https://image.tmdb.org/t/p/original/g5gGRAxnBYMYaIqu2aBvIURoezg.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/7RqugWVFHI4JTRqWgpAjQ2ySMVp.jpg"
+      "id": 1483525,
+      "title": "假如爱有如果",
+      "type": "movie",
+      "genreTitle": "剧情",
+      "rating": 7.4,
+      "release_date": "2026-09-23",
+      "overview": "一对失业夫妻遇上一对纪录片导演夫妇，并直面他们内心深处的渴望。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7o6hwgUhpWjm1UqLu5IKuXXfxvP.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg"
     },
     {
-      "id": 1294189,
-      "title": "猫鼬",
+      "id": 1375441,
+      "title": "黄金时段",
       "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 5.6,
-      "release_date": "2026-10-29",
-      "overview": "一位被冤枉的战争英雄，一无所有，在昔日特种部队成员的帮助下，与警方展开了一场史诗般的全国汽车追逐，全程电视直播。而着迷的公众则密切关注着他，希望他能安全逃脱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/m1vBxr5hLklqgMZQogEEsexzyEQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9f0SZYEElYbjj9syw5aZREnfeDt.jpg"
-    },
-    {
-      "id": 791523,
-      "title": "荒野丛林",
-      "type": "movie",
-      "genreTitle": "动画•冒险•奇幻",
-      "rating": 8.5,
-      "release_date": "2026-10-19",
-      "overview": "普鲁和同班同学柯蒂斯误入一片禁忌魔法森林，林中遍布魔法生灵、忠心伙伴与强大劲敌。二人踏上一场凶险万分的营救之旅，要从神秘女子亚历山德拉统领的鸦群手中，救出被掳走的婴儿弟弟麦克。",
-      "poster_url": "https://image.tmdb.org/t/p/original/z5MMAxbQO2nCvBU8BqHgoY1zKdD.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg"
+      "genreTitle": "惊悚•剧情•犯罪",
+      "rating": 6.8,
+      "release_date": "2026-09-23",
+      "overview": "聚焦电视主持人克里斯·汉森与他推出的一档真人秀节目“猎捕恋童癖”，该节目利用人员在网络上伪装成未成年人，引诱恋童癖进入摄影棚，并将其逮捕。",
+      "poster_url": "https://image.tmdb.org/t/p/original/6rjSYr7NoSWKwzSZbuHogNXgF1O.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9DLdnwZVgfqZMpMhj63cNhdLwQB.jpg"
     },
     {
       "id": 656908,
       "title": "罗摩衍那：王子传奇",
       "type": "movie",
       "genreTitle": "奇幻•动作•冒险",
-      "rating": 7.7,
+      "rating": 7.5,
       "release_date": "2026-11-05",
       "overview": "改编自印度古代史诗《罗摩衍那》。魔王罗波那作恶多端，欲用武力一统三界。毗湿奴神化身罗摩降临凡尘，担起守护众生的重任。十四年流放间罗摩降妖除魔，一步步激怒了罗波那。当妻子悉多被掳走，彻底点燃了罗摩心中的战意。",
       "poster_url": "https://image.tmdb.org/t/p/original/2B67vLTkLIACYeq0xfrIOpCAum1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg"
     },
     {
-      "id": 279246,
-      "title": "再婚皇后",
+      "id": 1489,
+      "title": "吉米·坎摩尔直播秀",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 7.9,
-      "release_date": "2026-11-03",
-      "overview": "深受爱戴的皇后娜菲尔，与皇帝索本修一同治理着东大帝国。当索本修爱上逃亡奴隶菈丝塔，并要求与娜菲尔离婚时，娜菲尔答应了，但提出一个条件，她必须获得再婚许可，嫁给西王国王子海因里。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nWuOUzOHrn4VB7zRrrcZQHcB5Vx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jTdUTBjgq2aNOpUZnKPyV1Z1he1.jpg"
-    },
-    {
-      "id": 313738,
-      "title": "独一无二的浪漫",
-      "type": "tv",
-      "genreTitle": "喜剧•剧情",
-      "rating": 0.0,
-      "release_date": "2026-11-09",
-      "overview": "一位在便利店打工、梦想成为作家的平凡求职生，因缘际会下频繁遇见童星出身的顶级演员，却被对方误认为是「私生饭」。在误会解开后，两人阴错阳差展开了一段经纪人与明星的特别关系。与此同时，一名匿名者的持续跟踪浮出水面，让紧张感骤然升级。两人决定一同追查真相，然而接连爆发的意外事件，将他们推入更深的迷雾与危机之中……",
-      "poster_url": "https://image.tmdb.org/t/p/original/i4dsGTeyt0p6aEdxKEMslpMJrOE.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1bTb7wJHiJZ8B8X94IBpPzF38MI.jpg"
+      "genreTitle": "脱口秀•喜剧",
+      "rating": 5.3,
+      "release_date": "2003-01-26",
+      "overview": "《吉米·坎摩尔秀》是美国一档深夜脱口秀节目，由吉米·坎摩尔创作并主持，在ABC电视台播出。",
+      "poster_url": "https://image.tmdb.org/t/p/original/bGB6bEbG4qL22C1SFupkdAxYC9i.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/sv13a6ApgehTAL9lnueY9kK7VtU.jpg"
     },
     {
       "id": 213375,
@@ -389,15 +345,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
-      "id": 1567605,
-      "title": "寒夜怪谈",
+      "id": 1294189,
+      "title": "猫鼬",
       "type": "movie",
-      "genreTitle": "奇幻•喜剧",
-      "rating": 8.2,
-      "release_date": "2026-11-11",
-      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/soQM0M0P7OsHT7HmnlcDQ4rcDN0.jpg"
+      "genreTitle": "动作•惊悚",
+      "rating": 5.7,
+      "release_date": "2026-10-29",
+      "overview": "一位被冤枉的战争英雄，一无所有，在昔日特种部队成员的帮助下，与警方展开了一场史诗般的全国汽车追逐，全程电视直播。而着迷的公众则密切关注着他，希望他能安全逃脱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/m1vBxr5hLklqgMZQogEEsexzyEQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9f0SZYEElYbjj9syw5aZREnfeDt.jpg"
     },
     {
       "id": 247718,
@@ -411,15 +367,48 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     },
     {
-      "id": 891621,
-      "title": "野马九号",
+      "id": 225385,
+      "title": "黑鸽",
+      "type": "tv",
+      "genreTitle": "动作冒险•悬疑•犯罪",
+      "rating": 7.0,
+      "release_date": "2024-12-05",
+      "overview": "嫁给政客的卧底间谍依靠多年好友兼职业杀手的协助完成秘密行动，如履薄冰地维系自己的双重生活。",
+      "poster_url": "https://image.tmdb.org/t/p/original/g5gGRAxnBYMYaIqu2aBvIURoezg.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/7RqugWVFHI4JTRqWgpAjQ2ySMVp.jpg"
+    },
+    {
+      "id": 279246,
+      "title": "再婚皇后",
+      "type": "tv",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 7.9,
+      "release_date": "2026-11-03",
+      "overview": "深受爱戴的皇后娜菲尔，与皇帝索本修一同治理着东大帝国。当索本修爱上逃亡奴隶菈丝塔，并要求与娜菲尔离婚时，娜菲尔答应了，但提出一个条件，她必须获得再婚许可，嫁给西王国王子海因里。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nWuOUzOHrn4VB7zRrrcZQHcB5Vx.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/jTdUTBjgq2aNOpUZnKPyV1Z1he1.jpg"
+    },
+    {
+      "id": 1567605,
+      "title": "寒夜怪谈",
       "type": "movie",
-      "genreTitle": "喜剧•犯罪•惊悚",
-      "rating": 8.1,
-      "release_date": "2026-10-30",
-      "overview": "1973年智利，性格迥异的CIA特工克里斯和李被局长从圣地亚哥派往复活节岛，这对搭档将执行一项考验彼此信任和忠诚的任务。",
-      "poster_url": "https://image.tmdb.org/t/p/original/6ukRHPoxyQWhxmOwH0jXwCtqAay.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
+      "genreTitle": "奇幻•喜剧",
+      "rating": 8.6,
+      "release_date": "2026-11-11",
+      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/soQM0M0P7OsHT7HmnlcDQ4rcDN0.jpg"
+    },
+    {
+      "id": 1003596,
+      "title": "复仇者联盟5：毁灭之日",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1CXOvSlK8R0dqc4u1QqDDZkH3ql.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
     },
     {
       "id": 259909,
@@ -431,6 +420,17 @@
       "overview": "迈阿密血迹分析师德克斯特·摩根以连环杀手为目标，在隐藏真实身份的同时，继续遵循自己的杀戮准则，并面对儿子哈里森及过往带来的种种纠葛。",
       "poster_url": "https://image.tmdb.org/t/p/original/7VEnzLC07bIlOtSxnNKrXd5vMWO.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/9KIliGHB1FcIS39Ucmn1rLLID9C.jpg"
+    },
+    {
+      "id": 1300968,
+      "title": "饥饿游戏：收获日出",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-11-18",
+      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/jPPiwFKBzrsNtBQVymuwsyt9qBw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
     },
     {
       "id": 303044,
@@ -479,17 +479,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
-      "id": 1368337,
-      "title": "奥德赛",
-      "type": "movie",
-      "genreTitle": "冒险•动作•奇幻",
-      "rating": 8.0,
-      "release_date": "2026-08-01",
-      "overview": "特洛伊战争结束后，奥德修斯在返回伊萨卡的途中历经艰险，沿途遇到了独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神奇生物。",
-      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
-    },
-    {
       "id": 1263337,
       "title": "野兽之心",
       "type": "movie",
@@ -499,6 +488,17 @@
       "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
       "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
+    },
+    {
+      "id": 1368337,
+      "title": "奥德赛",
+      "type": "movie",
+      "genreTitle": "冒险•动作•奇幻",
+      "rating": 8.0,
+      "release_date": "2026-08-01",
+      "overview": "特洛伊战争结束后，奥德修斯在返回伊萨卡的途中历经艰险，沿途遇到了独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神奇生物。",
+      "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
       "id": 1507696,
@@ -538,22 +538,11 @@
       "title": "小丑回魂：德里故事",
       "type": "movie",
       "genreTitle": "剧情•恐怖•悬疑",
-      "rating": 6.9,
+      "rating": 6.8,
       "release_date": "2026-10-31",
       "overview": "《小丑回魂：欢迎来到德里镇》的衍生特别篇。数百年前，在潘尼怀斯出现之前，三个孩子深入西部森林，并在那里遭遇一个可怕的远古灵体。",
       "poster_url": "https://image.tmdb.org/t/p/original/exVACROjFHB9qoJc91VJySD6XwX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1Vj0C74zLfz0E98WtVpmRwlZsm3.jpg"
-    },
-    {
-      "id": 11308,
-      "title": "新汉普夏饭店",
-      "type": "movie",
-      "genreTitle": "喜剧•剧情",
-      "rating": 5.7,
-      "release_date": "1984-03-09",
-      "overview": "二次大战时，贝瑞夫妇在”New England“酒店的暑期打工中相遇了，一个带着小熊的住客撮合了他们。战后，夫妇带着他们的五个孩子决定在孩子的学校附近开办了一家 “New Hampshire”的酒店。一天他们接到一封信邀请他们拜访”New England“酒店……",
-      "poster_url": "https://image.tmdb.org/t/p/original/9XGGGniMtBqhox7JAV5JujlUqFz.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6s54pPffcJ1nBZH0kEtJBu7neQh.jpg"
     },
     {
       "id": 354912,
@@ -567,6 +556,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/cy09IbbXk1gcpD1PqYLQeRVIhE6.jpg"
     },
     {
+      "id": 11308,
+      "title": "新汉普夏饭店",
+      "type": "movie",
+      "genreTitle": "喜剧•剧情",
+      "rating": 5.7,
+      "release_date": "1984-03-09",
+      "overview": "二次大战时，贝瑞夫妇在”New England“酒店的暑期打工中相遇了，一个带着小熊的住客撮合了他们。战后，夫妇带着他们的五个孩子决定在孩子的学校附近开办了一家 “New Hampshire”的酒店。一天他们接到一封信邀请他们拜访”New England“酒店……",
+      "poster_url": "https://image.tmdb.org/t/p/original/9XGGGniMtBqhox7JAV5JujlUqFz.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6s54pPffcJ1nBZH0kEtJBu7neQh.jpg"
+    },
+    {
       "id": 1381071,
       "title": "哥斯拉-0.0",
       "type": "movie",
@@ -578,17 +578,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
     },
     {
-      "id": 1294189,
-      "title": "猫鼬",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 5.6,
-      "release_date": "2026-10-29",
-      "overview": "一位被冤枉的战争英雄，一无所有，在昔日特种部队成员的帮助下，与警方展开了一场史诗般的全国汽车追逐，全程电视直播。而着迷的公众则密切关注着他，希望他能安全逃脱。",
-      "poster_url": "https://image.tmdb.org/t/p/original/m1vBxr5hLklqgMZQogEEsexzyEQ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9f0SZYEElYbjj9syw5aZREnfeDt.jpg"
-    },
-    {
       "id": 1283515,
       "title": "不存在的罪人",
       "type": "movie",
@@ -598,6 +587,17 @@
       "overview": "改编自科琳·胡佛的同名小说。知名作家维莉蒂·克劳福德因意外受伤后，洛温·阿什利受聘代笔完成她的系列小说，并搬进克劳福德家中。洛温意外发现维莉蒂令人不安的自传手稿，逐渐陷入真假难辨的秘密、操纵与执念之中。",
       "poster_url": "https://image.tmdb.org/t/p/original/zzJaCowELQcslovzG4RF9QUplH6.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ar5lp1Ee5yFnOL5S2rTdDySZFPz.jpg"
+    },
+    {
+      "id": 1294189,
+      "title": "猫鼬",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 5.7,
+      "release_date": "2026-10-29",
+      "overview": "一位被冤枉的战争英雄，一无所有，在昔日特种部队成员的帮助下，与警方展开了一场史诗般的全国汽车追逐，全程电视直播。而着迷的公众则密切关注着他，希望他能安全逃脱。",
+      "poster_url": "https://image.tmdb.org/t/p/original/m1vBxr5hLklqgMZQogEEsexzyEQ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9f0SZYEElYbjj9syw5aZREnfeDt.jpg"
     },
     {
       "id": 1657630,
