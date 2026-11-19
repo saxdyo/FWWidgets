@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19 16:01:24",
+  "last_updated": "2026-11-20 01:44:59",
   "today_global": [
     {
       "id": 1368337,
@@ -13,41 +13,41 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
-      "id": 1131943,
-      "title": "马登",
-      "type": "movie",
-      "genreTitle": "剧情•历史•喜剧",
-      "rating": 7.7,
-      "release_date": "2026-11-18",
-      "overview": "基于真实故事，讲述脾气火爆的前NFL主教练约翰·马登在奥克兰突袭者队被迫退役后，与温文尔雅的哈佛程序员、艺电公司创始人特里普·霍金斯合作，通过打造世界上第一个橄榄球视频游戏来改写他日渐式微的资产。随后他步入体育解说界，为ABC、CBS、FOX、NBC等播出的橄榄球比赛担任解说员，延续传奇职业生涯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/5dxL9HPnaeqAmXXImfh7gDaa3Bp.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/qgK7ZFJqsMbiHXUHbEu3t41z7jO.jpg"
-    },
-    {
-      "id": 1551025,
-      "title": "守护星",
-      "type": "movie",
-      "genreTitle": "爱情•喜剧",
-      "rating": 7.2,
-      "release_date": "2026-11-18",
-      "overview": "一名不苟言笑的保镖奉命在假期保护一位魅力四射的动作明星，结果两人擦出火花，秘密接连曝光，圣诞节也变得异常复杂。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kyjjzPqMVlGo2BggtyetZgGBRkw.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/5c5qTq0mnTiMU3SVK8ve024kukB.jpg"
-    },
-    {
       "id": 1300968,
       "title": "饥饿游戏：收获日出",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
-      "rating": 7.6,
+      "rating": 7.5,
       "release_date": "2026-11-18",
       "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
       "poster_url": "https://image.tmdb.org/t/p/original/r47dh8cGfgJ7yCq07oBY7bS1sKs.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
     },
     {
+      "id": 1551025,
+      "title": "守护星",
+      "type": "movie",
+      "genreTitle": "爱情•喜剧",
+      "rating": 7.3,
+      "release_date": "2026-11-18",
+      "overview": "一名不苟言笑的保镖奉命在假期保护一位魅力四射的动作明星，结果两人擦出火花，秘密接连曝光，圣诞节也变得异常复杂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kyjjzPqMVlGo2BggtyetZgGBRkw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5c5qTq0mnTiMU3SVK8ve024kukB.jpg"
+    },
+    {
+      "id": 1131943,
+      "title": "马登",
+      "type": "movie",
+      "genreTitle": "剧情•历史•喜剧",
+      "rating": 8.1,
+      "release_date": "2026-11-18",
+      "overview": "基于真实故事，讲述脾气火爆的前NFL主教练约翰·马登在奥克兰突袭者队被迫退役后，与温文尔雅的哈佛程序员、艺电公司创始人特里普·霍金斯合作，通过打造世界上第一个橄榄球视频游戏来改写他日渐式微的资产。随后他步入体育解说界，为ABC、CBS、FOX、NBC等播出的橄榄球比赛担任解说员，延续传奇职业生涯。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5dxL9HPnaeqAmXXImfh7gDaa3Bp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qgK7ZFJqsMbiHXUHbEu3t41z7jO.jpg"
+    },
+    {
       "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
+      "title": "复仇者联盟5",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
       "rating": 0.0,
@@ -68,26 +68,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gQ8RTP2BZNJ8CyaMs4P52jsGqq6.jpg"
     },
     {
+      "id": 308007,
+      "title": "镶金理想",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.7,
+      "release_date": "2026-11-19",
+      "overview": "在这个取材于真实诈骗案的有毒爱情故事中，理想主义的年轻人突然间坐拥亿万身家，而本欲行善的他们却释放出彼此最丑恶的一面。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5onnCXwhOxQhoTLmuYHQjiE3u9L.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cFbLWpzrQigaMGZpmgYGFieLzFE.jpg"
+    },
+    {
+      "id": 1561834,
+      "title": "最后的晚餐",
+      "type": "movie",
+      "genreTitle": "爱情•剧情",
+      "rating": 9.0,
+      "release_date": "2026-11-18",
+      "overview": "一段延续 25 年的爱情。久别、失去与一场意味深长的重逢，都收束在这 \"最后一餐\" 里。两个人要在这顿饭的时间里，把错过的年月、未说出口的话，一次性吃完。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5VhfAWFs005xxN9akWJ2VIF5ozJ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/9A0d7K9T2ktH8GS21cLJLJa98tZ.jpg"
+    },
+    {
       "id": 332839,
       "title": "罪兽之法",
       "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.1,
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.0,
       "release_date": "2026-11-18",
       "overview": "一名被定罪的儿童谋杀犯即将被释放，恐慌再次席卷波兰，导致该案的主要调查员和精神科医生面对道德冲突。",
       "poster_url": "https://image.tmdb.org/t/p/original/KnhUSXgKqiG96mf4GofisAhhS2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg"
-    },
-    {
-      "id": 1185344,
-      "title": "野兽座驾",
-      "type": "movie",
-      "genreTitle": "动作•惊悚",
-      "rating": 5.2,
-      "release_date": "2026-10-08",
-      "overview": "当一支身份不明的敌军策划改变反对美国时，总统为了挽救自己的生命和美国的安危，揭露了“野兽”高度机密的进攻能力。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7OkvH3PsOpWJRWX5zJhlK2O9kra.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6c4nZITYSxsBIZDezyI3djU60x9.jpg"
     },
     {
       "id": 969681,
@@ -99,6 +110,28 @@
       "overview": "《蜘蛛侠：英雄无归》事件四年后，世界已经忘记了彼得·帕克的存在。他独自生活在纽约，将全部精力投入打击犯罪，成为一名全职蜘蛛侠。然而，看着昔日好友各自开启新的生活，长期的孤独与日益沉重的责任让彼得承受着巨大的压力，他的身体也开始发生难以控制的异常变化。与此同时，一名行踪难以察觉的强大敌人正悄然威胁着纽约及他所珍视的人。面对身体的异变与不断逼近的危机，彼得不得不独自迎接新的挑战……",
       "poster_url": "https://image.tmdb.org/t/p/original/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
+    },
+    {
+      "id": 1185344,
+      "title": "野兽座驾",
+      "type": "movie",
+      "genreTitle": "动作•惊悚",
+      "rating": 5.3,
+      "release_date": "2026-10-08",
+      "overview": "当一支身份不明的敌军策划改变反对美国时，总统为了挽救自己的生命和美国的安危，揭露了“野兽”高度机密的进攻能力。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7OkvH3PsOpWJRWX5zJhlK2O9kra.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6c4nZITYSxsBIZDezyI3djU60x9.jpg"
+    },
+    {
+      "id": 340280,
+      "title": "戈登档案",
+      "type": "tv",
+      "genreTitle": "剧情•犯罪",
+      "rating": 7.3,
+      "release_date": "2026-11-18",
+      "overview": "在这部改编自马塞洛·拉腊夸伊著作的剧集中，阿尼巴尔·戈登在 70 年代的阿根廷从小毛贼变成被定罪的杀人犯。",
+      "poster_url": "https://image.tmdb.org/t/p/original/wzY5EjF8X1plKUWHwIRW6eNCqFU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/o8wVY0c4v54KsFQ5IdU2uvOves1.jpg"
     },
     {
       "id": 291507,
@@ -116,22 +149,11 @@
       "title": "维也纳风云",
       "type": "tv",
       "genreTitle": "喜剧",
-      "rating": 8.5,
+      "rating": 9.0,
       "release_date": "2026-11-18",
       "overview": "1814年，拿破仑被囚禁在厄尔巴岛上日渐憔悴，欧洲各国君主则涌入维也纳，争相主导饱受战火蹂躏的大陆的未来。在香槟、情爱与权力斗争间，大谋略家、保皇派兼梅特涅亲王情妇薇赫米娜萨冈，在命运安排下邂逅了爱默拉斯基男爵，一名拥戴波拿巴主义的花花公子。法国外交大臣塔列朗游说并挑拨战胜国奥地利、普鲁士、俄国与英国，同时，沙皇与妹妹则与普鲁士国王密谋。当小公务员塞德伪造书信，意图抹黑对手时，却在无意间推动了命运的齿轮，迫使所有人做出冒险的决定。在这场运气、情爱与权力交织的赛局中，谁会胜出？",
       "poster_url": "https://image.tmdb.org/t/p/original/eX6E7u6AicwNsMAZ2lm8zFM8lz2.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/hQ7pzPFt7HiwAnsTwTsUadwHu6A.jpg"
-    },
-    {
-      "id": 1084409,
-      "title": "天才谋杀法",
-      "type": "movie",
-      "genreTitle": "惊悚•剧情•犯罪",
-      "rating": 7.2,
-      "release_date": "2026-10-23",
-      "overview": "爱德华打断了海史密斯在瑞士阿尔卑斯山孤独的晚年生活。爱德华是一位年轻的文学经纪人，受出版公司的委托，说服她为人气很高的雷普利系列写最后一部小说。海史密斯用她出名的恐怖想象力把爱德华吓跑了，不过在他们意识到之前，一场合作已经开始了，这让两人难以区分他们构建的世界和他们生活的世界。",
-      "poster_url": "https://image.tmdb.org/t/p/original/kEsEHjgptWKMkzANZIQhwpJCCB8.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/NgMkNyeJGNG7rLKzLpOcf0waaF.jpg"
     },
     {
       "id": 279246,
@@ -145,37 +167,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/jTdUTBjgq2aNOpUZnKPyV1Z1he1.jpg"
     },
     {
-      "id": 340280,
-      "title": "戈登档案",
-      "type": "tv",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.3,
-      "release_date": "2026-11-18",
-      "overview": "在这部改编自马塞洛·拉腊夸伊著作的剧集中，阿尼巴尔·戈登在 70 年代的阿根廷从小毛贼变成被定罪的杀人犯。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yLgl70D5Up0MlvBWP2MJTLAbFAF.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/o8wVY0c4v54KsFQ5IdU2uvOves1.jpg"
-    },
-    {
-      "id": 318420,
-      "title": "12 星座恋爱实验",
-      "type": "tv",
-      "genreTitle": "剧情•喜剧",
-      "rating": 5.5,
-      "release_date": "2026-11-18",
-      "overview": "女主角 Valentina 在一段恋情中遭到男友背叛。分手之后，她试图为这段失败的关系寻找解释，并把问题归结为两人的星座不合。  与其只是伤心地结束恋情，她决定把星座理论变成一场恋爱实验：与十二个不同星座的男生分别约会，并把每次约会的体验发布到视频播客（videocast）上。  她希望借此验证星座配对是否真的能够决定爱情，也想通过这场公开实验重新掌握自己的感情生活。  然而，事情并没有按照她的计划发展。在不断认识新对象、公开分享约会经历的过程中，Valentina 遇到了一个连星座都说不清楚的男生。随着两人逐渐产生感情，她开始面对一个无法用星盘轻易解释的问题：如果爱情真的发生了，星座还重要吗？  这场原本带着报复意味的恋爱实验，最终演变成关于自我认知、亲密关系与意外爱情的成长故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/ihjonCRR5gEUEH8RG2Qbk4Fy3HB.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/wf8UcYFLgo6QYi49O13lMMaZrod.jpg"
-    },
-    {
-      "id": 1170608,
-      "title": "沙丘3",
+      "id": 1473148,
+      "title": "温柔的怪物",
       "type": "movie",
-      "genreTitle": "科幻•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-15",
-      "overview": "改编自弗兰克·赫伯特的科幻小说《沙丘2：沙丘救世主》。保罗·厄崔迪夺取帝国统治权近二十年后，成为冷酷的皇帝。面对旧盟友回归、新威胁浮现与暗中背叛，保罗深陷一场阴谋，并必须直面权力的代价与所爱之人的命运。",
-      "poster_url": "https://image.tmdb.org/t/p/original/KDlLzHTTE7vjplaXT5SfRZahwZ.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
+      "genreTitle": "剧情",
+      "rating": 6.5,
+      "release_date": "2026-09-17",
+      "overview": "露西随家人迁居乡间，期盼迎来崭新人生。然而警察的到访，以及丈夫不为人知的黑暗秘密，将她的世界彻底摧毁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/uTSA6jOSa6yNwpG1sMpHk8EmBTV.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ikaPSJGyQTbMKqE1xotnIyG3ULi.jpg"
     },
     {
       "id": 1381071,
@@ -189,37 +189,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
     },
     {
-      "id": 318349,
-      "title": "宝珠",
+      "id": 247718,
+      "title": "MobLand",
       "type": "tv",
-      "genreTitle": "剧情",
-      "rating": 8.0,
+      "genreTitle": "犯罪•剧情",
+      "rating": 8.7,
+      "release_date": "2025-03-30",
+      "overview": "两大黑帮家族的权力争斗将伦敦地下世界卷入战争。作为哈里根家族的“解决者”，哈里·达·索萨周旋于家族、敌人和日益失控的内部矛盾之间。",
+      "poster_url": "https://image.tmdb.org/t/p/original/33Lga6r9lYdjDX1Bty6zV28TlFu.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
+    },
+    {
+      "id": 318420,
+      "title": "十二星座恋爱实验",
+      "type": "tv",
+      "genreTitle": "剧情•喜剧",
+      "rating": 5.5,
       "release_date": "2026-11-18",
-      "overview": "漕运朝堂风云迭起，屠户女金宝珠嫁蒙冤致残的漕运嫡子谢砚。二人先对立后携手，历经风波彼此救赎，揭开党争阴谋，终相守圆满。",
-      "poster_url": "https://image.tmdb.org/t/p/original/p1MA5VQyjZhWmelyRC75RuRu1CG.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/9h4Ytwz3BsnHBgbHERjhtUoyP9K.jpg"
+      "overview": "经历了令人心碎的分手后，瓦伦蒂娜决定与十二星座的男人各约会一次。然而，命运另有安排。",
+      "poster_url": "https://image.tmdb.org/t/p/original/ihjonCRR5gEUEH8RG2Qbk4Fy3HB.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/wf8UcYFLgo6QYi49O13lMMaZrod.jpg"
     },
     {
-      "id": 1473148,
-      "title": "温柔的怪物",
-      "type": "movie",
-      "genreTitle": "剧情",
-      "rating": 6.5,
-      "release_date": "2026-09-17",
-      "overview": "《Gentle Monster》由导演兼编剧玛丽·克鲁泽（作品《束胸》曾代表奥地利入围第 95 届奥斯卡金像奖）打造，讲述了音乐会钢琴家露西（蕾雅·瑟杜饰）的故事。她刚刚带着家人搬到乡间别墅，希望能缓解丈夫菲利普（劳伦斯·鲁波饰）严重的职业倦怠。他们还没来得及安顿好新家，清晨的一次警方突访就彻底打乱了一家人的生活。深爱丈夫的露西对他可能的所作所为感到恐惧，只能独自面对崩塌的现实。影片汇集了杰拉·哈斯以及曾获奥斯卡奖提名的传奇女星凯瑟琳·德纳芙等实力派演员，探讨了这样一个问题：如果深爱之人其实是我们从未真正了解过的人，我们该如何面对？",
-      "poster_url": "https://image.tmdb.org/t/p/original/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ikaPSJGyQTbMKqE1xotnIyG3ULi.jpg"
-    },
-    {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•冒险",
-      "rating": 7.5,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？.",
-      "poster_url": "https://image.tmdb.org/t/p/original/oLLEEUq7In4Ob731KpjrValqM4A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
+      "id": 213375,
+      "title": "幻视任务",
+      "type": "tv",
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2026-10-13",
+      "overview": "重启后的幻视隐居避世，试图摆脱将他武器化的人，并通过与体内的AI人格交流寻找存在意义，其中包括恶名昭彰的奥创。然而高额悬赏打破了平静，他被迫与神秘少年托马斯·谢泼德一同逃亡，后者或许是他重生后的儿子。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     }
   ],
   "week_global_all": [
@@ -235,8 +235,19 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
     },
     {
+      "id": 1300968,
+      "title": "饥饿游戏：收获日出",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.5,
+      "release_date": "2026-11-18",
+      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r47dh8cGfgJ7yCq07oBY7bS1sKs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
+    },
+    {
       "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
+      "title": "复仇者联盟5",
       "type": "movie",
       "genreTitle": "科幻•动作•冒险",
       "rating": 0.0,
@@ -257,114 +268,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/gQ8RTP2BZNJ8CyaMs4P52jsGqq6.jpg"
     },
     {
-      "id": 1300968,
-      "title": "饥饿游戏：收获日出",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 7.5,
-      "release_date": "2026-11-18",
-      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
-      "poster_url": "https://image.tmdb.org/t/p/original/r47dh8cGfgJ7yCq07oBY7bS1sKs.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
-    },
-    {
-      "id": 213375,
-      "title": "幻视任务",
+      "id": 308007,
+      "title": "镶金理想",
       "type": "tv",
-      "genreTitle": "Sci-Fi & Fantasy•剧情",
-      "rating": 8.3,
-      "release_date": "2026-10-13",
-      "overview": "重启后的幻视隐居避世，试图摆脱将他武器化的人，并通过与体内的AI人格交流寻找存在意义，其中包括恶名昭彰的奥创。然而高额悬赏打破了平静，他被迫与神秘少年托马斯·谢泼德一同逃亡，后者或许是他重生后的儿子。",
-      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
-    },
-    {
-      "id": 254630,
-      "title": "12 12 12",
-      "type": "tv",
-      "genreTitle": "动作冒险•犯罪•剧情",
-      "rating": 6.4,
-      "release_date": "2026-11-12",
-      "overview": "一宗劫案，经历12个月密谋、12小时行动。盗贼若在12天内逃过法网，就会从此逍遥法外。故事横跨三条惊心动魄的时间线，一名联邦探员与一名职业罪犯在欧洲展开生死追逐。",
-      "poster_url": "https://image.tmdb.org/t/p/original/8q6BvFQuKM1Rud4E9NQDaMGy9EL.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6whFyOhqKUsjyJYQvXXadEMkse0.jpg"
-    },
-    {
-      "id": 291507,
-      "title": "青春共体",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情",
-      "rating": 7.9,
-      "release_date": "2026-11-11",
-      "overview": "万圣夜当晚，一场入队仪式沦为人间炼狱，天主教女子舞团因而陷入叛教的罪咎、不洁的欲望与鬼魅的幻影之中。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nJ88PfR5ah5PAbybxMfeCvxJ5Yy.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nlmZnWtJwn5FnedWF52nHmdkNy.jpg"
-    },
-    {
-      "id": 1567605,
-      "title": "寒夜怪谈",
-      "type": "movie",
-      "genreTitle": "奇幻•喜剧",
-      "rating": 7.5,
-      "release_date": "2026-11-11",
-      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1xlpGn67p0rYP9tJq5W0H8NGXsL.jpg"
-    },
-    {
-      "id": 1400837,
-      "title": "另一个妈妈",
-      "type": "movie",
-      "genreTitle": "恐怖",
-      "rating": 6.4,
-      "release_date": "2026-10-07",
-      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7a7gsU774b0zsupvpt8qRPdhif3.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/bEPi5PkR8cS6nYJgWcNgsnDFf0W.jpg"
+      "genreTitle": "剧情•犯罪",
+      "rating": 6.0,
+      "release_date": "2026-11-19",
+      "overview": "在这个取材于真实诈骗案的有毒爱情故事中，理想主义的年轻人突然间坐拥亿万身家，而本欲行善的他们却释放出彼此最丑恶的一面。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5onnCXwhOxQhoTLmuYHQjiE3u9L.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/cFbLWpzrQigaMGZpmgYGFieLzFE.jpg"
     },
     {
       "id": 1185344,
       "title": "野兽座驾",
       "type": "movie",
       "genreTitle": "动作•惊悚",
-      "rating": 5.2,
+      "rating": 5.3,
       "release_date": "2026-10-08",
       "overview": "当一支身份不明的敌军策划改变反对美国时，总统为了挽救自己的生命和美国的安危，揭露了“野兽”高度机密的进攻能力。",
       "poster_url": "https://image.tmdb.org/t/p/original/7OkvH3PsOpWJRWX5zJhlK2O9kra.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/6c4nZITYSxsBIZDezyI3djU60x9.jpg"
     },
     {
-      "id": 1423191,
-      "title": "生化危机：爆发夜",
-      "type": "movie",
-      "genreTitle": "恐怖•科幻•冒险",
-      "rating": 7.5,
-      "release_date": "2026-09-16",
-      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？.",
-      "poster_url": "https://image.tmdb.org/t/p/original/oLLEEUq7In4Ob731KpjrValqM4A.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
-    },
-    {
-      "id": 279246,
-      "title": "再婚皇后",
+      "id": 213375,
+      "title": "幻视任务",
       "type": "tv",
-      "genreTitle": "剧情•Sci-Fi & Fantasy",
-      "rating": 8.8,
-      "release_date": "2026-11-03",
-      "overview": "深受爱戴的皇后娜菲尔，与皇帝索本修一同治理着东大帝国。当索本修爱上逃亡奴隶菈丝塔，并要求与娜菲尔离婚时，娜菲尔答应了，但提出一个条件，她必须获得再婚许可，嫁给西王国王子海因里。",
-      "poster_url": "https://image.tmdb.org/t/p/original/nWuOUzOHrn4VB7zRrrcZQHcB5Vx.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/jTdUTBjgq2aNOpUZnKPyV1Z1he1.jpg"
-    },
-    {
-      "id": 1381071,
-      "title": "哥斯拉-0.0",
-      "type": "movie",
-      "genreTitle": "科幻•恐怖•动作",
-      "rating": 7.7,
-      "release_date": "2026-11-03",
-      "overview": "人类的罪与罚。已经，没法归零。战争将日本粉碎至“零”，哥斯拉的袭击更将它推至“负”的绝境。时间来到两年后，人民历尽痛苦磨难仍坚持复苏的步伐，看似终于可以回归正常生活……然而此时，巨兽再次袭来。它彻底摧毁这份希望，将人类推向新的绝望深渊！",
-      "poster_url": "https://image.tmdb.org/t/p/original/51RBWzkFd4zEsOGg4ZIqYlNszHc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
+      "genreTitle": "Sci-Fi & Fantasy•剧情",
+      "rating": 8.2,
+      "release_date": "2026-10-13",
+      "overview": "重启后的幻视隐居避世，试图摆脱将他武器化的人，并通过与体内的AI人格交流寻找存在意义，其中包括恶名昭彰的奥创。然而高额悬赏打破了平静，他被迫与神秘少年托马斯·谢泼德一同逃亡，后者或许是他重生后的儿子。",
+      "poster_url": "https://image.tmdb.org/t/p/original/9rWX1tRNd1wIf0XnTjd8GOUoTlH.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/eCIJIJ4ccHGYEQ3NqkwjWDOHZ9p.jpg"
     },
     {
       "id": 969681,
@@ -378,26 +312,37 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
-      "id": 1263337,
-      "title": "野兽之心",
-      "type": "movie",
-      "genreTitle": "冒险•惊悚",
-      "rating": 7.7,
-      "release_date": "2026-09-19",
-      "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
-      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
+      "id": 291507,
+      "title": "青春共体",
+      "type": "tv",
+      "genreTitle": "悬疑•剧情",
+      "rating": 7.9,
+      "release_date": "2026-11-11",
+      "overview": "万圣夜当晚，一场入队仪式沦为人间炼狱，天主教女子舞团因而陷入叛教的罪咎、不洁的欲望与鬼魅的幻影之中。",
+      "poster_url": "https://image.tmdb.org/t/p/original/nJ88PfR5ah5PAbybxMfeCvxJ5Yy.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/nlmZnWtJwn5FnedWF52nHmdkNy.jpg"
     },
     {
-      "id": 1616687,
-      "title": "绝境反击",
+      "id": 1551025,
+      "title": "守护星",
       "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.1,
-      "release_date": "2026-11-11",
-      "overview": "一位退伍军人住在偏远处，家中却遭一帮亡命之徒闯入。饱受愧疚折磨的他必须与几乎陌生的孙子孙女联手，才能活下来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rYJ0J1m12qu0bUNoqwYsdzm3mR3.jpg"
+      "genreTitle": "爱情•喜剧",
+      "rating": 7.4,
+      "release_date": "2026-11-18",
+      "overview": "一名不苟言笑的保镖奉命在假期保护一位魅力四射的动作明星，结果两人擦出火花，秘密接连曝光，圣诞节也变得异常复杂。",
+      "poster_url": "https://image.tmdb.org/t/p/original/kyjjzPqMVlGo2BggtyetZgGBRkw.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/5c5qTq0mnTiMU3SVK8ve024kukB.jpg"
+    },
+    {
+      "id": 1131943,
+      "title": "马登",
+      "type": "movie",
+      "genreTitle": "剧情•历史•喜剧",
+      "rating": 8.1,
+      "release_date": "2026-11-18",
+      "overview": "基于真实故事，讲述脾气火爆的前NFL主教练约翰·马登在奥克兰突袭者队被迫退役后，与温文尔雅的哈佛程序员、艺电公司创始人特里普·霍金斯合作，通过打造世界上第一个橄榄球视频游戏来改写他日渐式微的资产。随后他步入体育解说界，为ABC、CBS、FOX、NBC等播出的橄榄球比赛担任解说员，延续传奇职业生涯。",
+      "poster_url": "https://image.tmdb.org/t/p/original/5dxL9HPnaeqAmXXImfh7gDaa3Bp.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/qgK7ZFJqsMbiHXUHbEu3t41z7jO.jpg"
     },
     {
       "id": 247718,
@@ -411,51 +356,95 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/rR5GRDRAwwA4O9YuagQmxxciTKw.jpg"
     },
     {
-      "id": 293610,
-      "title": "Doctor X：白色黑手党时代",
-      "type": "tv",
-      "genreTitle": "悬疑•剧情•犯罪",
-      "rating": 8.7,
-      "release_date": "2026-10-09",
-      "overview": "一名神秘且出色的外科医生来到一家人人自大、腐败横行的医院，面对强烈的反对，接手看似无法医治的病例。",
-      "poster_url": "https://image.tmdb.org/t/p/original/3vdziRiueKXLnyxFjKCQH5mEQ6B.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/6Jjr2hxM66VpPd06e8zQkX5f5ZE.jpg"
+      "id": 1400837,
+      "title": "另一个妈妈",
+      "type": "movie",
+      "genreTitle": "恐怖",
+      "rating": 6.4,
+      "release_date": "2026-10-07",
+      "overview": "改编自乔什·马勒曼的小说《屋中异闻》。贝拉与父母生活在关系日渐紧张的家庭中。一天，一个与母亲长相相同的邪恶实体出现，并逐渐威胁到贝拉及其家人的安全。",
+      "poster_url": "https://image.tmdb.org/t/p/original/7a7gsU774b0zsupvpt8qRPdhif3.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/bEPi5PkR8cS6nYJgWcNgsnDFf0W.jpg"
     },
     {
-      "id": 656908,
-      "title": "罗摩衍那：王子传奇",
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
       "type": "movie",
-      "genreTitle": "奇幻•动作•冒险",
+      "genreTitle": "恐怖•科幻•冒险",
       "rating": 7.5,
-      "release_date": "2026-11-05",
-      "overview": "改编自印度古代史诗《罗摩衍那》。魔王罗波那作恶多端，欲用武力一统三界。毗湿奴神化身罗摩降临凡尘，担起守护众生的重任。十四年流放间罗摩降妖除魔，一步步激怒了罗波那。当妻子悉多被掳走，彻底点燃了罗摩心中的战意。",
-      "poster_url": "https://image.tmdb.org/t/p/original/2B67vLTkLIACYeq0xfrIOpCAum1.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/3Shd9zN272r1TJM7g9ZbzFNFpXE.jpg"
+      "release_date": "2026-09-16",
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？.",
+      "poster_url": "https://image.tmdb.org/t/p/original/oLLEEUq7In4Ob731KpjrValqM4A.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/36MJIyaF6uCZESoR2IeV4Oix7wl.jpg"
     },
     {
-      "id": 1518204,
-      "title": "艾伦",
+      "id": 1381071,
+      "title": "哥斯拉-0.0",
       "type": "movie",
-      "genreTitle": "科幻•冒险•喜剧",
-      "rating": 6.6,
-      "release_date": "2026-11-12",
-      "overview": "与外星人相遇20年后，皮特始终无法释怀。如今，他的老朋友回来了，而原因却错综复杂，出乎意料。",
-      "poster_url": "https://image.tmdb.org/t/p/original/7iMuYJgP2xwaqDxCUKcScaohrft.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/nIK9USANu00j4suQBhwwtjTVJdw.jpg"
-    }
-  ],
-  "popular_movies": [
+      "genreTitle": "科幻•恐怖•动作",
+      "rating": 7.7,
+      "release_date": "2026-11-03",
+      "overview": "人类的罪与罚。已经，没法归零。战争将日本粉碎至“零”，哥斯拉的袭击更将它推至“负”的绝境。时间来到两年后，人民历尽痛苦磨难仍坚持复苏的步伐，看似终于可以回归正常生活……然而此时，巨兽再次袭来。它彻底摧毁这份希望，将人类推向新的绝望深渊！",
+      "poster_url": "https://image.tmdb.org/t/p/original/51RBWzkFd4zEsOGg4ZIqYlNszHc.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
+    },
     {
       "id": 1263337,
       "title": "野兽之心",
       "type": "movie",
       "genreTitle": "冒险•惊悚",
       "rating": 7.7,
-      "release_date": "2026-09-30",
+      "release_date": "2026-09-19",
       "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
       "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
     },
+    {
+      "id": 254630,
+      "title": "12 12 12",
+      "type": "tv",
+      "genreTitle": "动作冒险•犯罪•剧情",
+      "rating": 6.4,
+      "release_date": "2026-11-12",
+      "overview": "一宗劫案，经历12个月密谋、12小时行动。盗贼若在12天内逃过法网，就会从此逍遥法外。故事横跨三条惊心动魄的时间线，一名联邦探员与一名职业罪犯在欧洲展开生死追逐。",
+      "poster_url": "https://image.tmdb.org/t/p/original/8q6BvFQuKM1Rud4E9NQDaMGy9EL.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/6whFyOhqKUsjyJYQvXXadEMkse0.jpg"
+    },
+    {
+      "id": 1567605,
+      "title": "寒夜怪谈",
+      "type": "movie",
+      "genreTitle": "奇幻•喜剧",
+      "rating": 7.6,
+      "release_date": "2026-11-11",
+      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
+      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/1xlpGn67p0rYP9tJq5W0H8NGXsL.jpg"
+    },
+    {
+      "id": 1616687,
+      "title": "绝境反击",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-11-11",
+      "overview": "一位退伍军人住在偏远处，家中却遭一帮亡命之徒闯入。饱受愧疚折磨的他必须与几乎陌生的孙子孙女联手，才能活下来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rYJ0J1m12qu0bUNoqwYsdzm3mR3.jpg"
+    },
+    {
+      "id": 1170608,
+      "title": "沙丘3",
+      "type": "movie",
+      "genreTitle": "科幻•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-15",
+      "overview": "改编自弗兰克·赫伯特的科幻小说《沙丘2：沙丘救世主》。保罗·厄崔迪夺取帝国统治权近二十年后，成为冷酷的皇帝。面对旧盟友回归、新威胁浮现与暗中背叛，保罗深陷一场阴谋，并必须直面权力的代价与所爱之人的命运。",
+      "poster_url": "https://image.tmdb.org/t/p/original/KDlLzHTTE7vjplaXT5SfRZahwZ.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/dXOqWj2kjJQkHNbfoS8iYzbuwO3.jpg"
+    }
+  ],
+  "popular_movies": [
     {
       "id": 1368337,
       "title": "奥德赛",
@@ -466,6 +455,17 @@
       "overview": "克里斯托弗·诺兰将荷马笔下的怪物搬上银幕，打造了一部在全球多地取景拍摄的神话动作史诗。这是一场无与伦比的电影盛事。[环球影业]",
       "poster_url": "https://image.tmdb.org/t/p/original/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/aoQKU6jioGgUr81R8GqWXA7BDt3.jpg"
+    },
+    {
+      "id": 1263337,
+      "title": "野兽之心",
+      "type": "movie",
+      "genreTitle": "冒险•惊悚",
+      "rating": 7.7,
+      "release_date": "2026-09-30",
+      "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
+      "poster_url": "https://image.tmdb.org/t/p/original/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/ih9Te9HnC6gTLpMItg3ZV5iPQK.jpg"
     },
     {
       "id": 1400837,
@@ -501,6 +501,17 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/j7Dm9UGXVIg4IAcWt94M3t1pa1R.jpg"
     },
     {
+      "id": 1616687,
+      "title": "绝境反击",
+      "type": "movie",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.0,
+      "release_date": "2026-11-12",
+      "overview": "一位退伍军人住在偏远处，家中却遭一帮亡命之徒闯入。饱受愧疚折磨的他必须与几乎陌生的孙子孙女联手，才能活下来。",
+      "poster_url": "https://image.tmdb.org/t/p/original/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/rYJ0J1m12qu0bUNoqwYsdzm3mR3.jpg"
+    },
+    {
       "id": 1058424,
       "title": "希望",
       "type": "movie",
@@ -523,17 +534,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/afHAM9qOTmrVDeaLIU7zfssotUY.jpg"
     },
     {
-      "id": 1616687,
-      "title": "绝境反击",
-      "type": "movie",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.1,
-      "release_date": "2026-11-12",
-      "overview": "一位退伍军人住在偏远处，家中却遭一帮亡命之徒闯入。饱受愧疚折磨的他必须与几乎陌生的孙子孙女联手，才能活下来。",
-      "poster_url": "https://image.tmdb.org/t/p/original/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/rYJ0J1m12qu0bUNoqwYsdzm3mR3.jpg"
-    },
-    {
       "id": 1813355,
       "title": "小丑回魂：德里故事",
       "type": "movie",
@@ -543,6 +543,28 @@
       "overview": "《小丑回魂：欢迎来到德里镇》的衍生特别篇。数百年前，在潘尼怀斯出现之前，三个孩子深入西部森林，并在那里遭遇一个可怕的远古灵体。",
       "poster_url": "https://image.tmdb.org/t/p/original/exVACROjFHB9qoJc91VJySD6XwX.jpg",
       "title_backdrop": "https://image.tmdb.org/t/p/original/1Vj0C74zLfz0E98WtVpmRwlZsm3.jpg"
+    },
+    {
+      "id": 1003596,
+      "title": "复仇者联盟5",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 0.0,
+      "release_date": "2026-12-16",
+      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
+      "poster_url": "https://image.tmdb.org/t/p/original/1CXOvSlK8R0dqc4u1QqDDZkH3ql.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
+    },
+    {
+      "id": 1300968,
+      "title": "饥饿游戏：收获日出",
+      "type": "movie",
+      "genreTitle": "科幻•动作•冒险",
+      "rating": 7.6,
+      "release_date": "2026-11-20",
+      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
+      "poster_url": "https://image.tmdb.org/t/p/original/r47dh8cGfgJ7yCq07oBY7bS1sKs.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/11Xur5nj09Lsz5sVCGThbPAUTac.jpg"
     },
     {
       "id": 1507696,
@@ -567,17 +589,6 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/3KEbqaL5KhWKgTGxvF87AT5u8L.jpg"
     },
     {
-      "id": 1003596,
-      "title": "复仇者联盟5：毁灭之日",
-      "type": "movie",
-      "genreTitle": "科幻•动作•冒险",
-      "rating": 0.0,
-      "release_date": "2026-12-16",
-      "overview": "来自三个截然不同宇宙的传奇英雄们，将被推向一场生死对决，并最终直面一股前所未见、足以撼动万物存亡的终极威胁。",
-      "poster_url": "https://image.tmdb.org/t/p/original/1CXOvSlK8R0dqc4u1QqDDZkH3ql.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/m2tRchG8dof0MFOnFgJ8MAi38wK.jpg"
-    },
-    {
       "id": 1294189,
       "title": "猫鼬",
       "type": "movie",
@@ -589,26 +600,15 @@
       "title_backdrop": "https://image.tmdb.org/t/p/original/9f0SZYEElYbjj9syw5aZREnfeDt.jpg"
     },
     {
-      "id": 1381071,
-      "title": "哥斯拉-0.0",
+      "id": 656908,
+      "title": "罗摩衍那：王子传奇",
       "type": "movie",
-      "genreTitle": "科幻•恐怖•动作",
-      "rating": 7.7,
-      "release_date": "2026-11-03",
-      "overview": "人类的罪与罚。已经，没法归零。战争将日本粉碎至“零”，哥斯拉的袭击更将它推至“负”的绝境。时间来到两年后，人民历尽痛苦磨难仍坚持复苏的步伐，看似终于可以回归正常生活……然而此时，巨兽再次袭来。它彻底摧毁这份希望，将人类推向新的绝望深渊！",
-      "poster_url": "https://image.tmdb.org/t/p/original/51RBWzkFd4zEsOGg4ZIqYlNszHc.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/hVk72ErTGnzIWaPjv55hFloNBlJ.jpg"
-    },
-    {
-      "id": 1567605,
-      "title": "寒夜怪谈",
-      "type": "movie",
-      "genreTitle": "奇幻•喜剧",
+      "genreTitle": "奇幻•动作•冒险",
       "rating": 7.5,
-      "release_date": "2026-11-11",
-      "overview": "改编自查尔斯·狄更斯小说《圣诞颂歌》。一位年迈的吝啬商人遭遇故友亡灵及圣诞过去、现在与未来的幽灵造访，被迫直面自己的过往，并踏上一段寻求幸福与救赎的超自然旅程。",
-      "poster_url": "https://image.tmdb.org/t/p/original/gphvlHoe0lAmVVK0lpyhlnFTZl4.jpg",
-      "title_backdrop": "https://image.tmdb.org/t/p/original/1xlpGn67p0rYP9tJq5W0H8NGXsL.jpg"
+      "release_date": "2026-11-05",
+      "overview": "改编自印度古代史诗《罗摩衍那》。魔王罗波那作恶多端，欲用武力一统三界。毗湿奴神化身罗摩降临凡尘，担起守护众生的重任。十四年流放间罗摩降妖除魔，一步步激怒了罗波那。当妻子悉多被掳走，彻底点燃了罗摩心中的战意。",
+      "poster_url": "https://image.tmdb.org/t/p/original/2B67vLTkLIACYeq0xfrIOpCAum1.jpg",
+      "title_backdrop": "https://image.tmdb.org/t/p/original/3Shd9zN272r1TJM7g9ZbzFNFpXE.jpg"
     }
   ]
 }
